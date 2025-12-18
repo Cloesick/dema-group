@@ -57,9 +57,35 @@ A unified B2B wholesale platform that enables DEMA Group to serve dealers with a
 │  │                      admin.demagroup.be                              │   │
 │  │  • Product mgmt  • Orders  • Customers  • Inventory  • Reports      │   │
 │  └─────────────────────────────────────────────────────────────────────┘   │
+│                                    │                                        │
+│                                    │ Group Admin                            │
+│                                    ▼                                        │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │                 SHARED SERVICE CENTER (SSC)                          │   │
+│  │                      ssc.demagroup.be                                │   │
+│  │  • Finance & Accounting  • HR & Payroll  • Procurement  • IT        │   │
+│  │  • Legal & Compliance  • Consolidated Reporting  • Intercompany     │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
 │                                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+
+### Shared Service Center (SSC)
+
+The SSC provides centralized administrative services for all DEMA Group companies:
+
+| Service Area | Functions |
+|--------------|-----------|
+| **Finance & Accounting** | AP/AR, General Ledger, Consolidation, Tax, Treasury |
+| **HR & Personnel** | Payroll, Benefits, Recruitment, Training, Compliance |
+| **Procurement** | Vendor management, Purchase orders, Contracts |
+| **IT Services** | Infrastructure, Applications, Support, Security |
+| **Legal & Compliance** | Contracts, GDPR, Insurance, Risk management |
+| **Customer Service** | Centralized dealer support, Complaints, Returns |
+
+**Companies Served:** DEMA, Fluxer, Beltz247, [Company 4], [Company 5]
+
+See `platform-shared-service-center.md` for detailed SSC specifications.
 
 ---
 

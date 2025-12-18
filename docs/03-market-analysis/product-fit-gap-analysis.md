@@ -660,7 +660,317 @@ INDUSTRIAL MRO & SAFETY
 
 ---
 
+---
+
+## 13. Benelux Local Supplier Directory
+
+### Overview
+
+Local suppliers offer advantages: shorter lead times, easier communication, lower shipping costs, and established relationships. This section maps Benelux-based suppliers by category.
+
+---
+
+### Pumps - Benelux Suppliers
+
+#### Manufacturers (Local Production)
+
+| Company | Location | Products | Strengths | Contact |
+|---------|----------|----------|-----------|---------|
+| **DP-Pumps (Duijvelaar)** | Tiel, NL | Centrifugal pumps, booster systems | Dutch manufacturer, 16,000m² facility, 100K pumps/year | dp.nl |
+| **Bedu Pompen** | NL + BE | Industrial liquid pumps | 40+ years, now part of Rubix, chemical/food focus | bedu.eu |
+| **IPS Pumps** | Belgium | Industrial pumps, wastewater | Installation + service, turnkey projects | ipspumps.be |
+
+#### Distributors/Wholesalers
+
+| Company | Location | Products | Strengths | Fit for DEMA |
+|---------|----------|----------|-----------|--------------|
+| **MPI (Mooris Pumps & Irrigation)** | Arendonk, BE | Pumps, irrigation, drilling | Benelux distributor for Leo, Caprari, Tsurumi | ⭐⭐⭐ High |
+| **Industrial Pump Group (IPG)** | Netherlands | Industrial pumps | Wide brand portfolio, service focus | ⭐⭐ Medium |
+| **Jansen Pompentechniek** | Netherlands | Pump technology, irrigation | Wholesaler, technical water supply | ⭐⭐ Medium |
+| **Buisgro** | Lokeren, BE | Pumps, irrigation, pool | Wholesaler, sanitary + technical | ⭐⭐⭐ High |
+
+#### Brand Representatives (Benelux)
+
+| Brand | Benelux Rep | Products | Notes |
+|-------|-------------|----------|-------|
+| **DAB Pumps** | DAB Pumps BV (BE/NL) | Residential, commercial, agri | Direct presence in Groot-Bijgaarden (BE) |
+| **Wilo** | Wilo Belgium/Nederland | Circulators, boosters | Direct presence, premium segment |
+| **Grundfos** | Grundfos Nederland BV | All pump types | Direct presence, market leader |
+| **Pedrollo** | Via distributors | Water pumps | Italian, seek Benelux distributor |
+| **Calpeda** | Via distributors | Industrial pumps | Italian, seek Benelux distributor |
+| **Tsurumi** | MPI (Benelux) | Submersible, drainage | Japanese quality |
+| **Leo Pumps** | MPI (Benelux) | Water pumps | Chinese, good value |
+| **Caprari** | MPI (Benelux) | Submersible, irrigation | Italian quality |
+
+---
+
+### Irrigation - Benelux Suppliers
+
+| Company | Location | Products | Strengths | Fit for DEMA |
+|---------|----------|----------|-----------|--------------|
+| **Hydor** | Gent, BE | Irrigation systems, spraying | Wholesaler, Perrot couplings, Kasco | ⭐⭐⭐ High |
+| **MPI Pumps & Irrigation** | Arendonk, BE | Complete irrigation | Benelux specialist, A-brands | ⭐⭐⭐ High |
+| **SIBO Fluidra** | Netherlands | Pool, pond, irrigation, PVC | AquaForte, AstralPool manufacturer | ⭐⭐ Medium |
+| **Buisgro** | Lokeren, BE | Irrigation, pool | Self-build kits, residential focus | ⭐⭐ Medium |
+| **Regenwater.com** | BE, NL, DE | Rainwater harvesting | Pumps, tanks, systems | ⭐⭐ Medium |
+
+#### Irrigation Brands Available in Benelux
+
+| Brand | Type | Benelux Availability |
+|-------|------|---------------------|
+| **Perrot** | Couplings, sprinklers | Via Hydor |
+| **Rain Bird** | Sprinklers, controllers | Multiple distributors |
+| **Hunter** | Irrigation controls | Multiple distributors |
+| **Netafim** | Drip irrigation | Seek distributor |
+| **Irritec** | Drip systems | Seek distributor |
+
+---
+
+### Valves & Fittings - Benelux Suppliers
+
+#### Major Distributors
+
+| Company | Location | Products | Strengths | Fit for DEMA |
+|---------|----------|----------|-----------|--------------|
+| **Weyn-Lauwers** | Sint-Niklaas, BE | Valves, pipes, fittings | Since 1948, full range, Belgian market leader | ⭐⭐⭐ High |
+| **Sodeco Valves** | Belgium | Industrial valves | €6M stock, 4,500m² warehouse, chemical/petrochem | ⭐⭐⭐ High |
+| **Prodim Valves** | Belgium | Industrial valves, automation | Belgian distributor for specialty valves | ⭐⭐ Medium |
+| **Valvesco** | Belgium | Valves, actuators, filters | Distributor, butterfly valves | ⭐⭐ Medium |
+| **GEMÜ Valves** | Wemmel, BE | Process valves | German quality, pharma/food focus | ⭐⭐ Medium |
+
+#### Valve Product Categories at Weyn-Lauwers
+
+```
+WEYN-LAUWERS PRODUCT RANGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BALL VALVES
+├── Brass ball valves
+├── Stainless steel ball valves
+├── Plastic ball valves
+├── Pneumatic actuated
+└── Electric actuated
+
+GATE VALVES
+├── Bronze gate valves
+├── Cast iron gate valves
+└── Stainless steel gate valves
+
+CHECK VALVES
+├── Swing check valves
+├── Spring check valves
+└── Ball check valves
+
+BUTTERFLY VALVES
+├── Wafer type
+├── Lug type
+└── Flanged
+
+OTHER VALVES
+├── Diaphragm valves
+├── Needle valves
+├── Safety valves
+├── Pressure regulators
+└── Knife gate valves
+
+FITTINGS
+├── Brass fittings
+├── Stainless steel fittings
+├── Malleable iron fittings
+└── PVC/PE fittings
+```
+
+---
+
+### Pipes & Plastic Systems - Benelux Suppliers
+
+#### Manufacturers
+
+| Company | Location | Products | Strengths | Fit for DEMA |
+|---------|----------|----------|-----------|--------------|
+| **Pipelife Belgium** | Belgium | PVC, PE pipes, fittings | Part of Pipelife International, infrastructure focus | ⭐⭐ Medium |
+| **Aliaxis** | HQ: Brussels | Plastic piping systems | Global leader, FIP brand valves | ⭐⭐⭐ High |
+| **Vink Belgium** | Heist-op-den-Berg | Industrial plastics, pipes, fittings | European leader, sheets/rods/pipes | ⭐⭐⭐ High |
+
+#### Distributors
+
+| Company | Location | Products | Strengths |
+|---------|----------|----------|-----------|
+| **Buisgro** | Lokeren, BE | PVC, PE pipes, drainage | Wholesaler, sanitary focus |
+| **Vink Industry** | Belgium | Technical plastics, valves | Engineering plastics specialist |
+
+---
+
+### Hoses & Couplings - Benelux Suppliers
+
+| Company | Location | Products | Strengths | Fit for DEMA |
+|---------|----------|----------|-----------|--------------|
+| **Baggerman** | Netherlands | Industrial hoses, couplings | 10,000m² warehouse, 24h delivery Benelux | ⭐⭐⭐ High |
+| **Interseal** | Belgium | Technical hoses, couplings | Composite, rubber, PTFE, stainless | ⭐⭐⭐ High |
+| **Elaflex Belgium** | Belgium | Hose couplings, flanged | EN ISO certified, safety clamps | ⭐⭐ Medium |
+| **Bijl & de Jong** | Netherlands | Hoses, couplings, food-grade | Hygienic applications, Oppersen links | ⭐⭐ Medium |
+| **Gates Europe** | Erembodegem, BE | Belts, hoses, hydraulics | Global brand, European HQ in Belgium | ⭐⭐⭐ High |
+
+---
+
+### Hydraulics - Benelux Suppliers
+
+| Company | Location | Products | Strengths | Fit for DEMA |
+|---------|----------|----------|-----------|--------------|
+| **Hydrauvision** | NL (multiple) + BE | Hydraulic systems, components | Danfoss partner, full solutions | ⭐⭐ Medium |
+| **TVH** | Waregem, BE | Rexroth hydraulics, parts | Massive stock, material handling focus | ⭐⭐ Medium |
+| **Bosch Rexroth** | NL + BE | Hydraulic components | Direct presence, premium | ⭐ Low (too specialized) |
+
+---
+
+### Bearings & Transmission - Benelux Suppliers
+
+| Company | Location | Products | Strengths | Fit for DEMA |
+|---------|----------|----------|-----------|--------------|
+| **Rubix (Brammer)** | Benelux-wide | Bearings, MRO, transmission | #1 in Europe, acquired Bedu Pompen | ⭐⭐ Medium |
+| **Rotero Belgium** | Mechelen, BE | Actuators, transmission | Concens dealer, linear motion | ⭐ Low |
+| **Narviflex** | Benelux (6 branches) | Conveyor belts, transmission | 24/7 service, industrial plastics | ⭐⭐ Medium |
+
+---
+
+### Industrial MRO & Tools - Benelux Suppliers
+
+| Company | Location | Products | Strengths | Fit for DEMA |
+|---------|----------|----------|-----------|--------------|
+| **Technische Unie** | Netherlands | 280,000+ products, tools, electrical | Largest Dutch technical wholesaler | ⭐⭐ Medium |
+| **Rubix Benelux** | Benelux | MRO, bearings, transmission | Single-source supply partner | ⭐⭐ Medium |
+| **Van Marcke** | Belgium | Plumbing, sanitary | Belgian market leader, consumer focus | ⭐ Low |
+
+---
+
+### Sanitary & HVAC - Benelux Suppliers
+
+| Company | Location | Products | Strengths | Fit for DEMA |
+|---------|----------|----------|-----------|--------------|
+| **Sanicomfort** | Anzegem, BE | Sanitary, heating, pumps | Wholesaler, 4 branches, heat pumps | ⭐⭐ Medium |
+| **Buisgro** | Lokeren, BE | Sanitary, heating, ventilation | Wholesaler, broad range | ⭐⭐ Medium |
+| **Van Marcke** | Belgium | Sanitary, heating | Market leader, retail + wholesale | ⭐ Low |
+
+---
+
+### Chemicals & Specialty - Benelux Suppliers
+
+| Company | Location | Products | Strengths | Fit for DEMA |
+|---------|----------|----------|-----------|--------------|
+| **Caldic** | BE + NL | Industrial chemicals | Distributor, food/pharma/industrial | ⭐ Low |
+
+---
+
+## 14. Priority Benelux Partnerships
+
+### Tier 1: Strategic Partners (Immediate Contact)
+
+| Company | Category | Why Priority | Action |
+|---------|----------|--------------|--------|
+| **MPI Pumps & Irrigation** | Pumps, Irrigation | Direct competitor positioning, complementary brands | Partnership or acquisition discussion |
+| **Weyn-Lauwers** | Valves, Fittings | Belgian market leader, fills valve gap | Supplier agreement |
+| **Baggerman** | Hoses, Couplings | Large stock, fast delivery, complements DEMA | Supplier agreement |
+| **Hydor** | Irrigation | Specialist, Perrot brand, Belgian market | Supplier or partnership |
+| **Sodeco Valves** | Industrial Valves | €6M stock, industrial focus | Supplier agreement |
+
+### Tier 2: Brand Partnerships
+
+| Brand | Category | Benelux Contact | Action |
+|-------|----------|-----------------|--------|
+| **DAB Pumps** | Pumps | DAB Pumps BV Belgium | Dealer application |
+| **Wilo** | Pumps | Wilo Belgium | Dealer application |
+| **Aliaxis/FIP** | Valves, Pipes | Aliaxis Belgium | Distributor inquiry |
+| **Gates** | Hoses, Belts | Gates Europe (Erembodegem) | Distributor inquiry |
+| **Vink** | Plastics, Pipes | Vink Belgium | Supplier agreement |
+
+### Tier 3: Monitoring
+
+| Company | Category | Notes |
+|---------|----------|-------|
+| **Rubix/Brammer** | MRO, Bearings | Competitor, owns Bedu Pompen |
+| **TVH** | Parts, Hydraulics | Competitor, different segment |
+| **Technische Unie** | Technical wholesale | Competitor, Netherlands focus |
+
+---
+
+## 15. Benelux Supplier Comparison Matrix
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    BENELUX SUPPLIER FIT MATRIX                               │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  SUPPLIER              PUMPS  IRRIG  VALVES  HOSES  PIPES  FIT SCORE       │
+│  ━━━━━━━━              ━━━━━  ━━━━━  ━━━━━━  ━━━━━  ━━━━━  ━━━━━━━━━       │
+│                                                                              │
+│  MPI Pumps & Irrig.    █████  █████  ██      ███    ███    ⭐⭐⭐⭐⭐        │
+│  Weyn-Lauwers          █      █      █████   ███    ████   ⭐⭐⭐⭐          │
+│  Baggerman             █      ██     ██      █████  ██     ⭐⭐⭐⭐          │
+│  Hydor                 ███    █████  █       ██     ██     ⭐⭐⭐⭐          │
+│  Sodeco Valves         █      █      █████   █      █      ⭐⭐⭐            │
+│  Buisgro               ███    ████   ██      ██     ███    ⭐⭐⭐            │
+│  Vink Belgium          █      █      ███     ██     ████   ⭐⭐⭐            │
+│  Interseal             █      █      █       █████  █      ⭐⭐⭐            │
+│  DP-Pumps              █████  ██     █       █      █      ⭐⭐⭐            │
+│  Bedu Pompen           █████  █      █       █      █      ⭐⭐ (Rubix)     │
+│  Pipelife              █      █      █       █      █████  ⭐⭐              │
+│  Gates Europe          █      █      █       ████   █      ⭐⭐              │
+│                                                                              │
+│  LEGEND: █████ Core  ████ Strong  ███ Good  ██ Basic  █ Limited            │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 16. Recommended Benelux Supplier Strategy
+
+### Phase 1: Quick Wins (0-3 Months)
+
+| Action | Supplier | Investment | Expected Outcome |
+|--------|----------|------------|------------------|
+| Sign supplier agreement | Weyn-Lauwers | €25K initial order | +500 valve SKUs |
+| Sign supplier agreement | Baggerman | €15K initial order | +300 hose SKUs |
+| Explore partnership | MPI Pumps | Meeting | Potential synergy |
+| Apply for dealership | DAB Pumps | Application | Premium pump brand |
+
+### Phase 2: Strategic Expansion (3-12 Months)
+
+| Action | Supplier | Investment | Expected Outcome |
+|--------|----------|------------|------------------|
+| Sign supplier agreement | Hydor | €20K initial order | +200 irrigation SKUs |
+| Sign supplier agreement | Sodeco Valves | €30K initial order | +400 industrial valve SKUs |
+| Apply for dealership | Wilo | Application | Circulator pumps |
+| Explore partnership | Vink Belgium | Meeting | Plastic pipes/fittings |
+
+### Phase 3: Market Position (12-24 Months)
+
+| Action | Supplier | Investment | Expected Outcome |
+|--------|----------|------------|------------------|
+| Exclusive distribution | Selected brands | Negotiation | Territory protection |
+| Acquisition target | Small specialist | €200-500K | Market consolidation |
+
+---
+
+## 17. Contact Directory
+
+### Priority Contacts
+
+| Company | Contact | Phone | Email | Website |
+|---------|---------|-------|-------|---------|
+| **MPI Pumps & Irrigation** | - | +32 14 45 18 80 | info@mpi-pumps.com | mpi-pumps.com |
+| **Weyn-Lauwers** | - | +32 3 776 34 13 | weynlauwers@weynlauwers.be | weynlauwers.be |
+| **Baggerman** | - | - | - | btr.nl |
+| **Hydor** | - | +32 9 230 xx xx | - | hydor.be |
+| **Sodeco Valves** | - | - | - | sodeco-valves.com |
+| **DAB Pumps Belgium** | - | +32 2 466 83 53 | info.belgium@dwtgroup.com | dabpumps.be |
+| **Wilo Belgium** | - | - | - | wilo.com/be/nl |
+| **Buisgro** | - | - | - | buisgro.be |
+| **Vink Belgium** | - | - | info@vink.be | vink.com/europe/belgium |
+
+---
+
 *Document Classification: Internal*
-*Version: 1.0*
+*Version: 2.0*
 *Last Updated: December 2024*
 *Owner: Product Management*

@@ -1,0 +1,26 @@
+{
+  "name": "dema-group",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "dev:portal": "turbo dev --filter=portal",
+    "dev:dema": "turbo dev --filter=dema",
+    "dev:fluxer": "turbo dev --filter=fluxer",
+    "build:portal": "turbo build --filter=portal",
+    "build:dema": "turbo build --filter=dema"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0"
+  },
+  "packageManager": "pnpm@8.15.0",
+  "engines": {
+    "node": ">=18"
+  }
+}

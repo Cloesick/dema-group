@@ -1,0 +1,236 @@
+// DEMA Group API Database Schema
+// Handles inventory, orders, and delivery tracking
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================
+// COMPANIES
+// ============================================
+
+model Company {
+  id          String   @id @default(cuid())
+  code        String   @unique // dema, fluxer, beltz247, devisschere, accu
+  name        String
+  apiKey      String   @unique
+  webhookSecret String
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relations
+  products    Product[]
+  stock       Stock[]
+  orders      Order[]
+  shipments   Shipment[]
+  apiLogs     ApiLog[]
+}
+
+// ============================================
+// PRODUCTS & INVENTORY
+// ============================================
+
+model Product {
+  id          String   @id @default(cuid())
+  sku         String
+  name        String
+  nameNl      String?
+  nameFr      String?
+  description String?
+  category    String?
+  brand       String?
+  unit        String   @default("piece")
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relations
+  companyId   String
+  company     Company  @relation(fields: [companyId], references: [id])
+  stock       Stock[]
+  orderItems  OrderItem[]
+
+  @@unique([companyId, sku])
+  @@index([sku])
+  @@index([category])
+}
+
+model Stock {
+  id                String   @id @default(cuid())
+  quantity          Int      @default(0)
+  reservedQuantity  Int      @default(0)
+  reorderPoint      Int?
+  reorderQuantity   Int?
+  leadTimeDays      Int?
+  warehouseLocation String?
+  lastUpdated       DateTime @default(now())
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  // Relations
+  productId   String
+  product     Product  @relation(fields: [productId], references: [id])
+  companyId   String
+  company     Company  @relation(fields: [companyId], references: [id])
+
+  // Computed
+  // availableQuantity = quantity - reservedQuantity
+
+  @@unique([productId, companyId, warehouseLocation])
+  @@index([companyId])
+}
+
+model StockMovement {
+  id            String   @id @default(cuid())
+  sku           String
+  companyId     String
+  movementType  String   // received, reserved, released, adjusted, sold
+  quantity      Int
+  previousQty   Int?
+  newQty        Int?
+  reason        String?
+  referenceId   String?  // Order ID, PO number, etc.
+  referenceType String?  // order, purchase_order, adjustment
+  createdAt     DateTime @default(now())
+
+  @@index([companyId, sku])
+  @@index([createdAt])
+}
+
+// ============================================
+// ORDERS & SHIPMENTS
+// ============================================
+
+model Order {
+  id              String   @id @default(cuid())
+  orderNumber     String   @unique
+  status          String   @default("pending") // pending, confirmed, processing, shipped, delivered, cancelled
+  customerName    String
+  customerEmail   String
+  customerPhone   String?
+  shippingAddress Json
+  billingAddress  Json?
+  subtotal        Decimal  @db.Decimal(10, 2)
+  tax             Decimal  @db.Decimal(10, 2)
+  shipping        Decimal  @db.Decimal(10, 2)
+  total           Decimal  @db.Decimal(10, 2)
+  currency        String   @default("EUR")
+  notes           String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  // Relations
+  companyId   String
+  company     Company     @relation(fields: [companyId], references: [id])
+  items       OrderItem[]
+  shipments   Shipment[]
+
+  @@index([companyId])
+  @@index([status])
+  @@index([createdAt])
+}
+
+model OrderItem {
+  id        String   @id @default(cuid())
+  sku       String
+  name      String
+  quantity  Int
+  unitPrice Decimal  @db.Decimal(10, 2)
+  total     Decimal  @db.Decimal(10, 2)
+  createdAt DateTime @default(now())
+
+  // Relations
+  orderId   String
+  order     Order    @relation(fields: [orderId], references: [id])
+  productId String?
+  product   Product? @relation(fields: [productId], references: [id])
+}
+
+model Shipment {
+  id                String   @id @default(cuid())
+  trackingNumber    String
+  carrier           String   // ups, dhl, postnl, bpost, fedex, dpd, gls
+  status            String   @default("pending") // pending, picked_up, in_transit, out_for_delivery, delivered, exception, returned
+  estimatedDelivery DateTime?
+  actualDelivery    DateTime?
+  signedBy          String?
+  labelUrl          String?
+  originCity        String?
+  originCountry     String?
+  destCity          String?
+  destCountry       String?
+  lastUpdated       DateTime @default(now())
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  // Relations
+  orderId   String
+  order     Order    @relation(fields: [orderId], references: [id])
+  companyId String
+  company   Company  @relation(fields: [companyId], references: [id])
+  events    ShipmentEvent[]
+
+  @@unique([carrier, trackingNumber])
+  @@index([orderId])
+  @@index([status])
+}
+
+model ShipmentEvent {
+  id          String   @id @default(cuid())
+  status      String
+  statusCode  String?
+  location    String?
+  description String?
+  timestamp   DateTime
+  createdAt   DateTime @default(now())
+
+  // Relations
+  shipmentId  String
+  shipment    Shipment @relation(fields: [shipmentId], references: [id])
+
+  @@index([shipmentId])
+}
+
+// ============================================
+// API LOGGING & AUDIT
+// ============================================
+
+model ApiLog {
+  id          String   @id @default(cuid())
+  method      String
+  path        String
+  statusCode  Int
+  requestBody Json?
+  responseBody Json?
+  duration    Int      // milliseconds
+  ipAddress   String?
+  userAgent   String?
+  createdAt   DateTime @default(now())
+
+  // Relations
+  companyId   String?
+  company     Company? @relation(fields: [companyId], references: [id])
+
+  @@index([companyId])
+  @@index([createdAt])
+  @@index([path])
+}
+
+model WebhookLog {
+  id          String   @id @default(cuid())
+  source      String   // erp, ups, dhl, postnl, bpost
+  event       String
+  payload     Json
+  processed   Boolean  @default(false)
+  error       String?
+  createdAt   DateTime @default(now())
+
+  @@index([source])
+  @@index([createdAt])
+}

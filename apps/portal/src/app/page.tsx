@@ -1,47 +1,16 @@
 import Link from 'next/link'
+import { companies } from '@/config/brands'
 
-const companies = [
-  {
-    id: 'dema',
-    name: 'DEMA',
-    tagline: 'Pumps, Pipes & Tools',
-    description: 'Quality products for agriculture, construction, and industry',
-    color: 'bg-blue-600',
-    products: ['Pumps', 'Pipes', 'Fittings', 'Hoses', 'Power Tools', 'Irrigation'],
-  },
-  {
-    id: 'fluxer',
-    name: 'Fluxer',
-    tagline: 'Process Flow Experts',
-    description: 'Industrial valves, instrumentation, and process control',
-    color: 'bg-orange-600',
-    products: ['Ball Valves', 'Gate Valves', 'Control Valves', 'Actuators', 'Instrumentation'],
-  },
-  {
-    id: 'beltz247',
-    name: 'Beltz247',
-    tagline: '24/7 Conveyor Solutions',
-    description: 'Industrial conveyor belts and mechanical maintenance',
-    color: 'bg-green-600',
-    products: ['Conveyor Belts', 'FDA/HACCP Belts', 'Maintenance', '24/7 Service'],
-  },
-  {
-    id: 'devisschere',
-    name: 'De Visschere Technics',
-    tagline: 'Irrigation Specialists',
-    description: 'Design, installation, and maintenance of irrigation systems',
-    color: 'bg-cyan-600',
-    products: ['Garden Irrigation', 'Drip Systems', 'Sprinklers', 'Water Technology'],
-  },
-  {
-    id: 'accu',
-    name: 'Accu Components',
-    tagline: 'Precision Engineering',
-    description: '500,000+ precision components for engineering and manufacturing',
-    color: 'bg-purple-600',
-    products: ['Fasteners', 'Standoffs', 'Washers', 'Nuts', 'Custom Parts'],
-  },
-]
+const companyCards = companies.map((company) => ({
+  id: company.id,
+  name: company.name,
+  tagline: company.tagline,
+  description: company.description,
+  icon: company.icon,
+  primaryColor: company.colors.primary,
+  categories: company.categories.slice(0, 4),
+  website: company.website,
+}))
 
 export default function HomePage() {
   return (
@@ -103,29 +72,30 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Our Companies</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {companies.map((company) => (
+            {companyCards.map((company) => (
               <Link
                 key={company.id}
-                href={`/${company.id}`}
+                href={`/company/${company.id}`}
                 className="bg-white rounded-xl shadow-sm hover:shadow-lg transition p-6 group"
               >
-                <div className={`w-12 h-12 ${company.color} rounded-lg mb-4 flex items-center justify-center`}>
-                  <span className="text-white font-bold text-lg">
-                    {company.name.charAt(0)}
-                  </span>
+                <div 
+                  className="w-14 h-14 rounded-lg mb-4 flex items-center justify-center text-2xl"
+                  style={{ backgroundColor: company.primaryColor }}
+                >
+                  <span>{company.icon}</span>
                 </div>
                 <h3 className="text-xl font-bold mb-1 group-hover:text-blue-600 transition">
                   {company.name}
                 </h3>
                 <p className="text-sm text-slate-500 mb-2">{company.tagline}</p>
-                <p className="text-slate-600 text-sm mb-4">{company.description}</p>
+                <p className="text-slate-600 text-sm mb-4 line-clamp-2">{company.description}</p>
                 <div className="flex flex-wrap gap-2">
-                  {company.products.slice(0, 4).map((product) => (
+                  {company.categories.map((category: string) => (
                     <span
-                      key={product}
+                      key={category}
                       className="text-xs bg-slate-100 text-slate-600 px-2 py-1 rounded"
                     >
-                      {product}
+                      {category.split(' (')[0]}
                     </span>
                   ))}
                 </div>
@@ -162,9 +132,9 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold mb-4">Companies</h4>
               <ul className="space-y-2 text-slate-400 text-sm">
-                {companies.map((c) => (
+                {companyCards.map((c) => (
                   <li key={c.id}>
-                    <Link href={`/${c.id}`} className="hover:text-white transition">
+                    <Link href={`/company/${c.id}`} className="hover:text-white transition">
                       {c.name}
                     </Link>
                   </li>

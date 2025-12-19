@@ -30,10 +30,13 @@ export default function CompanyPage() {
         className="py-16 text-white relative overflow-hidden"
         style={{ backgroundColor: company.colors.primary }}
       >
+        {/* Hero Background Image */}
         <div 
-          className="absolute inset-0 opacity-10"
+          className="absolute inset-0"
           style={{ 
-            backgroundImage: `radial-gradient(circle at 20% 50%, ${company.colors.secondary} 0%, transparent 50%)`,
+            backgroundImage: `url(${company.hero})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
           }}
         />
         <div className="container mx-auto px-4 relative z-10">

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="beltzHeroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B00;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#E55A00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CC5500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#beltzHeroGrad)" />
+  
+  <!-- Conveyor belt pattern -->
+  <g opacity="0.15" fill="white">
+    <!-- Belt 1 -->
+    <ellipse cx="100" cy="320" rx="60" ry="60" />
+    <ellipse cx="500" cy="320" rx="60" ry="60" />
+    <rect x="100" y="260" width="400" height="15" rx="5" />
+    <rect x="100" y="365" width="400" height="15" rx="5" />
+    
+    <!-- Belt 2 -->
+    <ellipse cx="700" cy="100" rx="45" ry="45" />
+    <ellipse cx="1050" cy="100" rx="45" ry="45" />
+    <rect x="700" y="55" width="350" height="12" rx="4" />
+    <rect x="700" y="133" width="350" height="12" rx="4" />
+  </g>
+  
+  <!-- Motion arrows -->
+  <g stroke="white" stroke-width="3" fill="none" opacity="0.2">
+    <path d="M200 275 L280 275 L265 260 M280 275 L265 290" />
+    <path d="M320 275 L400 275 L385 260 M400 275 L385 290" />
+    <path d="M800 70 L860 70 L850 60 M860 70 L850 80" />
+    <path d="M920 70 L980 70 L970 60 M980 70 L970 80" />
+  </g>
+  
+  <!-- 24/7 badge -->
+  <g transform="translate(1050, 280)">
+    <circle cx="0" cy="0" r="50" fill="white" opacity="0.2" />
+    <text x="0" y="8" text-anchor="middle" font-family="Arial Black" font-size="24" fill="white" opacity="0.3">24/7</text>
+  </g>
+  
+  <!-- Content area -->
+  <rect x="80" y="100" width="500" height="200" rx="20" fill="white" opacity="0.05" />
+</svg>

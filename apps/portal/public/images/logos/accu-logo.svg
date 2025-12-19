@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="accuGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4338CA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#accuGrad)" />
+  <!-- Precision Screw Icon -->
+  <g fill="white">
+    <!-- Screw head (hex) -->
+    <polygon points="100,40 125,52 125,78 100,90 75,78 75,52" fill="white" />
+    <polygon points="100,48 117,57 117,73 100,82 83,73 83,57" fill="#6366F1" />
+    <!-- Hex socket -->
+    <polygon points="100,55 108,60 108,68 100,73 92,68 92,60" fill="white" />
+    <!-- Thread body -->
+    <rect x="90" y="90" width="20" height="60" fill="white" />
+    <!-- Thread lines -->
+    <line x1="90" y1="100" x2="110" y2="100" stroke="#6366F1" stroke-width="2" />
+    <line x1="90" y1="110" x2="110" y2="110" stroke="#6366F1" stroke-width="2" />
+    <line x1="90" y1="120" x2="110" y2="120" stroke="#6366F1" stroke-width="2" />
+    <line x1="90" y1="130" x2="110" y2="130" stroke="#6366F1" stroke-width="2" />
+    <line x1="90" y1="140" x2="110" y2="140" stroke="#6366F1" stroke-width="2" />
+    <!-- Screw tip -->
+    <polygon points="90,150 100,165 110,150" fill="white" />
+  </g>
+  <!-- Precision indicator circles -->
+  <circle cx="45" cy="100" r="8" fill="none" stroke="white" stroke-width="2" opacity="0.6" />
+  <circle cx="45" cy="100" r="3" fill="white" opacity="0.6" />
+  <circle cx="155" cy="100" r="8" fill="none" stroke="white" stroke-width="2" opacity="0.6" />
+  <circle cx="155" cy="100" r="3" fill="white" opacity="0.6" />
+  <!-- ACCU Text -->
+  <text x="100" y="188" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="14" font-weight="bold" fill="white">ACCU</text>
+</svg>

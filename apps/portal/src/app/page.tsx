@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { companies } from '@/config/brands'
 
 const companyCards = companies.map((company) => ({
@@ -7,6 +8,7 @@ const companyCards = companies.map((company) => ({
   tagline: company.tagline,
   description: company.description,
   icon: company.icon,
+  logo: company.logo,
   primaryColor: company.colors.primary,
   categories: company.categories.slice(0, 4),
   website: company.website,
@@ -78,11 +80,14 @@ export default function HomePage() {
                 href={`/company/${company.id}`}
                 className="bg-white rounded-xl shadow-sm hover:shadow-lg transition p-6 group"
               >
-                <div 
-                  className="w-14 h-14 rounded-lg mb-4 flex items-center justify-center text-2xl"
-                  style={{ backgroundColor: company.primaryColor }}
-                >
-                  <span>{company.icon}</span>
+                <div className="w-16 h-16 rounded-xl mb-4 overflow-hidden shadow-md">
+                  <Image
+                    src={company.logo}
+                    alt={`${company.name} logo`}
+                    width={64}
+                    height={64}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="text-xl font-bold mb-1 group-hover:text-blue-600 transition">
                   {company.name}

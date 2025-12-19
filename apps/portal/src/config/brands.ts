@@ -17,6 +17,7 @@ export interface CompanyBrand {
     text: string;
   };
   logo: string;
+  hero: string;
   icon: string;
   categories: string[];
   services: string[];
@@ -46,6 +47,7 @@ export const companies: CompanyBrand[] = [
       text: '#333333',
     },
     logo: '/images/logos/dema-logo.svg',
+    hero: '/images/heroes/dema-hero.svg',
     icon: '🔧',
     categories: [
       'Pompen & toebehoren',
@@ -89,6 +91,7 @@ export const companies: CompanyBrand[] = [
       text: '#1E293B',
     },
     logo: '/images/logos/fluxer-logo.svg',
+    hero: '/images/heroes/fluxer-hero.svg',
     icon: '🔵',
     categories: [
       'Afsluiters (Valves)',
@@ -130,6 +133,7 @@ export const companies: CompanyBrand[] = [
       text: '#1A1A1A',
     },
     logo: '/images/logos/beltz247-logo.svg',
+    hero: '/images/heroes/beltz247-hero.svg',
     icon: '🟠',
     categories: [
       'Industriële transportbanden',
@@ -168,6 +172,7 @@ export const companies: CompanyBrand[] = [
       text: '#14532D',
     },
     logo: '/images/logos/devisschere-logo.svg',
+    hero: '/images/heroes/devisschere-hero.svg',
     icon: '💧',
     categories: [
       'Tuinberegening (Garden irrigation)',
@@ -205,6 +210,7 @@ export const companies: CompanyBrand[] = [
       text: '#1E1B4B',
     },
     logo: '/images/logos/accu-logo.svg',
+    hero: '/images/heroes/accu-hero.svg',
     icon: '🔩',
     categories: [
       'Precision Screws & Fasteners',

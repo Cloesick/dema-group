@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="accuHeroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4338CA;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="accuGrid" patternUnits="userSpaceOnUse" width="40" height="40">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="0.5" opacity="0.1" />
+    </pattern>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#accuHeroGrad)" />
+  <rect width="1200" height="400" fill="url(#accuGrid)" />
+  
+  <!-- Precision components silhouettes -->
+  <g fill="white" opacity="0.1">
+    <!-- Hex bolt 1 -->
+    <polygon points="150,80 180,65 210,80 210,110 180,125 150,110" />
+    <rect x="165" y="125" width="30" height="80" />
+    
+    <!-- Hex bolt 2 -->
+    <polygon points="1000,280 1025,268 1050,280 1050,305 1025,317 1000,305" />
+    <rect x="1010" y="317" width="20" height="60" />
+    
+    <!-- Washer -->
+    <circle cx="300" cy="320" r="40" />
+    <circle cx="300" cy="320" r="20" fill="#6366F1" />
+    
+    <!-- Nut -->
+    <polygon points="900,80 930,65 960,80 960,110 930,125 900,110" />
+    <circle cx="930" cy="95" r="15" fill="#6366F1" />
+  </g>
+  
+  <!-- Measurement lines -->
+  <g stroke="white" stroke-width="1" opacity="0.15">
+    <line x1="100" y1="200" x2="400" y2="200" />
+    <line x1="100" y1="195" x2="100" y2="205" />
+    <line x1="400" y1="195" x2="400" y2="205" />
+    <text x="250" y="190" text-anchor="middle" font-family="Arial" font-size="12" fill="white">±0.01mm</text>
+    
+    <line x1="800" y1="180" x2="1100" y2="180" />
+    <line x1="800" y1="175" x2="800" y2="185" />
+    <line x1="1100" y1="175" x2="1100" y2="185" />
+  </g>
+  
+  <!-- Precision circles -->
+  <g fill="none" stroke="white" opacity="0.1">
+    <circle cx="600" cy="200" r="100" stroke-width="2" />
+    <circle cx="600" cy="200" r="80" stroke-width="1" />
+    <circle cx="600" cy="200" r="60" stroke-width="1" />
+    <line x1="500" y1="200" x2="700" y2="200" stroke-width="1" />
+    <line x1="600" y1="100" x2="600" y2="300" stroke-width="1" />
+  </g>
+  
+  <!-- Content area -->
+  <rect x="80" y="100" width="500" height="200" rx="20" fill="white" opacity="0.05" />
+</svg>

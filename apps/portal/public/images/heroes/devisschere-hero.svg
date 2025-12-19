@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="dvtHeroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22C55E;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16A34A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#166534;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#dvtHeroGrad)" />
+  
+  <!-- Water spray patterns -->
+  <g stroke="white" stroke-width="2" opacity="0.15">
+    <!-- Sprinkler 1 -->
+    <line x1="200" y1="350" x2="120" y2="280" />
+    <line x1="200" y1="350" x2="150" y2="270" />
+    <line x1="200" y1="350" x2="180" y2="265" />
+    <line x1="200" y1="350" x2="200" y2="260" />
+    <line x1="200" y1="350" x2="220" y2="265" />
+    <line x1="200" y1="350" x2="250" y2="270" />
+    <line x1="200" y1="350" x2="280" y2="280" />
+    
+    <!-- Sprinkler 2 -->
+    <line x1="1000" y1="100" x2="920" y2="30" />
+    <line x1="1000" y1="100" x2="950" y2="20" />
+    <line x1="1000" y1="100" x2="980" y2="15" />
+    <line x1="1000" y1="100" x2="1000" y2="10" />
+    <line x1="1000" y1="100" x2="1020" y2="15" />
+    <line x1="1000" y1="100" x2="1050" y2="20" />
+    <line x1="1000" y1="100" x2="1080" y2="30" />
+  </g>
+  
+  <!-- Water droplets -->
+  <g fill="white" opacity="0.2">
+    <circle cx="130" cy="260" r="5" />
+    <circle cx="160" cy="250" r="4" />
+    <circle cx="190" cy="245" r="6" />
+    <circle cx="220" cy="248" r="4" />
+    <circle cx="250" cy="255" r="5" />
+    <circle cx="270" cy="268" r="4" />
+    
+    <circle cx="930" cy="20" r="4" />
+    <circle cx="960" cy="12" r="3" />
+    <circle cx="990" cy="8" r="5" />
+    <circle cx="1020" cy="10" r="3" />
+    <circle cx="1050" cy="15" r="4" />
+    <circle cx="1070" cy="25" r="3" />
+  </g>
+  
+  <!-- Large water drop -->
+  <g opacity="0.1" fill="white">
+    <path d="M1100 300 Q1130 340 1130 360 A30 30 0 1 1 1070 360 Q1070 340 1100 300" />
+  </g>
+  
+  <!-- Grass/plant silhouettes -->
+  <g fill="white" opacity="0.08">
+    <path d="M0 400 Q50 350 100 400" />
+    <path d="M80 400 Q130 340 180 400" />
+    <path d="M160 400 Q210 360 260 400" />
+  </g>
+  
+  <!-- Content area -->
+  <rect x="80" y="100" width="500" height="200" rx="20" fill="white" opacity="0.05" />
+</svg>

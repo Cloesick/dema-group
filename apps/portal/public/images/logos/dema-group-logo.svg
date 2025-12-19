@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <defs>
+    <linearGradient id="groupGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E3A8A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="300" height="200" rx="20" fill="url(#groupGrad)" />
+  
+  <!-- Company circles arranged in arc -->
+  <!-- DEMA - Red -->
+  <circle cx="60" cy="80" r="25" fill="#E31E24" />
+  <text x="60" y="85" text-anchor="middle" font-family="Arial" font-size="10" fill="white" font-weight="bold">DEMA</text>
+  
+  <!-- Fluxer - Blue -->
+  <circle cx="120" cy="55" r="25" fill="#0066B3" />
+  <text x="120" y="60" text-anchor="middle" font-family="Arial" font-size="9" fill="white" font-weight="bold">FLUXER</text>
+  
+  <!-- Beltz247 - Orange -->
+  <circle cx="180" cy="55" r="25" fill="#FF6B00" />
+  <text x="180" y="60" text-anchor="middle" font-family="Arial" font-size="8" fill="white" font-weight="bold">BELTZ247</text>
+  
+  <!-- De Visschere - Green -->
+  <circle cx="240" cy="80" r="25" fill="#22C55E" />
+  <text x="240" y="78" text-anchor="middle" font-family="Arial" font-size="7" fill="white" font-weight="bold">DE VISSCHERE</text>
+  <text x="240" y="88" text-anchor="middle" font-family="Arial" font-size="7" fill="white" font-weight="bold">TECHNICS</text>
+  
+  <!-- Accu - Purple (center bottom) -->
+  <circle cx="150" cy="100" r="25" fill="#6366F1" />
+  <text x="150" y="105" text-anchor="middle" font-family="Arial" font-size="9" fill="white" font-weight="bold">ACCU</text>
+  
+  <!-- Connecting lines -->
+  <g stroke="white" stroke-width="1" opacity="0.3">
+    <line x1="85" y1="80" x2="95" y2="70" />
+    <line x1="145" y1="55" x2="155" y2="55" />
+    <line x1="205" y1="70" x2="215" y2="80" />
+    <line x1="125" y1="100" x2="85" y2="90" />
+    <line x1="175" y1="100" x2="215" y2="90" />
+  </g>
+  
+  <!-- DEMA GROUP Text -->
+  <text x="150" y="155" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="28" font-weight="bold" fill="white">DEMA GROUP</text>
+  <text x="150" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" opacity="0.8">Your Unified Industrial Partner</text>
+</svg>

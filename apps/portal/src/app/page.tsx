@@ -116,92 +116,139 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Product Categories Grid */}
-      <section className="py-12 bg-white">
+      {/* Product Categories - Full Expanded View */}
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold text-center mb-2">
-            {language === 'nl' ? 'Productcategorieën' : language === 'fr' ? 'Catégories de Produits' : 'Product Categories'}
-          </h2>
-          <p className="text-slate-500 text-center mb-8">
-            {language === 'nl' ? 'Ontdek ons uitgebreid gamma producten' : language === 'fr' ? 'Découvrez notre large gamme de produits' : 'Explore our extensive range of products'}
-          </p>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {productCategories.map((category) => (
-              <Link
-                key={category.id}
-                href={`/products?category=${category.id}`}
-                className="group bg-slate-50 hover:bg-blue-50 rounded-xl p-5 transition border hover:border-blue-200"
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-3">
+              {language === 'nl' ? 'Onze Producten' : language === 'fr' ? 'Nos Produits' : 'Our Products'}
+            </h2>
+            <p className="text-slate-500 max-w-2xl mx-auto">
+              {language === 'nl' 
+                ? 'Ontdek ons uitgebreid gamma van meer dan 50.000 producten verdeeld over 8 hoofdcategorieën' 
+                : language === 'fr' 
+                ? 'Découvrez notre large gamme de plus de 50 000 produits répartis en 8 catégories principales'
+                : 'Explore our extensive range of over 50,000 products across 8 main categories'}
+            </p>
+          </div>
+
+          {/* All Categories with Full Details */}
+          <div className="space-y-12">
+            {productCategories.map((category, categoryIndex) => (
+              <div 
+                key={category.id} 
+                className={`rounded-2xl overflow-hidden ${categoryIndex % 2 === 0 ? 'bg-slate-50' : 'bg-gradient-to-r from-blue-50 to-slate-50'}`}
               >
-                <div className="text-3xl mb-3">{category.icon}</div>
-                <h3 className="font-bold text-lg mb-1 group-hover:text-blue-600 transition">
-                  {getCategoryName(category)}
-                </h3>
-                <p className="text-sm text-slate-500 mb-3 line-clamp-2">
-                  {language === 'nl' ? category.description_nl : category.description}
-                </p>
-                <div className="flex flex-wrap gap-1">
-                  {category.subcategories.slice(0, 3).map((sub) => (
-                    <span key={sub.id} className="text-xs bg-white text-slate-600 px-2 py-0.5 rounded">
-                      {getSubcategoryName(sub)}
-                    </span>
-                  ))}
-                  {category.subcategories.length > 3 && (
-                    <span className="text-xs text-slate-400">+{category.subcategories.length - 3}</span>
-                  )}
+                {/* Category Header */}
+                <div className="p-6 border-b bg-white/50">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-4">
+                      <div className="w-14 h-14 rounded-xl bg-white shadow-sm flex items-center justify-center text-3xl">
+                        {category.icon}
+                      </div>
+                      <div>
+                        <h3 className="text-2xl font-bold text-slate-900">
+                          {getCategoryName(category)}
+                        </h3>
+                        <p className="text-slate-500">
+                          {language === 'nl' ? category.description_nl : category.description}
+                        </p>
+                      </div>
+                    </div>
+                    <div className="hidden md:flex items-center gap-3">
+                      <div className="text-right">
+                        <p className="text-sm text-slate-500">
+                          {language === 'nl' ? 'Beschikbaar bij' : language === 'fr' ? 'Disponible chez' : 'Available at'}
+                        </p>
+                        <div className="flex gap-1 mt-1">
+                          {category.companies.map((companyId) => (
+                            <Link
+                              key={companyId}
+                              href={`/company/${companyId}`}
+                              className="px-2 py-0.5 bg-white rounded text-xs font-medium text-blue-600 hover:bg-blue-50 border"
+                            >
+                              {getCompanyName(companyId)}
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                      <Link
+                        href={`/products?category=${category.id}`}
+                        className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition flex items-center gap-2 font-medium"
+                      >
+                        {language === 'nl' ? 'Bekijk alles' : language === 'fr' ? 'Voir tout' : 'View all'}
+                        <ChevronRight className="w-4 h-4" />
+                      </Link>
+                    </div>
+                  </div>
                 </div>
-              </Link>
+
+                {/* Subcategories Grid */}
+                <div className="p-6">
+                  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    {category.subcategories.map((subcategory) => (
+                      <div 
+                        key={subcategory.id} 
+                        className="bg-white rounded-xl border border-slate-200 hover:border-blue-300 hover:shadow-md transition group"
+                      >
+                        {/* Subcategory Header */}
+                        <div className="p-4 border-b bg-slate-50/50">
+                          <h4 className="font-bold text-slate-900 group-hover:text-blue-600 transition">
+                            {getSubcategoryName(subcategory)}
+                          </h4>
+                          <p className="text-xs text-slate-400 mt-0.5">
+                            {subcategory.products.length} {language === 'nl' ? 'producten' : language === 'fr' ? 'produits' : 'products'}
+                          </p>
+                        </div>
+
+                        {/* Products List */}
+                        <div className="p-4">
+                          <ul className="space-y-2">
+                            {subcategory.products.map((product) => (
+                              <li key={product.id}>
+                                <Link
+                                  href={`/products/${product.id}`}
+                                  className="flex items-start gap-2 text-sm text-slate-600 hover:text-blue-600 transition"
+                                >
+                                  <ChevronRight className="w-4 h-4 mt-0.5 flex-shrink-0 text-slate-300" />
+                                  <span>{getProductName(product)}</span>
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+
+                        {/* Subcategory Footer - Companies */}
+                        <div className="px-4 pb-4">
+                          <div className="flex flex-wrap gap-1">
+                            {subcategory.products[0]?.companies.slice(0, 2).map((companyId) => (
+                              <span 
+                                key={companyId}
+                                className="text-xs px-2 py-0.5 bg-slate-100 text-slate-500 rounded"
+                              >
+                                {getCompanyName(companyId)}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* Mobile View All Button */}
+                  <div className="md:hidden mt-4 flex justify-center">
+                    <Link
+                      href={`/products?category=${category.id}`}
+                      className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition flex items-center gap-2 font-medium"
+                    >
+                      {language === 'nl' ? 'Bekijk alle producten' : language === 'fr' ? 'Voir tous les produits' : 'View all products'}
+                      <ChevronRight className="w-4 h-4" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Featured Products by Category */}
-      <section className="py-12 bg-slate-50">
-        <div className="container mx-auto px-4">
-          {productCategories.slice(0, 4).map((category) => (
-            <div key={category.id} className="mb-12 last:mb-0">
-              <div className="flex items-center justify-between mb-4">
-                <div className="flex items-center gap-3">
-                  <span className="text-2xl">{category.icon}</span>
-                  <h3 className="text-xl font-bold">{getCategoryName(category)}</h3>
-                </div>
-                <Link 
-                  href={`/products?category=${category.id}`}
-                  className="text-blue-600 hover:text-blue-700 text-sm font-medium flex items-center gap-1"
-                >
-                  {language === 'nl' ? 'Alles bekijken' : language === 'fr' ? 'Voir tout' : 'View all'}
-                  <ChevronRight className="w-4 h-4" />
-                </Link>
-              </div>
-              
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-                {category.subcategories.slice(0, 4).map((subcategory) => (
-                  <div key={subcategory.id} className="bg-white rounded-lg border p-4">
-                    <h4 className="font-semibold mb-2">{getSubcategoryName(subcategory)}</h4>
-                    <ul className="space-y-1">
-                      {subcategory.products.slice(0, 3).map((product) => (
-                        <li key={product.id}>
-                          <Link 
-                            href={`/products/${product.id}`}
-                            className="text-sm text-slate-600 hover:text-blue-600 flex items-center gap-1"
-                          >
-                            <ChevronRight className="w-3 h-3" />
-                            {getProductName(product)}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                    {subcategory.products.length > 3 && (
-                      <p className="text-xs text-slate-400 mt-2">
-                        +{subcategory.products.length - 3} {language === 'nl' ? 'meer' : language === 'fr' ? 'plus' : 'more'}
-                      </p>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </div>
-          ))}
         </div>
       </section>
 

@@ -116,7 +116,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Product Categories - Full Expanded View */}
+      {/* Product Categories - Full Expanded View with Images */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -133,118 +133,183 @@ export default function HomePage() {
           </div>
 
           {/* All Categories with Full Details */}
-          <div className="space-y-12">
+          <div className="space-y-16">
             {productCategories.map((category, categoryIndex) => (
               <div 
                 key={category.id} 
-                className={`rounded-2xl overflow-hidden ${categoryIndex % 2 === 0 ? 'bg-slate-50' : 'bg-gradient-to-r from-blue-50 to-slate-50'}`}
+                className="relative"
               >
-                {/* Category Header */}
-                <div className="p-6 border-b bg-white/50">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-4">
-                      <div className="w-14 h-14 rounded-xl bg-white shadow-sm flex items-center justify-center text-3xl">
-                        {category.icon}
-                      </div>
-                      <div>
-                        <h3 className="text-2xl font-bold text-slate-900">
+                {/* Category Hero Banner */}
+                <div 
+                  className="relative rounded-2xl overflow-hidden mb-6"
+                  style={{ backgroundColor: `${category.color}10` }}
+                >
+                  <div className="absolute inset-0 opacity-5">
+                    <div 
+                      className="absolute inset-0"
+                      style={{ 
+                        backgroundImage: `radial-gradient(circle at 30% 50%, ${category.color}40 0%, transparent 50%)`,
+                      }}
+                    />
+                  </div>
+                  
+                  <div className="relative flex flex-col md:flex-row items-center gap-6 p-8">
+                    {/* Category Image */}
+                    <div 
+                      className="w-32 h-32 md:w-40 md:h-40 rounded-2xl flex items-center justify-center shadow-lg"
+                      style={{ backgroundColor: category.color }}
+                    >
+                      <Image
+                        src={category.image}
+                        alt={getCategoryName(category)}
+                        width={120}
+                        height={120}
+                        className="w-24 h-24 md:w-28 md:h-28 object-contain filter brightness-0 invert"
+                      />
+                    </div>
+
+                    {/* Category Info */}
+                    <div className="flex-1 text-center md:text-left">
+                      <div className="flex items-center justify-center md:justify-start gap-3 mb-2">
+                        <span className="text-4xl">{category.icon}</span>
+                        <h3 className="text-2xl md:text-3xl font-bold text-slate-900">
                           {getCategoryName(category)}
                         </h3>
-                        <p className="text-slate-500">
-                          {language === 'nl' ? category.description_nl : category.description}
-                        </p>
                       </div>
-                    </div>
-                    <div className="hidden md:flex items-center gap-3">
-                      <div className="text-right">
-                        <p className="text-sm text-slate-500">
-                          {language === 'nl' ? 'Beschikbaar bij' : language === 'fr' ? 'Disponible chez' : 'Available at'}
-                        </p>
-                        <div className="flex gap-1 mt-1">
-                          {category.companies.map((companyId) => (
-                            <Link
-                              key={companyId}
-                              href={`/company/${companyId}`}
-                              className="px-2 py-0.5 bg-white rounded text-xs font-medium text-blue-600 hover:bg-blue-50 border"
-                            >
-                              {getCompanyName(companyId)}
-                            </Link>
-                          ))}
+                      <p className="text-slate-600 mb-4 max-w-xl">
+                        {language === 'nl' ? category.description_nl : category.description}
+                      </p>
+                      
+                      {/* Company Badges */}
+                      <div className="flex flex-wrap items-center justify-center md:justify-start gap-2 mb-4">
+                        <span className="text-sm text-slate-500">
+                          {language === 'nl' ? 'Beschikbaar bij:' : language === 'fr' ? 'Disponible chez:' : 'Available at:'}
+                        </span>
+                        {category.companies.map((companyId) => (
+                          <Link
+                            key={companyId}
+                            href={`/company/${companyId}`}
+                            className="px-3 py-1 bg-white rounded-full text-sm font-medium hover:shadow-md transition border"
+                            style={{ color: category.color }}
+                          >
+                            {getCompanyName(companyId)}
+                          </Link>
+                        ))}
+                      </div>
+
+                      {/* Stats */}
+                      <div className="flex items-center justify-center md:justify-start gap-6 text-sm">
+                        <div>
+                          <span className="font-bold text-lg" style={{ color: category.color }}>
+                            {category.subcategories.length}
+                          </span>
+                          <span className="text-slate-500 ml-1">
+                            {language === 'nl' ? 'subcategorieën' : language === 'fr' ? 'sous-catégories' : 'subcategories'}
+                          </span>
+                        </div>
+                        <div>
+                          <span className="font-bold text-lg" style={{ color: category.color }}>
+                            {category.subcategories.reduce((acc, sub) => acc + sub.products.length, 0)}
+                          </span>
+                          <span className="text-slate-500 ml-1">
+                            {language === 'nl' ? 'producten' : language === 'fr' ? 'produits' : 'products'}
+                          </span>
                         </div>
                       </div>
+                    </div>
+
+                    {/* View All Button */}
+                    <div className="hidden md:block">
                       <Link
                         href={`/products?category=${category.id}`}
-                        className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition flex items-center gap-2 font-medium"
+                        className="px-6 py-3 text-white rounded-xl hover:opacity-90 transition flex items-center gap-2 font-semibold shadow-lg"
+                        style={{ backgroundColor: category.color }}
                       >
                         {language === 'nl' ? 'Bekijk alles' : language === 'fr' ? 'Voir tout' : 'View all'}
-                        <ChevronRight className="w-4 h-4" />
+                        <ChevronRight className="w-5 h-5" />
                       </Link>
                     </div>
                   </div>
                 </div>
 
                 {/* Subcategories Grid */}
-                <div className="p-6">
-                  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-                    {category.subcategories.map((subcategory) => (
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                  {category.subcategories.map((subcategory) => (
+                    <div 
+                      key={subcategory.id} 
+                      className="bg-white rounded-xl border-2 border-slate-100 hover:border-opacity-50 hover:shadow-lg transition group overflow-hidden"
+                      style={{ '--hover-color': category.color } as React.CSSProperties}
+                    >
+                      {/* Subcategory Header with Color Accent */}
                       <div 
-                        key={subcategory.id} 
-                        className="bg-white rounded-xl border border-slate-200 hover:border-blue-300 hover:shadow-md transition group"
+                        className="p-4 border-b"
+                        style={{ borderBottomColor: `${category.color}20` }}
                       >
-                        {/* Subcategory Header */}
-                        <div className="p-4 border-b bg-slate-50/50">
+                        <div className="flex items-center gap-2">
+                          <div 
+                            className="w-2 h-2 rounded-full"
+                            style={{ backgroundColor: category.color }}
+                          />
                           <h4 className="font-bold text-slate-900 group-hover:text-blue-600 transition">
                             {getSubcategoryName(subcategory)}
                           </h4>
-                          <p className="text-xs text-slate-400 mt-0.5">
-                            {subcategory.products.length} {language === 'nl' ? 'producten' : language === 'fr' ? 'produits' : 'products'}
-                          </p>
                         </div>
+                        <p className="text-xs text-slate-400 mt-1 ml-4">
+                          {subcategory.products.length} {language === 'nl' ? 'producten' : language === 'fr' ? 'produits' : 'products'}
+                        </p>
+                      </div>
 
-                        {/* Products List */}
-                        <div className="p-4">
-                          <ul className="space-y-2">
-                            {subcategory.products.map((product) => (
-                              <li key={product.id}>
-                                <Link
-                                  href={`/products/${product.id}`}
-                                  className="flex items-start gap-2 text-sm text-slate-600 hover:text-blue-600 transition"
-                                >
-                                  <ChevronRight className="w-4 h-4 mt-0.5 flex-shrink-0 text-slate-300" />
-                                  <span>{getProductName(product)}</span>
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-
-                        {/* Subcategory Footer - Companies */}
-                        <div className="px-4 pb-4">
-                          <div className="flex flex-wrap gap-1">
-                            {subcategory.products[0]?.companies.slice(0, 2).map((companyId) => (
-                              <span 
-                                key={companyId}
-                                className="text-xs px-2 py-0.5 bg-slate-100 text-slate-500 rounded"
+                      {/* Products List */}
+                      <div className="p-4">
+                        <ul className="space-y-2">
+                          {subcategory.products.map((product) => (
+                            <li key={product.id}>
+                              <Link
+                                href={`/products/${product.id}`}
+                                className="flex items-start gap-2 text-sm text-slate-600 hover:text-blue-600 transition"
                               >
-                                {getCompanyName(companyId)}
-                              </span>
-                            ))}
-                          </div>
+                                <ChevronRight 
+                                  className="w-4 h-4 mt-0.5 flex-shrink-0" 
+                                  style={{ color: `${category.color}60` }}
+                                />
+                                <span>{getProductName(product)}</span>
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      {/* Subcategory Footer - Companies */}
+                      <div className="px-4 pb-4">
+                        <div className="flex flex-wrap gap-1">
+                          {subcategory.products[0]?.companies.slice(0, 2).map((companyId) => (
+                            <span 
+                              key={companyId}
+                              className="text-xs px-2 py-0.5 rounded"
+                              style={{ 
+                                backgroundColor: `${category.color}10`,
+                                color: category.color 
+                              }}
+                            >
+                              {getCompanyName(companyId)}
+                            </span>
+                          ))}
                         </div>
                       </div>
-                    ))}
-                  </div>
+                    </div>
+                  ))}
+                </div>
 
-                  {/* Mobile View All Button */}
-                  <div className="md:hidden mt-4 flex justify-center">
-                    <Link
-                      href={`/products?category=${category.id}`}
-                      className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition flex items-center gap-2 font-medium"
-                    >
-                      {language === 'nl' ? 'Bekijk alle producten' : language === 'fr' ? 'Voir tous les produits' : 'View all products'}
-                      <ChevronRight className="w-4 h-4" />
-                    </Link>
-                  </div>
+                {/* Mobile View All Button */}
+                <div className="md:hidden mt-6 flex justify-center">
+                  <Link
+                    href={`/products?category=${category.id}`}
+                    className="px-6 py-3 text-white rounded-xl transition flex items-center gap-2 font-semibold"
+                    style={{ backgroundColor: category.color }}
+                  >
+                    {language === 'nl' ? 'Bekijk alle producten' : language === 'fr' ? 'Voir tous les produits' : 'View all products'}
+                    <ChevronRight className="w-5 h-5" />
+                  </Link>
                 </div>
               </div>
             ))}

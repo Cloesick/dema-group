@@ -7,6 +7,8 @@ export interface ProductCategory {
   name_nl: string
   name_fr: string
   icon: string
+  image: string
+  color: string
   description: string
   description_nl: string
   subcategories: ProductSubcategory[]
@@ -39,6 +41,8 @@ export const productCategories: ProductCategory[] = [
     name_nl: 'Pompen & Toebehoren',
     name_fr: 'Pompes & Accessoires',
     icon: '💧',
+    image: '/images/products/dema-pump.svg',
+    color: '#3B82F6',
     description: 'Complete range of pumps for agriculture, industry, and domestic use',
     description_nl: 'Compleet gamma pompen voor landbouw, industrie en huishoudelijk gebruik',
     companies: ['dema', 'devisschere'],
@@ -94,6 +98,8 @@ export const productCategories: ProductCategory[] = [
     name_nl: 'Buizen & Fittingen',
     name_fr: 'Tuyaux & Raccords',
     icon: '🔧',
+    image: '/images/products/dema-pipes.svg',
+    color: '#6366F1',
     description: 'Plastic and metal piping systems for all applications',
     description_nl: 'Kunststof en metalen leidingsystemen voor alle toepassingen',
     companies: ['dema', 'fluxer'],
@@ -140,6 +146,8 @@ export const productCategories: ProductCategory[] = [
     name_nl: 'Slangen & Koppelingen',
     name_fr: 'Flexibles & Raccords',
     icon: '🔄',
+    image: '/images/products/dema-pipes.svg',
+    color: '#10B981',
     description: 'Industrial hoses and quick couplings for every application',
     description_nl: 'Industriële slangen en snelkoppelingen voor elke toepassing',
     companies: ['dema'],
@@ -176,6 +184,8 @@ export const productCategories: ProductCategory[] = [
     name_nl: 'Afsluiters & Besturingen',
     name_fr: 'Vannes & Contrôles',
     icon: '⚙️',
+    image: '/images/products/fluxer-valve.svg',
+    color: '#0066B3',
     description: 'Industrial valves, actuators and process control equipment',
     description_nl: 'Industriële afsluiters, actuatoren en procesbesturingsapparatuur',
     companies: ['fluxer', 'dema'],
@@ -229,6 +239,8 @@ export const productCategories: ProductCategory[] = [
     name_nl: 'Beregeningssystemen',
     name_fr: 'Systèmes d\'Irrigation',
     icon: '🌱',
+    image: '/images/products/devisschere-sprinkler.svg',
+    color: '#22C55E',
     description: 'Complete irrigation solutions for gardens, sports fields and agriculture',
     description_nl: 'Complete beregeningsoplossingen voor tuinen, sportvelden en landbouw',
     companies: ['devisschere', 'dema'],
@@ -274,6 +286,8 @@ export const productCategories: ProductCategory[] = [
     name_nl: 'Transportbanden',
     name_fr: 'Bandes Transporteuses',
     icon: '🏭',
+    image: '/images/products/beltz247-conveyor.svg',
+    color: '#FF6B00',
     description: '24/7 support for industrial conveyor belts and mechanical maintenance',
     description_nl: '24/7 ondersteuning voor industriële transportbanden en mechanisch onderhoud',
     companies: ['beltz247'],
@@ -317,6 +331,8 @@ export const productCategories: ProductCategory[] = [
     name_nl: 'Bevestigingsmaterialen & Componenten',
     name_fr: 'Fixations & Composants',
     icon: '🔩',
+    image: '/images/products/accu-screws.svg',
+    color: '#6366F1',
     description: 'Precision components - from 1 piece to millions',
     description_nl: 'Precisie componenten - van 1 stuk tot miljoenen',
     companies: ['accu', 'dema'],
@@ -362,6 +378,8 @@ export const productCategories: ProductCategory[] = [
     name_nl: 'Gereedschap & Machines',
     name_fr: 'Outils & Machines',
     icon: '🛠️',
+    image: '/images/products/dema-tools.svg',
+    color: '#E31E24',
     description: 'Professional tools and machines for every job',
     description_nl: 'Professioneel gereedschap en machines voor elke klus',
     companies: ['dema'],

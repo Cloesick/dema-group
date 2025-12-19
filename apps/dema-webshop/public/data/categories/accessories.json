@@ -1,0 +1,160 @@
+{
+  "category": "accessories",
+  "name": "Accessories & Parts",
+  "icon": "🔧",
+  "description": "Spare parts, batteries, chargers, cases, pump accessories",
+  "total_products": 11,
+  "total_groups": 2,
+  "groups": [
+    {
+      "group_id": "airpress-catalogus-eng-images-airpress-catalogus-eng-airpress-catalogus-e",
+      "name": "75246",
+      "catalog": "airpress-catalogus-eng",
+      "image": "images/airpress-catalogus-eng/airpress-catalogus-eng__p117__75246__79500-79518__v12.webp",
+      "images": [
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p104__75246__75245-75246__v1.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p104__75246__75245-75246__v2.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p105__75246__75255__v3.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p105__75246__75255__v4.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p105__75246__75255__v5.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p105__75246__75255__v6.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p105__75246__75255__v7.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p109__75246__791560__v8.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p111__75246__79156__v9.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p115__75246__79609__v10.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p117__75246__79500-79518__v11.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p117__75246__79500-79518__v12.webp"
+      ],
+      "source_pdf": "airpress-catalogus-eng.pdf",
+      "variants": [
+        {
+          "sku": "75245",
+          "label": "75245 - 75246",
+          "page": 104,
+          "properties": {},
+          "attributes": {
+            "application": "75246"
+          }
+        },
+        {
+          "sku": "75246",
+          "label": "75246 - 75246",
+          "page": 104,
+          "properties": {},
+          "attributes": {
+            "application": "75246"
+          }
+        },
+        {
+          "sku": "75255",
+          "label": "75255 - 75246",
+          "page": 105,
+          "properties": {},
+          "attributes": {}
+        }
+      ],
+      "variant_count": 3,
+      "default_variant_sku": "75245",
+      "media": [
+        {
+          "role": "main",
+          "url": "images/airpress-catalogus-eng/airpress-catalogus-eng__p117__75246__79500-79518__v12.webp"
+        }
+      ]
+    },
+    {
+      "group_id": "airpress-catalogus-eng-images-airpress-catalogus-eng-airpress-catalogus-e-1",
+      "name": "BASIC SPARE PARTS FOR CURING LAMP",
+      "catalog": "airpress-catalogus-eng",
+      "image": "images/airpress-catalogus-eng/airpress-catalogus-eng__p101__sensor-in-the-79851-model__79851-79852-79853__v1.webp",
+      "images": [
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p101__sensor-in-the-79851-model__79851-79852-79853__v1.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p101__sensor-in-the-79851-model__79851-79852-79853__v2.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p101__sensor-in-the-79851-model__79851-79852-79853__v3.webp"
+      ],
+      "source_pdf": "airpress-catalogus-eng.pdf",
+      "variants": [
+        {
+          "sku": "79851-15",
+          "label": "79851-15 - basic_spare_parts_for_curing_lamp",
+          "page": 101,
+          "properties": {},
+          "attributes": {
+            "application": "BASIC SPARE PARTS FOR CURING LAMP"
+          }
+        },
+        {
+          "sku": "79851-19",
+          "label": "79851-19 - basic_spare_parts_for_curing_lamp",
+          "page": 101,
+          "properties": {},
+          "attributes": {
+            "application": "BASIC SPARE PARTS FOR CURING LAMP"
+          }
+        },
+        {
+          "sku": "79851-22",
+          "label": "79851-22 - basic_spare_parts_for_curing_lamp",
+          "page": 101,
+          "properties": {},
+          "attributes": {
+            "application": "BASIC SPARE PARTS FOR CURING LAMP"
+          }
+        },
+        {
+          "sku": "79851-L",
+          "label": "79851-L - basic_spare_parts_for_curing_lamp",
+          "page": 101,
+          "properties": {},
+          "attributes": {
+            "application": "BASIC SPARE PARTS FOR CURING LAMP"
+          }
+        },
+        {
+          "sku": "79853",
+          "label": "79853 - basic_spare_parts_for_curing_lamp",
+          "page": 101,
+          "properties": {},
+          "attributes": {
+            "application": "BASIC SPARE PARTS FOR CURING LAMP"
+          }
+        },
+        {
+          "sku": "79853-5",
+          "label": "79853-5 - basic_spare_parts_for_curing_lamp",
+          "page": 101,
+          "properties": {},
+          "attributes": {
+            "application": "BASIC SPARE PARTS FOR CURING LAMP"
+          }
+        },
+        {
+          "sku": "79853-6",
+          "label": "79853-6 - basic_spare_parts_for_curing_lamp",
+          "page": 101,
+          "properties": {},
+          "attributes": {
+            "application": "BASIC SPARE PARTS FOR CURING LAMP"
+          }
+        },
+        {
+          "sku": "79853-7",
+          "label": "79853-7 - basic_spare_parts_for_curing_lamp",
+          "page": 101,
+          "properties": {},
+          "attributes": {
+            "application": "BASIC SPARE PARTS FOR CURING LAMP"
+          }
+        }
+      ],
+      "variant_count": 8,
+      "default_variant_sku": "79851-15",
+      "media": [
+        {
+          "role": "main",
+          "url": "images/airpress-catalogus-eng/airpress-catalogus-eng__p101__sensor-in-the-79851-model__79851-79852-79853__v1.webp"
+        }
+      ]
+    }
+  ]
+}

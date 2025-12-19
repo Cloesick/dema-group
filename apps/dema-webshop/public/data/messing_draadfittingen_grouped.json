@@ -1,0 +1,4650 @@
+[
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p3-nr-1-messing-bocht-90-webp",
+    "name": "NR 1 - MESSING BOCHT 90° (Page 3)",
+    "series_id": "nr-1-messing-bocht-90",
+    "series_name": "NR 1 - MESSING BOCHT 90°",
+    "series_names": [
+      "NR 1 - MESSING BOCHT 90°"
+    ],
+    "family": "nr-1-messing-bocht-90",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF11",
+        "label": "NR 1 - MESSING BOCHT 90°",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF11",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF112",
+        "label": "NR 1 - MESSING BOCHT 90°",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF112",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF12",
+        "label": "NR 1 - MESSING BOCHT 90°",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF12",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF134",
+        "label": "NR 1 - MESSING BOCHT 90°",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF134",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF138",
+        "label": "NR 1 - MESSING BOCHT 90°",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF138",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF154",
+        "label": "NR 1 - MESSING BOCHT 90°",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF154",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF164",
+        "label": "NR 1 - MESSING BOCHT 90°",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF164",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p3__nr-1-messing-bocht-90.webp"
+    ],
+    "variant_count": 7,
+    "default_variant_sku": "MF11",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p3__nr-1-messing-bocht-90.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p6-nr-120-messing-knie-45-webp",
+    "name": "NR 120 - MESSING KNIE 45° (Page 6)",
+    "series_id": "nr-120-messing-knie-45",
+    "series_name": "NR 120 - MESSING KNIE 45°",
+    "series_names": [
+      "NR 120 - MESSING KNIE 45°"
+    ],
+    "family": "nr-120-messing-knie-45",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF1101238",
+        "label": "NR 120 - MESSING KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "size": "1/2",
+          "bestelnr": "MF1101238",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF110134",
+        "label": "NR 120 - MESSING KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "size": "1",
+          "bestelnr": "MF110134",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF110264",
+        "label": "NR 120 - MESSING KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "size": "2",
+          "bestelnr": "MF110264",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF1103412",
+        "label": "NR 120 - MESSING KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "size": "3/4",
+          "bestelnr": "MF1103412",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF110541",
+        "label": "NR 120 - MESSING KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "size": "5/4",
+          "bestelnr": "MF110541",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF1106454",
+        "label": "NR 120 - MESSING KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "size": "6/4",
+          "bestelnr": "MF1106454",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF1201",
+        "label": "NR 120 - MESSING KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF1201",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF12012",
+        "label": "NR 120 - MESSING KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF12012",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF1202",
+        "label": "NR 120 - MESSING KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF1202",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF12034",
+        "label": "NR 120 - MESSING KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF12034",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF12054",
+        "label": "NR 120 - MESSING KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF12054",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF12064",
+        "label": "NR 120 - MESSING KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF12064",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p6__nr-120-messing-knie-45.webp"
+    ],
+    "variant_count": 12,
+    "default_variant_sku": "MF1101238",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p6__nr-120-messing-knie-45.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p17-nr-23-messing-pijpnippel-messing-draadeind-webp",
+    "name": "NR 23 - MESSING PIJPNIPPEL MESSING DRAADEIND (Page 17)",
+    "series_id": "nr-23-messing-pijpnippel-messing-draadeind",
+    "series_name": "NR 23 - MESSING PIJPNIPPEL MESSING DRAADEIND",
+    "series_names": [
+      "NR 23 - MESSING PIJPNIPPEL MESSING DRAADEIND"
+    ],
+    "family": "nr-23-messing-pijpnippel-messing-draadeind",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF112012065",
+        "label": "NR 23 - MESSING PIJPNIPPEL MESSING DRAADEIND",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF112012065",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF112012080",
+        "label": "NR 23 - MESSING PIJPNIPPEL MESSING DRAADEIND",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF112012080",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF112012100",
+        "label": "NR 23 - MESSING PIJPNIPPEL MESSING DRAADEIND",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF112012100",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF112012120",
+        "label": "NR 23 - MESSING PIJPNIPPEL MESSING DRAADEIND",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF112012120",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF112034065",
+        "label": "NR 23 - MESSING PIJPNIPPEL MESSING DRAADEIND",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF112034065",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF112034080",
+        "label": "NR 23 - MESSING PIJPNIPPEL MESSING DRAADEIND",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF112034080",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF112034100",
+        "label": "NR 23 - MESSING PIJPNIPPEL MESSING DRAADEIND",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF112034100",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF112034120",
+        "label": "NR 23 - MESSING PIJPNIPPEL MESSING DRAADEIND",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF112034120",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p17__nr-23-messing-pijpnippel-messing-draadeind.webp"
+    ],
+    "variant_count": 8,
+    "default_variant_sku": "MF112012065",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p17__nr-23-messing-pijpnippel-messing-draadeind.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p16-nr-1121-messing-doorvoerkoppeling-webp",
+    "name": "NR 1121 - MESSING DOORVOERKOPPELING (Page 16)",
+    "series_id": "nr-1121-messing-doorvoerkoppeling",
+    "series_name": "NR 1121 - MESSING DOORVOERKOPPELING",
+    "series_names": [
+      "NR 1121 - MESSING DOORVOERKOPPELING"
+    ],
+    "family": "nr-1121-messing-doorvoerkoppeling",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF11211",
+        "label": "NR 1121 - MESSING DOORVOERKOPPELING",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF11211",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF112112",
+        "label": "NR 1121 - MESSING DOORVOERKOPPELING",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF112112",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF112114",
+        "label": "NR 1121 - MESSING DOORVOERKOPPELING",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "size": "1/4\"",
+          "bestelnr": "MF112114",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF11212",
+        "label": "NR 1121 - MESSING DOORVOERKOPPELING",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF11212",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF112125",
+        "label": "NR 1121 - MESSING DOORVOERKOPPELING",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "size": "2",
+          "bestelnr": "MF112125",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF11213",
+        "label": "NR 1121 - MESSING DOORVOERKOPPELING",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "size": "3\"",
+          "bestelnr": "MF11213",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF112134",
+        "label": "NR 1121 - MESSING DOORVOERKOPPELING",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF112134",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF112138",
+        "label": "NR 1121 - MESSING DOORVOERKOPPELING",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF112138",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF112154",
+        "label": "NR 1121 - MESSING DOORVOERKOPPELING",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF112154",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF112164",
+        "label": "NR 1121 - MESSING DOORVOERKOPPELING",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF112164",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p16__nr-1121-messing-doorvoerkoppeling.webp"
+    ],
+    "variant_count": 10,
+    "default_variant_sku": "MF11211",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p16__nr-1121-messing-doorvoerkoppeling.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p7-nr-121-messing-knie-45-webp",
+    "name": "NR 121 - MESSING KNIE 45° (Page 7)",
+    "series_id": "nr-121-messing-knie-45",
+    "series_name": "NR 121 - MESSING KNIE 45°",
+    "series_names": [
+      "NR 121 - MESSING KNIE 45°"
+    ],
+    "family": "nr-121-messing-knie-45",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF1211",
+        "label": "NR 121 - MESSING KNIE 45°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF1211",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF12112",
+        "label": "NR 121 - MESSING KNIE 45°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF12112",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF1212",
+        "label": "NR 121 - MESSING KNIE 45°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF1212",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF12134",
+        "label": "NR 121 - MESSING KNIE 45°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF12134",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF12154",
+        "label": "NR 121 - MESSING KNIE 45°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF12154",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF12164",
+        "label": "NR 121 - MESSING KNIE 45°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF12164",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p7__nr-121-messing-knie-45.webp"
+    ],
+    "variant_count": 6,
+    "default_variant_sku": "MF1211",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p7__nr-121-messing-knie-45.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p7-nr-130-messing-t-stuk-90-webp",
+    "name": "NR 130 - MESSING T-STUK 90° (Page 7)",
+    "series_id": "nr-130-messing-t-stuk-90",
+    "series_name": "NR 130 - MESSING T-STUK 90°",
+    "series_names": [
+      "NR 130 - MESSING T-STUK 90°"
+    ],
+    "family": "nr-130-messing-t-stuk-90",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF1301",
+        "label": "NR 130 - MESSING T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF1301",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF13012",
+        "label": "NR 130 - MESSING T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF13012",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF13014",
+        "label": "NR 130 - MESSING T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "1/4\"",
+          "bestelnr": "MF13014",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF13018",
+        "label": "NR 130 - MESSING T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "1/8\"",
+          "bestelnr": "MF13018",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF13034",
+        "label": "NR 130 - MESSING T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF13034",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF13038",
+        "label": "NR 130 - MESSING T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF13038",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF13054",
+        "label": "NR 130 - MESSING T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF13054",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF13064",
+        "label": "NR 130 - MESSING T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF13064",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p7__nr-130-messing-t-stuk-90.webp"
+    ],
+    "variant_count": 8,
+    "default_variant_sku": "MF1301",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p7__nr-130-messing-t-stuk-90.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p8-nr-130r-messing-verloop-t-stuk-90-webp",
+    "name": "NR 130R - MESSING VERLOOP T-STUK 90° (Page 8)",
+    "series_id": "nr-130r-messing-verloop-t-stuk-90",
+    "series_name": "NR 130R - MESSING VERLOOP T-STUK 90°",
+    "series_names": [
+      "NR 130R - MESSING VERLOOP T-STUK 90°"
+    ],
+    "family": "nr-130r-messing-verloop-t-stuk-90",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF130112",
+        "label": "NR 130R - MESSING VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF130112",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF1303412",
+        "label": "NR 130R - MESSING VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF1303412",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF130541",
+        "label": "NR 130R - MESSING VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF130541",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF1305434",
+        "label": "NR 130R - MESSING VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF1305434",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p8__nr-130r-messing-verloop-t-stuk-90.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "MF130112",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p8__nr-130r-messing-verloop-t-stuk-90.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p8-nr-180-messing-kruisstuk-webp",
+    "name": "NR 180 - MESSING KRUISSTUK (Page 8)",
+    "series_id": "nr-180-messing-kruisstuk",
+    "series_name": "NR 180 - MESSING KRUISSTUK",
+    "series_names": [
+      "NR 180 - MESSING KRUISSTUK"
+    ],
+    "family": "nr-180-messing-kruisstuk",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF1801",
+        "label": "NR 180 - MESSING KRUISSTUK",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF1801",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF18012",
+        "label": "NR 180 - MESSING KRUISSTUK",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF18012",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF1802",
+        "label": "NR 180 - MESSING KRUISSTUK",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF1802",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF18034",
+        "label": "NR 180 - MESSING KRUISSTUK",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF18034",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF18038",
+        "label": "NR 180 - MESSING KRUISSTUK",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF18038",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF18054",
+        "label": "NR 180 - MESSING KRUISSTUK",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF18054",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF18064",
+        "label": "NR 180 - MESSING KRUISSTUK",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF18064",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p8__nr-180-messing-kruisstuk.webp"
+    ],
+    "variant_count": 7,
+    "default_variant_sku": "MF1801",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p8__nr-180-messing-kruisstuk.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p3-nr-2-messing-bocht-90-webp",
+    "name": "NR 2 - MESSING BOCHT 90° (Page 3)",
+    "series_id": "nr-2-messing-bocht-90",
+    "series_name": "NR 2 - MESSING BOCHT 90°",
+    "series_names": [
+      "NR 2 - MESSING BOCHT 90°"
+    ],
+    "family": "nr-2-messing-bocht-90",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF21",
+        "label": "NR 2 - MESSING BOCHT 90°",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF21",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF212",
+        "label": "NR 2 - MESSING BOCHT 90°",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF212",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF22",
+        "label": "NR 2 - MESSING BOCHT 90°",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF22",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF234",
+        "label": "NR 2 - MESSING BOCHT 90°",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF234",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF238",
+        "label": "NR 2 - MESSING BOCHT 90°",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF238",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF254",
+        "label": "NR 2 - MESSING BOCHT 90°",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF254",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF264",
+        "label": "NR 2 - MESSING BOCHT 90°",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF264",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p3__nr-2-messing-bocht-90.webp"
+    ],
+    "variant_count": 7,
+    "default_variant_sku": "MF21",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p3__nr-2-messing-bocht-90.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p9-nr-230-messing-kraanverlengstuk-webp",
+    "name": "NR 230 - MESSING KRAANVERLENGSTUK (Page 9)",
+    "series_id": "nr-230-messing-kraanverlengstuk",
+    "series_name": "NR 230 - MESSING KRAANVERLENGSTUK",
+    "series_names": [
+      "NR 230 - MESSING KRAANVERLENGSTUK"
+    ],
+    "family": "nr-230-messing-kraanverlengstuk",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF2301015",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF2301015",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2301020",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF2301020",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2301025",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF2301025",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2301030",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF2301030",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2301040",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF2301040",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2301050",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF2301050",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23012010",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF23012010",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23012015",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF23012015",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23012020",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF23012020",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23012025",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF23012025",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23012030",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF23012030",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23012040",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF23012040",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23012050",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF23012050",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23012080",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF23012080",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23012100",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF23012100",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23034010",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF23034010",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23034015",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF23034015",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23034020",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF23034020",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23034025",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF23034025",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23034030",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF23034030",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23034040",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF23034040",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23034050",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF23034050",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23034080",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF23034080",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23034100",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF23034100",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23054015",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF23054015",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF23054030",
+        "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF23054030",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p9__nr-230-messing-kraanverlengstuk.webp"
+    ],
+    "variant_count": 26,
+    "default_variant_sku": "MF2301015",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p9__nr-230-messing-kraanverlengstuk.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p9-nr-240-messing-verloopmof-webp",
+    "name": "NR 240 - MESSING VERLOOPMOF (Page 9)",
+    "series_id": "nr-240-messing-verloopmof",
+    "series_name": "NR 240 - MESSING VERLOOPMOF",
+    "series_names": [
+      "NR 240 - MESSING VERLOOPMOF"
+    ],
+    "family": "nr-240-messing-verloopmof",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF240112",
+        "label": "NR 240 - MESSING VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF240112",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2401214",
+        "label": "NR 240 - MESSING VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF2401214",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2401238",
+        "label": "NR 240 - MESSING VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF2401238",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF240134",
+        "label": "NR 240 - MESSING VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF240134",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2401418",
+        "label": "NR 240 - MESSING VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "1/4\"",
+          "bestelnr": "MF2401418",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF240264",
+        "label": "NR 240 - MESSING VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF240264",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2403412",
+        "label": "NR 240 - MESSING VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF2403412",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2403414",
+        "label": "NR 240 - MESSING VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF2403414",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2403438",
+        "label": "NR 240 - MESSING VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF2403438",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2403814",
+        "label": "NR 240 - MESSING VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF2403814",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2403818",
+        "label": "NR 240 - MESSING VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF2403818",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF240541",
+        "label": "NR 240 - MESSING VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF240541",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF240641",
+        "label": "NR 240 - MESSING VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF240641",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2406454",
+        "label": "NR 240 - MESSING VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF2406454",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p9__nr-240-messing-verloopmof.webp"
+    ],
+    "variant_count": 14,
+    "default_variant_sku": "MF240112",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p9__nr-240-messing-verloopmof.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p10-nr-241-messing-verloopring-webp",
+    "name": "NR 241 - MESSING VERLOOPRING (Page 10)",
+    "series_id": "nr-241-messing-verloopring",
+    "series_name": "NR 241 - MESSING VERLOOPRING",
+    "series_names": [
+      "NR 241 - MESSING VERLOOPRING"
+    ],
+    "family": "nr-241-messing-verloopring",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF241112",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF241112",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF241114",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF241114",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2411214",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF2411214",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2411218",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF2411218",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2411238",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF2411238",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF241134",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF241134",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF241138",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF241138",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2411418",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "1/4\"",
+          "bestelnr": "MF2411418",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF24121",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF24121",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF241234",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF241234",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF241252",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "2",
+          "bestelnr": "MF241252",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF241254",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF241254",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF241264",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF241264",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF24132",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "3\"",
+          "bestelnr": "MF24132",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF241325",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "3\"",
+          "bestelnr": "MF241325",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2413412",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF2413412",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2413414",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF2413414",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2413438",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF2413438",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2413814",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF2413814",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2413818",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF2413818",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF241541",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF241541",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2415412",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF2415412",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2415434",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF2415434",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF241641",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF241641",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2416412",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF2416412",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2416434",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF2416434",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2416454",
+        "label": "NR 241 - MESSING VERLOOPRING",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF2416454",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p10__nr-241-messing-verloopring.webp"
+    ],
+    "variant_count": 27,
+    "default_variant_sku": "MF241112",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__nr-241-messing-verloopring.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p10-nr-245-messing-verloopnippel-webp",
+    "name": "NR 245 - MESSING VERLOOPNIPPEL (Page 10)",
+    "series_id": "nr-245-messing-verloopnippel",
+    "series_name": "NR 245 - MESSING VERLOOPNIPPEL",
+    "series_names": [
+      "NR 245 - MESSING VERLOOPNIPPEL"
+    ],
+    "family": "nr-245-messing-verloopnippel",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF245112",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF245112",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2451214",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF2451214",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2451218",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF2451218",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2451238",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF2451238",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF245134",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF245134",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF245138",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF245138",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2451418",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "1/4\"",
+          "bestelnr": "MF2451418",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF24521",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF24521",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF245254",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF245254",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF245264",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF245264",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2453412",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF2453412",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2453414",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF2453414",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2453438",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF2453438",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2453814",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF2453814",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2453818",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF2453818",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF245541",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF245541",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2455412",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF2455412",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2455434",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF2455434",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF245641",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF245641",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2456412",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF2456412",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2456434",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF2456434",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2456454",
+        "label": "NR 245 - MESSING VERLOOPNIPPEL",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF2456454",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p10__nr-245-messing-verloopnippel.webp"
+    ],
+    "variant_count": 22,
+    "default_variant_sku": "MF245112",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__nr-245-messing-verloopnippel.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p11-nr-246-messing-soknippel-webp",
+    "name": "NR 246 - MESSING SOKNIPPEL (Page 11)",
+    "series_id": "nr-246-messing-soknippel",
+    "series_name": "NR 246 - MESSING SOKNIPPEL",
+    "series_names": [
+      "NR 246 - MESSING SOKNIPPEL"
+    ],
+    "family": "nr-246-messing-soknippel",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF246112",
+        "label": "NR 246 - MESSING SOKNIPPEL",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF246112",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2461214",
+        "label": "NR 246 - MESSING SOKNIPPEL",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF2461214",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2461238",
+        "label": "NR 246 - MESSING SOKNIPPEL",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF2461238",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF246134",
+        "label": "NR 246 - MESSING SOKNIPPEL",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF246134",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF246138",
+        "label": "NR 246 - MESSING SOKNIPPEL",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF246138",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2461418",
+        "label": "NR 246 - MESSING SOKNIPPEL",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "1/4\"",
+          "bestelnr": "MF2461418",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF246264",
+        "label": "NR 246 - MESSING SOKNIPPEL",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF246264",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2463412",
+        "label": "NR 246 - MESSING SOKNIPPEL",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF2463412",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2463438",
+        "label": "NR 246 - MESSING SOKNIPPEL",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF2463438",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2463814",
+        "label": "NR 246 - MESSING SOKNIPPEL",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF2463814",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2463818",
+        "label": "NR 246 - MESSING SOKNIPPEL",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF2463818",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF246541",
+        "label": "NR 246 - MESSING SOKNIPPEL",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF246541",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF246641",
+        "label": "NR 246 - MESSING SOKNIPPEL",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF246641",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2466454",
+        "label": "NR 246 - MESSING SOKNIPPEL",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF2466454",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p11__nr-246-messing-soknippel.webp"
+    ],
+    "variant_count": 14,
+    "default_variant_sku": "MF246112",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p11__nr-246-messing-soknippel.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p11-nr-270-messing-mof-webp",
+    "name": "NR 270 - MESSING MOF (Page 11)",
+    "series_id": "nr-270-messing-mof",
+    "series_name": "NR 270 - MESSING MOF",
+    "series_names": [
+      "NR 270 - MESSING MOF"
+    ],
+    "family": "nr-270-messing-mof",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF2701",
+        "label": "NR 270 - MESSING MOF",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF2701",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF27012",
+        "label": "NR 270 - MESSING MOF",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF27012",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF27014",
+        "label": "NR 270 - MESSING MOF",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "1/4\"",
+          "bestelnr": "MF27014",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF27018",
+        "label": "NR 270 - MESSING MOF",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "1/8\"",
+          "bestelnr": "MF27018",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2702",
+        "label": "NR 270 - MESSING MOF",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF2702",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF27025",
+        "label": "NR 270 - MESSING MOF",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "2",
+          "bestelnr": "MF27025",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2703",
+        "label": "NR 270 - MESSING MOF",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "3\"",
+          "bestelnr": "MF2703",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF27034",
+        "label": "NR 270 - MESSING MOF",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF27034",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF27038",
+        "label": "NR 270 - MESSING MOF",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF27038",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF27054",
+        "label": "NR 270 - MESSING MOF",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF27054",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF27064",
+        "label": "NR 270 - MESSING MOF",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF27064",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p11__nr-270-messing-mof.webp"
+    ],
+    "variant_count": 11,
+    "default_variant_sku": "MF2701",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p11__nr-270-messing-mof.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p12-nr-280-messing-dubbele-nippel-webp",
+    "name": "NR 280 - MESSING DUBBELE NIPPEL (Page 12)",
+    "series_id": "nr-280-messing-dubbele-nippel",
+    "series_name": "NR 280 - MESSING DUBBELE NIPPEL",
+    "series_names": [
+      "NR 280 - MESSING DUBBELE NIPPEL"
+    ],
+    "family": "nr-280-messing-dubbele-nippel",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF2801",
+        "label": "NR 280 - MESSING DUBBELE NIPPEL",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF2801",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF28012",
+        "label": "NR 280 - MESSING DUBBELE NIPPEL",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF28012",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF28014",
+        "label": "NR 280 - MESSING DUBBELE NIPPEL",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "1/4\"",
+          "bestelnr": "MF28014",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF28018",
+        "label": "NR 280 - MESSING DUBBELE NIPPEL",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "1/8\"",
+          "bestelnr": "MF28018",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2802",
+        "label": "NR 280 - MESSING DUBBELE NIPPEL",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF2802",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF28025",
+        "label": "NR 280 - MESSING DUBBELE NIPPEL",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "2",
+          "bestelnr": "MF28025",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2803",
+        "label": "NR 280 - MESSING DUBBELE NIPPEL",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "3\"",
+          "bestelnr": "MF2803",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF28034",
+        "label": "NR 280 - MESSING DUBBELE NIPPEL",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF28034",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF28038",
+        "label": "NR 280 - MESSING DUBBELE NIPPEL",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF28038",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF28054",
+        "label": "NR 280 - MESSING DUBBELE NIPPEL",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF28054",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF28064",
+        "label": "NR 280 - MESSING DUBBELE NIPPEL",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF28064",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p12__nr-280-messing-dubbele-nippel.webp"
+    ],
+    "variant_count": 11,
+    "default_variant_sku": "MF2801",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p12__nr-280-messing-dubbele-nippel.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p12-nr-290-messing-plug-webp",
+    "name": "NR 290 - MESSING PLUG (Page 12)",
+    "series_id": "nr-290-messing-plug",
+    "series_name": "NR 290 - MESSING PLUG",
+    "series_names": [
+      "NR 290 - MESSING PLUG"
+    ],
+    "family": "nr-290-messing-plug",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF2901",
+        "label": "NR 290 - MESSING PLUG",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF2901",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF29012",
+        "label": "NR 290 - MESSING PLUG",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF29012",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF29014",
+        "label": "NR 290 - MESSING PLUG",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "1/4\"",
+          "bestelnr": "MF29014",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF29018",
+        "label": "NR 290 - MESSING PLUG",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "1/8\"",
+          "bestelnr": "MF29018",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2902",
+        "label": "NR 290 - MESSING PLUG",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF2902",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF29025",
+        "label": "NR 290 - MESSING PLUG",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "2",
+          "bestelnr": "MF29025",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF2903",
+        "label": "NR 290 - MESSING PLUG",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "3\"",
+          "bestelnr": "MF2903",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF29034",
+        "label": "NR 290 - MESSING PLUG",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF29034",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF29038",
+        "label": "NR 290 - MESSING PLUG",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF29038",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF29054",
+        "label": "NR 290 - MESSING PLUG",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF29054",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF29064",
+        "label": "NR 290 - MESSING PLUG",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF29064",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p12__nr-290-messing-plug.webp"
+    ],
+    "variant_count": 11,
+    "default_variant_sku": "MF2901",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p12__nr-290-messing-plug.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p13-nr-300-messing-dop-webp",
+    "name": "NR 300 - MESSING DOP (Page 13)",
+    "series_id": "nr-300-messing-dop",
+    "series_name": "NR 300 - MESSING DOP",
+    "series_names": [
+      "NR 300 - MESSING DOP"
+    ],
+    "family": "nr-300-messing-dop",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF3001",
+        "label": "NR 300 - MESSING DOP",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF3001",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF30012",
+        "label": "NR 300 - MESSING DOP",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF30012",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF30014",
+        "label": "NR 300 - MESSING DOP",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "size": "1/4\"",
+          "bestelnr": "MF30014",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF30018",
+        "label": "NR 300 - MESSING DOP",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "size": "1/8\"",
+          "bestelnr": "MF30018",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF3002",
+        "label": "NR 300 - MESSING DOP",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF3002",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF30034",
+        "label": "NR 300 - MESSING DOP",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF30034",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF30038",
+        "label": "NR 300 - MESSING DOP",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF30038",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF30054",
+        "label": "NR 300 - MESSING DOP",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF30054",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF30064",
+        "label": "NR 300 - MESSING DOP",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF30064",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p13__nr-300-messing-dop.webp"
+    ],
+    "variant_count": 9,
+    "default_variant_sku": "MF3001",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p13__nr-300-messing-dop.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p13-nr-310-messing-tegenmoer-webp",
+    "name": "NR 310 - MESSING TEGENMOER (Page 13)",
+    "series_id": "nr-310-messing-tegenmoer",
+    "series_name": "NR 310 - MESSING TEGENMOER",
+    "series_names": [
+      "NR 310 - MESSING TEGENMOER"
+    ],
+    "family": "nr-310-messing-tegenmoer",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF3101",
+        "label": "NR 310 - MESSING TEGENMOER",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF3101",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF31012",
+        "label": "NR 310 - MESSING TEGENMOER",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF31012",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF31014",
+        "label": "NR 310 - MESSING TEGENMOER",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "size": "1/4\"",
+          "bestelnr": "MF31014",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF3102",
+        "label": "NR 310 - MESSING TEGENMOER",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF3102",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF31034",
+        "label": "NR 310 - MESSING TEGENMOER",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF31034",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF31038",
+        "label": "NR 310 - MESSING TEGENMOER",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF31038",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF31054",
+        "label": "NR 310 - MESSING TEGENMOER",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF31054",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF31064",
+        "label": "NR 310 - MESSING TEGENMOER",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF31064",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p13__nr-310-messing-tegenmoer.webp"
+    ],
+    "variant_count": 8,
+    "default_variant_sku": "MF3101",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p13__nr-310-messing-tegenmoer.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p14-nr-340-messing-raccord-webp",
+    "name": "NR 340 - MESSING RACCORD (Page 14)",
+    "series_id": "nr-340-messing-raccord",
+    "series_name": "NR 340 - MESSING RACCORD",
+    "series_names": [
+      "NR 340 - MESSING RACCORD"
+    ],
+    "family": "nr-340-messing-raccord",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF3401",
+        "label": "NR 340 - MESSING RACCORD",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF3401",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF34012",
+        "label": "NR 340 - MESSING RACCORD",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF34012",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF3402",
+        "label": "NR 340 - MESSING RACCORD",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF3402",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF34034",
+        "label": "NR 340 - MESSING RACCORD",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF34034",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF34038",
+        "label": "NR 340 - MESSING RACCORD",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF34038",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF34054",
+        "label": "NR 340 - MESSING RACCORD",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF34054",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF34064",
+        "label": "NR 340 - MESSING RACCORD",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF34064",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p14__nr-340-messing-raccord.webp"
+    ],
+    "variant_count": 7,
+    "default_variant_sku": "MF3401",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p14__nr-340-messing-raccord.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p14-nr-341-messing-raccord-webp",
+    "name": "NR 341 - MESSING RACCORD (Page 14)",
+    "series_id": "nr-341-messing-raccord",
+    "series_name": "NR 341 - MESSING RACCORD",
+    "series_names": [
+      "NR 341 - MESSING RACCORD"
+    ],
+    "family": "nr-341-messing-raccord",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF3411",
+        "label": "NR 341 - MESSING RACCORD",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF3411",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF34112",
+        "label": "NR 341 - MESSING RACCORD",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF34112",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF34114",
+        "label": "NR 341 - MESSING RACCORD",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "size": "1/4\"",
+          "bestelnr": "MF34114",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF34118",
+        "label": "NR 341 - MESSING RACCORD",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "size": "1/8\"",
+          "bestelnr": "MF34118",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF3412",
+        "label": "NR 341 - MESSING RACCORD",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF3412",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF34134",
+        "label": "NR 341 - MESSING RACCORD",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF34134",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF34138",
+        "label": "NR 341 - MESSING RACCORD",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF34138",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF34154",
+        "label": "NR 341 - MESSING RACCORD",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF34154",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF34164",
+        "label": "NR 341 - MESSING RACCORD",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF34164",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p14__nr-341-messing-raccord.webp"
+    ],
+    "variant_count": 9,
+    "default_variant_sku": "MF3411",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p14__nr-341-messing-raccord.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p15-nr-471-messing-muurplaat-webp",
+    "name": "NR 471 - MESSING MUURPLAAT (Page 15)",
+    "series_id": "nr-471-messing-muurplaat",
+    "series_name": "NR 471 - MESSING MUURPLAAT",
+    "series_names": [
+      "NR 471 - MESSING MUURPLAAT"
+    ],
+    "family": "nr-471-messing-muurplaat",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF47112",
+        "label": "NR 471 - MESSING MUURPLAAT",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF47112",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF47134",
+        "label": "NR 471 - MESSING MUURPLAAT",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF47134",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p15__nr-471-messing-muurplaat.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "MF47112",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p15__nr-471-messing-muurplaat.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p15-nr-531-messing-nippel-glad-webp",
+    "name": "NR 531 - MESSING NIPPEL GLAD (Page 15)",
+    "series_id": "nr-531-messing-nippel-glad",
+    "series_name": "NR 531 - MESSING NIPPEL GLAD",
+    "series_names": [
+      "NR 531 - MESSING NIPPEL GLAD"
+    ],
+    "family": "nr-531-messing-nippel-glad",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF5311",
+        "label": "NR 531 - MESSING NIPPEL GLAD",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF5311",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF53112",
+        "label": "NR 531 - MESSING NIPPEL GLAD",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF53112",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF53114",
+        "label": "NR 531 - MESSING NIPPEL GLAD",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "size": "1/4\"",
+          "bestelnr": "MF53114",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF5312",
+        "label": "NR 531 - MESSING NIPPEL GLAD",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF5312",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF53134",
+        "label": "NR 531 - MESSING NIPPEL GLAD",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF53134",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF53154",
+        "label": "NR 531 - MESSING NIPPEL GLAD",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF53154",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF53164",
+        "label": "NR 531 - MESSING NIPPEL GLAD",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF53164",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p15__nr-531-messing-nippel-glad.webp"
+    ],
+    "variant_count": 7,
+    "default_variant_sku": "MF5311",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p15__nr-531-messing-nippel-glad.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p4-nr-90-messing-knie-90-webp",
+    "name": "NR 90 - MESSING KNIE 90° (Page 4)",
+    "series_id": "nr-90-messing-knie-90",
+    "series_name": "NR 90 - MESSING KNIE 90°",
+    "series_names": [
+      "NR 90 - MESSING KNIE 90°"
+    ],
+    "family": "nr-90-messing-knie-90",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF901",
+        "label": "NR 90 - MESSING KNIE 90°",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF901",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9012",
+        "label": "NR 90 - MESSING KNIE 90°",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF9012",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9014",
+        "label": "NR 90 - MESSING KNIE 90°",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "1/4\"",
+          "bestelnr": "MF9014",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF902",
+        "label": "NR 90 - MESSING KNIE 90°",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF902",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9034",
+        "label": "NR 90 - MESSING KNIE 90°",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF9034",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9038",
+        "label": "NR 90 - MESSING KNIE 90°",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF9038",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9054",
+        "label": "NR 90 - MESSING KNIE 90°",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF9054",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9064",
+        "label": "NR 90 - MESSING KNIE 90°",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF9064",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p4__nr-90-messing-knie-90.webp"
+    ],
+    "variant_count": 8,
+    "default_variant_sku": "MF901",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p4__nr-90-messing-knie-90.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p4-nr-92-messing-knie-90-webp",
+    "name": "NR 92 - MESSING KNIE 90° (Page 4)",
+    "series_id": "nr-92-messing-knie-90",
+    "series_name": "NR 92 - MESSING KNIE 90°",
+    "series_names": [
+      "NR 92 - MESSING KNIE 90°"
+    ],
+    "family": "nr-92-messing-knie-90",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF921",
+        "label": "NR 92 - MESSING KNIE 90°",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF921",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9212",
+        "label": "NR 92 - MESSING KNIE 90°",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF9212",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9214",
+        "label": "NR 92 - MESSING KNIE 90°",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "1/4\"",
+          "bestelnr": "MF9214",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF922",
+        "label": "NR 92 - MESSING KNIE 90°",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF922",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9234",
+        "label": "NR 92 - MESSING KNIE 90°",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF9234",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9238",
+        "label": "NR 92 - MESSING KNIE 90°",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF9238",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9254",
+        "label": "NR 92 - MESSING KNIE 90°",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF9254",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9264",
+        "label": "NR 92 - MESSING KNIE 90°",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF9264",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p4__nr-92-messing-knie-90.webp"
+    ],
+    "variant_count": 8,
+    "default_variant_sku": "MF921",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p4__nr-92-messing-knie-90.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p4-nr-94-messing-bocht-90-webp",
+    "name": "NR 94 - MESSING BOCHT 90° (Page 4)",
+    "series_id": "nr-94-messing-bocht-90",
+    "series_name": "NR 94 - MESSING BOCHT 90°",
+    "series_names": [
+      "NR 94 - MESSING BOCHT 90°"
+    ],
+    "family": "nr-94-messing-bocht-90",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF9412",
+        "label": "NR 94 - MESSING BOCHT 90°",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF9412",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p4__nr-94-messing-bocht-90.webp"
+    ],
+    "variant_count": 1,
+    "default_variant_sku": "MF9412",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p4__nr-94-messing-bocht-90.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p5-nr-96-messing-kniekoppeling-webp",
+    "name": "NR 96 - MESSING KNIEKOPPELING (Page 5)",
+    "series_id": "nr-96-messing-kniekoppeling",
+    "series_name": "NR 96 - MESSING KNIEKOPPELING",
+    "series_names": [
+      "NR 96 - MESSING KNIEKOPPELING"
+    ],
+    "family": "nr-96-messing-kniekoppeling",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF961",
+        "label": "NR 96 - MESSING KNIEKOPPELING",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF961",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9612",
+        "label": "NR 96 - MESSING KNIEKOPPELING",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF9612",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF962",
+        "label": "NR 96 - MESSING KNIEKOPPELING",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF962",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9634",
+        "label": "NR 96 - MESSING KNIEKOPPELING",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF9634",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9638",
+        "label": "NR 96 - MESSING KNIEKOPPELING",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF9638",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9654",
+        "label": "NR 96 - MESSING KNIEKOPPELING",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF9654",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9664",
+        "label": "NR 96 - MESSING KNIEKOPPELING",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF9664",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p5__nr-96-messing-kniekoppeling.webp"
+    ],
+    "variant_count": 7,
+    "default_variant_sku": "MF961",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p5__nr-96-messing-kniekoppeling.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-images-messing-draadfittingen-messing-draadfittingen-p5-nr-98-messing-kniekoppeling-webp",
+    "name": "NR 98 - MESSING KNIEKOPPELING (Page 5)",
+    "series_id": "nr-98-messing-kniekoppeling",
+    "series_name": "NR 98 - MESSING KNIEKOPPELING",
+    "series_names": [
+      "NR 98 - MESSING KNIEKOPPELING"
+    ],
+    "family": "nr-98-messing-kniekoppeling",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MF981",
+        "label": "NR 98 - MESSING KNIEKOPPELING",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "1\"",
+          "bestelnr": "MF981",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9812",
+        "label": "NR 98 - MESSING KNIEKOPPELING",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "1/2\"",
+          "bestelnr": "MF9812",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF982",
+        "label": "NR 98 - MESSING KNIEKOPPELING",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "2\"",
+          "bestelnr": "MF982",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9834",
+        "label": "NR 98 - MESSING KNIEKOPPELING",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "3/4\"",
+          "bestelnr": "MF9834",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9838",
+        "label": "NR 98 - MESSING KNIEKOPPELING",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "3/8\"",
+          "bestelnr": "MF9838",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9854",
+        "label": "NR 98 - MESSING KNIEKOPPELING",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "5/4\"",
+          "bestelnr": "MF9854",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MF9864",
+        "label": "NR 98 - MESSING KNIEKOPPELING",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "6/4\"",
+          "bestelnr": "MF9864",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "mf"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p5__nr-98-messing-kniekoppeling.webp"
+    ],
+    "variant_count": 7,
+    "default_variant_sku": "MF981",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p5__nr-98-messing-kniekoppeling.webp"
+      }
+    ]
+  }
+]

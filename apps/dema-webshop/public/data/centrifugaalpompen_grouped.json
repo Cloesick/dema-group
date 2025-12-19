@@ -1,0 +1,5088 @@
+[
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p13-centrifugaalpompen-pdf-webp",
+    "name": "huishoudelijk, industrieel, wasinstallaties, (Page 13)",
+    "series_id": "centrifugaalpompen__huishoudelijk-industrieel-wasinstallaties",
+    "series_name": "huishoudelijk, industrieel, wasinstallaties,",
+    "series_names": [
+      "huishoudelijk, industrieel, wasinstallaties,"
+    ],
+    "family": "centrifugaalpompen__huishoudelijk-industrieel-wasinstallaties",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "03730025",
+        "label": "huishoudelijk, industrieel, wasinstallaties,",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "03730025",
+          "debiet_m3_h": "7,2 m3/h",
+          "aanzuig": "6/4”",
+          "opvoerhoogte_m": "50 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "5/4”",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, wasinstallaties,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730026",
+        "label": "huishoudelijk, industrieel, wasinstallaties,",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "03730026",
+          "debiet_m3_h": "7,2 m3/h",
+          "aanzuig": "6/4”",
+          "opvoerhoogte_m": "56 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,5 kW",
+          "aanzuigdiepte_m": "5/4”",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, wasinstallaties,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730027",
+        "label": "huishoudelijk, industrieel, wasinstallaties,",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "03730027",
+          "debiet_m3_h": "7,2 m3/h",
+          "aanzuig": "6/4”",
+          "opvoerhoogte_m": "56 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,5 kW",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, wasinstallaties,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730028",
+        "label": "huishoudelijk, industrieel, wasinstallaties,",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "03730028",
+          "debiet_m3_h": "8,4 m3/h",
+          "aanzuig": "6/4”",
+          "opvoerhoogte_m": "62 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "2,2 kW",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, wasinstallaties,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730052",
+        "label": "huishoudelijk, industrieel, wasinstallaties,",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "03730052",
+          "debiet_m3_h": "3,6 m3/h",
+          "aanzuig": "1”",
+          "opvoerhoogte_m": "43 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "9 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, wasinstallaties,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730053",
+        "label": "huishoudelijk, industrieel, wasinstallaties,",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "03730053",
+          "debiet_m3_h": "7,2 m3/h",
+          "aanzuig": "6/4”",
+          "opvoerhoogte_m": "50 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "9 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, wasinstallaties,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730147",
+        "label": "huishoudelijk, industrieel, wasinstallaties,",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "03730147",
+          "debiet_m3_h": "8,4 m3/h",
+          "aanzuig": "6/4”",
+          "opvoerhoogte_m": "62 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "5/4”",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, wasinstallaties,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730249",
+        "label": "huishoudelijk, industrieel, wasinstallaties,",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "03730249",
+          "debiet_m3_h": "3,6 l/m m3/h",
+          "aanzuig": "1”",
+          "opvoerhoogte_m": "43 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "1”",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, wasinstallaties,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p13__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 8,
+    "default_variant_sku": "03730025",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p13__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p25-centrifugaalpompen-pdf-webp",
+    "name": "beregening, groot debiet (Page 25)",
+    "series_id": "centrifugaalpompen__beregening-groot-debiet",
+    "series_name": "beregening, groot debiet",
+    "series_names": [
+      "beregening, groot debiet"
+    ],
+    "family": "centrifugaalpompen__beregening-groot-debiet",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "03730160",
+        "label": "beregening, groot debiet",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "AGRI 200",
+          "bestelnr": "03730160",
+          "debiet_m3_h": "24,0 m3/h",
+          "opvoerhoogte_m": "28 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,5 kW",
+          "connection": "2”",
+          "aanzuigdiepte_m": "25 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "beregening, groot debiet",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met hoge",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730162",
+        "label": "beregening, groot debiet",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "AGRI 300",
+          "bestelnr": "03730162",
+          "debiet_m3_h": "36,0 m3/h",
+          "opvoerhoogte_m": "33 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "2,2 kW",
+          "connection": "2”",
+          "aanzuigdiepte_m": "26 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "beregening, groot debiet",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met hoge",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p25__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "03730160",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p25__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p18-centrifugaalpompen-pdf-webp",
+    "name": "drukverhoging, huishoudelijk, industrieel (Page 18)",
+    "series_id": "centrifugaalpompen__drukverhoging-huishoudelijk-industrieel",
+    "series_name": "drukverhoging, huishoudelijk, industrieel",
+    "series_names": [
+      "drukverhoging, huishoudelijk, industrieel"
+    ],
+    "family": "centrifugaalpompen__drukverhoging-huishoudelijk-industrieel",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "03730163",
+        "label": "drukverhoging, huishoudelijk, industrieel",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "CM100",
+          "bestelnr": "03730163",
+          "debiet_m3_h": "6,0 m3/h",
+          "aanzuig": "1”",
+          "opvoerhoogte_m": "49 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "11 kg",
+          "material": null,
+          "sku_series": "cm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "drukverhoging, huishoudelijk, industrieel",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730165",
+        "label": "drukverhoging, huishoudelijk, industrieel",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "CM200",
+          "bestelnr": "03730165",
+          "debiet_m3_h": "7,2 m3/h",
+          "aanzuig": "5/4”",
+          "opvoerhoogte_m": "60 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "1,5 kW",
+          "aanzuigdiepte_m": "15 kg",
+          "material": null,
+          "sku_series": "cm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "drukverhoging, huishoudelijk, industrieel",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p18__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "03730163",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p18__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p26-centrifugaalpompen-pdf-webp",
+    "name": "drukverhoging, huishoudelijk, industrieel, (Page 26)",
+    "series_id": "centrifugaalpompen__drukverhoging-huishoudelijk-industrieel",
+    "series_name": "drukverhoging, huishoudelijk, industrieel,",
+    "series_names": [
+      "drukverhoging, huishoudelijk, industrieel,"
+    ],
+    "family": "centrifugaalpompen__drukverhoging-huishoudelijk-industrieel",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "MAT2CB70NT",
+        "label": "drukverhoging, huishoudelijk, industrieel,",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "MAT2CB70NT",
+          "debiet_m3_h": "9 m3/h",
+          "aanzuig": "5/4”",
+          "opvoerhoogte_m": "63 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "63 m",
+          "material": null,
+          "sku_series": "mat"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "11 bar",
+          "spec_application_desc": "drukverhoging, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met dubbele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MAT2CB71T",
+        "label": "drukverhoging, huishoudelijk, industrieel,",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "MAT2CB71T",
+          "debiet_m3_h": "12 m3/h",
+          "aanzuig": "6/4”",
+          "opvoerhoogte_m": "65,2 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "3,0 kW",
+          "aanzuigdiepte_m": "41,0 kg",
+          "material": null,
+          "sku_series": "mat"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "11 bar",
+          "spec_application_desc": "drukverhoging, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met dubbele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MAT2CB72T",
+        "label": "drukverhoging, huishoudelijk, industrieel,",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "MAT2CB72T",
+          "debiet_m3_h": "12 m3/h",
+          "aanzuig": "6/4”",
+          "opvoerhoogte_m": "79,1 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "4,0 kW",
+          "aanzuigdiepte_m": "1 m",
+          "material": null,
+          "sku_series": "mat"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "11 bar",
+          "spec_application_desc": "drukverhoging, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met dubbele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MAT2CB73T",
+        "label": "drukverhoging, huishoudelijk, industrieel,",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "MAT2CB73T",
+          "debiet_m3_h": "15 m3/h",
+          "aanzuig": "6/4”",
+          "opvoerhoogte_m": "89 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "5,5 kW",
+          "aanzuigdiepte_m": "50,5 kg",
+          "material": null,
+          "sku_series": "mat"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "11 bar",
+          "spec_application_desc": "drukverhoging, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met dubbele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MAT2CBT74",
+        "label": "drukverhoging, huishoudelijk, industrieel,",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "MAT2CBT74",
+          "debiet_m3_h": "30 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "76,5 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "5,5 kW",
+          "aanzuigdiepte_m": "5 m",
+          "material": null,
+          "sku_series": "mat"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "11 bar",
+          "spec_application_desc": "drukverhoging, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met dubbele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MAT2CBT75",
+        "label": "drukverhoging, huishoudelijk, industrieel,",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "MAT2CBT75",
+          "debiet_m3_h": "30 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "86,1 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "7,5 kW",
+          "aanzuigdiepte_m": "77,0 kg",
+          "material": null,
+          "sku_series": "mat"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "11 bar",
+          "spec_application_desc": "drukverhoging, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met dubbele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MAT2CBT76",
+        "label": "drukverhoging, huishoudelijk, industrieel,",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "MAT2CBT76",
+          "debiet_m3_h": "30 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "93,1 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "9,2 kW",
+          "aanzuigdiepte_m": "1 m",
+          "material": null,
+          "sku_series": "mat"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "11 bar",
+          "spec_application_desc": "drukverhoging, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met dubbele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MAT2CBT77",
+        "label": "drukverhoging, huishoudelijk, industrieel,",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "MAT2CBT77",
+          "debiet_m3_h": "36 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "98,6 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "11,0 kW",
+          "aanzuigdiepte_m": "92,0 kg",
+          "material": null,
+          "sku_series": "mat"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "11 bar",
+          "spec_application_desc": "drukverhoging, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met dubbele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MAT2CD68",
+        "label": "drukverhoging, huishoudelijk, industrieel,",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "MAT2CD68",
+          "debiet_m3_h": "7,5 m3/h",
+          "aanzuig": "5/4”",
+          "opvoerhoogte_m": "52 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "52 m",
+          "material": null,
+          "sku_series": "mat"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "11 bar",
+          "spec_application_desc": "drukverhoging, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met dubbele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MAT2CD68T",
+        "label": "drukverhoging, huishoudelijk, industrieel,",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "MAT2CD68T",
+          "debiet_m3_h": "7,5 m3/h",
+          "aanzuig": "5/4”",
+          "opvoerhoogte_m": "52 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "24,7 kg",
+          "material": null,
+          "sku_series": "mat"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "11 bar",
+          "spec_application_desc": "drukverhoging, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met dubbele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MAT2CD69M",
+        "label": "drukverhoging, huishoudelijk, industrieel,",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "MAT2CD69M",
+          "debiet_m3_h": "7,5 m3/h",
+          "aanzuig": "5/4”",
+          "opvoerhoogte_m": "56 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,5 kW",
+          "material": null,
+          "sku_series": "mat"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "11 bar",
+          "spec_application_desc": "drukverhoging, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met dubbele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MAT2CD69NT",
+        "label": "drukverhoging, huishoudelijk, industrieel,",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "centrifugal_pump",
+          "bestelnr": "MAT2CD69NT",
+          "debiet_m3_h": "7,5 m3/h",
+          "aanzuig": "5/4”",
+          "opvoerhoogte_m": "56 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,5 kW",
+          "aanzuigdiepte_m": "25,6 kg",
+          "material": null,
+          "sku_series": "mat"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "11 bar",
+          "spec_application_desc": "drukverhoging, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met dubbele",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p26__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 12,
+    "default_variant_sku": "MAT2CB70NT",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p26__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p6-centrifugaalpompen-pdf-webp",
+    "name": "landbouw, semi-industrieel (Page 6)",
+    "series_id": "centrifugaalpompen__landbouw-semi-industrieel",
+    "series_name": "landbouw, semi-industrieel",
+    "series_names": [
+      "landbouw, semi-industrieel"
+    ],
+    "family": "centrifugaalpompen__landbouw-semi-industrieel",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "MATCAB200",
+        "label": "landbouw, semi-industrieel",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "TF",
+          "bestelnr": "MATCAB200",
+          "debiet_m3_h": "6,0 m3/h",
+          "opvoerhoogte_m": "40,0 - 61,0 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,65 kW",
+          "aanzuigdiepte_m": "9 m",
+          "material": null,
+          "sku_series": "matcab"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "landbouw, semi-industrieel",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met dubbele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCABT150",
+        "label": "landbouw, semi-industrieel",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "TEt",
+          "bestelnr": "MATCABT150",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "35,0 - 61,0 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "27,9 kg",
+          "material": null,
+          "sku_series": "matcabt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "landbouw, semi-industrieel",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met dubbele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCABT200",
+        "label": "landbouw, semi-industrieel",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "TFt",
+          "bestelnr": "MATCABT200",
+          "debiet_m3_h": "6,0 m3/h",
+          "opvoerhoogte_m": "40,0 - 61,0 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "1,65 kW",
+          "aanzuigdiepte_m": "28,7 kg",
+          "material": null,
+          "sku_series": "matcabt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "landbouw, semi-industrieel",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met dubbele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATTGT",
+        "label": "landbouw, semi-industrieel",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "TGt",
+          "bestelnr": "MATTGT",
+          "debiet_m3_h": "8,4 m3/h",
+          "opvoerhoogte_m": "32,0 - 64,0 m",
+          "spanning_v": "3x230/400 V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "29,6 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "landbouw, semi-industrieel",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met dubbele",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p6__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "MATCAB200",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p6__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p22-centrifugaalpompen-pdf-webp",
+    "name": "huishoudelijk, industrieel, landbouw, ver- (Page 22)",
+    "series_id": "centrifugaalpompen__huishoudelijk-industrieel-landbouw-ver",
+    "series_name": "huishoudelijk, industrieel, landbouw, ver-",
+    "series_names": [
+      "huishoudelijk, industrieel, landbouw, ver-"
+    ],
+    "family": "centrifugaalpompen__huishoudelijk-industrieel-landbouw-ver",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "MATCD65",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "CD 65",
+          "bestelnr": "MATCD65",
+          "debiet_m3_h": "5,4 m3/h",
+          "aanzuig": "1”",
+          "opvoerhoogte_m": "12,0 - 21,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,37 kW",
+          "aanzuigdiepte_m": "5 m",
+          "material": null,
+          "sku_series": "matcd"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "CD 65-67= 50°C / CD 68-72= 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCD67",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "CD 67",
+          "bestelnr": "MATCD67",
+          "debiet_m3_h": "6,3 m3/h",
+          "aanzuig": "1”",
+          "opvoerhoogte_m": "21,0 - 33,0 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,74 kW",
+          "aanzuigdiepte_m": "0 m",
+          "material": null,
+          "sku_series": "matcd"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "CD 65-67= 50°C / CD 68-72= 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCD69",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "CD 69",
+          "bestelnr": "MATCD69",
+          "debiet_m3_h": "7,2 m3/h",
+          "aanzuig": "1”",
+          "opvoerhoogte_m": "35,0 - 50,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,5 kW",
+          "aanzuigdiepte_m": "5 m",
+          "material": null,
+          "sku_series": "matcd"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "CD 65-67= 50°C / CD 68-72= 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCD70",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "CD70",
+          "bestelnr": "MATCD70",
+          "debiet_m3_h": "8,4 m3/h",
+          "aanzuig": "1”",
+          "opvoerhoogte_m": "35,0 - 58,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "5 m",
+          "material": null,
+          "sku_series": "matcd"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "CD 65-67= 50°C / CD 68-72= 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCD71",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "CD 71",
+          "bestelnr": "MATCD71",
+          "debiet_m3_h": "15 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "32,5 - 46,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "3,0 kW",
+          "aanzuigdiepte_m": "15 m",
+          "material": null,
+          "sku_series": "matcd"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "CD 65-67= 50°C / CD 68-72= 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCDT65",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "CDT 65",
+          "bestelnr": "MATCDT65",
+          "debiet_m3_h": "5,4 m3/h",
+          "aanzuig": "1”",
+          "opvoerhoogte_m": "12,0 - 21,5 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "0,37 kW",
+          "aanzuigdiepte_m": "9,0 kg",
+          "material": null,
+          "sku_series": "matcdt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "CD 65-67= 50°C / CD 68-72= 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCDT66",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "CDT 66",
+          "bestelnr": "MATCDT66",
+          "debiet_m3_h": "6,3 m3/h",
+          "aanzuig": "1”",
+          "opvoerhoogte_m": "14,0 - 26,5 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "0,59 kW",
+          "aanzuigdiepte_m": "12,7 kg",
+          "material": null,
+          "sku_series": "matcdt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "CD 65-67= 50°C / CD 68-72= 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCDT67",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "CDT 67",
+          "bestelnr": "MATCDT67",
+          "debiet_m3_h": "6,3 m3/h",
+          "aanzuig": "1”",
+          "opvoerhoogte_m": "21,0 - 33,0 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "0,74 kW",
+          "aanzuigdiepte_m": "14,0 kg",
+          "material": null,
+          "sku_series": "matcdt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "CD 65-67= 50°C / CD 68-72= 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCDT68",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "CDT 68",
+          "bestelnr": "MATCDT68",
+          "debiet_m3_h": "6,3 m3/h",
+          "aanzuig": "1”",
+          "opvoerhoogte_m": "27,5 - 40,5 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "22,5 kg",
+          "material": null,
+          "sku_series": "matcdt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "CD 65-67= 50°C / CD 68-72= 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCDT69",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "CDT 69",
+          "bestelnr": "MATCDT69",
+          "debiet_m3_h": "7,2 m3/h",
+          "aanzuig": "1”",
+          "opvoerhoogte_m": "35,0 - 50,5 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "1,5 kW",
+          "aanzuigdiepte_m": "23,0 kg",
+          "material": null,
+          "sku_series": "matcdt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "CD 65-67= 50°C / CD 68-72= 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCDT70",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "CDT 70",
+          "bestelnr": "MATCDT70",
+          "debiet_m3_h": "8,4 m3/h",
+          "aanzuig": "1”",
+          "opvoerhoogte_m": "35,0 - 58,5 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "23,5 kg",
+          "material": null,
+          "sku_series": "matcdt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "CD 65-67= 50°C / CD 68-72= 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCDT71",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "CDT 71",
+          "bestelnr": "MATCDT71",
+          "debiet_m3_h": "15 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "32,5 - 46,5 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "3,0 kW",
+          "aanzuigdiepte_m": "39,8 kg",
+          "material": null,
+          "sku_series": "matcdt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "CD 65-67= 50°C / CD 68-72= 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCDT72",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "CDT 72",
+          "bestelnr": "MATCDT72",
+          "debiet_m3_h": "18 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "40,0 - 56,1 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "4,0 kW",
+          "aanzuigdiepte_m": "1 m",
+          "material": null,
+          "sku_series": "matcdt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "CD 65-67= 50°C / CD 68-72= 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p22__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 13,
+    "default_variant_sku": "MATCD65",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p22__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p23-centrifugaalpompen-pdf-webp",
+    "name": "huishoudelijk, industrieel, landbouw, ver- / NORMAAL AANZUIGENDE POMPEN (Page 24)",
+    "series_id": "centrifugaalpompen__huishoudelijk-industrieel-landbouw-ver",
+    "series_name": "huishoudelijk, industrieel, landbouw, ver-",
+    "series_names": [
+      "huishoudelijk, industrieel, landbouw, ver-",
+      "NORMAAL AANZUIGENDE POMPEN"
+    ],
+    "family": "centrifugaalpompen__huishoudelijk-industrieel-landbouw-ver",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "MATCM32160B",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM32/160B 3 pK*",
+          "bestelnr": "MATCM32160B",
+          "debiet_m3_h": "6,0-24,0 m3/h",
+          "aanzuig": "DN 50",
+          "opvoerhoogte_m": "14,8-29,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "39,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM32200A",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM32/200A 10 pK",
+          "bestelnr": "MATCM32200A",
+          "debiet_m3_h": "6,0-36,0 m3/h",
+          "aanzuig": "DN 50",
+          "opvoerhoogte_m": "38,5-61,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "7,5 kW",
+          "aanzuigdiepte_m": "69,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM32200A1",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM32/200A1 10 pK",
+          "bestelnr": "MATCM32200A1",
+          "debiet_m3_h": "6,0-36,0 m3/h",
+          "aanzuig": "DN 50",
+          "opvoerhoogte_m": "33,0-56,5 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "7,5 kW",
+          "aanzuigdiepte_m": "5 m",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM32200B",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM32/200B 7,5 pK",
+          "bestelnr": "MATCM32200B",
+          "debiet_m3_h": "6,0-36,0 m3/h",
+          "aanzuig": "DN 50",
+          "opvoerhoogte_m": "28,7-52,8 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "5,5 kW",
+          "aanzuigdiepte_m": "63,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM32200B1",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM32/200B1 7,5 pK",
+          "bestelnr": "MATCM32200B1",
+          "debiet_m3_h": "6,0-33,0 m3/h",
+          "aanzuig": "DN 50",
+          "opvoerhoogte_m": "28,6-48,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "5,5 kW",
+          "aanzuigdiepte_m": "0 m",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM32200C",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM32/200C 5,5 pK",
+          "bestelnr": "MATCM32200C",
+          "debiet_m3_h": "6,0-27,0 m3/h",
+          "aanzuig": "DN 50",
+          "opvoerhoogte_m": "27,0-41,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "4,0 kW",
+          "aanzuigdiepte_m": "51,5 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM32250A",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM32/250A 20 pK",
+          "bestelnr": "MATCM32250A",
+          "debiet_m3_h": "7,5-30,0 m3/h",
+          "aanzuig": "DN 50",
+          "opvoerhoogte_m": "80,0-93,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "15,0 kW",
+          "aanzuigdiepte_m": "120,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM32250A1",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM32/250A1 20 pK",
+          "bestelnr": "MATCM32250A1",
+          "debiet_m3_h": "7,5-30,0 m3/h",
+          "aanzuig": "DN 50",
+          "opvoerhoogte_m": "75,5-91,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "15,0 kW",
+          "aanzuigdiepte_m": "0 m",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM32250B",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM32/250B 15,0 pK",
+          "bestelnr": "MATCM32250B",
+          "debiet_m3_h": "7,5-30,0 m3/h",
+          "aanzuig": "DN 50",
+          "opvoerhoogte_m": "66,5-82,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "11,0 kW",
+          "aanzuigdiepte_m": "90,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM40125B",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM40/125B 3,0 pK*",
+          "bestelnr": "MATCM40125B",
+          "debiet_m3_h": "9,0-33,0 m3/h",
+          "aanzuig": "DN 65",
+          "opvoerhoogte_m": "17,0 -20,7 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "37,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM40160B",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM40/160B 4 pK",
+          "bestelnr": "MATCM40160B",
+          "debiet_m3_h": "9,0-36,0 m3/h",
+          "aanzuig": "DN 65",
+          "opvoerhoogte_m": "21,0-30,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "3,0 kW",
+          "aanzuigdiepte_m": "47,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM40200A2",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM40/200A 10 pK",
+          "bestelnr": "MATCM40200A2",
+          "debiet_m3_h": "9,0-42,0 m3/h",
+          "aanzuig": "DN 65",
+          "opvoerhoogte_m": "43,9-56,4 m",
+          "spanning_v": "230/400V",
+          "vermogen_kw": "7,5 kW",
+          "aanzuigdiepte_m": "71,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM40200A3",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM40/200A 10 pK",
+          "bestelnr": "MATCM40200A3",
+          "debiet_m3_h": "9,0-42,0 m3/h",
+          "aanzuig": "DN 65",
+          "opvoerhoogte_m": "43,9-56,4 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "7,5 kW",
+          "aanzuigdiepte_m": "4 m",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM40200B2",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM40/200B 7.5 pK",
+          "bestelnr": "MATCM40200B2",
+          "debiet_m3_h": "9,0-39,0 m3/h",
+          "aanzuig": "DN 65",
+          "opvoerhoogte_m": "33,4-46,7 m",
+          "spanning_v": "230/400V",
+          "vermogen_kw": "5,5 kW",
+          "aanzuigdiepte_m": "65,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM40200B3",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM40/200B 7,5 pK",
+          "bestelnr": "MATCM40200B3",
+          "debiet_m3_h": "9,0-39,0 m3/h",
+          "aanzuig": "DN 65",
+          "opvoerhoogte_m": "33,4-46,7 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "5,5 kW",
+          "aanzuigdiepte_m": "7 m",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM40250A1",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM40/250A1 20 pK",
+          "bestelnr": "MATCM40250A1",
+          "debiet_m3_h": "9,0-42,0 m3/h",
+          "aanzuig": "DN 65",
+          "opvoerhoogte_m": "65,8-85,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "15,0 kW",
+          "aanzuigdiepte_m": "96,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM40250C",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM40/250C 12,5 pK",
+          "bestelnr": "MATCM40250C",
+          "debiet_m3_h": "9,0-42,0 m3/h",
+          "aanzuig": "DN 65",
+          "opvoerhoogte_m": "45,5-65,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "9,2 kW",
+          "aanzuigdiepte_m": "84,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM50125B",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM50/125B 4 pK",
+          "bestelnr": "MATCM50125B",
+          "debiet_m3_h": "12,0-72,0 m3/h",
+          "aanzuig": "DN 65",
+          "opvoerhoogte_m": "11,2-19,9 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "3,0 kW",
+          "aanzuigdiepte_m": "47,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM50160A1",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM50/160A1 10 pK",
+          "bestelnr": "MATCM50160A1",
+          "debiet_m3_h": "21,0-78,0 m3/h",
+          "aanzuig": "DN 65",
+          "opvoerhoogte_m": "19,0-34,3 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "7,5 kW",
+          "aanzuigdiepte_m": "69,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM50160B1",
+        "label": "huishoudelijk, industrieel, landbouw, ver-",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "CM50/160B1 7,5 pK",
+          "bestelnr": "MATCM50160B1",
+          "debiet_m3_h": "21,0-78,0 m3/h",
+          "aanzuig": "DN 65",
+          "opvoerhoogte_m": "13,2-29,3 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "5,5 kW",
+          "aanzuigdiepte_m": "63,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, ver-",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCM50200A",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM50/200A 20 pK",
+          "bestelnr": "MATCM50200A",
+          "debiet_m3_h": "24,0-78,0 m3/h",
+          "aanzuig": "DN 65",
+          "opvoerhoogte_m": "38,8-58,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "15,0 kW",
+          "aanzuigdiepte_m": "122,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM50200A1",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM50/200A1 20 pK",
+          "bestelnr": "MATCM50200A1",
+          "debiet_m3_h": "24,0-72,0 m3/h",
+          "aanzuig": "DN 65",
+          "opvoerhoogte_m": "40,0-57,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "15,0 kW",
+          "aanzuigdiepte_m": "0 m",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM50200B",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM50/200B 15 pK",
+          "bestelnr": "MATCM50200B",
+          "debiet_m3_h": "24,0-72,0 m3/h",
+          "aanzuig": "DN 65",
+          "opvoerhoogte_m": "32,0-50,8 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "11,0 kW",
+          "aanzuigdiepte_m": "89,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM50250B",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM50/250B 25 pK",
+          "bestelnr": "MATCM50250B",
+          "debiet_m3_h": "27,0-78,0 m3/h",
+          "aanzuig": "DN 65",
+          "opvoerhoogte_m": "58,3-78,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "18,5 kW",
+          "aanzuigdiepte_m": "140,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM65125A1",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM65/125A1 10 pK",
+          "bestelnr": "MATCM65125A1",
+          "debiet_m3_h": "30,0-120,0 m3/h",
+          "aanzuig": "DN 80",
+          "opvoerhoogte_m": "15,7-23,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "7,5 kW",
+          "aanzuigdiepte_m": "68,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM65125B1",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM65/125B1 7,5 pK",
+          "bestelnr": "MATCM65125B1",
+          "debiet_m3_h": "30,0-120,0 m3/h",
+          "aanzuig": "DN 80",
+          "opvoerhoogte_m": "11,1-19,4 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "5,5 kW",
+          "aanzuigdiepte_m": "62,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM65160A",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM65/160A 20 pK",
+          "bestelnr": "MATCM65160A",
+          "debiet_m3_h": "42,0-144,0 m3/h",
+          "aanzuig": "DN 80",
+          "opvoerhoogte_m": "29,8-39,2 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "15,0 kW",
+          "aanzuigdiepte_m": "120,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM65160A1",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM65/160A1 20 pK",
+          "bestelnr": "MATCM65160A1",
+          "debiet_m3_h": "42,0-144,0 m3/h",
+          "aanzuig": "DN 80",
+          "opvoerhoogte_m": "25,7-37,1 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "15,0 kW",
+          "aanzuigdiepte_m": "1 m",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM65160B",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM65/160B 15 pK",
+          "bestelnr": "MATCM65160B",
+          "debiet_m3_h": "42,0-144,0 m3/h",
+          "aanzuig": "DN 80",
+          "opvoerhoogte_m": "21,1-33,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "11,0 kW",
+          "aanzuigdiepte_m": "90,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM65160C2",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM65/160C 12,5 pK",
+          "bestelnr": "MATCM65160C2",
+          "debiet_m3_h": "42,0-144,0 m3/h",
+          "aanzuig": "DN 80",
+          "opvoerhoogte_m": "16,0-29,8 m",
+          "spanning_v": "230/400V",
+          "vermogen_kw": "9,2 kW",
+          "aanzuigdiepte_m": "8 m",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM65160C3",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM65/160C 12,5 pK",
+          "bestelnr": "MATCM65160C3",
+          "debiet_m3_h": "42,0-144,0 m3/h",
+          "aanzuig": "DN 80",
+          "opvoerhoogte_m": "16,0-29,8 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "9,2 kW",
+          "aanzuigdiepte_m": "84,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM65200A",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM65/200A 30 pK",
+          "bestelnr": "MATCM65200A",
+          "debiet_m3_h": "54,0-144,0 m3/h",
+          "aanzuig": "DN 80",
+          "opvoerhoogte_m": "44,0-54,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "22,0 kW",
+          "aanzuigdiepte_m": "148,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM65200C",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM65/200C 20 pK",
+          "bestelnr": "MATCM65200C",
+          "debiet_m3_h": "54,0-132,0 m3/h",
+          "aanzuig": "DN 80",
+          "opvoerhoogte_m": "32,0-42,3 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "15,0 kW",
+          "aanzuigdiepte_m": "122,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM65200C1",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM65/200C1 20 pK",
+          "bestelnr": "MATCM65200C1",
+          "debiet_m3_h": "54,0-132,0 m3/h",
+          "aanzuig": "DN 80",
+          "opvoerhoogte_m": "27,8-39,7 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "15,0 kW",
+          "aanzuigdiepte_m": "7 m",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM65250A",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM65/250A 50 pK",
+          "bestelnr": "MATCM65250A",
+          "debiet_m3_h": "54,0-156,0 m3/h",
+          "aanzuig": "DN 80",
+          "opvoerhoogte_m": "54,0-90,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "37,0 kW",
+          "aanzuigdiepte_m": "253,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM80160A",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM80/160A 30 pK",
+          "bestelnr": "MATCM80160A",
+          "debiet_m3_h": "66,0-225,0 m3/h",
+          "aanzuig": "DN 100",
+          "opvoerhoogte_m": "23,5-38,8 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "22,5 kW",
+          "aanzuigdiepte_m": "152,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM80160C",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM80/160C 20 pK",
+          "bestelnr": "MATCM80160C",
+          "debiet_m3_h": "66,0-195,0 m3/h",
+          "aanzuig": "DN 100",
+          "opvoerhoogte_m": "17,2-29,7 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "15,0 kW",
+          "aanzuigdiepte_m": "129,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM80160C1",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM80/160C1 20 pK",
+          "bestelnr": "MATCM80160C1",
+          "debiet_m3_h": "66,0-195,0 m3/h",
+          "aanzuig": "DN 100",
+          "opvoerhoogte_m": "15,2-28,5 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "15,0 kW",
+          "aanzuigdiepte_m": "5 m",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM80160D",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM80/160D 15 pK",
+          "bestelnr": "MATCM80160D",
+          "debiet_m3_h": "66,0-180,0 m3/h",
+          "aanzuig": "DN 100",
+          "opvoerhoogte_m": "15,1-25,4 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "11,0 kW",
+          "aanzuigdiepte_m": "98,5 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      },
+      {
+        "sku": "MATCM80200A",
+        "label": "NORMAAL AANZUIGENDE POMPEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "CM80/200A 50 pK",
+          "bestelnr": "MATCM80200A",
+          "debiet_m3_h": "96,0-240,0 m3/h",
+          "aanzuig": "DN 100",
+          "opvoerhoogte_m": "46,1-58,1 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "37,0 kW",
+          "aanzuigdiepte_m": "247,0 kg",
+          "material": null,
+          "sku_series": "matcm"
+        },
+        "attributes": {
+          "application": "NORMAAL AANZUIGENDE POMPEN"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p23__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 40,
+    "default_variant_sku": "MATCM32160B",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p23__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p20-centrifugaalpompen-pdf-webp",
+    "name": "drukverhoging (Page 20)",
+    "series_id": "centrifugaalpompen__drukverhoging",
+    "series_name": "drukverhoging",
+    "series_names": [
+      "drukverhoging"
+    ],
+    "family": "centrifugaalpompen__drukverhoging",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "MATCP75",
+        "label": "drukverhoging",
+        "page": 20,
+        "page_in_pdf": 20,
+        "properties": {
+          "type": "CP 75 0,8 pK",
+          "bestelnr": "MATCP75",
+          "debiet_m3_h": "0,3 - 3,0 m3/h",
+          "aanzuig": "1”",
+          "opvoerhoogte_m": "18,0 - 61,0 m",
+          "spanning_v": "1x230V",
+          "vermogen_w": "740",
+          "aanzuigdiepte_m": "0 m",
+          "material": null,
+          "sku_series": "matcp"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCPT45",
+        "label": "drukverhoging",
+        "page": 20,
+        "page_in_pdf": 20,
+        "properties": {
+          "type": "CPT 45 0,5 pK",
+          "bestelnr": "MATCPT45",
+          "debiet_m3_h": "0,3 - 2,4 m3/h",
+          "aanzuig": "1”",
+          "opvoerhoogte_m": "5,0 - 35,0 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_w": "370",
+          "aanzuigdiepte_m": "5,6 kg",
+          "material": null,
+          "sku_series": "matcpt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCPT75",
+        "label": "drukverhoging",
+        "page": 20,
+        "page_in_pdf": 20,
+        "properties": {
+          "type": "CPT 75 0,8 pK",
+          "bestelnr": "MATCPT75",
+          "debiet_m3_h": "0,3 - 3,0 m3/h",
+          "aanzuig": "1”",
+          "opvoerhoogte_m": "18,0 - 61,0 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_w": "740",
+          "aanzuigdiepte_m": "9,5 kg",
+          "material": null,
+          "sku_series": "matcpt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p20__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 3,
+    "default_variant_sku": "MATCP75",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p20__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p17-centrifugaalpompen-pdf-webp",
+    "name": "landbouw, industrieel, hoog debiet (Page 17)",
+    "series_id": "centrifugaalpompen__landbouw-industrieel-hoog-debiet",
+    "series_name": "landbouw, industrieel, hoog debiet",
+    "series_names": [
+      "landbouw, industrieel, hoog debiet"
+    ],
+    "family": "centrifugaalpompen__landbouw-industrieel-hoog-debiet",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "MATCR100",
+        "label": "landbouw, industrieel, hoog debiet",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "CR 100 pK 1,0",
+          "bestelnr": "MATCR100",
+          "debiet_m3_h": "16,8 m3/h",
+          "aanzuig": "6/4”",
+          "opvoerhoogte_m": "20,0 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,74 kW",
+          "aanzuigdiepte_m": "13,5 kg",
+          "material": null,
+          "sku_series": "matcr"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met open",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCR75",
+        "label": "landbouw, industrieel, hoog debiet",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "CR 75 pK 0,8",
+          "bestelnr": "MATCR75",
+          "debiet_m3_h": "14,4 m3/h",
+          "aanzuig": "6/4”",
+          "opvoerhoogte_m": "14,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,59 kW",
+          "aanzuigdiepte_m": "5 m",
+          "material": null,
+          "sku_series": "matcr"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met open",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCRT100",
+        "label": "landbouw, industrieel, hoog debiet",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "CRT 100 pK 1,0",
+          "bestelnr": "MATCRT100",
+          "debiet_m3_h": "16,8 m3/h",
+          "aanzuig": "6/4”",
+          "opvoerhoogte_m": "20,0 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,74 kW",
+          "aanzuigdiepte_m": "13,5 kg",
+          "material": null,
+          "sku_series": "matcrt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met open",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p17__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 3,
+    "default_variant_sku": "MATCR100",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p17__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p21-centrifugaalpompen-pdf-webp",
+    "name": "kleine/middelgrote beregeningsinstallaties (Page 21)",
+    "series_id": "centrifugaalpompen__kleine-middelgrote-beregeningsinstallaties",
+    "series_name": "kleine/middelgrote beregeningsinstallaties",
+    "series_names": [
+      "kleine/middelgrote beregeningsinstallaties"
+    ],
+    "family": "centrifugaalpompen__kleine-middelgrote-beregeningsinstallaties",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "MATCS1002",
+        "label": "kleine/middelgrote beregeningsinstallaties",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "CS100 1 pK",
+          "bestelnr": "MATCS1002",
+          "debiet_m3_h": "3,0 - 18,0 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "7,5 - 12,6 m",
+          "spanning_v": "1x230V",
+          "vermogen_w": "0,74",
+          "aanzuigdiepte_m": "6 m",
+          "material": null,
+          "sku_series": "matcs"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCS1502",
+        "label": "kleine/middelgrote beregeningsinstallaties",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "CS150 1,5 pK",
+          "bestelnr": "MATCS1502",
+          "debiet_m3_h": "12,0 - 48,0 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "6,0 - 12,3 m",
+          "spanning_v": "1x230V",
+          "vermogen_w": "1,1",
+          "aanzuigdiepte_m": "3 m",
+          "material": null,
+          "sku_series": "matcs"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCS2002",
+        "label": "kleine/middelgrote beregeningsinstallaties",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "CS200 2,2 pK",
+          "bestelnr": "MATCS2002",
+          "debiet_m3_h": "12,0 - 54,0 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "6,0 - 13,8 m",
+          "spanning_v": "1x230V",
+          "vermogen_w": "1,5",
+          "aanzuigdiepte_m": "8 m",
+          "material": null,
+          "sku_series": "matcs"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCS2003",
+        "label": "kleine/middelgrote beregeningsinstallaties",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "CS200/3 2 pK",
+          "bestelnr": "MATCS2003",
+          "debiet_m3_h": "15,0 - 54,0 m3/h",
+          "aanzuig": "3”",
+          "opvoerhoogte_m": "4,8 - 14,2 m",
+          "spanning_v": "1x230V",
+          "vermogen_w": "1,5",
+          "aanzuigdiepte_m": "28,3 kg",
+          "material": null,
+          "sku_series": "matcs"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCS3003",
+        "label": "kleine/middelgrote beregeningsinstallaties",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "CS 300/3 3 pK",
+          "bestelnr": "MATCS3003",
+          "debiet_m3_h": "15,0 - 60,0 m3/h",
+          "aanzuig": "3”",
+          "opvoerhoogte_m": "7,5 - 17,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_w": "2,2",
+          "aanzuigdiepte_m": "31,5 kg",
+          "material": null,
+          "sku_series": "matcs"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCS4504",
+        "label": "kleine/middelgrote beregeningsinstallaties",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "CS 450/4 3 pK",
+          "bestelnr": "MATCS4504",
+          "debiet_m3_h": "30,0 - 96,0 m3/h",
+          "aanzuig": "4”",
+          "opvoerhoogte_m": "6,1 - 13,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_w": "3,0",
+          "aanzuigdiepte_m": "5 m",
+          "material": null,
+          "sku_series": "matcs"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCSB1002",
+        "label": "kleine/middelgrote beregeningsinstallaties",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "CSB 100/2 1 pK*",
+          "bestelnr": "MATCSB1002",
+          "debiet_m3_h": "3,0 - 18,0 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "10,5 - 17,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_w": "0,74",
+          "aanzuigdiepte_m": "5 m",
+          "material": null,
+          "sku_series": "matcsb"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCSB1502",
+        "label": "kleine/middelgrote beregeningsinstallaties",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "CSB 150/2 1,5 pK*",
+          "bestelnr": "MATCSB1502",
+          "debiet_m3_h": "6,0 - 24,0 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "8,8 - 21,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_w": "1,1",
+          "aanzuigdiepte_m": "19,1 kg",
+          "material": null,
+          "sku_series": "matcsb"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCST0752",
+        "label": "kleine/middelgrote beregeningsinstallaties",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "CSt 75/2 0,8 pK",
+          "bestelnr": "MATCST0752",
+          "debiet_m3_h": "3,0 - 18,0 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "4,2 - 9,5 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_w": "0,59",
+          "aanzuigdiepte_m": "14,2 kg",
+          "material": null,
+          "sku_series": "matcst"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCST1002",
+        "label": "kleine/middelgrote beregeningsinstallaties",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "CSt 100/2 1 pK",
+          "bestelnr": "MATCST1002",
+          "debiet_m3_h": "3,0 - 18,0 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "7,5 - 12,6 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_w": "0,74",
+          "aanzuigdiepte_m": "15,5 kg",
+          "material": null,
+          "sku_series": "matcst"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCST1502",
+        "label": "kleine/middelgrote beregeningsinstallaties",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "CSt 150/2 1,5 pK",
+          "bestelnr": "MATCST1502",
+          "debiet_m3_h": "12,0 - 48,0 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "6,0 - 12,3 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_w": "1,1",
+          "aanzuigdiepte_m": "23,3 kg",
+          "material": null,
+          "sku_series": "matcst"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCST2002",
+        "label": "kleine/middelgrote beregeningsinstallaties",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "CSt 200/2 2,2 pK",
+          "bestelnr": "MATCST2002",
+          "debiet_m3_h": "12,0 - 54,0 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "6,0 - 13,8 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_w": "1,5",
+          "aanzuigdiepte_m": "24,3 kg",
+          "material": null,
+          "sku_series": "matcst"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCST2003",
+        "label": "kleine/middelgrote beregeningsinstallaties",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "CST 200/3 2 pK",
+          "bestelnr": "MATCST2003",
+          "debiet_m3_h": "15,0 - 54,0 m3/h",
+          "aanzuig": "3”",
+          "opvoerhoogte_m": "4,8 - 14,2 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_w": "1,5",
+          "aanzuigdiepte_m": "2 m",
+          "material": null,
+          "sku_series": "matcst"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCST3003",
+        "label": "kleine/middelgrote beregeningsinstallaties",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "CST 300/3 3 pK",
+          "bestelnr": "MATCST3003",
+          "debiet_m3_h": "15,0 - 60,0 m3/h",
+          "aanzuig": "3”",
+          "opvoerhoogte_m": "7,5 - 17,5 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_w": "2,2",
+          "aanzuigdiepte_m": "5 m",
+          "material": null,
+          "sku_series": "matcst"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCST4003",
+        "label": "kleine/middelgrote beregeningsinstallaties",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "CST 400/3 4 pK",
+          "bestelnr": "MATCST4003",
+          "debiet_m3_h": "15,0 - 72,0 m3/h",
+          "aanzuig": "3”",
+          "opvoerhoogte_m": "8,3 - 21,5 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_w": "3,0",
+          "aanzuigdiepte_m": "31,6 kg",
+          "material": null,
+          "sku_series": "matcst"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCST4504",
+        "label": "kleine/middelgrote beregeningsinstallaties",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "CST 450/4 4 pK",
+          "bestelnr": "MATCST4504",
+          "debiet_m3_h": "30,0 - 96,0 m3/h",
+          "aanzuig": "4”",
+          "opvoerhoogte_m": "6,1 - 13,5 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_w": "3,0",
+          "aanzuigdiepte_m": "41,1 kg",
+          "material": null,
+          "sku_series": "matcst"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATCST5504",
+        "label": "kleine/middelgrote beregeningsinstallaties",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "CST 550/4 5,5 pK",
+          "bestelnr": "MATCST5504",
+          "debiet_m3_h": "30,0 - 96,0 m3/h",
+          "aanzuig": "4”",
+          "opvoerhoogte_m": "10,0 - 17,0 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_w": "4,0",
+          "aanzuigdiepte_m": "0 m",
+          "material": null,
+          "sku_series": "matcst"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 90°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met enkele",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p21__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 17,
+    "default_variant_sku": "MATCS1002",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p21__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p10-centrifugaalpompen-pdf-webp",
+    "name": "huishoudelijk (Page 10)",
+    "series_id": "centrifugaalpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "centrifugaalpompen__huishoudelijk",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "MATINOX100",
+        "label": "huishoudelijk",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "INOX 100 1 pK",
+          "bestelnr": "MATINOX100",
+          "debiet_m3_h": "3,0 m3/h",
+          "opvoerhoogte_m": "15,0 - 43,0 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,74 kW",
+          "aanzuigdiepte_m": "9 m",
+          "material": null,
+          "sku_series": "matinox"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATINOX101",
+        "label": "huishoudelijk",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "GARDEN JET 100 1 pK",
+          "bestelnr": "MATINOX101",
+          "debiet_m3_h": "3,0 m3/h",
+          "opvoerhoogte_m": "15,0 - 43,0 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,74 kW",
+          "aanzuigdiepte_m": "9 m",
+          "material": null,
+          "sku_series": "matinox"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATINOXT08",
+        "label": "huishoudelijk",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "INOX 80 0,8 pK",
+          "bestelnr": "MATINOXT08",
+          "debiet_m3_h": "2,4 m3/h",
+          "opvoerhoogte_m": "11,0 - 39,0 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "0,59 kW",
+          "aanzuigdiepte_m": "8,7 kg",
+          "material": null,
+          "sku_series": "matinoxt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATINOXT10",
+        "label": "huishoudelijk",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "INOX 100 1,3 pK",
+          "bestelnr": "MATINOXT10",
+          "debiet_m3_h": "3,0 m3/h",
+          "opvoerhoogte_m": "15,0 - 43,0 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "0,74 kW",
+          "aanzuigdiepte_m": "9,9 kg",
+          "material": null,
+          "sku_series": "matinoxt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p10__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "MATINOX100",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p10__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p27-centrifugaalpompen-pdf-webp",
+    "name": "VARIATIES (Page 27)",
+    "series_id": "centrifugaalpompen__variaties",
+    "series_name": "VARIATIES",
+    "series_names": [
+      "VARIATIES"
+    ],
+    "family": "centrifugaalpompen__variaties",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "MATMB150",
+        "label": "VARIATIES",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "MB150 1,5 pK",
+          "bestelnr": "MATMB150",
+          "debiet_m3_h": "9 m3/h",
+          "aanzuig": "6/4”",
+          "opvoerhoogte_m": "25,0 - 39,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "5 m",
+          "material": null,
+          "sku_series": "matmb"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, landbouw",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATMB200",
+        "label": "VARIATIES",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "MB200 2,2 pK",
+          "bestelnr": "MATMB200",
+          "debiet_m3_h": "9 m3/h",
+          "aanzuig": "6/4”",
+          "opvoerhoogte_m": "29,0 - 43,0 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,65 kW",
+          "aanzuigdiepte_m": "0 m",
+          "material": null,
+          "sku_series": "matmb"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, landbouw",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATMBT150",
+        "label": "VARIATIES",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "MBT150 1,5 pK",
+          "bestelnr": "MATMBT150",
+          "debiet_m3_h": "9 m3/h",
+          "aanzuig": "6/4”",
+          "opvoerhoogte_m": "25,0 - 39,5 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "21,2 kg",
+          "material": null,
+          "sku_series": "matmbt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, landbouw",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATMBT200",
+        "label": "VARIATIES",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "MBT200 2,2 pK",
+          "bestelnr": "MATMBT200",
+          "debiet_m3_h": "9 m3/h",
+          "aanzuig": "6/4”",
+          "opvoerhoogte_m": "29,0 - 43,0 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "1,65 kW",
+          "aanzuigdiepte_m": "21,7 kg",
+          "material": null,
+          "sku_series": "matmbt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, landbouw",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATMBT300",
+        "label": "VARIATIES",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "MBT300 3 pK",
+          "bestelnr": "MATMBT300",
+          "debiet_m3_h": "12 m3/h",
+          "aanzuig": "6/4”",
+          "opvoerhoogte_m": "25,0 - 49,0 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "0 m",
+          "material": null,
+          "sku_series": "matmbt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, landbouw",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p27__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 5,
+    "default_variant_sku": "MATMB150",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p27__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p16-centrifugaalpompen-pdf-webp",
+    "name": "huishoudelijk (Page 16)",
+    "series_id": "centrifugaalpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "centrifugaalpompen__huishoudelijk",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "MATMP0803A",
+        "label": "huishoudelijk",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "type": "MP 80/3A 0,8 pK",
+          "bestelnr": "MATMP0803A",
+          "debiet_m3_h": "0,3 - 4,8 m3/h",
+          "opvoerhoogte_m": "13,0 - 34,0 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,59 kW",
+          "aanzuigdiepte_m": "14,0 kg",
+          "material": null,
+          "sku_series": "matmp"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "11 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer + rvs mantel",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATMP1004",
+        "label": "huishoudelijk",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "type": "MP 100/4 1 pK",
+          "bestelnr": "MATMP1004",
+          "debiet_m3_h": "0,3 - 4,8 m3/h",
+          "opvoerhoogte_m": "18,0 - 45,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,74 kW",
+          "aanzuigdiepte_m": "5 m",
+          "material": null,
+          "sku_series": "matmp"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "11 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer + rvs mantel",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATMP1004A",
+        "label": "huishoudelijk",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "type": "MP100/4A 1 pK",
+          "bestelnr": "MATMP1004A",
+          "debiet_m3_h": "0,3 - 4,8 m3/h",
+          "opvoerhoogte_m": "18,0 - 45,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,74 kW",
+          "aanzuigdiepte_m": "15,7 kg",
+          "material": null,
+          "sku_series": "matmp"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "11 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer + rvs mantel",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATMPT0803A",
+        "label": "huishoudelijk",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "type": "MPT 80/3A 0,8 pK",
+          "bestelnr": "MATMPT0803A",
+          "debiet_m3_h": "0,3 - 4,8 m3/h",
+          "opvoerhoogte_m": "13,0 - 34,0 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "0,59 kW",
+          "aanzuigdiepte_m": "14,0 kg",
+          "material": null,
+          "sku_series": "matmpt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "11 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer + rvs mantel",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATMPT1004",
+        "label": "huishoudelijk",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "type": "MPT100/4 1 pK",
+          "bestelnr": "MATMPT1004",
+          "debiet_m3_h": "0,3 - 4,8 m3/h",
+          "opvoerhoogte_m": "18,0 - 45,5 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "0,74 kW",
+          "aanzuigdiepte_m": "15,7 kg",
+          "material": null,
+          "sku_series": "matmpt"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "11 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer + rvs mantel",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p16__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 5,
+    "default_variant_sku": "MATMP0803A",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p16__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p28-centrifugaalpompen-pdf-webp",
+    "name": "zwembaden, fi lter installaties (Page 28)",
+    "series_id": "centrifugaalpompen__zwembaden-fi-lter-installaties",
+    "series_name": "zwembaden, fi lter installaties",
+    "series_names": [
+      "zwembaden, fi lter installaties"
+    ],
+    "family": "centrifugaalpompen__zwembaden-fi-lter-installaties",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "MATND14",
+        "label": "zwembaden, fi lter installaties",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "ND 14",
+          "bestelnr": "MATND14",
+          "debiet_m3_h": "0,8 m3/h",
+          "aanzuig": "14,0 m",
+          "opvoerhoogte_m": "16,8 m3/h",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,59 kW",
+          "aanzuigdiepte_m": "0 m",
+          "material": null,
+          "sku_series": "matnd"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "1,6 bar",
+          "spec_application_desc": "zwembaden, fi lter installaties",
+          "spec_housing": "polypropyleen, 30% glasvezel",
+          "spec_product_variant": "met voorfi",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATND14T",
+        "label": "zwembaden, fi lter installaties",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "ND14T",
+          "bestelnr": "MATND14T",
+          "debiet_m3_h": "0,8 m3/h",
+          "aanzuig": "14,0 m",
+          "opvoerhoogte_m": "16,8 m3/h",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,59 kW",
+          "aanzuigdiepte_m": "13,5 kg",
+          "material": null,
+          "sku_series": "matnd"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "1,6 bar",
+          "spec_application_desc": "zwembaden, fi lter installaties",
+          "spec_housing": "polypropyleen, 30% glasvezel",
+          "spec_product_variant": "met voorfi",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATND19T",
+        "label": "zwembaden, fi lter installaties",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "ND19T",
+          "bestelnr": "MATND19T",
+          "debiet_m3_h": "1 m3/h",
+          "aanzuig": "16,0 m",
+          "opvoerhoogte_m": "20,5 m3/h",
+          "spanning_v": "3x230400V",
+          "vermogen_kw": "0,73 kW",
+          "aanzuigdiepte_m": "14,0 kg",
+          "material": null,
+          "sku_series": "matnd"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "1,6 bar",
+          "spec_application_desc": "zwembaden, fi lter installaties",
+          "spec_housing": "polypropyleen, 30% glasvezel",
+          "spec_product_variant": "met voorfi",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATND24",
+        "label": "zwembaden, fi lter installaties",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "ND 24",
+          "bestelnr": "MATND24",
+          "debiet_m3_h": "1,5 m3/h",
+          "aanzuig": "16,0 m",
+          "opvoerhoogte_m": "26,5 m3/h",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "0 m",
+          "material": null,
+          "sku_series": "matnd"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "1,6 bar",
+          "spec_application_desc": "zwembaden, fi lter installaties",
+          "spec_housing": "polypropyleen, 30% glasvezel",
+          "spec_product_variant": "met voorfi",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATND24T",
+        "label": "zwembaden, fi lter installaties",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "ND24T",
+          "bestelnr": "MATND24T",
+          "debiet_m3_h": "1,5 m3/h",
+          "aanzuig": "16,0 m",
+          "opvoerhoogte_m": "26,5 m3/h",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "16,8 kg",
+          "material": null,
+          "sku_series": "matnd"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "1,6 bar",
+          "spec_application_desc": "zwembaden, fi lter installaties",
+          "spec_housing": "polypropyleen, 30% glasvezel",
+          "spec_product_variant": "met voorfi",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATND28",
+        "label": "zwembaden, fi lter installaties",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "ND 28",
+          "bestelnr": "MATND28",
+          "debiet_m3_h": "2 m3/h",
+          "aanzuig": "16,0 m",
+          "opvoerhoogte_m": "32,5 m3/h",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,47 kW",
+          "material": null,
+          "sku_series": "matnd"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "1,6 bar",
+          "spec_application_desc": "zwembaden, fi lter installaties",
+          "spec_housing": "polypropyleen, 30% glasvezel",
+          "spec_product_variant": "met voorfi",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATND28T",
+        "label": "zwembaden, fi lter installaties",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "ND28T",
+          "bestelnr": "MATND28T",
+          "debiet_m3_h": "2 m3/h",
+          "aanzuig": "16,0 m",
+          "opvoerhoogte_m": "32,5 m3/h",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "1,47 kW",
+          "aanzuigdiepte_m": "17,5 kg",
+          "material": null,
+          "sku_series": "matnd"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "1,6 bar",
+          "spec_application_desc": "zwembaden, fi lter installaties",
+          "spec_housing": "polypropyleen, 30% glasvezel",
+          "spec_product_variant": "met voorfi",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p28__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 7,
+    "default_variant_sku": "MATND14",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p28__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p15-centrifugaalpompen-pdf-webp",
+    "name": "drainagepomp, landbouw, industrie, (Page 15)",
+    "series_id": "centrifugaalpompen__drainagepomp-landbouw-industrie",
+    "series_name": "drainagepomp, landbouw, industrie,",
+    "series_names": [
+      "drainagepomp, landbouw, industrie,"
+    ],
+    "family": "centrifugaalpompen__drainagepomp-landbouw-industrie",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "MATQ3B2T",
+        "label": "drainagepomp, landbouw, industrie,",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "Q3/B2T 2 pK",
+          "bestelnr": "MATQ3B2T",
+          "debiet_m3_h": "3,0 - 36,0 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "4,0 - 19,0 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "1,5 kW",
+          "aanzuigdiepte_m": "28 kg",
+          "material": null,
+          "sku_series": "matq"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Vervuilingsgraad water",
+          "spec_application_desc": "drainagepomp, landbouw, industrie,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met open",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATQ3B2TS",
+        "label": "drainagepomp, landbouw, industrie,",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "Q3/B2 T/S 1,5 pK",
+          "bestelnr": "MATQ3B2TS",
+          "debiet_m3_h": "1,5 - 24,0 m3/h",
+          "aanzuig": "2”",
+          "opvoerhoogte_m": "9,0 - 18,0 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "26 kg",
+          "material": null,
+          "sku_series": "matq"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Vervuilingsgraad water",
+          "spec_application_desc": "drainagepomp, landbouw, industrie,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met open",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATQ4B3",
+        "label": "drainagepomp, landbouw, industrie,",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "Q4/B3 3 pK",
+          "bestelnr": "MATQ4B3",
+          "debiet_m3_h": "6,0 - 60,0 m3/h",
+          "aanzuig": "3”",
+          "opvoerhoogte_m": "6,0 - 17,0 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "0 m",
+          "material": null,
+          "sku_series": "matq"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Vervuilingsgraad water",
+          "spec_application_desc": "drainagepomp, landbouw, industrie,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met open",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATQ4B3TS",
+        "label": "drainagepomp, landbouw, industrie,",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "Q4/B3 T/S 3 pK",
+          "bestelnr": "MATQ4B3TS",
+          "debiet_m3_h": "6,0 - 60,0 m3/h",
+          "aanzuig": "3”",
+          "opvoerhoogte_m": "6,0 - 17,0 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "36kg",
+          "material": null,
+          "sku_series": "matq"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Vervuilingsgraad water",
+          "spec_application_desc": "drainagepomp, landbouw, industrie,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met open",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATQ6B3T",
+        "label": "drainagepomp, landbouw, industrie,",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "Q6/B3 T 7,5 pK",
+          "bestelnr": "MATQ6B3T",
+          "debiet_m3_h": "24,0 - 84,0 m3/h",
+          "aanzuig": "3”",
+          "opvoerhoogte_m": "17,0 - 25,0 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "5,5 kW",
+          "aanzuigdiepte_m": "89 kg",
+          "material": null,
+          "sku_series": "matq"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Vervuilingsgraad water",
+          "spec_application_desc": "drainagepomp, landbouw, industrie,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met open",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATQ8B4T",
+        "label": "drainagepomp, landbouw, industrie,",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "Q8/B4 T 12,5 pK",
+          "bestelnr": "MATQ8B4T",
+          "debiet_m3_h": "24,0 - 120,0 m3/h",
+          "aanzuig": "4”",
+          "opvoerhoogte_m": "16,5 - 29,0 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "9,2 kW",
+          "aanzuigdiepte_m": "126 kg",
+          "material": null,
+          "sku_series": "matq"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Vervuilingsgraad water",
+          "spec_application_desc": "drainagepomp, landbouw, industrie,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met open",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATQ9B4T",
+        "label": "drainagepomp, landbouw, industrie,",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "Q9/B4 T 20 pK",
+          "bestelnr": "MATQ9B4T",
+          "debiet_m3_h": "48,0 - 144,0 m3/h",
+          "aanzuig": "4”",
+          "opvoerhoogte_m": "22,0 - 31,0 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "15,0 kW",
+          "aanzuigdiepte_m": "164 kg",
+          "material": null,
+          "sku_series": "matq"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Vervuilingsgraad water",
+          "spec_application_desc": "drainagepomp, landbouw, industrie,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met open",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p15__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 7,
+    "default_variant_sku": "MATQ3B2T",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p15__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p5-centrifugaalpompen-pdf-webp",
+    "name": "huishoudelijk (Page 5)",
+    "series_id": "centrifugaalpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "centrifugaalpompen__huishoudelijk",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120033",
+        "label": "huishoudelijk",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "JET 300 M",
+          "bestelnr": "X9120033",
+          "debiet_m3_h": "10,5 m3/h",
+          "opvoerhoogte_m": "51 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120130",
+        "label": "huishoudelijk",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "JET 200 M",
+          "bestelnr": "X9120130",
+          "debiet_m3_h": "10,5 m3/h",
+          "opvoerhoogte_m": "41 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,5 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120176",
+        "label": "huishoudelijk",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "JET 82 T IE3",
+          "bestelnr": "X9120176",
+          "debiet_m3_h": "3,6 m3/h",
+          "opvoerhoogte_m": "47 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "0,6 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120362",
+        "label": "huishoudelijk",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "JET 112 T IE3",
+          "bestelnr": "X9120362",
+          "debiet_m3_h": "3,6 m3/h",
+          "opvoerhoogte_m": "61 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120406",
+        "label": "huishoudelijk",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "JET 151 M",
+          "bestelnr": "X9120406",
+          "debiet_m3_h": "4,2 m3/h",
+          "opvoerhoogte_m": "61 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120508",
+        "label": "huishoudelijk",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "JET 102 T IE3",
+          "bestelnr": "X9120508",
+          "debiet_m3_h": "3,6 m3/h",
+          "opvoerhoogte_m": "53,8 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120510",
+        "label": "huishoudelijk",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "JET 132 M",
+          "bestelnr": "X9120510",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "48,3 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120511",
+        "label": "huishoudelijk",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "JET 251 M",
+          "bestelnr": "X9120511",
+          "debiet_m3_h": "7,2 m3/h",
+          "opvoerhoogte_m": "62 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,85 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p5__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 8,
+    "default_variant_sku": "X9120033",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p5__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p12-centrifugaalpompen-pdf-webp",
+    "name": "huishoudelijk (Page 12)",
+    "series_id": "centrifugaalpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "centrifugaalpompen__huishoudelijk",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120151",
+        "label": "huishoudelijk",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "ACTIVE J 112 M",
+          "bestelnr": "X9120151",
+          "debiet_m3_h": "3,6 m3/h",
+          "opvoerhoogte_m": "61 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer en rvs",
+          "spec_product_variant": "met active",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120152",
+        "label": "huishoudelijk",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "ACTIVE J 132 M",
+          "bestelnr": "X9120152",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "48,3 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer en rvs",
+          "spec_product_variant": "met active",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120154",
+        "label": "huishoudelijk",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "ACTIVE JI 132 M",
+          "bestelnr": "X9120154",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "48,3 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer en rvs",
+          "spec_product_variant": "met active",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120155",
+        "label": "huishoudelijk",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "ACTIVE EI 30/30 M",
+          "bestelnr": "X9120155",
+          "debiet_m3_h": "3 m3/h",
+          "opvoerhoogte_m": "46 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,45 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer en rvs",
+          "spec_product_variant": "met active",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120156",
+        "label": "huishoudelijk",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "ACTIVE EI 30/50 M",
+          "bestelnr": "X9120156",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "42,2 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,55 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer en rvs",
+          "spec_product_variant": "met active",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120250",
+        "label": "huishoudelijk",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "ACTIVE EI 40/80 M",
+          "bestelnr": "X9120250",
+          "debiet_m3_h": "7,2 m3/h",
+          "opvoerhoogte_m": "59 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer en rvs",
+          "spec_product_variant": "met active",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120539",
+        "label": "huishoudelijk",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "ACTIVE JI 112 M",
+          "bestelnr": "X9120539",
+          "debiet_m3_h": "3,6 m3/h",
+          "opvoerhoogte_m": "61 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer en rvs",
+          "spec_product_variant": "met active",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120542",
+        "label": "huishoudelijk",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "ACTIVE EI 25/80 M",
+          "bestelnr": "X9120542",
+          "debiet_m3_h": "7,2 m3/h",
+          "opvoerhoogte_m": "34 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,55 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer en rvs",
+          "spec_product_variant": "met active",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p12__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 8,
+    "default_variant_sku": "X9120151",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p12__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p14-centrifugaalpompen-pdf-webp",
+    "name": "huishoudelijk (Page 14)",
+    "series_id": "centrifugaalpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "centrifugaalpompen__huishoudelijk",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120161",
+        "label": "huishoudelijk",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "AQUAJET 102 M",
+          "bestelnr": "X9120161",
+          "debiet_m3_h": "3,6 m3/h",
+          "opvoerhoogte_m": "53,8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met GWS",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120162",
+        "label": "huishoudelijk",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "AQUAJET 132 M",
+          "bestelnr": "X9120162",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "48,3 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met GWS",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120292",
+        "label": "huishoudelijk",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "AQUAJET-INOX 132 M",
+          "bestelnr": "X9120292",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "48 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met GWS",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120294",
+        "label": "huishoudelijk",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "AQUAJET-INOX 82 M",
+          "bestelnr": "X9120294",
+          "debiet_m3_h": "3,6 m3/h",
+          "opvoerhoogte_m": "47 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,6 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met GWS",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120536",
+        "label": "huishoudelijk",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "AQUAJET-INOX 102 M",
+          "bestelnr": "X9120536",
+          "debiet_m3_h": "3,6 m3/h",
+          "opvoerhoogte_m": "53,8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met GWS",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p14__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 5,
+    "default_variant_sku": "X9120161",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p14__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p9-centrifugaalpompen-pdf-webp",
+    "name": "huishoudelijk (Page 9)",
+    "series_id": "centrifugaalpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "centrifugaalpompen__huishoudelijk",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120167",
+        "label": "huishoudelijk",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "EUROINOX 30/80 M",
+          "bestelnr": "X9120167",
+          "debiet_m3_h": "7,2 m3/h",
+          "opvoerhoogte_m": "47 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,8 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120201",
+        "label": "huishoudelijk",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "EUROINOX 30/50 M",
+          "bestelnr": "X9120201",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "42 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,55 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120237",
+        "label": "huishoudelijk",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "EUROINOX 40/80 M",
+          "bestelnr": "X9120237",
+          "debiet_m3_h": "7,2 m3/h",
+          "opvoerhoogte_m": "59 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120526",
+        "label": "huishoudelijk",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "EUROINOX 30/30 M",
+          "bestelnr": "X9120526",
+          "debiet_m3_h": "3 m3/h",
+          "opvoerhoogte_m": "46 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,45 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120529",
+        "label": "huishoudelijk",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "EUROINOX 40/50 M",
+          "bestelnr": "X9120529",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "58 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120531",
+        "label": "huishoudelijk",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "EUROINOX 50/50 M",
+          "bestelnr": "X9120531",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "72 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p9__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 6,
+    "default_variant_sku": "X9120167",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p9__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p7-centrifugaalpompen-pdf-webp",
+    "name": "huishoudelijk (Page 7)",
+    "series_id": "centrifugaalpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "centrifugaalpompen__huishoudelijk",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120207",
+        "label": "huishoudelijk",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "GARDEN-INOX 82 M",
+          "bestelnr": "X9120207",
+          "debiet_m3_h": "3,6 m3/h",
+          "opvoerhoogte_m": "47 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,6 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "garden jet/inox 8 bar, garden com 6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer, rvs of technopolymeer",
+          "spec_product_variant": "met handvat",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120378",
+        "label": "huishoudelijk",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "GARDEN-INOX 132 M",
+          "bestelnr": "X9120378",
+          "debiet_m3_h": "4.8 m3/h",
+          "opvoerhoogte_m": "48,3 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "garden jet/inox 8 bar, garden com 6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer, rvs of technopolymeer",
+          "spec_product_variant": "met handvat",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120524",
+        "label": "huishoudelijk",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "GARDEN-COM 102 M",
+          "bestelnr": "X9120524",
+          "debiet_m3_h": "3,6 m3/h",
+          "opvoerhoogte_m": "53,8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "garden jet/inox 8 bar, garden com 6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer, rvs of technopolymeer",
+          "spec_product_variant": "met handvat",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120615",
+        "label": "huishoudelijk",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "GARDENJET 102 M",
+          "bestelnr": "X9120615",
+          "debiet_m3_h": "3,6 m3/h",
+          "opvoerhoogte_m": "53,8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "garden jet/inox 8 bar, garden com 6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "gietijzer, rvs of technopolymeer",
+          "spec_product_variant": "met handvat",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p7__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "X9120207",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p7__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p8-centrifugaalpompen-pdf-webp",
+    "name": "huishoudelijk (Page 8)",
+    "series_id": "centrifugaalpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "centrifugaalpompen__huishoudelijk",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120252",
+        "label": "huishoudelijk",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "JETINOX 132 M",
+          "bestelnr": "X9120252",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "48,3 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120512",
+        "label": "huishoudelijk",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "JETINOX 82 T",
+          "bestelnr": "X9120512",
+          "debiet_m3_h": "3,6 m3/h",
+          "opvoerhoogte_m": "47 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "0,6 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120514",
+        "label": "huishoudelijk",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "JETINOX 102 T IE3",
+          "bestelnr": "X9120514",
+          "debiet_m3_h": "3,6 m3/h",
+          "opvoerhoogte_m": "53,8 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120516",
+        "label": "huishoudelijk",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "JETINOX 112 T IE3",
+          "bestelnr": "X9120516",
+          "debiet_m3_h": "3,6 m3/h",
+          "opvoerhoogte_m": "61 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p8__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "X9120252",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p8__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p4-centrifugaalpompen-pdf-webp",
+    "name": "huishoudelijk (Page 4)",
+    "series_id": "centrifugaalpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "centrifugaalpompen__huishoudelijk",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120518",
+        "label": "huishoudelijk",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "JETCOM 102 M",
+          "bestelnr": "X9120518",
+          "debiet_m3_h": "3,6 m3/h",
+          "opvoerhoogte_m": "53,8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120520",
+        "label": "huishoudelijk",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "JETCOM 92 M",
+          "bestelnr": "X9120520",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "36,2 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120522",
+        "label": "huishoudelijk",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "JETCOM 132 T IE3",
+          "bestelnr": "X9120522",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "48,3 m",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "1\"",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "6 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p4__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 3,
+    "default_variant_sku": "X9120518",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p4__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "centrifugaalpompen-images-centrifugaalpompen-centrifugaalpompen-p19-centrifugaalpompen-pdf-webp",
+    "name": "huishoudelijk & industrieel / huishoudelijk & industrieel beperkt (Page 19)",
+    "series_id": "centrifugaalpompen__huishoudelijk-industrieel",
+    "series_name": "huishoudelijk & industrieel",
+    "series_names": [
+      "huishoudelijk & industrieel",
+      "huishoudelijk & industrieel beperkt"
+    ],
+    "family": "centrifugaalpompen__huishoudelijk-industrieel",
+    "catalog": "centrifugaalpompen",
+    "source_pdf": "centrifugaalpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120544",
+        "label": "huishoudelijk & industrieel",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "KPS 30/16 T",
+          "bestelnr": "X9120544",
+          "debiet_m3_h": "1,8 m3/h",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "0,37 kW",
+          "aanzuigdiepte_m": "32,5 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "huishoudelijk & industrieel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120546",
+        "label": "huishoudelijk & industrieel beperkt",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "KP 38/18 T",
+          "bestelnr": "X9120546",
+          "debiet_m3_h": "2,4 m3/h",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "0,6 kW",
+          "aanzuigdiepte_m": "54 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "12 bar",
+          "spec_application_desc": "huishoudelijk & industrieel beperkt",
+          "spec_housing": "messing",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120548",
+        "label": "huishoudelijk & industrieel beperkt",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "KP 60/6 T",
+          "bestelnr": "X9120548",
+          "debiet_m3_h": "0,9 m3/h",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "0,37 kW",
+          "aanzuigdiepte_m": "87 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "12 bar",
+          "spec_application_desc": "huishoudelijk & industrieel beperkt",
+          "spec_housing": "messing",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120550",
+        "label": "huishoudelijk & industrieel beperkt",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "KP 60/12 T IE3",
+          "bestelnr": "X9120550",
+          "debiet_m3_h": "1,8 m3/h",
+          "spanning_v": "3x230/400V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "107 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "12 bar",
+          "spec_application_desc": "huishoudelijk & industrieel beperkt",
+          "spec_housing": "messing",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/centrifugaalpompen/centrifugaalpompen__p19__centrifugaalpompen-pdf.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "X9120544",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/centrifugaalpompen/centrifugaalpompen__p19__centrifugaalpompen-pdf.webp"
+      }
+    ]
+  }
+]

@@ -1,0 +1,314 @@
+{
+  "company": "Beltz247",
+  "website": "https://beltz247.com",
+  "location": {
+    "address": "Industrielaan 15",
+    "postal_code": "8810",
+    "city": "Lichtervelde",
+    "country": "Belgium"
+  },
+  "contact": {
+    "phone": "+32 (0)51 49 03 99",
+    "email": "sales@beltz247.com",
+    "service_line": "0032(0) 477/55.88.33"
+  },
+  "sister_company": "Fluxer",
+  "related_company": "DEMA",
+  "last_updated": "2024-12-19",
+  "experience_years": 20,
+  "certifications": ["FDA", "HACCP"],
+  "service_availability": "24/7",
+  "categories": [
+    {
+      "id": "conveyor-belts",
+      "name": "Conveyor Belts",
+      "name_nl": "Transportbanden",
+      "subcategories": [
+        {
+          "id": "food-grade-belts",
+          "name": "Food Grade Conveyor Belts",
+          "name_nl": "Voedingsgeschikte transportbanden",
+          "certifications": ["FDA", "HACCP", "EU 10/2011"],
+          "products": [
+            {
+              "sku": "B247-FG-PU-2P",
+              "name": "Food Grade PU Belt 2-Ply",
+              "name_nl": "Voedingsgeschikte PU band 2-laags",
+              "material": "Polyurethane",
+              "thickness_mm": 2.0,
+              "temperature_range_c": [-30, 80],
+              "color": "White",
+              "surface": "Smooth",
+              "applications": ["Bakery", "Confectionery", "Meat Processing"],
+              "width_range_mm": [100, 2000],
+              "custom_confection": true
+            },
+            {
+              "sku": "B247-FG-PU-3P",
+              "name": "Food Grade PU Belt 3-Ply",
+              "name_nl": "Voedingsgeschikte PU band 3-laags",
+              "material": "Polyurethane",
+              "thickness_mm": 3.5,
+              "temperature_range_c": [-30, 80],
+              "color": "White",
+              "surface": "Smooth",
+              "applications": ["Heavy Duty Food", "Frozen Food"],
+              "width_range_mm": [100, 2500],
+              "custom_confection": true
+            },
+            {
+              "sku": "B247-FG-PVC-2P",
+              "name": "Food Grade PVC Belt 2-Ply",
+              "name_nl": "Voedingsgeschikte PVC band 2-laags",
+              "material": "PVC",
+              "thickness_mm": 2.5,
+              "temperature_range_c": [-10, 60],
+              "color": "White/Blue",
+              "surface": "Matt",
+              "applications": ["Vegetables", "Fruit", "Packaging"],
+              "width_range_mm": [100, 2000],
+              "custom_confection": true
+            },
+            {
+              "sku": "B247-FG-SIL",
+              "name": "Silicone Conveyor Belt",
+              "name_nl": "Siliconen transportband",
+              "material": "Silicone",
+              "thickness_mm": 2.0,
+              "temperature_range_c": [-60, 230],
+              "color": "Translucent",
+              "surface": "Non-stick",
+              "applications": ["Baking", "Cooling", "High Temperature"],
+              "width_range_mm": [100, 1500],
+              "custom_confection": true
+            }
+          ]
+        },
+        {
+          "id": "industrial-belts",
+          "name": "Industrial Conveyor Belts",
+          "name_nl": "Industriële transportbanden",
+          "partner": "SIG Industrial Conveyor Belts",
+          "products": [
+            {
+              "sku": "B247-IND-RB-EP200",
+              "name": "Rubber Belt EP200/2",
+              "name_nl": "Rubber band EP200/2",
+              "material": "Rubber (SBR/NR)",
+              "fabric": "EP200/2",
+              "cover_thickness_mm": {
+                "top": 3,
+                "bottom": 1.5
+              },
+              "temperature_range_c": [-25, 70],
+              "applications": ["General Industry", "Logistics", "Mining"],
+              "width_range_mm": [400, 2200],
+              "custom_confection": true
+            },
+            {
+              "sku": "B247-IND-RB-EP400",
+              "name": "Rubber Belt EP400/3",
+              "name_nl": "Rubber band EP400/3",
+              "material": "Rubber (SBR/NR)",
+              "fabric": "EP400/3",
+              "cover_thickness_mm": {
+                "top": 5,
+                "bottom": 2
+              },
+              "temperature_range_c": [-25, 70],
+              "applications": ["Heavy Duty", "Aggregates", "Recycling"],
+              "width_range_mm": [500, 2400],
+              "custom_confection": true
+            },
+            {
+              "sku": "B247-IND-HR",
+              "name": "Heat Resistant Belt",
+              "name_nl": "Hittebestendige band",
+              "material": "EPDM Rubber",
+              "temperature_range_c": [-25, 180],
+              "applications": ["Foundry", "Cement", "Asphalt"],
+              "width_range_mm": [400, 2000],
+              "custom_confection": true
+            },
+            {
+              "sku": "B247-IND-OR",
+              "name": "Oil Resistant Belt",
+              "name_nl": "Oliebestendige band",
+              "material": "NBR Rubber",
+              "temperature_range_c": [-25, 100],
+              "applications": ["Oily Materials", "Recycling", "Metalworking"],
+              "width_range_mm": [400, 2000],
+              "custom_confection": true
+            },
+            {
+              "sku": "B247-IND-FR",
+              "name": "Fire Resistant Belt",
+              "name_nl": "Brandvertragende band",
+              "material": "Chloroprene Rubber",
+              "certifications": ["EN 12882"],
+              "applications": ["Underground Mining", "Tunneling"],
+              "width_range_mm": [600, 2000],
+              "custom_confection": true
+            }
+          ]
+        },
+        {
+          "id": "modular-belts",
+          "name": "Modular Plastic Belts",
+          "name_nl": "Modulaire kunststof banden",
+          "products": [
+            {
+              "sku": "B247-MOD-FL-25",
+              "name": "Modular Belt Flat Top 25.4mm",
+              "name_nl": "Modulaire band vlakke top 25.4mm",
+              "material": "Polypropylene",
+              "pitch_mm": 25.4,
+              "temperature_range_c": [-40, 100],
+              "applications": ["Bottling", "Packaging", "Assembly"],
+              "width_range_mm": [83, 3000],
+              "custom_confection": true
+            },
+            {
+              "sku": "B247-MOD-RL-50",
+              "name": "Modular Belt Roller Top 50mm",
+              "name_nl": "Modulaire band roller top 50mm",
+              "material": "Acetal",
+              "pitch_mm": 50,
+              "temperature_range_c": [-40, 80],
+              "applications": ["Accumulation", "Side Transfer"],
+              "width_range_mm": [152, 2000],
+              "custom_confection": true
+            },
+            {
+              "sku": "B247-MOD-PF",
+              "name": "Modular Belt Perforated",
+              "name_nl": "Modulaire band geperforeerd",
+              "material": "Polypropylene",
+              "open_area_percent": 38,
+              "applications": ["Drainage", "Cooling", "Washing"],
+              "width_range_mm": [83, 2500],
+              "custom_confection": true
+            }
+          ]
+        },
+        {
+          "id": "specialty-belts",
+          "name": "Specialty Belts",
+          "name_nl": "Speciale banden",
+          "products": [
+            {
+              "sku": "B247-SP-CLEAT",
+              "name": "Cleated Conveyor Belt",
+              "name_nl": "Transportband met meenemers",
+              "cleat_types": ["T-Cleat", "V-Cleat", "Bucket"],
+              "cleat_height_mm": [15, 25, 40, 60, 80],
+              "applications": ["Incline Conveying", "Bulk Materials"],
+              "custom_confection": true
+            },
+            {
+              "sku": "B247-SP-SIDE",
+              "name": "Sidewall Conveyor Belt",
+              "name_nl": "Transportband met zijwanden",
+              "sidewall_height_mm": [40, 60, 80, 120, 160],
+              "applications": ["Steep Incline", "Vertical Conveying"],
+              "custom_confection": true
+            },
+            {
+              "sku": "B247-SP-ROUGH",
+              "name": "Rough Top Belt",
+              "name_nl": "Ruwe top band",
+              "surface": "Rough/Grip",
+              "applications": ["Incline", "Cartons", "Bags"],
+              "custom_confection": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "belt-accessories",
+      "name": "Belt Accessories",
+      "name_nl": "Band accessoires",
+      "products": [
+        {
+          "sku": "B247-ACC-SPLICE",
+          "name": "Belt Splicing Kit",
+          "name_nl": "Band laskit",
+          "types": ["Mechanical", "Vulcanized", "Cold Splice"],
+          "applications": ["Belt Installation", "Repair"]
+        },
+        {
+          "sku": "B247-ACC-CLEAN",
+          "name": "Belt Cleaners",
+          "name_nl": "Bandreinigers",
+          "types": ["Primary Scraper", "Secondary Scraper", "V-Plow"],
+          "applications": ["Material Carryback Prevention"]
+        },
+        {
+          "sku": "B247-ACC-TRACK",
+          "name": "Belt Tracking Devices",
+          "name_nl": "Bandgeleidingsapparaten",
+          "types": ["Training Idlers", "Edge Guides"],
+          "applications": ["Belt Alignment"]
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "24-7-service",
+      "name": "24/7 Emergency Service",
+      "name_nl": "24/7 Nooddienst",
+      "description": "Round-the-clock emergency interventions",
+      "phone": "0032(0) 477/55.88.33"
+    },
+    {
+      "id": "preventive-maintenance",
+      "name": "Preventive Maintenance",
+      "name_nl": "Preventief onderhoud",
+      "description": "Scheduled maintenance programs to prevent downtime"
+    },
+    {
+      "id": "mechanical-maintenance",
+      "name": "Mechanical Maintenance",
+      "name_nl": "Mechanisch onderhoud",
+      "description": "Full mechanical maintenance services"
+    },
+    {
+      "id": "custom-manufacturing",
+      "name": "Custom Manufacturing",
+      "name_nl": "Eigen confectieatelier",
+      "description": "In-house belt fabrication and customization"
+    },
+    {
+      "id": "installation",
+      "name": "Belt Installation",
+      "name_nl": "Band installatie",
+      "description": "Professional belt installation services"
+    },
+    {
+      "id": "belt-tracking",
+      "name": "Belt Tracking & Alignment",
+      "name_nl": "Band tracking en uitlijning",
+      "description": "Belt alignment and tracking services"
+    }
+  ],
+  "target_industries": [
+    "Food Processing",
+    "Beverage",
+    "Logistics",
+    "Manufacturing",
+    "Recycling",
+    "Mining",
+    "Agriculture",
+    "Packaging"
+  ],
+  "key_differentiators": [
+    "24/7 availability",
+    "20 years experience",
+    "Fast reaction time",
+    "In-house manufacturing",
+    "FDA/HACCP certified products",
+    "Sister company synergy with Fluxer"
+  ]
+}

@@ -1,0 +1,4828 @@
+[
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p4-kunststof-afvoerleidingen-pdf-webp",
+    "name": "SANITAIR AFVOERBUIS SN1 / SANITAIR AFVOERBUIS SN4 BENOR GEKEURD (Page 4)",
+    "series_id": "kunststof-afvoerleidingen__sanitair-afvoerbuis-sn1",
+    "series_name": "SANITAIR AFVOERBUIS SN1",
+    "series_names": [
+      "SANITAIR AFVOERBUIS SN1",
+      "SANITAIR AFVOERBUIS SN4 BENOR GEKEURD"
+    ],
+    "family": "kunststof-afvoerleidingen__sanitair-afvoerbuis-sn1",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "LIJMMOF - SPIE | RAL7037",
+    "variants": [
+      {
+        "sku": "AB0322",
+        "label": "SANITAIR AFVOERBUIS SN1",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "32 mm",
+          "bestelnr": "AB0322",
+          "wall_thickness_mm": "1,8 mm",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "SN 1",
+          "diameter_mm": 32,
+          "material": "PVC",
+          "sku_series": "ab"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "LIJMMOF - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "AB0404",
+        "label": "SANITAIR AFVOERBUIS SN1",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "40 mm",
+          "bestelnr": "AB0404",
+          "wall_thickness_mm": "1,8 mm",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "SN 1",
+          "diameter_mm": 40,
+          "material": "PVC",
+          "sku_series": "ab"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "LIJMMOF - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "AB0754",
+        "label": "SANITAIR AFVOERBUIS SN1",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "75 mm",
+          "bestelnr": "AB0754",
+          "wall_thickness_mm": "1,8 mm",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "SN 1",
+          "diameter_mm": 75,
+          "material": "PVC",
+          "sku_series": "ab"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "LIJMMOF - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "AB0904",
+        "label": "SANITAIR AFVOERBUIS SN1",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "90 mm",
+          "bestelnr": "AB0904",
+          "wall_thickness_mm": "1,8 mm",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "SN 1",
+          "diameter_mm": 90,
+          "material": "PVC",
+          "sku_series": "ab"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "LIJMMOF - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "ABB0324",
+        "label": "SANITAIR AFVOERBUIS SN4 BENOR GEKEURD",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "32 mm",
+          "bestelnr": "ABB0324",
+          "wall_thickness_mm": "3,0 mm",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "SN 4",
+          "diameter_mm": 32,
+          "material": "PVC",
+          "sku_series": "abb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "LIJMMOF - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "ABB0404",
+        "label": "SANITAIR AFVOERBUIS SN4 BENOR GEKEURD",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "40 mm",
+          "bestelnr": "ABB0404",
+          "wall_thickness_mm": "3,0 mm",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "4 m",
+          "diameter_mm": 40,
+          "material": "PVC",
+          "sku_series": "abb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "LIJMMOF - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "ABB0504",
+        "label": "SANITAIR AFVOERBUIS SN4 BENOR GEKEURD",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "50 mm",
+          "bestelnr": "ABB0504",
+          "wall_thickness_mm": "3,0 mm",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "SN 4",
+          "diameter_mm": 50,
+          "material": "PVC",
+          "sku_series": "abb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "LIJMMOF - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "ABB0754",
+        "label": "SANITAIR AFVOERBUIS SN4 BENOR GEKEURD",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "75 mm",
+          "bestelnr": "ABB0754",
+          "wall_thickness_mm": "3,0 mm",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "4 m",
+          "diameter_mm": 75,
+          "material": "PVC",
+          "sku_series": "abb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "LIJMMOF - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "ABB0804",
+        "label": "SANITAIR AFVOERBUIS SN4 BENOR GEKEURD",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "80 mm",
+          "bestelnr": "ABB0804",
+          "wall_thickness_mm": "3,0 mm",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "SN 4",
+          "diameter_mm": 80,
+          "material": "PVC",
+          "sku_series": "abb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "LIJMMOF - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "ABB0904",
+        "label": "SANITAIR AFVOERBUIS SN4 BENOR GEKEURD",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "90 mm",
+          "bestelnr": "ABB0904",
+          "wall_thickness_mm": "3,0 mm",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "4 m",
+          "diameter_mm": 90,
+          "material": "PVC",
+          "sku_series": "abb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "LIJMMOF - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "ABB1004",
+        "label": "SANITAIR AFVOERBUIS SN4 BENOR GEKEURD",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "90 mm",
+          "bestelnr": "ABB1004",
+          "wall_thickness_mm": "3,0 mm",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "SN 4",
+          "diameter_mm": 90,
+          "material": "PVC",
+          "sku_series": "abb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "LIJMMOF - SPIE | RAL7037"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p4__kunststof-afvoerleidingen-pdf.webp"
+    ],
+    "variant_count": 11,
+    "default_variant_sku": "AB0322",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p4__kunststof-afvoerleidingen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p10-pvc-sanitaire-buizen-hulpstukken-webp",
+    "name": "PVC SANITAIRE BUIZEN & HULPSTUKKEN (Page 10)",
+    "series_id": "pvc-sanitaire-buizen-hulpstukken",
+    "series_name": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC SANITAIRE BUIZEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-sanitaire-buizen-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "MANCHET - SPIE | RAL7037",
+    "variants": [
+      {
+        "sku": "AB1103",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "110 mm",
+          "bestelnr": "AB1103",
+          "wall_thickness_mm": "2,2 mm",
+          "aanzuigdiepte_m": "SN 2",
+          "diameter_mm": 110,
+          "material": "PVC",
+          "sku_series": "ab"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "AB1253",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "125 mm",
+          "bestelnr": "AB1253",
+          "wall_thickness_mm": "2,5 mm",
+          "aanzuigdiepte_m": "SN 2",
+          "diameter_mm": 125,
+          "material": "PVC",
+          "sku_series": "ab"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "AB1603",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "160 mm",
+          "bestelnr": "AB1603",
+          "wall_thickness_mm": "3,2 mm",
+          "aanzuigdiepte_m": "SN 2",
+          "diameter_mm": 160,
+          "material": "PVC",
+          "sku_series": "ab"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "AB2003",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "200 mm",
+          "bestelnr": "AB2003",
+          "wall_thickness_mm": "3,9 mm",
+          "aanzuigdiepte_m": "SN 2",
+          "diameter_mm": 200,
+          "material": "PVC",
+          "sku_series": "ab"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "AB2503",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "250 mm",
+          "bestelnr": "AB2503",
+          "wall_thickness_mm": "4,9 mm",
+          "aanzuigdiepte_m": "SN 2",
+          "diameter_mm": 250,
+          "material": "PVC",
+          "sku_series": "ab"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "AB3153",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "315 mm",
+          "bestelnr": "AB3153",
+          "wall_thickness_mm": "6,2 mm",
+          "aanzuigdiepte_m": "SN 2",
+          "diameter_mm": 315,
+          "material": "PVC",
+          "sku_series": "ab"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "AB4003",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "400 mm",
+          "bestelnr": "AB4003",
+          "wall_thickness_mm": "7,8 mm",
+          "aanzuigdiepte_m": "SN 2",
+          "diameter_mm": 400,
+          "material": "PVC",
+          "sku_series": "ab"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "ABB1103",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "110 mm",
+          "bestelnr": "ABB1103",
+          "wall_thickness_mm": "3,2 mm",
+          "aanzuigdiepte_m": "SN 4",
+          "diameter_mm": 110,
+          "material": "PVC",
+          "sku_series": "abb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "ABB1105",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "110 mm",
+          "bestelnr": "ABB1105",
+          "wall_thickness_mm": "3,2 mm",
+          "aanzuigdiepte_m": "3 m",
+          "diameter_mm": 110,
+          "material": "PVC",
+          "sku_series": "abb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "ABB1253",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "125 mm",
+          "bestelnr": "ABB1253",
+          "wall_thickness_mm": "3,2 mm",
+          "aanzuigdiepte_m": "SN 4",
+          "diameter_mm": 125,
+          "material": "PVC",
+          "sku_series": "abb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "ABB1603",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "160 mm",
+          "bestelnr": "ABB1603",
+          "wall_thickness_mm": "3,2 mm",
+          "aanzuigdiepte_m": "SN 4",
+          "diameter_mm": 160,
+          "material": "PVC",
+          "sku_series": "abb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "ABB1605",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "160 mm",
+          "bestelnr": "ABB1605",
+          "wall_thickness_mm": "3,2 mm",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 160,
+          "material": "PVC",
+          "sku_series": "abb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "ABB2005",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "200 mm",
+          "bestelnr": "ABB2005",
+          "wall_thickness_mm": "3,9 mm",
+          "aanzuigdiepte_m": "SN 4",
+          "diameter_mm": 200,
+          "material": "PVC",
+          "sku_series": "abb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "ABB2505",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "250 mm",
+          "bestelnr": "ABB2505",
+          "wall_thickness_mm": "4,9 mm",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 250,
+          "material": "PVC",
+          "sku_series": "abb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "ABB3155",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "315 mm",
+          "bestelnr": "ABB3155",
+          "wall_thickness_mm": "6,2 mm",
+          "aanzuigdiepte_m": "SN 4",
+          "diameter_mm": 315,
+          "material": "PVC",
+          "sku_series": "abb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "ABB4005",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "400 mm",
+          "bestelnr": "ABB4005",
+          "wall_thickness_mm": "7,9 mm",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 400,
+          "material": "PVC",
+          "sku_series": "abb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p10__pvc-sanitaire-buizen-hulpstukken.webp"
+    ],
+    "variant_count": 16,
+    "default_variant_sku": "AB1103",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p10__pvc-sanitaire-buizen-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p19-pvc-rioleringsbuizen-hulpstukken-webp",
+    "name": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN (Page 19)",
+    "series_id": "pvc-rioleringsbuizen-hulpstukken",
+    "series_name": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC RIOLERINGSBUIZEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-rioleringsbuizen-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "Bestelnr Maat",
+    "variants": [
+      {
+        "sku": "AFOG110",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "AFOG110",
+          "aanzuigdiepte_m": "110 mm",
+          "material": "PVC",
+          "sku_series": "afog"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "AFOG160",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "AFOG160",
+          "aanzuigdiepte_m": "160 mm",
+          "material": "PVC",
+          "sku_series": "afog"
+        },
+        "attributes": {
+          "application": "AFOG125 125 mm"
+        }
+      },
+      {
+        "sku": "AFTS110",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "AFTS110",
+          "aanzuigdiepte_m": "110 mm",
+          "material": "PVC",
+          "sku_series": "afts"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "AFTS160",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "AFTS160",
+          "aanzuigdiepte_m": "160 mm",
+          "material": "PVC",
+          "sku_series": "afts"
+        },
+        "attributes": {
+          "application": "AFTS125"
+        }
+      },
+      {
+        "sku": "AFTS315",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "AFTS315",
+          "aanzuigdiepte_m": "315 mm",
+          "material": "PVC",
+          "sku_series": "afts"
+        },
+        "attributes": {
+          "application": "AFTS200 200 mm"
+        }
+      },
+      {
+        "sku": "BKL110",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "BKL110",
+          "material": "pp",
+          "material_name": "PP (Polypropyleen)",
+          "aanzuigdiepte_m": "110 mm",
+          "sku_series": "bkl"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "BKL140",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "BKL140",
+          "material": "pp",
+          "material_name": "PP (Polypropyleen)",
+          "aanzuigdiepte_m": "140 mm",
+          "sku_series": "bkl"
+        },
+        "attributes": {
+          "application": "BKL125 125 mm"
+        }
+      },
+      {
+        "sku": "BKL180",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "BKL180",
+          "material": "pp",
+          "material_name": "PP (Polypropyleen)",
+          "aanzuigdiepte_m": "180 mm",
+          "sku_series": "bkl"
+        },
+        "attributes": {
+          "application": "BKL160 160 mm"
+        }
+      },
+      {
+        "sku": "BKL225",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "BKL225",
+          "material": "pp",
+          "material_name": "PP (Polypropyleen)",
+          "aanzuigdiepte_m": "225 mm",
+          "sku_series": "bkl"
+        },
+        "attributes": {
+          "application": "BKL200"
+        }
+      },
+      {
+        "sku": "BKL280",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "BKL280",
+          "material": "pp",
+          "material_name": "PP (Polypropyleen)",
+          "aanzuigdiepte_m": "280 mm",
+          "sku_series": "bkl"
+        },
+        "attributes": {
+          "application": "BKL250 250 mm"
+        }
+      },
+      {
+        "sku": "BKL400",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "BKL400",
+          "material": "pp",
+          "material_name": "PP (Polypropyleen)",
+          "aanzuigdiepte_m": "400 mm",
+          "sku_series": "bkl"
+        },
+        "attributes": {
+          "application": "BKL315 315 mm"
+        }
+      },
+      {
+        "sku": "OB160",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "OB160",
+          "aanzuigdiepte_m": "160 mm",
+          "material": "PVC",
+          "sku_series": "ob"
+        },
+        "attributes": {
+          "application": "YXA0078500 125 mm"
+        }
+      },
+      {
+        "sku": "YXA0078300",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0078300",
+          "aanzuigdiepte_m": "110 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p19__pvc-rioleringsbuizen-hulpstukken.webp"
+    ],
+    "variant_count": 13,
+    "default_variant_sku": "AFOG110",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p19__pvc-rioleringsbuizen-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p18-pvc-rioleringsbuizen-hulpstukken-webp",
+    "name": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN (Page 18)",
+    "series_id": "pvc-rioleringsbuizen-hulpstukken",
+    "series_name": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC RIOLERINGSBUIZEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-rioleringsbuizen-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "Bestelnr Maat",
+    "variants": [
+      {
+        "sku": "AFSD032",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "AFSD032",
+          "aanzuigdiepte_m": "32 mm",
+          "material": "PVC",
+          "sku_series": "afsd"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "AFSD050",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "AFSD050",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "afsd"
+        },
+        "attributes": {
+          "application": "AFSD040 40 mm"
+        }
+      },
+      {
+        "sku": "AFSD090",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "AFSD090",
+          "aanzuigdiepte_m": "90 mm",
+          "material": "PVC",
+          "sku_series": "afsd"
+        },
+        "attributes": {
+          "application": "AFSD075"
+        }
+      },
+      {
+        "sku": "AFSD110",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "AFSD110",
+          "aanzuigdiepte_m": "110 mm",
+          "material": "PVC",
+          "sku_series": "afsd"
+        },
+        "attributes": {
+          "application": "AFSD100 100 mm"
+        }
+      },
+      {
+        "sku": "AFSD160",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "AFSD160",
+          "aanzuigdiepte_m": "160 mm",
+          "material": "PVC",
+          "sku_series": "afsd"
+        },
+        "attributes": {
+          "application": "AFSD125 125 mm"
+        }
+      },
+      {
+        "sku": "AFST110",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "AFST110",
+          "aanzuigdiepte_m": "110 mm",
+          "material": "PVC",
+          "sku_series": "afst"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "AFST160",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "AFST160",
+          "aanzuigdiepte_m": "160 mm",
+          "material": "PVC",
+          "sku_series": "afst"
+        },
+        "attributes": {
+          "application": "AFST125"
+        }
+      },
+      {
+        "sku": "AFST250",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "AFST250",
+          "aanzuigdiepte_m": "250 mm",
+          "material": "PVC",
+          "sku_series": "afst"
+        },
+        "attributes": {
+          "application": "AFST200 200 mm"
+        }
+      },
+      {
+        "sku": "SS032",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "SS032",
+          "aanzuigdiepte_m": "32 mm",
+          "material": "PVC",
+          "sku_series": "ss"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "SS050",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "SS050",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "ss"
+        },
+        "attributes": {
+          "application": "SS040"
+        }
+      },
+      {
+        "sku": "SS080",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "SS080",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "ss"
+        },
+        "attributes": {
+          "application": "SS075 75 mm"
+        }
+      },
+      {
+        "sku": "SS100",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "SS100",
+          "aanzuigdiepte_m": "100 mm",
+          "material": "PVC",
+          "sku_series": "ss"
+        },
+        "attributes": {
+          "application": "SS090 90 mm"
+        }
+      },
+      {
+        "sku": "SS125",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "SS125",
+          "aanzuigdiepte_m": "125 mm",
+          "material": "PVC",
+          "sku_series": "ss"
+        },
+        "attributes": {
+          "application": "SS110"
+        }
+      },
+      {
+        "sku": "SS200",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "SS200",
+          "aanzuigdiepte_m": "200 mm",
+          "material": "PVC",
+          "sku_series": "ss"
+        },
+        "attributes": {
+          "application": "SS160 160 mm"
+        }
+      },
+      {
+        "sku": "SS315",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "SS315",
+          "aanzuigdiepte_m": "315 mm",
+          "material": "PVC",
+          "sku_series": "ss"
+        },
+        "attributes": {
+          "application": "SS250"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__pvc-rioleringsbuizen-hulpstukken.webp"
+    ],
+    "variant_count": 15,
+    "default_variant_sku": "AFSD032",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__pvc-rioleringsbuizen-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p9-pvc-sanitaire-buizen-hulpstukken-webp",
+    "name": "PVC SANITAIRE BUIZEN & HULPSTUKKEN (Page 9)",
+    "series_id": "pvc-sanitaire-buizen-hulpstukken",
+    "series_name": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC SANITAIRE BUIZEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-sanitaire-buizen-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "Bestelnr Maat",
+    "variants": [
+      {
+        "sku": "CAL753505",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "40 mm x 5/4\"",
+          "bestelnr": "CAL753505",
+          "connection_type": "lijmmof",
+          "material": "PVC",
+          "sku_series": "cal"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "OB032",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "OB032",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "32 mm",
+          "material": "PVC",
+          "sku_series": "ob"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "OB050",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "OB050",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "ob"
+        },
+        "attributes": {
+          "application": "OB040 40 mm"
+        }
+      },
+      {
+        "sku": "YXA0077900",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0077900",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "75 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0078100",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0078100",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "90 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "YXA0077900"
+        }
+      },
+      {
+        "sku": "YXA0114100",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0114100",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "32 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0114300",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0114300",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "YXA0114200"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p9__pvc-sanitaire-buizen-hulpstukken.webp"
+    ],
+    "variant_count": 7,
+    "default_variant_sku": "CAL753505",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p9__pvc-sanitaire-buizen-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p33-pvc-regenwaterafvoer-buizen-hulpstukken-webp",
+    "name": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN (Page 33)",
+    "series_id": "pvc-regenwaterafvoer-buizen-hulpstukken",
+    "series_name": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-regenwaterafvoer-buizen-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "GLAD - KLIKMOF",
+    "variants": [
+      {
+        "sku": "CF04025",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "40 mm",
+          "bestelnr": "CF04025",
+          "aanzuigdiepte_m": "25 m",
+          "diameter_mm": 40,
+          "material": "PVC",
+          "sku_series": "cf"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "CF04050",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "40 mm",
+          "bestelnr": "CF04050",
+          "aanzuigdiepte_m": "50 m",
+          "diameter_mm": 40,
+          "material": "PVC",
+          "sku_series": "cf"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "CF05025",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "50 mm",
+          "bestelnr": "CF05025",
+          "aanzuigdiepte_m": "25 m",
+          "diameter_mm": 50,
+          "material": "PVC",
+          "sku_series": "cf"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "CF05050",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "50 mm",
+          "bestelnr": "CF05050",
+          "aanzuigdiepte_m": "50 m",
+          "diameter_mm": 50,
+          "material": "PVC",
+          "sku_series": "cf"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "CF06325",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "63 mm",
+          "bestelnr": "CF06325",
+          "aanzuigdiepte_m": "25 m",
+          "diameter_mm": 63,
+          "material": "PVC",
+          "sku_series": "cf"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "CF07525",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "75 mm",
+          "bestelnr": "CF07525",
+          "aanzuigdiepte_m": "25 m",
+          "diameter_mm": 75,
+          "material": "PVC",
+          "sku_series": "cf"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "CF07550",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "75 mm",
+          "bestelnr": "CF07550",
+          "aanzuigdiepte_m": "50 m",
+          "diameter_mm": 75,
+          "material": "PVC",
+          "sku_series": "cf"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "CF09025",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "90 mm",
+          "bestelnr": "CF09025",
+          "aanzuigdiepte_m": "25 m",
+          "diameter_mm": 90,
+          "material": "PVC",
+          "sku_series": "cf"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "CF09050",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "90 mm",
+          "bestelnr": "CF09050",
+          "aanzuigdiepte_m": "50 m",
+          "diameter_mm": 90,
+          "material": "PVC",
+          "sku_series": "cf"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "CF11025",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "110 mm",
+          "bestelnr": "CF11025",
+          "aanzuigdiepte_m": "25 m",
+          "diameter_mm": 110,
+          "material": "PVC",
+          "sku_series": "cf"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "CF11050",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "110 mm",
+          "bestelnr": "CF11050",
+          "aanzuigdiepte_m": "50 m",
+          "diameter_mm": 110,
+          "material": "PVC",
+          "sku_series": "cf"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "CF12550",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "125 mm",
+          "bestelnr": "CF12550",
+          "aanzuigdiepte_m": "50 m",
+          "diameter_mm": 125,
+          "material": "PVC",
+          "sku_series": "cf"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "CF16025",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "160 mm",
+          "bestelnr": "CF16025",
+          "aanzuigdiepte_m": "25 m",
+          "diameter_mm": 160,
+          "material": "PVC",
+          "sku_series": "cf"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "CF16050",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "160 mm",
+          "bestelnr": "CF16050",
+          "aanzuigdiepte_m": "50 m",
+          "diameter_mm": 160,
+          "material": "PVC",
+          "sku_series": "cf"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "CF20025",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "200 mm",
+          "bestelnr": "CF20025",
+          "aanzuigdiepte_m": "25 m",
+          "diameter_mm": 200,
+          "material": "PVC",
+          "sku_series": "cf"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "CFM050",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "CFM050",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "cfm"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "CFM090",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "CFM090",
+          "aanzuigdiepte_m": "90 mm",
+          "material": "PVC",
+          "sku_series": "cfm"
+        },
+        "attributes": {
+          "application": "CFM075 75 mm"
+        }
+      },
+      {
+        "sku": "CFM125",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "CFM125",
+          "aanzuigdiepte_m": "125 mm",
+          "material": "PVC",
+          "sku_series": "cfm"
+        },
+        "attributes": {
+          "application": "CFM110 110 mm"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p33__pvc-regenwaterafvoer-buizen-hulpstukken.webp"
+    ],
+    "variant_count": 18,
+    "default_variant_sku": "CF04025",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p33__pvc-regenwaterafvoer-buizen-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p17-pvc-rioleringsbuizen-hulpstukken-webp",
+    "name": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN (Page 17)",
+    "series_id": "pvc-rioleringsbuizen-hulpstukken",
+    "series_name": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC RIOLERINGSBUIZEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-rioleringsbuizen-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "Bestelnr Maat",
+    "variants": [
+      {
+        "sku": "CK110",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "CK110",
+          "aanzuigdiepte_m": "110 mm",
+          "material": "PVC",
+          "sku_series": "ck"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "CK160",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "CK160",
+          "aanzuigdiepte_m": "160 mm",
+          "material": "PVC",
+          "sku_series": "ck"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "CK125 125 mm"
+        }
+      },
+      {
+        "sku": "EK110",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EK110",
+          "aanzuigdiepte_m": "110 mm",
+          "material": "PVC",
+          "sku_series": "ek"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "EK160",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EK160",
+          "aanzuigdiepte_m": "160 mm",
+          "material": "PVC",
+          "sku_series": "ek"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "EK125"
+        }
+      },
+      {
+        "sku": "EK250",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EK250",
+          "aanzuigdiepte_m": "250 mm",
+          "material": "PVC",
+          "sku_series": "ek"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "EK200 200 mm"
+        }
+      },
+      {
+        "sku": "EK400",
+        "label": "PVC RIOLERINGSBUIZEN & HULPSTUKKEN",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EK400",
+          "aanzuigdiepte_m": "400 mm",
+          "material": "PVC",
+          "sku_series": "ek"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "EK315 315 mm"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p17__pvc-rioleringsbuizen-hulpstukken.webp"
+    ],
+    "variant_count": 6,
+    "default_variant_sku": "CK110",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p17__pvc-rioleringsbuizen-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p34-pvc-regenwaterafvoer-buizen-hulpstukken-webp",
+    "name": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN (Page 34)",
+    "series_id": "pvc-regenwaterafvoer-buizen-hulpstukken",
+    "series_name": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-regenwaterafvoer-buizen-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "GLAD - KLIKMOF",
+    "variants": [
+      {
+        "sku": "DDPP050",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "50 mm",
+          "bestelnr": "DDPP050",
+          "aanzuigdiepte_m": "50 m",
+          "diameter_mm": 50,
+          "material": "PP",
+          "sku_series": "ddpp"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "DDPP060",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "60 mm",
+          "bestelnr": "DDPP060",
+          "aanzuigdiepte_m": "50 m",
+          "diameter_mm": 60,
+          "material": "PP",
+          "sku_series": "ddpp"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "DDPP080",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "80 mm",
+          "bestelnr": "DDPP080",
+          "aanzuigdiepte_m": "50 m",
+          "diameter_mm": 80,
+          "material": "PP",
+          "sku_series": "ddpp"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "DDPP100",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "100 mm",
+          "bestelnr": "DDPP100",
+          "aanzuigdiepte_m": "50 m",
+          "diameter_mm": 100,
+          "material": "PP",
+          "sku_series": "ddpp"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "DDPP125",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "125 mm",
+          "bestelnr": "DDPP125",
+          "aanzuigdiepte_m": "50 m",
+          "diameter_mm": 125,
+          "material": "PP",
+          "sku_series": "ddpp"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "DDPP160",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "160 mm",
+          "bestelnr": "DDPP160",
+          "aanzuigdiepte_m": "50 m",
+          "diameter_mm": 160,
+          "material": "PP",
+          "sku_series": "ddpp"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "DDPP200",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "200 mm",
+          "bestelnr": "DDPP200",
+          "aanzuigdiepte_m": "50 m",
+          "diameter_mm": 200,
+          "material": "PP",
+          "sku_series": "ddpp"
+        },
+        "attributes": {
+          "application": "GLAD - KLIKMOF"
+        }
+      },
+      {
+        "sku": "DDPPM050",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "DDPPM050",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "ddppm"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "DDPPM05060",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "50 mm x 60 mm",
+          "bestelnr": "DDPPM05060",
+          "material": "PVC",
+          "sku_series": "ddppm"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "DDPPM080",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "DDPPM080",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "ddppm"
+        },
+        "attributes": {
+          "application": "DDPPM060 60 mm"
+        }
+      },
+      {
+        "sku": "DDPPM08050",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "80 mm x 50 mm",
+          "bestelnr": "DDPPM08050",
+          "material": "PVC",
+          "sku_series": "ddppm"
+        },
+        "attributes": {
+          "application": "DDPPM06560"
+        }
+      },
+      {
+        "sku": "DDPPM10080",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "100 mm x 80 mm",
+          "bestelnr": "DDPPM10080",
+          "material": "PP",
+          "sku_series": "ddppm"
+        },
+        "attributes": {
+          "application": "DDPPM08060 80 mm x 60 mm"
+        }
+      },
+      {
+        "sku": "DDPPM125",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "DDPPM125",
+          "aanzuigdiepte_m": "125 mm",
+          "material": "PP",
+          "sku_series": "ddppm"
+        },
+        "attributes": {
+          "application": "DDPPM100 100 mm"
+        }
+      },
+      {
+        "sku": "DDPPM200",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "DDPPM200",
+          "aanzuigdiepte_m": "200 mm",
+          "material": "PVC",
+          "sku_series": "ddppm"
+        },
+        "attributes": {
+          "application": "DDPPM160 160 mm"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p34__pvc-regenwaterafvoer-buizen-hulpstukken.webp"
+    ],
+    "variant_count": 14,
+    "default_variant_sku": "DDPP050",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p34__pvc-regenwaterafvoer-buizen-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p35-pvc-regenwaterafvoer-buizen-hulpstukken-webp",
+    "name": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN (Page 35)",
+    "series_id": "pvc-regenwaterafvoer-buizen-hulpstukken",
+    "series_name": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-regenwaterafvoer-buizen-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "Bestelnr Maat",
+    "variants": [
+      {
+        "sku": "DDPPEK05060",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 35,
+        "page_in_pdf": 35,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "DDPPEK05060",
+          "socket_sizes": "50/60 mm",
+          "material": "PVC",
+          "sku_series": "ddppek"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "DDPPEK100",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 35,
+        "page_in_pdf": 35,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "DDPPEK100",
+          "aanzuigdiepte_m": "100 mm",
+          "material": "PVC",
+          "sku_series": "ddppek"
+        },
+        "attributes": {
+          "application": "DDPPEK080 80 mm"
+        }
+      },
+      {
+        "sku": "DDPPEK160",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 35,
+        "page_in_pdf": 35,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "DDPPEK160",
+          "aanzuigdiepte_m": "160 mm",
+          "material": "PP",
+          "sku_series": "ddppek"
+        },
+        "attributes": {
+          "application": "DDPPEK125 125 mm"
+        }
+      },
+      {
+        "sku": "DDPPT050",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 35,
+        "page_in_pdf": 35,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "DDPPT050",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "ddppt"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "DDPPT080",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 35,
+        "page_in_pdf": 35,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "DDPPT080",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "ddppt"
+        },
+        "attributes": {
+          "application": "DDPPT060 60 mm"
+        }
+      },
+      {
+        "sku": "DDPPT08050",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 35,
+        "page_in_pdf": 35,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "80 mm x 50 mm x 80 mm",
+          "bestelnr": "DDPPT08050",
+          "material": "PVC",
+          "sku_series": "ddppt"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "DDPPT10050",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 35,
+        "page_in_pdf": 35,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "100 mm x 50 mm x 100 mm",
+          "bestelnr": "DDPPT10050",
+          "material": "PVC",
+          "sku_series": "ddppt"
+        },
+        "attributes": {
+          "application": "DDPPT08060"
+        }
+      },
+      {
+        "sku": "DDPPT10080",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 35,
+        "page_in_pdf": 35,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "100 mm x 80 mm x 100 mm",
+          "bestelnr": "DDPPT10080",
+          "material": "PP",
+          "sku_series": "ddppt"
+        },
+        "attributes": {
+          "application": "DDPPT10060 100 mm x 60 mm x 100 mm"
+        }
+      },
+      {
+        "sku": "DDPPT125",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 35,
+        "page_in_pdf": 35,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "DDPPT125",
+          "aanzuigdiepte_m": "125 mm",
+          "material": "PP",
+          "sku_series": "ddppt"
+        },
+        "attributes": {
+          "application": "DDPPT100 100 mm"
+        }
+      },
+      {
+        "sku": "DDPPT200",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 35,
+        "page_in_pdf": 35,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "DDPPT200",
+          "aanzuigdiepte_m": "200 mm",
+          "material": "PVC",
+          "sku_series": "ddppt"
+        },
+        "attributes": {
+          "application": "DDPPT160 160 mm"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p35__pvc-regenwaterafvoer-buizen-hulpstukken.webp"
+    ],
+    "variant_count": 10,
+    "default_variant_sku": "DDPPEK05060",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p35__pvc-regenwaterafvoer-buizen-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p5-pvc-sanitaire-buizen-hulpstukken-webp",
+    "name": "PVC SANITAIRE BUIZEN & HULPSTUKKEN (Page 5)",
+    "series_id": "pvc-sanitaire-buizen-hulpstukken",
+    "series_name": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC SANITAIRE BUIZEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-sanitaire-buizen-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "Bestelnr Maat",
+    "variants": [
+      {
+        "sku": "EB032301",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB032301",
+          "aanzuigdiepte_m": "32 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "EB032302",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB032302",
+          "aanzuigdiepte_m": "32 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "EB032451",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB032451",
+          "aanzuigdiepte_m": "32 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "EB032452",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB032452",
+          "aanzuigdiepte_m": "32 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "EB050301",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB050301",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "EB040301 40 mm"
+        }
+      },
+      {
+        "sku": "EB050302",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB050302",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "EB040302 40 mm"
+        }
+      },
+      {
+        "sku": "EB050451",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB050451",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "EB040451"
+        }
+      },
+      {
+        "sku": "EB050452",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB050452",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "EB040452"
+        }
+      },
+      {
+        "sku": "EB080451",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB080451",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "EB075451 75 mm"
+        }
+      },
+      {
+        "sku": "EB080452",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB080452",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "EB075452"
+        }
+      },
+      {
+        "sku": "EB090301",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB090301",
+          "aanzuigdiepte_m": "90 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "EB075301 75 mm"
+        }
+      },
+      {
+        "sku": "EB090302",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB090302",
+          "aanzuigdiepte_m": "90 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "EB075302 75 mm"
+        }
+      },
+      {
+        "sku": "EB100451",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB100451",
+          "aanzuigdiepte_m": "100 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "EB090451 90 mm"
+        }
+      },
+      {
+        "sku": "EB100452",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB100452",
+          "aanzuigdiepte_m": "100 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "EB090452 90 mm"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p5__pvc-sanitaire-buizen-hulpstukken.webp"
+    ],
+    "variant_count": 14,
+    "default_variant_sku": "EB032301",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p5__pvc-sanitaire-buizen-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p6-pvc-sanitaire-buizen-hulpstukken-webp",
+    "name": "PVC SANITAIRE BUIZEN & HULPSTUKKEN (Page 6)",
+    "series_id": "pvc-sanitaire-buizen-hulpstukken",
+    "series_name": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC SANITAIRE BUIZEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-sanitaire-buizen-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "Bestelnr Maat",
+    "variants": [
+      {
+        "sku": "EB032901",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB032901",
+          "aanzuigdiepte_m": "32 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "EB032902",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB032902",
+          "aanzuigdiepte_m": "32 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "EB050901",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB050901",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "EB040901"
+        }
+      },
+      {
+        "sku": "EB050902",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB050902",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "EB040902"
+        }
+      },
+      {
+        "sku": "EB080901",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB080901",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "EB075901 75 mm"
+        }
+      },
+      {
+        "sku": "EB080902",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB080902",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "EB075902"
+        }
+      },
+      {
+        "sku": "EB100901",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB100901",
+          "aanzuigdiepte_m": "100 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "EB090901 90 mm"
+        }
+      },
+      {
+        "sku": "EB100902",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EB100902",
+          "aanzuigdiepte_m": "100 mm",
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "EB090902 90 mm"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p6__pvc-sanitaire-buizen-hulpstukken.webp"
+    ],
+    "variant_count": 8,
+    "default_variant_sku": "EB032901",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p6__pvc-sanitaire-buizen-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p11-afvoer-bocht-15-webp",
+    "name": "AFVOER BOCHT 15° (Page 11)",
+    "series_id": "afvoer-bocht-15",
+    "series_name": "AFVOER BOCHT 15°",
+    "series_names": [
+      "AFVOER BOCHT 15°"
+    ],
+    "family": "afvoer-bocht-15",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "MANCHET - SPIE | RAL7037",
+    "variants": [
+      {
+        "sku": "EB110151",
+        "label": "AFVOER BOCHT 15°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "110 mm",
+          "angle": "15°",
+          "bestelnr": "EB110151",
+          "diameter_mm": 110,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB110151",
+        "label": "AFVOER BOCHT 15°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "125 mm",
+          "angle": "15°",
+          "bestelnr": "EB110151",
+          "diameter_mm": 125,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB110152",
+        "label": "AFVOER BOCHT 15°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "110 mm",
+          "angle": "15°",
+          "bestelnr": "EB110152",
+          "diameter_mm": 110,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB125152",
+        "label": "AFVOER BOCHT 15°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "125 mm",
+          "angle": "15°",
+          "bestelnr": "EB125152",
+          "diameter_mm": 125,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB160151",
+        "label": "AFVOER BOCHT 15°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "160 mm",
+          "angle": "15°",
+          "bestelnr": "EB160151",
+          "diameter_mm": 160,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB160152",
+        "label": "AFVOER BOCHT 15°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "160 mm",
+          "angle": "15°",
+          "bestelnr": "EB160152",
+          "diameter_mm": 160,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB200151",
+        "label": "AFVOER BOCHT 15°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "200 mm",
+          "angle": "15°",
+          "bestelnr": "EB200151",
+          "diameter_mm": 200,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB250151",
+        "label": "AFVOER BOCHT 15°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "250 mm",
+          "angle": "15°",
+          "bestelnr": "EB250151",
+          "diameter_mm": 250,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB250152",
+        "label": "AFVOER BOCHT 15°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "250 mm",
+          "angle": "15°",
+          "bestelnr": "EB250152",
+          "diameter_mm": 250,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB315151",
+        "label": "AFVOER BOCHT 15°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "315 mm",
+          "angle": "15°",
+          "bestelnr": "EB315151",
+          "diameter_mm": 315,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB315152",
+        "label": "AFVOER BOCHT 15°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "315 mm",
+          "angle": "15°",
+          "bestelnr": "EB315152",
+          "diameter_mm": 315,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB400151",
+        "label": "AFVOER BOCHT 15°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "400 mm",
+          "angle": "15°",
+          "bestelnr": "EB400151",
+          "diameter_mm": 400,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB400152",
+        "label": "AFVOER BOCHT 15°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "400 mm",
+          "angle": "15°",
+          "bestelnr": "EB400152",
+          "diameter_mm": 400,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p11__afvoer-bocht-15.webp"
+    ],
+    "variant_count": 13,
+    "default_variant_sku": "EB110151",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p11__afvoer-bocht-15.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p11-afvoer-bocht-30-webp",
+    "name": "AFVOER BOCHT 30° (Page 11)",
+    "series_id": "afvoer-bocht-30",
+    "series_name": "AFVOER BOCHT 30°",
+    "series_names": [
+      "AFVOER BOCHT 30°"
+    ],
+    "family": "afvoer-bocht-30",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "MANCHET - SPIE | RAL7037",
+    "variants": [
+      {
+        "sku": "EB110301",
+        "label": "AFVOER BOCHT 30°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "110 mm",
+          "angle": "30°",
+          "bestelnr": "EB110301",
+          "diameter_mm": 110,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB110302",
+        "label": "AFVOER BOCHT 30°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "110 mm",
+          "angle": "30°",
+          "bestelnr": "EB110302",
+          "diameter_mm": 110,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB125301",
+        "label": "AFVOER BOCHT 30°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "125 mm",
+          "angle": "30°",
+          "bestelnr": "EB125301",
+          "diameter_mm": 125,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB125302",
+        "label": "AFVOER BOCHT 30°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "125 mm",
+          "angle": "30°",
+          "bestelnr": "EB125302",
+          "diameter_mm": 125,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB160301",
+        "label": "AFVOER BOCHT 30°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "160 mm",
+          "angle": "30°",
+          "bestelnr": "EB160301",
+          "diameter_mm": 160,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB160302",
+        "label": "AFVOER BOCHT 30°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "160 mm",
+          "angle": "30°",
+          "bestelnr": "EB160302",
+          "diameter_mm": 160,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB200301",
+        "label": "AFVOER BOCHT 30°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "200 mm",
+          "angle": "30°",
+          "bestelnr": "EB200301",
+          "diameter_mm": 200,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB200302",
+        "label": "AFVOER BOCHT 30°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "200 mm",
+          "angle": "30°",
+          "bestelnr": "EB200302",
+          "diameter_mm": 200,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB250301",
+        "label": "AFVOER BOCHT 30°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "250 mm",
+          "angle": "30°",
+          "bestelnr": "EB250301",
+          "diameter_mm": 250,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB250302",
+        "label": "AFVOER BOCHT 30°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "250 mm",
+          "angle": "30°",
+          "bestelnr": "EB250302",
+          "diameter_mm": 250,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB315301",
+        "label": "AFVOER BOCHT 30°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "315 mm",
+          "angle": "30°",
+          "bestelnr": "EB315301",
+          "diameter_mm": 315,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB315302",
+        "label": "AFVOER BOCHT 30°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "315 mm",
+          "angle": "30°",
+          "bestelnr": "EB315302",
+          "diameter_mm": 315,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB400301",
+        "label": "AFVOER BOCHT 30°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "400 mm",
+          "angle": "30°",
+          "bestelnr": "EB400301",
+          "diameter_mm": 400,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB400302",
+        "label": "AFVOER BOCHT 30°",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "400 mm",
+          "angle": "30°",
+          "bestelnr": "EB400302",
+          "diameter_mm": 400,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p11__afvoer-bocht-30.webp"
+    ],
+    "variant_count": 14,
+    "default_variant_sku": "EB110301",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p11__afvoer-bocht-30.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p12-afvoer-bocht-45-webp",
+    "name": "AFVOER BOCHT 45° (Page 12)",
+    "series_id": "afvoer-bocht-45",
+    "series_name": "AFVOER BOCHT 45°",
+    "series_names": [
+      "AFVOER BOCHT 45°"
+    ],
+    "family": "afvoer-bocht-45",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "MANCHET - SPIE | RAL7037",
+    "variants": [
+      {
+        "sku": "EB110451",
+        "label": "AFVOER BOCHT 45°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "110 mm",
+          "angle": "45°",
+          "bestelnr": "EB110451",
+          "diameter_mm": 110,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB110452",
+        "label": "AFVOER BOCHT 45°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "110 mm",
+          "angle": "45°",
+          "bestelnr": "EB110452",
+          "diameter_mm": 110,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB125451",
+        "label": "AFVOER BOCHT 45°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "125 mm",
+          "angle": "45°",
+          "bestelnr": "EB125451",
+          "diameter_mm": 125,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB160451",
+        "label": "AFVOER BOCHT 45°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "160 mm",
+          "angle": "45°",
+          "bestelnr": "EB160451",
+          "diameter_mm": 160,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB160452",
+        "label": "AFVOER BOCHT 45°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "160 mm",
+          "angle": "45°",
+          "bestelnr": "EB160452",
+          "diameter_mm": 160,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB200451",
+        "label": "AFVOER BOCHT 45°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "200 mm",
+          "angle": "45°",
+          "bestelnr": "EB200451",
+          "diameter_mm": 200,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB200452",
+        "label": "AFVOER BOCHT 45°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "200 mm",
+          "angle": "45°",
+          "bestelnr": "EB200452",
+          "diameter_mm": 200,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB250451",
+        "label": "AFVOER BOCHT 45°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "250 mm",
+          "angle": "45°",
+          "bestelnr": "EB250451",
+          "diameter_mm": 250,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB250452",
+        "label": "AFVOER BOCHT 45°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "250 mm",
+          "angle": "45°",
+          "bestelnr": "EB250452",
+          "diameter_mm": 250,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB315452",
+        "label": "AFVOER BOCHT 45°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "315 mm",
+          "angle": "45°",
+          "bestelnr": "EB315452",
+          "diameter_mm": 315,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB400451",
+        "label": "AFVOER BOCHT 45°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "400 mm",
+          "angle": "45°",
+          "bestelnr": "EB400451",
+          "diameter_mm": 400,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB400452",
+        "label": "AFVOER BOCHT 45°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "400 mm",
+          "angle": "45°",
+          "bestelnr": "EB400452",
+          "diameter_mm": 400,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB500451",
+        "label": "AFVOER BOCHT 45°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "500 mm",
+          "angle": "45°",
+          "bestelnr": "EB500451",
+          "diameter_mm": 500,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p12__afvoer-bocht-45.webp"
+    ],
+    "variant_count": 13,
+    "default_variant_sku": "EB110451",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p12__afvoer-bocht-45.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p12-afvoer-bocht-90-webp",
+    "name": "AFVOER BOCHT 90° (Page 12)",
+    "series_id": "afvoer-bocht-90",
+    "series_name": "AFVOER BOCHT 90°",
+    "series_names": [
+      "AFVOER BOCHT 90°"
+    ],
+    "family": "afvoer-bocht-90",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "MANCHET - SPIE | RAL7037",
+    "variants": [
+      {
+        "sku": "EB110901",
+        "label": "AFVOER BOCHT 90°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "110 mm",
+          "angle": "90°",
+          "bestelnr": "EB110901",
+          "diameter_mm": 110,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB110902",
+        "label": "AFVOER BOCHT 90°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "110 mm",
+          "angle": "90°",
+          "bestelnr": "EB110902",
+          "diameter_mm": 110,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB125901",
+        "label": "AFVOER BOCHT 90°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "125 mm",
+          "angle": "90°",
+          "bestelnr": "EB125901",
+          "diameter_mm": 125,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB160901",
+        "label": "AFVOER BOCHT 90°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "160 mm",
+          "angle": "90°",
+          "bestelnr": "EB160901",
+          "diameter_mm": 160,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB160902",
+        "label": "AFVOER BOCHT 90°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "160 mm",
+          "angle": "90°",
+          "bestelnr": "EB160902",
+          "diameter_mm": 160,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB200901",
+        "label": "AFVOER BOCHT 90°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "200 mm",
+          "angle": "90°",
+          "bestelnr": "EB200901",
+          "diameter_mm": 200,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB200902",
+        "label": "AFVOER BOCHT 90°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "200 mm",
+          "angle": "90°",
+          "bestelnr": "EB200902",
+          "diameter_mm": 200,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB250901",
+        "label": "AFVOER BOCHT 90°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "250 mm",
+          "angle": "90°",
+          "bestelnr": "EB250901",
+          "diameter_mm": 250,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB250902",
+        "label": "AFVOER BOCHT 90°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "250 mm",
+          "angle": "90°",
+          "bestelnr": "EB250902",
+          "diameter_mm": 250,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB315901",
+        "label": "AFVOER BOCHT 90°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "315 mm",
+          "angle": "90°",
+          "bestelnr": "EB315901",
+          "diameter_mm": 315,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB315902",
+        "label": "AFVOER BOCHT 90°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "315 mm",
+          "angle": "90°",
+          "bestelnr": "EB315902",
+          "diameter_mm": 315,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB400901",
+        "label": "AFVOER BOCHT 90°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "400 mm",
+          "angle": "90°",
+          "bestelnr": "EB400901",
+          "diameter_mm": 400,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET - SPIE | RAL7037"
+        }
+      },
+      {
+        "sku": "EB400902",
+        "label": "AFVOER BOCHT 90°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "400 mm",
+          "angle": "90°",
+          "bestelnr": "EB400902",
+          "diameter_mm": 400,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      },
+      {
+        "sku": "EB500902",
+        "label": "AFVOER BOCHT 90°",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "500 mm",
+          "angle": "90°",
+          "bestelnr": "EB500902",
+          "diameter_mm": 500,
+          "material": "PVC",
+          "sku_series": "eb"
+        },
+        "attributes": {
+          "application": "MANCHET | RAL7037"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p12__afvoer-bocht-90.webp"
+    ],
+    "variant_count": 14,
+    "default_variant_sku": "EB110901",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p12__afvoer-bocht-90.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p8-pvc-sanitaire-buizen-hulpstukken-webp",
+    "name": "PVC SANITAIRE BUIZEN & HULPSTUKKEN (Page 8)",
+    "series_id": "pvc-sanitaire-buizen-hulpstukken",
+    "series_name": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC SANITAIRE BUIZEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-sanitaire-buizen-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "Bestelnr Maat",
+    "variants": [
+      {
+        "sku": "EK032",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EK032",
+          "aanzuigdiepte_m": "32 mm",
+          "material": "PVC",
+          "sku_series": "ek"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "EK050",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EK050",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "ek"
+        },
+        "attributes": {
+          "application": "EK040"
+        }
+      },
+      {
+        "sku": "EK080",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EK080",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "ek"
+        },
+        "attributes": {
+          "application": "EK075 75 mm"
+        }
+      },
+      {
+        "sku": "EK100",
+        "label": "PVC SANITAIRE BUIZEN & HULPSTUKKEN",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "EK100",
+          "aanzuigdiepte_m": "100 mm",
+          "material": "PVC",
+          "sku_series": "ek"
+        },
+        "attributes": {
+          "application": "EK090 90 mm"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p8__pvc-sanitaire-buizen-hulpstukken.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "EK032",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p8__pvc-sanitaire-buizen-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p24-pp-afvoerbuizen-hulpstukken-webp",
+    "name": "PP AFVOERBUIZEN & HULPSTUKKEN (Page 24)",
+    "series_id": "pp-afvoerbuizen-hulpstukken",
+    "series_name": "PP AFVOERBUIZEN & HULPSTUKKEN",
+    "series_names": [
+      "PP AFVOERBUIZEN & HULPSTUKKEN"
+    ],
+    "family": "pp-afvoerbuizen-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "LICHTGRIJS",
+    "variants": [
+      {
+        "sku": "YXA0034500",
+        "label": "PP AFVOERBUIZEN & HULPSTUKKEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "80 mm",
+          "bestelnr": "YXA0034500",
+          "aanzuigdiepte_m": "4 m",
+          "diameter_mm": 80,
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "LICHTGRIJS"
+        }
+      },
+      {
+        "sku": "YXA0034550",
+        "label": "PP AFVOERBUIZEN & HULPSTUKKEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "80 mm",
+          "bestelnr": "YXA0034550",
+          "aanzuigdiepte_m": "3 m",
+          "diameter_mm": 80,
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "LICHTGRIJS"
+        }
+      },
+      {
+        "sku": "YXA0034600",
+        "label": "PP AFVOERBUIZEN & HULPSTUKKEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "80 mm",
+          "bestelnr": "YXA0034600",
+          "aanzuigdiepte_m": "2 m",
+          "diameter_mm": 80,
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "LICHTGRIJS"
+        }
+      },
+      {
+        "sku": "YXA0034700",
+        "label": "PP AFVOERBUIZEN & HULPSTUKKEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "125 mm",
+          "bestelnr": "YXA0034700",
+          "aanzuigdiepte_m": "4 m",
+          "diameter_mm": 125,
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "LICHTGRIJS"
+        }
+      },
+      {
+        "sku": "YXA0035000",
+        "label": "PP AFVOERBUIZEN & HULPSTUKKEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "165 mm",
+          "bestelnr": "YXA0035000",
+          "aanzuigdiepte_m": "4 m",
+          "diameter_mm": 165,
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "LICHTGRIJS"
+        }
+      },
+      {
+        "sku": "YXA0036300",
+        "label": "PP AFVOERBUIZEN & HULPSTUKKEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0036300",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0036500",
+        "label": "PP AFVOERBUIZEN & HULPSTUKKEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0036500",
+          "aanzuigdiepte_m": "165 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "YXA0036400"
+        }
+      },
+      {
+        "sku": "YXA0037000",
+        "label": "PP AFVOERBUIZEN & HULPSTUKKEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0037000",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0037200",
+        "label": "PP AFVOERBUIZEN & HULPSTUKKEN",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0037200",
+          "aanzuigdiepte_m": "165 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "YXA0037100"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p24__pp-afvoerbuizen-hulpstukken.webp"
+    ],
+    "variant_count": 9,
+    "default_variant_sku": "YXA0034500",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p24__pp-afvoerbuizen-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p28-pvc-dakgoten-hulpstukken-webp",
+    "name": "PVC DAKGOTEN & HULPSTUKKEN (Page 28)",
+    "series_id": "pvc-dakgoten-hulpstukken",
+    "series_name": "PVC DAKGOTEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC DAKGOTEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-dakgoten-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "LIJMMOF - SPIE | LICHTGRIJS",
+    "variants": [
+      {
+        "sku": "YXA0035100",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "100 mm",
+          "bestelnr": "YXA0035100",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "2,8 m",
+          "diameter_mm": 100,
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "LIJMMOF - SPIE | LICHTGRIJS"
+        }
+      },
+      {
+        "sku": "YXA0035200",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "100 mm",
+          "bestelnr": "YXA0035200",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "4 m",
+          "diameter_mm": 100,
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "LIJMMOF - SPIE | LICHTGRIJS"
+        }
+      },
+      {
+        "sku": "YXA0035300",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "50 mm",
+          "bestelnr": "YXA0035300",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "2,8 m",
+          "diameter_mm": 50,
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "LIJMMOF - SPIE | LICHTGRIJS"
+        }
+      },
+      {
+        "sku": "YXA0035400",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "50 mm",
+          "bestelnr": "YXA0035400",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "4 m",
+          "diameter_mm": 50,
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "LIJMMOF - SPIE | LICHTGRIJS"
+        }
+      },
+      {
+        "sku": "YXA0035500",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "80 mm",
+          "bestelnr": "YXA0035500",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "8 m",
+          "diameter_mm": 80,
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "LIJMMOF - SPIE | LICHTGRIJS"
+        }
+      },
+      {
+        "sku": "YXA0035600",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "80 mm",
+          "bestelnr": "YXA0035600",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "4 m",
+          "diameter_mm": 80,
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "LIJMMOF - SPIE | LICHTGRIJS"
+        }
+      },
+      {
+        "sku": "YXA0038500",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0038500",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "100 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "80 mm"
+        }
+      },
+      {
+        "sku": "YXA0038700",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0038700",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "100 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "YXA0039300"
+        }
+      },
+      {
+        "sku": "YXA0038800",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0038800",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - SPIE",
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0039000",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0039000",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0040200",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0040200",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0040400",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0040400",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "100 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "YXA0040300"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p28__pvc-dakgoten-hulpstukken.webp"
+    ],
+    "variant_count": 12,
+    "default_variant_sku": "YXA0035100",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p28__pvc-dakgoten-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p27-pvc-dakgoten-hulpstukken-webp",
+    "name": "PVC DAKGOTEN & HULPSTUKKEN (Page 27)",
+    "series_id": "pvc-dakgoten-hulpstukken",
+    "series_name": "PVC DAKGOTEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC DAKGOTEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-dakgoten-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "GRIJS",
+    "variants": [
+      {
+        "sku": "YXA0035700",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0035700",
+          "width_mm": "165 mm",
+          "aanzuigdiepte_m": "6 m",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "GRIJS"
+        }
+      },
+      {
+        "sku": "YXA0063800",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0063800",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p27__pvc-dakgoten-hulpstukken.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "YXA0035700",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p27__pvc-dakgoten-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p26-pvc-dakgoten-hulpstukken-webp",
+    "name": "PVC DAKGOTEN & HULPSTUKKEN (Page 26)",
+    "series_id": "pvc-dakgoten-hulpstukken",
+    "series_name": "PVC DAKGOTEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC DAKGOTEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-dakgoten-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "Bestelnr Maat",
+    "variants": [
+      {
+        "sku": "YXA0035800",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0035800",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0036000",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0036000",
+          "aanzuigdiepte_m": "160 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "YXA0035900"
+        }
+      },
+      {
+        "sku": "YXA0040800",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0040800",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0041000",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0041000",
+          "aanzuigdiepte_m": "165 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "YXA0040900 125 mm"
+        }
+      },
+      {
+        "sku": "YXA0062500",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0062500",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Materiaal"
+        }
+      },
+      {
+        "sku": "YXA0062600",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0062600",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Materiaal"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p26__pvc-dakgoten-hulpstukken.webp"
+    ],
+    "variant_count": 6,
+    "default_variant_sku": "YXA0035800",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p26__pvc-dakgoten-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p25-pvc-dakgoten-hulpstukken-webp",
+    "name": "PVC DAKGOTEN & HULPSTUKKEN (Page 25)",
+    "series_id": "pvc-dakgoten-hulpstukken",
+    "series_name": "PVC DAKGOTEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC DAKGOTEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-dakgoten-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "Bestelnr Maat",
+    "variants": [
+      {
+        "sku": "YXA0036800",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0036800",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0037300",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0037300",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0037500",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0037500",
+          "aanzuigdiepte_m": "165 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "YXA0037400"
+        }
+      },
+      {
+        "sku": "YXA0037600",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0037600",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0037800",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0037800",
+          "aanzuigdiepte_m": "165 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "YXA0037700"
+        }
+      },
+      {
+        "sku": "YXA0038425",
+        "label": "PVC DAKGOTEN & HULPSTUKKEN",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0038425",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p25__pvc-dakgoten-hulpstukken.webp"
+    ],
+    "variant_count": 6,
+    "default_variant_sku": "YXA0036800",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p25__pvc-dakgoten-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p29-pvc-regenwaterafvoer-buizen-hulpstukken-webp",
+    "name": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN (Page 29)",
+    "series_id": "pvc-regenwaterafvoer-buizen-hulpstukken",
+    "series_name": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-regenwaterafvoer-buizen-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "YXA0040000 80 mm",
+    "variants": [
+      {
+        "sku": "YXA0039400",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0039400",
+          "aanzuigdiepte_m": "100 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "YXA0040000 80 mm"
+        }
+      },
+      {
+        "sku": "YXA0039500",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0039500",
+          "aanzuigdiepte_m": "100 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "YXA0040100"
+        }
+      },
+      {
+        "sku": "YXA0039600",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0039600",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0039700",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0039700",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0078600",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0078600",
+          "aanzuigdiepte_m": "50 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0078700",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0078700",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p29__pvc-regenwaterafvoer-buizen-hulpstukken.webp"
+    ],
+    "variant_count": 6,
+    "default_variant_sku": "YXA0039400",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p29__pvc-regenwaterafvoer-buizen-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p30-pvc-regenwaterafvoer-buizen-hulpstukken-webp",
+    "name": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN (Page 30)",
+    "series_id": "pvc-regenwaterafvoer-buizen-hulpstukken",
+    "series_name": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-regenwaterafvoer-buizen-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "Bestelnr Maat Lengte",
+    "variants": [
+      {
+        "sku": "YXA0064100",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 30,
+        "page_in_pdf": 30,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0064100",
+          "aanzuigdiepte_m": "4 m",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat Lengte"
+        }
+      },
+      {
+        "sku": "YXA0064400",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 30,
+        "page_in_pdf": 30,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0064400",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0064600",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 30,
+        "page_in_pdf": 30,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0064600",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p30__pvc-regenwaterafvoer-buizen-hulpstukken.webp"
+    ],
+    "variant_count": 3,
+    "default_variant_sku": "YXA0064100",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p30__pvc-regenwaterafvoer-buizen-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p31-pvc-regenwaterafvoer-buizen-hulpstukken-webp",
+    "name": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN (Page 31)",
+    "series_id": "pvc-regenwaterafvoer-buizen-hulpstukken",
+    "series_name": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-regenwaterafvoer-buizen-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "Bestelnr Maat",
+    "variants": [
+      {
+        "sku": "YXA0065000",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 31,
+        "page_in_pdf": 31,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0065000",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0065200",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 31,
+        "page_in_pdf": 31,
+        "properties": {
+          "type": "plastic_pipe",
+          "bestelnr": "YXA0065200",
+          "aanzuigdiepte_m": "80 mm",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0065400",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 31,
+        "page_in_pdf": 31,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "80/80 mm x 100 mm",
+          "bestelnr": "YXA0065400",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      },
+      {
+        "sku": "YXA0176800",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 31,
+        "page_in_pdf": 31,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "80/80 mm x 110 mm",
+          "bestelnr": "YXA0176800",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p31__pvc-regenwaterafvoer-buizen-hulpstukken.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "YXA0065000",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p31__pvc-regenwaterafvoer-buizen-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kunststof-afvoerleidingen-images-kunststof-afvoerleidingen-kunststof-afvoerleidingen-p32-pvc-regenwaterafvoer-buizen-hulpstukken-webp",
+    "name": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN (Page 32)",
+    "series_id": "pvc-regenwaterafvoer-buizen-hulpstukken",
+    "series_name": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+    "series_names": [
+      "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN"
+    ],
+    "family": "pvc-regenwaterafvoer-buizen-hulpstukken",
+    "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
+    "brand": "Various",
+    "category": "Bestelnr Maat",
+    "variants": [
+      {
+        "sku": "YXA0079700",
+        "label": "PVC REGENWATERAFVOER BUIZEN & HULPSTUKKEN",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "plastic_pipe",
+          "size": "80 mm x 80 mm",
+          "bestelnr": "YXA0079700",
+          "material": "PVC",
+          "sku_series": "yxa"
+        },
+        "attributes": {
+          "application": "Bestelnr Maat"
+        }
+      }
+    ],
+    "images": [
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p32__pvc-regenwaterafvoer-buizen-hulpstukken.webp"
+    ],
+    "variant_count": 1,
+    "default_variant_sku": "YXA0079700",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p32__pvc-regenwaterafvoer-buizen-hulpstukken.webp"
+      }
+    ]
+  }
+]

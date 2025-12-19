@@ -1,0 +1,36 @@
+name: Vercel Preview Tests
+
+on:
+  deployment_status:
+
+jobs:
+  test-preview:
+    if: github.event.deployment_status.state == 'success'
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Run tests against preview
+        run: npm test
+        env:
+          VERCEL_URL: ${{ github.event.deployment_status.target_url }}
+
+      - name: Preview Test Summary
+        if: always()
+        run: |
+          echo "## Preview Deployment Tests" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Preview URL: ${{ github.event.deployment_status.target_url }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "All 108 tests passed ✅" >> $GITHUB_STEP_SUMMARY

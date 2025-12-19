@@ -1,0 +1,5780 @@
+[
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p17-dompelpompen-pdf-webp",
+    "name": "afvalwater, huishoudelijk, industrieel, (Page 17)",
+    "series_id": "dompelpompen__afvalwater-huishoudelijk-industrieel",
+    "series_name": "afvalwater, huishoudelijk, industrieel,",
+    "series_names": [
+      "afvalwater, huishoudelijk, industrieel,"
+    ],
+    "family": "dompelpompen__afvalwater-huishoudelijk-industrieel",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "03730002",
+        "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "VORTEX 100",
+          "bestelnr": "03730002",
+          "debiet_m3_h": "18,0 m3/h",
+          "opvoerhoogte_m": "8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "connection": "2”",
+          "aanzuigdiepte_m": "25 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "afvalwater, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730167",
+        "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "VORTEX 50",
+          "bestelnr": "03730167",
+          "debiet_m3_h": "10,8 m3/h",
+          "opvoerhoogte_m": "6 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,37 kW",
+          "connection": "5/4”",
+          "aanzuigdiepte_m": "11 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "afvalwater, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730168",
+        "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "VORTEX 75",
+          "bestelnr": "03730168",
+          "debiet_m3_h": "13,5 m3/h",
+          "opvoerhoogte_m": "8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,55 kW",
+          "connection": "5/4”",
+          "aanzuigdiepte_m": "17 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "afvalwater, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730206",
+        "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 17,
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "VORTEX 140",
+          "bestelnr": "03730206",
+          "debiet_m3_h": "24,0 m3/h",
+          "opvoerhoogte_m": "9 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,04 kW",
+          "connection": "2”",
+          "aanzuigdiepte_m": "27 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "afvalwater, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p17__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "03730002",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p17__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p19-dompelpompen-pdf-webp",
+    "name": "landbouw (Page 19)",
+    "series_id": "dompelpompen__landbouw",
+    "series_name": "landbouw",
+    "series_names": [
+      "landbouw"
+    ],
+    "family": "dompelpompen__landbouw",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "03730004",
+        "label": "landbouw",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730004",
+          "debiet_m3_h": "33,0 m3/h",
+          "opvoerhoogte_m": "10 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,5 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "afvalwater, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730005",
+        "label": "landbouw",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730005",
+          "debiet_m3_h": "42,0 m3/h",
+          "opvoerhoogte_m": "12 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "39 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "afvalwater, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730035",
+        "label": "landbouw",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730035",
+          "debiet_m3_h": "33,0 m3/h",
+          "opvoerhoogte_m": "10 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,5 kW",
+          "aanzuigdiepte_m": "34 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "afvalwater, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730048",
+        "label": "landbouw",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730048",
+          "debiet_m3_h": "27,0 m3/h",
+          "opvoerhoogte_m": "8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "8 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "afvalwater, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730049",
+        "label": "landbouw",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730049",
+          "debiet_m3_h": "42,0 m3/h",
+          "opvoerhoogte_m": "12 m",
+          "spanning_v": "3x230V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "12 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "afvalwater, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730300",
+        "label": "landbouw",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730300",
+          "debiet_m3_h": "27,0 m3/h",
+          "opvoerhoogte_m": "8 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "33 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "afvalwater, huishoudelijk, industrieel,",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p19__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 6,
+    "default_variant_sku": "03730004",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p19__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p26-dompelpompen-pdf-webp",
+    "name": "influent, afvalwater, industrieel, landbouw (Page 26)",
+    "series_id": "dompelpompen__influent-afvalwater-industrieel-landbouw",
+    "series_name": "influent, afvalwater, industrieel, landbouw",
+    "series_names": [
+      "influent, afvalwater, industrieel, landbouw"
+    ],
+    "family": "dompelpompen__influent-afvalwater-industrieel-landbouw",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "03730007",
+        "label": "influent, afvalwater, industrieel, landbouw",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "VORTEX 550",
+          "bestelnr": "03730007",
+          "debiet_m3_h": "134,4 m3/h",
+          "opvoerhoogte_m": "12 m",
+          "spanning_v": "3x400/690V",
+          "vermogen_kw": "4,0 kW",
+          "aanzuigdiepte_m": "97 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "influent, afvalwater, industrieel, landbouw",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730301",
+        "label": "influent, afvalwater, industrieel, landbouw",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "VORTEX 1000",
+          "bestelnr": "03730301",
+          "debiet_m3_h": "270,0 m3/h",
+          "opvoerhoogte_m": "16 m",
+          "spanning_v": "3x400/690V",
+          "vermogen_kw": "7,5 kW",
+          "aanzuigdiepte_m": "122 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "influent, afvalwater, industrieel, landbouw",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730303",
+        "label": "influent, afvalwater, industrieel, landbouw",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "VORTEX 2000",
+          "bestelnr": "03730303",
+          "debiet_m3_h": "360,0 m3/h",
+          "opvoerhoogte_m": "20 m",
+          "spanning_v": "3x400/690V",
+          "vermogen_kw": "15,0 kW",
+          "aanzuigdiepte_m": "272 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "influent, afvalwater, industrieel, landbouw",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730305",
+        "label": "influent, afvalwater, industrieel, landbouw",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "VORTEX 3400",
+          "bestelnr": "03730305",
+          "debiet_m3_h": "432,0 m3/h",
+          "opvoerhoogte_m": "24 m",
+          "spanning_v": "3x400/690V",
+          "vermogen_kw": "25,0 kW",
+          "aanzuigdiepte_m": "320 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "influent, afvalwater, industrieel, landbouw",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p26__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "03730007",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p26__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p15-dompelpompen-pdf-webp",
+    "name": "huishoudelijk, semi-industrieel, drainage / huishoudelijk (Page 15)",
+    "series_id": "dompelpompen__huishoudelijk-semi-industrieel-drainage",
+    "series_name": "huishoudelijk, semi-industrieel, drainage",
+    "series_names": [
+      "huishoudelijk, semi-industrieel, drainage",
+      "huishoudelijk"
+    ],
+    "family": "dompelpompen__huishoudelijk-semi-industrieel-drainage",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "03730009",
+        "label": "huishoudelijk, semi-industrieel, drainage",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "DRAIN 100 SS 304",
+          "bestelnr": "03730009",
+          "debiet_m3_h": "21,6 m3/h",
+          "opvoerhoogte_m": "12 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "weight_kg": "14 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, drainage",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730299",
+        "label": "huishoudelijk, semi-industrieel, drainage",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "DRAIN 150 SS 304",
+          "bestelnr": "03730299",
+          "debiet_m3_h": "27,0 m3/h",
+          "opvoerhoogte_m": "12 m",
+          "spanning_v": "3 x 400V",
+          "vermogen_kw": "1,1 kW",
+          "weight_kg": "15 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, drainage",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0352004",
+        "label": "huishoudelijk",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "OMNIA 160/7",
+          "bestelnr": "X0352004",
+          "debiet_m3_h": "9,6 m3/h",
+          "opvoerhoogte_m": "7 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,5 kW",
+          "connection": "5/4”",
+          "aanzuigdiepte_m": "7,0 kg",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p15__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 3,
+    "default_variant_sku": "03730009",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p15__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p32-dompelpompen-pdf-webp",
+    "name": "bouwwerven, industrieel, drainage, (Page 32)",
+    "series_id": "dompelpompen__bouwwerven-industrieel-drainage",
+    "series_name": "bouwwerven, industrieel, drainage,",
+    "series_names": [
+      "bouwwerven, industrieel, drainage,"
+    ],
+    "family": "dompelpompen__bouwwerven-industrieel-drainage",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "03730010",
+        "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730010",
+          "debiet_m3_h": "18,9 m3/h",
+          "opvoerhoogte_m": "12 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "connection": "6/4”",
+          "aanzuigdiepte_m": "23 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven, industrieel, drainage,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730011",
+        "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730011",
+          "debiet_m3_h": "18,9 m3/h",
+          "opvoerhoogte_m": "12 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,75 kW",
+          "connection": "6/4”",
+          "aanzuigdiepte_m": "12 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven, industrieel, drainage,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730012",
+        "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730012",
+          "debiet_m3_h": "24,0 m3/h",
+          "opvoerhoogte_m": "14 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,1 kW",
+          "connection": "2”",
+          "aanzuigdiepte_m": "16 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven, industrieel, drainage,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730013",
+        "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730013",
+          "debiet_m3_h": "24,0 m3/h",
+          "opvoerhoogte_m": "14 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,1 kW",
+          "connection": "2”",
+          "aanzuigdiepte_m": "36 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven, industrieel, drainage,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730014",
+        "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730014",
+          "debiet_m3_h": "32,7 m3/h",
+          "opvoerhoogte_m": "16 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,5 kW",
+          "connection": "2”",
+          "aanzuigdiepte_m": "37 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven, industrieel, drainage,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730015",
+        "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730015",
+          "debiet_m3_h": "32,7 m3/h",
+          "opvoerhoogte_m": "16 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,5 kW",
+          "connection": "2”",
+          "aanzuigdiepte_m": "16 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven, industrieel, drainage,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730036",
+        "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730036",
+          "debiet_m3_h": "40,2 m3/h",
+          "opvoerhoogte_m": "16 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "2,2 kW",
+          "connection": "DN 80",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven, industrieel, drainage,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730059",
+        "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730059",
+          "debiet_m3_h": "12,0 m3/h",
+          "opvoerhoogte_m": "8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,37 kW",
+          "connection": "5/4”",
+          "aanzuigdiepte_m": "8 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven, industrieel, drainage,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730149",
+        "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730149",
+          "debiet_m3_h": "12,0 m3/h",
+          "opvoerhoogte_m": "8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,37 kW",
+          "connection": "5/4”",
+          "aanzuigdiepte_m": "12 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven, industrieel, drainage,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730170",
+        "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730170",
+          "debiet_m3_h": "18,9 m3/h",
+          "opvoerhoogte_m": "12 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "connection": "6/4”",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven, industrieel, drainage,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730171",
+        "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730171",
+          "debiet_m3_h": "24,0 m3/h",
+          "opvoerhoogte_m": "14 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,1 kW",
+          "connection": "2”",
+          "aanzuigdiepte_m": "36 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven, industrieel, drainage,",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p32__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 11,
+    "default_variant_sku": "03730010",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p32__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p33-dompelpompen-pdf-webp",
+    "name": "bouwwerven, industrieel, drainage, (Page 33)",
+    "series_id": "dompelpompen__bouwwerven-industrieel-drainage",
+    "series_name": "bouwwerven, industrieel, drainage,",
+    "series_names": [
+      "bouwwerven, industrieel, drainage,"
+    ],
+    "family": "dompelpompen__bouwwerven-industrieel-drainage",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "03730016",
+        "label": "bouwwerven, industrieel, drainage,",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730016",
+          "debiet_m3_h": "43,.38 m3/h",
+          "opvoerhoogte_m": "15 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,5 kW",
+          "weight_kg": "40 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven, industrieel, drainage,",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730017",
+        "label": "bouwwerven, industrieel, drainage,",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730017",
+          "debiet_m3_h": "50,7 m3/h",
+          "opvoerhoogte_m": "20 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "2,2 kW",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven, industrieel, drainage,",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730018",
+        "label": "bouwwerven, industrieel, drainage,",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730018",
+          "debiet_m3_h": "65,1 m3/h",
+          "opvoerhoogte_m": "25 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "3,7 kW",
+          "weight_kg": "45 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven, industrieel, drainage,",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730037",
+        "label": "bouwwerven, industrieel, drainage,",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730037",
+          "debiet_m3_h": "43,38 m3/h",
+          "opvoerhoogte_m": "15 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,5 kW",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven, industrieel, drainage,",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730142",
+        "label": "bouwwerven, industrieel, drainage,",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730142",
+          "debiet_m3_h": "22,68 m3/h",
+          "opvoerhoogte_m": "15 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,1 kW",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven, industrieel, drainage,",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730276",
+        "label": "bouwwerven, industrieel, drainage,",
+        "page": 33,
+        "page_in_pdf": 33,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730276",
+          "debiet_m3_h": "108,0 m3/h",
+          "opvoerhoogte_m": "35 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "7,5 kW",
+          "weight_kg": "77 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven, industrieel, drainage,",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p33__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 6,
+    "default_variant_sku": "03730016",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p33__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p20-dompelpompen-pdf-webp",
+    "name": "influent, afvalwater, industrieel, landbouw (Page 20)",
+    "series_id": "dompelpompen__influent-afvalwater-industrieel-landbouw",
+    "series_name": "influent, afvalwater, industrieel, landbouw",
+    "series_names": [
+      "influent, afvalwater, industrieel, landbouw"
+    ],
+    "family": "dompelpompen__influent-afvalwater-industrieel-landbouw",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "03730050",
+        "label": "influent, afvalwater, industrieel, landbouw",
+        "page": 20,
+        "page_in_pdf": 20,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730050",
+          "debiet_m3_h": "60,0 m3/h",
+          "opvoerhoogte_m": "16 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "3,0 kW",
+          "aanzuigdiepte_m": "20 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "influent, afvalwater, industrieel, landbouw",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730051",
+        "label": "influent, afvalwater, industrieel, landbouw",
+        "page": 20,
+        "page_in_pdf": 20,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730051",
+          "debiet_m3_h": "61,2 m3/h",
+          "opvoerhoogte_m": "20 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "4,0 kW",
+          "aanzuigdiepte_m": "58 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "influent, afvalwater, industrieel, landbouw",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p20__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "03730050",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p20__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p25-dompelpompen-pdf-webp",
+    "name": "afvalwater, huishoudelijk, industrieel, (Page 25)",
+    "series_id": "dompelpompen__afvalwater-huishoudelijk-industrieel",
+    "series_name": "afvalwater, huishoudelijk, industrieel,",
+    "series_names": [
+      "afvalwater, huishoudelijk, industrieel,"
+    ],
+    "family": "dompelpompen__afvalwater-huishoudelijk-industrieel",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "03730141",
+        "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "VORTEX 100 SS 304",
+          "bestelnr": "03730141",
+          "debiet_m3_h": "17,1 m3/h",
+          "opvoerhoogte_m": "10 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "14 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "afvalwater, huishoudelijk, industrieel,",
+          "spec_housing": "rvs 304",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730195",
+        "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730195",
+          "debiet_m3_h": "21,0 m3/h",
+          "opvoerhoogte_m": "12 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "afvalwater, huishoudelijk, industrieel,",
+          "spec_housing": "rvs 316",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730310",
+        "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730310",
+          "debiet_m3_h": "55,8 m3/h",
+          "opvoerhoogte_m": "12 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,5 kW",
+          "weight_kg": "29 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "afvalwater, huishoudelijk, industrieel,",
+          "spec_housing": "rvs 316",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730311",
+        "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730311",
+          "debiet_m3_h": "67,2 m3/h",
+          "opvoerhoogte_m": "16 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "2,2 kW",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "afvalwater, huishoudelijk, industrieel,",
+          "spec_housing": "rvs 316",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730312",
+        "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730312",
+          "debiet_m3_h": "78,9 m3/h",
+          "opvoerhoogte_m": "16 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "3,7 kW",
+          "weight_kg": "43 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "afvalwater, huishoudelijk, industrieel,",
+          "spec_housing": "rvs 316",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p25__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 5,
+    "default_variant_sku": "03730141",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p25__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p29-dompelpompen-pdf-webp",
+    "name": "van vaste delen (Page 29)",
+    "series_id": "dompelpompen__van-vaste-delen",
+    "series_name": "van vaste delen",
+    "series_names": [
+      "van vaste delen"
+    ],
+    "family": "dompelpompen__van-vaste-delen",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "03730150",
+        "label": "van vaste delen",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730150",
+          "debiet_m3_h": "9,5 m3/h",
+          "opvoerhoogte_m": "16 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "connection": "2”",
+          "aanzuigdiepte_m": "16 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, hotels, industrieel, vermalen",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730151",
+        "label": "van vaste delen",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730151",
+          "debiet_m3_h": "8,2 m3/h",
+          "opvoerhoogte_m": "24 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,5 kW",
+          "connection": "5/4”",
+          "aanzuigdiepte_m": "36 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, hotels, industrieel, vermalen",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730152",
+        "label": "van vaste delen",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730152",
+          "debiet_m3_h": "8,2 m3/h",
+          "opvoerhoogte_m": "24 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,5 kW",
+          "connection": "5/4”",
+          "aanzuigdiepte_m": "24 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, hotels, industrieel, vermalen",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730153",
+        "label": "van vaste delen",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730153",
+          "debiet_m3_h": "9,4 m3/h",
+          "opvoerhoogte_m": "28 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "2,2 kW",
+          "connection": "5/4”",
+          "aanzuigdiepte_m": "35 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, hotels, industrieel, vermalen",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730275",
+        "label": "van vaste delen",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730275",
+          "debiet_m3_h": "19,2 m3/h",
+          "opvoerhoogte_m": "28 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "3,7 kW",
+          "connection": "2” - DN50",
+          "aanzuigdiepte_m": "28 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, hotels, industrieel, vermalen",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p29__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 5,
+    "default_variant_sku": "03730150",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p29__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p16-dompelpompen-pdf-webp",
+    "name": "huishoudelijk, drainage (Page 16)",
+    "series_id": "dompelpompen__huishoudelijk-drainage",
+    "series_name": "huishoudelijk, drainage",
+    "series_names": [
+      "huishoudelijk, drainage"
+    ],
+    "family": "dompelpompen__huishoudelijk-drainage",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "03730173",
+        "label": "huishoudelijk, drainage",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730173",
+          "debiet_m3_h": "13,5 m3/h",
+          "opvoerhoogte_m": "8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "weight_kg": "17 kg",
+          "connection": "5/4”",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, drainage",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "03730290",
+        "label": "huishoudelijk, drainage",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "03730290",
+          "debiet_m3_h": "13,5 m3/h",
+          "opvoerhoogte_m": "8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "connection": "5/4”",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, drainage",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p16__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "03730173",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p16__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p31-dompelpompen-pdf-webp",
+    "name": "bouw, semi-industrieel (Page 31)",
+    "series_id": "dompelpompen__bouw-semi-industrieel",
+    "series_name": "bouw, semi-industrieel",
+    "series_names": [
+      "bouw, semi-industrieel"
+    ],
+    "family": "dompelpompen__bouw-semi-industrieel",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "06280005",
+        "label": "bouw, semi-industrieel",
+        "page": 31,
+        "page_in_pdf": 31,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280005",
+          "debiet_m3_h": "19 m3/h",
+          "opvoerhoogte_m": "14 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "14,5 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouw, semi-industrieel",
+          "spec_housing": "aluminium",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280006",
+        "label": "bouw, semi-industrieel",
+        "page": 31,
+        "page_in_pdf": 31,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280006",
+          "debiet_m3_h": "19 m3/h",
+          "opvoerhoogte_m": "14 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "14 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouw, semi-industrieel",
+          "spec_housing": "aluminium",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280007",
+        "label": "bouw, semi-industrieel",
+        "page": 31,
+        "page_in_pdf": 31,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280007",
+          "debiet_m3_h": "25 m3/h",
+          "opvoerhoogte_m": "12 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,9 kW",
+          "aanzuigdiepte_m": "12 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouw, semi-industrieel",
+          "spec_housing": "aluminium",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280008",
+        "label": "bouw, semi-industrieel",
+        "page": 31,
+        "page_in_pdf": 31,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280008",
+          "debiet_m3_h": "25 m3/h",
+          "opvoerhoogte_m": "12 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,9 kW",
+          "aanzuigdiepte_m": "17,0 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouw, semi-industrieel",
+          "spec_housing": "aluminium",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280059",
+        "label": "bouw, semi-industrieel",
+        "page": 31,
+        "page_in_pdf": 31,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280059",
+          "debiet_m3_h": "15 m3/h",
+          "opvoerhoogte_m": "10 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,42 kW",
+          "aanzuigdiepte_m": "12,0 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouw, semi-industrieel",
+          "spec_housing": "aluminium",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280060",
+        "label": "bouw, semi-industrieel",
+        "page": 31,
+        "page_in_pdf": 31,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280060",
+          "debiet_m3_h": "15 m3/h",
+          "opvoerhoogte_m": "10 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,42 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouw, semi-industrieel",
+          "spec_housing": "aluminium",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280066",
+        "label": "bouw, semi-industrieel",
+        "page": 31,
+        "page_in_pdf": 31,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280066",
+          "debiet_m3_h": "12 m3/h",
+          "opvoerhoogte_m": "10 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,42 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouw, semi-industrieel",
+          "spec_housing": "aluminium",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p31__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 7,
+    "default_variant_sku": "06280005",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p31__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p34-dompelpompen-pdf-webp",
+    "name": "stedelijk, bouw, industrieel (Page 34)",
+    "series_id": "dompelpompen__stedelijk-bouw-industrieel",
+    "series_name": "stedelijk, bouw, industrieel",
+    "series_names": [
+      "stedelijk, bouw, industrieel"
+    ],
+    "family": "dompelpompen__stedelijk-bouw-industrieel",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "06280015",
+        "label": "stedelijk, bouw, industrieel",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280015",
+          "debiet_m3_h": "29 m3/h",
+          "opvoerhoogte_m": "15 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,85 kW",
+          "aanzuigdiepte_m": "15 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "stedelijk, bouw, industrieel",
+          "spec_housing": "aluminium (optie: rvs)",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280028",
+        "label": "stedelijk, bouw, industrieel",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280028",
+          "debiet_m3_h": "54 m3/h",
+          "opvoerhoogte_m": "19 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,5 kW",
+          "aanzuigdiepte_m": "32,0 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "stedelijk, bouw, industrieel",
+          "spec_housing": "aluminium (optie: rvs)",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280030",
+        "label": "stedelijk, bouw, industrieel",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280030",
+          "debiet_m3_h": "29 m3/h",
+          "opvoerhoogte_m": "15 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,2 kW",
+          "aanzuigdiepte_m": "21,5 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "stedelijk, bouw, industrieel",
+          "spec_housing": "aluminium (optie: rvs)",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280042",
+        "label": "stedelijk, bouw, industrieel",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280042",
+          "debiet_m3_h": "61 m3/h",
+          "opvoerhoogte_m": "21 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "21 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "stedelijk, bouw, industrieel",
+          "spec_housing": "aluminium (optie: rvs)",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280043",
+        "label": "stedelijk, bouw, industrieel",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280043",
+          "debiet_m3_h": "65 m3/h",
+          "opvoerhoogte_m": "21 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "32,0 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "stedelijk, bouw, industrieel",
+          "spec_housing": "aluminium (optie: rvs)",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280044",
+        "label": "stedelijk, bouw, industrieel",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280044",
+          "debiet_m3_h": "122 m3/h",
+          "opvoerhoogte_m": "20 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "3,7 kW",
+          "aanzuigdiepte_m": "36 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "stedelijk, bouw, industrieel",
+          "spec_housing": "aluminium (optie: rvs)",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280045",
+        "label": "stedelijk, bouw, industrieel",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280045",
+          "debiet_m3_h": "65 m3/h",
+          "opvoerhoogte_m": "36 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "3,7 kW",
+          "aanzuigdiepte_m": "48,0 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "stedelijk, bouw, industrieel",
+          "spec_housing": "aluminium (optie: rvs)",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280046",
+        "label": "stedelijk, bouw, industrieel",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280046",
+          "debiet_m3_h": "130 m3/h",
+          "opvoerhoogte_m": "20 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "3,7 kW",
+          "aanzuigdiepte_m": "28 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "stedelijk, bouw, industrieel",
+          "spec_housing": "aluminium (optie: rvs)",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280047",
+        "label": "stedelijk, bouw, industrieel",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280047",
+          "debiet_m3_h": "144 m3/h",
+          "opvoerhoogte_m": "28 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "5,6 kW",
+          "aanzuigdiepte_m": "56,0 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "stedelijk, bouw, industrieel",
+          "spec_housing": "aluminium (optie: rvs)",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280048",
+        "label": "stedelijk, bouw, industrieel",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280048",
+          "debiet_m3_h": "72 m3/h",
+          "opvoerhoogte_m": "45 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "5,6 kW",
+          "aanzuigdiepte_m": "28 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "stedelijk, bouw, industrieel",
+          "spec_housing": "aluminium (optie: rvs)",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280049",
+        "label": "stedelijk, bouw, industrieel",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280049",
+          "debiet_m3_h": "155 m3/h",
+          "opvoerhoogte_m": "28 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "5,6 kW",
+          "aanzuigdiepte_m": "56,0 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "stedelijk, bouw, industrieel",
+          "spec_housing": "aluminium (optie: rvs)",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280050",
+        "label": "stedelijk, bouw, industrieel",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280050",
+          "debiet_m3_h": "200 m3/h",
+          "opvoerhoogte_m": "39 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "10,0 kW",
+          "aanzuigdiepte_m": "55 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "stedelijk, bouw, industrieel",
+          "spec_housing": "aluminium (optie: rvs)",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280051",
+        "label": "stedelijk, bouw, industrieel",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280051",
+          "debiet_m3_h": "115 m3/h",
+          "opvoerhoogte_m": "55 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "10,0 kW",
+          "aanzuigdiepte_m": "91,0 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "stedelijk, bouw, industrieel",
+          "spec_housing": "aluminium (optie: rvs)",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280052",
+        "label": "stedelijk, bouw, industrieel",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280052",
+          "debiet_m3_h": "250 m3/h",
+          "opvoerhoogte_m": "39 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "10,0 kW",
+          "aanzuigdiepte_m": "40 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "stedelijk, bouw, industrieel",
+          "spec_housing": "aluminium (optie: rvs)",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280053",
+        "label": "stedelijk, bouw, industrieel",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280053",
+          "debiet_m3_h": "350 m3/h",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "18,0 kW",
+          "aanzuigdiepte_m": "154,0 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "stedelijk, bouw, industrieel",
+          "spec_housing": "aluminium (optie: rvs)",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280054",
+        "label": "stedelijk, bouw, industrieel",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280054",
+          "debiet_m3_h": "160 m3/h",
+          "opvoerhoogte_m": "65 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "18,0 kW",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "stedelijk, bouw, industrieel",
+          "spec_housing": "aluminium (optie: rvs)",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280061",
+        "label": "stedelijk, bouw, industrieel",
+        "page": 34,
+        "page_in_pdf": 34,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280061",
+          "debiet_m3_h": "29 m3/h",
+          "opvoerhoogte_m": "15 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,2 kW",
+          "aanzuigdiepte_m": "15 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "stedelijk, bouw, industrieel",
+          "spec_housing": "aluminium (optie: rvs)",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p34__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 17,
+    "default_variant_sku": "06280015",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p34__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p35-dompelpompen-pdf-webp",
+    "name": "mijnbouw, bouw, industrieel (Page 35)",
+    "series_id": "dompelpompen__mijnbouw-bouw-industrieel",
+    "series_name": "mijnbouw, bouw, industrieel",
+    "series_names": [
+      "mijnbouw, bouw, industrieel"
+    ],
+    "family": "dompelpompen__mijnbouw-bouw-industrieel",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "06280035",
+        "label": "mijnbouw, bouw, industrieel",
+        "page": 35,
+        "page_in_pdf": 35,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280035",
+          "debiet_m3_h": "50 m3/h",
+          "opvoerhoogte_m": "16 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "33,0 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "mijnbouw, bouw, industrieel",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280055",
+        "label": "mijnbouw, bouw, industrieel",
+        "page": 35,
+        "page_in_pdf": 35,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280055",
+          "debiet_m3_h": "40 m3/h",
+          "opvoerhoogte_m": "14 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,5 kW",
+          "aanzuigdiepte_m": "16 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "mijnbouw, bouw, industrieel",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280056",
+        "label": "mijnbouw, bouw, industrieel",
+        "page": 35,
+        "page_in_pdf": 35,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280056",
+          "debiet_m3_h": "85 m3/h",
+          "opvoerhoogte_m": "9 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "3,2 kW",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "mijnbouw, bouw, industrieel",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280057",
+        "label": "mijnbouw, bouw, industrieel",
+        "page": 35,
+        "page_in_pdf": 35,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280057",
+          "debiet_m3_h": "60 m3/h",
+          "opvoerhoogte_m": "27 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "5,6 kW",
+          "aanzuigdiepte_m": "56,0 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "mijnbouw, bouw, industrieel",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "06280058",
+        "label": "mijnbouw, bouw, industrieel",
+        "page": 35,
+        "page_in_pdf": 35,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "06280058",
+          "debiet_m3_h": "29 m3/h",
+          "opvoerhoogte_m": "38 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "5,6 kW",
+          "aanzuigdiepte_m": "38 m",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "mijnbouw, bouw, industrieel",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p35__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 5,
+    "default_variant_sku": "06280035",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p35__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p14-dompelpompen-pdf-webp",
+    "name": "huishoudelijk, semi-industrieel, landbouw (Page 14)",
+    "series_id": "dompelpompen__huishoudelijk-semi-industrieel-landbouw",
+    "series_name": "huishoudelijk, semi-industrieel, landbouw",
+    "series_names": [
+      "huishoudelijk, semi-industrieel, landbouw"
+    ],
+    "family": "dompelpompen__huishoudelijk-semi-industrieel-landbouw",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "07060191",
+        "label": "huishoudelijk, semi-industrieel, landbouw",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "KP250-A-1",
+          "bestelnr": "07060191",
+          "debiet_m3_h": "10 m3/h",
+          "opvoerhoogte_m": "7,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,48 kW",
+          "connection": "5/4”",
+          "aanzuigdiepte_m": "7,0 kg",
+          "material": null,
+          "sku_series": "kp"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, landbouw",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "07060195",
+        "label": "huishoudelijk, semi-industrieel, landbouw",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "KP250-M-1",
+          "bestelnr": "07060195",
+          "debiet_m3_h": "10 m3/h",
+          "opvoerhoogte_m": "7,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,48 kW",
+          "connection": "5/4”",
+          "aanzuigdiepte_m": "7,0 kg",
+          "material": null,
+          "sku_series": "kp"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, landbouw",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "07060201",
+        "label": "huishoudelijk, semi-industrieel, landbouw",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "KP150-A-1",
+          "bestelnr": "07060201",
+          "debiet_m3_h": "8 m3/h",
+          "opvoerhoogte_m": "5,2 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,3 kW",
+          "connection": "5/4”",
+          "aanzuigdiepte_m": "6,5 kg",
+          "material": null,
+          "sku_series": "kp"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, landbouw",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "07060533",
+        "label": "huishoudelijk, semi-industrieel, landbouw",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "KP350-A-1",
+          "bestelnr": "07060533",
+          "debiet_m3_h": "14 m3/h",
+          "opvoerhoogte_m": "9 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,7 kW",
+          "connection": "5/4”",
+          "aanzuigdiepte_m": "8,0 kg",
+          "material": null,
+          "sku_series": "kp"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, landbouw",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "07061033",
+        "label": "huishoudelijk, semi-industrieel, landbouw",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "KP150-AV-1",
+          "bestelnr": "07061033",
+          "debiet_m3_h": "8 m3/h",
+          "opvoerhoogte_m": "5,2 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,3 kW",
+          "connection": "5/4”",
+          "aanzuigdiepte_m": "6,5 kg",
+          "material": null,
+          "sku_series": "kp"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, landbouw",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "07061067",
+        "label": "huishoudelijk, semi-industrieel, landbouw",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "KP350-AV-1",
+          "bestelnr": "07061067",
+          "debiet_m3_h": "14 m3/h",
+          "opvoerhoogte_m": "9 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,7 kW",
+          "connection": "5/4”",
+          "aanzuigdiepte_m": "8,0 kg",
+          "material": null,
+          "sku_series": "kp"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, landbouw",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "07061574",
+        "label": "huishoudelijk, semi-industrieel, landbouw",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "KP250-AV-1",
+          "bestelnr": "07061574",
+          "debiet_m3_h": "10 m3/h",
+          "opvoerhoogte_m": "7,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,48 kW",
+          "connection": "5/4”",
+          "aanzuigdiepte_m": "7,0 kg",
+          "material": null,
+          "sku_series": "kp"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, landbouw",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p14__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 7,
+    "default_variant_sku": "07060191",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p14__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p18-dompelpompen-pdf-webp",
+    "name": "huishoudelijk, landbouw, fecaliën (Page 18)",
+    "series_id": "dompelpompen__huishoudelijk-landbouw-fecali-n",
+    "series_name": "huishoudelijk, landbouw, fecaliën",
+    "series_names": [
+      "huishoudelijk, landbouw, fecaliën"
+    ],
+    "family": "dompelpompen__huishoudelijk-landbouw-fecali-n",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "22250066",
+        "label": "huishoudelijk, landbouw, fecaliën",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "JS-250SVMA",
+          "bestelnr": "22250066",
+          "debiet_m3_h": "13,2 m3/h",
+          "opvoerhoogte_m": "8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,25 kW",
+          "connection": "6/4”",
+          "aanzuigdiepte_m": "15,2 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, landbouw, fecaliën",
+          "spec_housing": "rvs/gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "22250078",
+        "label": "huishoudelijk, landbouw, fecaliën",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "JS-150SVA",
+          "bestelnr": "22250078",
+          "debiet_m3_h": "7,2 m3/h",
+          "opvoerhoogte_m": "7 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,15 kW",
+          "connection": "5/4”",
+          "aanzuigdiepte_m": "6,6 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, landbouw, fecaliën",
+          "spec_housing": "rvs/gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "22250079",
+        "label": "huishoudelijk, landbouw, fecaliën",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "JS-250SV",
+          "bestelnr": "22250079",
+          "debiet_m3_h": "13,2 m3/h",
+          "opvoerhoogte_m": "8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,25 kW",
+          "connection": "6/4”",
+          "aanzuigdiepte_m": "15,2 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, landbouw, fecaliën",
+          "spec_housing": "rvs/gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "22250224",
+        "label": "huishoudelijk, landbouw, fecaliën",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "JS-400SVA",
+          "bestelnr": "22250224",
+          "debiet_m3_h": "14,4 m3/h",
+          "opvoerhoogte_m": "10 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,4 kW",
+          "connection": "2”",
+          "aanzuigdiepte_m": "21,0 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, landbouw, fecaliën",
+          "spec_housing": "rvs/gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "22250227",
+        "label": "huishoudelijk, landbouw, fecaliën",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "JS-750SVA",
+          "bestelnr": "22250227",
+          "debiet_m3_h": "30,0 m3/h",
+          "opvoerhoogte_m": "9 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "connection": "3”",
+          "aanzuigdiepte_m": "32,0 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, landbouw, fecaliën",
+          "spec_housing": "rvs/gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p18__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 5,
+    "default_variant_sku": "22250066",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p18__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p12-dompelpompen-pdf-webp",
+    "name": "huishoudelijk, bouwputten, zwembaden (Page 12)",
+    "series_id": "dompelpompen__huishoudelijk-bouwputten-zwembaden",
+    "series_name": "huishoudelijk, bouwputten, zwembaden",
+    "series_names": [
+      "huishoudelijk, bouwputten, zwembaden"
+    ],
+    "family": "dompelpompen__huishoudelijk-bouwputten-zwembaden",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "22250071",
+        "label": "huishoudelijk, bouwputten, zwembaden",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "JS-100A",
+          "bestelnr": "22250071",
+          "debiet_m3_h": "5,1 m3/h",
+          "opvoerhoogte_m": "6,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,1 kW",
+          "aanzuigdiepte_m": "-",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, bouwputten, zwembaden",
+          "spec_housing": "rvs/gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "22250072",
+        "label": "huishoudelijk, bouwputten, zwembaden",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "JS-150MAN",
+          "bestelnr": "22250072",
+          "debiet_m3_h": "7,8 m3/h",
+          "opvoerhoogte_m": "7m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,15 kW",
+          "aanzuigdiepte_m": "7,6 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, bouwputten, zwembaden",
+          "spec_housing": "rvs/gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "22250074",
+        "label": "huishoudelijk, bouwputten, zwembaden",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "JS-150MA",
+          "bestelnr": "22250074",
+          "debiet_m3_h": "7,8 m3/h",
+          "opvoerhoogte_m": "7m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,15 kW",
+          "aanzuigdiepte_m": "7,6 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, bouwputten, zwembaden",
+          "spec_housing": "rvs/gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "22250076",
+        "label": "huishoudelijk, bouwputten, zwembaden",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "JS-250A",
+          "bestelnr": "22250076",
+          "debiet_m3_h": "12,0 m3/h",
+          "opvoerhoogte_m": "10m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,25 kW",
+          "aanzuigdiepte_m": "12,5 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, bouwputten, zwembaden",
+          "spec_housing": "rvs/gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "22250081",
+        "label": "huishoudelijk, bouwputten, zwembaden",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "JS-400MAN",
+          "bestelnr": "22250081",
+          "debiet_m3_h": "14,4 m3/h",
+          "opvoerhoogte_m": "12m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,4 kW",
+          "aanzuigdiepte_m": "15 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, bouwputten, zwembaden",
+          "spec_housing": "rvs/gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "22250167",
+        "label": "huishoudelijk, bouwputten, zwembaden",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "JS-750A",
+          "bestelnr": "22250167",
+          "debiet_m3_h": "24,0 m3/h",
+          "opvoerhoogte_m": "15m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "27 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, bouwputten, zwembaden",
+          "spec_housing": "rvs/gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "22250219",
+        "label": "huishoudelijk, bouwputten, zwembaden",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "JS-400MA",
+          "bestelnr": "22250219",
+          "debiet_m3_h": "14,4 m3/h",
+          "opvoerhoogte_m": "12m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,4 kW",
+          "aanzuigdiepte_m": "15 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, bouwputten, zwembaden",
+          "spec_housing": "rvs/gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "22250222",
+        "label": "huishoudelijk, bouwputten, zwembaden",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "JS-1500H",
+          "bestelnr": "22250222",
+          "debiet_m3_h": "27,0 m3/h",
+          "opvoerhoogte_m": "22m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,5 kW",
+          "aanzuigdiepte_m": "32 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, bouwputten, zwembaden",
+          "spec_housing": "rvs/gietijzer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p12__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 8,
+    "default_variant_sku": "22250071",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p12__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p30-dompelpompen-pdf-webp",
+    "name": "huishoudelijk, semi-industrieel, bouwputten / bouwwerven (Page 30)",
+    "series_id": "dompelpompen__huishoudelijk-semi-industrieel-bouwputten",
+    "series_name": "huishoudelijk, semi-industrieel, bouwputten",
+    "series_names": [
+      "huishoudelijk, semi-industrieel, bouwputten",
+      "bouwwerven"
+    ],
+    "family": "dompelpompen__huishoudelijk-semi-industrieel-bouwputten",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "22250110",
+        "label": "huishoudelijk, semi-industrieel, bouwputten",
+        "page": 30,
+        "page_in_pdf": 30,
+        "properties": {
+          "type": "SP 04 A",
+          "bestelnr": "22250110",
+          "debiet_m3_h": "12,0 m3/h",
+          "opvoerhoogte_m": "12 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,4 kW",
+          "aanzuigdiepte_m": "12,5 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, bouwputten",
+          "spec_product_variant": "MET WOELKOP",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "22250111",
+        "label": "huishoudelijk, semi-industrieel, bouwputten",
+        "page": 30,
+        "page_in_pdf": 30,
+        "properties": {
+          "type": "SP 08 A",
+          "bestelnr": "22250111",
+          "debiet_m3_h": "18,0 m3/h",
+          "opvoerhoogte_m": "18 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "16,5 kg",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, bouwputten",
+          "spec_product_variant": "MET WOELKOP",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120396",
+        "label": "bouwwerven",
+        "page": 30,
+        "page_in_pdf": 30,
+        "properties": {
+          "type": "DRENAG 1800 T",
+          "bestelnr": "X9120396",
+          "debiet_m3_h": "36 m3/h",
+          "opvoerhoogte_m": "21,5 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,5 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "bouwwerven",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p30__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 3,
+    "default_variant_sku": "22250110",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p30__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p39-dompelpompen-pdf-webp",
+    "name": "huishoudelijk, landbouw, beregening (Page 39)",
+    "series_id": "dompelpompen__huishoudelijk-landbouw-beregening",
+    "series_name": "huishoudelijk, landbouw, beregening",
+    "series_names": [
+      "huishoudelijk, landbouw, beregening"
+    ],
+    "family": "dompelpompen__huishoudelijk-landbouw-beregening",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "MATSMA040",
+        "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
+        "page_in_pdf": 39,
+        "properties": {
+          "type": "SMA040 0,8 pK",
+          "bestelnr": "MATSMA040",
+          "debiet_m3_h": "5,4 m3/h",
+          "opvoerhoogte_m": "38 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "38 m",
+          "material": null,
+          "sku_series": "matsma"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,8 bar",
+          "spec_application_desc": "huishoudelijk, landbouw, beregening",
+          "spec_housing": "rvs 304",
+          "spec_product_variant": "met ingebouwde",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATSMA040G",
+        "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
+        "page_in_pdf": 39,
+        "properties": {
+          "type": "SMA040G 0,8 pK",
+          "bestelnr": "MATSMA040G",
+          "debiet_m3_h": "5,4 m3/h",
+          "opvoerhoogte_m": "38 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "12,9 kg",
+          "material": null,
+          "sku_series": "matsma"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,8 bar",
+          "spec_application_desc": "huishoudelijk, landbouw, beregening",
+          "spec_housing": "rvs 304",
+          "spec_product_variant": "met ingebouwde",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATSMA060",
+        "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
+        "page_in_pdf": 39,
+        "properties": {
+          "type": "SMA060 1,2 pK",
+          "bestelnr": "MATSMA060",
+          "debiet_m3_h": "5,4 m3/h",
+          "opvoerhoogte_m": "58 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,4 kW",
+          "aanzuigdiepte_m": "14,0 kg",
+          "material": null,
+          "sku_series": "matsma"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,8 bar",
+          "spec_application_desc": "huishoudelijk, landbouw, beregening",
+          "spec_housing": "rvs 304",
+          "spec_product_variant": "met ingebouwde",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATSMA060T",
+        "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
+        "page_in_pdf": 39,
+        "properties": {
+          "type": "SMA060T 1,2 pK",
+          "bestelnr": "MATSMA060T",
+          "debiet_m3_h": "5,4 m3/h",
+          "opvoerhoogte_m": "58 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,4 kW",
+          "aanzuigdiepte_m": "14,0 kg",
+          "material": null,
+          "sku_series": "matsma"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,8 bar",
+          "spec_application_desc": "huishoudelijk, landbouw, beregening",
+          "spec_housing": "rvs 304",
+          "spec_product_variant": "met ingebouwde",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATSMA080",
+        "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
+        "page_in_pdf": 39,
+        "properties": {
+          "type": "SMA080 1,6 pK",
+          "bestelnr": "MATSMA080",
+          "debiet_m3_h": "5,4 m3/h",
+          "opvoerhoogte_m": "78 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,9 kW",
+          "aanzuigdiepte_m": "78 m",
+          "material": null,
+          "sku_series": "matsma"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,8 bar",
+          "spec_application_desc": "huishoudelijk, landbouw, beregening",
+          "spec_housing": "rvs 304",
+          "spec_product_variant": "met ingebouwde",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATSMA080G",
+        "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
+        "page_in_pdf": 39,
+        "properties": {
+          "type": "SMA080G 1,6 pK",
+          "bestelnr": "MATSMA080G",
+          "debiet_m3_h": "5,4 m3/h",
+          "opvoerhoogte_m": "78 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,9 kW",
+          "aanzuigdiepte_m": "16,9 kg",
+          "material": null,
+          "sku_series": "matsma"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,8 bar",
+          "spec_application_desc": "huishoudelijk, landbouw, beregening",
+          "spec_housing": "rvs 304",
+          "spec_product_variant": "met ingebouwde",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATSMC4",
+        "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
+        "page_in_pdf": 39,
+        "properties": {
+          "type": "SM C4 1,5 pK",
+          "bestelnr": "MATSMC4",
+          "debiet_m3_h": "10,2 m3/h",
+          "opvoerhoogte_m": "51 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,84 kW",
+          "aanzuigdiepte_m": "21,0 kg",
+          "material": null,
+          "sku_series": "matsmc"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,8 bar",
+          "spec_application_desc": "huishoudelijk, landbouw, beregening",
+          "spec_housing": "rvs 304",
+          "spec_product_variant": "met ingebouwde",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATSMC4T",
+        "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
+        "page_in_pdf": 39,
+        "properties": {
+          "type": "SM C4T 1,5 pK",
+          "bestelnr": "MATSMC4T",
+          "debiet_m3_h": "10,2 m3/h",
+          "opvoerhoogte_m": "51 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,84 kW",
+          "aanzuigdiepte_m": "21,0 kg",
+          "material": null,
+          "sku_series": "matsmc"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,8 bar",
+          "spec_application_desc": "huishoudelijk, landbouw, beregening",
+          "spec_housing": "rvs 304",
+          "spec_product_variant": "met ingebouwde",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATSMC5",
+        "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
+        "page_in_pdf": 39,
+        "properties": {
+          "type": "SM C5 2,0 pK",
+          "bestelnr": "MATSMC5",
+          "debiet_m3_h": "10,2 m3/h",
+          "opvoerhoogte_m": "64 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "2,53 kW",
+          "aanzuigdiepte_m": "2 m",
+          "material": null,
+          "sku_series": "matsmc"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,8 bar",
+          "spec_application_desc": "huishoudelijk, landbouw, beregening",
+          "spec_housing": "rvs 304",
+          "spec_product_variant": "met ingebouwde",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATSMC5G",
+        "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
+        "page_in_pdf": 39,
+        "properties": {
+          "type": "SM C5G 2,0 pK",
+          "bestelnr": "MATSMC5G",
+          "debiet_m3_h": "10,2 m3/h",
+          "opvoerhoogte_m": "64 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "2,53 kW",
+          "aanzuigdiepte_m": "22,0 kg",
+          "material": null,
+          "sku_series": "matsmc"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,8 bar",
+          "spec_application_desc": "huishoudelijk, landbouw, beregening",
+          "spec_housing": "rvs 304",
+          "spec_product_variant": "met ingebouwde",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "MATSMC6",
+        "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
+        "page_in_pdf": 39,
+        "properties": {
+          "type": "SM C6 3,0 pK",
+          "bestelnr": "MATSMC6",
+          "debiet_m3_h": "10,2 m3/h",
+          "opvoerhoogte_m": "77 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "2,87 kW",
+          "aanzuigdiepte_m": "23,5 kg",
+          "material": null,
+          "sku_series": "matsmc"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,8 bar",
+          "spec_application_desc": "huishoudelijk, landbouw, beregening",
+          "spec_housing": "rvs 304",
+          "spec_product_variant": "met ingebouwde",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p39__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 11,
+    "default_variant_sku": "MATSMA040",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p39__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p5-dompelpompen-pdf-webp",
+    "name": "huishoudelijk (Page 5)",
+    "series_id": "dompelpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "dompelpompen__huishoudelijk",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X0352002",
+        "label": "huishoudelijk",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "COMPAC 200",
+          "bestelnr": "X0352002",
+          "debiet_m3_h": "11,4 m3/h",
+          "opvoerhoogte_m": "10 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,65 kW",
+          "connection": "5/4”",
+          "aanzuigdiepte_m": "5,6 kg",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0352032",
+        "label": "huishoudelijk",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "SPEED MOP AUT",
+          "bestelnr": "X0352032",
+          "debiet_m3_h": "9,6 m3/h",
+          "opvoerhoogte_m": "6 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,25 kW",
+          "weight_kg": "4,1 kg",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "technopolymeer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p5__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "X0352002",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p5__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p24-dompelpompen-pdf-webp",
+    "name": "huishoudelijk (Page 24)",
+    "series_id": "dompelpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "dompelpompen__huishoudelijk",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X0352007",
+        "label": "huishoudelijk",
+        "page": 24,
+        "page_in_pdf": 24,
+        "properties": {
+          "type": "BIOX 300/10",
+          "bestelnr": "X0352007",
+          "debiet_m3_h": "21,0 m3/h",
+          "opvoerhoogte_m": "11 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,3 kW",
+          "connection": "2”",
+          "aanzuigdiepte_m": "9,0 kg",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs 304",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p24__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 1,
+    "default_variant_sku": "X0352007",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p24__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p11-dompelpompen-pdf-webp",
+    "name": "huishoudelijk (Page 11)",
+    "series_id": "dompelpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "dompelpompen__huishoudelijk",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X0352029",
+        "label": "huishoudelijk",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X0352029",
+          "debiet_m3_h": "15,6 m3/h",
+          "opvoerhoogte_m": "10 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,55 kW",
+          "weight_kg": "6,4 kg",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0352030",
+        "label": "huishoudelijk",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X0352030",
+          "debiet_m3_h": "10,8 m3/h",
+          "opvoerhoogte_m": "6,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,37 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0352033",
+        "label": "huishoudelijk",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X0352033",
+          "debiet_m3_h": "15,6 m3/h",
+          "opvoerhoogte_m": "6 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,25 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "technopolymeer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p11__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 3,
+    "default_variant_sku": "X0352029",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p11__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p7-dompelpompen-pdf-webp",
+    "name": "huishoudelijk (Page 7)",
+    "series_id": "dompelpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "dompelpompen__huishoudelijk",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120072",
+        "label": "huishoudelijk",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "NOVA 180 M-NA - SV",
+          "bestelnr": "X9120072",
+          "debiet_m3_h": "5 m3/h",
+          "opvoerhoogte_m": "4,95 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,2 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120074",
+        "label": "huishoudelijk",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "NOVA 300 M-A - SV",
+          "bestelnr": "X9120074",
+          "debiet_m3_h": "12 m3/h",
+          "opvoerhoogte_m": "7,18 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,22 kW",
+          "aanzuigdiepte_m": "5 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120076",
+        "label": "huishoudelijk",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "NOVA 600 M-NA - SV",
+          "bestelnr": "X9120076",
+          "debiet_m3_h": "15 m3/h",
+          "opvoerhoogte_m": "10,2 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,55 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p7__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 3,
+    "default_variant_sku": "X9120072",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p7__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p9-dompelpompen-pdf-webp",
+    "name": "huishoudelijk (Page 9)",
+    "series_id": "dompelpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "dompelpompen__huishoudelijk",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120086",
+        "label": "huishoudelijk",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "FEKA 600 M-A - SV",
+          "bestelnr": "X9120086",
+          "debiet_m3_h": "15 m3/h",
+          "opvoerhoogte_m": "7,45 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,55 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120119",
+        "label": "huishoudelijk",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "FEKA 600 T-NA - SV",
+          "bestelnr": "X9120119",
+          "debiet_m3_h": "15 m3/h",
+          "opvoerhoogte_m": "7,45 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,55 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p9__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "X9120086",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p9__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p8-dompelpompen-pdf-webp",
+    "name": "huishoudelijk (Page 8)",
+    "series_id": "dompelpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "dompelpompen__huishoudelijk",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X91201341",
+        "label": "huishoudelijk",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X91201341",
+          "debiet_m3_h": "13,5 m3/h",
+          "opvoerhoogte_m": "9,8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,52 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120338",
+        "label": "huishoudelijk",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120338",
+          "debiet_m3_h": "9,3 m3/h",
+          "opvoerhoogte_m": "7,6 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,22 kW",
+          "aanzuigdiepte_m": "600 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120339",
+        "label": "huishoudelijk",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120339",
+          "debiet_m3_h": "9,3 m3/h",
+          "opvoerhoogte_m": "7,6 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,22 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120340",
+        "label": "huishoudelijk",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120340",
+          "debiet_m3_h": "9 m3/h",
+          "opvoerhoogte_m": "7,6 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,21 kW",
+          "aanzuigdiepte_m": "1 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120429",
+        "label": "huishoudelijk",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120429",
+          "debiet_m3_h": "7 m3/h",
+          "opvoerhoogte_m": "4,95 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,2 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120430",
+        "label": "huishoudelijk",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120430",
+          "debiet_m3_h": "13,5 m3/h",
+          "opvoerhoogte_m": "9,8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,55 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120431",
+        "label": "huishoudelijk",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120431",
+          "debiet_m3_h": "7,5 m3/h",
+          "opvoerhoogte_m": "7,1 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,21 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120432",
+        "label": "huishoudelijk",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120432",
+          "debiet_m3_h": "10 m3/h",
+          "opvoerhoogte_m": "9,7 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,52 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120614",
+        "label": "huishoudelijk",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120614",
+          "debiet_m3_h": "13,5 m3/h",
+          "opvoerhoogte_m": "9,8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,55 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p8__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 9,
+    "default_variant_sku": "X91201341",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p8__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p23-dompelpompen-pdf-webp",
+    "name": "VARIATIES (Page 23)",
+    "series_id": "dompelpompen__variaties",
+    "series_name": "VARIATIES",
+    "series_names": [
+      "VARIATIES"
+    ],
+    "family": "dompelpompen__variaties",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120189",
+        "label": "VARIATIES",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "FEKA VS 750 M-A",
+          "bestelnr": "X9120189",
+          "debiet_m3_h": "24 m3/h",
+          "opvoerhoogte_m": "9,6 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "spec_product_variant": "Met vortex",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120192",
+        "label": "VARIATIES",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "FEKA VS 1000 M-NA",
+          "bestelnr": "X9120192",
+          "debiet_m3_h": "27 m3/h",
+          "opvoerhoogte_m": "11,8 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "spec_product_variant": "Met vortex",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120193",
+        "label": "VARIATIES",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "FEKA VS 1200 M-A",
+          "bestelnr": "X9120193",
+          "debiet_m3_h": "32 m3/h",
+          "opvoerhoogte_m": "14 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,2 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "spec_product_variant": "Met vortex",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120202",
+        "label": "VARIATIES",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "FEKA VS 550 M-NA",
+          "bestelnr": "X9120202",
+          "debiet_m3_h": "20 m3/h",
+          "opvoerhoogte_m": "7,4 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,55 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "spec_product_variant": "Met vortex",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120451",
+        "label": "VARIATIES",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "FEKA VS 750 T-NA",
+          "bestelnr": "X9120451",
+          "debiet_m3_h": "24 m3/h",
+          "opvoerhoogte_m": "9,6 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "spec_product_variant": "Met vortex",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120453",
+        "label": "VARIATIES",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "FEKA VS 1200 T-NA",
+          "bestelnr": "X9120453",
+          "debiet_m3_h": "32 m3/h",
+          "opvoerhoogte_m": "14 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,2 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "spec_product_variant": "Met vortex",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p23__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 6,
+    "default_variant_sku": "X9120189",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p23__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p13-dompelpompen-pdf-webp",
+    "name": "huishoudelijk (Page 13)",
+    "series_id": "dompelpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "dompelpompen__huishoudelijk",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120220",
+        "label": "huishoudelijk",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120220",
+          "debiet_m3_h": "12,0 m3/h",
+          "opvoerhoogte_m": "10 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,45 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120234",
+        "label": "huishoudelijk",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120234",
+          "debiet_m3_h": "18,0 m3/h",
+          "opvoerhoogte_m": "15,3 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120258",
+        "label": "huishoudelijk",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120258",
+          "debiet_m3_h": "24,0 m3/h",
+          "opvoerhoogte_m": "17 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,2 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120435",
+        "label": "huishoudelijk",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120435",
+          "debiet_m3_h": "18,0 m3/h",
+          "opvoerhoogte_m": "15,3 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "600 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120436",
+        "label": "huishoudelijk",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120436",
+          "debiet_m3_h": "18,0 m3/h",
+          "opvoerhoogte_m": "15,3 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "1000 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120437",
+        "label": "huishoudelijk",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120437",
+          "debiet_m3_h": "24,0 m3/h",
+          "opvoerhoogte_m": "17 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,2 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120438",
+        "label": "huishoudelijk",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120438",
+          "debiet_m3_h": "24,0 m3/h",
+          "opvoerhoogte_m": "17 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,2 kW",
+          "aanzuigdiepte_m": "1200 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p13__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 7,
+    "default_variant_sku": "X9120220",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p13__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p36-dompelpompen-pdf-webp",
+    "name": "huishoudelijk (Page 36)",
+    "series_id": "dompelpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "dompelpompen__huishoudelijk",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120246",
+        "label": "huishoudelijk",
+        "page": 36,
+        "page_in_pdf": 36,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120246",
+          "debiet_m3_h": "5,4 m3/h",
+          "opvoerhoogte_m": "46 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,65 kW",
+          "aanzuigdiepte_m": "15 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4,6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120330",
+        "label": "huishoudelijk",
+        "page": 36,
+        "page_in_pdf": 36,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120330",
+          "debiet_m3_h": "5,4 m3/h",
+          "opvoerhoogte_m": "46 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "1200 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4,6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120571",
+        "label": "huishoudelijk",
+        "page": 36,
+        "page_in_pdf": 36,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120571",
+          "debiet_m3_h": "5,4 m3/h",
+          "opvoerhoogte_m": "36 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "1200 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4,6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120572",
+        "label": "huishoudelijk",
+        "page": 36,
+        "page_in_pdf": 36,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120572",
+          "debiet_m3_h": "5,4 m3/h",
+          "opvoerhoogte_m": "46 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "15 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4,6 bar",
+          "spec_application_desc": "en",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p36__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "X9120246",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p36__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p38-dompelpompen-pdf-webp",
+    "name": "huishoudelijk (Page 38)",
+    "series_id": "dompelpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "dompelpompen__huishoudelijk",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120277",
+        "label": "huishoudelijk",
+        "page": 38,
+        "page_in_pdf": 38,
+        "properties": {
+          "type": "PULSAR 40/50 M-A",
+          "bestelnr": "X9120277",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "56 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "20 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,7 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120552",
+        "label": "huishoudelijk",
+        "page": 38,
+        "page_in_pdf": 38,
+        "properties": {
+          "type": "PULSAR 30/50 M-NA",
+          "bestelnr": "X9120552",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "42 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,55 kW",
+          "aanzuigdiepte_m": "20 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,7 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120555",
+        "label": "huishoudelijk",
+        "page": 38,
+        "page_in_pdf": 38,
+        "properties": {
+          "type": "PULSAR 40/50 T-NA",
+          "bestelnr": "X9120555",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "56 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "20 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,7 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120557",
+        "label": "huishoudelijk",
+        "page": 38,
+        "page_in_pdf": 38,
+        "properties": {
+          "type": "PULSAR 50/50 M-NA",
+          "bestelnr": "X9120557",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "72 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "20 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,7 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120559",
+        "label": "huishoudelijk",
+        "page": 38,
+        "page_in_pdf": 38,
+        "properties": {
+          "type": "PULSAR 65/50 M-A",
+          "bestelnr": "X9120559",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "86 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,2 kW",
+          "aanzuigdiepte_m": "20 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,7 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120561",
+        "label": "huishoudelijk",
+        "page": 38,
+        "page_in_pdf": 38,
+        "properties": {
+          "type": "PULSAR 65/50 T-NA",
+          "bestelnr": "X9120561",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "86 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,2 kW",
+          "aanzuigdiepte_m": "20 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,7 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120563",
+        "label": "huishoudelijk",
+        "page": 38,
+        "page_in_pdf": 38,
+        "properties": {
+          "type": "PULSAR 30/80 M-NA",
+          "bestelnr": "X9120563",
+          "debiet_m3_h": "7,2 m3/h",
+          "opvoerhoogte_m": "51 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "20 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,7 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120565",
+        "label": "huishoudelijk",
+        "page": 38,
+        "page_in_pdf": 38,
+        "properties": {
+          "type": "PULSAR 40/80 M-A",
+          "bestelnr": "X9120565",
+          "debiet_m3_h": "7,2 m3/h",
+          "opvoerhoogte_m": "64 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "20 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,7 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120566",
+        "label": "huishoudelijk",
+        "page": 38,
+        "page_in_pdf": 38,
+        "properties": {
+          "type": "PULSAR 40/80 T-NA",
+          "bestelnr": "X9120566",
+          "debiet_m3_h": "7,2 m3/h",
+          "opvoerhoogte_m": "64 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "20 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,7 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120567",
+        "label": "huishoudelijk",
+        "page": 38,
+        "page_in_pdf": 38,
+        "properties": {
+          "type": "PULSAR 50/80 M-NA",
+          "bestelnr": "X9120567",
+          "debiet_m3_h": "7,2 m3/h",
+          "opvoerhoogte_m": "77 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,2 kW",
+          "aanzuigdiepte_m": "20 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,7 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p38__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 10,
+    "default_variant_sku": "X9120277",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p38__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p4-dompelpompen-pdf-webp",
+    "name": "VARIATIES (Page 4)",
+    "series_id": "dompelpompen__variaties",
+    "series_name": "VARIATIES",
+    "series_names": [
+      "VARIATIES"
+    ],
+    "family": "dompelpompen__variaties",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120282",
+        "label": "VARIATIES",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "VERTYNOVA 400 M",
+          "bestelnr": "X9120282",
+          "debiet_m3_h": "10 m3/h",
+          "opvoerhoogte_m": "9 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,4 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "spec_product_variant": "Met ingebouwde",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p4__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 1,
+    "default_variant_sku": "X9120282",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p4__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p10-dompelpompen-pdf-webp",
+    "name": "huishoudelijk (Page 10)",
+    "series_id": "dompelpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "dompelpompen__huishoudelijk",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120283",
+        "label": "huishoudelijk",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120283",
+          "debiet_m3_h": "18 m3/h",
+          "opvoerhoogte_m": "12 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "spec_product_variant": "Met grote",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120306",
+        "label": "huishoudelijk",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "submersible_pump",
+          "bestelnr": "X9120306",
+          "debiet_m3_h": "18 m3/h",
+          "opvoerhoogte_m": "12 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,75 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "Technopolymeer",
+          "spec_product_variant": "Met grote",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p10__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "X9120283",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p10__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p28-dompelpompen-pdf-webp",
+    "name": "professioneel / VARIATIES (Page 28)",
+    "series_id": "dompelpompen__professioneel",
+    "series_name": "professioneel",
+    "series_names": [
+      "professioneel",
+      "VARIATIES"
+    ],
+    "family": "dompelpompen__professioneel",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120397",
+        "label": "professioneel",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "GRINDER 1800 T",
+          "bestelnr": "X9120397",
+          "debiet_m3_h": "12 m3/h",
+          "opvoerhoogte_m": "25,3 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,5 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "Met versnij",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120439",
+        "label": "VARIATIES",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "GRINDER 1000 M-NA",
+          "bestelnr": "X9120439",
+          "debiet_m3_h": "12 m3/h",
+          "opvoerhoogte_m": "15,2 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "Met open",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120441",
+        "label": "VARIATIES",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "GRINDER 1200 M-A",
+          "bestelnr": "X9120441",
+          "debiet_m3_h": "18 m3/h",
+          "opvoerhoogte_m": "20 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,5 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "Met open",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120443",
+        "label": "VARIATIES",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "GRINDER 1200 T",
+          "bestelnr": "X9120443",
+          "debiet_m3_h": "18 m3/h",
+          "opvoerhoogte_m": "20 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,5 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "Met open",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120445",
+        "label": "VARIATIES",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "GRINDER 1600 M-NA",
+          "bestelnr": "X9120445",
+          "debiet_m3_h": "18 m3/h",
+          "opvoerhoogte_m": "23,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,8 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "spec_product_variant": "Met open",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p28__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 5,
+    "default_variant_sku": "X9120397",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p28__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p21-dompelpompen-pdf-webp",
+    "name": "professioneel (Page 21)",
+    "series_id": "dompelpompen__professioneel",
+    "series_name": "professioneel",
+    "series_names": [
+      "professioneel"
+    ],
+    "family": "dompelpompen__professioneel",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120455",
+        "label": "professioneel",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "FEKA 2015.2 MNA",
+          "bestelnr": "X9120455",
+          "debiet_m3_h": "24 m3/h",
+          "opvoerhoogte_m": "12,5 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120457",
+        "label": "professioneel",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "FEKA 2025.2 TNA",
+          "bestelnr": "X9120457",
+          "debiet_m3_h": "36 m3/h",
+          "opvoerhoogte_m": "17,5 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,8 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120460",
+        "label": "professioneel",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "FEKA 2508.4T",
+          "bestelnr": "X9120460",
+          "debiet_m3_h": "36 m3/h",
+          "opvoerhoogte_m": "5,4 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "600 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120462",
+        "label": "professioneel",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "FEKA 2500.4T",
+          "bestelnr": "X9120462",
+          "debiet_m3_h": "48 m3/h",
+          "opvoerhoogte_m": "8 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1400 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120464",
+        "label": "professioneel",
+        "page": 21,
+        "page_in_pdf": 21,
+        "properties": {
+          "type": "FEKA 2500.2T",
+          "bestelnr": "X9120464",
+          "debiet_m3_h": "48 m3/h",
+          "opvoerhoogte_m": "14 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1800 kW",
+          "aanzuigdiepte_m": "10 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p21__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 5,
+    "default_variant_sku": "X9120455",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p21__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p27-dompelpompen-pdf-webp",
+    "name": "professioneel (Page 27)",
+    "series_id": "dompelpompen__professioneel",
+    "series_name": "professioneel",
+    "series_names": [
+      "professioneel"
+    ],
+    "family": "dompelpompen__professioneel",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120467",
+        "label": "professioneel",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "FKV.65.22.2 T5 400D",
+          "bestelnr": "X9120467",
+          "debiet_m3_h": "43,2 m3/h",
+          "opvoerhoogte_m": "16,5 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "65 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120469",
+        "label": "professioneel",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "FKV.65.40.2 T5 400D",
+          "bestelnr": "X9120469",
+          "debiet_m3_h": "72 m3/h",
+          "opvoerhoogte_m": "27,2 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "4,0 kW",
+          "aanzuigdiepte_m": "65 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120472",
+        "label": "professioneel",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "FKV 80 11.4 T5 400D",
+          "bestelnr": "X9120472",
+          "debiet_m3_h": "57,6 m3/h",
+          "opvoerhoogte_m": "7 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,1 kW",
+          "aanzuigdiepte_m": "80 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120474",
+        "label": "professioneel",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "FKV 80 22.4 T5 400D",
+          "bestelnr": "X9120474",
+          "debiet_m3_h": "79,2 m3/h",
+          "opvoerhoogte_m": "11,8 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "2,2 kW",
+          "aanzuigdiepte_m": "80 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120476",
+        "label": "professioneel",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "FKV 80 40.4 T5 400D S",
+          "bestelnr": "X9120476",
+          "debiet_m3_h": "86,4 m3/h",
+          "opvoerhoogte_m": "17,5 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "4,0 kW",
+          "aanzuigdiepte_m": "80 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120478",
+        "label": "professioneel",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "FKV 80 40.2 T5 400D S",
+          "bestelnr": "X9120478",
+          "debiet_m3_h": "72 m3/h",
+          "opvoerhoogte_m": "22,1 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "4,0 kW",
+          "aanzuigdiepte_m": "80 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120480",
+        "label": "professioneel",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "FKV 80 60.2 T5 400Y/D S",
+          "bestelnr": "X9120480",
+          "debiet_m3_h": "79,2 m3/h",
+          "opvoerhoogte_m": "29,1 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "6,0 kW",
+          "aanzuigdiepte_m": "80 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120482",
+        "label": "professioneel",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "FKV 80 75.2 T5 400Y/D S",
+          "bestelnr": "X9120482",
+          "debiet_m3_h": "93,6 m3/h",
+          "opvoerhoogte_m": "32,1 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "7,5 kW",
+          "aanzuigdiepte_m": "80 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120484",
+        "label": "professioneel",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "FKV 80 92.2 T5 400Y/D S",
+          "bestelnr": "X9120484",
+          "debiet_m3_h": "100,8 m3/h",
+          "opvoerhoogte_m": "36,2 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "9,2 kW",
+          "aanzuigdiepte_m": "80 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120486",
+        "label": "professioneel",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "FKV 80 110.2 T5 400D S",
+          "bestelnr": "X9120486",
+          "debiet_m3_h": "108 m3/h",
+          "opvoerhoogte_m": "41,2 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "11,0 kW",
+          "aanzuigdiepte_m": "80 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120488",
+        "label": "professioneel",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "FKV 100 30.4 T5 400D S",
+          "bestelnr": "X9120488",
+          "debiet_m3_h": "100,8 m3/h",
+          "opvoerhoogte_m": "11,8 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "3,0 kW",
+          "aanzuigdiepte_m": "100 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120490",
+        "label": "professioneel",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "FKV 100 40.4 T5 400D S",
+          "bestelnr": "X9120490",
+          "debiet_m3_h": "115,2 m3/h",
+          "opvoerhoogte_m": "14 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "4,0 kW",
+          "aanzuigdiepte_m": "100 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120492",
+        "label": "professioneel",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "FKV 100 55.4 T5 400Y/D S",
+          "bestelnr": "X9120492",
+          "debiet_m3_h": "129,6 m3/h",
+          "opvoerhoogte_m": "15,9 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "5,5 kW",
+          "aanzuigdiepte_m": "100 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120494",
+        "label": "professioneel",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "FKV 100 75.4 T5 400Y/D S",
+          "bestelnr": "X9120494",
+          "debiet_m3_h": "144 m3/h",
+          "opvoerhoogte_m": "19 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "7,5 kW",
+          "aanzuigdiepte_m": "100 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p27__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 14,
+    "default_variant_sku": "X9120467",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p27__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p22-dompelpompen-pdf-webp",
+    "name": "professioneel (Page 22)",
+    "series_id": "dompelpompen__professioneel",
+    "series_name": "professioneel",
+    "series_names": [
+      "professioneel"
+    ],
+    "family": "dompelpompen__professioneel",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120496",
+        "label": "professioneel",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "FEKA 6100.6T",
+          "bestelnr": "X9120496",
+          "debiet_m3_h": "300 m3/h",
+          "opvoerhoogte_m": "15 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "6,4 kW",
+          "aanzuigdiepte_m": "108 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120498",
+        "label": "professioneel",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "FEKA 6150.4T",
+          "bestelnr": "X9120498",
+          "debiet_m3_h": "300 m3/h",
+          "opvoerhoogte_m": "17 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "14,0 kW",
+          "aanzuigdiepte_m": "95 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120500",
+        "label": "professioneel",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "FEKA 6250.4T",
+          "bestelnr": "X9120500",
+          "debiet_m3_h": "420 m3/h",
+          "opvoerhoogte_m": "25 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "24,0 kW",
+          "aanzuigdiepte_m": "108 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120502",
+        "label": "professioneel",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "FEKA 8150.6T",
+          "bestelnr": "X9120502",
+          "debiet_m3_h": "480 m3/h",
+          "opvoerhoogte_m": "8,53 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "11,2 kW",
+          "aanzuigdiepte_m": "80 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120504",
+        "label": "professioneel",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "FEKA 8250.6T",
+          "bestelnr": "X9120504",
+          "debiet_m3_h": "600 m3/h",
+          "opvoerhoogte_m": "14,4 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "17,0 kW",
+          "aanzuigdiepte_m": "80 mm",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "professioneel",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p22__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 5,
+    "default_variant_sku": "X9120496",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p22__dompelpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "dompelpompen-images-dompelpompen-dompelpompen-p37-dompelpompen-pdf-webp",
+    "name": "huishoudelijk (Page 37)",
+    "series_id": "dompelpompen__huishoudelijk",
+    "series_name": "huishoudelijk",
+    "series_names": [
+      "huishoudelijk"
+    ],
+    "family": "dompelpompen__huishoudelijk",
+    "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X9120584",
+        "label": "huishoudelijk",
+        "page": 37,
+        "page_in_pdf": 37,
+        "properties": {
+          "type": "PULSAR DRY 40/80 T-NA",
+          "bestelnr": "X9120584",
+          "debiet_m3_h": "7,2 m3/h",
+          "opvoerhoogte_m": "64 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "15 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,7 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120593",
+        "label": "huishoudelijk",
+        "page": 37,
+        "page_in_pdf": 37,
+        "properties": {
+          "type": "PULSAR DRY 30/50 T-NA",
+          "bestelnr": "X9120593",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "42 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,55 kW",
+          "aanzuigdiepte_m": "15 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,7 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120595",
+        "label": "huishoudelijk",
+        "page": 37,
+        "page_in_pdf": 37,
+        "properties": {
+          "type": "PULSAR DRY 40/50 T-NA",
+          "bestelnr": "X9120595",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "56 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "15 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,7 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120597",
+        "label": "huishoudelijk",
+        "page": 37,
+        "page_in_pdf": 37,
+        "properties": {
+          "type": "PULSAR DRY 50/50 T-NA",
+          "bestelnr": "X9120597",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "72 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,0 kW",
+          "aanzuigdiepte_m": "15 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,7 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120599",
+        "label": "huishoudelijk",
+        "page": 37,
+        "page_in_pdf": 37,
+        "properties": {
+          "type": "PULSAR DRY 65/50 T-NA",
+          "bestelnr": "X9120599",
+          "debiet_m3_h": "4,8 m3/h",
+          "opvoerhoogte_m": "86 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,2 kW",
+          "aanzuigdiepte_m": "15 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,7 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120601",
+        "label": "huishoudelijk",
+        "page": 37,
+        "page_in_pdf": 37,
+        "properties": {
+          "type": "PULSAR DRY 30/80 T-NA",
+          "bestelnr": "X9120601",
+          "debiet_m3_h": "7,2 m3/h",
+          "opvoerhoogte_m": "51 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,75 kW",
+          "aanzuigdiepte_m": "15 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,7 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X9120603",
+        "label": "huishoudelijk",
+        "page": 37,
+        "page_in_pdf": 37,
+        "properties": {
+          "type": "PULSAR DRY 50/80 T-NA",
+          "bestelnr": "X9120603",
+          "debiet_m3_h": "7,2 m3/h",
+          "opvoerhoogte_m": "77 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,2 kW",
+          "aanzuigdiepte_m": "15 m",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "0°C tot 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "7,7 bar",
+          "spec_application_desc": "huishoudelijk",
+          "spec_housing": "rvs",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/dompelpompen/dompelpompen__p37__dompelpompen-pdf.webp"
+    ],
+    "variant_count": 7,
+    "default_variant_sku": "X9120584",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/dompelpompen/dompelpompen__p37__dompelpompen-pdf.webp"
+      }
+    ]
+  }
+]

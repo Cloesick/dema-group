@@ -1,0 +1,422 @@
+{
+  "company": "De Visschere Technics",
+  "website": "https://www.devisscheretechnics.be",
+  "location": {
+    "address": "Ovenstraat 11",
+    "postal_code": "8800",
+    "city": "Roeselare",
+    "country": "Belgium"
+  },
+  "contact": {
+    "phone": "+32 (0)51 15 27 12",
+    "email": "sales@devisscheretechnics.be"
+  },
+  "vat_number": "BE 0803.118.824",
+  "related_company": "DEMA",
+  "same_address_as": "DEMA",
+  "founded": 2019,
+  "last_updated": "2024-12-19",
+  "business_type": "Service Provider + Product Supplier",
+  "categories": [
+    {
+      "id": "irrigation-systems",
+      "name": "Irrigation Systems",
+      "name_nl": "Beregeningssystemen",
+      "subcategories": [
+        {
+          "id": "pop-up-sprinklers",
+          "name": "Pop-up Sprinklers",
+          "name_nl": "Pop-up sproeiers",
+          "brands": ["Hunter", "Rain Bird", "Toro"],
+          "products": [
+            {
+              "sku": "DVT-PU-4-SS",
+              "name": "Pop-up Sprinkler 4\" Stainless Steel",
+              "name_nl": "Pop-up sproeier 4\" RVS",
+              "pop_up_height_inch": 4,
+              "material": "Stainless Steel",
+              "arc_degrees": "40-360 adjustable",
+              "throw_radius_m": "4-10",
+              "flow_rate_lpm": "5-15",
+              "applications": ["Residential", "Commercial Lawns"]
+            },
+            {
+              "sku": "DVT-PU-6-PL",
+              "name": "Pop-up Sprinkler 6\" Plastic",
+              "name_nl": "Pop-up sproeier 6\" kunststof",
+              "pop_up_height_inch": 6,
+              "material": "ABS Plastic",
+              "arc_degrees": "40-360 adjustable",
+              "throw_radius_m": "5-12",
+              "flow_rate_lpm": "8-20",
+              "applications": ["Shrub Areas", "Flower Beds"]
+            },
+            {
+              "sku": "DVT-PU-12-ROT",
+              "name": "Rotor Sprinkler 12\"",
+              "name_nl": "Rotor sproeier 12\"",
+              "pop_up_height_inch": 12,
+              "material": "ABS/Stainless",
+              "arc_degrees": "40-360 adjustable",
+              "throw_radius_m": "8-20",
+              "flow_rate_lpm": "15-40",
+              "applications": ["Large Lawns", "Sports Fields"]
+            }
+          ]
+        },
+        {
+          "id": "drip-irrigation",
+          "name": "Drip Irrigation",
+          "name_nl": "Druppelbevloeiing",
+          "products": [
+            {
+              "sku": "DVT-DR-16-PC",
+              "name": "Pressure Compensating Drip Line 16mm",
+              "name_nl": "Drukgecompenseerde druppelslang 16mm",
+              "diameter_mm": 16,
+              "dripper_spacing_cm": [20, 30, 40, 50],
+              "flow_rate_lph": 2.3,
+              "pressure_compensating": true,
+              "applications": ["Hedges", "Planters", "Vegetable Gardens"]
+            },
+            {
+              "sku": "DVT-DR-INLINE",
+              "name": "Inline Drippers",
+              "name_nl": "Inline druppelaar",
+              "flow_rate_lph": [2, 4, 8],
+              "pressure_compensating": true,
+              "applications": ["Pots", "Containers", "Trees"]
+            },
+            {
+              "sku": "DVT-DR-MICRO",
+              "name": "Micro Sprinklers",
+              "name_nl": "Micro sproeiers",
+              "flow_rate_lph": [20, 40, 70],
+              "spray_radius_m": [1, 2, 3],
+              "applications": ["Flower Beds", "Ground Cover"]
+            }
+          ]
+        },
+        {
+          "id": "irrigation-controllers",
+          "name": "Irrigation Controllers",
+          "name_nl": "Beregeningscomputers",
+          "brands": ["Hunter", "Rain Bird", "Toro"],
+          "products": [
+            {
+              "sku": "DVT-CT-4-WIFI",
+              "name": "WiFi Controller 4 Zones",
+              "name_nl": "WiFi beregeningscomputer 4 zones",
+              "zones": 4,
+              "connectivity": "WiFi",
+              "smart_features": ["Weather Adjustment", "App Control", "Seasonal Adjust"],
+              "power": "24VAC",
+              "applications": ["Residential"]
+            },
+            {
+              "sku": "DVT-CT-8-WIFI",
+              "name": "WiFi Controller 8 Zones",
+              "name_nl": "WiFi beregeningscomputer 8 zones",
+              "zones": 8,
+              "connectivity": "WiFi",
+              "smart_features": ["Weather Adjustment", "App Control", "Flow Monitoring"],
+              "power": "24VAC",
+              "applications": ["Residential", "Small Commercial"]
+            },
+            {
+              "sku": "DVT-CT-16-PRO",
+              "name": "Professional Controller 16 Zones",
+              "name_nl": "Professionele beregeningscomputer 16 zones",
+              "zones": 16,
+              "expandable_to": 48,
+              "connectivity": "WiFi/Ethernet",
+              "smart_features": ["Central Control", "Flow Monitoring", "Fault Detection"],
+              "power": "24VAC",
+              "applications": ["Commercial", "Sports Fields", "Parks"]
+            },
+            {
+              "sku": "DVT-CT-BAT",
+              "name": "Battery Operated Controller",
+              "name_nl": "Batterij beregeningscomputer",
+              "zones": 1,
+              "power": "9V Battery",
+              "applications": ["Remote Locations", "No Power Available"]
+            }
+          ]
+        },
+        {
+          "id": "valves-irrigation",
+          "name": "Irrigation Valves",
+          "name_nl": "Beregeningskleppen",
+          "products": [
+            {
+              "sku": "DVT-VL-1-24V",
+              "name": "Solenoid Valve 1\" 24VAC",
+              "name_nl": "Magneetklep 1\" 24VAC",
+              "size_inch": 1,
+              "voltage": "24VAC",
+              "flow_range_lpm": "5-115",
+              "applications": ["Zone Control"]
+            },
+            {
+              "sku": "DVT-VL-1.5-24V",
+              "name": "Solenoid Valve 1.5\" 24VAC",
+              "name_nl": "Magneetklep 1.5\" 24VAC",
+              "size_inch": 1.5,
+              "voltage": "24VAC",
+              "flow_range_lpm": "20-230",
+              "applications": ["Large Zones", "Commercial"]
+            },
+            {
+              "sku": "DVT-VL-BOX-4",
+              "name": "Valve Box 4 Valves",
+              "name_nl": "Kleppenput 4 kleppen",
+              "capacity": 4,
+              "material": "HDPE",
+              "applications": ["Underground Installation"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water-technology",
+      "name": "Water Technology",
+      "name_nl": "Watertechniek",
+      "subcategories": [
+        {
+          "id": "pumps",
+          "name": "Pumps",
+          "name_nl": "Pompen",
+          "note": "Sourced from DEMA",
+          "products": [
+            {
+              "sku": "DVT-PM-SUB-1HP",
+              "name": "Submersible Pump 1HP",
+              "name_nl": "Dompelpomp 1HP",
+              "power_kw": 0.75,
+              "max_head_m": 45,
+              "max_flow_lpm": 80,
+              "applications": ["Cisterns", "Wells"]
+            },
+            {
+              "sku": "DVT-PM-BOOST",
+              "name": "Booster Pump Set",
+              "name_nl": "Drukverhogingsset",
+              "power_kw": 1.1,
+              "max_pressure_bar": 5,
+              "max_flow_lpm": 100,
+              "includes": ["Pump", "Pressure Tank", "Controller"],
+              "applications": ["Irrigation Pressure Boost"]
+            },
+            {
+              "sku": "DVT-PM-WELL-4",
+              "name": "Well Pump 4\"",
+              "name_nl": "Bronpomp 4\"",
+              "diameter_inch": 4,
+              "power_kw": 1.5,
+              "max_head_m": 80,
+              "max_flow_lpm": 120,
+              "applications": ["Deep Wells", "Boreholes"]
+            }
+          ]
+        },
+        {
+          "id": "cisterns",
+          "name": "Underground Cisterns",
+          "name_nl": "Ondergrondse citernes",
+          "products": [
+            {
+              "sku": "DVT-CIS-3000",
+              "name": "Underground Cistern 3000L",
+              "name_nl": "Ondergrondse citerne 3000L",
+              "volume_l": 3000,
+              "material": "HDPE",
+              "includes": ["Filter", "Overflow", "Inlet"],
+              "applications": ["Rainwater Harvesting", "Irrigation Storage"]
+            },
+            {
+              "sku": "DVT-CIS-5000",
+              "name": "Underground Cistern 5000L",
+              "name_nl": "Ondergrondse citerne 5000L",
+              "volume_l": 5000,
+              "material": "HDPE",
+              "includes": ["Filter", "Overflow", "Inlet"],
+              "applications": ["Rainwater Harvesting", "Irrigation Storage"]
+            },
+            {
+              "sku": "DVT-CIS-10000",
+              "name": "Underground Cistern 10000L",
+              "name_nl": "Ondergrondse citerne 10000L",
+              "volume_l": 10000,
+              "material": "HDPE",
+              "includes": ["Filter", "Overflow", "Inlet"],
+              "applications": ["Large Gardens", "Commercial"]
+            }
+          ]
+        },
+        {
+          "id": "filtration",
+          "name": "Filtration",
+          "name_nl": "Filtratie",
+          "products": [
+            {
+              "sku": "DVT-FLT-DISC-1",
+              "name": "Disc Filter 1\"",
+              "name_nl": "Schijvenfilter 1\"",
+              "size_inch": 1,
+              "mesh_micron": 130,
+              "max_flow_lpm": 60,
+              "applications": ["Drip Irrigation Protection"]
+            },
+            {
+              "sku": "DVT-FLT-SAND-2",
+              "name": "Sand Filter 2\"",
+              "name_nl": "Zandfilter 2\"",
+              "size_inch": 2,
+              "filtration_grade": "Fine",
+              "max_flow_lpm": 200,
+              "applications": ["Surface Water", "Pond Water"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "garden-lighting",
+      "name": "Garden Lighting",
+      "name_nl": "Tuinverlichting",
+      "subcategories": [
+        {
+          "id": "path-lights",
+          "name": "Path Lights",
+          "name_nl": "Padverlichting",
+          "products": [
+            {
+              "sku": "DVT-LT-PATH-LED",
+              "name": "LED Path Light",
+              "name_nl": "LED padlamp",
+              "power_w": 3,
+              "voltage": "12V",
+              "lumens": 200,
+              "material": "Aluminum/Glass",
+              "ip_rating": "IP65",
+              "applications": ["Pathways", "Driveways"]
+            }
+          ]
+        },
+        {
+          "id": "spot-lights",
+          "name": "Spot Lights",
+          "name_nl": "Spotverlichting",
+          "products": [
+            {
+              "sku": "DVT-LT-SPOT-LED",
+              "name": "LED Spot Light",
+              "name_nl": "LED spot",
+              "power_w": 5,
+              "voltage": "12V",
+              "lumens": 400,
+              "beam_angle_deg": 30,
+              "material": "Brass",
+              "ip_rating": "IP68",
+              "applications": ["Tree Uplighting", "Feature Lighting"]
+            }
+          ]
+        },
+        {
+          "id": "transformers",
+          "name": "Transformers",
+          "name_nl": "Transformatoren",
+          "products": [
+            {
+              "sku": "DVT-LT-TRANS-150",
+              "name": "Outdoor Transformer 150W",
+              "name_nl": "Buitentransformator 150W",
+              "power_w": 150,
+              "input_v": "230VAC",
+              "output_v": "12VAC",
+              "ip_rating": "IP44",
+              "applications": ["Garden Lighting Systems"]
+            },
+            {
+              "sku": "DVT-LT-TRANS-300",
+              "name": "Outdoor Transformer 300W",
+              "name_nl": "Buitentransformator 300W",
+              "power_w": 300,
+              "input_v": "230VAC",
+              "output_v": "12VAC",
+              "ip_rating": "IP44",
+              "applications": ["Large Garden Lighting Systems"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "design",
+      "name": "Design & Engineering",
+      "name_nl": "Studie & Ontwerp",
+      "description": "Complete irrigation system design with CAD drawings"
+    },
+    {
+      "id": "installation",
+      "name": "Installation & Startup",
+      "name_nl": "Installatie & Opstart",
+      "description": "Professional installation of irrigation systems"
+    },
+    {
+      "id": "maintenance",
+      "name": "Maintenance",
+      "name_nl": "Onderhoud tuinberegening",
+      "description": "Seasonal maintenance and winterization"
+    },
+    {
+      "id": "repair",
+      "name": "Repair Services",
+      "name_nl": "Herstellingen",
+      "description": "Repair and troubleshooting of irrigation systems"
+    },
+    {
+      "id": "water-audit",
+      "name": "Water Audit",
+      "name_nl": "Water audit",
+      "description": "Efficiency assessment and optimization"
+    }
+  ],
+  "target_markets": [
+    {
+      "id": "residential",
+      "name": "Private Gardens",
+      "name_nl": "Particuliere tuinen"
+    },
+    {
+      "id": "commercial",
+      "name": "Commercial Landscaping",
+      "name_nl": "Commerciële beplanting"
+    },
+    {
+      "id": "green-roofs",
+      "name": "Green Roofs & Terraces",
+      "name_nl": "Groendaken en dakterrassen"
+    },
+    {
+      "id": "sports",
+      "name": "Sports Facilities",
+      "name_nl": "Sportfaciliteiten",
+      "examples": ["Horse Arenas", "Tennis Courts", "Football Fields"]
+    },
+    {
+      "id": "agriculture",
+      "name": "Agriculture & Horticulture",
+      "name_nl": "Landbouw en tuinbouw"
+    }
+  ],
+  "synergy_with_dema": {
+    "products_sourced": ["Pumps", "Pipes", "Fittings", "Hoses"],
+    "shared_address": true,
+    "cross_referral": true
+  }
+}

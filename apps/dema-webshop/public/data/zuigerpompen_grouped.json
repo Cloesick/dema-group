@@ -1,0 +1,893 @@
+[
+  {
+    "group_id": "zuigerpompen-images-zuigerpompen-zuigerpompen-p5-zuigerpompen-pdf-webp",
+    "name": "huishoudelijk, industrieel, landbouw, bere- (Page 5)",
+    "series_id": "zuigerpompen__huishoudelijk-industrieel-landbouw-bere",
+    "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "series_names": [
+      "huishoudelijk, industrieel, landbouw, bere-"
+    ],
+    "family": "zuigerpompen__huishoudelijk-industrieel-landbouw-bere",
+    "catalog": "zuigerpompen",
+    "source_pdf": "zuigerpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X0330050",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "HERCULES 4000",
+          "bestelnr": "X0330050",
+          "debiet_m3_h": "4,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "6/4\"",
+          "steek": "5/4\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,75 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330067",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "HERCULES 2500",
+          "bestelnr": "X0330067",
+          "debiet_m3_h": "2,5 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "5/4\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,55 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330139",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "HERCULES 1500",
+          "bestelnr": "X0330139",
+          "debiet_m3_h": "1,5 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "1\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,37 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330142",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "HERCULES 3000",
+          "bestelnr": "X0330142",
+          "debiet_m3_h": "3,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "5/4\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,55 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330143",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "HERCULES 2500",
+          "bestelnr": "X0330143",
+          "debiet_m3_h": "2,5 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "5/4\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,55 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330154",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "HERCULES 2000",
+          "bestelnr": "X0330154",
+          "debiet_m3_h": "2,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "1\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,37 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330180",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "HERCULES 1500",
+          "bestelnr": "X0330180",
+          "debiet_m3_h": "1,5 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "1\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,37 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330187",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "HERCULES 6000",
+          "bestelnr": "X0330187",
+          "debiet_m3_h": "6,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "6/4\"",
+          "steek": "5/4\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,5 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330188",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "HERCULES 2000",
+          "bestelnr": "X0330188",
+          "debiet_m3_h": "2,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "1\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,37 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330198",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "HERCULES 5000",
+          "bestelnr": "X0330198",
+          "debiet_m3_h": "5,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "6/4\"",
+          "steek": "5/4\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,1 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330207",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "HERCULES 4000",
+          "bestelnr": "X0330207",
+          "debiet_m3_h": "4,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "6/4\"",
+          "steek": "5/4\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,75 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330219",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "HERCULES 3000",
+          "bestelnr": "X0330219",
+          "debiet_m3_h": "3,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "5/4\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,55 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330244",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "HERCULES 6000",
+          "bestelnr": "X0330244",
+          "debiet_m3_h": "6,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "6/4\"",
+          "steek": "5/4\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,5 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330253",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "HERCULES 2000",
+          "bestelnr": "X0330253",
+          "debiet_m3_h": "2,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "1\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,37 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330254",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "HERCULES 3000",
+          "bestelnr": "X0330254",
+          "debiet_m3_h": "3,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "5/4\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,55 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/zuigerpompen/zuigerpompen__p5__zuigerpompen-pdf.webp"
+    ],
+    "variant_count": 15,
+    "default_variant_sku": "X0330050",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/zuigerpompen/zuigerpompen__p5__zuigerpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "zuigerpompen-images-zuigerpompen-zuigerpompen-p4-zuigerpompen-pdf-webp",
+    "name": "huishoudelijk, industrieel, landbouw, bere- (Page 4)",
+    "series_id": "zuigerpompen__huishoudelijk-industrieel-landbouw-bere",
+    "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "series_names": [
+      "huishoudelijk, industrieel, landbouw, bere-"
+    ],
+    "family": "zuigerpompen__huishoudelijk-industrieel-landbouw-bere",
+    "catalog": "zuigerpompen",
+    "source_pdf": "zuigerpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X0330051",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "HERCULES 4000",
+          "bestelnr": "X0330051",
+          "debiet_m3_h": "4,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "6/4\"",
+          "steek": "5/4\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,75 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330073",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "HERCULES 2500",
+          "bestelnr": "X0330073",
+          "debiet_m3_h": "2,5 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "5/4\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,55 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330129",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "HERCULES 3000",
+          "bestelnr": "X0330129",
+          "debiet_m3_h": "3,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "5/4\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,55 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330130",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "HERCULES 5000",
+          "bestelnr": "X0330130",
+          "debiet_m3_h": "5,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "6/4\"",
+          "steek": "5/4\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,1 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330134",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "HERCULES 2000",
+          "bestelnr": "X0330134",
+          "debiet_m3_h": "2,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "1\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,37 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330135",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "HERCULES 7500",
+          "bestelnr": "X0330135",
+          "debiet_m3_h": "7,5 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "6/4\"",
+          "steek": "6/4\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,5 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330138",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "HERCULES 6000",
+          "bestelnr": "X0330138",
+          "debiet_m3_h": "6,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "6/4\"",
+          "steek": "5/4\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,5 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330158",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "HERCULES 1500",
+          "bestelnr": "X0330158",
+          "debiet_m3_h": "1,5 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "1\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,37 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330162",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "HERCULES 3000",
+          "bestelnr": "X0330162",
+          "debiet_m3_h": "3,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "5/4\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "1x230V",
+          "vermogen_kw": "0,55 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330167",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "HERCULES 2000",
+          "bestelnr": "X0330167",
+          "debiet_m3_h": "2,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "1\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,37 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330243",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "HERCULES 1500",
+          "bestelnr": "X0330243",
+          "debiet_m3_h": "1,5 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "1\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,37 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/zuigerpompen/zuigerpompen__p4__zuigerpompen-pdf.webp"
+    ],
+    "variant_count": 11,
+    "default_variant_sku": "X0330051",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/zuigerpompen/zuigerpompen__p4__zuigerpompen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "zuigerpompen-images-zuigerpompen-zuigerpompen-p6-zuigerpompen-pdf-webp",
+    "name": "huishoudelijk, industrieel, landbouw, bere- (Page 6)",
+    "series_id": "zuigerpompen__huishoudelijk-industrieel-landbouw-bere",
+    "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "series_names": [
+      "huishoudelijk, industrieel, landbouw, bere-"
+    ],
+    "family": "zuigerpompen__huishoudelijk-industrieel-landbouw-bere",
+    "catalog": "zuigerpompen",
+    "source_pdf": "zuigerpompen.pdf",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "X0330186",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "HERCULES 4000",
+          "bestelnr": "X0330186",
+          "debiet_m3_h": "4,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "6/4\"",
+          "steek": "5/4\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,75 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330199",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "HERCULES 4000",
+          "bestelnr": "X0330199",
+          "debiet_m3_h": "4,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "6/4\"",
+          "steek": "5/4\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,75 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330233",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "HERCULES 2000",
+          "bestelnr": "X0330233",
+          "debiet_m3_h": "2,0 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "1\"",
+          "steek": "1\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "0,37 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X0330255",
+        "label": "huishoudelijk, industrieel, landbouw, bere-",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "HERCULES 7500",
+          "bestelnr": "X0330255",
+          "debiet_m3_h": "7,5 m3/h",
+          "aanzuigdiepte_m": "9 m",
+          "aanzuig": "6/4\"",
+          "steek": "6/4\"",
+          "opvoerhoogte_m": "40 m",
+          "spanning_v": "3x400V",
+          "vermogen_kw": "1,5 kW",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "4 bar",
+          "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
+          "spec_housing": "gietijzer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/zuigerpompen/zuigerpompen__p6__zuigerpompen-pdf.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "X0330186",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/zuigerpompen/zuigerpompen__p6__zuigerpompen-pdf.webp"
+      }
+    ]
+  }
+]

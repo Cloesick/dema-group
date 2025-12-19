@@ -1,0 +1,2689 @@
+[
+  {
+    "group_id": "pu-afzuigslangen-images-pu-afzuigslangen-pu-afzuigslangen-p5-pu-afzuigslangen-pdf-webp",
+    "name": "granulaten, (Page 5)",
+    "series_id": "pu-afzuigslangen__granulaten",
+    "series_name": "granulaten,",
+    "series_names": [
+      "granulaten,"
+    ],
+    "family": "pu-afzuigslangen__granulaten",
+    "catalog": "pu-afzuigslangen",
+    "source_pdf": "pu-afzuigslangen.pdf",
+    "brand": "Various",
+    "category": "• Afzuigen van gassen",
+    "variants": [
+      {
+        "sku": "ZGPUH025",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "size": "10/15",
+          "bestelnr": "ZGPUH025",
+          "binnen_dia_mm": "25",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,94",
+          "buigradius": "50",
+          "gewicht_g_m": "310",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH025",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "bestelnr": "ZGPUH025",
+          "binnen_dia_mm": "32",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,94",
+          "buigradius": "64",
+          "gewicht_g_m": "450",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH038",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "size": "10/15",
+          "bestelnr": "ZGPUH038",
+          "binnen_dia_mm": "38",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,84",
+          "buigradius": "76",
+          "gewicht_g_m": "510",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH038",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "bestelnr": "ZGPUH038",
+          "binnen_dia_mm": "40",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,83",
+          "buigradius": "80",
+          "gewicht_g_m": "520",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH045",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "size": "10/15",
+          "bestelnr": "ZGPUH045",
+          "binnen_dia_mm": "45",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,82",
+          "buigradius": "90",
+          "gewicht_g_m": "600",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH045",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "bestelnr": "ZGPUH045",
+          "binnen_dia_mm": "50",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,80",
+          "buigradius": "100",
+          "gewicht_g_m": "710",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH055",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "size": "10/15",
+          "bestelnr": "ZGPUH055",
+          "binnen_dia_mm": "55",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,80",
+          "buigradius": "110",
+          "gewicht_g_m": "760",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH055",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "bestelnr": "ZGPUH055",
+          "binnen_dia_mm": "60",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,75",
+          "buigradius": "120",
+          "gewicht_g_m": "820",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH065",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "size": "10/15",
+          "bestelnr": "ZGPUH065",
+          "binnen_dia_mm": "65",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,68",
+          "buigradius": "130",
+          "gewicht_g_m": "890",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH070",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "bestelnr": "ZGPUH070",
+          "binnen_dia_mm": "70",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,68",
+          "buigradius": "140",
+          "gewicht_g_m": "970",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH075",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "size": "10/15",
+          "bestelnr": "ZGPUH075",
+          "binnen_dia_mm": "75",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,60",
+          "buigradius": "150",
+          "gewicht_g_m": "1030",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH080",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "bestelnr": "ZGPUH080",
+          "binnen_dia_mm": "80",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,60",
+          "buigradius": "160",
+          "gewicht_g_m": "1120",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH090",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "size": "10/15",
+          "bestelnr": "ZGPUH090",
+          "binnen_dia_mm": "90",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,45",
+          "buigradius": "180",
+          "gewicht_g_m": "1200",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH110",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "size": "10/15",
+          "bestelnr": "ZGPUH110",
+          "binnen_dia_mm": "110",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,45",
+          "buigradius": "220",
+          "gewicht_g_m": "1400",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH115",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "bestelnr": "ZGPUH115",
+          "binnen_dia_mm": "115",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,45",
+          "buigradius": "230",
+          "gewicht_g_m": "1450",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH120",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "size": "10/15",
+          "bestelnr": "ZGPUH120",
+          "binnen_dia_mm": "120",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,31",
+          "buigradius": "240",
+          "gewicht_g_m": "1500",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH125",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "bestelnr": "ZGPUH125",
+          "binnen_dia_mm": "125",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,31",
+          "buigradius": "250",
+          "gewicht_g_m": "1630",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH150",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "size": "10/15",
+          "bestelnr": "ZGPUH150",
+          "binnen_dia_mm": "150",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,25",
+          "buigradius": "300",
+          "gewicht_g_m": "1920",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH160",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "bestelnr": "ZGPUH160",
+          "binnen_dia_mm": "160",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,25",
+          "buigradius": "320",
+          "gewicht_g_m": "2220",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH170",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "size": "10/15",
+          "bestelnr": "ZGPUH170",
+          "binnen_dia_mm": "170",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,18",
+          "buigradius": "340",
+          "gewicht_g_m": "2410",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH200",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "bestelnr": "ZGPUH200",
+          "binnen_dia_mm": "200",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,15",
+          "buigradius": "400",
+          "gewicht_g_m": "3310",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      },
+      {
+        "sku": "ZGPUH250",
+        "label": "granulaten,",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "granulaten",
+          "size": "10/15",
+          "bestelnr": "ZGPUH250",
+          "binnen_dia_mm": "250",
+          "wanddikte_mm": "1,45",
+          "vacu_m_bar": "0,10",
+          "buigradius": "500",
+          "gewicht_g_m": "4700",
+          "material": null,
+          "sku_series": "zgpuh"
+        },
+        "attributes": {
+          "spec_temp_range": "met verkoperde stalen spiraal:",
+          "spec_product_variant": "met verkoperde",
+          "application": "• Afzuigen van gassen"
+        }
+      }
+    ],
+    "images": [
+      "images/pu-afzuigslangen/pu-afzuigslangen__p5__pu-afzuigslangen-pdf.webp"
+    ],
+    "variant_count": 22,
+    "default_variant_sku": "ZGPUH025",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pu-afzuigslangen/pu-afzuigslangen__p5__pu-afzuigslangen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pu-afzuigslangen-images-pu-afzuigslangen-pu-afzuigslangen-p2-pu-afzuigslangen-pdf-webp",
+    "name": "• Afzuigen van droge / INDUSTRIËLE SLANGEN (Page 3)",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
+    "series_name": "• Afzuigen van droge",
+    "series_names": [
+      "• Afzuigen van droge",
+      "INDUSTRIËLE SLANGEN"
+    ],
+    "family": "pu-afzuigslangen__afzuigen-van-droge",
+    "catalog": "pu-afzuigslangen",
+    "source_pdf": "pu-afzuigslangen.pdf",
+    "brand": "Various",
+    "category": "• Ventilatie",
+    "variants": [
+      {
+        "sku": "ZGPUL013",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "size": "10",
+          "bestelnr": "ZGPUL013",
+          "binnen_dia_mm": "13",
+          "wanddikte_mm": "0,7",
+          "vacu_m_bar": "0,5",
+          "buigradius": "13",
+          "gewicht_g_m": "70",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL013",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "bestelnr": "ZGPUL013",
+          "binnen_dia_mm": "16",
+          "wanddikte_mm": "0,7",
+          "vacu_m_bar": "0,5",
+          "buigradius": "16",
+          "gewicht_g_m": "90",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL019",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "size": "10",
+          "bestelnr": "ZGPUL019",
+          "binnen_dia_mm": "19",
+          "wanddikte_mm": "0,7",
+          "vacu_m_bar": "0,4",
+          "buigradius": "19",
+          "gewicht_g_m": "110",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL019",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "bestelnr": "ZGPUL019",
+          "binnen_dia_mm": "25",
+          "wanddikte_mm": "0,7",
+          "vacu_m_bar": "0,4",
+          "buigradius": "25",
+          "gewicht_g_m": "160",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL032",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "size": "10",
+          "bestelnr": "ZGPUL032",
+          "binnen_dia_mm": "32",
+          "wanddikte_mm": "0,7",
+          "vacu_m_bar": "0,4",
+          "buigradius": "32",
+          "gewicht_g_m": "185",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL032",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "bestelnr": "ZGPUL032",
+          "binnen_dia_mm": "35",
+          "wanddikte_mm": "0,7",
+          "vacu_m_bar": "0,4",
+          "buigradius": "35",
+          "gewicht_g_m": "200",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL038",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "size": "10",
+          "bestelnr": "ZGPUL038",
+          "binnen_dia_mm": "38",
+          "wanddikte_mm": "0,7",
+          "vacu_m_bar": "0,4",
+          "buigradius": "38",
+          "gewicht_g_m": "220",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL038",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "bestelnr": "ZGPUL038",
+          "binnen_dia_mm": "40",
+          "wanddikte_mm": "0,7",
+          "vacu_m_bar": "0,4",
+          "buigradius": "40",
+          "gewicht_g_m": "230",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL045",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "size": "10",
+          "bestelnr": "ZGPUL045",
+          "binnen_dia_mm": "45",
+          "wanddikte_mm": "0,7",
+          "vacu_m_bar": "0,4",
+          "buigradius": "45",
+          "gewicht_g_m": "250",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL045",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "bestelnr": "ZGPUL045",
+          "binnen_dia_mm": "50",
+          "wanddikte_mm": "0,7",
+          "vacu_m_bar": "0,4",
+          "buigradius": "50",
+          "gewicht_g_m": "420",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL055",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "size": "10",
+          "bestelnr": "ZGPUL055",
+          "binnen_dia_mm": "55",
+          "wanddikte_mm": "0,7",
+          "vacu_m_bar": "0,3",
+          "buigradius": "55",
+          "gewicht_g_m": "450",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL060",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "bestelnr": "ZGPUL060",
+          "binnen_dia_mm": "60",
+          "wanddikte_mm": "0,7",
+          "vacu_m_bar": "0,3",
+          "buigradius": "60",
+          "gewicht_g_m": "480",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL065",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "size": "10",
+          "bestelnr": "ZGPUL065",
+          "binnen_dia_mm": "65",
+          "wanddikte_mm": "0,7",
+          "vacu_m_bar": "0,3",
+          "buigradius": "65",
+          "gewicht_g_m": "530",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL070",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "bestelnr": "ZGPUL070",
+          "binnen_dia_mm": "70",
+          "wanddikte_mm": "0,7",
+          "vacu_m_bar": "0,3",
+          "buigradius": "70",
+          "gewicht_g_m": "580",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL075",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "size": "10",
+          "bestelnr": "ZGPUL075",
+          "binnen_dia_mm": "75",
+          "wanddikte_mm": "0,7",
+          "vacu_m_bar": "0,3",
+          "buigradius": "75",
+          "gewicht_g_m": "630",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL090",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "size": "10",
+          "bestelnr": "ZGPUL090",
+          "binnen_dia_mm": "90",
+          "wanddikte_mm": "0,7",
+          "vacu_m_bar": "0,2",
+          "buigradius": "90",
+          "gewicht_g_m": "740",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL110",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "size": "10",
+          "bestelnr": "ZGPUL110",
+          "binnen_dia_mm": "110",
+          "wanddikte_mm": "0,8",
+          "vacu_m_bar": "0,2",
+          "buigradius": "110",
+          "gewicht_g_m": "850",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL120",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "bestelnr": "ZGPUL120",
+          "binnen_dia_mm": "120",
+          "wanddikte_mm": "0,8",
+          "vacu_m_bar": "0,2",
+          "buigradius": "120",
+          "gewicht_g_m": "900",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL125",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "size": "10",
+          "bestelnr": "ZGPUL125",
+          "binnen_dia_mm": "125",
+          "wanddikte_mm": "0,8",
+          "vacu_m_bar": "0,2",
+          "buigradius": "125",
+          "gewicht_g_m": "980",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL130",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "bestelnr": "ZGPUL130",
+          "binnen_dia_mm": "130",
+          "wanddikte_mm": "0,8",
+          "vacu_m_bar": "0,1",
+          "buigradius": "130",
+          "gewicht_g_m": "1050",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL140",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "size": "10",
+          "bestelnr": "ZGPUL140",
+          "binnen_dia_mm": "140",
+          "wanddikte_mm": "0,8",
+          "vacu_m_bar": "0,1",
+          "buigradius": "140",
+          "gewicht_g_m": "1120",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL150",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "bestelnr": "ZGPUL150",
+          "binnen_dia_mm": "150",
+          "wanddikte_mm": "0,8",
+          "vacu_m_bar": "0,1",
+          "buigradius": "150",
+          "gewicht_g_m": "1200",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL160",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "size": "10",
+          "bestelnr": "ZGPUL160",
+          "binnen_dia_mm": "160",
+          "wanddikte_mm": "0,8",
+          "vacu_m_bar": "0,1",
+          "buigradius": "160",
+          "gewicht_g_m": "1320",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL170",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "bestelnr": "ZGPUL170",
+          "binnen_dia_mm": "170",
+          "wanddikte_mm": "0,8",
+          "vacu_m_bar": "0,1",
+          "buigradius": "170",
+          "gewicht_g_m": "1360",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL180",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "size": "10",
+          "bestelnr": "ZGPUL180",
+          "binnen_dia_mm": "180",
+          "wanddikte_mm": "0,8",
+          "vacu_m_bar": "0,1",
+          "buigradius": "180",
+          "gewicht_g_m": "1410",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL200",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "bestelnr": "ZGPUL200",
+          "binnen_dia_mm": "200",
+          "wanddikte_mm": "0,8",
+          "vacu_m_bar": "0,1",
+          "buigradius": "200",
+          "gewicht_g_m": "1500",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL225",
+        "label": "• Afzuigen van droge",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "afzuigen_van_droge",
+          "size": "10",
+          "bestelnr": "ZGPUL225",
+          "binnen_dia_mm": "225",
+          "wanddikte_mm": "0,8",
+          "vacu_m_bar": "0,1",
+          "buigradius": "225",
+          "gewicht_g_m": "1880",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "spec_temp_range": "spiraal:",
+          "spec_product_variant": "met gecoate",
+          "application": "• Ventilatie"
+        }
+      },
+      {
+        "sku": "ZGPUL250",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "industri_le_slangen",
+          "size": "10",
+          "bestelnr": "ZGPUL250",
+          "binnen_dia_mm": "250",
+          "wanddikte_mm": "0,8",
+          "vacu_m_bar": "0,1",
+          "buigradius": "250",
+          "gewicht_g_m": "1950",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUL250",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "industri_le_slangen",
+          "bestelnr": "ZGPUL250",
+          "binnen_dia_mm": "254",
+          "wanddikte_mm": "0,8",
+          "vacu_m_bar": "0,1",
+          "buigradius": "254",
+          "gewicht_g_m": "1960",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUL300",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "industri_le_slangen",
+          "size": "10",
+          "bestelnr": "ZGPUL300",
+          "binnen_dia_mm": "300",
+          "wanddikte_mm": "0,8",
+          "vacu_m_bar": "0,1",
+          "buigradius": "300",
+          "gewicht_g_m": "2450",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUL320",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "industri_le_slangen",
+          "bestelnr": "ZGPUL320",
+          "binnen_dia_mm": "320",
+          "wanddikte_mm": "0,9",
+          "vacu_m_bar": "0,1",
+          "buigradius": "320",
+          "gewicht_g_m": "2650",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUL350",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "industri_le_slangen",
+          "size": "10",
+          "bestelnr": "ZGPUL350",
+          "binnen_dia_mm": "350",
+          "wanddikte_mm": "0,9",
+          "vacu_m_bar": "0,1",
+          "buigradius": "350",
+          "gewicht_g_m": "2840",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUL400",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "industri_le_slangen",
+          "bestelnr": "ZGPUL400",
+          "binnen_dia_mm": "400",
+          "wanddikte_mm": "0,9",
+          "vacu_m_bar": "0,08",
+          "buigradius": "400",
+          "gewicht_g_m": "3320",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUL450",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "industri_le_slangen",
+          "size": "5",
+          "bestelnr": "ZGPUL450",
+          "binnen_dia_mm": "450",
+          "wanddikte_mm": "0,9",
+          "vacu_m_bar": "0,08",
+          "buigradius": "450",
+          "gewicht_g_m": "3640",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUL500",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "industri_le_slangen",
+          "bestelnr": "ZGPUL500",
+          "binnen_dia_mm": "500",
+          "wanddikte_mm": "0, 9",
+          "vacu_m_bar": "0,05",
+          "buigradius": "500",
+          "gewicht_g_m": "4250",
+          "material": null,
+          "sku_series": "zgpul"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      }
+    ],
+    "images": [
+      "images/pu-afzuigslangen/pu-afzuigslangen__p2__pu-afzuigslangen-pdf.webp"
+    ],
+    "variant_count": 35,
+    "default_variant_sku": "ZGPUL013",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pu-afzuigslangen/pu-afzuigslangen__p2__pu-afzuigslangen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pu-afzuigslangen-images-pu-afzuigslangen-pu-afzuigslangen-p4-pu-afzuigslangen-pdf-webp",
+    "name": "• Transportslang in explosie- • Stof- en luchtafzuiging (Page 4)",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+    "series_names": [
+      "• Transportslang in explosie- • Stof- en luchtafzuiging"
+    ],
+    "family": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
+    "catalog": "pu-afzuigslangen",
+    "source_pdf": "pu-afzuigslangen.pdf",
+    "brand": "Various",
+    "category": "• Doseersystemen",
+    "variants": [
+      {
+        "sku": "ZGPUS020",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "size": "10/20",
+          "bestelnr": "ZGPUS020",
+          "binnen_dia_mm": "20",
+          "buigradius": "15",
+          "gewicht_g_m": "100",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      },
+      {
+        "sku": "ZGPUS020",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "bestelnr": "ZGPUS020",
+          "binnen_dia_mm": "25",
+          "buigradius": "17,5",
+          "gewicht_g_m": "130",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      },
+      {
+        "sku": "ZGPUS030",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "size": "10/20",
+          "bestelnr": "ZGPUS030",
+          "binnen_dia_mm": "30",
+          "buigradius": "20",
+          "gewicht_g_m": "140",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      },
+      {
+        "sku": "ZGPUS030",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "bestelnr": "ZGPUS030",
+          "binnen_dia_mm": "32",
+          "buigradius": "19",
+          "gewicht_g_m": "160",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      },
+      {
+        "sku": "ZGPUS035",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "size": "10/20",
+          "bestelnr": "ZGPUS035",
+          "binnen_dia_mm": "35",
+          "buigradius": "27,5",
+          "gewicht_g_m": "170",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      },
+      {
+        "sku": "ZGPUS035",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "bestelnr": "ZGPUS035",
+          "binnen_dia_mm": "38",
+          "buigradius": "31",
+          "gewicht_g_m": "200",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      },
+      {
+        "sku": "ZGPUS040",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "size": "10/20",
+          "bestelnr": "ZGPUS040",
+          "binnen_dia_mm": "40",
+          "buigradius": "40",
+          "gewicht_g_m": "210",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      },
+      {
+        "sku": "ZGPUS045",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "bestelnr": "ZGPUS045",
+          "binnen_dia_mm": "45",
+          "buigradius": "42,5",
+          "gewicht_g_m": "250",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      },
+      {
+        "sku": "ZGPUS050",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "size": "10/20",
+          "bestelnr": "ZGPUS050",
+          "binnen_dia_mm": "50",
+          "buigradius": "45",
+          "gewicht_g_m": "290",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      },
+      {
+        "sku": "ZGPUS060",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "bestelnr": "ZGPUS060",
+          "binnen_dia_mm": "60",
+          "buigradius": "50",
+          "gewicht_g_m": "430",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      },
+      {
+        "sku": "ZGPUS063",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "size": "10/20",
+          "bestelnr": "ZGPUS063",
+          "binnen_dia_mm": "63",
+          "buigradius": "48,5",
+          "gewicht_g_m": "460",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      },
+      {
+        "sku": "ZGPUS075",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "bestelnr": "ZGPUS075",
+          "binnen_dia_mm": "75",
+          "buigradius": "65",
+          "gewicht_g_m": "555",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      },
+      {
+        "sku": "ZGPUS080",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "size": "10/20",
+          "bestelnr": "ZGPUS080",
+          "binnen_dia_mm": "80",
+          "buigradius": "70",
+          "gewicht_g_m": "590",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      },
+      {
+        "sku": "ZGPUS090",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "bestelnr": "ZGPUS090",
+          "binnen_dia_mm": "90",
+          "buigradius": "80",
+          "gewicht_g_m": "670",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      },
+      {
+        "sku": "ZGPUS100",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "size": "10/20",
+          "bestelnr": "ZGPUS100",
+          "binnen_dia_mm": "100",
+          "buigradius": "90",
+          "gewicht_g_m": "750",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      },
+      {
+        "sku": "ZGPUS125",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "bestelnr": "ZGPUS125",
+          "binnen_dia_mm": "125",
+          "buigradius": "107,5",
+          "gewicht_g_m": "1100",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      },
+      {
+        "sku": "ZGPUS150",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "size": "10/20",
+          "bestelnr": "ZGPUS150",
+          "binnen_dia_mm": "150",
+          "buigradius": "125",
+          "gewicht_g_m": "1500",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      },
+      {
+        "sku": "ZGPUS180",
+        "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "transportslang_in_explosie_stof_en_luchtafzuiging",
+          "bestelnr": "ZGPUS180",
+          "binnen_dia_mm": "180",
+          "buigradius": "152",
+          "gewicht_g_m": "1820",
+          "material": null,
+          "sku_series": "zgpus"
+        },
+        "attributes": {
+          "spec_temp_range": "gladde binnenwand, vlamvertragend en microbe",
+          "spec_product_variant": "met\nTemperatuurbereik",
+          "application": "• Doseersystemen"
+        }
+      }
+    ],
+    "images": [
+      "images/pu-afzuigslangen/pu-afzuigslangen__p4__pu-afzuigslangen-pdf.webp"
+    ],
+    "variant_count": 18,
+    "default_variant_sku": "ZGPUS020",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pu-afzuigslangen/pu-afzuigslangen__p4__pu-afzuigslangen-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pu-afzuigslangen-images-pu-afzuigslangen-pu-afzuigslangen-p6-pu-afzuigslangen-pdf-webp",
+    "name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen / INDUSTRIËLE SLANGEN (Page 7)",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+    "series_names": [
+      "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+      "INDUSTRIËLE SLANGEN"
+    ],
+    "family": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "catalog": "pu-afzuigslangen",
+    "source_pdf": "pu-afzuigslangen.pdf",
+    "brand": "Various",
+    "category": "• Luchttoevoer",
+    "variants": [
+      {
+        "sku": "ZGPUXL013",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "size": "10",
+          "bestelnr": "ZGPUXL013",
+          "binnen_dia_mm": "13",
+          "buigradius": "14",
+          "gewicht_g_m": "140",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL013",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "bestelnr": "ZGPUXL013",
+          "binnen_dia_mm": "16",
+          "buigradius": "15",
+          "gewicht_g_m": "160",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL018",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "size": "10",
+          "bestelnr": "ZGPUXL018",
+          "binnen_dia_mm": "18",
+          "buigradius": "16",
+          "gewicht_g_m": "170",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL018",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "bestelnr": "ZGPUXL018",
+          "binnen_dia_mm": "20",
+          "buigradius": "17",
+          "gewicht_g_m": "230",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL022",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "size": "10",
+          "bestelnr": "ZGPUXL022",
+          "binnen_dia_mm": "22",
+          "buigradius": "18",
+          "gewicht_g_m": "250",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL022",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "bestelnr": "ZGPUXL022",
+          "binnen_dia_mm": "25",
+          "buigradius": "20",
+          "gewicht_g_m": "280",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL030",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "size": "10/15",
+          "bestelnr": "ZGPUXL030",
+          "binnen_dia_mm": "30",
+          "buigradius": "25",
+          "gewicht_g_m": "4420",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL030",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "bestelnr": "ZGPUXL030",
+          "binnen_dia_mm": "32",
+          "buigradius": "26",
+          "gewicht_g_m": "440",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL035",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "size": "10/15",
+          "bestelnr": "ZGPUXL035",
+          "binnen_dia_mm": "35",
+          "buigradius": "28",
+          "gewicht_g_m": "480",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL038",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "bestelnr": "ZGPUXL038",
+          "binnen_dia_mm": "38",
+          "buigradius": "29",
+          "gewicht_g_m": "520",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL040",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "size": "10/15/20",
+          "bestelnr": "ZGPUXL040",
+          "binnen_dia_mm": "40",
+          "buigradius": "30",
+          "gewicht_g_m": "540",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL042",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "bestelnr": "ZGPUXL042",
+          "binnen_dia_mm": "42",
+          "buigradius": "31",
+          "gewicht_g_m": "560",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL045",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "size": "10/15",
+          "bestelnr": "ZGPUXL045",
+          "binnen_dia_mm": "45",
+          "buigradius": "33",
+          "gewicht_g_m": "600",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL050",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "bestelnr": "ZGPUXL050",
+          "binnen_dia_mm": "50",
+          "buigradius": "35",
+          "gewicht_g_m": "660",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL055",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "size": "10/15",
+          "bestelnr": "ZGPUXL055",
+          "binnen_dia_mm": "55",
+          "buigradius": "38",
+          "gewicht_g_m": "720",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL060",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "bestelnr": "ZGPUXL060",
+          "binnen_dia_mm": "60",
+          "buigradius": "40",
+          "gewicht_g_m": "780",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL065",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "size": "10/15",
+          "bestelnr": "ZGPUXL065",
+          "binnen_dia_mm": "65",
+          "buigradius": "43",
+          "gewicht_g_m": "840",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL070",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "bestelnr": "ZGPUXL070",
+          "binnen_dia_mm": "70",
+          "buigradius": "62",
+          "gewicht_g_m": "980",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL075",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "size": "10/15",
+          "bestelnr": "ZGPUXL075",
+          "binnen_dia_mm": "75",
+          "buigradius": "66",
+          "gewicht_g_m": "1050",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL080",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "bestelnr": "ZGPUXL080",
+          "binnen_dia_mm": "80",
+          "buigradius": "69",
+          "gewicht_g_m": "1110",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL090",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "size": "10/15",
+          "bestelnr": "ZGPUXL090",
+          "binnen_dia_mm": "90",
+          "buigradius": "76",
+          "gewicht_g_m": "1250",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL100",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "bestelnr": "ZGPUXL100",
+          "binnen_dia_mm": "100",
+          "buigradius": "83",
+          "gewicht_g_m": "1490",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL110",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "size": "10/15",
+          "bestelnr": "ZGPUXL110",
+          "binnen_dia_mm": "110",
+          "buigradius": "90",
+          "gewicht_g_m": "1630",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL115",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "bestelnr": "ZGPUXL115",
+          "binnen_dia_mm": "115",
+          "buigradius": "94",
+          "gewicht_g_m": "1680",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL120",
+        "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen",
+          "size": "10",
+          "bestelnr": "ZGPUXL120",
+          "binnen_dia_mm": "120",
+          "buigradius": "97",
+          "gewicht_g_m": "1770",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "spec_temp_range": "tegen olie, chemicaliën en brandstoffen:",
+          "spec_product_variant": "met wanddikte",
+          "application": "• Luchttoevoer"
+        }
+      },
+      {
+        "sku": "ZGPUXL125",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "size": "10/15",
+          "bestelnr": "ZGPUXL125",
+          "binnen_dia_mm": "125",
+          "buigradius": "101",
+          "gewicht_g_m": "1840",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL125",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "bestelnr": "ZGPUXL125",
+          "binnen_dia_mm": "130",
+          "buigradius": "104",
+          "gewicht_g_m": "1910",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL140",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "size": "10/15",
+          "bestelnr": "ZGPUXL140",
+          "binnen_dia_mm": "140",
+          "buigradius": "111",
+          "gewicht_g_m": "2030",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL140",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "bestelnr": "ZGPUXL140",
+          "binnen_dia_mm": "150",
+          "buigradius": "118",
+          "gewicht_g_m": "2410",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL160",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "size": "10/15",
+          "bestelnr": "ZGPUXL160",
+          "binnen_dia_mm": "160",
+          "buigradius": "125",
+          "gewicht_g_m": "2560",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL160",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "bestelnr": "ZGPUXL160",
+          "binnen_dia_mm": "170",
+          "buigradius": "132",
+          "gewicht_g_m": "2720",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL175",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "size": "10",
+          "bestelnr": "ZGPUXL175",
+          "binnen_dia_mm": "175",
+          "buigradius": "136",
+          "gewicht_g_m": "2790",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL175",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "bestelnr": "ZGPUXL175",
+          "binnen_dia_mm": "180",
+          "buigradius": "139",
+          "gewicht_g_m": "2870",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL200",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "size": "10/15",
+          "bestelnr": "ZGPUXL200",
+          "binnen_dia_mm": "200",
+          "buigradius": "156",
+          "gewicht_g_m": "3120",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL225",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "bestelnr": "ZGPUXL225",
+          "binnen_dia_mm": "225",
+          "buigradius": "174",
+          "gewicht_g_m": "3500",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL250",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "size": "10",
+          "bestelnr": "ZGPUXL250",
+          "binnen_dia_mm": "250",
+          "buigradius": "191",
+          "gewicht_g_m": "3880",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL255",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "bestelnr": "ZGPUXL255",
+          "binnen_dia_mm": "254",
+          "buigradius": "194",
+          "gewicht_g_m": "3950",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL275",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "size": "10",
+          "bestelnr": "ZGPUXL275",
+          "binnen_dia_mm": "275",
+          "buigradius": "209",
+          "gewicht_g_m": "4260",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL280",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "bestelnr": "ZGPUXL280",
+          "binnen_dia_mm": "280",
+          "buigradius": "212",
+          "gewicht_g_m": "4330",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL300",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "size": "10",
+          "bestelnr": "ZGPUXL300",
+          "binnen_dia_mm": "300",
+          "buigradius": "226",
+          "gewicht_g_m": "5160",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL305",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "bestelnr": "ZGPUXL305",
+          "binnen_dia_mm": "305",
+          "buigradius": "230",
+          "gewicht_g_m": "5250",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL315",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "size": "10",
+          "bestelnr": "ZGPUXL315",
+          "binnen_dia_mm": "315",
+          "buigradius": "237",
+          "gewicht_g_m": "5410",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL325",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "bestelnr": "ZGPUXL325",
+          "binnen_dia_mm": "325",
+          "buigradius": "244",
+          "gewicht_g_m": "5580",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL330",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "size": "10",
+          "bestelnr": "ZGPUXL330",
+          "binnen_dia_mm": "330",
+          "buigradius": "247",
+          "gewicht_g_m": "5670",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL350",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "bestelnr": "ZGPUXL350",
+          "binnen_dia_mm": "350",
+          "buigradius": "261",
+          "gewicht_g_m": "6000",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL400",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "size": "10",
+          "bestelnr": "ZGPUXL400",
+          "binnen_dia_mm": "400",
+          "buigradius": "296",
+          "gewicht_g_m": "8020",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL450",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "bestelnr": "ZGPUXL450",
+          "binnen_dia_mm": "450",
+          "buigradius": "331",
+          "gewicht_g_m": "9000",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      },
+      {
+        "sku": "ZGPUXL500",
+        "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "industri_le_slangen",
+          "size": "10",
+          "bestelnr": "ZGPUXL500",
+          "binnen_dia_mm": "500",
+          "buigradius": "367",
+          "gewicht_g_m": "10000",
+          "material": null,
+          "sku_series": "zgpuxl"
+        },
+        "attributes": {
+          "application": "PU AFZUIGSLANGEN"
+        }
+      }
+    ],
+    "images": [
+      "images/pu-afzuigslangen/pu-afzuigslangen__p6__pu-afzuigslangen-pdf.webp"
+    ],
+    "variant_count": 48,
+    "default_variant_sku": "ZGPUXL013",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pu-afzuigslangen/pu-afzuigslangen__p6__pu-afzuigslangen-pdf.webp"
+      }
+    ]
+  }
+]

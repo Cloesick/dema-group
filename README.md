@@ -55,10 +55,37 @@ dema-group/
 - [GitHub & Hosting](docs/GITHUB_AND_HOSTING.md) - Infrastructure options
 - [True Cost Analysis](docs/TRUE_COST_ANALYSIS.md) - Budget projections
 
-### Strategy (in subdirectories)
-- `docs/01-executive-summary/` - Executive overview
-- `docs/02-company-analysis/` - Individual company profiles
-- `docs/04-integration-strategy/` - Integration roadmap
+### Strategy Documentation
+- [Executive Summary](docs/01-executive-summary/executive-summary.md) - High-level strategy overview
+- [Company Profiles](docs/02-company-analysis/company-profiles.md) - Individual company analysis
+- [SWOT Analysis](docs/02-company-analysis/swot-analysis.md) - Strengths, weaknesses, opportunities, threats
+- [Synergy Matrix](docs/02-company-analysis/synergy-matrix.md) - Cross-company synergies
+
+### Market Analysis
+- [Benchmark Analysis](docs/03-market-analysis/benchmark-analysis.md) - Kramp & Sodeco analysis
+- [Competitive Landscape](docs/03-market-analysis/competitive-landscape.md) - Market positioning
+- [Target Segments](docs/03-market-analysis/target-segments.md) - Customer segments
+
+### Integration Strategy
+- [Integration Roadmap](docs/04-integration-strategy/integration-roadmap.md) - Phased integration plan
+- [Technical Architecture](docs/04-integration-strategy/technical-architecture.md) - Platform architecture
+- [Data Integration](docs/04-integration-strategy/data-integration.md) - Product data unification
+- [Brand Strategy](docs/04-integration-strategy/brand-strategy.md) - Unified vs multi-brand
+
+### Action Plans
+- [Phase 1: Foundation](docs/05-action-plans/phase1-foundation.md) - 0-6 months
+- [Phase 2: Integration](docs/05-action-plans/phase2-integration.md) - 6-18 months
+- [Phase 3: Expansion](docs/05-action-plans/phase3-expansion.md) - 18-36 months
+- [KPI Dashboard](docs/05-action-plans/kpi-dashboard.md) - Success metrics
+
+### Financial Projections
+- [Investment Requirements](docs/06-financial-projections/investment-requirements.md) - CapEx/OpEx
+- [ROI Analysis](docs/06-financial-projections/roi-analysis.md) - Return projections
+- [Risk Assessment](docs/06-financial-projections/risk-assessment.md) - Risk mitigation
+
+### Appendices
+- [Glossary](docs/08-appendices/glossary.md) - Industry terms
+- [References](docs/08-appendices/references.md) - Sources and links
 
 ## Getting Started
 
@@ -84,3 +111,7 @@ Proprietary - DEMA Group
 ---
 
 *Last Updated: December 2024*
+
+---
+
+> **Merged from:** `group-strategy/` repository (December 2024)

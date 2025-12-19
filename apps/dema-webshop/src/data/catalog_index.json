@@ -1,0 +1,413 @@
+{
+  "total_products": 9757,
+  "total_catalogs": 26,
+  "catalogs": {
+    "abs-persluchtbuizen.pdf": {
+      "name": "abs-persluchtbuizen",
+      "product_count": 58,
+      "products": [
+        "ABSBU016",
+        "ABSBU020",
+        "ABSBU025",
+        "PN10",
+        "BSB02090",
+        "ABSK01690",
+        "ABSK02090",
+        "ABSK02590",
+        "ABSK01645",
+        "ABSK02045"
+      ]
+    },
+    "airpress-catalogus-eng.pdf": {
+      "name": "airpress-catalogus-eng",
+      "product_count": 1108,
+      "products": [
+        "36839-1",
+        "36852",
+        "E 36839-1",
+        "36744-E",
+        "36844-E",
+        "36856",
+        "E 368",
+        "BA\n36744-E",
+        "150-24",
+        "155-50"
+      ]
+    },
+    "airpress-catalogus-nl-fr.pdf": {
+      "name": "airpress-catalogus-nl-fr",
+      "product_count": 700,
+      "products": [
+        "DE\n36839-1",
+        "L 510",
+        "L 1090",
+        "L 2800",
+        "L 3450",
+        "H 185",
+        "H 215",
+        "36603",
+        "100-410",
+        "25-410"
+      ]
+    },
+    "bronpompen.pdf": {
+      "name": "bronpompen",
+      "product_count": 122,
+      "products": [
+        "03730146",
+        "A\n03730146",
+        "03730315",
+        "03730322",
+        "A\n03730315",
+        "A\n03730322",
+        "22250173",
+        "24030042",
+        "24030045",
+        "MATST0519"
+      ]
+    },
+    "catalogus-aandrijftechniek-150922.pdf": {
+      "name": "catalogus-aandrijftechniek-150922",
+      "product_count": 920,
+      "products": [
+        "P200",
+        "P204",
+        "P205",
+        "P206",
+        "P207",
+        "P208",
+        "P209",
+        "P210",
+        "P211",
+        "P212"
+      ]
+    },
+    "centrifugaalpompen.pdf": {
+      "name": "centrifugaalpompen",
+      "product_count": 123,
+      "products": [
+        "IE3",
+        "X9120356",
+        "X9120518",
+        "X9120519",
+        "X9120176",
+        "X9120302",
+        "X9120507",
+        "MATCAB150",
+        "MATCAB200",
+        "MATCABT150"
+      ]
+    },
+    "digitale-versie-pompentoebehoren-compressed.pdf": {
+      "name": "digitale-versie-pompentoebehoren-compressed",
+      "product_count": 605,
+      "products": [
+        "DABVERTYNOVA200MA",
+        "DABVERTYNOVA400MA",
+        "JSRSD0150",
+        "FLOCOMPAC150MA",
+        "FLOCOMPAC200MA",
+        "COMASPIRA50MA",
+        "JSRSD0400",
+        "A180M",
+        "A180MA",
+        "DABNOVAUP180M"
+      ]
+    },
+    "dompelpompen.pdf": {
+      "name": "dompelpompen",
+      "product_count": 174,
+      "products": [
+        "17860005",
+        "X9120245",
+        "X9120282",
+        "0352031",
+        "0352032",
+        "X0352001",
+        "X0352002",
+        "22250094",
+        "03730205",
+        "X9120048"
+      ]
+    },
+    "drukbuizen.pdf": {
+      "name": "drukbuizen",
+      "product_count": 461,
+      "products": [
+        "DB032100",
+        "DB040100",
+        "DB050100",
+        "DB050075",
+        "DB063075",
+        "DB075075",
+        "PN7",
+        "DB010160",
+        "DB012160",
+        "DB016160"
+      ]
+    },
+    "kranzle-catalogus-2021-nl-1.pdf": {
+      "name": "kranzle-catalogus-2021-nl-1",
+      "product_count": 642,
+      "products": [
+        "23-27",
+        "82799130",
+        "K 1152",
+        "K 200",
+        "34-37",
+        "38-39",
+        "42-43",
+        "44-45",
+        "48-51",
+        "52-53"
+      ]
+    },
+    "kunststof-afvoerleidingen.pdf": {
+      "name": "kunststof-afvoerleidingen",
+      "product_count": 337,
+      "products": [
+        "AB0322",
+        "AB0324",
+        "AB0404",
+        "ABB032",
+        "ABB040",
+        "ABB050",
+        "RAL7037",
+        "SN1",
+        "EB032452",
+        "EB040452"
+      ]
+    },
+    "makita-catalogus-2022-nl.pdf": {
+      "name": "makita-catalogus-2022-nl",
+      "product_count": 2056,
+      "products": [
+        "BL4020",
+        "BL4025",
+        "81-6",
+        "B36-3",
+        "BL4040",
+        "BL4050F",
+        "DC40RA",
+        "DC40RB",
+        "ADP001",
+        "ADP10"
+      ]
+    },
+    "makita-tuinfolder-2022-nl.pdf": {
+      "name": "makita-tuinfolder-2022-nl",
+      "product_count": 368,
+      "products": [
+        "DLM382PT2",
+        "DLM382Z",
+        "DLM432PT",
+        "DLM432PT2",
+        "DLM432Z",
+        "T 600",
+        "DLM382PT",
+        "DLM460PT2",
+        "DLM460Z",
+        "DLM462PT4"
+      ]
+    },
+    "messing-draadfittingen.pdf": {
+      "name": "messing-draadfittingen",
+      "product_count": 117,
+      "products": [
+        "MF212",
+        "MF234",
+        "MF238",
+        "MF112",
+        "MF134",
+        "MF138",
+        "MF9412",
+        "NR 94",
+        "MF9212",
+        "MF9214"
+      ]
+    },
+    "offerteaanvraag-bronpomp.pdf": {
+      "name": "offerteaanvraag-bronpomp",
+      "product_count": 2,
+      "products": [
+        "BE 0426",
+        "BE12"
+      ]
+    },
+    "pe-buizen.pdf": {
+      "name": "pe-buizen",
+      "product_count": 344,
+      "products": [
+        "15-25",
+        "26-35",
+        "C 15-25",
+        "C 26-35",
+        "PE 100",
+        "HDBUH009006005",
+        "HDBUH011006005",
+        "HDBUH012506005",
+        "PN6",
+        "HDBUH04008050"
+      ]
+    },
+    "plat-oprolbare-slangen.pdf": {
+      "name": "plat-oprolbare-slangen",
+      "product_count": 83,
+      "products": [
+        "P52",
+        "P51",
+        "P50",
+        "P49",
+        "P48",
+        "P47",
+        "P46",
+        "P137",
+        "10-17",
+        "DEMAC04520"
+      ]
+    },
+    "pomp-specials.pdf": {
+      "name": "pomp-specials",
+      "product_count": 24,
+      "products": [
+        "17130230",
+        "17130231",
+        "17130290",
+        "18540001",
+        "50960019",
+        "06010122",
+        "18480019",
+        "18480017",
+        "18480018",
+        "18480022"
+      ]
+    },
+    "pu-afzuigslangen.pdf": {
+      "name": "pu-afzuigslangen",
+      "product_count": 95,
+      "products": [
+        "ZGPUL013",
+        "ZGPUL016",
+        "ZGPUL019",
+        "ZGPUL025",
+        "ZGPUL032",
+        "ZGPUL035",
+        "ZGPUL038",
+        "ZGPUL040",
+        "ZGPUL045",
+        "ZGPUL050"
+      ]
+    },
+    "rubber-slangen.pdf": {
+      "name": "rubber-slangen",
+      "product_count": 263,
+      "products": [
+        "P64",
+        "P65",
+        "P54",
+        "P158",
+        "RPTA013",
+        "RPTA016",
+        "RPTA019",
+        "RPTA025",
+        "P159",
+        "RPTH01350"
+      ]
+    },
+    "rvs-draadfittingen.pdf": {
+      "name": "rvs-draadfittingen",
+      "product_count": 11,
+      "products": [
+        "NR 312",
+        "X 104",
+        "X 114",
+        "X 21",
+        "DN15",
+        "DN40",
+        "FLALU0",
+        "DN10",
+        "FLALU010",
+        "FLALU015"
+      ]
+    },
+    "slangklemmen.pdf": {
+      "name": "slangklemmen",
+      "product_count": 47,
+      "products": [
+        "GMI46013",
+        "GMI46019",
+        "GMI46025",
+        "GM46013",
+        "GM46019",
+        "GM4602506",
+        "MAXI11007",
+        "MAXI11008",
+        "MAXI11009",
+        "MAXM11006"
+      ]
+    },
+    "slangkoppelingen.pdf": {
+      "name": "slangkoppelingen",
+      "product_count": 854,
+      "products": [
+        "B78050040",
+        "B78050050",
+        "B77050040",
+        "B77050050",
+        "B77050063",
+        "B77076050",
+        "B77076063",
+        "B77076070",
+        "B750502",
+        "B7505064"
+      ]
+    },
+    "verzinkte-buizen.pdf": {
+      "name": "verzinkte-buizen",
+      "product_count": 187,
+      "products": [
+        "ZF114",
+        "ZF118",
+        "ZF138",
+        "GB12",
+        "GB34",
+        "GB38",
+        "ZF312",
+        "ZF334",
+        "ZF338",
+        "ZF212"
+      ]
+    },
+    "zuigerpompen (1).pdf": {
+      "name": "zuigerpompen (1)",
+      "product_count": 9,
+      "products": [
+        "X0330134",
+        "X0330158",
+        "X0330243",
+        "X0330139",
+        "X0330180",
+        "X0330188",
+        "X0330186",
+        "X0330199",
+        "X0330233"
+      ]
+    },
+    "zwarte-draad-en-lasfittingen (1).pdf": {
+      "name": "zwarte-draad-en-lasfittingen (1)",
+      "product_count": 47,
+      "products": [
+        "LAK021390",
+        "LAK026990",
+        "LAK033790",
+        "LAB021390",
+        "LAB026990",
+        "LAB033790",
+        "LAK0",
+        "LAT0213",
+        "LAT0279",
+        "LAT0337"
+      ]
+    }
+  }
+}

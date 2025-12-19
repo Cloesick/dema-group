@@ -1,0 +1,64 @@
+[
+  {
+    "sku": "PN10",
+    "pdf_source": "abs-persluchtbuizen.pdf",
+    "source_pages": [5, 6, 8, 13],
+    "product_category": "ABS DRUKBUIZEN & HULPSTUKKEN",
+    "description": "ABS DRUKBUIZEN & HULPSTUKKEN 187 NEKKUTSPLUH & NEZIUB SBA ABS DRUKBUIZEN ABS DRUKBUIS PN10",
+    "pressure_max_bar": 10,
+    "dimensions_mm_list": [16, 20, 25, 32, 40, 50, 63, 75, 90, 110, 125, 140, 160, 200, 225, 250]
+  },
+  {
+    "sku": "ABST025209",
+    "pdf_source": "abs-persluchtbuizen.pdf",
+    "source_pages": [8],
+    "product_category": "ABS DRUKBUIZEN & HULPSTUKKEN",
+    "description": "ABS DRANKWATERBOCHT 90° LIJMMOF",
+    "dimensions_mm_list": [20, 25, 32, 40, 50, 63, 75, 90, 110, 125, 140, 160, 200, 250, 315]
+  },
+  {
+    "sku": "360531",
+    "pdf_source": "airpress-catalogus-eng.pdf",
+    "source_pages": [10],
+    "product_category": "AIR COMPRESSORS",
+    "description": "HL 310-50 Pro Air Compressor",
+    "pressure_min_bar": 8,
+    "pressure_max_bar": 10,
+    "length_mm": 820,
+    "width_mm": 395,
+    "height_mm": 770,
+    "power_hp": 2,
+    "power_kw": 1.5,
+    "weight_kg": 55
+  },
+  {
+    "sku": "360562",
+    "pdf_source": "airpress-catalogus-eng.pdf",
+    "source_pages": [10],
+    "product_category": "AIR COMPRESSORS",
+    "description": "HL 375-100 Pro Air Compressor",
+    "pressure_min_bar": 8,
+    "pressure_max_bar": 10,
+    "length_mm": 980,
+    "width_mm": 460,
+    "height_mm": 830,
+    "power_hp": 3,
+    "power_kw": 2.2,
+    "weight_kg": 67
+  },
+  {
+    "sku": "360666",
+    "pdf_source": "airpress-catalogus-eng.pdf",
+    "source_pages": [10],
+    "product_category": "AIR COMPRESSORS",
+    "description": "HL 425-90 Pro Air Compressor",
+    "pressure_min_bar": 8,
+    "pressure_max_bar": 10,
+    "length_mm": 980,
+    "width_mm": 480,
+    "height_mm": 900,
+    "power_hp": 3,
+    "power_kw": 2.2,
+    "weight_kg": 81
+  }
+]

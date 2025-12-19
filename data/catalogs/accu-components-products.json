@@ -1,0 +1,538 @@
+{
+  "company": "Accu Components",
+  "website": "https://www.accu-components.com",
+  "business_model": "Global precision components supplier",
+  "catalog_size": "500,000+ SKUs",
+  "service_availability": "24/7/365",
+  "delivery": "Express worldwide shipping",
+  "last_updated": "2024-12-19",
+  "digital_maturity": 5,
+  "categories": [
+    {
+      "id": "screws-fasteners",
+      "name": "Precision Screws & Fasteners",
+      "subcategories": [
+        {
+          "id": "machine-screws",
+          "name": "Machine Screws",
+          "products": [
+            {
+              "sku": "ACC-MS-M3-10-SS",
+              "name": "Machine Screw M3x10 Stainless Steel",
+              "thread": "M3",
+              "length_mm": 10,
+              "material": "Stainless Steel A2",
+              "head_type": "Pan Head Phillips",
+              "pack_sizes": [10, 50, 100, 500, 1000],
+              "price_per_100_eur": 3.50
+            },
+            {
+              "sku": "ACC-MS-M4-16-SS",
+              "name": "Machine Screw M4x16 Stainless Steel",
+              "thread": "M4",
+              "length_mm": 16,
+              "material": "Stainless Steel A2",
+              "head_type": "Pan Head Phillips",
+              "pack_sizes": [10, 50, 100, 500, 1000],
+              "price_per_100_eur": 4.20
+            },
+            {
+              "sku": "ACC-MS-M5-20-SS",
+              "name": "Machine Screw M5x20 Stainless Steel",
+              "thread": "M5",
+              "length_mm": 20,
+              "material": "Stainless Steel A2",
+              "head_type": "Pan Head Phillips",
+              "pack_sizes": [10, 50, 100, 500, 1000],
+              "price_per_100_eur": 5.80
+            }
+          ]
+        },
+        {
+          "id": "socket-screws",
+          "name": "Socket Head Cap Screws",
+          "products": [
+            {
+              "sku": "ACC-SH-M4-12-SS",
+              "name": "Socket Head Cap Screw M4x12 Stainless",
+              "thread": "M4",
+              "length_mm": 12,
+              "material": "Stainless Steel A2-70",
+              "head_type": "Socket Head (Hex)",
+              "pack_sizes": [10, 50, 100, 500],
+              "price_per_100_eur": 6.50
+            },
+            {
+              "sku": "ACC-SH-M5-16-SS",
+              "name": "Socket Head Cap Screw M5x16 Stainless",
+              "thread": "M5",
+              "length_mm": 16,
+              "material": "Stainless Steel A2-70",
+              "head_type": "Socket Head (Hex)",
+              "pack_sizes": [10, 50, 100, 500],
+              "price_per_100_eur": 8.20
+            },
+            {
+              "sku": "ACC-SH-M6-20-BLK",
+              "name": "Socket Head Cap Screw M6x20 Black",
+              "thread": "M6",
+              "length_mm": 20,
+              "material": "Steel 12.9 Black Oxide",
+              "head_type": "Socket Head (Hex)",
+              "pack_sizes": [10, 50, 100, 500],
+              "price_per_100_eur": 7.80
+            }
+          ]
+        },
+        {
+          "id": "set-screws",
+          "name": "Set Screws / Grub Screws",
+          "products": [
+            {
+              "sku": "ACC-SS-M4-6-CP",
+              "name": "Set Screw M4x6 Cup Point",
+              "thread": "M4",
+              "length_mm": 6,
+              "material": "Steel 45H",
+              "point_type": "Cup Point",
+              "pack_sizes": [10, 50, 100],
+              "price_per_100_eur": 4.80
+            },
+            {
+              "sku": "ACC-SS-M5-8-FP",
+              "name": "Set Screw M5x8 Flat Point",
+              "thread": "M5",
+              "length_mm": 8,
+              "material": "Steel 45H",
+              "point_type": "Flat Point",
+              "pack_sizes": [10, 50, 100],
+              "price_per_100_eur": 5.20
+            }
+          ]
+        },
+        {
+          "id": "thumb-screws",
+          "name": "Thumb Screws",
+          "products": [
+            {
+              "sku": "ACC-TS-M4-10-SS",
+              "name": "Thumb Screw M4x10 Stainless",
+              "thread": "M4",
+              "length_mm": 10,
+              "material": "Stainless Steel",
+              "head_type": "Knurled",
+              "pack_sizes": [5, 25, 100],
+              "price_per_100_eur": 28.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "standoffs-spacers",
+      "name": "Standoffs & Spacers",
+      "subcategories": [
+        {
+          "id": "hex-standoffs",
+          "name": "Hex Standoffs",
+          "products": [
+            {
+              "sku": "ACC-HX-M3-10-MF-SS",
+              "name": "Hex Standoff M3x10 M/F Stainless",
+              "thread": "M3",
+              "length_mm": 10,
+              "type": "Male-Female",
+              "material": "Stainless Steel",
+              "hex_size_mm": 5,
+              "pack_sizes": [10, 50, 100],
+              "price_per_100_eur": 18.00
+            },
+            {
+              "sku": "ACC-HX-M3-15-FF-AL",
+              "name": "Hex Standoff M3x15 F/F Aluminum",
+              "thread": "M3",
+              "length_mm": 15,
+              "type": "Female-Female",
+              "material": "Aluminum",
+              "hex_size_mm": 5,
+              "pack_sizes": [10, 50, 100],
+              "price_per_100_eur": 12.00
+            },
+            {
+              "sku": "ACC-HX-M4-20-MF-BR",
+              "name": "Hex Standoff M4x20 M/F Brass",
+              "thread": "M4",
+              "length_mm": 20,
+              "type": "Male-Female",
+              "material": "Brass",
+              "hex_size_mm": 7,
+              "pack_sizes": [10, 50, 100],
+              "price_per_100_eur": 22.00
+            }
+          ]
+        },
+        {
+          "id": "round-spacers",
+          "name": "Round Spacers",
+          "products": [
+            {
+              "sku": "ACC-RS-M4-10-NY",
+              "name": "Round Spacer M4x10 Nylon",
+              "bore_mm": 4.2,
+              "length_mm": 10,
+              "od_mm": 8,
+              "material": "Nylon",
+              "pack_sizes": [25, 100, 500],
+              "price_per_100_eur": 6.50
+            },
+            {
+              "sku": "ACC-RS-M5-15-AL",
+              "name": "Round Spacer M5x15 Aluminum",
+              "bore_mm": 5.3,
+              "length_mm": 15,
+              "od_mm": 10,
+              "material": "Aluminum",
+              "pack_sizes": [25, 100, 500],
+              "price_per_100_eur": 9.80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "washers-shims",
+      "name": "Washers & Shims",
+      "subcategories": [
+        {
+          "id": "flat-washers",
+          "name": "Flat Washers",
+          "products": [
+            {
+              "sku": "ACC-FW-M4-SS",
+              "name": "Flat Washer M4 Stainless",
+              "bore_mm": 4.3,
+              "od_mm": 9,
+              "thickness_mm": 0.8,
+              "material": "Stainless Steel A2",
+              "pack_sizes": [50, 200, 1000],
+              "price_per_100_eur": 2.20
+            },
+            {
+              "sku": "ACC-FW-M5-SS",
+              "name": "Flat Washer M5 Stainless",
+              "bore_mm": 5.3,
+              "od_mm": 10,
+              "thickness_mm": 1.0,
+              "material": "Stainless Steel A2",
+              "pack_sizes": [50, 200, 1000],
+              "price_per_100_eur": 2.50
+            }
+          ]
+        },
+        {
+          "id": "spring-washers",
+          "name": "Spring Washers",
+          "products": [
+            {
+              "sku": "ACC-SW-M4-SS",
+              "name": "Spring Washer M4 Stainless",
+              "bore_mm": 4.1,
+              "material": "Stainless Steel",
+              "pack_sizes": [50, 200, 1000],
+              "price_per_100_eur": 3.80
+            }
+          ]
+        },
+        {
+          "id": "precision-shims",
+          "name": "Precision Shims",
+          "products": [
+            {
+              "sku": "ACC-PS-10-0.1-SS",
+              "name": "Precision Shim 10x16x0.1 Stainless",
+              "id_mm": 10,
+              "od_mm": 16,
+              "thickness_mm": 0.1,
+              "material": "Stainless Steel",
+              "tolerance_mm": 0.01,
+              "pack_sizes": [10, 50, 100],
+              "price_per_100_eur": 15.00
+            },
+            {
+              "sku": "ACC-PS-10-0.5-SS",
+              "name": "Precision Shim 10x16x0.5 Stainless",
+              "id_mm": 10,
+              "od_mm": 16,
+              "thickness_mm": 0.5,
+              "material": "Stainless Steel",
+              "tolerance_mm": 0.02,
+              "pack_sizes": [10, 50, 100],
+              "price_per_100_eur": 12.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nuts-inserts",
+      "name": "Nuts & Inserts",
+      "subcategories": [
+        {
+          "id": "hex-nuts",
+          "name": "Hex Nuts",
+          "products": [
+            {
+              "sku": "ACC-HN-M4-SS",
+              "name": "Hex Nut M4 Stainless",
+              "thread": "M4",
+              "material": "Stainless Steel A2",
+              "pack_sizes": [50, 200, 1000],
+              "price_per_100_eur": 2.80
+            },
+            {
+              "sku": "ACC-HN-M5-SS",
+              "name": "Hex Nut M5 Stainless",
+              "thread": "M5",
+              "material": "Stainless Steel A2",
+              "pack_sizes": [50, 200, 1000],
+              "price_per_100_eur": 3.20
+            }
+          ]
+        },
+        {
+          "id": "lock-nuts",
+          "name": "Lock Nuts",
+          "products": [
+            {
+              "sku": "ACC-LN-M4-NY-SS",
+              "name": "Nylon Insert Lock Nut M4 Stainless",
+              "thread": "M4",
+              "material": "Stainless Steel A2",
+              "insert": "Nylon",
+              "pack_sizes": [50, 200, 500],
+              "price_per_100_eur": 4.50
+            }
+          ]
+        },
+        {
+          "id": "threaded-inserts",
+          "name": "Threaded Inserts",
+          "products": [
+            {
+              "sku": "ACC-TI-M4-BR",
+              "name": "Threaded Insert M4 Brass Press-Fit",
+              "thread": "M4",
+              "material": "Brass",
+              "type": "Press-Fit",
+              "for_material": "Plastic",
+              "pack_sizes": [25, 100, 500],
+              "price_per_100_eur": 18.00
+            },
+            {
+              "sku": "ACC-TI-M5-SS-HK",
+              "name": "Threaded Insert M5 Stainless Helicoil",
+              "thread": "M5",
+              "material": "Stainless Steel",
+              "type": "Helicoil",
+              "for_material": "Metal",
+              "pack_sizes": [10, 50, 100],
+              "price_per_100_eur": 35.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pins-dowels",
+      "name": "Pins & Dowels",
+      "subcategories": [
+        {
+          "id": "dowel-pins",
+          "name": "Dowel Pins",
+          "products": [
+            {
+              "sku": "ACC-DP-4-20-SS",
+              "name": "Dowel Pin 4x20 Stainless",
+              "diameter_mm": 4,
+              "length_mm": 20,
+              "material": "Stainless Steel",
+              "tolerance": "h6",
+              "pack_sizes": [10, 50, 100],
+              "price_per_100_eur": 12.00
+            },
+            {
+              "sku": "ACC-DP-6-30-SS",
+              "name": "Dowel Pin 6x30 Stainless",
+              "diameter_mm": 6,
+              "length_mm": 30,
+              "material": "Stainless Steel",
+              "tolerance": "h6",
+              "pack_sizes": [10, 50, 100],
+              "price_per_100_eur": 18.00
+            }
+          ]
+        },
+        {
+          "id": "spring-pins",
+          "name": "Spring Pins / Roll Pins",
+          "products": [
+            {
+              "sku": "ACC-SP-3-20-SS",
+              "name": "Spring Pin 3x20 Stainless",
+              "diameter_mm": 3,
+              "length_mm": 20,
+              "material": "Stainless Steel",
+              "pack_sizes": [25, 100, 500],
+              "price_per_100_eur": 8.50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "handles-knobs",
+      "name": "Handles & Knobs",
+      "subcategories": [
+        {
+          "id": "machine-handles",
+          "name": "Machine Handles",
+          "products": [
+            {
+              "sku": "ACC-MH-100-M8",
+              "name": "Machine Handle 100mm M8 Thread",
+              "length_mm": 100,
+              "thread": "M8",
+              "material": "Aluminum/Plastic",
+              "pack_sizes": [1, 5, 25],
+              "price_each_eur": 8.50
+            }
+          ]
+        },
+        {
+          "id": "control-knobs",
+          "name": "Control Knobs",
+          "products": [
+            {
+              "sku": "ACC-CK-20-6",
+              "name": "Control Knob 20mm 6mm Shaft",
+              "diameter_mm": 20,
+              "shaft_mm": 6,
+              "material": "Aluminum",
+              "pack_sizes": [1, 10, 50],
+              "price_each_eur": 3.20
+            }
+          ]
+        },
+        {
+          "id": "clamping-knobs",
+          "name": "Clamping Knobs",
+          "products": [
+            {
+              "sku": "ACC-CLK-M6-40",
+              "name": "Clamping Knob M6 40mm Star",
+              "thread": "M6",
+              "diameter_mm": 40,
+              "type": "Star Grip",
+              "material": "Thermoplastic",
+              "pack_sizes": [5, 25, 100],
+              "price_each_eur": 2.80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feet-bumpers",
+      "name": "Feet & Bumpers",
+      "subcategories": [
+        {
+          "id": "rubber-feet",
+          "name": "Rubber Feet",
+          "products": [
+            {
+              "sku": "ACC-RF-20-10-BLK",
+              "name": "Rubber Foot 20x10mm Black",
+              "diameter_mm": 20,
+              "height_mm": 10,
+              "material": "Rubber",
+              "mounting": "Self-Adhesive",
+              "pack_sizes": [4, 20, 100],
+              "price_per_100_eur": 25.00
+            }
+          ]
+        },
+        {
+          "id": "leveling-feet",
+          "name": "Leveling Feet",
+          "products": [
+            {
+              "sku": "ACC-LF-M8-50",
+              "name": "Leveling Foot M8 50mm Base",
+              "thread": "M8",
+              "base_diameter_mm": 50,
+              "material": "Steel/Rubber",
+              "load_kg": 500,
+              "pack_sizes": [4, 20, 100],
+              "price_each_eur": 4.50
+            }
+          ]
+        },
+        {
+          "id": "bumpers",
+          "name": "Bumpers",
+          "products": [
+            {
+              "sku": "ACC-BM-10-5-CLR",
+              "name": "Bumper 10x5mm Clear",
+              "diameter_mm": 10,
+              "height_mm": 5,
+              "material": "Polyurethane",
+              "mounting": "Self-Adhesive",
+              "pack_sizes": [20, 100, 500],
+              "price_per_100_eur": 12.00
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "custom-components",
+      "name": "Custom Components",
+      "description": "Made-to-order precision components"
+    },
+    {
+      "id": "cad-downloads",
+      "name": "CAD Downloads",
+      "description": "3D CAD models available for all products"
+    },
+    {
+      "id": "technical-support",
+      "name": "Technical Support",
+      "description": "24/7 engineering support"
+    },
+    {
+      "id": "express-delivery",
+      "name": "Express Delivery",
+      "description": "Same-day dispatch, worldwide shipping"
+    }
+  ],
+  "target_markets": [
+    "OEM Manufacturers",
+    "Engineering Firms",
+    "Prototyping",
+    "Production Lines",
+    "R&D Departments",
+    "Maintenance & Repair"
+  ],
+  "ecommerce_features": [
+    "Real-time inventory",
+    "Technical specifications",
+    "CAD downloads",
+    "API integration",
+    "Buy 1 or millions",
+    "Multiple currencies",
+    "Global shipping"
+  ]
+}

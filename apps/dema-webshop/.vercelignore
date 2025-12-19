@@ -1,0 +1,25 @@
+# Source documents and build-time assets (not needed at runtime)
+# Note: documents/ at root is excluded, but public/documents/ PDFs are needed
+documents/
+
+# Python scripts (build-time only)
+*.py
+__pycache__/
+
+# Development files
+.git/
+.next/
+node_modules/
+
+# Test and validation scripts
+scripts/validate-*.js
+
+# Large data files that are processed into public/data
+*.json.bak
+
+# IDE and OS files
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,2807 @@
+[
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p15-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "Pistool met uitschakelbeveiliging / Lans met Turbokiller (**alleen bij TST-uitvoering) / Hogedrukslang TS zonder Slanghaspel Hogedrukslang TST incl. Slanghaspel / quadro 800 TST / quadro 1000 TS quadro 1000 TST / quadro 1200 TS quadro 1200 TST (Page 15)",
+    "series_id": "kranzle-accessory-pistool",
+    "series_name": "Pistool met uitschakelbeveiliging",
+    "series_names": [
+      "Pistool met uitschakelbeveiliging",
+      "Lans met Turbokiller (**alleen bij TST-uitvoering)",
+      "Hogedrukslang TS zonder Slanghaspel Hogedrukslang TST incl. Slanghaspel",
+      "quadro 800 TST",
+      "quadro 1000 TS quadro 1000 TST",
+      "quadro 1200 TS quadro 1200 TST"
+    ],
+    "family": "kranzle-accessory-pistool",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "UITRUSTING",
+    "variants": [
+      {
+        "sku": "123272",
+        "label": "Pistool met uitschakelbeveiliging",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Pistool met uitschakelbeveiliging",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "12430-04",
+        "label": "Lans met Turbokiller (**alleen bij TST-uitvoering)",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Lans met Turbokiller (**alleen bij TST-uitvoering)",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "41083",
+        "label": "Hogedrukslang TS zonder Slanghaspel Hogedrukslang TST incl. Slanghaspel",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Hogedrukslang TS zonder Slanghaspel Hogedrukslang TST incl. Slanghaspel",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "612060",
+        "label": "quadro 800 TST",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "quadro 800 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met trommel",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "612080",
+        "label": "quadro 1000 TS quadro 1000 TST",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "quadro 1000 TS quadro 1000 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met trommel",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "612090",
+        "label": "quadro 1000 TS quadro 1000 TST",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "quadro 1000 TS quadro 1000 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met trommel",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "612110",
+        "label": "quadro 1200 TS quadro 1200 TST",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "quadro 1200 TS quadro 1200 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met trommel",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "612120",
+        "label": "quadro 1200 TS quadro 1200 TST",
+        "page": 15,
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "quadro 1200 TS quadro 1200 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met trommel",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p15__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 8,
+    "default_variant_sku": "123272",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p15__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p25-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "Pistool met uitschakelbeveiliging / Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel / therm-RP 1000 / therm-RP 1200 / therm-RP 1400 / therm-RP 1600 (Page 25)",
+    "series_id": "kranzle-accessory-pistool",
+    "series_name": "Pistool met uitschakelbeveiliging",
+    "series_names": [
+      "Pistool met uitschakelbeveiliging",
+      "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+      "therm-RP 1000",
+      "therm-RP 1200",
+      "therm-RP 1400",
+      "therm-RP 1600"
+    ],
+    "family": "kranzle-accessory-pistool",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "UITRUSTING",
+    "variants": [
+      {
+        "sku": "123272",
+        "label": "Pistool met uitschakelbeveiliging",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Pistool met uitschakelbeveiliging",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met vertraagde",
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "443812",
+        "label": "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met vertraagde",
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "638200",
+        "label": "therm-RP 1000",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1000",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "638210",
+        "label": "therm-RP 1000",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1000",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "638250",
+        "label": "therm-RP 1000",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1000",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "638260",
+        "label": "therm-RP 1000",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1000",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "638400",
+        "label": "therm-RP 1200",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1200",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "638410",
+        "label": "therm-RP 1200",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1200",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "638450",
+        "label": "therm-RP 1200",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1200",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "638460",
+        "label": "therm-RP 1200",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1200",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "638600",
+        "label": "therm-RP 1400",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1400",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "638610",
+        "label": "therm-RP 1400",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1400",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "638650",
+        "label": "therm-RP 1400",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1400",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "638660",
+        "label": "therm-RP 1400",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1400",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "638800",
+        "label": "therm-RP 1600",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1600",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "638810",
+        "label": "therm-RP 1600",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1600",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "638850",
+        "label": "therm-RP 1600",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1600",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "638860",
+        "label": "therm-RP 1600",
+        "page": 25,
+        "page_in_pdf": 25,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1600",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p25__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 18,
+    "default_variant_sku": "123272",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p25__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p27-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "Pistool met uitschakelbeveiliging / Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel / therm 635-1 / therm 875-1 / therm 895-1 / therm 1165-1 (Page 27)",
+    "series_id": "kranzle-accessory-pistool",
+    "series_name": "Pistool met uitschakelbeveiliging",
+    "series_names": [
+      "Pistool met uitschakelbeveiliging",
+      "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+      "therm 635-1",
+      "therm 875-1",
+      "therm 895-1",
+      "therm 1165-1"
+    ],
+    "family": "kranzle-accessory-pistool",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "UITRUSTING",
+    "variants": [
+      {
+        "sku": "123272",
+        "label": "Pistool met uitschakelbeveiliging",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Pistool met uitschakelbeveiliging",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "zonder Slanghaspel",
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "443812",
+        "label": "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "zonder Slanghaspel",
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "634000",
+        "label": "therm 635-1",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm 635-1",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "634010",
+        "label": "therm 635-1",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm 635-1",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "634200",
+        "label": "therm 875-1",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm 875-1",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "634210",
+        "label": "therm 875-1",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm 875-1",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "634400",
+        "label": "therm 895-1",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm 895-1",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "634410",
+        "label": "therm 895-1",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm 895-1",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "634600",
+        "label": "therm 1165-1",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm 1165-1",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "634610",
+        "label": "therm 1165-1",
+        "page": 27,
+        "page_in_pdf": 27,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm 1165-1",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p27__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 10,
+    "default_variant_sku": "123272",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p27__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p28-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "Pistool met uitschakelbeveiliging / Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel / therm 1017 (Page 28)",
+    "series_id": "kranzle-accessory-pistool",
+    "series_name": "Pistool met uitschakelbeveiliging",
+    "series_names": [
+      "Pistool met uitschakelbeveiliging",
+      "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+      "therm 1017"
+    ],
+    "family": "kranzle-accessory-pistool",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "UITRUSTING",
+    "variants": [
+      {
+        "sku": "123272",
+        "label": "Pistool met uitschakelbeveiliging",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Pistool met uitschakelbeveiliging",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met vertraagde",
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "44877",
+        "label": "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met vertraagde",
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "632200",
+        "label": "therm 1017",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm 1017",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "632210",
+        "label": "therm 1017",
+        "page": 28,
+        "page_in_pdf": 28,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm 1017",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p28__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "123272",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p28__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p32-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "Pistool met uitschakelbeveiliging / Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel / e-therm 500 M 18 / e-therm 500 M 24 / e-therm 603 M 36 / e-therm 873 M 48 (Page 32)",
+    "series_id": "kranzle-accessory-pistool",
+    "series_name": "Pistool met uitschakelbeveiliging",
+    "series_names": [
+      "Pistool met uitschakelbeveiliging",
+      "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+      "e-therm 500 M 18",
+      "e-therm 500 M 24",
+      "e-therm 603 M 36",
+      "e-therm 873 M 48"
+    ],
+    "family": "kranzle-accessory-pistool",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "UITRUSTING",
+    "variants": [
+      {
+        "sku": "123272",
+        "label": "Pistool met uitschakelbeveiliging",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Pistool met uitschakelbeveiliging",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "zonder Slanghaspel",
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "443812",
+        "label": "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "zonder Slanghaspel",
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "642050",
+        "label": "e-therm 500 M 18",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "e-therm 500 M 18",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "642060",
+        "label": "e-therm 500 M 18",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "e-therm 500 M 18",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "642150",
+        "label": "e-therm 500 M 24",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "e-therm 500 M 24",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "642160",
+        "label": "e-therm 500 M 24",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "e-therm 500 M 24",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "642250",
+        "label": "e-therm 603 M 36",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "e-therm 603 M 36",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "642260",
+        "label": "e-therm 603 M 36",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "e-therm 603 M 36",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "642350",
+        "label": "e-therm 873 M 48",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "e-therm 873 M 48",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "642360",
+        "label": "e-therm 873 M 48",
+        "page": 32,
+        "page_in_pdf": 32,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "e-therm 873 M 48",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p32__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 10,
+    "default_variant_sku": "123272",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p32__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p19-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "Lans met vuilfrees / Pistool met uitschakelbeveiliging / Hogedrukslang zonder Slanghaspel Hogedrukslang incl Slanghaspel / Profi-Jet B 13/150 / Profi-Jet B 10/200 / Profi-Jet B 16/220 / Profi-Jet B 20/200 / Profi-Jet B 16/250 (Page 19)",
+    "series_id": "kranzle-accessory-lans",
+    "series_name": "Lans met vuilfrees",
+    "series_names": [
+      "Lans met vuilfrees",
+      "Pistool met uitschakelbeveiliging",
+      "Hogedrukslang zonder Slanghaspel Hogedrukslang incl Slanghaspel",
+      "Profi-Jet B 13/150",
+      "Profi-Jet B 10/200",
+      "Profi-Jet B 16/220",
+      "Profi-Jet B 20/200",
+      "Profi-Jet B 16/250"
+    ],
+    "family": "kranzle-accessory-lans",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "UITRUSTING",
+    "variants": [
+      {
+        "sku": "12425-05",
+        "label": "Lans met vuilfrees",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Lans met vuilfrees",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "zonder Slanghaspel",
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "12492",
+        "label": "Pistool met uitschakelbeveiliging",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Pistool met uitschakelbeveiliging",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "zonder Slanghaspel",
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "41083",
+        "label": "Hogedrukslang zonder Slanghaspel Hogedrukslang incl Slanghaspel",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Hogedrukslang zonder Slanghaspel Hogedrukslang incl Slanghaspel",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "zonder Slanghaspel",
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "618003",
+        "label": "Profi-Jet B 13/150",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Profi-Jet B 13/150",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "618007",
+        "label": "Profi-Jet B 13/150",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Profi-Jet B 13/150",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "618023",
+        "label": "Profi-Jet B 10/200",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Profi-Jet B 10/200",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "618027",
+        "label": "Profi-Jet B 10/200",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Profi-Jet B 10/200",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "618045",
+        "label": "Profi-Jet B 16/220",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Profi-Jet B 16/220",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "618049",
+        "label": "Profi-Jet B 16/220",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Profi-Jet B 16/220",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "618065",
+        "label": "Profi-Jet B 20/200",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Profi-Jet B 20/200",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "618069",
+        "label": "Profi-Jet B 20/200",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Profi-Jet B 20/200",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "618085",
+        "label": "Profi-Jet B 16/250",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Profi-Jet B 16/250",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "618089",
+        "label": "Profi-Jet B 16/250",
+        "page": 19,
+        "page_in_pdf": 19,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Profi-Jet B 16/250",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p19__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 13,
+    "default_variant_sku": "12425-05",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p19__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p8-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "Lans met Vario-Jet / Lans met vuilfrees / Pistool met uitschakelbeveiliging / Hogedrukslang TS zonder Slanghaspel Hogedrukslang TST incl. Slanghaspel / K 1152 TS K 1152 TST (Page 8)",
+    "series_id": "kranzle-accessory-lans",
+    "series_name": "Lans met Vario-Jet",
+    "series_names": [
+      "Lans met Vario-Jet",
+      "Lans met vuilfrees",
+      "Pistool met uitschakelbeveiliging",
+      "Hogedrukslang TS zonder Slanghaspel Hogedrukslang TST incl. Slanghaspel",
+      "K 1152 TS K 1152 TST"
+    ],
+    "family": "kranzle-accessory-lans",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "UITRUSTING",
+    "variants": [
+      {
+        "sku": "12437-042",
+        "label": "Lans met Vario-Jet",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Lans met Vario-Jet",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "12438-042",
+        "label": "Lans met vuilfrees",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Lans met vuilfrees",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "12481",
+        "label": "Pistool met uitschakelbeveiliging",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Pistool met uitschakelbeveiliging",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "48015",
+        "label": "Hogedrukslang TS zonder Slanghaspel Hogedrukslang TST incl. Slanghaspel",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Hogedrukslang TS zonder Slanghaspel Hogedrukslang TST incl. Slanghaspel",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "602010",
+        "label": "K 1152 TS K 1152 TST",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "K 1152 TS K 1152 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "602020",
+        "label": "K 1152 TS K 1152 TST",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "K 1152 TS K 1152 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p8__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 6,
+    "default_variant_sku": "12437-042",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p8__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p9-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "Lans met Vario-Jet / Lans met vuilfrees / Pistool met uitschakelbeveiliging / Hogedrukslang TS zonder Slanghaspel Hogedrukslang TST incl. Slanghaspel / K 2160 TS K 2160 TST / K 2195 TS K 2195 TST / K 2175 TS K 2175 TST (Page 9)",
+    "series_id": "kranzle-accessory-lans",
+    "series_name": "Lans met Vario-Jet",
+    "series_names": [
+      "Lans met Vario-Jet",
+      "Lans met vuilfrees",
+      "Pistool met uitschakelbeveiliging",
+      "Hogedrukslang TS zonder Slanghaspel Hogedrukslang TST incl. Slanghaspel",
+      "K 2160 TS K 2160 TST",
+      "K 2195 TS K 2195 TST",
+      "K 2175 TS K 2175 TST"
+    ],
+    "family": "kranzle-accessory-lans",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "UITRUSTING",
+    "variants": [
+      {
+        "sku": "12437-042",
+        "label": "Lans met Vario-Jet",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Lans met Vario-Jet",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "12438-042",
+        "label": "Lans met vuilfrees",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Lans met vuilfrees",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "12481",
+        "label": "Pistool met uitschakelbeveiliging",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Pistool met uitschakelbeveiliging",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "48015",
+        "label": "Hogedrukslang TS zonder Slanghaspel Hogedrukslang TST incl. Slanghaspel",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Hogedrukslang TS zonder Slanghaspel Hogedrukslang TST incl. Slanghaspel",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "604010",
+        "label": "K 2160 TS K 2160 TST",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "K 2160 TS K 2160 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met trommel",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "604020",
+        "label": "K 2160 TS K 2160 TST",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "K 2160 TS K 2160 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met trommel",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "604050",
+        "label": "K 2195 TS K 2195 TST",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "K 2195 TS K 2195 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met trommel",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "604060",
+        "label": "K 2195 TS K 2195 TST",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "K 2195 TS K 2195 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met trommel",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "604110",
+        "label": "K 2175 TS K 2175 TST",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "K 2175 TS K 2175 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met trommel",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "604120",
+        "label": "K 2175 TS K 2175 TST",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "K 2175 TS K 2175 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met trommel",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p9__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 10,
+    "default_variant_sku": "12437-042",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p9__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p29-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "Pistool met uitschakelbeveiliging / Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel / therm C 11/130 / therm C 13/180 / therm C 15/150 (Page 29)",
+    "series_id": "kranzle-accessory-pistool",
+    "series_name": "Pistool met uitschakelbeveiliging",
+    "series_names": [
+      "Pistool met uitschakelbeveiliging",
+      "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+      "therm C 11/130",
+      "therm C 13/180",
+      "therm C 15/150"
+    ],
+    "family": "kranzle-accessory-pistool",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "UITRUSTING",
+    "variants": [
+      {
+        "sku": "12492",
+        "label": "Pistool met uitschakelbeveiliging",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Pistool met uitschakelbeveiliging",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "zonder Slanghaspel",
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "44879",
+        "label": "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "zonder Slanghaspel",
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "628000",
+        "label": "therm C 11/130",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm C 11/130",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "628010",
+        "label": "therm C 11/130",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm C 11/130",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "628200",
+        "label": "therm C 13/180",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm C 13/180",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "628210",
+        "label": "therm C 13/180",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm C 13/180",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "628350",
+        "label": "therm C 15/150",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm C 15/150",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "628360",
+        "label": "therm C 15/150",
+        "page": 29,
+        "page_in_pdf": 29,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm C 15/150",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p29__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 8,
+    "default_variant_sku": "12492",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p29__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p30-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "Pistool met uitschakelbeveiliging / Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel / therm CA 11/130 / therm CA 12/150 (Page 30)",
+    "series_id": "kranzle-accessory-pistool",
+    "series_name": "Pistool met uitschakelbeveiliging",
+    "series_names": [
+      "Pistool met uitschakelbeveiliging",
+      "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+      "therm CA 11/130",
+      "therm CA 12/150"
+    ],
+    "family": "kranzle-accessory-pistool",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "UITRUSTING",
+    "variants": [
+      {
+        "sku": "12492",
+        "label": "Pistool met uitschakelbeveiliging",
+        "page": 30,
+        "page_in_pdf": 30,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Pistool met uitschakelbeveiliging",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "zonder Slanghaspel",
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "44879",
+        "label": "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+        "page": 30,
+        "page_in_pdf": 30,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Hogedrukslang zonder Slanghaspel Hogedrukslang incl. Slanghaspel",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "zonder Slanghaspel",
+          "application": "UITRUSTING"
+        }
+      },
+      {
+        "sku": "626000",
+        "label": "therm CA 11/130",
+        "page": 30,
+        "page_in_pdf": 30,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm CA 11/130",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "626010",
+        "label": "therm CA 11/130",
+        "page": 30,
+        "page_in_pdf": 30,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm CA 11/130",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "626200",
+        "label": "therm CA 12/150",
+        "page": 30,
+        "page_in_pdf": 30,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm CA 12/150",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "626210",
+        "label": "therm CA 12/150",
+        "page": 30,
+        "page_in_pdf": 30,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm CA 12/150",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p30__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 6,
+    "default_variant_sku": "12492",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p30__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p40-kogelkraan-met-schroefverbinding-webp",
+    "name": "K 1050 P / K 1050 TS / K 1050 TST (Page 40)",
+    "series_id": "k-1050-p",
+    "series_name": "K 1050 P",
+    "series_names": [
+      "K 1050 P",
+      "K 1050 TS",
+      "K 1050 TST"
+    ],
+    "family": "k-1050-p",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "49501",
+        "label": "K 1050 P",
+        "page": 40,
+        "page_in_pdf": 40,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "K 1050 P",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "495051",
+        "label": "K 1050 TS",
+        "page": 40,
+        "page_in_pdf": 40,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "K 1050 TS",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "495101",
+        "label": "K 1050 TST",
+        "page": 40,
+        "page_in_pdf": 40,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "K 1050 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p40__kogelkraan-met-schroefverbinding.webp"
+    ],
+    "variant_count": 3,
+    "default_variant_sku": "49501",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p40__kogelkraan-met-schroefverbinding.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p41-kogelkraan-met-schroefverbinding-webp",
+    "name": "X A15 TST / X A17 TST (Page 41)",
+    "series_id": "x-a15-tst",
+    "series_name": "X A15 TST",
+    "series_names": [
+      "X A15 TST",
+      "X A17 TST"
+    ],
+    "family": "x-a15-tst",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "496500",
+        "label": "X A15 TST",
+        "page": 41,
+        "page_in_pdf": 41,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "X A15 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "496520",
+        "label": "X A17 TST",
+        "page": 41,
+        "page_in_pdf": 41,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "X A17 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p41__kogelkraan-met-schroefverbinding.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "496500",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p41__kogelkraan-met-schroefverbinding.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p45-kogelkraan-met-schroefverbinding-webp",
+    "name": "Kränzle 1+1 (Page 45)",
+    "series_id": "kr-nzle-1-1",
+    "series_name": "Kränzle 1+1",
+    "series_names": [
+      "Kränzle 1+1"
+    ],
+    "family": "kr-nzle-1-1",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "50077",
+        "label": "Kränzle 1+1",
+        "page": 45,
+        "page_in_pdf": 45,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Kränzle 1+1",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p45__kogelkraan-met-schroefverbinding.webp"
+    ],
+    "variant_count": 1,
+    "default_variant_sku": "50077",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p45__kogelkraan-met-schroefverbinding.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p44-kogelkraan-met-schroefverbinding-webp",
+    "name": "Colly 800 (Page 44)",
+    "series_id": "colly-800",
+    "series_name": "Colly 800",
+    "series_names": [
+      "Colly 800"
+    ],
+    "family": "colly-800",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "50079",
+        "label": "Colly 800",
+        "page": 44,
+        "page_in_pdf": 44,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Colly 800",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p44__kogelkraan-met-schroefverbinding.webp"
+    ],
+    "variant_count": 1,
+    "default_variant_sku": "50079",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p44__kogelkraan-met-schroefverbinding.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p6-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "HD 7/122 TS / HD 10/122 TS (Page 6)",
+    "series_id": "hd-7",
+    "series_name": "HD 7/122 TS",
+    "series_names": [
+      "HD 7/122 TS",
+      "HD 10/122 TS"
+    ],
+    "family": "hd-7",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "600030",
+        "label": "HD 7/122 TS",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "HD 7/122 TS",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "600080",
+        "label": "HD 10/122 TS",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "HD 10/122 TS",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p6__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "600030",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p6__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p7-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "HD 9/80 TS / HD 12/130 TS (Page 7)",
+    "series_id": "hd-9",
+    "series_name": "HD 9/80 TS",
+    "series_names": [
+      "HD 9/80 TS",
+      "HD 12/130 TS"
+    ],
+    "family": "hd-9",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "600130",
+        "label": "HD 9/80 TS",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "HD 9/80 TS",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "600180",
+        "label": "HD 12/130 TS",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "HD 12/130 TS",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p7__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "600130",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p7__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p10-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "Profi 160 TST / Profi 195 TST / Profi 175 TST (Page 10)",
+    "series_id": "profi-160-tst",
+    "series_name": "Profi 160 TST",
+    "series_names": [
+      "Profi 160 TST",
+      "Profi 195 TST",
+      "Profi 175 TST"
+    ],
+    "family": "profi-160-tst",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "Meer informatie over NON-Marking op pagina 74",
+    "variants": [
+      {
+        "sku": "606000",
+        "label": "Profi 160 TST",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Profi 160 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_housing": "NOM-ombouwset Art.-nr. 42260",
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "606010",
+        "label": "Profi 195 TST",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Profi 195 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_housing": "NOM-ombouwset Art.-nr. 42260",
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "606100",
+        "label": "Profi 175 TST",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Profi 175 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_housing": "NOM-ombouwset Art.-nr. 42260",
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p10__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 3,
+    "default_variant_sku": "606000",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p10__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p11-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "quadro 11/140 TST / quadro 9/170 TST (Page 11)",
+    "series_id": "quadro-11",
+    "series_name": "quadro 11/140 TST",
+    "series_names": [
+      "quadro 11/140 TST",
+      "quadro 9/170 TST"
+    ],
+    "family": "quadro-11",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "Meer informatie over NON-Marking op pagina 74",
+    "variants": [
+      {
+        "sku": "608000",
+        "label": "quadro 11/140 TST",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "quadro 11/140 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "608020",
+        "label": "quadro 9/170 TST",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "quadro 9/170 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p11__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "608000",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p11__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p14-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "quadro 599 TST / quadro 799 TST / quadro 899 TST (Page 14)",
+    "series_id": "quadro-599-tst",
+    "series_name": "quadro 599 TST",
+    "series_names": [
+      "quadro 599 TST",
+      "quadro 799 TST",
+      "quadro 899 TST"
+    ],
+    "family": "quadro-599-tst",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "Meer informatie over NON-Marking op pagina 74",
+    "variants": [
+      {
+        "sku": "610000",
+        "label": "quadro 599 TST",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "quadro 599 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "610100",
+        "label": "quadro 799 TST",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "quadro 799 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "610120",
+        "label": "quadro 899 TST",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "quadro 899 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p14__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 3,
+    "default_variant_sku": "610000",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p14__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p16-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "bully 1000 TST / bully 1200 TST (Page 16)",
+    "series_id": "bully-1000-tst",
+    "series_name": "bully 1000 TST",
+    "series_names": [
+      "bully 1000 TST",
+      "bully 1200 TST"
+    ],
+    "family": "bully-1000-tst",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "Meer informatie over NON-Marking op pagina 74",
+    "variants": [
+      {
+        "sku": "614050",
+        "label": "bully 1000 TST",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "bully 1000 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "614060",
+        "label": "bully 1200 TST",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "bully 1200 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p16__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "614050",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p16__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p23-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "LX-RP 1200 TST / LX-RP 1400 TST / LX-RP 1600 TST (Page 23)",
+    "series_id": "lx-rp-1200-tst",
+    "series_name": "LX-RP 1200 TST",
+    "series_names": [
+      "LX-RP 1200 TST",
+      "LX-RP 1400 TST",
+      "LX-RP 1600 TST"
+    ],
+    "family": "lx-rp-1200-tst",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "Meer informatie over NON-Marking op pagina 74",
+    "variants": [
+      {
+        "sku": "616060",
+        "label": "LX-RP 1200 TST",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "LX-RP 1200 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "616070",
+        "label": "LX-RP 1400 TST",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "LX-RP 1400 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      },
+      {
+        "sku": "616080",
+        "label": "LX-RP 1600 TST",
+        "page": 23,
+        "page_in_pdf": 23,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "LX-RP 1600 TST",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare",
+          "application": "Meer informatie over NON-Marking op pagina 74"
+        }
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p23__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 3,
+    "default_variant_sku": "616060",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p23__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p18-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "Profi-Jet B 13/150 / Profi-Jet B 10/200 (Page 18)",
+    "series_id": "profi-jet-b-13",
+    "series_name": "Profi-Jet B 13/150",
+    "series_names": [
+      "Profi-Jet B 13/150",
+      "Profi-Jet B 10/200"
+    ],
+    "family": "profi-jet-b-13",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "618001",
+        "label": "Profi-Jet B 13/150",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Profi-Jet B 13/150",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "618021",
+        "label": "Profi-Jet B 10/200",
+        "page": 18,
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "Profi-Jet B 10/200",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p18__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "618001",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p18__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p20-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "B 170 T / B 230 T / B 240 T / B 270 T (Page 20)",
+    "series_id": "b-170-t",
+    "series_name": "B 170 T",
+    "series_names": [
+      "B 170 T",
+      "B 230 T",
+      "B 240 T",
+      "B 270 T"
+    ],
+    "family": "b-170-t",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "620001",
+        "label": "B 170 T",
+        "page": 20,
+        "page_in_pdf": 20,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "B 170 T",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "620013",
+        "label": "B 230 T",
+        "page": 20,
+        "page_in_pdf": 20,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "B 230 T",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "620023",
+        "label": "B 240 T",
+        "page": 20,
+        "page_in_pdf": 20,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "B 240 T",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      },
+      {
+        "sku": "620033",
+        "label": "B 270 T",
+        "page": 20,
+        "page_in_pdf": 20,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "B 270 T",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "spec_product_variant": "met inklapbare"
+        }
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p20__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "620001",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p20__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p22-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "WS-RP 1000 TS WSC-RP 1000 TS / WS-RP 1200 TS WSC-RP 1200 TS / WS-RP 1400 TS WSC-RP 1400 TS / WS-RP 1600 TS WSC-RP 1600 TS (Page 22)",
+    "series_id": "ws-rp-1000-ts-wsc-rp-1000-ts",
+    "series_name": "WS-RP 1000 TS WSC-RP 1000 TS",
+    "series_names": [
+      "WS-RP 1000 TS WSC-RP 1000 TS",
+      "WS-RP 1200 TS WSC-RP 1200 TS",
+      "WS-RP 1400 TS WSC-RP 1400 TS",
+      "WS-RP 1600 TS WSC-RP 1600 TS"
+    ],
+    "family": "ws-rp-1000-ts-wsc-rp-1000-ts",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "622100",
+        "label": "WS-RP 1000 TS WSC-RP 1000 TS",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "WS-RP 1000 TS WSC-RP 1000 TS",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "622110",
+        "label": "WS-RP 1000 TS WSC-RP 1000 TS",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "WS-RP 1000 TS WSC-RP 1000 TS",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "622120",
+        "label": "WS-RP 1200 TS WSC-RP 1200 TS",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "WS-RP 1200 TS WSC-RP 1200 TS",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "622130",
+        "label": "WS-RP 1200 TS WSC-RP 1200 TS",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "WS-RP 1200 TS WSC-RP 1200 TS",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "622140",
+        "label": "WS-RP 1400 TS WSC-RP 1400 TS",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "WS-RP 1400 TS WSC-RP 1400 TS",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "622150",
+        "label": "WS-RP 1400 TS WSC-RP 1400 TS",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "WS-RP 1400 TS WSC-RP 1400 TS",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "622160",
+        "label": "WS-RP 1600 TS WSC-RP 1600 TS",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "WS-RP 1600 TS WSC-RP 1600 TS",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "622170",
+        "label": "WS-RP 1600 TS WSC-RP 1600 TS",
+        "page": 22,
+        "page_in_pdf": 22,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "WS-RP 1600 TS WSC-RP 1600 TS",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p22__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 8,
+    "default_variant_sku": "622100",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p22__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "kranzle-catalogus-2021-nl-1-images-kranzle-catalogus-2021-nl-1-kranzle-catalogus-2021-nl-1-p26-kranzle-catalogus-2021-nl-1-pdf-webp",
+    "name": "therm-RP 1000 ATr / therm-RP 1200 ATr / therm-RP 1400 ATr / therm-RP 1600 ATr (Page 26)",
+    "series_id": "therm-rp-1000-atr",
+    "series_name": "therm-RP 1000 ATr",
+    "series_names": [
+      "therm-RP 1000 ATr",
+      "therm-RP 1200 ATr",
+      "therm-RP 1400 ATr",
+      "therm-RP 1600 ATr"
+    ],
+    "family": "therm-rp-1000-atr",
+    "catalog": "kranzle-catalogus-2021-nl-1",
+    "source_pdf": "kranzle-catalogus-2021-nl-1.pdf",
+    "brand": "Kränzle",
+    "category": "afrollen in alle richtingen mogelijk.",
+    "variants": [
+      {
+        "sku": "638220",
+        "label": "therm-RP 1000 ATr",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1000 ATr",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "afrollen in alle richtingen mogelijk."
+        }
+      },
+      {
+        "sku": "638420",
+        "label": "therm-RP 1200 ATr",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1200 ATr",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "afrollen in alle richtingen mogelijk."
+        }
+      },
+      {
+        "sku": "638620",
+        "label": "therm-RP 1400 ATr",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1400 ATr",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "afrollen in alle richtingen mogelijk."
+        }
+      },
+      {
+        "sku": "638820",
+        "label": "therm-RP 1600 ATr",
+        "page": 26,
+        "page_in_pdf": 26,
+        "properties": {
+          "type": "pressure_washer",
+          "model": "therm-RP 1600 ATr",
+          "material": null,
+          "sku_series": null
+        },
+        "attributes": {
+          "application": "afrollen in alle richtingen mogelijk."
+        }
+      }
+    ],
+    "images": [
+      "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p26__kranzle-catalogus-2021-nl-1-pdf.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "638220",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/kranzle-catalogus-2021-nl-1/kranzle-catalogus-2021-nl-1__p26__kranzle-catalogus-2021-nl-1-pdf.webp"
+      }
+    ]
+  }
+]

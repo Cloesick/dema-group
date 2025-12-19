@@ -1,0 +1,802 @@
+{
+  "category": "compressors",
+  "name": "Compressors & Air Equipment",
+  "icon": "⚙️",
+  "description": "Air compressors, compressed air equipment, pneumatic tools",
+  "total_products": 54,
+  "total_groups": 11,
+  "groups": [
+    {
+      "group_id": "airpress-catalogus-eng-images-airpress-catalogus-eng-airpress-catalogus-e",
+      "name": "PROFESSIONAL PISTON COMPRESSORS HK / VK SERIES",
+      "catalog": "airpress-catalogus-eng",
+      "image": "images/airpress-catalogus-eng/airpress-catalogus-eng__p17__360672-360640-360671-360668-360568-36076__360568-360640-360668__v1.webp",
+      "images": [
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p17__360672-360640-360671-360668-360568-36076__360568-360640-360668__v1.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p17__360672-360640-360671-360668-360568-36076__360568-360640-360668__v2.webp"
+      ],
+      "source_pdf": "airpress-catalogus-eng.pdf",
+      "variants": [
+        {
+          "sku": "360669",
+          "label": "360669 - professional_piston_compressors_hk_vk_series",
+          "page": 17,
+          "properties": {},
+          "attributes": {
+            "application": "PROFESSIONAL PISTON COMPRESSORS HK / VK SERIES"
+          }
+        },
+        {
+          "sku": "360670",
+          "label": "360670 - professional_piston_compressors_hk_vk_series",
+          "page": 17,
+          "properties": {},
+          "attributes": {
+            "application": "PROFESSIONAL PISTON COMPRESSORS HK / VK SERIES"
+          }
+        }
+      ],
+      "variant_count": 2,
+      "default_variant_sku": "360669",
+      "media": [
+        {
+          "role": "main",
+          "url": "images/airpress-catalogus-eng/airpress-catalogus-eng__p17__360672-360640-360671-360668-360568-36076__360568-360640-360668__v1.webp"
+        }
+      ]
+    },
+    {
+      "group_id": "airpress-catalogus-eng-images-airpress-catalogus-eng-airpress-catalogus-e-1",
+      "name": "PROFESSIONAL PISTON COMPRESSORS HK SERIE",
+      "catalog": "airpress-catalogus-eng",
+      "image": "images/airpress-catalogus-eng/airpress-catalogus-eng__p19__professional-piston-compressors-hk-serie__360675-60675__v3.webp",
+      "images": [
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p19__professional-piston-compressors-hk-serie__360675-60675__v1.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p19__professional-piston-compressors-hk-serie__360675-60675__v2.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p19__professional-piston-compressors-hk-serie__360675-60675__v3.webp"
+      ],
+      "source_pdf": "airpress-catalogus-eng.pdf",
+      "variants": [
+        {
+          "sku": "360675",
+          "label": "360675 - professional_piston_compressors_hk_serie",
+          "page": 19,
+          "properties": {},
+          "attributes": {
+            "application": "PROFESSIONAL PISTON COMPRESSORS HK SERIE"
+          }
+        },
+        {
+          "sku": "60675",
+          "label": "60675 - professional_piston_compressors_hk_serie",
+          "page": 19,
+          "properties": {},
+          "attributes": {
+            "application": "PROFESSIONAL PISTON COMPRESSORS HK SERIE"
+          }
+        }
+      ],
+      "variant_count": 2,
+      "default_variant_sku": "360675",
+      "media": [
+        {
+          "role": "main",
+          "url": "images/airpress-catalogus-eng/airpress-catalogus-eng__p19__professional-piston-compressors-hk-serie__360675-60675__v3.webp"
+        }
+      ]
+    },
+    {
+      "group_id": "airpress-catalogus-eng-images-airpress-catalogus-eng-airpress-catalogus-e-2",
+      "name": "INDUSTRIAL PISTON COMPRESSORS K SERIES",
+      "catalog": "airpress-catalogus-eng",
+      "image": "images/airpress-catalogus-eng/airpress-catalogus-eng__p24__industrial-piston-compressors-k-series__36524-N__v2.webp",
+      "images": [
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p24__industrial-piston-compressors-k-series__36524-N__v1.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p24__industrial-piston-compressors-k-series__36524-N__v2.webp"
+      ],
+      "source_pdf": "airpress-catalogus-eng.pdf",
+      "variants": [
+        {
+          "sku": "36524-N",
+          "label": "36524-N - industrial_piston_compressors_k_series",
+          "page": 24,
+          "properties": {},
+          "attributes": {
+            "application": "YEARS OF"
+          }
+        }
+      ],
+      "variant_count": 1,
+      "default_variant_sku": "36524-N",
+      "media": [
+        {
+          "role": "main",
+          "url": "images/airpress-catalogus-eng/airpress-catalogus-eng__p24__industrial-piston-compressors-k-series__36524-N__v2.webp"
+        }
+      ]
+    },
+    {
+      "group_id": "airpress-catalogus-eng-images-airpress-catalogus-eng-airpress-catalogus-e-3",
+      "name": "ON COMPRESSORS GK SERIES",
+      "catalog": "airpress-catalogus-eng",
+      "image": "images/airpress-catalogus-eng/airpress-catalogus-eng__p21__369569__369564-369568-369569__v1.webp",
+      "images": [
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p21__369569__369564-369568-369569__v1.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p21__369569__369564-369568-369569__v2.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p21__369569__369564-369568-369569__v3.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p21__369675__369674-369675-369676__v1.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p21__369675__369674-369675-369676__v2.webp",
+        "images/airpress-catalogus-eng/airpress-catalogus-eng__p21__369675__369674-369675-369676__v3.webp"
+      ],
+      "source_pdf": "airpress-catalogus-eng.pdf",
+      "variants": [
+        {
+          "sku": null,
+          "label": "null - on_compressors_gk_series",
+          "page": 21,
+          "properties": {},
+          "attributes": {
+            "application": "ON COMPRESSORS GK SERIES"
+          }
+        }
+      ],
+      "variant_count": 1,
+      "default_variant_sku": null,
+      "media": [
+        {
+          "role": "main",
+          "url": "images/airpress-catalogus-eng/airpress-catalogus-eng__p21__369569__369564-369568-369569__v1.webp"
+        }
+      ]
+    },
+    {
+      "group_id": "airpress-catalogus-eng-images-airpress-catalogus-eng-airpress-catalogus-e-4",
+      "name": "Screw compressors APS Basic Series 44",
+      "catalog": "airpress-catalogus-eng",
+      "image": "images/airpress-catalogus-eng/airpress-catalogus-eng__p2__screw-compressors-aps-basic-series-44.webp",
+      "images": [],
+      "source_pdf": "airpress-catalogus-eng.pdf",
+      "variants": [
+        {
+          "sku": null,
+          "label": "null - screw_compressors_aps_basic_series_44",
+          "page": 2,
+          "properties": {},
+          "attributes": {
+            "application": "Direct driven screw compressors APS Series 52"
+          }
+        }
+      ],
+      "variant_count": 1,
+      "default_variant_sku": null,
+      "media": [
+        {
+          "role": "main",
+          "url": "images/airpress-catalogus-eng/airpress-catalogus-eng__p2__screw-compressors-aps-basic-series-44.webp"
+        }
+      ]
+    },
+    {
+      "group_id": "airpress-catalogus-nl-fr-images-airpress-catalogus-nl-fr-airpress-catalogus",
+      "name": "14902",
+      "catalog": "airpress-catalogus-nl-fr",
+      "image": "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p35__14902__36157-390006-390009__v8.webp",
+      "images": [
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p33__14902__12491-12494-13002__v1.webp",
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p33__14902__12491-12494-13002__v2.webp",
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p33__14902__12491-12494-13002__v3.webp",
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p33__14902__12491-12494-13002__v4.webp",
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p34__14902__36092-36094-36094-APP__v5.webp",
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p35__14902__36157-390006-390009__v6.webp",
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p35__14902__36157-390006-390009__v7.webp",
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p35__14902__36157-390006-390009__v8.webp"
+      ],
+      "source_pdf": "airpress-catalogus-nl-fr.pdf",
+      "brand": "Airpress",
+      "variants": [
+        {
+          "sku": "12491",
+          "label": "12491 - 14902",
+          "page": 33,
+          "properties": {},
+          "attributes": {
+            "application": "• DIN 51506 • ISO 6743 • VBL • VDL • L-DAA 100 • ISO VG 100"
+          }
+        },
+        {
+          "sku": "12494",
+          "label": "12494 - 14902",
+          "page": 33,
+          "properties": {},
+          "attributes": {
+            "application": "• DIN 51506 • ISO 6743 • VBL • VDL • L-DAA 100 • ISO VG 100"
+          }
+        },
+        {
+          "sku": "36488-P",
+          "label": "36488-P - 14902",
+          "page": 33,
+          "properties": {},
+          "attributes": {
+            "application": "• DIN 51506 • ISO 6743 • VBL • VDL • L-DAA 100 • ISO VG 100"
+          }
+        },
+        {
+          "sku": "D3849-1",
+          "label": "D3849-1 - 14902",
+          "page": 33,
+          "properties": {},
+          "attributes": {
+            "application": "• DIN 51506 • ISO 6743 • VBL • VDL • L-DAA 100 • ISO VG 100"
+          }
+        },
+        {
+          "sku": "D3859-1",
+          "label": "D3859-1 - 14902",
+          "page": 33,
+          "properties": {},
+          "attributes": {
+            "application": "• DIN 51506 • ISO 6743 • VBL • VDL • L-DAA 100 • ISO VG 100"
+          }
+        },
+        {
+          "sku": "D3859-5",
+          "label": "D3859-5 - 14902",
+          "page": 33,
+          "properties": {},
+          "attributes": {
+            "application": "• DIN 51506 • ISO 6743 • VBL • VDL • L-DAA 100 • ISO VG 100"
+          }
+        }
+      ],
+      "variant_count": 6,
+      "default_variant_sku": "12491",
+      "media": [
+        {
+          "role": "main",
+          "url": "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p35__14902__36157-390006-390009__v8.webp"
+        }
+      ]
+    },
+    {
+      "group_id": "airpress-catalogus-nl-fr-images-airpress-catalogus-nl-fr-airpress-catalogus-1",
+      "name": "ZUIGERCOMPRESSOREN PROFESSIONELE SERIE HK / VK",
+      "catalog": "airpress-catalogus-nl-fr",
+      "image": "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p11__years__360568-360569-360640__v2.webp",
+      "images": [
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p11__years__360568-360569-360640__v2.webp",
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p11__hk-600-270-pro-360565-270-l__360640__v1.webp",
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p11__compresseurs-piston__360673-360673__v1.webp",
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p11__compresseurs-piston__360673-360673__v2.webp",
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p11__hk-600-270-pro-360565-270-l__360640__v2.webp"
+      ],
+      "source_pdf": "airpress-catalogus-nl-fr.pdf",
+      "variants": [
+        {
+          "sku": "360564",
+          "label": "360564 - zuigercompressoren_professionele_serie_hk_vk",
+          "page": 11,
+          "properties": {
+            "connection_size": "1420 x 570 x 1000 mm"
+          },
+          "attributes": {
+            "application": "KOLBENKOMPRESSOREN PROFESSIONELLE SERIE HK / VK"
+          }
+        },
+        {
+          "sku": "360565",
+          "label": "360565 - zuigercompressoren_professionele_serie_hk_vk",
+          "page": 11,
+          "properties": {
+            "connection_size": "1500 x 565 x 1050 mm"
+          },
+          "attributes": {
+            "application": "KOLBENKOMPRESSOREN PROFESSIONELLE SERIE HK / VK"
+          }
+        },
+        {
+          "sku": "360669",
+          "label": "360669 - zuigercompressoren_professionele_serie_hk_vk",
+          "page": 11,
+          "properties": {
+            "connection_size": "955 x 500 x 905 mm"
+          },
+          "attributes": {
+            "application": "KOLBENKOMPRESSOREN PROFESSIONELLE SERIE HK / VK"
+          }
+        },
+        {
+          "sku": "360670",
+          "label": "360670 - zuigercompressoren_professionele_serie_hk_vk",
+          "page": 11,
+          "properties": {},
+          "attributes": {
+            "application": "KOLBENKOMPRESSOREN PROFESSIONELLE SERIE HK / VK"
+          }
+        },
+        {
+          "sku": "360670",
+          "label": "360670 - zuigercompressoren_professionele_serie_hk_vk",
+          "page": 11,
+          "properties": {
+            "connection_size": "980 x 460 x 890 mm"
+          },
+          "attributes": {
+            "application": "KOLBENKOMPRESSOREN PROFESSIONELLE SERIE HK / VK"
+          }
+        }
+      ],
+      "variant_count": 5,
+      "default_variant_sku": "360564",
+      "media": [
+        {
+          "role": "main",
+          "url": "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p11__years__360568-360569-360640__v2.webp"
+        }
+      ]
+    },
+    {
+      "group_id": "airpress-catalogus-nl-fr-images-airpress-catalogus-nl-fr-airpress-catalogus-2",
+      "name": "GEGALVANISEERDE ZUIGERCOMPRESSOREN PROFESSIONELE SERIE G",
+      "catalog": "airpress-catalogus-nl-fr",
+      "image": "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p13__gegalvaniseerde-zuigercompressoren-profe__369564-369568-369569__v1.webp",
+      "images": [
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p13__gegalvaniseerde-zuigercompressoren-profe__369564-369568-369569__v1.webp",
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p13__gegalvaniseerde-zuigercompressoren-profe__369564-369568-369569__v2.webp"
+      ],
+      "source_pdf": "airpress-catalogus-nl-fr.pdf",
+      "variants": [
+        {
+          "sku": "369564",
+          "label": "369564 - gegalvaniseerde_zuigercompressoren_professionele_serie_g",
+          "page": 13,
+          "properties": {
+            "connection_size": "1420 x 570 x 1000 mm"
+          },
+          "attributes": {}
+        },
+        {
+          "sku": "369568",
+          "label": "369568 - gegalvaniseerde_zuigercompressoren_professionele_serie_g",
+          "page": 13,
+          "properties": {
+            "connection_size": "1500 x 605 x 1180 mm"
+          },
+          "attributes": {}
+        },
+        {
+          "sku": "369569",
+          "label": "369569 - gegalvaniseerde_zuigercompressoren_professionele_serie_g",
+          "page": 13,
+          "properties": {
+            "connection_size": "1930 x 600 x 1280 mm"
+          },
+          "attributes": {}
+        },
+        {
+          "sku": "369640",
+          "label": "369640 - gegalvaniseerde_zuigercompressoren_professionele_serie_g",
+          "page": 13,
+          "properties": {
+            "connection_size": "980 x 480 x 960 mm"
+          },
+          "attributes": {}
+        },
+        {
+          "sku": "369669",
+          "label": "369669 - gegalvaniseerde_zuigercompressoren_professionele_serie_g",
+          "page": 13,
+          "properties": {
+            "connection_size": "955 x 500 x 905 mm"
+          },
+          "attributes": {}
+        },
+        {
+          "sku": "369673",
+          "label": "369673 - gegalvaniseerde_zuigercompressoren_professionele_serie_g",
+          "page": 13,
+          "properties": {
+            "connection_size": "1930 x 630 x 1370 mm"
+          },
+          "attributes": {}
+        },
+        {
+          "sku": "369675",
+          "label": "369675 - gegalvaniseerde_zuigercompressoren_professionele_serie_g",
+          "page": 13,
+          "properties": {},
+          "attributes": {
+            "application": "GEGALVANISEERDE ZUIGERCOMPRESSOREN PROFESSIONELE SERIE G"
+          }
+        }
+      ],
+      "variant_count": 7,
+      "default_variant_sku": "369564",
+      "media": [
+        {
+          "role": "main",
+          "url": "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p13__gegalvaniseerde-zuigercompressoren-profe__369564-369568-369569__v1.webp"
+        }
+      ]
+    },
+    {
+      "group_id": "airpress-catalogus-nl-fr-images-airpress-catalogus-nl-fr-airpress-catalogus-3",
+      "name": "ÖL-WASSERABSCHEIDER - REDUZIERVENTILE - ÖLER - WARTUNGSEINHEIT",
+      "catalog": "airpress-catalogus-nl-fr",
+      "image": "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p42__l-wasserabscheider-reduzierventile-ler-w__45200002-45200003-45200004__v1.webp",
+      "images": [
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p42__l-wasserabscheider-reduzierventile-ler-w__45200002-45200003-45200004__v1.webp",
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p42__l-wasserabscheider-reduzierventile-ler-w__45200002-45200003-45200004__v2.webp",
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p42__l-wasserabscheider-reduzierventile-ler-w__45200002-45200003-45200004__v3.webp"
+      ],
+      "source_pdf": "airpress-catalogus-nl-fr.pdf",
+      "brand": "Airpress",
+      "variants": [
+        {
+          "sku": "45200002",
+          "label": "45200002 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "1/4”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200003",
+          "label": "45200003 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "1/4”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200004",
+          "label": "45200004 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "1/4”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200005",
+          "label": "45200005 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "1/4”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200006",
+          "label": "45200006 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "3/8”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200007",
+          "label": "45200007 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "3/8”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200008",
+          "label": "45200008 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "3/8”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200009",
+          "label": "45200009 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "3/8”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200010",
+          "label": "45200010 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "1/2”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200011",
+          "label": "45200011 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "1/4”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200012",
+          "label": "45200012 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "3/8”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200013",
+          "label": "45200013 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "1/2”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200014",
+          "label": "45200014 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "1/2”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200015",
+          "label": "45200015 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "1/2”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200016",
+          "label": "45200016 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "1/2”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200017",
+          "label": "45200017 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "3/4”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200018",
+          "label": "45200018 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "3/4”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200019",
+          "label": "45200019 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "3/4”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200020",
+          "label": "45200020 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {},
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200021",
+          "label": "45200021 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {},
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200022",
+          "label": "45200022 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {
+            "connection_size": "3/4”"
+          },
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        },
+        {
+          "sku": "45200023",
+          "label": "45200023 - l_wasserabscheider_reduzierventile_ler_wartungseinheit",
+          "page": 42,
+          "properties": {},
+          "attributes": {
+            "application": "SÉPARATEURS EAU/HUILE - MANODÉTENDEURS - HUILEURS - UNITÉ D’ENTRETIEN"
+          }
+        }
+      ],
+      "variant_count": 22,
+      "default_variant_sku": "45200002",
+      "media": [
+        {
+          "role": "main",
+          "url": "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p42__l-wasserabscheider-reduzierventile-ler-w__45200002-45200003-45200004__v1.webp"
+        }
+      ]
+    },
+    {
+      "group_id": "airpress-catalogus-nl-fr-images-airpress-catalogus-nl-fr-airpress-catalogus-4",
+      "name": "45462 45465 45475",
+      "catalog": "airpress-catalogus-nl-fr",
+      "image": "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p47__45462-45465-45475__45462-45465-45475__v2.webp",
+      "images": [
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p47__45462-45465-45475__45462-45465-45475__v1.webp",
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p47__45462-45465-45475__45462-45465-45475__v2.webp"
+      ],
+      "source_pdf": "airpress-catalogus-nl-fr.pdf",
+      "variants": [
+        {
+          "sku": "45462",
+          "label": "45462 - 45462_45465_45475",
+          "page": 47,
+          "properties": {
+            "connection_size": "165 mm"
+          },
+          "attributes": {
+            "application": "45462 45465 45475"
+          }
+        },
+        {
+          "sku": "45465",
+          "label": "45465 - 45462_45465_45475",
+          "page": 47,
+          "properties": {
+            "connection_size": "161 mm"
+          },
+          "attributes": {
+            "application": "45462 45465 45475"
+          }
+        },
+        {
+          "sku": "45475",
+          "label": "45475 - 45462_45465_45475",
+          "page": 47,
+          "properties": {
+            "connection_size": "256 mm"
+          },
+          "attributes": {
+            "application": "45462 45465 45475"
+          }
+        }
+      ],
+      "variant_count": 3,
+      "default_variant_sku": "45462",
+      "media": [
+        {
+          "role": "main",
+          "url": "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p47__45462-45465-45475__45462-45465-45475__v2.webp"
+        }
+      ]
+    },
+    {
+      "group_id": "airpress-catalogus-nl-fr-images-airpress-catalogus-nl-fr-airpress-catalogus-5",
+      "name": "A: Actief koolfilter. Olierest 0.005 mg/m3. Geschikt voor technisch olievrije perslucht.",
+      "catalog": "airpress-catalogus-nl-fr",
+      "image": "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p37__microfilters__450110-A-450110-M-450110-P__v1.webp",
+      "images": [
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p37__microfilters__450110-A-450110-M-450110-P__v1.webp",
+        "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p37__microfilters__450110-A-450110-M-450110-P__v2.webp"
+      ],
+      "source_pdf": "airpress-catalogus-nl-fr.pdf",
+      "brand": "Airpress",
+      "variants": [
+        {
+          "sku": null,
+          "label": "null - a_actief_koolfilter_olierest_0_005_mg_m3_geschikt_voor_technisch_olievrije_perslucht",
+          "page": 37,
+          "properties": {},
+          "attributes": {
+            "spec_application_desc": "en en zeer schone perslucht heeft Airpress een complete conditionering set samengesteld. F005 450110-M M 3/8” 1000 L/min",
+            "spec_product_variant": "Met de",
+            "application": "perslucht. Langere contact tijd voor een betere filtratie."
+          }
+        },
+        {
+          "sku": null,
+          "label": "null - a_actief_koolfilter_olierest_0_005_mg_m3_geschikt_voor_technisch_olievrije_perslucht",
+          "page": 37,
+          "properties": {},
+          "attributes": {
+            "spec_application_desc": "en en zeer schone perslucht heeft Airpress een complete conditionering set samengesteld. F005 450110-M M 3/8” 1000 L/min",
+            "spec_product_variant": "Met de",
+            "application": "perslucht. Langere contact tijd voor een betere filtratie."
+          }
+        },
+        {
+          "sku": null,
+          "label": "null - a_actief_koolfilter_olierest_0_005_mg_m3_geschikt_voor_technisch_olievrije_perslucht",
+          "page": 37,
+          "properties": {},
+          "attributes": {
+            "spec_application_desc": "en en zeer schone perslucht heeft Airpress een complete conditionering set samengesteld. F005 450110-M M 3/8” 1000 L/min",
+            "spec_product_variant": "Met de",
+            "application": "perslucht. Langere contact tijd voor een betere filtratie."
+          }
+        },
+        {
+          "sku": null,
+          "label": "null - a_actief_koolfilter_olierest_0_005_mg_m3_geschikt_voor_technisch_olievrije_perslucht",
+          "page": 37,
+          "properties": {},
+          "attributes": {
+            "spec_application_desc": "en en zeer schone perslucht heeft Airpress een complete conditionering set samengesteld. F005 450110-M M 3/8” 1000 L/min",
+            "spec_product_variant": "Met de",
+            "application": "perslucht. Langere contact tijd voor een betere filtratie."
+          }
+        }
+      ],
+      "variant_count": 4,
+      "default_variant_sku": null,
+      "media": [
+        {
+          "role": "main",
+          "url": "images/airpress-catalogus-nl-fr/airpress-catalogus-nl-fr__p37__microfilters__450110-A-450110-M-450110-P__v1.webp"
+        }
+      ]
+    }
+  ]
+}

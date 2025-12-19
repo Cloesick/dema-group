@@ -1,0 +1,74 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env
+.env.*
+.env*.local
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Large files that should not be deployed
+public/data/input_pdfs_analysis_v5.json
+src/data/catalog_products_enriched.json
+
+# Source documents (build-time only, not needed for deployment)
+documents/
+
+# Note: public/documents/ contains compressed PDFs for the PDF viewer (~198 MB)
+# These are deployed to Vercel for product PDF links to work
+
+# Build cache
+tsconfig.tsbuildinfo
+
+# Dev utilities and scripts
+*.bat
+*.ps1
+
+# Debug/analysis files
+consolelog.txt
+*-issues.json
+category_analysis.json
+
+# Test artifacts
+test_image.webp
+zuigerpompen.txt
+
+# Empty/unused folders
+/utils/
+/__tests__/
+/tests/
+/data/
+
+# Root components (should be in src/)
+/components/

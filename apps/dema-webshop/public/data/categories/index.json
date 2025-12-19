@@ -1,0 +1,159 @@
+{
+  "total_products": 14395,
+  "categories": [
+    {
+      "key": "pipes",
+      "name": "Pipes & Tubes",
+      "products": 3498,
+      "groups": 258,
+      "icon": "🔧",
+      "description": "PE pipes, PVC pipes, pressure pipes, drainage pipes, plastic tubes",
+      "keywords": [
+        "pipe",
+        "tube",
+        "buizen",
+        "buis",
+        "leiding",
+        "drukbuis",
+        "afvoerleiding",
+        "kunststof"
+      ]
+    },
+    {
+      "key": "hoses",
+      "name": "Hoses & Flexible Tubes",
+      "products": 2563,
+      "groups": 253,
+      "icon": "🌀",
+      "description": "Rubber hoses, suction hoses, PU hoses, spiral hoses, flat hoses",
+      "keywords": [
+        "hose",
+        "slang",
+        "slangen",
+        "afzuigslang",
+        "rubber",
+        "spiral",
+        "flat",
+        "oprolbare"
+      ]
+    },
+    {
+      "key": "pumps",
+      "name": "Pumps",
+      "products": 2378,
+      "groups": 153,
+      "icon": "💧",
+      "description": "Submersible pumps, centrifugal pumps, well pumps, drainage pumps",
+      "keywords": [
+        "pump",
+        "pomp",
+        "submersible",
+        "centrifugal",
+        "well_pump",
+        "drainage",
+        "bronpomp",
+        "dompelpomp",
+        "zuigerpomp",
+        "centrifugaalpomp"
+      ]
+    },
+    {
+      "key": "uncategorized",
+      "name": "Uncategorized",
+      "products": 2071,
+      "groups": 159
+    },
+    {
+      "key": "power_tools",
+      "name": "Power Tools",
+      "products": 1854,
+      "groups": 238,
+      "icon": "🔨",
+      "description": "Drills, saws, grinders, sanders, impact drivers, cordless tools",
+      "keywords": [
+        "drill",
+        "saw",
+        "grinder",
+        "sander",
+        "polisher",
+        "router",
+        "planer",
+        "trimmer",
+        "impact",
+        "hammer",
+        "screwdriver",
+        "wrench",
+        "makita"
+      ]
+    },
+    {
+      "key": "fittings",
+      "name": "Fittings & Connections",
+      "products": 1230,
+      "groups": 102,
+      "icon": "🔩",
+      "description": "Brass fittings, stainless steel fittings, pipe connections, adapters",
+      "keywords": [
+        "fitting",
+        "koppeling",
+        "connector",
+        "adapter",
+        "elbow",
+        "tee",
+        "draadfitting",
+        "lasfitting",
+        "messing",
+        "rvs"
+      ]
+    },
+    {
+      "key": "pressure_washers",
+      "name": "Pressure Washers",
+      "products": 736,
+      "groups": 46,
+      "icon": "🚿",
+      "description": "High-pressure cleaners, pressure washing equipment, accessories",
+      "keywords": [
+        "pressure_washer",
+        "hogedrukreiniger",
+        "kranzle",
+        "kränzle"
+      ]
+    },
+    {
+      "key": "compressors",
+      "name": "Compressors & Air Equipment",
+      "products": 54,
+      "groups": 11,
+      "icon": "⚙️",
+      "description": "Air compressors, compressed air equipment, pneumatic tools",
+      "keywords": [
+        "compressor",
+        "compressed_air",
+        "air_compressor",
+        "luchtcompressor",
+        "abs",
+        "perslucht"
+      ]
+    },
+    {
+      "key": "accessories",
+      "name": "Accessories & Parts",
+      "products": 11,
+      "groups": 2,
+      "icon": "🔧",
+      "description": "Spare parts, batteries, chargers, cases, pump accessories",
+      "keywords": [
+        "accessory",
+        "toebehoren",
+        "battery",
+        "accu",
+        "charger",
+        "case",
+        "bag",
+        "spare",
+        "onderdeel"
+      ]
+    }
+  ]
+}

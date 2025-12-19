@@ -1,0 +1,420 @@
+{
+  "last_updated": "2024-12-19",
+  "suppliers": [
+    {
+      "id": "makita",
+      "name": "Makita",
+      "country": "Japan",
+      "headquarters": "Anjo, Aichi, Japan",
+      "european_hq": "Germany",
+      "website": "https://www.makita.com",
+      "relationship": "Dealer",
+      "relationship_company": "DEMA",
+      "product_categories": ["Power Tools", "Outdoor Power Equipment", "Accessories"],
+      "key_products": [
+        "Cordless Tools (18V/40V LXT)",
+        "Corded Power Tools",
+        "Garden Tools",
+        "Pressure Washers",
+        "Compressors"
+      ],
+      "annual_revenue_eur": 5000000000,
+      "market_position": "Top 3 Global Power Tool Manufacturer",
+      "notes": "Strong brand, professional segment focus"
+    },
+    {
+      "id": "kranzle",
+      "name": "Kränzle",
+      "country": "Germany",
+      "headquarters": "Illertissen, Germany",
+      "website": "https://www.kraenzle.com",
+      "relationship": "Dealer",
+      "relationship_company": "DEMA",
+      "product_categories": ["Pressure Washers", "Accessories"],
+      "key_products": [
+        "Cold Water Pressure Washers",
+        "Hot Water Pressure Washers",
+        "Industrial Pressure Washers",
+        "Accessories & Lances"
+      ],
+      "market_position": "Premium German Manufacturer",
+      "notes": "High quality, made in Germany, professional focus"
+    },
+    {
+      "id": "airpress",
+      "name": "Airpress",
+      "country": "Netherlands",
+      "headquarters": "Almere, Netherlands",
+      "website": "https://www.airpress.nl",
+      "relationship": "Dealer",
+      "relationship_company": "DEMA",
+      "product_categories": ["Compressors", "Air Tools", "Compressed Air Treatment"],
+      "key_products": [
+        "Piston Compressors",
+        "Screw Compressors",
+        "Air Tools",
+        "Air Dryers",
+        "Filters & Regulators"
+      ],
+      "market_position": "Leading Benelux Compressor Brand",
+      "notes": "Good price/quality ratio, strong local support"
+    },
+    {
+      "id": "dab",
+      "name": "DAB Pumps",
+      "country": "Italy",
+      "headquarters": "Mestrino, Padova, Italy",
+      "parent_company": "Grundfos Group (since 2020)",
+      "website": "https://www.dabpumps.com",
+      "relationship": "Dealer",
+      "relationship_company": "DEMA",
+      "product_categories": ["Pumps", "Booster Systems", "Pool Pumps"],
+      "key_products": [
+        "Submersible Pumps",
+        "Centrifugal Pumps",
+        "Booster Systems",
+        "Well Pumps",
+        "Pool & Spa Pumps"
+      ],
+      "annual_revenue_eur": 300000000,
+      "market_position": "Major European Pump Manufacturer",
+      "notes": "Part of Grundfos group, good residential/agricultural range"
+    },
+    {
+      "id": "pedrollo",
+      "name": "Pedrollo",
+      "country": "Italy",
+      "headquarters": "San Bonifacio, Verona, Italy",
+      "website": "https://www.pedrollo.com",
+      "relationship": "Supplier",
+      "relationship_company": "DEMA",
+      "product_categories": ["Pumps"],
+      "key_products": [
+        "Submersible Pumps",
+        "Centrifugal Pumps",
+        "Self-Priming Pumps",
+        "Multi-Stage Pumps"
+      ],
+      "market_position": "Major Italian Pump Manufacturer",
+      "notes": "Good value, wide range, agricultural focus"
+    },
+    {
+      "id": "calpeda",
+      "name": "Calpeda",
+      "country": "Italy",
+      "headquarters": "Montorso Vicentino, Italy",
+      "website": "https://www.calpeda.com",
+      "relationship": "Supplier",
+      "relationship_company": "DEMA",
+      "product_categories": ["Pumps"],
+      "key_products": [
+        "Centrifugal Pumps",
+        "Submersible Pumps",
+        "Multi-Stage Pumps",
+        "Drainage Pumps"
+      ],
+      "annual_revenue_eur": 150000000,
+      "market_position": "Major Italian Pump Manufacturer",
+      "notes": "Quality mid-range, good industrial range"
+    },
+    {
+      "id": "wavin",
+      "name": "Wavin",
+      "country": "Netherlands",
+      "headquarters": "Zwolle, Netherlands",
+      "parent_company": "Orbia",
+      "website": "https://www.wavin.com",
+      "relationship": "Supplier",
+      "relationship_company": "DEMA",
+      "product_categories": ["Pipes", "Fittings", "Drainage"],
+      "key_products": [
+        "PE Pipes",
+        "PVC Pipes",
+        "Drainage Systems",
+        "Fittings"
+      ],
+      "annual_revenue_eur": 1500000000,
+      "market_position": "European Leader in Plastic Pipe Systems",
+      "notes": "Major brand, wide distribution"
+    },
+    {
+      "id": "pipelife",
+      "name": "Pipelife",
+      "country": "Austria",
+      "headquarters": "Wiener Neudorf, Austria",
+      "parent_company": "Wienerberger",
+      "website": "https://www.pipelife.com",
+      "relationship": "Supplier",
+      "relationship_company": "DEMA",
+      "product_categories": ["Pipes", "Fittings"],
+      "key_products": [
+        "PE Pipes",
+        "PVC Pipes",
+        "PP Pipes",
+        "Fittings"
+      ],
+      "annual_revenue_eur": 800000000,
+      "market_position": "Major European Pipe Manufacturer",
+      "notes": "Strong in infrastructure, good quality"
+    },
+    {
+      "id": "continental",
+      "name": "Continental ContiTech",
+      "country": "Germany",
+      "headquarters": "Hanover, Germany",
+      "parent_company": "Continental AG",
+      "website": "https://www.continental-industry.com",
+      "relationship": "Supplier",
+      "relationship_company": "DEMA",
+      "product_categories": ["Hoses", "Belts"],
+      "key_products": [
+        "Industrial Hoses",
+        "Hydraulic Hoses",
+        "Conveyor Belts",
+        "Power Transmission Belts"
+      ],
+      "annual_revenue_eur": 6000000000,
+      "market_position": "Global Leader in Rubber Products",
+      "notes": "Premium quality, wide range"
+    },
+    {
+      "id": "sig",
+      "name": "SIG Industrial Conveyor Belts",
+      "country": "Belgium",
+      "website": "https://www.sig.be",
+      "relationship": "Partner",
+      "relationship_company": "Beltz247",
+      "product_categories": ["Conveyor Belts"],
+      "key_products": [
+        "Rubber Conveyor Belts",
+        "PVC/PU Conveyor Belts",
+        "Specialty Belts"
+      ],
+      "market_position": "Belgian Conveyor Belt Specialist",
+      "notes": "Key partner for Beltz247, wear-resistant belts"
+    },
+    {
+      "id": "hunter",
+      "name": "Hunter Industries",
+      "country": "USA",
+      "headquarters": "San Marcos, California, USA",
+      "website": "https://www.hunterindustries.com",
+      "relationship": "Supplier",
+      "relationship_company": "De Visschere Technics",
+      "product_categories": ["Irrigation"],
+      "key_products": [
+        "Sprinklers",
+        "Controllers",
+        "Valves",
+        "Drip Irrigation"
+      ],
+      "annual_revenue_eur": 800000000,
+      "market_position": "Global Leader in Irrigation",
+      "notes": "Premium brand, professional focus"
+    },
+    {
+      "id": "rainbird",
+      "name": "Rain Bird",
+      "country": "USA",
+      "headquarters": "Azusa, California, USA",
+      "website": "https://www.rainbird.com",
+      "relationship": "Supplier",
+      "relationship_company": "De Visschere Technics",
+      "product_categories": ["Irrigation"],
+      "key_products": [
+        "Sprinklers",
+        "Controllers",
+        "Valves",
+        "Drip Irrigation"
+      ],
+      "annual_revenue_eur": 700000000,
+      "market_position": "Global Leader in Irrigation",
+      "notes": "Strong brand, wide range"
+    },
+    {
+      "id": "bauer",
+      "name": "Bauer",
+      "country": "Austria",
+      "headquarters": "Voitsberg, Austria",
+      "website": "https://www.bfrg.net",
+      "relationship": "Supplier",
+      "relationship_company": "DEMA",
+      "product_categories": ["Couplings", "Irrigation"],
+      "key_products": [
+        "Bauer Couplings",
+        "Quick Couplings",
+        "Irrigation Equipment"
+      ],
+      "market_position": "Leader in Agricultural Couplings",
+      "notes": "Standard in agricultural irrigation"
+    },
+    {
+      "id": "perrot",
+      "name": "Perrot",
+      "country": "Germany",
+      "headquarters": "Calw, Germany",
+      "website": "https://www.perrot.de",
+      "relationship": "Supplier",
+      "relationship_company": "DEMA",
+      "product_categories": ["Couplings", "Irrigation"],
+      "key_products": [
+        "Perrot Couplings",
+        "Sprinklers",
+        "Irrigation Systems"
+      ],
+      "market_position": "Premium Agricultural Irrigation",
+      "notes": "High quality German engineering"
+    },
+    {
+      "id": "camlock",
+      "name": "Various Camlock Manufacturers",
+      "country": "Various",
+      "relationship": "Supplier",
+      "relationship_company": "DEMA",
+      "product_categories": ["Couplings"],
+      "key_products": [
+        "Camlock Couplings",
+        "Quick Connect Fittings"
+      ],
+      "notes": "Standard industrial coupling type"
+    }
+  ],
+  "target_suppliers": [
+    {
+      "id": "grundfos",
+      "name": "Grundfos",
+      "country": "Denmark",
+      "headquarters": "Bjerringbro, Denmark",
+      "website": "https://www.grundfos.com",
+      "target_relationship": "Dealer",
+      "target_company": "DEMA",
+      "product_categories": ["Pumps", "Water Technology"],
+      "key_products": [
+        "Circulator Pumps",
+        "Submersible Pumps",
+        "Booster Systems",
+        "Dosing Pumps",
+        "Water Treatment"
+      ],
+      "annual_revenue_eur": 4500000000,
+      "market_position": "World's Largest Pump Manufacturer",
+      "priority": "High",
+      "timeline": "Q1 2025",
+      "notes": "Premium brand, would significantly strengthen pump offering"
+    },
+    {
+      "id": "wilo",
+      "name": "Wilo",
+      "country": "Germany",
+      "headquarters": "Dortmund, Germany",
+      "website": "https://www.wilo.com",
+      "target_relationship": "Supplier",
+      "target_company": "DEMA",
+      "product_categories": ["Pumps"],
+      "key_products": [
+        "Circulator Pumps",
+        "Submersible Pumps",
+        "Booster Systems",
+        "Drainage Pumps"
+      ],
+      "annual_revenue_eur": 1800000000,
+      "market_position": "Major European Pump Manufacturer",
+      "priority": "Medium",
+      "timeline": "Q2 2025",
+      "notes": "Strong in building services, good alternative to Grundfos"
+    },
+    {
+      "id": "prominent",
+      "name": "ProMinent",
+      "country": "Germany",
+      "headquarters": "Heidelberg, Germany",
+      "website": "https://www.prominent.com",
+      "target_relationship": "Supplier",
+      "target_company": "DEMA",
+      "product_categories": ["Dosing Pumps", "Water Treatment"],
+      "key_products": [
+        "Dosing Pumps",
+        "Metering Pumps",
+        "Water Treatment Systems",
+        "Sensors"
+      ],
+      "annual_revenue_eur": 400000000,
+      "market_position": "Leader in Dosing Technology",
+      "priority": "High",
+      "timeline": "Q2 2025",
+      "notes": "Would fill major gap in dosing pumps"
+    },
+    {
+      "id": "parker",
+      "name": "Parker Hannifin",
+      "country": "USA",
+      "headquarters": "Cleveland, Ohio, USA",
+      "website": "https://www.parker.com",
+      "target_relationship": "Supplier",
+      "target_company": "DEMA",
+      "product_categories": ["Hydraulics", "Hoses", "Fittings"],
+      "key_products": [
+        "Hydraulic Hoses",
+        "Fittings",
+        "Cylinders",
+        "Pumps"
+      ],
+      "annual_revenue_eur": 15000000000,
+      "market_position": "Global Leader in Motion & Control",
+      "priority": "Low",
+      "timeline": "Q3 2025",
+      "notes": "Would help fill hydraulics gap, but competitive market"
+    },
+    {
+      "id": "festo",
+      "name": "Festo",
+      "country": "Germany",
+      "headquarters": "Esslingen, Germany",
+      "website": "https://www.festo.com",
+      "target_relationship": "Supplier",
+      "target_company": "DEMA/Fluxer",
+      "product_categories": ["Pneumatics", "Automation"],
+      "key_products": [
+        "Pneumatic Cylinders",
+        "Valves",
+        "Actuators",
+        "Automation Components"
+      ],
+      "annual_revenue_eur": 3500000000,
+      "market_position": "Global Leader in Pneumatics",
+      "priority": "Low",
+      "timeline": "Q3 2025",
+      "notes": "Would complement Airpress range"
+    }
+  ],
+  "competitor_suppliers": [
+    {
+      "id": "kramp",
+      "name": "Kramp",
+      "type": "Competitor/Potential Partner",
+      "country": "Netherlands",
+      "website": "https://www.kramp.com",
+      "product_categories": ["Agricultural Parts", "Hydraulics", "Tools"],
+      "relationship_opportunity": "Dealer Status",
+      "notes": "B2B only model - could become dealer for agricultural parts"
+    },
+    {
+      "id": "eriks",
+      "name": "ERIKS",
+      "type": "Competitor",
+      "country": "Netherlands",
+      "website": "https://www.eriks.com",
+      "product_categories": ["MRO", "Bearings", "Seals", "Valves"],
+      "notes": "Major competitor in industrial MRO - avoid direct competition"
+    },
+    {
+      "id": "rubix",
+      "name": "Rubix",
+      "type": "Competitor",
+      "country": "UK",
+      "website": "https://www.rubix.com",
+      "product_categories": ["MRO", "Industrial Supplies"],
+      "notes": "Europe's largest MRO distributor - focus on niches they don't serve"
+    }
+  ]
+}

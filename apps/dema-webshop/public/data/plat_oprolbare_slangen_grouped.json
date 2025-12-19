@@ -1,0 +1,1324 @@
+[
+  {
+    "group_id": "plat-oprolbare-slangen-images-plat-oprolbare-slangen-plat-oprolbare-slangen-p4-pvc-brandweerslang-webp",
+    "name": "PVC BRANDWEERSLANG (Page 4)",
+    "series_id": "pvc-brandweerslang",
+    "series_name": "PVC BRANDWEERSLANG",
+    "series_names": [
+      "PVC BRANDWEERSLANG"
+    ],
+    "family": "pvc-brandweerslang",
+    "catalog": "plat-oprolbare-slangen",
+    "source_pdf": "plat-oprolbare-slangen.pdf",
+    "brand": "Various",
+    "category": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92",
+    "variants": [
+      {
+        "sku": "DEMA019",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "size": "50",
+          "bestelnr": "DEMA019",
+          "binnen_dia_mm": "19",
+          "gewicht_g_m": "170",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA019",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "bestelnr": "DEMA019",
+          "binnen_dia_mm": "25",
+          "gewicht_g_m": "230",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA032",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "size": "50",
+          "bestelnr": "DEMA032",
+          "binnen_dia_mm": "32",
+          "gewicht_g_m": "250",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA032",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "bestelnr": "DEMA032",
+          "binnen_dia_mm": "35",
+          "gewicht_g_m": "290",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA038",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "size": "50",
+          "bestelnr": "DEMA038",
+          "binnen_dia_mm": "38",
+          "gewicht_g_m": "300",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA038",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "bestelnr": "DEMA038",
+          "binnen_dia_mm": "41",
+          "gewicht_g_m": "320",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA045",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "size": "50",
+          "bestelnr": "DEMA045",
+          "binnen_dia_mm": "45",
+          "gewicht_g_m": "350",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA050",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "bestelnr": "DEMA050",
+          "binnen_dia_mm": "50",
+          "gewicht_g_m": "410",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA054",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "size": "50",
+          "bestelnr": "DEMA054",
+          "binnen_dia_mm": "54",
+          "gewicht_g_m": "480",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA060",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "bestelnr": "DEMA060",
+          "binnen_dia_mm": "60",
+          "gewicht_g_m": "540",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA063",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "size": "50",
+          "bestelnr": "DEMA063",
+          "binnen_dia_mm": "63",
+          "gewicht_g_m": "590",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA070",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "bestelnr": "DEMA070",
+          "binnen_dia_mm": "70",
+          "gewicht_g_m": "620",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA075",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "size": "50",
+          "bestelnr": "DEMA075",
+          "binnen_dia_mm": "75",
+          "gewicht_g_m": "700",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA084",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "bestelnr": "DEMA084",
+          "binnen_dia_mm": "84",
+          "gewicht_g_m": "800",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA090",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "size": "50",
+          "bestelnr": "DEMA090",
+          "binnen_dia_mm": "90",
+          "gewicht_g_m": "860",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA100",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "bestelnr": "DEMA100",
+          "binnen_dia_mm": "100",
+          "gewicht_g_m": "1050",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA110",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "size": "50",
+          "bestelnr": "DEMA110",
+          "binnen_dia_mm": "110",
+          "gewicht_g_m": "1150",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA125",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "bestelnr": "DEMA125",
+          "binnen_dia_mm": "125",
+          "gewicht_g_m": "1350",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA150",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "size": "50",
+          "bestelnr": "DEMA150",
+          "binnen_dia_mm": "150",
+          "gewicht_g_m": "1600",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      },
+      {
+        "sku": "DEMA200",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supraklem_w2_p192_alu_guillemin_p131_storz_koppeling_p126_bauer_koppeling_p92",
+          "bestelnr": "DEMA200",
+          "binnen_dia_mm": "200",
+          "gewicht_g_m": "2400",
+          "material": null,
+          "sku_series": "dema"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 STORZ KOPPELING P126 BAUER KOPPELING P92"
+        }
+      }
+    ],
+    "images": [
+      "images/plat-oprolbare-slangen/plat-oprolbare-slangen__p4__pvc-brandweerslang.webp"
+    ],
+    "variant_count": 20,
+    "default_variant_sku": "DEMA019",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/plat-oprolbare-slangen/plat-oprolbare-slangen__p4__pvc-brandweerslang.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "plat-oprolbare-slangen-images-plat-oprolbare-slangen-plat-oprolbare-slangen-p2-pvc-brandweerslang-webp",
+    "name": "PVC BRANDWEERSLANG (Page 2)",
+    "series_id": "pvc-brandweerslang",
+    "series_name": "PVC BRANDWEERSLANG",
+    "series_names": [
+      "PVC BRANDWEERSLANG"
+    ],
+    "family": "pvc-brandweerslang",
+    "catalog": "plat-oprolbare-slangen",
+    "source_pdf": "plat-oprolbare-slangen.pdf",
+    "brand": "Various",
+    "category": "ALU DSP P137 STAALDRAAD",
+    "variants": [
+      {
+        "sku": "DEMAC04520",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "alu_dsp_p137_staaldraad",
+          "size": "20",
+          "bestelnr": "DEMAC04520",
+          "binnen_dia_mm": "45",
+          "gewicht_g_m": "346",
+          "material": "steel",
+          "sku_series": "demac"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nALU",
+          "application": "ALU DSP P137 STAALDRAAD"
+        }
+      },
+      {
+        "sku": "DEMAC04520",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "alu_dsp_p137_staaldraad",
+          "bestelnr": "DEMAC04520",
+          "binnen_dia_mm": "45",
+          "gewicht_g_m": "346",
+          "material": "steel",
+          "sku_series": "demac"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nALU",
+          "application": "ALU DSP P137 STAALDRAAD"
+        }
+      },
+      {
+        "sku": "DEMAC04530",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "alu_dsp_p137_staaldraad",
+          "size": "30",
+          "bestelnr": "DEMAC04530",
+          "binnen_dia_mm": "45",
+          "gewicht_g_m": "346",
+          "material": "steel",
+          "sku_series": "demac"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nALU",
+          "application": "ALU DSP P137 STAALDRAAD"
+        }
+      },
+      {
+        "sku": "DEMAC04540",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "alu_dsp_p137_staaldraad",
+          "bestelnr": "DEMAC04540",
+          "binnen_dia_mm": "45",
+          "gewicht_g_m": "346",
+          "material": "steel",
+          "sku_series": "demac"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nALU",
+          "application": "ALU DSP P137 STAALDRAAD"
+        }
+      },
+      {
+        "sku": "DEMAC07020",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "alu_dsp_p137_staaldraad",
+          "size": "20",
+          "bestelnr": "DEMAC07020",
+          "binnen_dia_mm": "70",
+          "gewicht_g_m": "590",
+          "material": "steel",
+          "sku_series": "demac"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nALU",
+          "application": "ALU DSP P137 STAALDRAAD"
+        }
+      },
+      {
+        "sku": "DEMAC07025",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "alu_dsp_p137_staaldraad",
+          "bestelnr": "DEMAC07025",
+          "binnen_dia_mm": "70",
+          "gewicht_g_m": "590",
+          "material": "steel",
+          "sku_series": "demac"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nALU",
+          "application": "ALU DSP P137 STAALDRAAD"
+        }
+      },
+      {
+        "sku": "DEMAC07030",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "alu_dsp_p137_staaldraad",
+          "size": "30",
+          "bestelnr": "DEMAC07030",
+          "binnen_dia_mm": "70",
+          "gewicht_g_m": "590",
+          "material": "steel",
+          "sku_series": "demac"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nALU",
+          "application": "ALU DSP P137 STAALDRAAD"
+        }
+      }
+    ],
+    "images": [
+      "images/plat-oprolbare-slangen/plat-oprolbare-slangen__p2__pvc-brandweerslang.webp"
+    ],
+    "variant_count": 7,
+    "default_variant_sku": "DEMAC04520",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/plat-oprolbare-slangen/plat-oprolbare-slangen__p2__pvc-brandweerslang.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "plat-oprolbare-slangen-images-plat-oprolbare-slangen-plat-oprolbare-slangen-p3-pvc-brandweerslang-webp",
+    "name": "PVC BRANDWEERSLANG (Page 3)",
+    "series_id": "pvc-brandweerslang",
+    "series_name": "PVC BRANDWEERSLANG",
+    "series_names": [
+      "PVC BRANDWEERSLANG"
+    ],
+    "family": "pvc-brandweerslang",
+    "catalog": "plat-oprolbare-slangen",
+    "source_pdf": "plat-oprolbare-slangen.pdf",
+    "brand": "Various",
+    "category": "SUPRAKLEM W2 P192 PP SLANGTULE P180 ALU GUILLEMIN P131 MESSING VAAREIND P184",
+    "variants": [
+      {
+        "sku": "DEMAL032",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "supraklem_w2_p192_pp_slangtule_p180_alu_guillemin_p131_messing_vaareind_p184",
+          "size": "50",
+          "bestelnr": "DEMAL032",
+          "binnen_dia_mm": "32",
+          "gewicht_g_m": "220",
+          "material": null,
+          "sku_series": "demal"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 PP SLANGTULE P180 ALU GUILLEMIN P131 MESSING VAAREIND P184"
+        }
+      },
+      {
+        "sku": "DEMAL032",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "supraklem_w2_p192_pp_slangtule_p180_alu_guillemin_p131_messing_vaareind_p184",
+          "bestelnr": "DEMAL032",
+          "binnen_dia_mm": "38",
+          "gewicht_g_m": "260",
+          "material": null,
+          "sku_series": "demal"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 PP SLANGTULE P180 ALU GUILLEMIN P131 MESSING VAAREIND P184"
+        }
+      },
+      {
+        "sku": "DEMAL045",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "supraklem_w2_p192_pp_slangtule_p180_alu_guillemin_p131_messing_vaareind_p184",
+          "size": "50",
+          "bestelnr": "DEMAL045",
+          "binnen_dia_mm": "45",
+          "gewicht_g_m": "320",
+          "material": null,
+          "sku_series": "demal"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 PP SLANGTULE P180 ALU GUILLEMIN P131 MESSING VAAREIND P184"
+        }
+      },
+      {
+        "sku": "DEMAL063",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "supraklem_w2_p192_pp_slangtule_p180_alu_guillemin_p131_messing_vaareind_p184",
+          "size": "50",
+          "bestelnr": "DEMAL063",
+          "binnen_dia_mm": "63",
+          "gewicht_g_m": "440",
+          "material": null,
+          "sku_series": "demal"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 PP SLANGTULE P180 ALU GUILLEMIN P131 MESSING VAAREIND P184"
+        }
+      },
+      {
+        "sku": "DEMAL075",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "supraklem_w2_p192_pp_slangtule_p180_alu_guillemin_p131_messing_vaareind_p184",
+          "bestelnr": "DEMAL075",
+          "binnen_dia_mm": "75",
+          "gewicht_g_m": "520",
+          "material": null,
+          "sku_series": "demal"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 PP SLANGTULE P180 ALU GUILLEMIN P131 MESSING VAAREIND P184"
+        }
+      },
+      {
+        "sku": "DEMAL090",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "supraklem_w2_p192_pp_slangtule_p180_alu_guillemin_p131_messing_vaareind_p184",
+          "size": "50",
+          "bestelnr": "DEMAL090",
+          "binnen_dia_mm": "90",
+          "gewicht_g_m": "650",
+          "material": null,
+          "sku_series": "demal"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 PP SLANGTULE P180 ALU GUILLEMIN P131 MESSING VAAREIND P184"
+        }
+      },
+      {
+        "sku": "DEMAL100",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "supraklem_w2_p192_pp_slangtule_p180_alu_guillemin_p131_messing_vaareind_p184",
+          "bestelnr": "DEMAL100",
+          "binnen_dia_mm": "100",
+          "gewicht_g_m": "750",
+          "material": null,
+          "sku_series": "demal"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 PP SLANGTULE P180 ALU GUILLEMIN P131 MESSING VAAREIND P184"
+        }
+      },
+      {
+        "sku": "DEMAL150",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "supraklem_w2_p192_pp_slangtule_p180_alu_guillemin_p131_messing_vaareind_p184",
+          "size": "50",
+          "bestelnr": "DEMAL150",
+          "binnen_dia_mm": "150",
+          "gewicht_g_m": "1200",
+          "material": null,
+          "sku_series": "demal"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 PP SLANGTULE P180 ALU GUILLEMIN P131 MESSING VAAREIND P184"
+        }
+      },
+      {
+        "sku": "DEMAL200",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "supraklem_w2_p192_pp_slangtule_p180_alu_guillemin_p131_messing_vaareind_p184",
+          "bestelnr": "DEMAL200",
+          "binnen_dia_mm": "200",
+          "gewicht_g_m": "2100",
+          "material": null,
+          "sku_series": "demal"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 PP SLANGTULE P180 ALU GUILLEMIN P131 MESSING VAAREIND P184"
+        }
+      }
+    ],
+    "images": [
+      "images/plat-oprolbare-slangen/plat-oprolbare-slangen__p3__pvc-brandweerslang.webp"
+    ],
+    "variant_count": 9,
+    "default_variant_sku": "DEMAL032",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/plat-oprolbare-slangen/plat-oprolbare-slangen__p3__pvc-brandweerslang.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "plat-oprolbare-slangen-images-plat-oprolbare-slangen-plat-oprolbare-slangen-p7-pvc-brandweerslang-webp",
+    "name": "PVC BRANDWEERSLANG (Page 7)",
+    "series_id": "pvc-brandweerslang",
+    "series_name": "PVC BRANDWEERSLANG",
+    "series_names": [
+      "PVC BRANDWEERSLANG"
+    ],
+    "family": "pvc-brandweerslang",
+    "catalog": "plat-oprolbare-slangen",
+    "source_pdf": "plat-oprolbare-slangen.pdf",
+    "brand": "Various",
+    "category": "KNELRING P129 KNELRINGKOPPELING P129",
+    "variants": [
+      {
+        "sku": "DEMAPUO100",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "knelring_p129_knelringkoppeling_p129",
+          "size": "200",
+          "bestelnr": "DEMAPUO100",
+          "binnen_dia_mm": "102 (4”)",
+          "wanddikte_mm": "4,3",
+          "material": null,
+          "sku_series": "demapuo"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nKNELRING",
+          "application": "KNELRING P129 KNELRINGKOPPELING P129"
+        }
+      },
+      {
+        "sku": "DEMAPUO114",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "knelring_p129_knelringkoppeling_p129",
+          "bestelnr": "DEMAPUO114",
+          "binnen_dia_mm": "114 (4 1/2”)",
+          "wanddikte_mm": "4,3",
+          "material": null,
+          "sku_series": "demapuo"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nKNELRING",
+          "application": "KNELRING P129 KNELRINGKOPPELING P129"
+        }
+      },
+      {
+        "sku": "DEMAPUO125",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "knelring_p129_knelringkoppeling_p129",
+          "size": "200",
+          "bestelnr": "DEMAPUO125",
+          "binnen_dia_mm": "127 (5”)",
+          "wanddikte_mm": "4,3",
+          "material": null,
+          "sku_series": "demapuo"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nKNELRING",
+          "application": "KNELRING P129 KNELRINGKOPPELING P129"
+        }
+      }
+    ],
+    "images": [
+      "images/plat-oprolbare-slangen/plat-oprolbare-slangen__p7__pvc-brandweerslang.webp"
+    ],
+    "variant_count": 3,
+    "default_variant_sku": "DEMAPUO100",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/plat-oprolbare-slangen/plat-oprolbare-slangen__p7__pvc-brandweerslang.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "plat-oprolbare-slangen-images-plat-oprolbare-slangen-plat-oprolbare-slangen-p8-pvc-brandweerslang-webp",
+    "name": "PVC BRANDWEERSLANG (Page 8)",
+    "series_id": "pvc-brandweerslang",
+    "series_name": "PVC BRANDWEERSLANG",
+    "series_names": [
+      "PVC BRANDWEERSLANG"
+    ],
+    "family": "pvc-brandweerslang",
+    "catalog": "plat-oprolbare-slangen",
+    "source_pdf": "plat-oprolbare-slangen.pdf",
+    "brand": "Various",
+    "category": "KNELRING P129 KNELRINGKOPPELING P129",
+    "variants": [
+      {
+        "sku": "DEMAPUS125",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "knelring_p129_knelringkoppeling_p129",
+          "size": "200",
+          "bestelnr": "DEMAPUS125",
+          "binnen_dia_mm": "127 (5”)",
+          "wanddikte_mm": "3,5",
+          "material": null,
+          "sku_series": "demapus"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nKNELRING",
+          "application": "KNELRING P129 KNELRINGKOPPELING P129"
+        }
+      },
+      {
+        "sku": "DEMAPUU150",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "knelring_p129_knelringkoppeling_p129",
+          "bestelnr": "DEMAPUU150",
+          "binnen_dia_mm": "150 (6”)",
+          "wanddikte_mm": "3,2",
+          "material": null,
+          "sku_series": "demapuu"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nKNELRING",
+          "application": "KNELRING P129 KNELRINGKOPPELING P129"
+        }
+      }
+    ],
+    "images": [
+      "images/plat-oprolbare-slangen/plat-oprolbare-slangen__p8__pvc-brandweerslang.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "DEMAPUS125",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/plat-oprolbare-slangen/plat-oprolbare-slangen__p8__pvc-brandweerslang.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "plat-oprolbare-slangen-images-plat-oprolbare-slangen-plat-oprolbare-slangen-p5-pvc-brandweerslang-webp",
+    "name": "PVC BRANDWEERSLANG (Page 5)",
+    "series_id": "pvc-brandweerslang",
+    "series_name": "PVC BRANDWEERSLANG",
+    "series_names": [
+      "PVC BRANDWEERSLANG"
+    ],
+    "family": "pvc-brandweerslang",
+    "catalog": "plat-oprolbare-slangen",
+    "source_pdf": "plat-oprolbare-slangen.pdf",
+    "brand": "Various",
+    "category": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102",
+    "variants": [
+      {
+        "sku": "DEMAR025",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "size": "120",
+          "bestelnr": "DEMAR025",
+          "binnen_dia_mm": "25",
+          "gewicht_g_m": "180",
+          "material": "steel",
+          "sku_series": "demar"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAR025",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "bestelnr": "DEMAR025",
+          "binnen_dia_mm": "32",
+          "gewicht_g_m": "230",
+          "material": "steel",
+          "sku_series": "demar"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAR040",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "size": "120",
+          "bestelnr": "DEMAR040",
+          "binnen_dia_mm": "38",
+          "gewicht_g_m": "310",
+          "material": "steel",
+          "sku_series": "demar"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAR040",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "bestelnr": "DEMAR040",
+          "binnen_dia_mm": "45",
+          "gewicht_g_m": "346",
+          "material": "steel",
+          "sku_series": "demar"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAR050",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "size": "40/120",
+          "bestelnr": "DEMAR050",
+          "binnen_dia_mm": "52",
+          "gewicht_g_m": "410",
+          "material": "steel",
+          "sku_series": "demar"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAR050",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "bestelnr": "DEMAR050",
+          "binnen_dia_mm": "65",
+          "gewicht_g_m": "580",
+          "material": "steel",
+          "sku_series": "demar"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAR070",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "size": "120",
+          "bestelnr": "DEMAR070",
+          "binnen_dia_mm": "70",
+          "gewicht_g_m": "590",
+          "material": "steel",
+          "sku_series": "demar"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAR070",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "bestelnr": "DEMAR070",
+          "binnen_dia_mm": "75",
+          "gewicht_g_m": "700",
+          "material": "steel",
+          "sku_series": "demar"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAR090",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "size": "20/120",
+          "bestelnr": "DEMAR090",
+          "binnen_dia_mm": "90",
+          "gewicht_g_m": "810",
+          "material": "steel",
+          "sku_series": "demar"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAR100",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "bestelnr": "DEMAR100",
+          "binnen_dia_mm": "102",
+          "gewicht_g_m": "850",
+          "material": "steel",
+          "sku_series": "demar"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAR125",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "size": "100",
+          "bestelnr": "DEMAR125",
+          "binnen_dia_mm": "127",
+          "gewicht_g_m": "1350",
+          "material": "steel",
+          "sku_series": "demar"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAR150",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "bestelnr": "DEMAR150",
+          "binnen_dia_mm": "152",
+          "gewicht_g_m": "1600",
+          "material": "steel",
+          "sku_series": "demar"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAR200",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "size": "100",
+          "bestelnr": "DEMAR200",
+          "binnen_dia_mm": "203",
+          "gewicht_g_m": "3000",
+          "material": "steel",
+          "sku_series": "demar"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAZ065*",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "size": "120",
+          "bestelnr": "DEMAZ065*",
+          "binnen_dia_mm": "65",
+          "gewicht_g_m": "580",
+          "material": "steel",
+          "sku_series": "demaz"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAZ075*",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "size": "120",
+          "bestelnr": "DEMAZ075*",
+          "binnen_dia_mm": "75",
+          "gewicht_g_m": "700",
+          "material": "steel",
+          "sku_series": "demaz"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAZ100*",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "size": "120",
+          "bestelnr": "DEMAZ100*",
+          "binnen_dia_mm": "102",
+          "gewicht_g_m": "850",
+          "material": "steel",
+          "sku_series": "demaz"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAZ150*",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "size": "100",
+          "bestelnr": "DEMAZ150*",
+          "binnen_dia_mm": "152",
+          "gewicht_g_m": "1600",
+          "material": "steel",
+          "sku_series": "demaz"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAZ250*",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_bauer_koppeling_p92_perrot_koppeling_p102",
+          "size": "100",
+          "bestelnr": "DEMAZ250*",
+          "binnen_dia_mm": "254",
+          "gewicht_g_m": "3750",
+          "material": "steel",
+          "sku_series": "demaz"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD BAUER KOPPELING P92 PERROT KOPPELING P102"
+        }
+      }
+    ],
+    "images": [
+      "images/plat-oprolbare-slangen/plat-oprolbare-slangen__p5__pvc-brandweerslang.webp"
+    ],
+    "variant_count": 18,
+    "default_variant_sku": "DEMAR025",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/plat-oprolbare-slangen/plat-oprolbare-slangen__p5__pvc-brandweerslang.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "plat-oprolbare-slangen-images-plat-oprolbare-slangen-plat-oprolbare-slangen-p6-pvc-brandweerslang-webp",
+    "name": "PVC BRANDWEERSLANG (Page 6)",
+    "series_id": "pvc-brandweerslang",
+    "series_name": "PVC BRANDWEERSLANG",
+    "series_names": [
+      "PVC BRANDWEERSLANG"
+    ],
+    "family": "pvc-brandweerslang",
+    "catalog": "plat-oprolbare-slangen",
+    "source_pdf": "plat-oprolbare-slangen.pdf",
+    "brand": "Various",
+    "category": "SUPRAKLEM W2 P192 STAALDRAAD STORZ KOPPELING P126 PERROT KOPPELING P102",
+    "variants": [
+      {
+        "sku": "DEMAZZ125",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_storz_koppeling_p126_perrot_koppeling_p102",
+          "size": "120",
+          "bestelnr": "DEMAZZ125",
+          "binnen_dia_mm": "127",
+          "gewicht_g_m": "1900",
+          "material": "steel",
+          "sku_series": "demazz"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD STORZ KOPPELING P126 PERROT KOPPELING P102"
+        }
+      },
+      {
+        "sku": "DEMAZZ150",
+        "label": "PVC BRANDWEERSLANG",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "supraklem_w2_p192_staaldraad_storz_koppeling_p126_perrot_koppeling_p102",
+          "bestelnr": "DEMAZZ150",
+          "binnen_dia_mm": "152",
+          "gewicht_g_m": "2150",
+          "material": "steel",
+          "sku_series": "demazz"
+        },
+        "attributes": {
+          "spec_product_variant": "MET\nSUPRAKLEM",
+          "application": "SUPRAKLEM W2 P192 STAALDRAAD STORZ KOPPELING P126 PERROT KOPPELING P102"
+        }
+      }
+    ],
+    "images": [
+      "images/plat-oprolbare-slangen/plat-oprolbare-slangen__p6__pvc-brandweerslang.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "DEMAZZ125",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/plat-oprolbare-slangen/plat-oprolbare-slangen__p6__pvc-brandweerslang.webp"
+      }
+    ]
+  }
+]

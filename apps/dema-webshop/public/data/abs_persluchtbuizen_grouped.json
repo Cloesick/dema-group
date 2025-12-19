@@ -1,0 +1,5436 @@
+[
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p5-abs-bocht-90-webp",
+    "name": "ABS BOCHT 90° (Page 5)",
+    "series_id": "abs-bocht-90",
+    "series_name": "ABS BOCHT 90°",
+    "series_names": [
+      "ABS BOCHT 90°"
+    ],
+    "family": "abs-bocht-90",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSB02090",
+        "label": "ABS BOCHT 90°",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm",
+          "angle": "90°",
+          "bestelnr": "ABSB02090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 20,
+          "sku_series": "absb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSB02590",
+        "label": "ABS BOCHT 90°",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25 mm",
+          "angle": "90°",
+          "bestelnr": "ABSB02590",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 25,
+          "sku_series": "absb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSB03290",
+        "label": "ABS BOCHT 90°",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm",
+          "angle": "90°",
+          "bestelnr": "ABSB03290",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 32,
+          "sku_series": "absb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSB04090",
+        "label": "ABS BOCHT 90°",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40 mm",
+          "angle": "90°",
+          "bestelnr": "ABSB04090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 40,
+          "sku_series": "absb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSB05090",
+        "label": "ABS BOCHT 90°",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm",
+          "angle": "90°",
+          "bestelnr": "ABSB05090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "absb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSB06390",
+        "label": "ABS BOCHT 90°",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm",
+          "angle": "90°",
+          "bestelnr": "ABSB06390",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 63,
+          "sku_series": "absb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSB07590",
+        "label": "ABS BOCHT 90°",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "75 mm",
+          "angle": "90°",
+          "bestelnr": "ABSB07590",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 75,
+          "sku_series": "absb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSB09090",
+        "label": "ABS BOCHT 90°",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90 mm",
+          "angle": "90°",
+          "bestelnr": "ABSB09090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 90,
+          "sku_series": "absb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSB11090",
+        "label": "ABS BOCHT 90°",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "110 mm",
+          "angle": "90°",
+          "bestelnr": "ABSB11090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 110,
+          "sku_series": "absb"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90.webp"
+    ],
+    "variant_count": 9,
+    "default_variant_sku": "ABSB02090",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p14-abs-bolkraan-webp",
+    "name": "ABS BOLKRAAN (Page 14)",
+    "series_id": "abs-bolkraan",
+    "series_name": "ABS BOLKRAAN",
+    "series_names": [
+      "ABS BOLKRAAN"
+    ],
+    "family": "abs-bolkraan",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSBK016",
+        "label": "ABS BOLKRAAN",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "16 mm",
+          "bestelnr": "ABSBK016",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 16,
+          "sku_series": "absbk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSBK020",
+        "label": "ABS BOLKRAAN",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm",
+          "bestelnr": "ABSBK020",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 20,
+          "sku_series": "absbk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSBK032",
+        "label": "ABS BOLKRAAN",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm",
+          "bestelnr": "ABSBK032",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 32,
+          "sku_series": "absbk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSBK040",
+        "label": "ABS BOLKRAAN",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40 mm",
+          "bestelnr": "ABSBK040",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 40,
+          "sku_series": "absbk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSBK050",
+        "label": "ABS BOLKRAAN",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm",
+          "bestelnr": "ABSBK050",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "absbk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSBK063",
+        "label": "ABS BOLKRAAN",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm",
+          "bestelnr": "ABSBK063",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 63,
+          "sku_series": "absbk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSBK075",
+        "label": "ABS BOLKRAAN",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "75 mm",
+          "bestelnr": "ABSBK075",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 75,
+          "sku_series": "absbk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSBK090",
+        "label": "ABS BOLKRAAN",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90 mm",
+          "angle": "90°",
+          "bestelnr": "ABSBK090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 90,
+          "sku_series": "absbk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSBK110",
+        "label": "ABS BOLKRAAN",
+        "page": 14,
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "110 mm",
+          "bestelnr": "ABSBK110",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 110,
+          "sku_series": "absbk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan.webp"
+    ],
+    "variant_count": 9,
+    "default_variant_sku": "ABSBK016",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p5-abs-drukbuis-pn10-webp",
+    "name": "ABS DRUKBUIS PN10 (Page 5)",
+    "series_id": "abs-drukbuis-pn10",
+    "series_name": "ABS DRUKBUIS PN10",
+    "series_names": [
+      "ABS DRUKBUIS PN10"
+    ],
+    "family": "abs-drukbuis-pn10",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMMOF - GLAD",
+    "variants": [
+      {
+        "sku": "ABSBU016",
+        "label": "ABS DRUKBUIS PN10",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "16 mm",
+          "bestelnr": "ABSBU016",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "wall_thickness_mm": "1,5",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 16,
+          "sku_series": "absbu"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU020",
+        "label": "ABS DRUKBUIS PN10",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm",
+          "bestelnr": "ABSBU020",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "wall_thickness_mm": "1,6",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 20,
+          "sku_series": "absbu"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU025",
+        "label": "ABS DRUKBUIS PN10",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25 mm",
+          "bestelnr": "ABSBU025",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "wall_thickness_mm": "1,9",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 25,
+          "sku_series": "absbu"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU032",
+        "label": "ABS DRUKBUIS PN10",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm",
+          "bestelnr": "ABSBU032",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "wall_thickness_mm": "2,1",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 32,
+          "sku_series": "absbu"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU040",
+        "label": "ABS DRUKBUIS PN10",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40 mm",
+          "bestelnr": "ABSBU040",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "wall_thickness_mm": "2,7",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 40,
+          "sku_series": "absbu"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU050",
+        "label": "ABS DRUKBUIS PN10",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm",
+          "bestelnr": "ABSBU050",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "wall_thickness_mm": "3,4",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 50,
+          "sku_series": "absbu"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU063",
+        "label": "ABS DRUKBUIS PN10",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm",
+          "bestelnr": "ABSBU063",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "wall_thickness_mm": "4,2",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 63,
+          "sku_series": "absbu"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU075",
+        "label": "ABS DRUKBUIS PN10",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "75 mm",
+          "bestelnr": "ABSBU075",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "wall_thickness_mm": "5,0",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 75,
+          "sku_series": "absbu"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU090",
+        "label": "ABS DRUKBUIS PN10",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90 mm",
+          "angle": "90°",
+          "bestelnr": "ABSBU090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "wall_thickness_mm": "6,0",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 90,
+          "sku_series": "absbu"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU110",
+        "label": "ABS DRUKBUIS PN10",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "110 mm",
+          "bestelnr": "ABSBU110",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "wall_thickness_mm": "7,3",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 110,
+          "sku_series": "absbu"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU125",
+        "label": "ABS DRUKBUIS PN10",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "125 mm",
+          "bestelnr": "ABSBU125",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "wall_thickness_mm": "8,2",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 125,
+          "sku_series": "absbu"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU140",
+        "label": "ABS DRUKBUIS PN10",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "140 mm",
+          "bestelnr": "ABSBU140",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "wall_thickness_mm": "9,3",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 140,
+          "sku_series": "absbu"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU160",
+        "label": "ABS DRUKBUIS PN10",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "160 mm",
+          "bestelnr": "ABSBU160",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "wall_thickness_mm": "10,5",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 160,
+          "sku_series": "absbu"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU200",
+        "label": "ABS DRUKBUIS PN10",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "200 mm",
+          "bestelnr": "ABSBU200",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "wall_thickness_mm": "13,2",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 200,
+          "sku_series": "absbu"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU225",
+        "label": "ABS DRUKBUIS PN10",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "225 mm",
+          "bestelnr": "ABSBU225",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "wall_thickness_mm": "14,8",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 225,
+          "sku_series": "absbu"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU250",
+        "label": "ABS DRUKBUIS PN10",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "250 mm",
+          "bestelnr": "ABSBU250",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "wall_thickness_mm": "16,1",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "aanzuigdiepte_m": "5 m",
+          "diameter_mm": 250,
+          "sku_series": "absbu"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-drukbuis-pn10.webp"
+    ],
+    "variant_count": 16,
+    "default_variant_sku": "ABSBU016",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-drukbuis-pn10.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p11-abs-inljmring-webp",
+    "name": "ABS INLJMRING (Page 11)",
+    "series_id": "abs-inljmring",
+    "series_name": "ABS INLJMRING",
+    "series_names": [
+      "ABS INLJMRING"
+    ],
+    "family": "abs-inljmring",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMSPIE",
+    "variants": [
+      {
+        "sku": "ABSI020016",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm x 16 mm",
+          "bestelnr": "ABSI020016",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 20,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI025020",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25 mm x 20 mm",
+          "bestelnr": "ABSI025020",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 25,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI032016",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm x 16 mm",
+          "bestelnr": "ABSI032016",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 32,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI032025",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm x 25 mm",
+          "bestelnr": "ABSI032025",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 32,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI040032",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40 mm x 32 mm",
+          "bestelnr": "ABSI040032",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 40,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI050020",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm x 20 mm",
+          "bestelnr": "ABSI050020",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 50,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI050025",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm x 25 mm",
+          "bestelnr": "ABSI050025",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 50,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI050032",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm x 32 mm",
+          "bestelnr": "ABSI050032",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 50,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI050040",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm x 40 mm",
+          "bestelnr": "ABSI050040",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 50,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI063025",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm x 25 mm",
+          "bestelnr": "ABSI063025",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 63,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI063032",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm x 32 mm",
+          "bestelnr": "ABSI063032",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 63,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI063050",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm x 50 mm",
+          "bestelnr": "ABSI063050",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 63,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI075063",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "75 mm x 63 mm",
+          "bestelnr": "ABSI075063",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 75,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI090050",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90 mm x 50 mm",
+          "bestelnr": "ABSI090050",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 90,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI090063",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90 mm x 63 mm",
+          "bestelnr": "ABSI090063",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 90,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI090075",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90 mm x 75 mm",
+          "bestelnr": "ABSI090075",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 90,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI110063",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "110 mm x 63 mm",
+          "bestelnr": "ABSI110063",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 110,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI110090",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "110 mm x 90 mm",
+          "angle": "90°",
+          "bestelnr": "ABSI110090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 110,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI125110",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "125 mm x110 mm",
+          "bestelnr": "ABSI125110",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 125,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI140125",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "140 mm x125 mm",
+          "bestelnr": "ABSI140125",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 140,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI160090",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "160 mm x 90 mm",
+          "angle": "90°",
+          "bestelnr": "ABSI160090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 160,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI160110",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "160 mm x110 mm",
+          "bestelnr": "ABSI160110",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 160,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI160140",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "160 mm x140 mm",
+          "bestelnr": "ABSI160140",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 160,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI200160",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "200 mm x160 mm",
+          "bestelnr": "ABSI200160",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 200,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI225160",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "225 mm x160 mm",
+          "bestelnr": "ABSI225160",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 225,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI225200",
+        "label": "ABS INLJMRING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "225 mm x200 mm",
+          "bestelnr": "ABSI225200",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 225,
+          "sku_series": "absi"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring.webp"
+    ],
+    "variant_count": 26,
+    "default_variant_sku": "ABSI020016",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p9-abs-inzet-draadsok-webp",
+    "name": "ABS INZET DRAADSOK (Page 9)",
+    "series_id": "abs-inzet-draadsok",
+    "series_name": "ABS INZET DRAADSOK",
+    "series_names": [
+      "ABS INZET DRAADSOK"
+    ],
+    "family": "abs-inzet-draadsok",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMSPIE - BINNENDRAAD",
+    "variants": [
+      {
+        "sku": "ABSID01612",
+        "label": "ABS INZET DRAADSOK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "16 mm x 12 mm x 3/8\"",
+          "bestelnr": "ABSID01612",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 16,
+          "sku_series": "absid"
+        },
+        "attributes": {
+          "application": "LIJMSPIE - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSID02016",
+        "label": "ABS INZET DRAADSOK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm x 16 mm x 1/2\"",
+          "bestelnr": "ABSID02016",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 20,
+          "sku_series": "absid"
+        },
+        "attributes": {
+          "application": "LIJMSPIE - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSID02520",
+        "label": "ABS INZET DRAADSOK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25 mm x 20 mm x 3/4\"",
+          "bestelnr": "ABSID02520",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 25,
+          "sku_series": "absid"
+        },
+        "attributes": {
+          "application": "LIJMSPIE - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSID03225",
+        "label": "ABS INZET DRAADSOK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm x 25 mm x 1\"",
+          "bestelnr": "ABSID03225",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 32,
+          "sku_series": "absid"
+        },
+        "attributes": {
+          "application": "LIJMSPIE - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSID04032",
+        "label": "ABS INZET DRAADSOK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40 mm x 32 mm x 5/4\"",
+          "bestelnr": "ABSID04032",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 40,
+          "sku_series": "absid"
+        },
+        "attributes": {
+          "application": "LIJMSPIE - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSID05040",
+        "label": "ABS INZET DRAADSOK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm x 40 mm x 6/4\"",
+          "bestelnr": "ABSID05040",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 50,
+          "sku_series": "absid"
+        },
+        "attributes": {
+          "application": "LIJMSPIE - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSID06350",
+        "label": "ABS INZET DRAADSOK",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm x 50 mm x 2\"",
+          "bestelnr": "ABSID06350",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 63,
+          "sku_series": "absid"
+        },
+        "attributes": {
+          "application": "LIJMSPIE - BINNENDRAAD"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok.webp"
+    ],
+    "variant_count": 7,
+    "default_variant_sku": "ABSID01612",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p6-abs-knie-45-webp",
+    "name": "ABS KNIE 45° (Page 6)",
+    "series_id": "abs-knie-45",
+    "series_name": "ABS KNIE 45°",
+    "series_names": [
+      "ABS KNIE 45°"
+    ],
+    "family": "abs-knie-45",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSK01645",
+        "label": "ABS KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "16 mm",
+          "angle": "45°",
+          "bestelnr": "ABSK01645",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 16,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK02045",
+        "label": "ABS KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm",
+          "angle": "45°",
+          "bestelnr": "ABSK02045",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 20,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK02545",
+        "label": "ABS KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25 mm",
+          "angle": "45°",
+          "bestelnr": "ABSK02545",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 25,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK03245",
+        "label": "ABS KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm",
+          "angle": "45°",
+          "bestelnr": "ABSK03245",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 32,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK04045",
+        "label": "ABS KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40 mm",
+          "angle": "45°",
+          "bestelnr": "ABSK04045",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 40,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK05045",
+        "label": "ABS KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm",
+          "angle": "45°",
+          "bestelnr": "ABSK05045",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK06345",
+        "label": "ABS KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm",
+          "angle": "45°",
+          "bestelnr": "ABSK06345",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 63,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK07545",
+        "label": "ABS KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "75 mm",
+          "angle": "45°",
+          "bestelnr": "ABSK07545",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 75,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK09045",
+        "label": "ABS KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90 mm",
+          "angle": "45°",
+          "bestelnr": "ABSK09045",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 90,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK11045",
+        "label": "ABS KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "110 mm",
+          "angle": "45°",
+          "bestelnr": "ABSK11045",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 110,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK12545",
+        "label": "ABS KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "125 mm",
+          "angle": "45°",
+          "bestelnr": "ABSK12545",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 125,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK14045",
+        "label": "ABS KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "140 mm",
+          "angle": "45°",
+          "bestelnr": "ABSK14045",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 140,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK16045",
+        "label": "ABS KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "160 mm",
+          "angle": "45°",
+          "bestelnr": "ABSK16045",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 160,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK20045",
+        "label": "ABS KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "200 mm",
+          "angle": "45°",
+          "bestelnr": "ABSK20045",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 200,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK22545",
+        "label": "ABS KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "225 mm",
+          "angle": "45°",
+          "bestelnr": "ABSK22545",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 225,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK25045",
+        "label": "ABS KNIE 45°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "250 mm",
+          "angle": "45°",
+          "bestelnr": "ABSK25045",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 250,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45.webp"
+    ],
+    "variant_count": 16,
+    "default_variant_sku": "ABSK01645",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p6-abs-knie-90-webp",
+    "name": "ABS KNIE 90° (Page 6)",
+    "series_id": "abs-knie-90",
+    "series_name": "ABS KNIE 90°",
+    "series_names": [
+      "ABS KNIE 90°"
+    ],
+    "family": "abs-knie-90",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSK01690",
+        "label": "ABS KNIE 90°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "16 mm",
+          "angle": "90°",
+          "bestelnr": "ABSK01690",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 16,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK02090",
+        "label": "ABS KNIE 90°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm",
+          "angle": "90°",
+          "bestelnr": "ABSK02090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 20,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK02590",
+        "label": "ABS KNIE 90°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25 mm",
+          "angle": "90°",
+          "bestelnr": "ABSK02590",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 25,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK03290",
+        "label": "ABS KNIE 90°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm",
+          "angle": "90°",
+          "bestelnr": "ABSK03290",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 32,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK04090",
+        "label": "ABS KNIE 90°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40 mm",
+          "angle": "90°",
+          "bestelnr": "ABSK04090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 40,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK05090",
+        "label": "ABS KNIE 90°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm",
+          "angle": "90°",
+          "bestelnr": "ABSK05090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK06390",
+        "label": "ABS KNIE 90°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm",
+          "angle": "90°",
+          "bestelnr": "ABSK06390",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 63,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK07590",
+        "label": "ABS KNIE 90°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "75 mm",
+          "angle": "90°",
+          "bestelnr": "ABSK07590",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 75,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK09090",
+        "label": "ABS KNIE 90°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90 mm",
+          "angle": "90°",
+          "bestelnr": "ABSK09090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 90,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK11090",
+        "label": "ABS KNIE 90°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "110 mm",
+          "angle": "90°",
+          "bestelnr": "ABSK11090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 110,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK12590",
+        "label": "ABS KNIE 90°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "125 mm",
+          "angle": "90°",
+          "bestelnr": "ABSK12590",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 125,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK14090",
+        "label": "ABS KNIE 90°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "140 mm",
+          "angle": "90°",
+          "bestelnr": "ABSK14090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 140,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK16090",
+        "label": "ABS KNIE 90°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "160 mm",
+          "angle": "90°",
+          "bestelnr": "ABSK16090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 160,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK20090",
+        "label": "ABS KNIE 90°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "200 mm",
+          "angle": "90°",
+          "bestelnr": "ABSK20090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 200,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK22590",
+        "label": "ABS KNIE 90°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "225 mm",
+          "angle": "90°",
+          "bestelnr": "ABSK22590",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 225,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK25090",
+        "label": "ABS KNIE 90°",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "250 mm",
+          "angle": "90°",
+          "bestelnr": "ABSK25090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 250,
+          "sku_series": "absk"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-90.webp"
+    ],
+    "variant_count": 16,
+    "default_variant_sku": "ABSK01690",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-90.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p13-abs-kraagbus-webp",
+    "name": "ABS KRAAGBUS (Page 13)",
+    "series_id": "abs-kraagbus",
+    "series_name": "ABS KRAAGBUS",
+    "series_names": [
+      "ABS KRAAGBUS"
+    ],
+    "family": "abs-kraagbus",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSKR020",
+        "label": "ABS KRAAGBUS",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm",
+          "bestelnr": "ABSKR020",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 20,
+          "sku_series": "abskr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR025",
+        "label": "ABS KRAAGBUS",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25 mm",
+          "bestelnr": "ABSKR025",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 25,
+          "sku_series": "abskr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR032",
+        "label": "ABS KRAAGBUS",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm",
+          "bestelnr": "ABSKR032",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 32,
+          "sku_series": "abskr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR040",
+        "label": "ABS KRAAGBUS",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40 mm",
+          "bestelnr": "ABSKR040",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 40,
+          "sku_series": "abskr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR050",
+        "label": "ABS KRAAGBUS",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm",
+          "bestelnr": "ABSKR050",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "abskr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR063",
+        "label": "ABS KRAAGBUS",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm",
+          "bestelnr": "ABSKR063",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 63,
+          "sku_series": "abskr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR075",
+        "label": "ABS KRAAGBUS",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "75 mm",
+          "bestelnr": "ABSKR075",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 75,
+          "sku_series": "abskr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR090",
+        "label": "ABS KRAAGBUS",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90 mm",
+          "angle": "90°",
+          "bestelnr": "ABSKR090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 90,
+          "sku_series": "abskr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR110",
+        "label": "ABS KRAAGBUS",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "110 mm",
+          "bestelnr": "ABSKR110",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 110,
+          "sku_series": "abskr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR125",
+        "label": "ABS KRAAGBUS",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "125 mm",
+          "bestelnr": "ABSKR125",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 125,
+          "sku_series": "abskr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR140",
+        "label": "ABS KRAAGBUS",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "140 mm",
+          "bestelnr": "ABSKR140",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 140,
+          "sku_series": "abskr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR160",
+        "label": "ABS KRAAGBUS",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "160 mm",
+          "bestelnr": "ABSKR160",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 160,
+          "sku_series": "abskr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR200",
+        "label": "ABS KRAAGBUS",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "200 mm",
+          "bestelnr": "ABSKR200",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 200,
+          "sku_series": "abskr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR225",
+        "label": "ABS KRAAGBUS",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "225 mm",
+          "bestelnr": "ABSKR225",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 225,
+          "sku_series": "abskr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR250",
+        "label": "ABS KRAAGBUS",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "250 mm",
+          "bestelnr": "ABSKR250",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 250,
+          "sku_series": "abskr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus.webp"
+    ],
+    "variant_count": 15,
+    "default_variant_sku": "ABSKR020",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p10-abs-lijmkap-webp",
+    "name": "ABS LIJMKAP (Page 10)",
+    "series_id": "abs-lijmkap",
+    "series_name": "ABS LIJMKAP",
+    "series_names": [
+      "ABS LIJMKAP"
+    ],
+    "family": "abs-lijmkap",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSLK016",
+        "label": "ABS LIJMKAP",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "16 mm",
+          "bestelnr": "ABSLK016",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 16,
+          "sku_series": "abslk"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK020",
+        "label": "ABS LIJMKAP",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm",
+          "bestelnr": "ABSLK020",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 20,
+          "sku_series": "abslk"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK025",
+        "label": "ABS LIJMKAP",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25 mm",
+          "bestelnr": "ABSLK025",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 25,
+          "sku_series": "abslk"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK032",
+        "label": "ABS LIJMKAP",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm",
+          "bestelnr": "ABSLK032",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 32,
+          "sku_series": "abslk"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK040",
+        "label": "ABS LIJMKAP",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40 mm",
+          "bestelnr": "ABSLK040",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 40,
+          "sku_series": "abslk"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK050",
+        "label": "ABS LIJMKAP",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm",
+          "bestelnr": "ABSLK050",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "abslk"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK063",
+        "label": "ABS LIJMKAP",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm",
+          "bestelnr": "ABSLK063",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 63,
+          "sku_series": "abslk"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK075",
+        "label": "ABS LIJMKAP",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "75 mm",
+          "bestelnr": "ABSLK075",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 75,
+          "sku_series": "abslk"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK090",
+        "label": "ABS LIJMKAP",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90 mm",
+          "angle": "90°",
+          "bestelnr": "ABSLK090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 90,
+          "sku_series": "abslk"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK110",
+        "label": "ABS LIJMKAP",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "110 mm",
+          "bestelnr": "ABSLK110",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 110,
+          "sku_series": "abslk"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap.webp"
+    ],
+    "variant_count": 10,
+    "default_variant_sku": "ABSLK016",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p8-abs-mof-webp",
+    "name": "ABS MOF (Page 8)",
+    "series_id": "abs-mof",
+    "series_name": "ABS MOF",
+    "series_names": [
+      "ABS MOF"
+    ],
+    "family": "abs-mof",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSM016",
+        "label": "ABS MOF",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "16 mm",
+          "bestelnr": "ABSM016",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 16,
+          "sku_series": "absm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM020",
+        "label": "ABS MOF",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm",
+          "bestelnr": "ABSM020",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 20,
+          "sku_series": "absm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM025",
+        "label": "ABS MOF",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25 mm",
+          "bestelnr": "ABSM025",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 25,
+          "sku_series": "absm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM032",
+        "label": "ABS MOF",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm",
+          "bestelnr": "ABSM032",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 32,
+          "sku_series": "absm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM040",
+        "label": "ABS MOF",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40 mm",
+          "bestelnr": "ABSM040",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 40,
+          "sku_series": "absm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM050",
+        "label": "ABS MOF",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm",
+          "bestelnr": "ABSM050",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "absm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM063",
+        "label": "ABS MOF",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm",
+          "bestelnr": "ABSM063",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 63,
+          "sku_series": "absm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM075",
+        "label": "ABS MOF",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "75 mm",
+          "bestelnr": "ABSM075",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 75,
+          "sku_series": "absm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM090",
+        "label": "ABS MOF",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90 mm",
+          "angle": "90°",
+          "bestelnr": "ABSM090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 90,
+          "sku_series": "absm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM110",
+        "label": "ABS MOF",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "110 mm",
+          "bestelnr": "ABSM110",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 110,
+          "sku_series": "absm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM125",
+        "label": "ABS MOF",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "125 mm",
+          "bestelnr": "ABSM125",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 125,
+          "sku_series": "absm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM140",
+        "label": "ABS MOF",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "140 mm",
+          "bestelnr": "ABSM140",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 140,
+          "sku_series": "absm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM160",
+        "label": "ABS MOF",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "160 mm",
+          "bestelnr": "ABSM160",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 160,
+          "sku_series": "absm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM200",
+        "label": "ABS MOF",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "200 mm",
+          "bestelnr": "ABSM200",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 200,
+          "sku_series": "absm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM225",
+        "label": "ABS MOF",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "225 mm",
+          "bestelnr": "ABSM225",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 225,
+          "sku_series": "absm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM250",
+        "label": "ABS MOF",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "250 mm",
+          "bestelnr": "ABSM250",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 250,
+          "sku_series": "absm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof.webp"
+    ],
+    "variant_count": 16,
+    "default_variant_sku": "ABSM016",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p10-abs-puntstuk-webp",
+    "name": "ABS PUNTSTUK (Page 10)",
+    "series_id": "abs-puntstuk",
+    "series_name": "ABS PUNTSTUK",
+    "series_names": [
+      "ABS PUNTSTUK"
+    ],
+    "family": "abs-puntstuk",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMMOF - BUITENDRAAD",
+    "variants": [
+      {
+        "sku": "ABSP020161",
+        "label": "ABS PUNTSTUK",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm x 16 mm x 1/2\"",
+          "bestelnr": "ABSP020161",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 20,
+          "sku_series": "absp"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP020163",
+        "label": "ABS PUNTSTUK",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm x 16 mm x 3/8\"",
+          "bestelnr": "ABSP020163",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 20,
+          "sku_series": "absp"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP025201",
+        "label": "ABS PUNTSTUK",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25 mm x 20 mm x 1/2\"",
+          "bestelnr": "ABSP025201",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 25,
+          "sku_series": "absp"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP025203",
+        "label": "ABS PUNTSTUK",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25 mm x 20 mm x 3/4\"",
+          "bestelnr": "ABSP025203",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 25,
+          "sku_series": "absp"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP032251",
+        "label": "ABS PUNTSTUK",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm x 25 mm x 1\"",
+          "bestelnr": "ABSP032251",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 32,
+          "sku_series": "absp"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP032253",
+        "label": "ABS PUNTSTUK",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm x 25 mm x 3/4\"",
+          "bestelnr": "ABSP032253",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 32,
+          "sku_series": "absp"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP040321",
+        "label": "ABS PUNTSTUK",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40 mm x 32 mm x 1\"",
+          "bestelnr": "ABSP040321",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 40,
+          "sku_series": "absp"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP040325",
+        "label": "ABS PUNTSTUK",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40 mm x 32 mm x 5/4\"",
+          "bestelnr": "ABSP040325",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 40,
+          "sku_series": "absp"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP050405",
+        "label": "ABS PUNTSTUK",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm x 40 mm x 5/4\"",
+          "bestelnr": "ABSP050405",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "absp"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP050406",
+        "label": "ABS PUNTSTUK",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm x 40 mm x 6/4\"",
+          "bestelnr": "ABSP050406",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "absp"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP063502",
+        "label": "ABS PUNTSTUK",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm x 50 mm x 2\"",
+          "bestelnr": "ABSP063502",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 63,
+          "sku_series": "absp"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP063506",
+        "label": "ABS PUNTSTUK",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm x 50 mm x 6/4\"",
+          "bestelnr": "ABSP063506",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 63,
+          "sku_series": "absp"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP075632",
+        "label": "ABS PUNTSTUK",
+        "page": 10,
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "75 mm x 63 mm x 2\"",
+          "bestelnr": "ABSP075632",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 75,
+          "sku_series": "absp"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-puntstuk.webp"
+    ],
+    "variant_count": 13,
+    "default_variant_sku": "ABSP020161",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-puntstuk.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p11-abs-spuitgietkoppeling-webp",
+    "name": "ABS SPUITGIETKOPPELING (Page 11)",
+    "series_id": "abs-spuitgietkoppeling",
+    "series_name": "ABS SPUITGIETKOPPELING",
+    "series_names": [
+      "ABS SPUITGIETKOPPELING"
+    ],
+    "family": "abs-spuitgietkoppeling",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSR016",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "16 mm",
+          "bestelnr": "ABSR016",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 16,
+          "sku_series": "absr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR020",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm",
+          "bestelnr": "ABSR020",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 20,
+          "sku_series": "absr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR025",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25 mm",
+          "bestelnr": "ABSR025",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 25,
+          "sku_series": "absr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR032",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm",
+          "bestelnr": "ABSR032",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 32,
+          "sku_series": "absr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR040",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40 mm",
+          "bestelnr": "ABSR040",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 40,
+          "sku_series": "absr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR050",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm",
+          "bestelnr": "ABSR050",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "absr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR063",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm",
+          "bestelnr": "ABSR063",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 63,
+          "sku_series": "absr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR075",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "75 mm",
+          "bestelnr": "ABSR075",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 75,
+          "sku_series": "absr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR090",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90 mm",
+          "angle": "90°",
+          "bestelnr": "ABSR090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 90,
+          "sku_series": "absr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR110",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "110 mm",
+          "bestelnr": "ABSR110",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 110,
+          "sku_series": "absr"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-spuitgietkoppeling.webp"
+    ],
+    "variant_count": 10,
+    "default_variant_sku": "ABSR016",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-spuitgietkoppeling.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p12-abs-drukbuizen-hulpstukken-webp",
+    "name": "ABS DRUKBUIZEN & HULPSTUKKEN (Page 12)",
+    "series_id": "abs-drukbuizen-hulpstukken",
+    "series_name": "ABS DRUKBUIZEN & HULPSTUKKEN",
+    "series_names": [
+      "ABS DRUKBUIZEN & HULPSTUKKEN"
+    ],
+    "family": "abs-drukbuizen-hulpstukken",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMMOF - BINNENDRAAD",
+    "variants": [
+      {
+        "sku": "ABSRI01638",
+        "label": "ABS DRUKBUIZEN & HULPSTUKKEN",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "16 mm x 3/8\"",
+          "bestelnr": "ABSRI01638",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 16,
+          "sku_series": "absri"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRI02012",
+        "label": "ABS DRUKBUIZEN & HULPSTUKKEN",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm x 1/2\"",
+          "bestelnr": "ABSRI02012",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 20,
+          "sku_series": "absri"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRI02534",
+        "label": "ABS DRUKBUIZEN & HULPSTUKKEN",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25 mm x 3/4\"",
+          "bestelnr": "ABSRI02534",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 25,
+          "sku_series": "absri"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRI0321",
+        "label": "ABS DRUKBUIZEN & HULPSTUKKEN",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm x 1\"",
+          "bestelnr": "ABSRI0321",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 32,
+          "sku_series": "absri"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRI04054",
+        "label": "ABS DRUKBUIZEN & HULPSTUKKEN",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40 mm x 5/4\"",
+          "bestelnr": "ABSRI04054",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 40,
+          "sku_series": "absri"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRI05064",
+        "label": "ABS DRUKBUIZEN & HULPSTUKKEN",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm x 6/4\"",
+          "bestelnr": "ABSRI05064",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "absri"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRI0632",
+        "label": "ABS DRUKBUIZEN & HULPSTUKKEN",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm x 2\"",
+          "bestelnr": "ABSRI0632",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 63,
+          "sku_series": "absri"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRU01638",
+        "label": "ABS DRUKBUIZEN & HULPSTUKKEN",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "16 mm x 3/8\"",
+          "bestelnr": "ABSRU01638",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 16,
+          "sku_series": "absru"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRU02012",
+        "label": "ABS DRUKBUIZEN & HULPSTUKKEN",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm x 1/2\"",
+          "bestelnr": "ABSRU02012",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 20,
+          "sku_series": "absru"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRU02534",
+        "label": "ABS DRUKBUIZEN & HULPSTUKKEN",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25 mm x 3/4\"",
+          "bestelnr": "ABSRU02534",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 25,
+          "sku_series": "absru"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRU0321",
+        "label": "ABS DRUKBUIZEN & HULPSTUKKEN",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm x 1\"",
+          "bestelnr": "ABSRU0321",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 32,
+          "sku_series": "absru"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRU04054",
+        "label": "ABS DRUKBUIZEN & HULPSTUKKEN",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40 mm x 5/4\"",
+          "bestelnr": "ABSRU04054",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 40,
+          "sku_series": "absru"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRU05064",
+        "label": "ABS DRUKBUIZEN & HULPSTUKKEN",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm x 6/4\"",
+          "bestelnr": "ABSRU05064",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "absru"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRU0632",
+        "label": "ABS DRUKBUIZEN & HULPSTUKKEN",
+        "page": 12,
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm x 2\"",
+          "bestelnr": "ABSRU0632",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 63,
+          "sku_series": "absru"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__abs-drukbuizen-hulpstukken.webp"
+    ],
+    "variant_count": 14,
+    "default_variant_sku": "ABSRI01638",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__abs-drukbuizen-hulpstukken.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p7-abs-t-stuk-90-webp",
+    "name": "ABS T-STUK 90° (Page 7)",
+    "series_id": "abs-t-stuk-90",
+    "series_name": "ABS T-STUK 90°",
+    "series_names": [
+      "ABS T-STUK 90°"
+    ],
+    "family": "abs-t-stuk-90",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABST01690",
+        "label": "ABS T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "16 mm",
+          "angle": "90°",
+          "bestelnr": "ABST01690",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 16,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST02090",
+        "label": "ABS T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm",
+          "angle": "90°",
+          "bestelnr": "ABST02090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 20,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST02590",
+        "label": "ABS T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25 mm",
+          "angle": "90°",
+          "bestelnr": "ABST02590",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 25,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST03290",
+        "label": "ABS T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm",
+          "angle": "90°",
+          "bestelnr": "ABST03290",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 32,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST04090",
+        "label": "ABS T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40 mm",
+          "angle": "90°",
+          "bestelnr": "ABST04090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 40,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST05090",
+        "label": "ABS T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm",
+          "angle": "90°",
+          "bestelnr": "ABST05090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST06390",
+        "label": "ABS T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm",
+          "angle": "90°",
+          "bestelnr": "ABST06390",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 63,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST07590",
+        "label": "ABS T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "75 mm",
+          "angle": "90°",
+          "bestelnr": "ABST07590",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 75,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST09090",
+        "label": "ABS T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90 mm",
+          "angle": "90°",
+          "bestelnr": "ABST09090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 90,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST11090",
+        "label": "ABS T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "110 mm",
+          "angle": "90°",
+          "bestelnr": "ABST11090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 110,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST12590",
+        "label": "ABS T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "125 mm",
+          "angle": "90°",
+          "bestelnr": "ABST12590",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 125,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST14090",
+        "label": "ABS T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "140 mm",
+          "angle": "90°",
+          "bestelnr": "ABST14090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 140,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST16090",
+        "label": "ABS T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "160 mm",
+          "angle": "90°",
+          "bestelnr": "ABST16090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 160,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST20090",
+        "label": "ABS T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "200 mm",
+          "angle": "90°",
+          "bestelnr": "ABST20090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 200,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST22590",
+        "label": "ABS T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "225 mm",
+          "angle": "90°",
+          "bestelnr": "ABST22590",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 225,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST25090",
+        "label": "ABS T-STUK 90°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "250 mm",
+          "angle": "90°",
+          "bestelnr": "ABST25090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 250,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90.webp"
+    ],
+    "variant_count": 16,
+    "default_variant_sku": "ABST01690",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p7-abs-t-stuk-45-webp",
+    "name": "ABS T-STUK 45° (Page 7)",
+    "series_id": "abs-t-stuk-45",
+    "series_name": "ABS T-STUK 45°",
+    "series_names": [
+      "ABS T-STUK 45°"
+    ],
+    "family": "abs-t-stuk-45",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABST02045",
+        "label": "ABS T-STUK 45°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm",
+          "angle": "45°",
+          "bestelnr": "ABST02045",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 20,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST02545",
+        "label": "ABS T-STUK 45°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25 mm",
+          "angle": "45°",
+          "bestelnr": "ABST02545",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 25,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST03245",
+        "label": "ABS T-STUK 45°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm",
+          "angle": "45°",
+          "bestelnr": "ABST03245",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 32,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST04045",
+        "label": "ABS T-STUK 45°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40 mm",
+          "angle": "45°",
+          "bestelnr": "ABST04045",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 40,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST05045",
+        "label": "ABS T-STUK 45°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50 mm",
+          "angle": "45°",
+          "bestelnr": "ABST05045",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST06345",
+        "label": "ABS T-STUK 45°",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63 mm",
+          "angle": "45°",
+          "bestelnr": "ABST06345",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 63,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-45.webp"
+    ],
+    "variant_count": 6,
+    "default_variant_sku": "ABST02045",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-45.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p8-abs-verloop-t-stuk-90-webp",
+    "name": "ABS VERLOOP T-STUK 90° (Page 8)",
+    "series_id": "abs-verloop-t-stuk-90",
+    "series_name": "ABS VERLOOP T-STUK 90°",
+    "series_names": [
+      "ABS VERLOOP T-STUK 90°"
+    ],
+    "family": "abs-verloop-t-stuk-90",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABST025209",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25mm x 20mm x 25mm",
+          "angle": "90°",
+          "bestelnr": "ABST025209",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 25,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST032209",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32mm x 20mm x 32mm",
+          "angle": "90°",
+          "bestelnr": "ABST032209",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 32,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST032259",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32mm x 25mm x 32mm",
+          "angle": "90°",
+          "bestelnr": "ABST032259",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 32,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST040209",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40mm x 20mm x 40mm",
+          "angle": "90°",
+          "bestelnr": "ABST040209",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 40,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST040259",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40mm x 25mm x 40mm",
+          "angle": "90°",
+          "bestelnr": "ABST040259",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 40,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST050209",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50mm x 20mm x 50mm",
+          "angle": "90°",
+          "bestelnr": "ABST050209",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST050259",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50mm x 25mm x 50mm",
+          "angle": "90°",
+          "bestelnr": "ABST050259",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST050329",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50mm x 32mm x 50mm",
+          "angle": "90°",
+          "bestelnr": "ABST050329",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST063259",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63mm x 25mm x 63mm",
+          "angle": "90°",
+          "bestelnr": "ABST063259",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 63,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST063329",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63mm x 32mm x 63mm",
+          "angle": "90°",
+          "bestelnr": "ABST063329",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 63,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST075329",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "75mm x 32mm x 75mm",
+          "angle": "90°",
+          "bestelnr": "ABST075329",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 75,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST075409",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "75mm x 40mm x 75mm",
+          "angle": "90°",
+          "bestelnr": "ABST075409",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 75,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST075509",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "75mm x 50mm x 75mm",
+          "angle": "90°",
+          "bestelnr": "ABST075509",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 75,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST075639",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "75mm x 63mm x 75mm",
+          "angle": "90°",
+          "bestelnr": "ABST075639",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 75,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST090409",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90mm x 40mm x 90mm",
+          "angle": "90°",
+          "bestelnr": "ABST090409",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 90,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST090509",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90mm x 50mm x 90mm",
+          "angle": "90°",
+          "bestelnr": "ABST090509",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 90,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST090639",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90mm x 63mm x 90mm",
+          "angle": "90°",
+          "bestelnr": "ABST090639",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 90,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST090759",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90mm x 75mm x 90mm",
+          "angle": "90°",
+          "bestelnr": "ABST090759",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 90,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST110509",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "110mm x 50mm x110mm",
+          "angle": "90°",
+          "bestelnr": "ABST110509",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 110,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST110639",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "110mm x 63mm x110mm",
+          "angle": "90°",
+          "bestelnr": "ABST110639",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 110,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST110759",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "110mm x 75mm x110mm",
+          "angle": "90°",
+          "bestelnr": "ABST110759",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 110,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST110909",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "110mm x 90mm x110mm",
+          "angle": "90°",
+          "bestelnr": "ABST110909",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 110,
+          "sku_series": "abst"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-verloop-t-stuk-90.webp"
+    ],
+    "variant_count": 22,
+    "default_variant_sku": "ABST025209",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-verloop-t-stuk-90.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p13-abs-slangpilaar-webp",
+    "name": "ABS SLANGPILAAR (Page 13)",
+    "series_id": "abs-slangpilaar",
+    "series_name": "ABS SLANGPILAAR",
+    "series_names": [
+      "ABS SLANGPILAAR"
+    ],
+    "family": "abs-slangpilaar",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMSPIE",
+    "variants": [
+      {
+        "sku": "ABSV016",
+        "label": "ABS SLANGPILAAR",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "16 mm",
+          "bestelnr": "ABSV016",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 16,
+          "sku_series": "absv"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSV020",
+        "label": "ABS SLANGPILAAR",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "20 mm",
+          "bestelnr": "ABSV020",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 20,
+          "sku_series": "absv"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSV025",
+        "label": "ABS SLANGPILAAR",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25 mm",
+          "bestelnr": "ABSV025",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 25,
+          "sku_series": "absv"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSV032",
+        "label": "ABS SLANGPILAAR",
+        "page": 13,
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32 mm",
+          "bestelnr": "ABSV032",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmspie",
+          "diameter_mm": 32,
+          "sku_series": "absv"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-slangpilaar.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "ABSV016",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-slangpilaar.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-images-abs-persluchtbuizen-abs-persluchtbuizen-p9-abs-verloopmof-webp",
+    "name": "ABS VERLOOPMOF (Page 9)",
+    "series_id": "abs-verloopmof",
+    "series_name": "ABS VERLOOPMOF",
+    "series_names": [
+      "ABS VERLOOPMOF"
+    ],
+    "family": "abs-verloopmof",
+    "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSVM02520",
+        "label": "ABS VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "25mm x 20mm x 16mm",
+          "bestelnr": "ABSVM02520",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 25,
+          "sku_series": "absvm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM03225",
+        "label": "ABS VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "32mm x 25mm x 20mm",
+          "bestelnr": "ABSVM03225",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 32,
+          "sku_series": "absvm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM04032",
+        "label": "ABS VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "40mm x 32mm x 25mm",
+          "bestelnr": "ABSVM04032",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 40,
+          "sku_series": "absvm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM05040",
+        "label": "ABS VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "50mm x 40mm x 32mm",
+          "bestelnr": "ABSVM05040",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 50,
+          "sku_series": "absvm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM06350",
+        "label": "ABS VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "63mm x 50mm x 40mm",
+          "bestelnr": "ABSVM06350",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 63,
+          "sku_series": "absvm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM07563",
+        "label": "ABS VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "75mm x 63mm x 50mm",
+          "bestelnr": "ABSVM07563",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 75,
+          "sku_series": "absvm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM09075",
+        "label": "ABS VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "90mm x 75mm x 63mm",
+          "bestelnr": "ABSVM09075",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 90,
+          "sku_series": "absvm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM11090",
+        "label": "ABS VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "110mm x 90mm x 75mm",
+          "angle": "90°",
+          "bestelnr": "ABSVM11090",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 110,
+          "sku_series": "absvm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM12511",
+        "label": "ABS VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "125mm x 110mm x 90mm",
+          "bestelnr": "ABSVM12511",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 125,
+          "sku_series": "absvm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM14012",
+        "label": "ABS VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "140mm x 125mm x 110mm",
+          "bestelnr": "ABSVM14012",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 140,
+          "sku_series": "absvm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM16014",
+        "label": "ABS VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "160mm x 140mm x 125mm",
+          "bestelnr": "ABSVM16014",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 160,
+          "sku_series": "absvm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM20016",
+        "label": "ABS VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "200mm x 160mm x 140mm",
+          "bestelnr": "ABSVM20016",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 200,
+          "sku_series": "absvm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM22520",
+        "label": "ABS VERLOOPMOF",
+        "page": 9,
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "size": "225mm x 200mm x 160mm",
+          "bestelnr": "ABSVM22520",
+          "pressure_bar": "10 bar",
+          "material": "abs",
+          "material_name": "ABS",
+          "connection_type": "lijmmof",
+          "diameter_mm": 225,
+          "sku_series": "absvm"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-verloopmof.webp"
+    ],
+    "variant_count": 13,
+    "default_variant_sku": "ABSVM02520",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-verloopmof.webp"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "generated": "2025-12-06T22:35:00.000Z",
+  "total_groups": 0,
+  "total_variants": 0,
+  "groups": [],
+  "_schema": {
+    "note": "This file will be populated by a variant analysis script. Each group represents products sharing the same image.",
+    "group_structure": {
+      "primary_sku": "string",
+      "image_url": "string",
+      "variant_count": "number",
+      "variants": "array of product objects"
+    }
+  }
+}

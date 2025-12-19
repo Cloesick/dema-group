@@ -1,0 +1,3162 @@
+[
+  {
+    "group_id": "slangklemmen-images-slangklemmen-slangklemmen-p1-alu-klemschalen-webp",
+    "name": "ALU KLEMSCHALEN (Page 1)",
+    "series_id": "alu-klemschalen",
+    "series_name": "ALU KLEMSCHALEN",
+    "series_names": [
+      "ALU KLEMSCHALEN"
+    ],
+    "family": "alu-klemschalen",
+    "catalog": "slangklemmen",
+    "source_pdf": "slangklemmen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "GM46013",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "13 mm",
+          "bestelnr": "GM46013",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM46019",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "19 mm",
+          "bestelnr": "GM46019",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM4602506",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "GM4602506",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM46032",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "32 mm",
+          "bestelnr": "GM46032",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM4603208",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "32 mm",
+          "bestelnr": "GM4603208",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM46038",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "38 mm",
+          "bestelnr": "GM46038",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM4603808",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "38 mm",
+          "bestelnr": "GM4603808",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM4603810",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "38 mm",
+          "bestelnr": "GM4603810",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM46040",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "40 mm",
+          "bestelnr": "GM46040",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM46050",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "50 mm",
+          "bestelnr": "GM46050",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM4605010",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "50 mm",
+          "bestelnr": "GM4605010",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM46063",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "63 mm",
+          "bestelnr": "GM46063",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM4606310",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "63 mm",
+          "bestelnr": "GM4606310",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM46075",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "75 mm",
+          "bestelnr": "GM46075",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM4607510",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "75 mm",
+          "bestelnr": "GM4607510",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM46080",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "80 mm",
+          "bestelnr": "GM46080",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM46100",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "100 mm",
+          "bestelnr": "GM46100",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM4610010",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "100 mm",
+          "bestelnr": "GM4610010",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM4610012",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "100 mm",
+          "bestelnr": "GM4610012",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM46125",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "125 mm",
+          "bestelnr": "GM46125",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM46150",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "150 mm",
+          "bestelnr": "GM46150",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GM46200",
+        "label": "ALU KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "200 mm",
+          "bestelnr": "GM46200",
+          "material": "messing",
+          "material_name": "Messing",
+          "sku_series": "gm"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/slangklemmen/slangklemmen__p1__alu-klemschalen.webp"
+    ],
+    "variant_count": 22,
+    "default_variant_sku": "GM46013",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/slangklemmen__p1__alu-klemschalen.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-images-slangklemmen-slangklemmen-p1-rvs-klemschalen-webp",
+    "name": "RVS KLEMSCHALEN (Page 1)",
+    "series_id": "rvs-klemschalen",
+    "series_name": "RVS KLEMSCHALEN",
+    "series_names": [
+      "RVS KLEMSCHALEN"
+    ],
+    "family": "rvs-klemschalen",
+    "catalog": "slangklemmen",
+    "source_pdf": "slangklemmen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "GMI46013",
+        "label": "RVS KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "13 mm",
+          "bestelnr": "GMI46013",
+          "material": "rvs",
+          "material_name": "RVS/Inox",
+          "sku_series": "gmi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GMI46019",
+        "label": "RVS KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "19 mm",
+          "bestelnr": "GMI46019",
+          "material": "rvs",
+          "material_name": "RVS/Inox",
+          "sku_series": "gmi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GMI46025",
+        "label": "RVS KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "GMI46025",
+          "material": "rvs",
+          "material_name": "RVS/Inox",
+          "sku_series": "gmi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GMI46032",
+        "label": "RVS KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "32 mm",
+          "bestelnr": "GMI46032",
+          "material": "rvs",
+          "material_name": "RVS/Inox",
+          "sku_series": "gmi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GMI46038",
+        "label": "RVS KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "38 mm",
+          "bestelnr": "GMI46038",
+          "material": "rvs",
+          "material_name": "RVS/Inox",
+          "sku_series": "gmi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GMI46050",
+        "label": "RVS KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "50 mm",
+          "bestelnr": "GMI46050",
+          "material": "rvs",
+          "material_name": "RVS/Inox",
+          "sku_series": "gmi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GMI46063",
+        "label": "RVS KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "63 mm",
+          "bestelnr": "GMI46063",
+          "material": "rvs",
+          "material_name": "RVS/Inox",
+          "sku_series": "gmi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GMI46075",
+        "label": "RVS KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "75 mm",
+          "bestelnr": "GMI46075",
+          "material": "rvs",
+          "material_name": "RVS/Inox",
+          "sku_series": "gmi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "GMI46100",
+        "label": "RVS KLEMSCHALEN",
+        "page": 1,
+        "page_in_pdf": 1,
+        "properties": {
+          "size": "100 mm",
+          "bestelnr": "GMI46100",
+          "material": "rvs",
+          "material_name": "RVS/Inox",
+          "sku_series": "gmi"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/slangklemmen/slangklemmen__p1__rvs-klemschalen.webp"
+    ],
+    "variant_count": 9,
+    "default_variant_sku": "GMI46013",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/slangklemmen__p1__rvs-klemschalen.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-images-slangklemmen-slangklemmen-p3-galva-2-oor-slangklemmen-webp",
+    "name": "GALVA 2-OOR SLANGKLEMMEN (Page 3)",
+    "series_id": "galva-2-oor-slangklemmen",
+    "series_name": "GALVA 2-OOR SLANGKLEMMEN",
+    "series_names": [
+      "GALVA 2-OOR SLANGKLEMMEN"
+    ],
+    "family": "galva-2-oor-slangklemmen",
+    "catalog": "slangklemmen",
+    "source_pdf": "slangklemmen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MAX21005",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "6 mm",
+          "bestelnr": "MAX21005",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21007",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "6 mm",
+          "bestelnr": "MAX21007",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21009",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "6,5 mm",
+          "bestelnr": "MAX21009",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21011",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "6,5 mm",
+          "bestelnr": "MAX21011",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21013",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "7 mm",
+          "bestelnr": "MAX21013",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21014",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "7 mm",
+          "bestelnr": "MAX21014",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21015",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "7,5 mm",
+          "bestelnr": "MAX21015",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21017",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "7,5 mm",
+          "bestelnr": "MAX21017",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21018",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "8 mm",
+          "bestelnr": "MAX21018",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21020",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "8 mm",
+          "bestelnr": "MAX21020",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21022",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "8,5 mm",
+          "bestelnr": "MAX21022",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21023",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "8,5 mm",
+          "bestelnr": "MAX21023",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21025",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "MAX21025",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21028",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "MAX21028",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21031",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "9,5 mm",
+          "bestelnr": "MAX21031",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21034",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "9,5 mm",
+          "bestelnr": "MAX21034",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21037",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "10 mm",
+          "bestelnr": "MAX21037",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21040",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "10 mm",
+          "bestelnr": "MAX21040",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAX21043",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "10,5 mm",
+          "bestelnr": "MAX21043",
+          "material": null,
+          "sku_series": "max"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/slangklemmen/slangklemmen__p3__galva-2-oor-slangklemmen.webp"
+    ],
+    "variant_count": 19,
+    "default_variant_sku": "MAX21005",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/slangklemmen__p3__galva-2-oor-slangklemmen.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-images-slangklemmen-slangklemmen-p2-inox-1-oor-slangklemmen-webp",
+    "name": "INOX 1-OOR SLANGKLEMMEN (Page 2)",
+    "series_id": "inox-1-oor-slangklemmen",
+    "series_name": "INOX 1-OOR SLANGKLEMMEN",
+    "series_names": [
+      "INOX 1-OOR SLANGKLEMMEN"
+    ],
+    "family": "inox-1-oor-slangklemmen",
+    "catalog": "slangklemmen",
+    "source_pdf": "slangklemmen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MAXI11007",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "size": "6 mm",
+          "bestelnr": "MAXI11007",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI11008",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "size": "6 mm",
+          "bestelnr": "MAXI11008",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI11009",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "size": "6,5 mm",
+          "bestelnr": "MAXI11009",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI11010",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "size": "6,5 mm",
+          "bestelnr": "MAXI11010",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI11011",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "size": "6,5 mm",
+          "bestelnr": "MAXI11011",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI11012",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "size": "7 mm",
+          "bestelnr": "MAXI11012",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI11013",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "size": "7 mm",
+          "bestelnr": "MAXI11013",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI11014",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "size": "7 mm",
+          "bestelnr": "MAXI11014",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI11015",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "size": "7 mm",
+          "bestelnr": "MAXI11015",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI11016",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "size": "7 mm",
+          "bestelnr": "MAXI11016",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI11017",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "size": "7,5 mm",
+          "bestelnr": "MAXI11017",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI11018",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page": 2,
+        "page_in_pdf": 2,
+        "properties": {
+          "size": "7,5 mm",
+          "bestelnr": "MAXI11018",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/slangklemmen/slangklemmen__p2__inox-1-oor-slangklemmen.webp"
+    ],
+    "variant_count": 12,
+    "default_variant_sku": "MAXI11007",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/slangklemmen__p2__inox-1-oor-slangklemmen.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-images-slangklemmen-slangklemmen-p3-inox-2-oor-slangklemmen-webp",
+    "name": "INOX 2-OOR SLANGKLEMMEN (Page 3)",
+    "series_id": "inox-2-oor-slangklemmen",
+    "series_name": "INOX 2-OOR SLANGKLEMMEN",
+    "series_names": [
+      "INOX 2-OOR SLANGKLEMMEN"
+    ],
+    "family": "inox-2-oor-slangklemmen",
+    "catalog": "slangklemmen",
+    "source_pdf": "slangklemmen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "MAXI21005",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "6 mm",
+          "bestelnr": "MAXI21005",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI21007",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "6 mm",
+          "bestelnr": "MAXI21007",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI21009",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "6,5 mm",
+          "bestelnr": "MAXI21009",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI21011",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "6,5 mm",
+          "bestelnr": "MAXI21011",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI21013",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "7 mm",
+          "bestelnr": "MAXI21013",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI21014",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "7 mm",
+          "bestelnr": "MAXI21014",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI21015",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "7,5 mm",
+          "bestelnr": "MAXI21015",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI21017",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "7,5 mm",
+          "bestelnr": "MAXI21017",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI21018",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "8 mm",
+          "bestelnr": "MAXI21018",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI21020",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "8 mm",
+          "bestelnr": "MAXI21020",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI21022",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "8,5 mm",
+          "bestelnr": "MAXI21022",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI21025",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "8,5 mm",
+          "bestelnr": "MAXI21025",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "MAXI21031",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page": 3,
+        "page_in_pdf": 3,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "MAXI21031",
+          "material": null,
+          "sku_series": "maxi"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/slangklemmen/slangklemmen__p3__inox-2-oor-slangklemmen.webp"
+    ],
+    "variant_count": 13,
+    "default_variant_sku": "MAXI21005",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/slangklemmen__p3__inox-2-oor-slangklemmen.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-images-slangklemmen-slangklemmen-p6-schroefklemmen-verzinkt-webp",
+    "name": "SCHROEFKLEMMEN VERZINKT (Page 6)",
+    "series_id": "schroefklemmen-verzinkt",
+    "series_name": "SCHROEFKLEMMEN VERZINKT",
+    "series_names": [
+      "SCHROEFKLEMMEN VERZINKT"
+    ],
+    "family": "schroefklemmen-verzinkt",
+    "catalog": "slangklemmen",
+    "source_pdf": "slangklemmen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "QDW0341061",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "size": "6 mm",
+          "bestelnr": "QDW0341061",
+          "material": null,
+          "sku_series": "qdw"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "QDW0341071",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page": 6,
+        "page_in_pdf": 6,
+        "properties": {
+          "size": "7 mm",
+          "bestelnr": "QDW0341071",
+          "material": null,
+          "sku_series": "qdw"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/slangklemmen/slangklemmen__p6__schroefklemmen-verzinkt.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "QDW0341061",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/slangklemmen__p6__schroefklemmen-verzinkt.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-images-slangklemmen-slangklemmen-p4-supra-schroefklemmen-inox-w2-webp",
+    "name": "SUPRA SCHROEFKLEMMEN INOX W2 (Page 4)",
+    "series_id": "supra-schroefklemmen-inox-w2",
+    "series_name": "SUPRA SCHROEFKLEMMEN INOX W2",
+    "series_names": [
+      "SUPRA SCHROEFKLEMMEN INOX W2"
+    ],
+    "family": "supra-schroefklemmen-inox-w2",
+    "catalog": "slangklemmen",
+    "source_pdf": "slangklemmen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "SBI110081",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBI110081",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI110121",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBI110121",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI110161",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBI110161",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI110201",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBI110201",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI110251",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBI110251",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI110321",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBI110321",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI110401",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBI110401",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI110501",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBI110501",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI110601",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBI110601",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI110701",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBI110701",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI110801",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBI110801",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI110901",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBI110901",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI111001",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBI111001",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI111101",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBI111101",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI120161",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI120161",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI120201",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI120201",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI120251",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI120251",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI120321",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI120321",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI120401",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI120401",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI120501",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI120501",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI120601",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI120601",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI120701",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI120701",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI120801",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI120801",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI120901",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI120901",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI121201",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI121201",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI121301",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI121301",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI121401",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI121401",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI121501",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI121501",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI121601",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI121601",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI121701",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI121701",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI121801",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI121801",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI121901",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI121901",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI122001",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI122001",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI122101",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI122101",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI122201",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBI122201",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210171",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "18 mm",
+          "bestelnr": "SBI210171",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210191",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "18 mm",
+          "bestelnr": "SBI210191",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210211",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "18 mm",
+          "bestelnr": "SBI210211",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210231",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "18 mm",
+          "bestelnr": "SBI210231",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210251",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "18 mm",
+          "bestelnr": "SBI210251",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210271",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "18 mm",
+          "bestelnr": "SBI210271",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210291",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBI210291",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210311",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBI210311",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210341",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBI210341",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210371",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBI210371",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210401",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBI210401",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210431",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBI210431",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210471",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBI210471",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210511",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBI210511",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210551",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBI210551",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210591",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBI210591",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210631",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBI210631",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210681",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBI210681",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210731",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "SBI210731",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210791",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "SBI210791",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210851",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "SBI210851",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210911",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "SBI210911",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI210971",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "SBI210971",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI211041",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "SBI211041",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI211121",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "SBI211121",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI211211",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "SBI211211",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI211301",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBI211301",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI211401",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBI211401",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI211501",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBI211501",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI211621",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBI211621",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI211741",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBI211741",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI211871",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBI211871",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI212001",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBI212001",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI212131",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBI212131",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI212261",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBI212261",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBI212391",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page": 4,
+        "page_in_pdf": 4,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBI212391",
+          "material": null,
+          "sku_series": "sbi"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/slangklemmen/slangklemmen__p4__supra-schroefklemmen-inox-w2.webp"
+    ],
+    "variant_count": 71,
+    "default_variant_sku": "SBI110081",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/slangklemmen__p4__supra-schroefklemmen-inox-w2.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-images-slangklemmen-slangklemmen-p5-supra-schroefklemmen-inox-w4-webp",
+    "name": "SUPRA SCHROEFKLEMMEN INOX W4 (Page 5)",
+    "series_id": "supra-schroefklemmen-inox-w4",
+    "series_name": "SUPRA SCHROEFKLEMMEN INOX W4",
+    "series_names": [
+      "SUPRA SCHROEFKLEMMEN INOX W4"
+    ],
+    "family": "supra-schroefklemmen-inox-w4",
+    "catalog": "slangklemmen",
+    "source_pdf": "slangklemmen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "SBIV110082",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBIV110082",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV110121",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBIV110121",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV110161",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBIV110161",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV110201",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBIV110201",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV110251",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBIV110251",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV110301",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBIV110301",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV110321",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBIV110321",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV110401",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBIV110401",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV110501",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBIV110501",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV110601",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBIV110601",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV110701",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBIV110701",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV110801",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBIV110801",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV110901",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBIV110901",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV111001",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBIV111001",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV111101",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "9 mm",
+          "bestelnr": "SBIV111101",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV120161",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBIV120161",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV120171",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBIV120171",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV120201",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBIV120201",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV120251",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBIV120251",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV120301",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBIV120301",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV120321",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBIV120321",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV120401",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBIV120401",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV120501",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBIV120501",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV120601",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBIV120601",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV120701",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBIV120701",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV120801",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBIV120801",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV120901",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBIV120901",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV121001",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBIV121001",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV121101",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBIV121101",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV121201",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBIV121201",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV121501",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "12 mm",
+          "bestelnr": "SBIV121501",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210171",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "18 mm",
+          "bestelnr": "SBIV210171",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210191",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "18 mm",
+          "bestelnr": "SBIV210191",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210211",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "18 mm",
+          "bestelnr": "SBIV210211",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210231",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "18 mm",
+          "bestelnr": "SBIV210231",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210251",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "18 mm",
+          "bestelnr": "SBIV210251",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210271",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "18 mm",
+          "bestelnr": "SBIV210271",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210291",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBIV210291",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210311",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBIV210311",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210341",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBIV210341",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210371",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBIV210371",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210401",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBIV210401",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210431",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBIV210431",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210471",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBIV210471",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210511",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBIV210511",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210551",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBIV210551",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210591",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBIV210591",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210631",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "20 mm",
+          "bestelnr": "SBIV210631",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210681",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "SBIV210681",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210731",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "SBIV210731",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210791",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "SBIV210791",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210851",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "SBIV210851",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210911",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "SBIV210911",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV210971",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "SBIV210971",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV211041",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "SBIV211041",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV211121",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "25 mm",
+          "bestelnr": "SBIV211121",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV211211",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBIV211211",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV211301",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBIV211301",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV211401",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBIV211401",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV211501",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBIV211501",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV211621",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBIV211621",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV211741",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBIV211741",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV212001",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBIV212001",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV212131",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBIV212131",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV212271",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBIV212271",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "SBIV212391",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page": 5,
+        "page_in_pdf": 5,
+        "properties": {
+          "size": "28 mm",
+          "bestelnr": "SBIV212391",
+          "material": null,
+          "sku_series": "sbiv"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/slangklemmen/slangklemmen__p5__supra-schroefklemmen-inox-w4.webp"
+    ],
+    "variant_count": 66,
+    "default_variant_sku": "SBIV110082",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/slangklemmen__p5__supra-schroefklemmen-inox-w4.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-images-slangklemmen-slangklemmen-p7-bandklem-inox-304-webp",
+    "name": "BANDKLEM INOX 304 (Page 7)",
+    "series_id": "bandklem-inox-304",
+    "series_name": "BANDKLEM INOX 304",
+    "series_names": [
+      "BANDKLEM INOX 304"
+    ],
+    "family": "bandklem-inox-304",
+    "catalog": "slangklemmen",
+    "source_pdf": "slangklemmen.pdf",
+    "brand": "Various",
+    "category": "Products",
+    "variants": [
+      {
+        "sku": "X1371026",
+        "label": "BANDKLEM INOX 304",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "16 mm",
+          "bestelnr": "X1371026",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "X1371027",
+        "label": "BANDKLEM INOX 304",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "19 mm",
+          "bestelnr": "X1371027",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "X1371028",
+        "label": "BANDKLEM INOX 304",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "12,7 mm",
+          "bestelnr": "X1371028",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "X1371029",
+        "label": "BANDKLEM INOX 304",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "19 mm",
+          "bestelnr": "X1371029",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "X1371038",
+        "label": "BANDKLEM INOX 304",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "12,7 mm",
+          "bestelnr": "X1371038",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "X1371039",
+        "label": "BANDKLEM INOX 304",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "16 mm",
+          "bestelnr": "X1371039",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "X1371042",
+        "label": "BANDKLEM INOX 304",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "9,5 mm",
+          "bestelnr": "X1371042",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {}
+      },
+      {
+        "sku": "X1371043",
+        "label": "BANDKLEM INOX 304",
+        "page": 7,
+        "page_in_pdf": 7,
+        "properties": {
+          "size": "9,5 mm",
+          "bestelnr": "X1371043",
+          "material": null,
+          "sku_series": "x"
+        },
+        "attributes": {}
+      }
+    ],
+    "images": [
+      "images/slangklemmen/slangklemmen__p7__bandklem-inox-304.webp"
+    ],
+    "variant_count": 8,
+    "default_variant_sku": "X1371026",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/slangklemmen__p7__bandklem-inox-304.webp"
+      }
+    ]
+  }
+]

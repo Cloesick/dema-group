@@ -148,3 +148,145 @@ pnpm turbo run dev --filter=api
 pnpm db:studio    # Open Prisma Studio
 pnpm db:migrate   # Run migrations
 ```
+
+---
+
+## TODO: Integration Setup Checklist
+
+### Phase 1: Infrastructure
+- [ ] Set up PostgreSQL database (local or cloud: Supabase, Neon, Railway)
+- [ ] Run `pnpm install` in `apps/api`
+- [ ] Copy `.env.example` to `.env` and fill in values
+- [ ] Run `pnpm db:generate` and `pnpm db:push`
+- [ ] Test API locally: `pnpm dev` → http://localhost:3002
+
+### Phase 2: Carrier API Credentials
+Get API credentials from each carrier's developer portal:
+
+| Carrier | Developer Portal | Credentials Needed |
+|---------|------------------|-------------------|
+| UPS | https://developer.ups.com | Client ID, Client Secret |
+| DHL | https://developer.dhl.com | API Key |
+| PostNL | https://developer.postnl.nl | API Key |
+| Bpost | https://www.bpost.be/site/en/webservice-address | API Key |
+| FedEx | https://developer.fedex.com | API Key, Secret |
+| DPD | Contact DPD directly | API Key |
+| GLS | Contact GLS directly | API Key |
+
+### Phase 3: ERP Integration (Inbound Webhooks)
+For each company (DEMA, Fluxer, Beltz247, De Visschere, Accu):
+
+1. **Generate webhook secret** for each company:
+   ```bash
+   openssl rand -hex 32
+   # Output: whsec_abc123...
+   ```
+
+2. **Share with ERP team**:
+   - Webhook URL: `https://api.demagroup.be/api/v1/webhooks/inventory`
+   - Webhook Secret: `whsec_xxx` (generated above)
+   - Company ID: `dema` | `fluxer` | `beltz247` | `devisschere` | `accu`
+
+3. **ERP sends stock updates** (example code in `src/lib/erp/webhook-sender.ts`):
+   ```typescript
+   // Headers required:
+   // x-webhook-signature: HMAC-SHA256(body, secret)
+   // x-company-id: dema
+   // x-webhook-id: unique-id
+   
+   POST /api/v1/webhooks/inventory
+   {
+     "event": "stock.updated",
+     "companyId": "dema",
+     "timestamp": "2024-01-15T10:30:00Z",
+     "data": {
+       "sku": "PUMP-001",
+       "newQuantity": 150,
+       "warehouseLocation": "Roeselare-A1"
+     }
+   }
+   ```
+
+### Phase 4: Carrier Webhooks (Inbound)
+Register your webhook URL with each carrier:
+
+| Carrier | How to Register |
+|---------|-----------------|
+| UPS | Developer Portal → Webhooks → Add Subscription |
+| DHL | Developer Portal → Track → Webhook Subscriptions |
+| PostNL | Contact PostNL API support |
+| Bpost | Contact Bpost API support |
+
+Webhook URL: `https://api.demagroup.be/api/v1/webhooks/delivery`
+
+### Phase 5: Outbound API Calls
+Use the carrier clients to track packages and create shipments:
+
+```typescript
+import { carriers } from '@/lib/carriers'
+
+// Track a package
+const tracking = await carriers.track('ups', '1Z999AA10123456784')
+
+// Create a shipment
+const shipment = await carriers.createShipment({
+  carrier: 'dhl',
+  shipper: {
+    name: 'DEMA NV',
+    street: 'Ovenstraat 11',
+    city: 'Roeselare',
+    postalCode: '8800',
+    country: 'BE',
+  },
+  recipient: {
+    name: 'Customer Name',
+    street: 'Customer Street 123',
+    city: 'Kortrijk',
+    postalCode: '8500',
+    country: 'BE',
+  },
+  packages: [{ weight: 5, length: 30, width: 20, height: 15 }],
+})
+
+console.log(shipment.trackingNumber, shipment.labelUrl)
+```
+
+### Phase 6: Production Deployment
+- [ ] Deploy API to Vercel/Railway/Fly.io
+- [ ] Set up production database
+- [ ] Configure environment variables in deployment platform
+- [ ] Set up monitoring (Sentry, LogRocket, etc.)
+- [ ] Update webhook URLs to production domain
+- [ ] Test all integrations end-to-end
+
+---
+
+## File Structure
+
+```
+apps/api/
+├── src/
+│   ├── app/
+│   │   ├── api/v1/
+│   │   │   ├── inventory/route.ts    # Stock queries & updates
+│   │   │   ├── delivery/route.ts     # Shipment tracking & creation
+│   │   │   └── webhooks/
+│   │   │       ├── inventory/route.ts # ERP stock webhooks
+│   │   │       └── delivery/route.ts  # Carrier tracking webhooks
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   └── lib/
+│       ├── auth.ts                   # API key & webhook verification
+│       ├── prisma.ts                 # Database client
+│       ├── carriers/
+│       │   ├── index.ts              # Unified CarrierHub
+│       │   ├── ups.ts                # UPS API client
+│       │   └── dhl.ts                # DHL API client
+│       └── erp/
+│           └── webhook-sender.ts     # Example ERP integration
+├── prisma/
+│   └── schema.prisma                 # Database schema
+├── .env.example                      # Environment template
+├── package.json
+└── README.md                         # This file
+```

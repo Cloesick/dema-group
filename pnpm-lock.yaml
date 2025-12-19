@@ -244,6 +244,9 @@ importers:
       next:
         specifier: 16.1.0
         version: 16.1.0(react-dom@18.3.1)(react@18.3.1)
+      pdf-parse:
+        specifier: ^2.4.5
+        version: 2.4.5
       react:
         specifier: ^18
         version: 18.3.1
@@ -2611,7 +2614,6 @@ packages:
     cpu: [arm64]
     os: [android]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@napi-rs/canvas-android-arm64@0.1.84:
@@ -2628,7 +2630,6 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@napi-rs/canvas-darwin-arm64@0.1.84:
@@ -2645,7 +2646,6 @@ packages:
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@napi-rs/canvas-darwin-x64@0.1.84:
@@ -2662,7 +2662,6 @@ packages:
     cpu: [arm]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@napi-rs/canvas-linux-arm-gnueabihf@0.1.84:
@@ -2679,7 +2678,6 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@napi-rs/canvas-linux-arm64-gnu@0.1.84:
@@ -2696,7 +2694,6 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@napi-rs/canvas-linux-arm64-musl@0.1.84:
@@ -2713,7 +2710,6 @@ packages:
     cpu: [riscv64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@napi-rs/canvas-linux-riscv64-gnu@0.1.84:
@@ -2730,7 +2726,6 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@napi-rs/canvas-linux-x64-gnu@0.1.84:
@@ -2747,7 +2742,6 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@napi-rs/canvas-linux-x64-musl@0.1.84:
@@ -2764,7 +2758,6 @@ packages:
     cpu: [x64]
     os: [win32]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@napi-rs/canvas-win32-x64-msvc@0.1.84:
@@ -2789,7 +2782,6 @@ packages:
       '@napi-rs/canvas-linux-x64-gnu': 0.1.80
       '@napi-rs/canvas-linux-x64-musl': 0.1.80
       '@napi-rs/canvas-win32-x64-msvc': 0.1.80
-    dev: true
 
   /@napi-rs/canvas@0.1.84:
     resolution: {integrity: sha512-88FTNFs4uuiFKP0tUrPsEXhpe9dg7za9ILZJE08pGdUveMIDeana1zwfVkqRHJDPJFAmGY3dXmJ99dzsy57YnA==}
@@ -8922,14 +8914,12 @@ packages:
     dependencies:
       '@napi-rs/canvas': 0.1.80
       pdfjs-dist: 5.4.296
-    dev: true
 
   /pdfjs-dist@5.4.296:
     resolution: {integrity: sha512-DlOzet0HO7OEnmUmB6wWGJrrdvbyJKftI1bhMitK7O2N8W2gc757yyYBbINy9IDafXAV9wmKr9t7xsTaNKRG5Q==}
     engines: {node: '>=20.16.0 || >=22.3.0'}
     optionalDependencies:
       '@napi-rs/canvas': 0.1.84
-    dev: true
 
   /pdfjs-dist@5.4.449:
     resolution: {integrity: sha512-CegnUaT0QwAyQMS+7o2POr4wWUNNe8VaKKlcuoRHeYo98cVnqPpwOXNSx6Trl6szH02JrRcsPgletV6GmF3LtQ==}

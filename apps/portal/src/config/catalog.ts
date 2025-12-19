@@ -20,6 +20,9 @@ export interface ProductSubcategory {
   name: string
   name_nl: string
   name_fr: string
+  image?: string
+  description?: string
+  description_nl?: string
   products: Product[]
 }
 

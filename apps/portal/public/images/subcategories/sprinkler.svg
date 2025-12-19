@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22C55E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16A34A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="#F8FAFC" />
+  
+  <!-- Ground -->
+  <rect x="20" y="150" width="160" height="20" rx="3" fill="#86EFAC" opacity="0.5" />
+  
+  <!-- Sprinkler body -->
+  <rect x="90" y="100" width="20" height="55" rx="3" fill="#4B5563" />
+  
+  <!-- Sprinkler head -->
+  <rect x="80" y="85" width="40" height="20" rx="5" fill="url(#greenGrad)" />
+  <circle cx="100" cy="95" r="6" fill="#16A34A" />
+  
+  <!-- Water spray -->
+  <g fill="#3B82F6" opacity="0.4">
+    <path d="M100 80 Q60 40 30 60" stroke="#3B82F6" stroke-width="8" fill="none" opacity="0.3" />
+    <path d="M100 80 Q140 40 170 60" stroke="#3B82F6" stroke-width="8" fill="none" opacity="0.3" />
+  </g>
+  
+  <!-- Water droplets -->
+  <g fill="#3B82F6" opacity="0.6">
+    <ellipse cx="45" cy="70" rx="4" ry="6" />
+    <ellipse cx="65" cy="55" rx="3" ry="5" />
+    <ellipse cx="85" cy="50" rx="3" ry="4" />
+    <ellipse cx="115" cy="50" rx="3" ry="4" />
+    <ellipse cx="135" cy="55" rx="3" ry="5" />
+    <ellipse cx="155" cy="70" rx="4" ry="6" />
+    <ellipse cx="50" cy="90" rx="3" ry="4" />
+    <ellipse cx="150" cy="90" rx="3" ry="4" />
+  </g>
+  
+  <text x="100" y="188" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#374151">Sprinkler</text>
+</svg>

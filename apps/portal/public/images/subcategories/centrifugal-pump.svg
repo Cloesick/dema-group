@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="pumpBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="metalGray" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B7280;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#374151;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="200" height="200" rx="16" fill="#F8FAFC" />
+  
+  <!-- Pump Housing (spiral volute) -->
+  <circle cx="100" cy="95" r="45" fill="url(#pumpBlue)" />
+  <circle cx="100" cy="95" r="35" fill="#60A5FA" />
+  <circle cx="100" cy="95" r="20" fill="#BFDBFE" />
+  <circle cx="100" cy="95" r="8" fill="#1D4ED8" />
+  
+  <!-- Inlet pipe (left) -->
+  <rect x="20" y="85" width="40" height="20" rx="3" fill="url(#metalGray)" />
+  <rect x="15" y="82" width="12" height="26" rx="2" fill="#4B5563" />
+  
+  <!-- Outlet pipe (top) -->
+  <rect x="90" y="30" width="20" height="25" rx="3" fill="url(#metalGray)" />
+  <rect x="87" y="20" width="26" height="15" rx="2" fill="#4B5563" />
+  
+  <!-- Motor -->
+  <rect x="140" y="75" width="40" height="40" rx="5" fill="url(#pumpBlue)" />
+  <g fill="#1D4ED8">
+    <rect x="145" y="82" width="30" height="3" rx="1" />
+    <rect x="145" y="89" width="30" height="3" rx="1" />
+    <rect x="145" y="96" width="30" height="3" rx="1" />
+    <rect x="145" y="103" width="30" height="3" rx="1" />
+  </g>
+  
+  <!-- Base -->
+  <rect x="40" y="145" width="120" height="10" rx="3" fill="#374151" />
+  <rect x="50" y="155" width="15" height="15" rx="2" fill="#4B5563" />
+  <rect x="135" y="155" width="15" height="15" rx="2" fill="#4B5563" />
+  
+  <!-- Label -->
+  <text x="100" y="188" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#374151">Centrifugal Pump</text>
+</svg>

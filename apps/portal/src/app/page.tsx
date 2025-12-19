@@ -232,72 +232,74 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                {/* Subcategories Grid */}
-                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-                  {category.subcategories.map((subcategory) => (
-                    <div 
-                      key={subcategory.id} 
-                      className="bg-white rounded-xl border-2 border-slate-100 hover:border-opacity-50 hover:shadow-lg transition group overflow-hidden"
-                      style={{ '--hover-color': category.color } as React.CSSProperties}
-                    >
-                      {/* Subcategory Header with Color Accent */}
-                      <div 
-                        className="p-4 border-b"
-                        style={{ borderBottomColor: `${category.color}20` }}
+                {/* Subcategories Grid - Card Style with Images */}
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                  {category.subcategories.map((subcategory, subIndex) => {
+                    // Map subcategory to image
+                    const subcategoryImages: Record<string, string> = {
+                      'centrifugal-pumps': '/images/subcategories/centrifugal-pump.svg',
+                      'submersible-pumps': '/images/subcategories/submersible-pump.svg',
+                      'piston-pumps': '/images/subcategories/centrifugal-pump.svg',
+                      'pump-accessories': '/images/subcategories/pressure-gauge.svg',
+                      'plastic-pipes': '/images/subcategories/pipe-fitting.svg',
+                      'metal-pipes': '/images/subcategories/pipe-fitting.svg',
+                      'fittings': '/images/subcategories/pipe-fitting.svg',
+                      'industrial-hoses': '/images/subcategories/hose-coupling.svg',
+                      'couplings': '/images/subcategories/hose-coupling.svg',
+                      'ball-valves': '/images/subcategories/ball-valve.svg',
+                      'butterfly-valves': '/images/subcategories/butterfly-valve.svg',
+                      'check-valves': '/images/subcategories/ball-valve.svg',
+                      'actuators': '/images/subcategories/actuator.svg',
+                      'sprinklers': '/images/subcategories/sprinkler.svg',
+                      'drip-irrigation': '/images/subcategories/drip-irrigation.svg',
+                      'irrigation-controls': '/images/subcategories/pressure-gauge.svg',
+                      'industrial-belts': '/images/subcategories/conveyor-belt.svg',
+                      'food-grade-belts': '/images/subcategories/conveyor-belt.svg',
+                      'belt-accessories': '/images/subcategories/conveyor-belt.svg',
+                      'screws': '/images/subcategories/screw-fastener.svg',
+                      'nuts-washers': '/images/subcategories/screw-fastener.svg',
+                      'standoffs-spacers': '/images/subcategories/screw-fastener.svg',
+                      'power-tools': '/images/subcategories/power-tool.svg',
+                      'pressure-washers': '/images/subcategories/power-tool.svg',
+                      'compressors': '/images/subcategories/power-tool.svg',
+                    }
+                    const subcatImage = subcategoryImages[subcategory.id] || category.image
+                    
+                    return (
+                      <Link
+                        key={subcategory.id}
+                        href={`/products?category=${category.id}&subcategory=${subcategory.id}`}
+                        className="bg-white rounded-2xl border border-slate-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300 group overflow-hidden"
                       >
-                        <div className="flex items-center gap-2">
-                          <div 
-                            className="w-2 h-2 rounded-full"
-                            style={{ backgroundColor: category.color }}
+                        {/* Image Container */}
+                        <div 
+                          className="h-40 flex items-center justify-center p-6"
+                          style={{ backgroundColor: `${category.color}08` }}
+                        >
+                          <Image
+                            src={subcatImage}
+                            alt={getSubcategoryName(subcategory)}
+                            width={120}
+                            height={120}
+                            className="w-28 h-28 object-contain group-hover:scale-110 transition-transform duration-300"
                           />
-                          <h4 className="font-bold text-slate-900 group-hover:text-blue-600 transition">
+                        </div>
+                        
+                        {/* Content */}
+                        <div className="p-4 border-t" style={{ borderTopColor: `${category.color}20` }}>
+                          <h4 
+                            className="font-bold text-slate-900 group-hover:text-blue-600 transition text-center"
+                          >
                             {getSubcategoryName(subcategory)}
                           </h4>
+                          <p className="text-sm text-slate-500 text-center mt-2 line-clamp-2">
+                            {subcategory.products.map(p => getProductName(p)).slice(0, 2).join(', ')}
+                            {subcategory.products.length > 2 && ` +${subcategory.products.length - 2}`}
+                          </p>
                         </div>
-                        <p className="text-xs text-slate-400 mt-1 ml-4">
-                          {subcategory.products.length} {language === 'nl' ? 'producten' : language === 'fr' ? 'produits' : 'products'}
-                        </p>
-                      </div>
-
-                      {/* Products List */}
-                      <div className="p-4">
-                        <ul className="space-y-2">
-                          {subcategory.products.map((product) => (
-                            <li key={product.id}>
-                              <Link
-                                href={`/products/${product.id}`}
-                                className="flex items-start gap-2 text-sm text-slate-600 hover:text-blue-600 transition"
-                              >
-                                <ChevronRight 
-                                  className="w-4 h-4 mt-0.5 flex-shrink-0" 
-                                  style={{ color: `${category.color}60` }}
-                                />
-                                <span>{getProductName(product)}</span>
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-
-                      {/* Subcategory Footer - Companies */}
-                      <div className="px-4 pb-4">
-                        <div className="flex flex-wrap gap-1">
-                          {subcategory.products[0]?.companies.slice(0, 2).map((companyId) => (
-                            <span 
-                              key={companyId}
-                              className="text-xs px-2 py-0.5 rounded"
-                              style={{ 
-                                backgroundColor: `${category.color}10`,
-                                color: category.color 
-                              }}
-                            >
-                              {getCompanyName(companyId)}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                  ))}
+                      </Link>
+                    )
+                  })}
                 </div>
 
                 {/* Mobile View All Button */}

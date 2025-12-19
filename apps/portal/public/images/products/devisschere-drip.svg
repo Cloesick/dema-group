@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="dripGreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#22C55E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#166534;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="300" height="300" rx="20" fill="#F0FDF4" />
+  
+  <!-- Ground -->
+  <rect x="0" y="200" width="300" height="100" rx="0 0 20 20" fill="#92400E" opacity="0.3" />
+  
+  <!-- Main drip line -->
+  <rect x="20" y="100" width="260" height="12" rx="6" fill="#1F2937" />
+  
+  <!-- Drippers -->
+  <g>
+    <!-- Dripper 1 -->
+    <circle cx="60" cy="106" r="8" fill="url(#dripGreen)" />
+    <rect x="56" y="112" width="8" height="20" rx="2" fill="#166534" />
+    <!-- Water drop -->
+    <path d="M60 140 Q65 150 60 160 Q55 150 60 140" fill="#3B82F6" opacity="0.8" />
+    <path d="M60 170 Q63 175 60 180 Q57 175 60 170" fill="#3B82F6" opacity="0.6" />
+    
+    <!-- Dripper 2 -->
+    <circle cx="120" cy="106" r="8" fill="url(#dripGreen)" />
+    <rect x="116" y="112" width="8" height="20" rx="2" fill="#166534" />
+    <path d="M120 140 Q125 150 120 160 Q115 150 120 140" fill="#3B82F6" opacity="0.8" />
+    <path d="M120 168 Q123 173 120 178 Q117 173 120 168" fill="#3B82F6" opacity="0.6" />
+    
+    <!-- Dripper 3 -->
+    <circle cx="180" cy="106" r="8" fill="url(#dripGreen)" />
+    <rect x="176" y="112" width="8" height="20" rx="2" fill="#166534" />
+    <path d="M180 140 Q185 150 180 160 Q175 150 180 140" fill="#3B82F6" opacity="0.8" />
+    <path d="M180 172 Q183 177 180 182 Q177 177 180 172" fill="#3B82F6" opacity="0.6" />
+    
+    <!-- Dripper 4 -->
+    <circle cx="240" cy="106" r="8" fill="url(#dripGreen)" />
+    <rect x="236" y="112" width="8" height="20" rx="2" fill="#166534" />
+    <path d="M240 140 Q245 150 240 160 Q235 150 240 140" fill="#3B82F6" opacity="0.8" />
+  </g>
+  
+  <!-- Plants -->
+  <g fill="#22C55E">
+    <!-- Plant 1 -->
+    <ellipse cx="60" cy="195" rx="20" ry="25" />
+    <rect x="57" y="195" width="6" height="30" fill="#166534" />
+    
+    <!-- Plant 2 -->
+    <ellipse cx="120" cy="190" rx="25" ry="30" />
+    <rect x="117" y="195" width="6" height="30" fill="#166534" />
+    
+    <!-- Plant 3 -->
+    <ellipse cx="180" cy="192" rx="22" ry="28" />
+    <rect x="177" y="195" width="6" height="30" fill="#166534" />
+    
+    <!-- Plant 4 -->
+    <ellipse cx="240" cy="195" rx="20" ry="25" />
+    <rect x="237" y="195" width="6" height="30" fill="#166534" />
+  </g>
+  
+  <!-- Connection to main line -->
+  <rect x="10" y="95" width="20" height="22" rx="3" fill="#374151" />
+  
+  <!-- Label -->
+  <text x="150" y="280" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#166534">Drip Irrigation</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="pumpBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4B5563;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1F2937;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pumpAccent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E31E24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B91C1C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="300" height="300" rx="20" fill="#F3F4F6" />
+  
+  <!-- Pump Housing -->
+  <ellipse cx="150" cy="160" rx="70" ry="50" fill="url(#pumpBody)" />
+  
+  <!-- Pump volute -->
+  <path d="M80 160 Q80 110 150 110 Q220 110 220 160" fill="none" stroke="#374151" stroke-width="8" />
+  
+  <!-- Inlet pipe -->
+  <rect x="30" y="145" width="55" height="30" rx="5" fill="url(#pumpBody)" />
+  <rect x="20" y="140" width="20" height="40" rx="3" fill="#374151" />
+  
+  <!-- Outlet pipe (top) -->
+  <rect x="135" y="70" width="30" height="45" rx="5" fill="url(#pumpBody)" />
+  <rect x="130" y="55" width="40" height="20" rx="3" fill="#374151" />
+  
+  <!-- Motor -->
+  <rect x="200" y="120" width="70" height="80" rx="8" fill="url(#pumpAccent)" />
+  <rect x="205" y="125" width="60" height="70" rx="5" fill="#DC2626" />
+  <!-- Motor vents -->
+  <g fill="#B91C1C">
+    <rect x="210" y="135" width="50" height="4" rx="2" />
+    <rect x="210" y="145" width="50" height="4" rx="2" />
+    <rect x="210" y="155" width="50" height="4" rx="2" />
+    <rect x="210" y="165" width="50" height="4" rx="2" />
+    <rect x="210" y="175" width="50" height="4" rx="2" />
+  </g>
+  
+  <!-- Impeller center -->
+  <circle cx="150" cy="160" r="25" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="3" />
+  <circle cx="150" cy="160" r="10" fill="#374151" />
+  
+  <!-- Base plate -->
+  <rect x="60" y="210" width="180" height="15" rx="3" fill="#374151" />
+  
+  <!-- Feet -->
+  <rect x="70" y="225" width="25" height="30" rx="3" fill="#4B5563" />
+  <rect x="205" y="225" width="25" height="30" rx="3" fill="#4B5563" />
+  
+  <!-- Label -->
+  <text x="150" y="280" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#374151">Centrifugal Pump</text>
+</svg>

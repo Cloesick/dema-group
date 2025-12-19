@@ -1,14 +1,17 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useParams } from 'next/navigation'
 import { getCompanyById, companies } from '@/config/brands'
+import { getProductsByCompanyId } from '@/config/products'
 import { Phone, Mail, MapPin, ExternalLink, ArrowLeft } from 'lucide-react'
 
 export default function CompanyPage() {
   const params = useParams()
   const companyId = params.id as string
   const company = getCompanyById(companyId)
+  const products = getProductsByCompanyId(companyId)
 
   if (!company) {
     return (
@@ -124,15 +127,51 @@ export default function CompanyPage() {
         </div>
       </section>
 
+      {/* Featured Products */}
+      {products.length > 0 && (
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <h2 className="text-2xl font-bold mb-8">Our Products</h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {products.map((product) => (
+                <div 
+                  key={product.id}
+                  className="bg-white rounded-xl shadow-md hover:shadow-lg transition overflow-hidden group"
+                >
+                  <div className="aspect-square bg-slate-50 p-4">
+                    <Image
+                      src={product.image}
+                      alt={product.name}
+                      width={300}
+                      height={300}
+                      className="w-full h-full object-contain group-hover:scale-105 transition"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 
+                      className="font-semibold mb-1"
+                      style={{ color: company.colors.primary }}
+                    >
+                      {product.name}
+                    </h3>
+                    <p className="text-sm text-slate-600">{product.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Product Categories */}
-      <section className="py-16 bg-white">
+      <section className="py-16" style={{ backgroundColor: company.colors.background }}>
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold mb-8">Product Categories</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {company.categories.map((category) => (
               <div 
                 key={category}
-                className="p-4 rounded-lg border hover:shadow-md transition cursor-pointer"
+                className="p-4 rounded-lg border bg-white hover:shadow-md transition cursor-pointer"
                 style={{ borderColor: `${company.colors.primary}30` }}
               >
                 <div 

@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="accuIndigo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4338CA;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="steelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E5E7EB;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#9CA3AF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6B7280;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="300" height="300" rx="20" fill="#F5F3FF" />
+  
+  <!-- Grid pattern -->
+  <g stroke="#E5E7EB" stroke-width="0.5" opacity="0.5">
+    <line x1="0" y1="50" x2="300" y2="50" />
+    <line x1="0" y1="100" x2="300" y2="100" />
+    <line x1="0" y1="150" x2="300" y2="150" />
+    <line x1="0" y1="200" x2="300" y2="200" />
+    <line x1="0" y1="250" x2="300" y2="250" />
+    <line x1="50" y1="0" x2="50" y2="300" />
+    <line x1="100" y1="0" x2="100" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="300" />
+    <line x1="200" y1="0" x2="200" y2="300" />
+    <line x1="250" y1="0" x2="250" y2="300" />
+  </g>
+  
+  <!-- Socket Head Cap Screw -->
+  <g transform="translate(40, 40)">
+    <polygon points="30,0 50,12 50,35 30,47 10,35 10,12" fill="url(#steelGrad)" />
+    <polygon points="30,5 43,14 43,32 30,41 17,32 17,14" fill="#9CA3AF" />
+    <polygon points="30,12 38,17 38,27 30,32 22,27 22,17" fill="#4B5563" />
+    <rect x="25" y="47" width="10" height="60" fill="url(#steelGrad)" />
+    <g stroke="#6B7280" stroke-width="1">
+      <line x1="25" y1="55" x2="35" y2="55" />
+      <line x1="25" y1="65" x2="35" y2="65" />
+      <line x1="25" y1="75" x2="35" y2="75" />
+      <line x1="25" y1="85" x2="35" y2="85" />
+      <line x1="25" y1="95" x2="35" y2="95" />
+    </g>
+    <polygon points="25,107 30,115 35,107" fill="url(#steelGrad)" />
+  </g>
+  
+  <!-- Pan Head Screw -->
+  <g transform="translate(120, 50)">
+    <ellipse cx="25" cy="10" rx="25" ry="12" fill="url(#steelGrad)" />
+    <ellipse cx="25" cy="5" rx="20" ry="8" fill="#D1D5DB" />
+    <line x1="15" y1="5" x2="35" y2="5" stroke="#6B7280" stroke-width="2" />
+    <line x1="25" y1="-2" x2="25" y2="12" stroke="#6B7280" stroke-width="2" />
+    <rect x="20" y="18" width="10" height="50" fill="url(#steelGrad)" />
+    <g stroke="#6B7280" stroke-width="1">
+      <line x1="20" y1="25" x2="30" y2="25" />
+      <line x1="20" y1="35" x2="30" y2="35" />
+      <line x1="20" y1="45" x2="30" y2="45" />
+      <line x1="20" y1="55" x2="30" y2="55" />
+    </g>
+    <polygon points="20,68 25,76 30,68" fill="url(#steelGrad)" />
+  </g>
+  
+  <!-- Hex Bolt -->
+  <g transform="translate(200, 40)">
+    <polygon points="30,0 50,12 50,28 30,40 10,28 10,12" fill="url(#steelGrad)" />
+    <polygon points="30,5 45,15 45,25 30,35 15,25 15,15" fill="#9CA3AF" />
+    <rect x="22" y="40" width="16" height="70" fill="url(#steelGrad)" />
+    <g stroke="#6B7280" stroke-width="1">
+      <line x1="22" y1="50" x2="38" y2="50" />
+      <line x1="22" y1="60" x2="38" y2="60" />
+      <line x1="22" y1="70" x2="38" y2="70" />
+      <line x1="22" y1="80" x2="38" y2="80" />
+      <line x1="22" y1="90" x2="38" y2="90" />
+      <line x1="22" y1="100" x2="38" y2="100" />
+    </g>
+  </g>
+  
+  <!-- Washers -->
+  <g transform="translate(40, 180)">
+    <ellipse cx="30" cy="20" rx="28" ry="10" fill="url(#steelGrad)" />
+    <ellipse cx="30" cy="15" rx="28" ry="10" fill="#D1D5DB" />
+    <ellipse cx="30" cy="15" rx="12" ry="5" fill="#F5F3FF" />
+  </g>
+  
+  <!-- Nut -->
+  <g transform="translate(120, 175)">
+    <polygon points="30,0 50,12 50,28 30,40 10,28 10,12" fill="url(#steelGrad)" />
+    <polygon points="30,5 45,15 45,25 30,35 15,25 15,15" fill="#9CA3AF" />
+    <ellipse cx="30" cy="20" rx="10" ry="6" fill="#F5F3FF" />
+  </g>
+  
+  <!-- Standoff -->
+  <g transform="translate(200, 170)">
+    <polygon points="25,0 40,8 40,50 25,58 10,50 10,8" fill="url(#accuIndigo)" />
+    <polygon points="25,5 35,11 35,47 25,53 15,47 15,11" fill="#818CF8" />
+    <ellipse cx="25" cy="29" rx="6" ry="4" fill="#F5F3FF" />
+  </g>
+  
+  <!-- Label -->
+  <text x="150" y="270" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#4338CA">Precision Components</text>
+</svg>

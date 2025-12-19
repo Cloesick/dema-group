@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="hoseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9CA3AF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6B7280;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="300" height="300" rx="20" fill="#F3F4F6" />
+  
+  <!-- Coiled Hose -->
+  <g fill="none" stroke="url(#hoseGrad)" stroke-width="18" stroke-linecap="round">
+    <!-- Outer coil -->
+    <path d="M70 200 Q70 100 150 100 Q230 100 230 150 Q230 200 150 200 Q100 200 100 160" />
+    <!-- Inner coil -->
+    <path d="M100 160 Q100 130 140 130 Q180 130 180 155 Q180 180 140 180" />
+  </g>
+  
+  <!-- Hose texture lines -->
+  <g fill="none" stroke="#059669" stroke-width="2" opacity="0.5">
+    <path d="M75 195 Q75 105 150 105" />
+    <path d="M85 205 Q85 115 150 115" />
+  </g>
+  
+  <!-- Coupling 1 (left end) -->
+  <rect x="50" y="188" width="30" height="24" rx="3" fill="url(#metalGrad)" />
+  <rect x="45" y="192" width="10" height="16" rx="2" fill="#4B5563" />
+  <circle cx="65" cy="200" r="4" fill="#374151" />
+  
+  <!-- Coupling 2 (inner end) -->
+  <rect x="125" y="168" width="25" height="20" rx="3" fill="url(#metalGrad)" />
+  <circle cx="137" cy="178" r="3" fill="#374151" />
+  
+  <!-- Quick connect symbol -->
+  <g transform="translate(200, 60)">
+    <rect x="0" y="0" width="60" height="40" rx="5" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="2" />
+    <path d="M15 20 L25 20 M25 10 L25 30 M35 10 L35 30 M35 20 L45 20" stroke="#10B981" stroke-width="3" stroke-linecap="round" />
+  </g>
+  
+  <!-- Water drops -->
+  <g fill="#3B82F6" opacity="0.6">
+    <ellipse cx="180" cy="230" rx="6" ry="8" />
+    <ellipse cx="200" cy="245" rx="5" ry="7" />
+    <ellipse cx="165" cy="250" rx="4" ry="6" />
+  </g>
+  
+  <!-- Label -->
+  <text x="150" y="285" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#374151">Industrial Hoses</text>
+</svg>

@@ -146,7 +146,7 @@ export const productCategories: ProductCategory[] = [
     name_nl: 'Slangen & Koppelingen',
     name_fr: 'Flexibles & Raccords',
     icon: '🔄',
-    image: '/images/products/dema-pipes.svg',
+    image: '/images/products/dema-hoses.svg',
     color: '#10B981',
     description: 'Industrial hoses and quick couplings for every application',
     description_nl: 'Industriële slangen en snelkoppelingen voor elke toepassing',

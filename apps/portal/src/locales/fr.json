@@ -1,0 +1,86 @@
+{
+  "common": {
+    "backToHome": "Retour à DEMA Group",
+    "visitWebsite": "Visiter le Site",
+    "browseProducts": "Parcourir les Produits",
+    "contactUs": "Contactez-Nous",
+    "learnMore": "En Savoir Plus",
+    "viewAll": "Voir Tout",
+    "languages": "Langues"
+  },
+  "home": {
+    "title": "DEMA Group",
+    "subtitle": "Votre partenaire industriel unifié pour les pompes, vannes, tuyaux, outils, convoyeurs et composants de précision.",
+    "browseAllProducts": "Parcourir Tous les Produits",
+    "ourCompanies": "Nos Entreprises",
+    "needHelp": "Besoin d'Aide pour Trouver des Produits?",
+    "helpDescription": "Notre assistant produit alimenté par l'IA peut vous aider à trouver les bons produits pour votre projet. Disponible en néerlandais, anglais et français.",
+    "startChat": "Démarrer le Chat avec l'Assistant Produit",
+    "stats": {
+      "companies": "Entreprises",
+      "products": "Produits",
+      "yearsExperience": "Années d'Expérience",
+      "serviceAvailable": "Service Disponible"
+    }
+  },
+  "company": {
+    "ourProducts": "Nos Produits",
+    "productCategories": "Catégories de Produits",
+    "ourServices": "Nos Services",
+    "industriesWeServe": "Industries que Nous Servons",
+    "otherCompanies": "Autres Entreprises DEMA Group",
+    "partOfDemaGroup": "Partie de DEMA Group"
+  },
+  "footer": {
+    "description": "Votre partenaire industriel unifié pour des produits de qualité et un service expert.",
+    "companies": "Entreprises",
+    "contact": "Contact",
+    "allRightsReserved": "Tous droits réservés."
+  },
+  "companies": {
+    "dema": {
+      "tagline": "Produits de qualité pour l'agriculture, la construction et l'industrie",
+      "description": "DEMA fournit une large gamme de produits de qualité pour l'agriculture, l'horticulture, les entrepreneurs, les installateurs et les clients industriels. Un personnel expérimenté fournit des conseils professionnels."
+    },
+    "fluxer": {
+      "tagline": "Votre partenaire en flux de processus",
+      "description": "Fluxer est votre partenaire certifié pour les produits, services et solutions dans l'industrie pour tout ce qui concerne le transport par pipeline. Plus qu'un grossiste - un partenariat à long terme."
+    },
+    "beltz247": {
+      "tagline": "Support 24/7 en bandes transporteuses et maintenance mécanique",
+      "description": "L'équipe motivée de Beltz247 est votre partenaire idéal pour des bandes transporteuses de qualité. Nous combinons cela avec un service de haute qualité en maintenance mécanique. 20 ans de passion et de savoir-faire."
+    },
+    "devisschere": {
+      "tagline": "Spécialiste en conception et installation d'irrigation",
+      "description": "De Visschere Technics est spécialiste dans la conception, l'installation et l'entretien des systèmes d'irrigation. Les clients privés et les entreprises en horticulture ou industrie peuvent nous contacter."
+    },
+    "accu": {
+      "tagline": "Composants de précision - Achetez 1 ou des millions",
+      "description": "Fournisseur mondial de composants de précision avec plus de 500 000 références. Des vis aux entretoises, des rondelles aux poignées. Expédition express mondiale, téléchargements CAO, support 24/7."
+    }
+  },
+  "products": {
+    "pump": "Pompes Centrifuges",
+    "pumpDesc": "Pompes submersibles, centrifuges et de puits pour toutes applications",
+    "pipes": "Tuyaux et Raccords",
+    "pipesDesc": "Systèmes de tuyauterie PE, PVC et galvanisés avec raccords",
+    "tools": "Outils Électriques",
+    "toolsDesc": "Perceuses sans fil Makita, meuleuses et outils professionnels",
+    "compressor": "Compresseurs d'Air",
+    "compressorDesc": "Compresseurs à piston et à vis Airpress",
+    "valve": "Vannes Industrielles",
+    "valveDesc": "Vannes à bille, papillon, vanne et de régulation",
+    "actuator": "Actionneurs",
+    "actuatorDesc": "Actionneurs pneumatiques et électriques pour l'automatisation des vannes",
+    "instrumentation": "Instrumentation",
+    "instrumentationDesc": "Mesure de pression, débit, niveau et température",
+    "conveyor": "Bandes Transporteuses",
+    "conveyorDesc": "Bandes transporteuses industrielles certifiées FDA/HACCP",
+    "sprinkler": "Systèmes d'Irrigation",
+    "sprinklerDesc": "Arroseurs escamotables, rotors et programmateurs",
+    "drip": "Irrigation Goutte à Goutte",
+    "dripDesc": "Lignes de goutte, goutteurs et micro-irrigation",
+    "screws": "Composants de Précision",
+    "screwsDesc": "Vis, boulons, écrous, rondelles et entretoises"
+  }
+}

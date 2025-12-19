@@ -5,6 +5,8 @@ import Image from 'next/image'
 import { useParams } from 'next/navigation'
 import { getCompanyById, companies } from '@/config/brands'
 import { getProductsByCompanyId } from '@/config/products'
+import { useLanguage } from '@/contexts/LanguageContext'
+import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { Phone, Mail, MapPin, ExternalLink, ArrowLeft } from 'lucide-react'
 
 export default function CompanyPage() {
@@ -12,6 +14,10 @@ export default function CompanyPage() {
   const companyId = params.id as string
   const company = getCompanyById(companyId)
   const products = getProductsByCompanyId(companyId)
+  const { t } = useLanguage()
+
+  const companyKey = companyId as keyof typeof t.companies
+  const companyTranslations = t.companies[companyKey]
 
   if (!company) {
     return (
@@ -28,6 +34,13 @@ export default function CompanyPage() {
 
   return (
     <main className="min-h-screen">
+      {/* Language Switcher Header */}
+      <div className="bg-slate-900 text-white py-2">
+        <div className="container mx-auto px-4 flex justify-end">
+          <LanguageSwitcher />
+        </div>
+      </div>
+
       {/* Hero Section with Company Branding */}
       <section 
         className="py-16 text-white relative overflow-hidden"
@@ -48,7 +61,7 @@ export default function CompanyPage() {
             className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition"
           >
             <ArrowLeft size={20} />
-            Back to DEMA Group
+            {t.common.backToHome}
           </Link>
           
           <div className="flex items-center gap-6 mb-6">
@@ -59,12 +72,12 @@ export default function CompanyPage() {
             </div>
             <div>
               <h1 className="text-4xl font-bold mb-2">{company.name}</h1>
-              <p className="text-xl text-white/90">{company.tagline}</p>
+              <p className="text-xl text-white/90">{companyTranslations?.tagline || company.tagline}</p>
             </div>
           </div>
           
           <p className="text-lg text-white/80 max-w-3xl mb-8">
-            {company.description}
+            {companyTranslations?.description || company.description}
           </p>
           
           <div className="flex flex-wrap gap-4">
@@ -74,14 +87,14 @@ export default function CompanyPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white text-slate-900 px-6 py-3 rounded-lg font-semibold hover:bg-white/90 transition"
             >
-              Visit Website
+              {t.common.visitWebsite}
               <ExternalLink size={18} />
             </a>
             <Link 
               href={`/company/${company.id}/products`}
               className="inline-flex items-center gap-2 bg-white/20 backdrop-blur px-6 py-3 rounded-lg font-semibold hover:bg-white/30 transition"
             >
-              Browse Products
+              {t.common.browseProducts}
             </Link>
           </div>
         </div>
@@ -131,7 +144,7 @@ export default function CompanyPage() {
       {products.length > 0 && (
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
-            <h2 className="text-2xl font-bold mb-8">Our Products</h2>
+            <h2 className="text-2xl font-bold mb-8">{t.company.ourProducts}</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {products.map((product) => (
                 <div 
@@ -166,7 +179,7 @@ export default function CompanyPage() {
       {/* Product Categories */}
       <section className="py-16" style={{ backgroundColor: company.colors.background }}>
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-8">Product Categories</h2>
+          <h2 className="text-2xl font-bold mb-8">{t.company.productCategories}</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {company.categories.map((category) => (
               <div 
@@ -200,7 +213,7 @@ export default function CompanyPage() {
         style={{ backgroundColor: company.colors.background }}
       >
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-8">Our Services</h2>
+          <h2 className="text-2xl font-bold mb-8">{t.company.ourServices}</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {company.services.map((service) => (
               <div 
@@ -228,7 +241,7 @@ export default function CompanyPage() {
       {/* Target Markets */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-8">Industries We Serve</h2>
+          <h2 className="text-2xl font-bold mb-8">{t.company.industriesWeServe}</h2>
           <div className="flex flex-wrap gap-3">
             {company.targetMarkets.map((market) => (
               <span 
@@ -249,7 +262,7 @@ export default function CompanyPage() {
       {/* Other Companies */}
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-8">Other DEMA Group Companies</h2>
+          <h2 className="text-2xl font-bold mb-8">{t.company.otherCompanies}</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             {companies
               .filter((c) => c.id !== company.id)
@@ -282,7 +295,7 @@ export default function CompanyPage() {
       >
         <div className="container mx-auto px-4 text-center">
           <p className="text-white/60 text-sm">
-            © 2024 {company.name} - Part of DEMA Group. All rights reserved.
+            © 2024 {company.name} - {t.company.partOfDemaGroup}. {t.footer.allRightsReserved}
           </p>
         </div>
       </footer>

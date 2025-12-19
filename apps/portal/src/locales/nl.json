@@ -1,0 +1,86 @@
+{
+  "common": {
+    "backToHome": "Terug naar DEMA Group",
+    "visitWebsite": "Bezoek Website",
+    "browseProducts": "Bekijk Producten",
+    "contactUs": "Contacteer Ons",
+    "learnMore": "Meer Info",
+    "viewAll": "Bekijk Alles",
+    "languages": "Talen"
+  },
+  "home": {
+    "title": "DEMA Group",
+    "subtitle": "Uw uniforme industriële partner voor pompen, kleppen, buizen, gereedschap, transportbanden en precisiecomponenten.",
+    "browseAllProducts": "Bekijk Alle Producten",
+    "ourCompanies": "Onze Bedrijven",
+    "needHelp": "Hulp Nodig bij het Vinden van Producten?",
+    "helpDescription": "Onze AI-gestuurde productassistent kan u helpen het juiste product te vinden voor uw project. Beschikbaar in het Nederlands, Engels en Frans.",
+    "startChat": "Start Chat met Productassistent",
+    "stats": {
+      "companies": "Bedrijven",
+      "products": "Producten",
+      "yearsExperience": "Jaar Ervaring",
+      "serviceAvailable": "Service Beschikbaar"
+    }
+  },
+  "company": {
+    "ourProducts": "Onze Producten",
+    "productCategories": "Productcategorieën",
+    "ourServices": "Onze Diensten",
+    "industriesWeServe": "Industrieën die Wij Bedienen",
+    "otherCompanies": "Andere DEMA Group Bedrijven",
+    "partOfDemaGroup": "Onderdeel van DEMA Group"
+  },
+  "footer": {
+    "description": "Uw uniforme industriële partner voor kwaliteitsproducten en deskundige service.",
+    "companies": "Bedrijven",
+    "contact": "Contact",
+    "allRightsReserved": "Alle rechten voorbehouden."
+  },
+  "companies": {
+    "dema": {
+      "tagline": "Kwaliteitsproducten voor land- en tuinbouw, bouw en industrie",
+      "description": "DEMA levert een ruim gamma kwaliteitsproducten voor land- en tuinbouw, bouwaannemers, tuinaanleggers, installateurs en industriëlen. De ervaren medewerkers staan borg voor gericht professioneel advies."
+    },
+    "fluxer": {
+      "tagline": "Uw partner in process flow",
+      "description": "Fluxer is jouw gecertificeerde partner voor producten, diensten en oplossingen in de industrie voor alles wat met transport via leidingen te maken heeft. Meer dan een groothandel - een langdurig partnerschap."
+    },
+    "beltz247": {
+      "tagline": "24/7 ondersteuning in transportbanden en mechanisch onderhoud",
+      "description": "Het gedreven team van Beltz247 is uw ideale partner voor kwalitatieve transportbanden. We combineren dit met hoogwaardige service in mechanisch onderhoud. 20 jaar passie en kennis."
+    },
+    "devisschere": {
+      "tagline": "Specialist in het ontwerpen en aanleggen van beregening",
+      "description": "De Visschere Technics is specialist in het ontwerpen, aanleggen en onderhouden van tuinberegeningen. Zowel particuliere klanten als bedrijven in tuinbouw of industrie kunnen bij ons terecht."
+    },
+    "accu": {
+      "tagline": "Precisiecomponenten - Koop 1 of miljoenen",
+      "description": "Wereldwijde leverancier van precisiecomponenten met 500.000+ SKUs. Van schroeven tot afstandhouders, ringen tot handgrepen. Express wereldwijde verzending, CAD downloads, 24/7 ondersteuning."
+    }
+  },
+  "products": {
+    "pump": "Centrifugaalpompen",
+    "pumpDesc": "Dompel-, centrifugaal- en bronpompen voor alle toepassingen",
+    "pipes": "Buizen en Fittingen",
+    "pipesDesc": "PE, PVC en verzinkte buissystemen met fittingen",
+    "tools": "Elektrisch Gereedschap",
+    "toolsDesc": "Makita accuboormachines, slijpers en professioneel gereedschap",
+    "compressor": "Luchtcompressoren",
+    "compressorDesc": "Airpress zuiger- en schroefcompressoren",
+    "valve": "Industriële Kleppen",
+    "valveDesc": "Kogel-, vlinder-, schuif- en regelkleppen",
+    "actuator": "Aandrijvingen",
+    "actuatorDesc": "Pneumatische en elektrische aandrijvingen voor klepautomatisering",
+    "instrumentation": "Instrumentatie",
+    "instrumentationDesc": "Druk-, debiet-, niveau- en temperatuurmeting",
+    "conveyor": "Transportbanden",
+    "conveyorDesc": "FDA/HACCP gecertificeerde industriële transportbanden",
+    "sprinkler": "Beregeningssystemen",
+    "sprinklerDesc": "Pop-up sproeiers, rotors en beregeningscomputers",
+    "drip": "Druppelbevloeiing",
+    "dripDesc": "Druppelslangen, druppelaar en micro-irrigatie",
+    "screws": "Precisiecomponenten",
+    "screwsDesc": "Schroeven, bouten, moeren, ringen en afstandhouders"
+  }
+}

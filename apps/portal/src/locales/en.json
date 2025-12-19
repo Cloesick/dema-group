@@ -1,0 +1,86 @@
+{
+  "common": {
+    "backToHome": "Back to DEMA Group",
+    "visitWebsite": "Visit Website",
+    "browseProducts": "Browse Products",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "languages": "Languages"
+  },
+  "home": {
+    "title": "DEMA Group",
+    "subtitle": "Your unified industrial partner for pumps, valves, pipes, tools, conveyors, and precision components.",
+    "browseAllProducts": "Browse All Products",
+    "ourCompanies": "Our Companies",
+    "needHelp": "Need Help Finding Products?",
+    "helpDescription": "Our AI-powered product assistant can help you find the right products for your project. Available in Dutch, English, and French.",
+    "startChat": "Start Chat with Product Assistant",
+    "stats": {
+      "companies": "Companies",
+      "products": "Products",
+      "yearsExperience": "Years Experience",
+      "serviceAvailable": "Service Available"
+    }
+  },
+  "company": {
+    "ourProducts": "Our Products",
+    "productCategories": "Product Categories",
+    "ourServices": "Our Services",
+    "industriesWeServe": "Industries We Serve",
+    "otherCompanies": "Other DEMA Group Companies",
+    "partOfDemaGroup": "Part of DEMA Group"
+  },
+  "footer": {
+    "description": "Your unified industrial partner for quality products and expert service.",
+    "companies": "Companies",
+    "contact": "Contact",
+    "allRightsReserved": "All rights reserved."
+  },
+  "companies": {
+    "dema": {
+      "tagline": "Quality products for agriculture, construction & industry",
+      "description": "DEMA delivers a wide range of quality products for agriculture, horticulture, contractors, installers and industrial customers. Experienced staff provide professional advice. Service and dedication are core values."
+    },
+    "fluxer": {
+      "tagline": "Your partner in process flow",
+      "description": "Fluxer is your certified partner for products, services and solutions in industry for everything related to pipeline transport. More than a wholesaler - a long-term partnership."
+    },
+    "beltz247": {
+      "tagline": "24/7 support in conveyor belts & mechanical maintenance",
+      "description": "The driven team of Beltz247 is your ideal partner for quality conveyor belts. We combine this with high-quality service in mechanical maintenance. 20 years of passion and knowledge."
+    },
+    "devisschere": {
+      "tagline": "Specialist in irrigation design & installation",
+      "description": "De Visschere Technics is specialist in designing, installing and maintaining irrigation systems. Both private customers and companies in horticulture or industry can come to us for custom irrigation installations."
+    },
+    "accu": {
+      "tagline": "Precision components - Buy 1 or millions",
+      "description": "Global precision components supplier with 500,000+ SKUs. From screws to standoffs, washers to handles. Express worldwide shipping, CAD downloads, 24/7 support."
+    }
+  },
+  "products": {
+    "pump": "Centrifugal Pumps",
+    "pumpDesc": "Submersible, centrifugal, and well pumps for all applications",
+    "pipes": "Pipes and Fittings",
+    "pipesDesc": "PE, PVC, and galvanized pipe systems with fittings",
+    "tools": "Power Tools",
+    "toolsDesc": "Makita cordless drills, grinders, and professional tools",
+    "compressor": "Air Compressors",
+    "compressorDesc": "Airpress piston and screw compressors",
+    "valve": "Industrial Valves",
+    "valveDesc": "Ball, butterfly, gate, and control valves",
+    "actuator": "Actuators",
+    "actuatorDesc": "Pneumatic and electric actuators for valve automation",
+    "instrumentation": "Instrumentation",
+    "instrumentationDesc": "Pressure, flow, level, and temperature measurement",
+    "conveyor": "Conveyor Belts",
+    "conveyorDesc": "FDA/HACCP certified industrial conveyor belts",
+    "sprinkler": "Irrigation Systems",
+    "sprinklerDesc": "Pop-up sprinklers, rotors, and controllers",
+    "drip": "Drip Irrigation",
+    "dripDesc": "Drip lines, emitters, and micro-irrigation",
+    "screws": "Precision Components",
+    "screwsDesc": "Screws, bolts, nuts, washers, and standoffs"
+  }
+}

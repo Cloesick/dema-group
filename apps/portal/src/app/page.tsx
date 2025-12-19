@@ -1,44 +1,61 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
 import { companies } from '@/config/brands'
-
-const companyCards = companies.map((company) => ({
-  id: company.id,
-  name: company.name,
-  tagline: company.tagline,
-  description: company.description,
-  icon: company.icon,
-  logo: company.logo,
-  primaryColor: company.colors.primary,
-  categories: company.categories.slice(0, 4),
-  website: company.website,
-}))
+import { useLanguage } from '@/contexts/LanguageContext'
+import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 
 export default function HomePage() {
+  const { t, language } = useLanguage()
+
+  const companyCards = companies.map((company) => {
+    const companyKey = company.id as keyof typeof t.companies
+    const translations = t.companies[companyKey]
+    return {
+      id: company.id,
+      name: company.name,
+      tagline: translations?.tagline || company.tagline,
+      description: translations?.description || company.description,
+      icon: company.icon,
+      logo: company.logo,
+      primaryColor: company.colors.primary,
+      categories: company.categories.slice(0, 4),
+      website: company.website,
+    }
+  })
+
   return (
     <main className="min-h-screen">
+      {/* Language Switcher Header */}
+      <div className="bg-slate-900 text-white py-2">
+        <div className="container mx-auto px-4 flex justify-end">
+          <LanguageSwitcher />
+        </div>
+      </div>
+
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-slate-900 to-slate-800 text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">
-              DEMA Group
+              {t.home.title}
             </h1>
             <p className="text-xl text-slate-300 mb-8">
-              Your unified industrial partner for pumps, valves, pipes, tools, conveyors, and precision components.
+              {t.home.subtitle}
             </p>
             <div className="flex gap-4 justify-center">
               <Link 
                 href="/products" 
                 className="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg font-semibold transition"
               >
-                Browse All Products
+                {t.home.browseAllProducts}
               </Link>
               <Link 
                 href="/contact" 
                 className="bg-white/10 hover:bg-white/20 px-8 py-3 rounded-lg font-semibold transition"
               >
-                Contact Us
+                {t.common.contactUs}
               </Link>
             </div>
           </div>
@@ -51,19 +68,19 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-4xl font-bold text-blue-600">5</div>
-              <div className="text-slate-600">Companies</div>
+              <div className="text-slate-600">{t.home.stats.companies}</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-blue-600">50,000+</div>
-              <div className="text-slate-600">Products</div>
+              <div className="text-slate-600">{t.home.stats.products}</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-blue-600">25+</div>
-              <div className="text-slate-600">Years Experience</div>
+              <div className="text-slate-600">{t.home.stats.yearsExperience}</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-blue-600">24/7</div>
-              <div className="text-slate-600">Service Available</div>
+              <div className="text-slate-600">{t.home.stats.serviceAvailable}</div>
             </div>
           </div>
         </div>
@@ -72,7 +89,7 @@ export default function HomePage() {
       {/* Companies Grid */}
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Companies</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">{t.home.ourCompanies}</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {companyCards.map((company) => (
               <Link
@@ -113,13 +130,12 @@ export default function HomePage() {
       {/* CTA Section */}
       <section className="py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Need Help Finding Products?</h2>
+          <h2 className="text-3xl font-bold mb-4">{t.home.needHelp}</h2>
           <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
-            Our AI-powered product assistant can help you find the right products for your project. 
-            Available in Dutch, English, and French.
+            {t.home.helpDescription}
           </p>
           <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
-            Start Chat with Product Assistant
+            {t.home.startChat}
           </button>
         </div>
       </section>
@@ -131,11 +147,11 @@ export default function HomePage() {
             <div>
               <h3 className="font-bold text-lg mb-4">DEMA Group</h3>
               <p className="text-slate-400 text-sm">
-                Your unified industrial partner for quality products and expert service.
+                {t.footer.description}
               </p>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Companies</h4>
+              <h4 className="font-semibold mb-4">{t.footer.companies}</h4>
               <ul className="space-y-2 text-slate-400 text-sm">
                 {companyCards.map((c) => (
                   <li key={c.id}>
@@ -147,7 +163,7 @@ export default function HomePage() {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Contact</h4>
+              <h4 className="font-semibold mb-4">{t.footer.contact}</h4>
               <ul className="space-y-2 text-slate-400 text-sm">
                 <li>Ovenstraat 11</li>
                 <li>8800 Roeselare, Belgium</li>
@@ -156,16 +172,12 @@ export default function HomePage() {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Languages</h4>
-              <div className="flex gap-2">
-                <button className="px-3 py-1 bg-slate-800 rounded text-sm hover:bg-slate-700">NL</button>
-                <button className="px-3 py-1 bg-slate-800 rounded text-sm hover:bg-slate-700">EN</button>
-                <button className="px-3 py-1 bg-slate-800 rounded text-sm hover:bg-slate-700">FR</button>
-              </div>
+              <h4 className="font-semibold mb-4">{t.common.languages}</h4>
+              <LanguageSwitcher />
             </div>
           </div>
           <div className="border-t border-slate-800 mt-8 pt-8 text-center text-slate-500 text-sm">
-            © 2024 DEMA Group. All rights reserved.
+            © 2024 DEMA Group. {t.footer.allRightsReserved}
           </div>
         </div>
       </footer>

@@ -1,21 +1,28 @@
 'use client'
 
 import { useState, useCallback } from 'react'
-import { Upload, FileText, Download, Loader2, CheckCircle, AlertCircle, X } from 'lucide-react'
-
-interface ExtractedProduct {
-  sku: string
-  series_name: string
-  source_pdf: string
-  page: number
-  [key: string]: string | number | undefined
-}
+import { Upload, FileText, Download, Loader2, CheckCircle, AlertCircle, X, FileJson, FileCode, Database, ArrowRight } from 'lucide-react'
+import { 
+  enrichProduct, 
+  convertToPortalProduct, 
+  convertToDemaWebshopFormat,
+  generateDemaWebshopXML,
+  generatePortalProductXML,
+  processPIMBatch,
+  type PIMExtractedProduct,
+  type PIMEnrichedProduct,
+  type DemaWebshopProduct
+} from '@/lib/pim'
+import type { Product } from '@/types'
 
 interface ParseResult {
   filename: string
   pageCount: number
   rawText: string
-  products: ExtractedProduct[]
+  products: PIMExtractedProduct[]
+  enrichedProducts: PIMEnrichedProduct[]
+  portalProducts: Partial<Product>[]
+  demaWebshopProducts: DemaWebshopProduct[]
   status: 'pending' | 'processing' | 'completed' | 'error'
   error?: string
 }
@@ -74,6 +81,9 @@ export default function AdminPIMPage() {
         pageCount: 0,
         rawText: '',
         products: [],
+        enrichedProducts: [],
+        portalProducts: [],
+        demaWebshopProducts: [],
         status: 'processing',
       }
       newResults.push(result)
@@ -96,12 +106,27 @@ export default function AdminPIMPage() {
         result.pageCount = data.pageCount
         result.rawText = data.rawText
         result.products = data.products
+        
+        // Process through PIM pipeline - PLUG & PLAY
+        const processed = processPIMBatch(data.products, 'dema')
+        result.enrichedProducts = processed.enriched
+        result.portalProducts = processed.portal
+        result.demaWebshopProducts = processed.demaWebshop
         result.status = 'completed'
 
-        // Save products to localStorage for the products page
-        const existingProducts = JSON.parse(localStorage.getItem('pim_products') || '[]')
-        const newProducts = [...existingProducts, ...data.products]
-        localStorage.setItem('pim_products', JSON.stringify(newProducts))
+        // Save all formats to localStorage
+        const existingRaw = JSON.parse(localStorage.getItem('pim_products_raw') || '[]')
+        const existingEnriched = JSON.parse(localStorage.getItem('pim_products_enriched') || '[]')
+        const existingPortal = JSON.parse(localStorage.getItem('pim_products_portal') || '[]')
+        const existingWebshop = JSON.parse(localStorage.getItem('pim_products_webshop') || '[]')
+        
+        localStorage.setItem('pim_products_raw', JSON.stringify([...existingRaw, ...data.products]))
+        localStorage.setItem('pim_products_enriched', JSON.stringify([...existingEnriched, ...processed.enriched]))
+        localStorage.setItem('pim_products_portal', JSON.stringify([...existingPortal, ...processed.portal]))
+        localStorage.setItem('pim_products_webshop', JSON.stringify([...existingWebshop, ...processed.demaWebshop]))
+        
+        // Keep backward compatibility
+        localStorage.setItem('pim_products', JSON.stringify([...existingEnriched, ...processed.enriched]))
       } catch (error) {
         result.status = 'error'
         result.error = error instanceof Error ? error.message : 'Unknown error'
@@ -113,47 +138,67 @@ export default function AdminPIMPage() {
     setIsProcessing(false)
   }
 
-  const exportToJSON = (result: ParseResult) => {
+  // Export dema-webshop compatible JSON
+  const exportDemaWebshopJSON = (result: ParseResult) => {
+    const blob = new Blob([JSON.stringify(result.demaWebshopProducts, null, 2)], {
+      type: 'application/json',
+    })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `${result.filename.replace('.pdf', '')}_dema_webshop.json`
+    a.click()
+    URL.revokeObjectURL(url)
+  }
+
+  // Export dema-webshop compatible XML
+  const exportDemaWebshopXML = (result: ParseResult) => {
+    const xml = generateDemaWebshopXML(result.demaWebshopProducts)
+    const blob = new Blob([xml], { type: 'application/xml' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `${result.filename.replace('.pdf', '')}_dema_webshop.xml`
+    a.click()
+    URL.revokeObjectURL(url)
+  }
+
+  // Export portal-compatible JSON
+  const exportPortalJSON = (result: ParseResult) => {
+    const blob = new Blob([JSON.stringify(result.portalProducts, null, 2)], {
+      type: 'application/json',
+    })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `${result.filename.replace('.pdf', '')}_portal.json`
+    a.click()
+    URL.revokeObjectURL(url)
+  }
+
+  // Export portal-compatible XML
+  const exportPortalXML = (result: ParseResult) => {
+    const xml = generatePortalProductXML(result.portalProducts)
+    const blob = new Blob([xml], { type: 'application/xml' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `${result.filename.replace('.pdf', '')}_portal.xml`
+    a.click()
+    URL.revokeObjectURL(url)
+  }
+
+  // Export raw extracted data
+  const exportRawJSON = (result: ParseResult) => {
     const blob = new Blob([JSON.stringify(result.products, null, 2)], {
       type: 'application/json',
     })
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url
-    a.download = `${result.filename.replace('.pdf', '')}_products.json`
+    a.download = `${result.filename.replace('.pdf', '')}_raw.json`
     a.click()
     URL.revokeObjectURL(url)
-  }
-
-  const exportToXML = (result: ParseResult) => {
-    let xml = '<?xml version="1.0" encoding="UTF-8"?>\n<products>\n'
-    for (const product of result.products) {
-      xml += '  <product>\n'
-      for (const [key, value] of Object.entries(product)) {
-        if (value !== undefined) {
-          xml += `    <${key}>${escapeXml(String(value))}</${key}>\n`
-        }
-      }
-      xml += '  </product>\n'
-    }
-    xml += '</products>'
-
-    const blob = new Blob([xml], { type: 'application/xml' })
-    const url = URL.createObjectURL(blob)
-    const a = document.createElement('a')
-    a.href = url
-    a.download = `${result.filename.replace('.pdf', '')}_products.xml`
-    a.click()
-    URL.revokeObjectURL(url)
-  }
-
-  const escapeXml = (str: string) => {
-    return str
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;')
-      .replace(/'/g, '&apos;')
   }
 
   return (
@@ -267,20 +312,46 @@ export default function AdminPIMPage() {
                     )}
                   </div>
                   {result.status === 'completed' && (
-                    <div className="flex gap-2">
+                    <div className="flex flex-wrap gap-2">
                       <button
-                        onClick={() => exportToJSON(result)}
+                        onClick={() => exportDemaWebshopJSON(result)}
                         className="px-3 py-1 text-sm bg-blue-100 text-blue-700 rounded hover:bg-blue-200 flex items-center gap-1"
+                        title="Dema-webshop compatible JSON"
                       >
-                        <Download className="w-4 h-4" />
-                        JSON
+                        <FileJson className="w-4 h-4" />
+                        Webshop JSON
                       </button>
                       <button
-                        onClick={() => exportToXML(result)}
+                        onClick={() => exportDemaWebshopXML(result)}
                         className="px-3 py-1 text-sm bg-purple-100 text-purple-700 rounded hover:bg-purple-200 flex items-center gap-1"
+                        title="Dema-webshop compatible XML"
+                      >
+                        <FileCode className="w-4 h-4" />
+                        Webshop XML
+                      </button>
+                      <button
+                        onClick={() => exportPortalJSON(result)}
+                        className="px-3 py-1 text-sm bg-green-100 text-green-700 rounded hover:bg-green-200 flex items-center gap-1"
+                        title="Portal Product type JSON"
+                      >
+                        <Database className="w-4 h-4" />
+                        Portal JSON
+                      </button>
+                      <button
+                        onClick={() => exportPortalXML(result)}
+                        className="px-3 py-1 text-sm bg-orange-100 text-orange-700 rounded hover:bg-orange-200 flex items-center gap-1"
+                        title="Portal Product type XML"
+                      >
+                        <FileCode className="w-4 h-4" />
+                        Portal XML
+                      </button>
+                      <button
+                        onClick={() => exportRawJSON(result)}
+                        className="px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded hover:bg-gray-200 flex items-center gap-1"
+                        title="Raw extracted data"
                       >
                         <Download className="w-4 h-4" />
-                        XML
+                        Raw
                       </button>
                     </div>
                   )}
@@ -288,28 +359,56 @@ export default function AdminPIMPage() {
 
                 {result.status === 'completed' && (
                   <div className="p-4">
-                    <div className="grid grid-cols-3 gap-4 mb-4">
+                    {/* Stats */}
+                    <div className="grid grid-cols-4 gap-4 mb-4">
                       <div className="bg-gray-50 p-3 rounded-lg">
                         <p className="text-sm text-gray-500">Pages</p>
                         <p className="text-2xl font-bold">{result.pageCount}</p>
                       </div>
                       <div className="bg-gray-50 p-3 rounded-lg">
-                        <p className="text-sm text-gray-500">Products Found</p>
+                        <p className="text-sm text-gray-500">Raw Products</p>
                         <p className="text-2xl font-bold">{result.products.length}</p>
                       </div>
-                      <div className="bg-gray-50 p-3 rounded-lg">
-                        <p className="text-sm text-gray-500">Characters</p>
-                        <p className="text-2xl font-bold">
-                          {result.rawText.length.toLocaleString()}
-                        </p>
+                      <div className="bg-blue-50 p-3 rounded-lg">
+                        <p className="text-sm text-blue-600">Webshop Format</p>
+                        <p className="text-2xl font-bold text-blue-700">{result.demaWebshopProducts.length}</p>
+                      </div>
+                      <div className="bg-green-50 p-3 rounded-lg">
+                        <p className="text-sm text-green-600">Portal Format</p>
+                        <p className="text-2xl font-bold text-green-700">{result.portalProducts.length}</p>
+                      </div>
+                    </div>
+
+                    {/* Pipeline Flow */}
+                    <div className="bg-gradient-to-r from-gray-50 via-blue-50 to-green-50 p-4 rounded-lg mb-4">
+                      <div className="flex items-center justify-between text-sm">
+                        <div className="text-center">
+                          <p className="font-medium text-gray-700">PDF</p>
+                          <p className="text-gray-500">{result.filename}</p>
+                        </div>
+                        <ArrowRight className="w-5 h-5 text-gray-400" />
+                        <div className="text-center">
+                          <p className="font-medium text-gray-700">Extract</p>
+                          <p className="text-gray-500">{result.products.length} SKUs</p>
+                        </div>
+                        <ArrowRight className="w-5 h-5 text-gray-400" />
+                        <div className="text-center">
+                          <p className="font-medium text-blue-700">Enrich</p>
+                          <p className="text-blue-500">+ metadata</p>
+                        </div>
+                        <ArrowRight className="w-5 h-5 text-gray-400" />
+                        <div className="text-center">
+                          <p className="font-medium text-green-700">Export</p>
+                          <p className="text-green-500">JSON / XML</p>
+                        </div>
                       </div>
                     </div>
 
                     {/* Product Preview */}
-                    {result.products.length > 0 && (
+                    {result.enrichedProducts.length > 0 && (
                       <div>
                         <h3 className="font-medium text-gray-700 mb-2">
-                          Product Preview (first 5)
+                          Enriched Products Preview (first 5)
                         </h3>
                         <div className="overflow-x-auto">
                           <table className="min-w-full text-sm">
@@ -317,22 +416,32 @@ export default function AdminPIMPage() {
                               <tr>
                                 <th className="px-3 py-2 text-left">SKU</th>
                                 <th className="px-3 py-2 text-left">Series</th>
-                                <th className="px-3 py-2 text-left">Page</th>
-                                <th className="px-3 py-2 text-left">Properties</th>
+                                <th className="px-3 py-2 text-left">Material</th>
+                                <th className="px-3 py-2 text-left">Category</th>
+                                <th className="px-3 py-2 text-left">Type</th>
                               </tr>
                             </thead>
                             <tbody>
-                              {result.products.slice(0, 5).map((product, i) => (
+                              {result.enrichedProducts.slice(0, 5).map((product, i) => (
                                 <tr key={i} className="border-t">
-                                  <td className="px-3 py-2 font-mono">
+                                  <td className="px-3 py-2 font-mono text-blue-600">
                                     {product.sku}
                                   </td>
                                   <td className="px-3 py-2">{product.series_name}</td>
-                                  <td className="px-3 py-2">{product.page}</td>
                                   <td className="px-3 py-2">
-                                    <code className="text-xs bg-gray-100 px-1 rounded">
-                                      {Object.keys(product).length} fields
-                                    </code>
+                                    <span className="px-2 py-0.5 bg-gray-100 rounded text-xs">
+                                      {product._enriched.material}
+                                    </span>
+                                  </td>
+                                  <td className="px-3 py-2">
+                                    <span className="px-2 py-0.5 bg-blue-100 text-blue-700 rounded text-xs">
+                                      {product._enriched.catalog_group}
+                                    </span>
+                                  </td>
+                                  <td className="px-3 py-2">
+                                    <span className="px-2 py-0.5 bg-green-100 text-green-700 rounded text-xs">
+                                      {product._enriched.product_type}
+                                    </span>
                                   </td>
                                 </tr>
                               ))}

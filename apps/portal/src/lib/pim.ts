@@ -369,61 +369,59 @@ export function convertToDemaWebshopFormat(products: PIMEnrichedProduct[]): Dema
 // -----------------------------------------------------------------------------
 
 export function generateDemaWebshopXML(products: DemaWebshopProduct[]): string {
+  // XML structure exactly mirrors the JSON structure from products_for_shop.json
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
-  xml += '<catalog xmlns="http://demagroup.be/schema/products">\n'
-  xml += '  <metadata>\n'
-  xml += `    <generated>${new Date().toISOString()}</generated>\n`
-  xml += `    <productCount>${products.length}</productCount>\n`
-  xml += '    <source>DEMA Group PIM</source>\n'
-  xml += '    <version>2.0</version>\n'
-  xml += '  </metadata>\n'
-  xml += '  <products>\n'
+  xml += '<products>\n'
 
   for (const product of products) {
-    xml += '    <product>\n'
-    xml += `      <sku>${escapeXml(product.sku)}</sku>\n`
-    xml += `      <series_id>${escapeXml(product.series_id)}</series_id>\n`
-    xml += `      <series_name>${escapeXml(product.series_name)}</series_name>\n`
-    xml += `      <source_pdf>${escapeXml(product.source_pdf)}</source_pdf>\n`
-    xml += `      <page>${product.page}</page>\n`
-    xml += `      <bestelnr>${escapeXml(product.bestelnr)}</bestelnr>\n`
+    xml += '  <product>\n'
     
-    if (product.maat) xml += `      <maat>${escapeXml(product.maat)}</maat>\n`
-    if (product.werkdruk) xml += `      <werkdruk>${escapeXml(product.werkdruk)}</werkdruk>\n`
-    if (product.type) xml += `      <type>${escapeXml(product.type)}</type>\n`
-    if (product.angle) xml += `      <angle>${escapeXml(product.angle)}</angle>\n`
-    if (product.spec_product_title) xml += `      <spec_product_title>${escapeXml(product.spec_product_title)}</spec_product_title>\n`
-    if (product.spec_product_variant) xml += `      <spec_product_variant>${escapeXml(product.spec_product_variant)}</spec_product_variant>\n`
-    if (product.application) xml += `      <application>${escapeXml(product.application)}</application>\n`
+    // Core fields - exact order from JSON
+    xml += `    <sku>${escapeXml(product.sku)}</sku>\n`
+    xml += `    <series_id>${escapeXml(product.series_id)}</series_id>\n`
+    xml += `    <series_name>${escapeXml(product.series_name)}</series_name>\n`
+    xml += `    <source_pdf>${escapeXml(product.source_pdf)}</source_pdf>\n`
+    xml += `    <page>${product.page}</page>\n`
+    xml += `    <bestelnr>${escapeXml(product.bestelnr)}</bestelnr>\n`
     
-    xml += '      <enriched>\n'
-    xml += `        <series_raw>${escapeXml(product._enriched.series_raw)}</series_raw>\n`
-    xml += `        <series>${escapeXml(product._enriched.series)}</series>\n`
-    xml += `        <catalog_group>${escapeXml(product._enriched.catalog_group)}</catalog_group>\n`
-    xml += `        <product_type>${escapeXml(product._enriched.product_type)}</product_type>\n`
-    xml += `        <material>${escapeXml(product._enriched.material)}</material>\n`
-    xml += `        <family_id>${escapeXml(product._enriched.family_id)}</family_id>\n`
-    xml += `        <sku_series>${escapeXml(product._enriched.sku_series)}</sku_series>\n`
+    // Optional properties - only if present
+    if (product.maat) xml += `    <maat>${escapeXml(product.maat)}</maat>\n`
+    if (product.werkdruk) xml += `    <werkdruk>${escapeXml(product.werkdruk)}</werkdruk>\n`
+    if (product.type) xml += `    <type>${escapeXml(product.type)}</type>\n`
+    if (product.angle) xml += `    <angle>${escapeXml(product.angle)}</angle>\n`
+    if (product.spec_product_title) xml += `    <spec_product_title>${escapeXml(product.spec_product_title)}</spec_product_title>\n`
+    if (product.spec_product_variant) xml += `    <spec_product_variant>${escapeXml(product.spec_product_variant)}</spec_product_variant>\n`
+    if (product.application) xml += `    <application>${escapeXml(product.application)}</application>\n`
+    
+    // _enriched object - exact structure from JSON (using "enriched" as valid XML element)
+    xml += '    <enriched>\n'
+    xml += `      <series_raw>${escapeXml(product._enriched.series_raw)}</series_raw>\n`
+    xml += `      <series>${escapeXml(product._enriched.series)}</series>\n`
+    xml += `      <catalog_group>${escapeXml(product._enriched.catalog_group)}</catalog_group>\n`
+    xml += `      <product_type>${escapeXml(product._enriched.product_type)}</product_type>\n`
+    xml += `      <material>${escapeXml(product._enriched.material)}</material>\n`
+    xml += `      <family_id>${escapeXml(product._enriched.family_id)}</family_id>\n`
+    xml += `      <sku_series>${escapeXml(product._enriched.sku_series)}</sku_series>\n`
     if (product._enriched.diameter_mm) {
-      xml += `        <diameter_mm>${product._enriched.diameter_mm}</diameter_mm>\n`
+      xml += `      <diameter_mm>${product._enriched.diameter_mm}</diameter_mm>\n`
     }
-    xml += '      </enriched>\n'
+    xml += '    </enriched>\n'
     
-    xml += `      <image>${escapeXml(product.image)}</image>\n`
-    xml += '      <images>\n'
+    // Image fields - exact order from JSON
+    xml += `    <image>${escapeXml(product.image)}</image>\n`
+    xml += '    <images>\n'
     for (const img of product.images) {
-      xml += `        <url>${escapeXml(img)}</url>\n`
+      xml += `      <item>${escapeXml(img)}</item>\n`
     }
-    xml += '      </images>\n'
-    xml += `      <imageUrl>${escapeXml(product.imageUrl)}</imageUrl>\n`
-    xml += `      <catalog>${escapeXml(product.catalog)}</catalog>\n`
-    xml += `      <pdf_source>${escapeXml(product.pdf_source)}</pdf_source>\n`
+    xml += '    </images>\n'
+    xml += `    <imageUrl>${escapeXml(product.imageUrl)}</imageUrl>\n`
+    xml += `    <catalog>${escapeXml(product.catalog)}</catalog>\n`
+    xml += `    <pdf_source>${escapeXml(product.pdf_source)}</pdf_source>\n`
     
-    xml += '    </product>\n'
+    xml += '  </product>\n'
   }
 
-  xml += '  </products>\n'
-  xml += '</catalog>'
+  xml += '</products>'
   
   return xml
 }

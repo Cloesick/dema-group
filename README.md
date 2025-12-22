@@ -78,6 +78,9 @@ dema-group/
 - [Phase 3: Expansion](docs/05-action-plans/phase3-expansion.md) - 18-36 months
 - [KPI Dashboard](docs/05-action-plans/kpi-dashboard.md) - Success metrics
 
+### Progress
+- [Project Progress Log](docs/PROJECT_PROGRESS.md) - Daily updates
+
 ### Financial Projections
 - [Investment Requirements](docs/06-financial-projections/investment-requirements.md) - CapEx/OpEx
 - [ROI Analysis](docs/06-financial-projections/roi-analysis.md) - Return projections

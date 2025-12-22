@@ -65,6 +65,10 @@ group-strategy/
 - [Action Plans](05-action-plans/)
 - [DEMA Webshop Demo](../dema-webshop/) - Working prototype
 
+## Daily Progress Updates
+
+- [Project Progress Log](PROJECT_PROGRESS.md)
+
 ## Project Status
 
 | Document | Status |

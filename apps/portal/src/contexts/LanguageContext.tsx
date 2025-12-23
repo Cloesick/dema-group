@@ -1,13 +1,14 @@
 'use client'
 
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react'
+import type { Translations } from '@/types/translations'
 import en from '@/locales/en.json'
 import nl from '@/locales/nl.json'
 import fr from '@/locales/fr.json'
 
-export type Language = 'en' | 'nl' | 'fr'
+export type { Translations } from '@/types/translations'
 
-type Translations = typeof en
+export type Language = 'en' | 'nl' | 'fr'
 
 interface LanguageContextType {
   language: Language
@@ -16,9 +17,9 @@ interface LanguageContextType {
 }
 
 const translations: Record<Language, Translations> = {
-  en,
-  nl,
-  fr,
+  en: en as unknown as Translations,
+  nl: nl as unknown as Translations,
+  fr: fr as unknown as Translations
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)

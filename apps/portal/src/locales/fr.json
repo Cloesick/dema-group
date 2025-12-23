@@ -1,4 +1,64 @@
 {
+  "auth": {
+    "createAccount": "Créer un Compte",
+    "signup": "S'inscrire",
+    "passwordRequirements": "Le mot de passe doit contenir au moins 8 caractères",
+    "individual": "Particulier",
+    "business": "Entreprise",
+    "register": "S'enregistrer",
+    "roles": {
+      "b2bCustomer": "Client B2B",
+      "b2cCustomer": "Client B2C",
+      "employee": "Employé",
+      "partner": "Partenaire",
+      "supplier": "Fournisseur"
+    },
+    "labels": {
+      "relationship": "Relation",
+      "email": "Email",
+      "password": "Mot de passe",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "phone": "Téléphone",
+      "companyName": "Nom de l'entreprise",
+      "vatNumber": "Numéro de TVA",
+      "industry": "Industrie",
+      "companySize": "Taille de l'entreprise",
+      "company": "Entreprise",
+      "department": "Département",
+      "employeeId": "ID Employé",
+      "marketingConsent": "J'accepte de recevoir des communications marketing"
+    },
+    "fields": {
+      "vatNumber": "Numéro de TVA",
+      "companyName": "Nom de l'entreprise",
+      "industryType": "Type d'industrie",
+      "selectIndustry": "Sélectionnez l'industrie",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Email"
+    },
+    "errors": {
+      "creditCheckFailed": "La vérification de crédit a échoué",
+      "registrationFailed": "L'inscription a échoué"
+    }
+  },
+  "departments": {
+    "sales": "Ventes",
+    "support": "Support",
+    "logistics": "Logistique",
+    "finance": "Finance",
+    "hr": "RH",
+    "it": "IT",
+    "operations": "Opérations"
+  },
+  "industries": {
+    "manufacturing": "Fabrication",
+    "construction": "Construction",
+    "wholesale": "Commerce de gros",
+    "retail": "Commerce de détail",
+    "services": "Services"
+  },
   "common": {
     "backToHome": "Retour à DEMA Group",
     "visitWebsite": "Visiter le Site",
@@ -6,7 +66,19 @@
     "contactUs": "Contactez-Nous",
     "learnMore": "En Savoir Plus",
     "viewAll": "Voir Tout",
-    "languages": "Langues"
+    "languages": "Langues",
+    "search": "Rechercher des produits..."
+  },
+  "navigation": {
+    "individuals": "Particuliers",
+    "professionals": "Professionnels",
+    "companies": "Entreprises",
+    "all-products": "Tous les Produits",
+    "about": "À Propos",
+    "inspiration": "Inspiration",
+    "help": "Aide",
+    "promotions": "Promotions",
+    "myportal": "MonDEMA"
   },
   "home": {
     "title": "DEMA Group",

@@ -1,4 +1,64 @@
 {
+  "auth": {
+    "createAccount": "Create Account",
+    "signup": "Sign Up",
+    "passwordRequirements": "Password must be at least 8 characters",
+    "individual": "Individual",
+    "business": "Business",
+    "register": "Register",
+    "roles": {
+      "b2bCustomer": "B2B Customer",
+      "b2cCustomer": "B2C Customer",
+      "employee": "Employee",
+      "partner": "Partner",
+      "supplier": "Supplier"
+    },
+    "labels": {
+      "relationship": "Relationship",
+      "email": "Email",
+      "password": "Password",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone",
+      "companyName": "Company Name",
+      "vatNumber": "VAT Number",
+      "industry": "Industry",
+      "companySize": "Company Size",
+      "company": "Company",
+      "department": "Department",
+      "employeeId": "Employee ID",
+      "marketingConsent": "I agree to receive marketing communications"
+    },
+    "fields": {
+      "vatNumber": "VAT Number",
+      "companyName": "Company Name",
+      "industryType": "Industry Type",
+      "selectIndustry": "Select Industry",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email"
+    },
+    "errors": {
+      "creditCheckFailed": "Credit check failed",
+      "registrationFailed": "Registration failed"
+    }
+  },
+  "departments": {
+    "sales": "Sales",
+    "support": "Support",
+    "logistics": "Logistics",
+    "finance": "Finance",
+    "hr": "HR",
+    "it": "IT",
+    "operations": "Operations"
+  },
+  "industries": {
+    "manufacturing": "Manufacturing",
+    "construction": "Construction",
+    "wholesale": "Wholesale",
+    "retail": "Retail",
+    "services": "Services"
+  },
   "common": {
     "backToHome": "Back to DEMA Group",
     "visitWebsite": "Visit Website",
@@ -6,7 +66,19 @@
     "contactUs": "Contact Us",
     "learnMore": "Learn More",
     "viewAll": "View All",
-    "languages": "Languages"
+    "languages": "Languages",
+    "search": "Search products..."
+  },
+  "navigation": {
+    "individuals": "Individuals",
+    "professionals": "Professionals",
+    "companies": "Companies",
+    "all-products": "All Products",
+    "about": "About",
+    "inspiration": "Inspiration",
+    "help": "Help",
+    "promotions": "Promotions",
+    "myportal": "MyDEMA"
   },
   "home": {
     "title": "DEMA Group",

@@ -1,4 +1,64 @@
 {
+  "auth": {
+    "createAccount": "Account Aanmaken",
+    "signup": "Registreren",
+    "passwordRequirements": "Wachtwoord moet minimaal 8 tekens bevatten",
+    "individual": "Particulier",
+    "business": "Bedrijf",
+    "register": "Registreren",
+    "roles": {
+      "b2bCustomer": "B2B Klant",
+      "b2cCustomer": "B2C Klant",
+      "employee": "Medewerker",
+      "partner": "Partner",
+      "supplier": "Leverancier"
+    },
+    "labels": {
+      "relationship": "Relatie",
+      "email": "E-mail",
+      "password": "Wachtwoord",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "phone": "Telefoon",
+      "companyName": "Bedrijfsnaam",
+      "vatNumber": "BTW-nummer",
+      "industry": "Industrie",
+      "companySize": "Bedrijfsgrootte",
+      "company": "Bedrijf",
+      "department": "Afdeling",
+      "employeeId": "Medewerker ID",
+      "marketingConsent": "Ik ga akkoord met het ontvangen van marketingcommunicatie"
+    },
+    "fields": {
+      "vatNumber": "BTW-nummer",
+      "companyName": "Bedrijfsnaam",
+      "industryType": "Type Industrie",
+      "selectIndustry": "Selecteer Industrie",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "email": "E-mail"
+    },
+    "errors": {
+      "creditCheckFailed": "Kredietcontrole mislukt",
+      "registrationFailed": "Registratie mislukt"
+    }
+  },
+  "departments": {
+    "sales": "Verkoop",
+    "support": "Support",
+    "logistics": "Logistiek",
+    "finance": "Financiën",
+    "hr": "HR",
+    "it": "IT",
+    "operations": "Operaties"
+  },
+  "industries": {
+    "manufacturing": "Productie",
+    "construction": "Bouw",
+    "wholesale": "Groothandel",
+    "retail": "Detailhandel",
+    "services": "Diensten"
+  },
   "common": {
     "backToHome": "Terug naar DEMA Group",
     "visitWebsite": "Bezoek Website",
@@ -6,7 +66,19 @@
     "contactUs": "Contacteer Ons",
     "learnMore": "Meer Info",
     "viewAll": "Bekijk Alles",
-    "languages": "Talen"
+    "languages": "Talen",
+    "search": "Zoek producten..."
+  },
+  "navigation": {
+    "individuals": "Particulieren",
+    "professionals": "Zelfstandigen",
+    "companies": "Bedrijven",
+    "all-products": "Alle Producten",
+    "about": "Over Ons",
+    "inspiration": "Inspiratie",
+    "help": "Help",
+    "promotions": "Promoties",
+    "myportal": "MijnDEMA"
   },
   "home": {
     "title": "DEMA Group",

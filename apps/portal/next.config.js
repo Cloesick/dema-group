@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ['@dema/ui', '@dema/config'],
   // Optimizations for Vercel deployment
   swcMinify: true,
   poweredByHeader: false,

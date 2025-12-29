@@ -1,0 +1,21 @@
+{
+  "tests": [
+    {
+      "id": "1",
+      "suite": "Authentication",
+      "spec": "login.cy.ts",
+      "status": "passed",
+      "duration": 1200,
+      "timestamp": "2025-12-28T18:59:00.000Z"
+    },
+    {
+      "id": "2",
+      "suite": "Products",
+      "spec": "product-list.cy.ts",
+      "status": "failed",
+      "duration": 2300,
+      "error": "Expected element to be visible",
+      "timestamp": "2025-12-28T18:58:00.000Z"
+    }
+  ]
+}

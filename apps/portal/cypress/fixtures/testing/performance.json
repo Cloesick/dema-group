@@ -1,0 +1,25 @@
+{
+  "trends": [
+    {
+      "date": "2025-12-28",
+      "avgDuration": 1500,
+      "passRate": 95,
+      "parallelism": 4,
+      "totalTests": 120
+    },
+    {
+      "date": "2025-12-27",
+      "avgDuration": 1600,
+      "passRate": 93,
+      "parallelism": 4,
+      "totalTests": 118
+    },
+    {
+      "date": "2025-12-26",
+      "avgDuration": 1450,
+      "passRate": 97,
+      "parallelism": 4,
+      "totalTests": 115
+    }
+  ]
+}

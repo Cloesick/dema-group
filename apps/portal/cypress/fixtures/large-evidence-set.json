@@ -1,0 +1,14 @@
+{
+  "total": 1000,
+  "page": 1,
+  "pageSize": 25,
+  "data": [
+    {
+      "id": "EVD-001",
+      "source": "AWS CloudWatch",
+      "type": "log",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "content": "Sample log entry 1"
+    }
+  ]
+}

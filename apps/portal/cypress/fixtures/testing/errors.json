@@ -1,0 +1,32 @@
+{
+  "errors": [
+    {
+      "id": "err-001",
+      "type": "AssertionError",
+      "message": "Expected element to be visible",
+      "stack": "Error: Expected element to be visible\n    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/products/product-list.cy.ts:42:8)",
+      "timestamp": "2025-12-28T18:58:00.000Z",
+      "suite": "Products",
+      "spec": "product-list.cy.ts",
+      "retries": 2,
+      "screenshot": "failures/product-list-error.png"
+    },
+    {
+      "id": "err-002",
+      "type": "NetworkError",
+      "message": "Failed to fetch product data",
+      "stack": "Error: Request failed with status 500\n    at Context.eval (http://localhost:3001/__cypress/tests?p=cypress/e2e/products/product-api.cy.ts:23:12)",
+      "timestamp": "2025-12-28T19:01:00.000Z",
+      "suite": "Products",
+      "spec": "product-api.cy.ts",
+      "retries": 3,
+      "screenshot": "failures/product-api-error.png"
+    }
+  ],
+  "summary": {
+    "totalErrors": 2,
+    "uniqueErrors": 2,
+    "mostCommonType": "AssertionError",
+    "avgRetries": 2.5
+  }
+}

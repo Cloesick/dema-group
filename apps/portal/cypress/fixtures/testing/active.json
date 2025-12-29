@@ -1,0 +1,18 @@
+{
+  "tests": [
+    {
+      "id": "1",
+      "suite": "Authentication",
+      "spec": "login.cy.ts",
+      "status": "running",
+      "startTime": "2025-12-28T19:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "suite": "Products",
+      "spec": "product-management.cy.ts",
+      "status": "running",
+      "startTime": "2025-12-28T19:01:00.000Z"
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Search, Mail, ChevronDown } from 'lucide-react'
@@ -25,30 +26,53 @@ const secondaryNavItems: Array<{ key: SecondaryNavKey; href: string }> = [
 
 export function Header() {
   const { t, language } = useLanguage()
+  const [isWebsitesMenuOpen, setIsWebsitesMenuOpen] = useState(false)
 
   return (
-    <header className="border-b">
+    <header className="border-b bg-white" role="banner" aria-label="Site header">
       {/* Top Bar */}
-      <div className="bg-slate-900 text-white">
+      <div className="bg-slate-900 text-slate-100">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-12">
-            <nav className="flex items-center space-x-6">
+            <nav className="flex items-center space-x-6" role="navigation" aria-label="Primary navigation">
+              <h1 className="sr-only">DEMA Group Portal</h1>
+              <div className="sr-only">Main menu</div>
               {mainNavItems.map((item) => (
                 <Link
                   key={item.key}
                   href={item.href}
-                  className="text-sm hover:text-orange-400 transition"
+                  className="text-sm hover:text-orange-300 focus:text-orange-300 transition"
                 >
                   {t.navigation[item.key]}
                 </Link>
               ))}
-              <button className="text-sm flex items-center hover:text-orange-400 transition">
-                All websites <ChevronDown className="ml-1 h-4 w-4" />
+              <button 
+                className="text-sm flex items-center hover:text-orange-300 focus:text-orange-300 transition"
+                aria-label="Open websites menu"
+                aria-expanded={isWebsitesMenuOpen ? "true" : "false"}
+                onClick={() => setIsWebsitesMenuOpen(!isWebsitesMenuOpen)}
+              >
+                All websites <ChevronDown className="ml-1 h-4 w-4" aria-hidden="true" />
               </button>
+              {isWebsitesMenuOpen && (
+                <div
+                  role="dialog"
+                  aria-label="Websites menu"
+                  className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border py-2"
+                >
+                  <a href="https://dema-group.com" className="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50">DEMA Group</a>
+                  <a href="https://fluxer.eu" className="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50">Fluxer</a>
+                  <a href="https://devisschere.be" className="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50">De Visschere</a>
+                </div>
+              )}
             </nav>
             <div className="flex items-center space-x-4">
-              <Link href="/myportal" className="text-sm hover:text-orange-400 transition flex items-center">
-                MyDEMA <ChevronDown className="ml-1 h-4 w-4" />
+              <Link 
+                href="/myportal" 
+                className="text-sm hover:text-orange-400 transition flex items-center"
+                aria-label="Open MyDEMA menu"
+              >
+                MyDEMA <ChevronDown className="ml-1 h-4 w-4" aria-hidden="true" />
               </Link>
               <LanguageSwitcher />
             </div>
@@ -73,12 +97,13 @@ export function Header() {
             </Link>
 
             {/* Main Navigation */}
-            <nav className="flex items-center space-x-8">
+            <nav className="flex items-center space-x-8" role="navigation" aria-label="Secondary navigation">
+              <div className="sr-only">Secondary menu</div>
               {secondaryNavItems.map((item) => (
                 <Link
                   key={item.key}
                   href={item.href}
-                  className="text-slate-600 hover:text-orange-500 transition"
+                  className="text-slate-900 hover:text-orange-600 focus:text-orange-600 transition"
                 >
                   {t.navigation[item.key]}
                 </Link>
@@ -88,19 +113,20 @@ export function Header() {
             {/* Search and Contact */}
             <div className="flex items-center space-x-4">
               {/* Search */}
-              <div className="relative">
+              <div className="relative" role="search" aria-label="Header search">
                 <input
                   type="search"
                   placeholder={t.common.search}
-                  className="pl-10 pr-4 py-2 rounded-full bg-slate-100 text-sm w-64 focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  className="pl-10 pr-4 py-2 rounded-full bg-slate-100 text-slate-900 text-sm w-64 focus:outline-none focus:ring-2 focus:ring-orange-600"
+                  aria-label="Header search"
                 />
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400" />
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-600" aria-hidden="true" />
               </div>
 
               {/* Contact Button */}
               <Link
                 href="/contact"
-                className="flex items-center text-slate-600 hover:text-orange-500 transition"
+                className="flex items-center text-slate-900 hover:text-orange-600 focus:text-orange-600 transition"
               >
                 <Mail className="h-5 w-5 mr-2" />
                 <span className="text-sm">{t.common.contactUs}</span>

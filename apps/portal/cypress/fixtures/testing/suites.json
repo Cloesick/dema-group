@@ -1,0 +1,38 @@
+{
+  "suites": [
+    {
+      "name": "Authentication",
+      "passRate": 0.98,
+      "avgDuration": 1200,
+      "flakiness": 0.02,
+      "lastRun": "2025-12-28T18:00:00.000Z",
+      "totalTests": 25,
+      "coverage": 0.95
+    },
+    {
+      "name": "Products",
+      "passRate": 0.85,
+      "avgDuration": 2500,
+      "flakiness": 0.15,
+      "lastRun": "2025-12-28T18:30:00.000Z",
+      "totalTests": 45,
+      "coverage": 0.88
+    },
+    {
+      "name": "Orders",
+      "passRate": 0.92,
+      "avgDuration": 1800,
+      "flakiness": 0.08,
+      "lastRun": "2025-12-28T19:00:00.000Z",
+      "totalTests": 35,
+      "coverage": 0.91
+    }
+  ],
+  "summary": {
+    "totalSuites": 3,
+    "totalTests": 105,
+    "avgPassRate": 0.92,
+    "avgDuration": 1833,
+    "overallCoverage": 0.91
+  }
+}

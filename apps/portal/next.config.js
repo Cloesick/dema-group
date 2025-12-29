@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ['@dema-group/ui', '@dema-group/config'],
+  transpilePackages: ['@dema/ui', '@dema/config'],
   // Optimizations for Vercel deployment
   swcMinify: true,
   poweredByHeader: false,
@@ -12,8 +12,8 @@ const nextConfig = {
     optimizeCss: true,
     turbo: {
       resolveAlias: {
-        '@dema-group/ui': require.resolve('@dema-group/ui'),
-        '@dema-group/config': require.resolve('@dema-group/config'),
+        '@dema/ui': require.resolve('@dema/ui'),
+        '@dema/config': require.resolve('@dema/config'),
       },
     },
   },

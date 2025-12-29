@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from 'next/server'
 export async function GET(
   request: NextRequest,
   { params }: { params: { sku: string } }
-) {
+): Promise<NextResponse> {
   const { sku } = params
   const { searchParams } = new URL(request.url)
   const companyId = searchParams.get('companyId')

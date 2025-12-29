@@ -39,6 +39,7 @@
     "test:e2e:ci": "start-server-and-test start http://localhost:3001 cypress:run"
   },
   "dependencies": {
+    "@dema-group/ui": "workspace:*",
     "@googlemaps/js-api-loader": "^2.0.2",
     "@radix-ui/react-alert-dialog": "^1.0.5",
     "@radix-ui/react-dialog": "^1.0.5",

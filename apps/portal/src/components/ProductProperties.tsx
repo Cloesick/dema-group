@@ -83,9 +83,7 @@ function CardProperties({ product, catalogGroup, language }: CardPropertiesProps
     <div className="flex flex-wrap gap-2 mt-2">
       {primaryProps.map(prop => {
         const value = product[prop.key]
-        const label = language === 'nl' ? prop.label_nl 
-                    : language === 'fr' ? prop.label_fr 
-                    : prop.label
+        const label = prop.labels[language]
         
         return (
           <span 
@@ -201,9 +199,7 @@ export function PropertyBadge({
     return null
   }
 
-  const label = language === 'nl' ? property.label_nl 
-              : language === 'fr' ? property.label_fr 
-              : property.label
+  const label = property.labels[language]
 
   const sizeClasses = size === 'sm' 
     ? 'px-2 py-0.5 text-xs' 
@@ -320,9 +316,7 @@ export function FilterChips({
       .slice(0, maxChips)
       .map(prop => {
         const value = product[prop.key]
-        const label = language === 'nl' ? prop.label_nl 
-                    : language === 'fr' ? prop.label_fr 
-                    : prop.label
+        const label = prop.labels[language]
         return {
           key: prop.key,
           label,

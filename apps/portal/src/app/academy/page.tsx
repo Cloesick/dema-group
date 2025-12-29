@@ -277,18 +277,18 @@ export default function AcademyPage() {
   }
 
   return (
-    <main className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-slate-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-emerald-600 to-teal-700 text-white">
+      <section className="bg-gradient-to-r from-emerald-600 to-teal-700 text-white" aria-label="Hero section">
         <div className="container mx-auto px-4 py-12">
           <div className="flex items-center gap-3 mb-4">
             <Award className="w-8 h-8" />
-            <span className="text-emerald-200 font-medium">DEMA Academy</span>
+            <span className="text-white font-medium">DEMA Academy</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             {language === 'nl' ? 'Leer van de experts' : 'Learn from the Experts'}
           </h1>
-          <p className="text-emerald-100 max-w-2xl mb-8">
+          <p className="text-white max-w-2xl mb-8">
             {language === 'nl' 
               ? 'Ontwikkel uw vaardigheden met onze professionele trainingen. Van productkennis tot technische installatie - wij hebben de cursus voor u.'
               : 'Develop your skills with our professional training courses. From product knowledge to technical installation - we have the course for you.'
@@ -298,34 +298,35 @@ export default function AcademyPage() {
           {/* Quick Stats */}
           <div className="flex flex-wrap gap-6">
             <div className="flex items-center gap-2">
-              <BookOpen className="w-5 h-5 text-emerald-300" />
+              <BookOpen className="w-5 h-5 text-white" />
               <span>{mockCourses.length} {language === 'nl' ? 'Cursussen' : 'Courses'}</span>
             </div>
             <div className="flex items-center gap-2">
-              <Users className="w-5 h-5 text-emerald-300" />
+              <Users className="w-5 h-5 text-white" />
               <span>{mockCourses.reduce((acc, c) => acc + c.enrollmentCount, 0).toLocaleString()}+ {language === 'nl' ? 'Deelnemers' : 'Learners'}</span>
             </div>
             <div className="flex items-center gap-2">
-              <Award className="w-5 h-5 text-emerald-300" />
+              <Award className="w-5 h-5 text-white" />
               <span>{mockCourses.filter(c => c.hasCertificate).length} {language === 'nl' ? 'Certificeringen' : 'Certifications'}</span>
             </div>
           </div>
         </div>
-      </div>
+      </section>
       
       {/* Search & Filters */}
-      <div className="bg-white border-b sticky top-0 z-40">
+      <section className="bg-white border-b sticky top-0 z-40" aria-label="Search and filters">
         <div className="container mx-auto px-4 py-4">
           <div className="flex flex-col md:flex-row gap-4">
             {/* Search */}
             <div className="relative flex-1">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-800" />
               <input
-                type="text"
+                type="search"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder={language === 'nl' ? 'Zoek cursussen...' : 'Search courses...'}
                 className="w-full pl-12 pr-4 py-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                aria-label={language === 'nl' ? 'Zoek cursussen' : 'Search courses'}
               />
             </div>
             
@@ -334,6 +335,7 @@ export default function AcademyPage() {
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value as CourseCategory | '')}
               className="px-4 py-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-white"
+              aria-label={language === 'nl' ? 'Filter op categorie' : 'Filter by category'}
             >
               <option value="">{language === 'nl' ? 'Alle categorieën' : 'All categories'}</option>
               {Object.entries(categoryConfig).map(([key, config]) => (
@@ -348,6 +350,7 @@ export default function AcademyPage() {
               value={selectedLevel}
               onChange={(e) => setSelectedLevel(e.target.value)}
               className="px-4 py-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-white"
+              aria-label={language === 'nl' ? 'Filter op niveau' : 'Filter by level'}
             >
               <option value="">{language === 'nl' ? 'Alle niveaus' : 'All levels'}</option>
               {Object.entries(levelConfig).map(([key, config]) => (
@@ -358,7 +361,7 @@ export default function AcademyPage() {
             </select>
             
             {/* Free Only Toggle */}
-            <label className="flex items-center gap-2 px-4 py-3 border rounded-xl cursor-pointer hover:bg-slate-50">
+            <label className="flex items-center gap-2 px-4 py-3 border rounded-xl cursor-pointer hover:bg-slate-50" aria-label={language === 'nl' ? 'Toon alleen gratis cursussen' : 'Show only free courses'}>
               <input
                 type="checkbox"
                 checked={showFreeOnly}
@@ -375,27 +378,31 @@ export default function AcademyPage() {
               <button
                 onClick={() => setViewMode('grid')}
                 className={`p-3 ${viewMode === 'grid' ? 'bg-emerald-50 text-emerald-600' : 'hover:bg-slate-50'}`}
+                aria-label={language === 'nl' ? 'Rasterweergave' : 'Grid view'}
+                aria-pressed={viewMode === 'grid'}
               >
                 <Grid3X3 className="w-5 h-5" />
               </button>
               <button
                 onClick={() => setViewMode('list')}
                 className={`p-3 ${viewMode === 'list' ? 'bg-emerald-50 text-emerald-600' : 'hover:bg-slate-50'}`}
+                aria-label={language === 'nl' ? 'Lijstweergave' : 'List view'}
+                aria-pressed={viewMode === 'list'}
               >
                 <List className="w-5 h-5" />
               </button>
             </div>
           </div>
         </div>
-      </div>
+      </section>
       
       {/* Course Catalog */}
-      <div className="container mx-auto px-4 py-8">
+      <section className="container mx-auto px-4 py-8" aria-label="Course catalog">
         <div className="flex items-center justify-between mb-6">
-          <p className="text-slate-600">
-            <span className="font-semibold text-slate-900">{filteredCourses.length}</span>
+          <h2 className="text-slate-900">
+            <span className="font-semibold">{filteredCourses.length}</span>
             {' '}{language === 'nl' ? 'cursussen gevonden' : 'courses found'}
-          </p>
+          </h2>
         </div>
         
         {/* Course Grid */}
@@ -451,27 +458,27 @@ export default function AcademyPage() {
                 <div className={`p-4 ${viewMode === 'list' ? 'flex-1' : ''}`}>
                   {/* Category & Level */}
                   <div className="flex items-center gap-2 mb-2">
-                    <span className={`text-xs px-2 py-1 rounded ${catConfig.color}`}>
+                    <span className="text-xs px-2 py-1 rounded bg-blue-100 text-blue-800">
                       {language === 'nl' ? catConfig.label_nl : catConfig.label}
                     </span>
-                    <span className={`text-xs px-2 py-1 rounded ${lvlConfig.color}`}>
+                    <span className="text-xs px-2 py-1 rounded bg-slate-100 text-slate-900">
                       {language === 'nl' ? lvlConfig.label_nl : lvlConfig.label}
                     </span>
                   </div>
                   
                   {/* Title */}
-                  <h3 className="font-semibold text-slate-900 group-hover:text-emerald-600 transition mb-2 line-clamp-2">
+                  <h2 className="font-semibold text-slate-900 group-hover:text-emerald-700 transition mb-2 line-clamp-2">
                     {language === 'nl' ? course.title_nl : course.title}
-                  </h3>
+                  </h2>
                   
                   {/* Description */}
-                  <p className="text-sm text-slate-500 line-clamp-2 mb-3">
+                  <p className="text-sm text-slate-900 line-clamp-2 mb-3">
                     {language === 'nl' ? course.description_nl : course.description}
                   </p>
                   
                   {/* Meta */}
                   <div className="flex items-center justify-between text-sm">
-                    <div className="flex items-center gap-3 text-slate-500">
+                    <div className="flex items-center gap-3 text-slate-900">
                       <span className="flex items-center gap-1">
                         <Users className="w-4 h-4" />
                         {course.enrollmentCount.toLocaleString()}
@@ -484,7 +491,7 @@ export default function AcademyPage() {
                     
                     {/* Price */}
                     {!course.isFree && course.price && (
-                      <span className="font-semibold text-emerald-600">
+                      <span className="font-semibold text-emerald-700">
                         €{course.price}
                       </span>
                     )}
@@ -492,8 +499,8 @@ export default function AcademyPage() {
                   
                   {/* Certificate badge */}
                   {course.hasCertificate && (
-                    <div className="mt-3 pt-3 border-t flex items-center gap-2 text-sm text-slate-500">
-                      <Award className="w-4 h-4 text-emerald-500" />
+                    <div className="mt-3 pt-3 border-t flex items-center gap-2 text-sm text-slate-900">
+                      <Award className="w-4 h-4 text-emerald-700" />
                       <span>{language === 'nl' ? 'Certificaat inbegrepen' : 'Certificate included'}</span>
                     </div>
                   )}
@@ -507,10 +514,10 @@ export default function AcademyPage() {
         {filteredCourses.length === 0 && (
           <div className="text-center py-12">
             <BookOpen className="w-12 h-12 text-slate-300 mx-auto mb-4" />
-            <h3 className="text-lg font-semibold text-slate-900 mb-2">
+            <h2 className="text-lg font-semibold text-slate-900 mb-2">
               {language === 'nl' ? 'Geen cursussen gevonden' : 'No courses found'}
-            </h3>
-            <p className="text-slate-500">
+            </h2>
+            <p className="text-slate-900">
               {language === 'nl' 
                 ? 'Probeer andere zoektermen of filters.'
                 : 'Try different search terms or filters.'
@@ -518,17 +525,17 @@ export default function AcademyPage() {
             </p>
           </div>
         )}
-      </div>
+      </section>
       
       {/* CTA Section */}
-      <div className="bg-slate-900 text-white py-12">
+      <section className="bg-slate-900 text-white py-12" aria-label="Call to action">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h2 className="text-2xl font-bold mb-4">
                 {language === 'nl' ? 'Training op locatie nodig?' : 'Need on-site training?'}
               </h2>
-              <p className="text-slate-300 mb-6">
+              <p className="text-slate-100 mb-6">
                 {language === 'nl'
                   ? 'Wij bieden ook maatwerk trainingen aan op uw locatie. Neem contact op voor meer informatie.'
                   : 'We also offer customized training at your location. Contact us for more information.'
@@ -545,45 +552,45 @@ export default function AcademyPage() {
             
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-slate-800 rounded-xl p-4">
-                <Video className="w-8 h-8 text-emerald-400 mb-2" />
+                <Video className="w-8 h-8 text-emerald-300 mb-2" />
                 <h3 className="font-semibold mb-1">
                   {language === 'nl' ? 'Online cursussen' : 'Online Courses'}
                 </h3>
-                <p className="text-sm text-slate-400">
+                <p className="text-sm text-slate-100">
                   {language === 'nl' ? 'Leer op uw eigen tempo' : 'Learn at your own pace'}
                 </p>
               </div>
               <div className="bg-slate-800 rounded-xl p-4">
-                <Users className="w-8 h-8 text-emerald-400 mb-2" />
+                <Users className="w-8 h-8 text-emerald-300 mb-2" />
                 <h3 className="font-semibold mb-1">
                   {language === 'nl' ? 'Groepstraining' : 'Group Training'}
                 </h3>
-                <p className="text-sm text-slate-400">
+                <p className="text-sm text-slate-100">
                   {language === 'nl' ? 'Op uw locatie' : 'At your location'}
                 </p>
               </div>
               <div className="bg-slate-800 rounded-xl p-4">
-                <Award className="w-8 h-8 text-emerald-400 mb-2" />
+                <Award className="w-8 h-8 text-emerald-300 mb-2" />
                 <h3 className="font-semibold mb-1">
                   {language === 'nl' ? 'Certificering' : 'Certification'}
                 </h3>
-                <p className="text-sm text-slate-400">
+                <p className="text-sm text-slate-100">
                   {language === 'nl' ? 'Erkende diploma\'s' : 'Recognized diplomas'}
                 </p>
               </div>
               <div className="bg-slate-800 rounded-xl p-4">
-                <BookOpen className="w-8 h-8 text-emerald-400 mb-2" />
+                <BookOpen className="w-8 h-8 text-emerald-300 mb-2" />
                 <h3 className="font-semibold mb-1">
                   {language === 'nl' ? 'Maatwerk' : 'Custom'}
                 </h3>
-                <p className="text-sm text-slate-400">
+                <p className="text-sm text-slate-100">
                   {language === 'nl' ? 'Op maat gemaakt' : 'Tailored to your needs'}
                 </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </main>
+      </section>
+    </div>
   )
 }

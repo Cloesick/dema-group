@@ -250,6 +250,7 @@ const orderStatusConfig = {
 export default function AccountPage() {
   const [language] = useState<'en' | 'nl'>('nl')
   const [activeSection, setActiveSection] = useState('overview')
+  const [activeTab, setActiveTab] = useState('profile')
   
   const customer = mockCustomer
   const orders = mockOrders
@@ -271,7 +272,7 @@ export default function AccountPage() {
   }
 
   return (
-    <main className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-slate-50">
       {/* Header */}
       <div className="bg-white border-b">
         <div className="container mx-auto px-4 py-6">
@@ -280,13 +281,13 @@ export default function AccountPage() {
               <h1 className="text-2xl font-bold text-slate-900">
                 {language === 'nl' ? 'Mijn Account' : 'My Account'}
               </h1>
-              <p className="text-slate-500">
+              <p className="text-slate-700">
                 {language === 'nl' ? 'Welkom terug,' : 'Welcome back,'} {customer.contact.firstName}
               </p>
             </div>
             <div className="text-right">
               <p className="font-medium text-slate-900">{customer.company?.name}</p>
-              <p className="text-sm text-slate-500">{customer.email}</p>
+              <p className="text-sm text-slate-700">{customer.email}</p>
             </div>
           </div>
         </div>
@@ -296,17 +297,28 @@ export default function AccountPage() {
         <div className="flex gap-6">
           {/* Sidebar Navigation */}
           <aside className="w-64 flex-shrink-0 hidden lg:block">
-            <nav className="bg-white rounded-xl border sticky top-24">
-              <ul className="divide-y">
+            <nav className="bg-white rounded-xl border sticky top-24" aria-label="Account navigation">
+              <ul className="divide-y" role="tablist">
                 {menuItems.map(item => (
                   <li key={item.id}>
                     <button
-                      onClick={() => setActiveSection(item.id)}
+                      onClick={() => {
+                        if (item.id === 'settings') {
+                          setActiveSection('settings');
+                          setActiveTab('profile');
+                        } else {
+                          setActiveSection(item.id);
+                        }
+                      }}
                       className={`w-full flex items-center gap-3 px-4 py-3 transition ${
                         activeSection === item.id
-                          ? 'bg-blue-50 text-blue-700 border-l-4 border-blue-600'
-                          : 'hover:bg-slate-50 text-slate-600'
+                          ? 'bg-blue-50 text-blue-800 border-l-4 border-blue-600'
+                          : 'hover:bg-slate-50 text-slate-900'
                       }`}
+                      role="tab"
+                      aria-selected={activeSection === item.id}
+                      aria-controls={`${item.id}-panel`}
+                      aria-label={language === 'nl' ? item.label_nl : item.label}
                     >
                       <item.icon className="w-5 h-5" />
                       <span className="font-medium">
@@ -316,7 +328,10 @@ export default function AccountPage() {
                   </li>
                 ))}
                 <li>
-                  <button className="w-full flex items-center gap-3 px-4 py-3 text-red-600 hover:bg-red-50 transition">
+                  <button 
+                    className="w-full flex items-center gap-3 px-4 py-3 text-red-600 hover:bg-red-50 transition"
+                    aria-label={language === 'nl' ? 'Uitloggen' : 'Log out'}
+                  >
                     <LogOut className="w-5 h-5" />
                     <span className="font-medium">
                       {language === 'nl' ? 'Uitloggen' : 'Log out'}
@@ -328,7 +343,7 @@ export default function AccountPage() {
           </aside>
           
           {/* Main Content */}
-          <div className="flex-1 min-w-0">
+          <div className="flex-1 min-w-0" role="tabpanel" aria-labelledby="settings-tab">
             {/* Overview Section */}
             {activeSection === 'overview' && (
               <div className="space-y-6">
@@ -341,7 +356,7 @@ export default function AccountPage() {
                       </div>
                       <div>
                         <p className="text-2xl font-bold text-slate-900">{orders.length}</p>
-                        <p className="text-sm text-slate-500">
+                        <p className="text-sm text-slate-800">
                           {language === 'nl' ? 'Bestellingen' : 'Orders'}
                         </p>
                       </div>
@@ -357,7 +372,7 @@ export default function AccountPage() {
                         <p className="text-2xl font-bold text-slate-900">
                           {orders.filter(o => o.status === 'shipped').length}
                         </p>
-                        <p className="text-sm text-slate-500">
+                        <p className="text-sm text-slate-800">
                           {language === 'nl' ? 'Onderweg' : 'In Transit'}
                         </p>
                       </div>
@@ -371,7 +386,7 @@ export default function AccountPage() {
                       </div>
                       <div>
                         <p className="text-2xl font-bold text-slate-900">{shoppingLists.length}</p>
-                        <p className="text-sm text-slate-500">
+                        <p className="text-sm text-slate-800">
                           {language === 'nl' ? 'Bestellijsten' : 'Lists'}
                         </p>
                       </div>
@@ -387,7 +402,7 @@ export default function AccountPage() {
                         <p className="text-2xl font-bold text-slate-900">
                           {formatCurrency(customer.creditLimit || 0)}
                         </p>
-                        <p className="text-sm text-slate-500">
+                        <p className="text-sm text-slate-800">
                           {language === 'nl' ? 'Kredietlimiet' : 'Credit Limit'}
                         </p>
                       </div>
@@ -427,7 +442,7 @@ export default function AccountPage() {
                               {formatCurrency(order.total)}
                             </span>
                           </div>
-                          <div className="flex items-center justify-between text-sm text-slate-500">
+                          <div className="flex items-center justify-between text-sm text-slate-700">
                             <span>{formatDate(order.orderDate)}</span>
                             <span>{order.items.length} {language === 'nl' ? 'artikelen' : 'items'}</span>
                           </div>
@@ -446,19 +461,19 @@ export default function AccountPage() {
                     </h3>
                     <dl className="space-y-2 text-sm">
                       <div className="flex justify-between">
-                        <dt className="text-slate-500">{language === 'nl' ? 'Bedrijf' : 'Company'}</dt>
+                        <dt className="text-slate-700">{language === 'nl' ? 'Bedrijf' : 'Company'}</dt>
                         <dd className="font-medium text-slate-900">{customer.company?.name}</dd>
                       </div>
                       <div className="flex justify-between">
-                        <dt className="text-slate-500">{language === 'nl' ? 'BTW-nummer' : 'VAT Number'}</dt>
+                        <dt className="text-slate-700">{language === 'nl' ? 'BTW-nummer' : 'VAT Number'}</dt>
                         <dd className="font-medium text-slate-900">{customer.company?.vatNumber}</dd>
                       </div>
                       <div className="flex justify-between">
-                        <dt className="text-slate-500">{language === 'nl' ? 'Betalingstermijn' : 'Payment Terms'}</dt>
+                        <dt className="text-slate-700">{language === 'nl' ? 'Betalingstermijn' : 'Payment Terms'}</dt>
                         <dd className="font-medium text-slate-900">{customer.paymentTerms}</dd>
                       </div>
                       <div className="flex justify-between">
-                        <dt className="text-slate-500">{language === 'nl' ? 'Prijsgroep' : 'Price Group'}</dt>
+                        <dt className="text-slate-700">{language === 'nl' ? 'Prijsgroep' : 'Price Group'}</dt>
                         <dd className="font-medium text-slate-900">{customer.priceGroup}</dd>
                       </div>
                     </dl>
@@ -470,7 +485,7 @@ export default function AccountPage() {
                       {language === 'nl' ? 'Standaard leveradres' : 'Default Shipping Address'}
                     </h3>
                     {customer.addresses.find(a => a.id === customer.defaultShippingAddressId) && (
-                      <address className="not-italic text-sm text-slate-600">
+                      <address className="not-italic text-sm text-slate-700">
                         <p className="font-medium text-slate-900">
                           {customer.addresses.find(a => a.id === customer.defaultShippingAddressId)?.name}
                         </p>
@@ -519,7 +534,7 @@ export default function AccountPage() {
                                 {language === 'nl' ? status.label_nl : status.label}
                               </span>
                             </div>
-                            <p className="text-sm text-slate-500">
+                            <p className="text-sm text-slate-700">
                               {language === 'nl' ? 'Besteld op' : 'Ordered on'} {formatDate(order.orderDate)}
                               {order.customerReference && (
                                 <span className="ml-2">• Ref: {order.customerReference}</span>
@@ -530,7 +545,7 @@ export default function AccountPage() {
                             <p className="text-xl font-bold text-slate-900">
                               {formatCurrency(order.total)}
                             </p>
-                            <p className="text-sm text-slate-500">
+                            <p className="text-sm text-slate-700">
                               {order.items.length} {language === 'nl' ? 'artikelen' : 'items'}
                             </p>
                           </div>
@@ -612,7 +627,7 @@ export default function AccountPage() {
                         <div>
                           <h3 className="font-semibold text-slate-900">{list.name}</h3>
                           {list.description && (
-                            <p className="text-sm text-slate-500">{list.description}</p>
+                            <p className="text-sm text-slate-700">{list.description}</p>
                           )}
                         </div>
                         {list.isDefault && (
@@ -669,7 +684,7 @@ export default function AccountPage() {
                               {language === 'nl' ? 'Standaard' : 'Default'}
                             </span>
                           )}
-                          <span className="text-xs px-2 py-1 bg-slate-100 text-slate-600 rounded-full">
+                          <span className="text-xs px-2 py-1 bg-slate-100 text-slate-700 rounded-full">
                             {address.type === 'both' 
                               ? (language === 'nl' ? 'Factuur & Levering' : 'Billing & Shipping')
                               : address.type === 'billing'
@@ -680,7 +695,7 @@ export default function AccountPage() {
                         </div>
                       </div>
                       
-                      <address className="not-italic text-sm text-slate-600 mb-4">
+                      <address className="not-italic text-sm text-slate-800 mb-4">
                         {address.company && <p className="font-medium">{address.company}</p>}
                         <p>{address.street}</p>
                         <p>{address.postalCode} {address.city}</p>
@@ -703,24 +718,95 @@ export default function AccountPage() {
               </div>
             )}
             
-            {/* Placeholder for other sections */}
-            {['payment', 'notifications', 'settings'].includes(activeSection) && (
-              <div className="bg-white rounded-xl border p-8 text-center">
-                <Settings className="w-12 h-12 text-slate-300 mx-auto mb-4" />
-                <h2 className="text-xl font-semibold text-slate-900 mb-2">
-                  {menuItems.find(m => m.id === activeSection)?.[language === 'nl' ? 'label_nl' : 'label']}
+            {/* Settings Section */}
+            {activeSection === 'settings' && (
+              <div className="space-y-6">
+                <h2 className="text-2xl font-bold text-slate-900 mb-6">
+                  {language === 'nl' ? 'Account Instellingen' : 'Account Settings'}
                 </h2>
-                <p className="text-slate-500">
-                  {language === 'nl' 
-                    ? 'Deze sectie wordt nog ontwikkeld. Vul hier de specifieke functionaliteit in.'
-                    : 'This section is under development. Fill in specific functionality here.'
-                  }
-                </p>
+                <div className="bg-white rounded-xl border">
+                  <div className="border-b">
+                    <div className="flex" role="tablist" aria-label="Account settings">
+                      <button
+                        role="tab"
+                        aria-selected={activeTab === 'profile'}
+                        aria-controls="profile-panel"
+                        id="profile-tab"
+                        className={`px-6 py-4 text-sm font-medium ${activeTab === 'profile' ? 'text-blue-600 border-b-2 border-blue-600' : 'text-slate-700 hover:text-slate-900'}`}
+                        onClick={() => setActiveTab('profile')}
+                        name="Profile"
+                      >
+                        {language === 'nl' ? 'Profiel' : 'Profile'}
+                      </button>
+                      <button
+                        role="tab"
+                        aria-selected={activeTab === 'security'}
+                        aria-controls="security-panel"
+                        id="security-tab"
+                        className={`px-6 py-4 text-sm font-medium ${activeTab === 'security' ? 'text-blue-600 border-b-2 border-blue-600' : 'text-slate-700 hover:text-slate-900'}`}
+                        onClick={() => setActiveTab('security')}
+                        name="Security"
+                      >
+                        {language === 'nl' ? 'Beveiliging' : 'Security'}
+                      </button>
+                      <button
+                        role="tab"
+                        aria-selected={activeTab === 'activity'}
+                        aria-controls="activity-panel"
+                        id="activity-tab"
+                        className={`px-6 py-4 text-sm font-medium ${activeTab === 'activity' ? 'text-blue-600 border-b-2 border-blue-600' : 'text-slate-700 hover:text-slate-900'}`}
+                        onClick={() => setActiveTab('activity')}
+                        name="Activity"
+                      >
+                        {language === 'nl' ? 'Activiteit' : 'Activity'}
+                      </button>
+                      <button
+                        role="tab"
+                        aria-selected={activeTab === 'danger'}
+                        aria-controls="danger-panel"
+                        id="danger-tab"
+                        className={`px-6 py-4 text-sm font-medium ${activeTab === 'danger' ? 'text-red-600 border-b-2 border-red-600' : 'text-red-600 hover:text-red-700'}`}
+                        onClick={() => setActiveTab('danger')}
+                        name="Danger Zone"
+                      >
+                        {language === 'nl' ? 'Gevarenzone' : 'Danger Zone'}
+                      </button>
+                    </div>
+                  </div>
+                  
+                  <div id="profile-panel" role="tabpanel" aria-labelledby="profile-tab" className={`p-6 ${activeTab === 'profile' ? '' : 'hidden'}`}>
+                    <h3 className="text-lg font-semibold text-slate-900 mb-4">
+                      {language === 'nl' ? 'Profielinformatie' : 'Profile Information'}
+                    </h3>
+                    {/* Profile form will go here */}
+                  </div>
+                  
+                  <div id="security-panel" role="tabpanel" aria-labelledby="security-tab" className={`p-6 ${activeTab === 'security' ? '' : 'hidden'}`}>
+                    <h3 className="text-lg font-semibold text-slate-900 mb-4">
+                      {language === 'nl' ? 'Beveiligingsinstellingen' : 'Security Settings'}
+                    </h3>
+                    {/* Security form will go here */}
+                  </div>
+                  
+                  <div id="activity-panel" role="tabpanel" aria-labelledby="activity-tab" className={`p-6 ${activeTab === 'activity' ? '' : 'hidden'}`}>
+                    <h3 className="text-lg font-semibold text-slate-900 mb-4">
+                      {language === 'nl' ? 'Accountactiviteit' : 'Account Activity'}
+                    </h3>
+                    {/* Activity log will go here */}
+                  </div>
+                  
+                  <div id="danger-panel" role="tabpanel" aria-labelledby="danger-tab" className={`p-6 ${activeTab === 'danger' ? '' : 'hidden'}`}>
+                    <h3 className="text-lg font-semibold text-slate-900 mb-4">
+                      {language === 'nl' ? 'Gevarenzone' : 'Danger Zone'}
+                    </h3>
+                    {/* Danger zone actions will go here */}
+                  </div>
+                </div>
               </div>
             )}
           </div>
         </div>
       </div>
-    </main>
+    </div>
   )
 }

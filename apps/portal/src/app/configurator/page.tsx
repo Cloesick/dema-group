@@ -311,7 +311,7 @@ export default function ConfiguratorPage() {
   // Type selection screen
   if (!selectedType) {
     return (
-      <main className="min-h-screen bg-slate-50">
+      <div className="min-h-screen bg-slate-50">
         <div className="bg-gradient-to-r from-indigo-600 to-purple-700 text-white">
           <div className="container mx-auto px-4 py-12">
             <h1 className="text-3xl md:text-4xl font-bold mb-4">
@@ -353,7 +353,7 @@ export default function ConfiguratorPage() {
             ))}
           </div>
         </div>
-      </main>
+      </div>
     )
   }
 

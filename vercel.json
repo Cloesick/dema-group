@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "cd apps/portal && pnpm install && pnpm build",
+  "outputDirectory": "apps/portal/.next",
+  "installCommand": "cd apps/portal && pnpm install",
+  "devCommand": "cd apps/portal && pnpm dev",
+  "regions": ["arn1"],
+  "public": false
+}

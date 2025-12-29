@@ -242,27 +242,29 @@ export default function ProductsPage() {
   const totalPages = Math.ceil(mockProducts.length / itemsPerPage)
 
   return (
-    <main className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-slate-50">
       {/* Header */}
       <div className="bg-white border-b sticky top-0 z-40">
         <div className="container mx-auto px-4">
+          <h1 className="sr-only">{language === 'nl' ? 'Producten' : 'Products'}</h1>
           {/* Search Bar */}
           <div className="py-4">
-            <div className="relative max-w-2xl mx-auto">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
+            <div className="relative max-w-2xl mx-auto" role="search" aria-label={language === 'nl' ? 'Zoek producten' : 'Search products'}>
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-700" aria-hidden="true" />
               <input
-                type="text"
+                type="search"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder={language === 'nl' ? 'Zoek op artikelnummer, naam of trefwoord...' : 'Search by SKU, name or keyword...'}
                 className="w-full pl-12 pr-4 py-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+                aria-label={language === 'nl' ? 'Zoek producten' : 'Search products'}
               />
               {searchQuery && (
                 <button 
                   onClick={() => setSearchQuery('')}
                   className="absolute right-4 top-1/2 -translate-y-1/2"
                 >
-                  <X className="w-5 h-5 text-slate-400 hover:text-slate-600" />
+                  <X className="w-5 h-5 text-slate-700 hover:text-slate-900" />
                 </button>
               )}
             </div>
@@ -303,7 +305,7 @@ export default function ProductsPage() {
       <div className="container mx-auto px-4 py-6">
         <div className="flex gap-6">
           {/* Filters Sidebar */}
-          <aside className={`w-72 flex-shrink-0 ${showFilters ? 'block' : 'hidden lg:block'}`}>
+          <aside className={`w-72 flex-shrink-0 ${showFilters ? 'block' : 'hidden lg:block'}`} role="complementary" aria-label={language === 'nl' ? 'Productfilters' : 'Product filters'}>
             <div className="bg-white rounded-xl border sticky top-32">
               {/* Filter Header */}
               <div className="flex items-center justify-between p-4 border-b">
@@ -321,7 +323,7 @@ export default function ProductsPage() {
                 {activeFilterCount > 0 && (
                   <button 
                     onClick={clearAllFilters}
-                    className="text-sm text-blue-600 hover:underline"
+                    className="text-sm text-blue-700 hover:underline"
                   >
                     {language === 'nl' ? 'Wis alles' : 'Clear all'}
                   </button>
@@ -343,12 +345,12 @@ export default function ProductsPage() {
                           onClick={() => setSelectedSubcategory(sub.id === selectedSubcategory ? '' : sub.id)}
                           className={`w-full text-left px-3 py-2 rounded-lg text-sm transition ${
                             selectedSubcategory === sub.id
-                              ? 'bg-blue-50 text-blue-700 font-medium'
-                              : 'hover:bg-slate-50 text-slate-600'
+                              ? 'bg-blue-100 text-blue-700 font-medium'
+                              : 'hover:bg-slate-50 text-slate-700'
                           }`}
                         >
                           <span>{language === 'nl' ? sub.name_nl : sub.name}</span>
-                          <span className="text-slate-400 ml-1">({sub.productCount})</span>
+                          <span className="text-slate-900 ml-1">({sub.productCount})</span>
                         </button>
                       ))}
                   </div>
@@ -356,25 +358,29 @@ export default function ProductsPage() {
               )}
               
               {/* Facet Filters */}
-              <div className="divide-y max-h-[60vh] overflow-y-auto">
+              <div className="divide-y max-h-[60vh] overflow-y-auto" role="group" aria-label={language === 'nl' ? 'Filteropties' : 'Filter options'}>
                 {mockFacets.map(facet => (
                   <div key={facet.id} className="p-4">
                     <button
                       onClick={() => toggleFacet(facet.id)}
                       className="w-full flex items-center justify-between mb-3"
+                      aria-expanded={expandedFacets.includes(facet.id) ? "true" : "false"}
+                      aria-controls={`facet-${facet.id}`}
+                      aria-label={`${language === 'nl' ? 'Toon' : 'Show'} ${language === 'nl' ? facet.name_nl : facet.name} ${language === 'nl' ? 'opties' : 'options'}`}
+                      aria-haspopup="true"
                     >
                       <span className="font-medium text-slate-900">
                         {language === 'nl' ? facet.name_nl : facet.name}
                       </span>
                       {expandedFacets.includes(facet.id) ? (
-                        <ChevronUp className="w-4 h-4 text-slate-400" />
+                        <ChevronUp className="w-4 h-4 text-slate-700" />
                       ) : (
-                        <ChevronDown className="w-4 h-4 text-slate-400" />
+                        <ChevronDown className="w-4 h-4 text-slate-700" />
                       )}
                     </button>
                     
                     {expandedFacets.includes(facet.id) && (
-                      <div className="space-y-2">
+                      <div id={`facet-${facet.id}`} className="space-y-2" role="group" aria-label={language === 'nl' ? `${facet.name_nl} opties` : `${facet.name} options`}>
                         {facet.values.map(value => {
                           const isSelected = selectedFilters[facet.id]?.includes(value.value)
                           return (
@@ -395,10 +401,10 @@ export default function ProductsPage() {
                                 onChange={() => toggleFilter(facet.id, value.value)}
                                 className="sr-only"
                               />
-                              <span className="flex-1 text-sm text-slate-600 group-hover:text-slate-900">
+                              <span className="flex-1 text-sm text-slate-900">
                                 {value.label}
                               </span>
-                              <span className="text-xs text-slate-400">
+                              <span className="text-xs text-slate-900">
                                 {value.count}
                               </span>
                             </label>
@@ -417,7 +423,7 @@ export default function ProductsPage() {
             {/* Results Header */}
             <div className="flex items-center justify-between mb-4">
               <div>
-                <p className="text-slate-600">
+                <p className="text-slate-900">
                   <span className="font-semibold text-slate-900">{mockProducts.length}</span>
                   {' '}{language === 'nl' ? 'producten gevonden' : 'products found'}
                 </p>
@@ -429,6 +435,7 @@ export default function ProductsPage() {
                   <select
                     value={sortBy}
                     onChange={(e) => setSortBy(e.target.value)}
+                    aria-label={language === 'nl' ? 'Sorteer producten' : 'Sort products'}
                     className="appearance-none bg-white border rounded-lg px-4 py-2 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                   >
                     {sortOptions.map(opt => (
@@ -437,20 +444,24 @@ export default function ProductsPage() {
                       </option>
                     ))}
                   </select>
-                  <ArrowUpDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 pointer-events-none" />
+                  <ArrowUpDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-700 pointer-events-none" />
                 </div>
                 
                 {/* View Toggle */}
                 <div className="flex border rounded-lg overflow-hidden">
                   <button
                     onClick={() => setViewMode('grid')}
-                    className={`p-2 ${viewMode === 'grid' ? 'bg-blue-50 text-blue-600' : 'text-slate-400 hover:text-slate-600'}`}
+                    aria-label={language === 'nl' ? 'Rasterweergave' : 'Grid view'}
+                    aria-pressed={viewMode === 'grid'}
+                    className={`p-2 ${viewMode === 'grid' ? 'bg-blue-50 text-blue-700' : 'text-slate-700 hover:text-slate-900'}`}
                   >
                     <Grid3X3 className="w-5 h-5" />
                   </button>
                   <button
                     onClick={() => setViewMode('list')}
-                    className={`p-2 ${viewMode === 'list' ? 'bg-blue-50 text-blue-600' : 'text-slate-400 hover:text-slate-600'}`}
+                    aria-label={language === 'nl' ? 'Lijstweergave' : 'List view'}
+                    aria-pressed={viewMode === 'list'}
+                    className={`p-2 ${viewMode === 'list' ? 'bg-blue-50 text-blue-700' : 'text-slate-700 hover:text-slate-900'}`}
                   >
                     <List className="w-5 h-5" />
                   </button>
@@ -528,24 +539,28 @@ export default function ProductsPage() {
                       width={viewMode === 'grid' ? 200 : 100}
                       height={viewMode === 'grid' ? 200 : 100}
                       className="max-w-full max-h-full object-contain group-hover:scale-105 transition"
+                      aria-describedby={`desc-${product.id}`}
                     />
+                    <div id={`desc-${product.id}`} className="sr-only">
+                      {product.shortDescription || ''}
+                    </div>
                   </div>
                   
                   {/* Info */}
                   <div className={viewMode === 'grid' ? 'p-4 pt-0' : 'flex-1 py-2'}>
-                    <p className="text-xs text-slate-500 mb-1">{product.sku}</p>
-                    <h3 className="font-medium text-slate-900 group-hover:text-blue-600 transition line-clamp-2 mb-2">
+                    <span className="text-xs text-slate-700 mb-1">{product.sku}</span>
+                    <h2 className="font-medium text-slate-900 group-hover:text-blue-700 transition line-clamp-2 mb-2">
                       {language === 'nl' ? product.name_nl : product.name}
-                    </h3>
+                    </h2>
                     
                     {viewMode === 'list' && (
-                      <p className="text-sm text-slate-500 line-clamp-2 mb-2">
+                      <p className="text-sm text-slate-900 line-clamp-2 mb-2">
                         {language === 'nl' ? product.shortDescription_nl : product.shortDescription}
                       </p>
                     )}
                     
                     <div className="flex items-center justify-between">
-                      <p className="text-lg font-bold text-blue-600">
+                      <p className="text-lg font-bold text-blue-700">
                         €{product.pricing?.listPrice.toFixed(2)}
                       </p>
                       <span className={`text-xs px-2 py-1 rounded ${
@@ -601,6 +616,6 @@ export default function ProductsPage() {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   )
 }

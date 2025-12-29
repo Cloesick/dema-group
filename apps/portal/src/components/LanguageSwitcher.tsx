@@ -15,6 +15,9 @@ export function LanguageSwitcher() {
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-white/10 transition"
+        aria-label="Change language"
+        aria-expanded={isOpen}
+        aria-haspopup="listbox"
       >
         <Globe size={18} />
         <span className="text-sm font-medium">{languageFlags[language]} {language.toUpperCase()}</span>
@@ -27,7 +30,11 @@ export function LanguageSwitcher() {
             className="fixed inset-0 z-40" 
             onClick={() => setIsOpen(false)} 
           />
-          <div className="absolute right-0 top-full mt-2 bg-white rounded-lg shadow-lg border z-50 min-w-[150px] overflow-hidden">
+          <div 
+            className="absolute right-0 top-full mt-2 bg-white rounded-lg shadow-lg border z-50 min-w-[150px] overflow-hidden"
+            role="listbox"
+            aria-label="Select language"
+          >
             {languages.map((lang) => (
               <button
                 key={lang}
@@ -35,6 +42,8 @@ export function LanguageSwitcher() {
                   setLanguage(lang)
                   setIsOpen(false)
                 }}
+                role="option"
+                aria-selected={language === lang}
                 className={`w-full px-4 py-2 text-left flex items-center gap-3 hover:bg-slate-50 transition ${
                   language === lang ? 'bg-slate-100 font-medium' : ''
                 }`}

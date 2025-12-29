@@ -66,6 +66,57 @@ export interface ProductGroup {
 }
 
 // =============================================================================
+// UTILITY FUNCTIONS
+// =============================================================================
+
+export function getProductGroup(id: string): ProductGroup | undefined {
+  return productGroups.find(group => group.id === id)
+}
+
+export function getPrimaryProperties(groupId: string): PropertyDefinition[] {
+  const group = getProductGroup(groupId)
+  if (!group) return []
+  return group.properties
+    .filter(prop => prop.primaryDisplay)
+    .sort((a, b) => (a.sortOrder ?? 0) - (b.sortOrder ?? 0))
+}
+
+export function getFilterableProperties(groupId: string): PropertyDefinition[] {
+  const group = getProductGroup(groupId)
+  if (!group) return []
+  return group.properties.filter(prop => prop.filterable)
+}
+
+export function getGroupedSpecifications(
+  product: Record<string, unknown>,
+  groupId: string,
+  language: 'en' | 'nl' | 'fr' = 'en'
+) {
+  const group = getProductGroup(groupId)
+  if (!group) return []
+
+  return group.specificationGroups
+    .map(specGroup => ({
+      group: {
+        id: specGroup.key,
+        name: specGroup.labels[language]
+      },
+      specs: specGroup.properties
+        .map(propKey => {
+          const prop = group.properties.find(p => p.key === propKey)
+          if (!prop) return null
+          const value = product[propKey]
+          if (value === undefined || value === null || value === '') return null
+          return {
+            label: prop.labels[language],
+            value: String(value),
+            unit: prop.unit
+          }
+        })
+        .filter((spec): spec is NonNullable<typeof spec> => spec !== null)
+    }))
+    .filter(group => group.specs.length > 0)
+}
 // COMMON PROPERTIES (shared across multiple product groups)
 // =============================================================================
 
@@ -81,7 +132,7 @@ export const commonProperties: PropertyDefinition[] = [
     filterable: true,
     primaryDisplay: true,
     sortOrder: 1,
-    xmlElement: 'manufacturer'
+    xmlElement: 'Manufacturer'
   },
   {
     key: 'partNumber',
@@ -94,7 +145,62 @@ export const commonProperties: PropertyDefinition[] = [
     filterable: true,
     primaryDisplay: true,
     sortOrder: 2,
-    xmlElement: 'partNumber'
+    xmlElement: 'PartNumber'
+  },
+  {
+    key: 'fastenerType',
+    labels: {
+      en: 'Fastener Type',
+      nl: 'Type Bevestigingsmiddel',
+      fr: 'Type de fixation'
+    },
+    type: 'select',
+    filterable: true,
+    primaryDisplay: true,
+    sortOrder: 10,
+    xmlElement: 'FastenerType',
+    options: [
+      {
+        value: 'bolt',
+        labels: {
+          en: 'Bolt',
+          nl: 'Bout',
+          fr: 'Boulon'
+        }
+      },
+      {
+        value: 'nut',
+        labels: {
+          en: 'Nut',
+          nl: 'Moer',
+          fr: 'Écrou'
+        }
+      },
+      {
+        value: 'washer',
+        labels: {
+          en: 'Washer',
+          nl: 'Ring',
+          fr: 'Rondelle'
+        }
+      },
+      {
+        value: 'rivet',
+        labels: {
+          en: 'Rivet',
+          nl: 'Klinknagel',
+          fr: 'Rivet'
+        }
+      },
+      {
+        value: 'pin',
+        labels: {
+          en: 'Pin',
+          nl: 'Pin',
+          fr: 'Goupille'
+        }
+      }
+    ]
   },
   {
     key: 'material',
@@ -104,10 +210,10 @@ export const commonProperties: PropertyDefinition[] = [
       fr: 'Matériau'
     },
     type: 'select',
-    filterable: true,
+    filterable: false,
     primaryDisplay: false,
-    sortOrder: 10,
-    xmlElement: 'material',
+    sortOrder: 12,
+    xmlElement: 'Material',
     options: [
       {
         value: 'steel',
@@ -134,60 +240,87 @@ export const commonProperties: PropertyDefinition[] = [
         }
       },
       {
-        value: 'bronze',
-        labels: {
-          en: 'Bronze',
-          nl: 'Brons',
-          fr: 'Bronze'
-        }
-      },
-      {
         value: 'aluminum',
         labels: {
           en: 'Aluminum',
           nl: 'Aluminium',
           fr: 'Aluminium'
         }
-      },
-      {
-        value: 'cast-iron',
-        labels: {
-          en: 'Cast Iron',
-          nl: 'Gietijzer',
-          fr: 'Fonte'
-        }
-      },
-      {
-        value: 'plastic',
-        labels: {
-          en: 'Plastic',
-          nl: 'Kunststof',
-          fr: 'Plastique'
-        }
-      },
-      {
-        value: 'rubber',
-        labels: {
-          en: 'Rubber',
-          nl: 'Rubber',
-          fr: 'Caoutchouc'
-        }
       }
     ]
   },
   {
-    key: 'weight',
+    key: 'size',
     labels: {
-      en: 'Weight',
-      nl: 'Gewicht',
-      fr: 'Poids'
+      en: 'Size',
+      nl: 'Afmeting',
+      fr: 'Taille'
     },
-    unit: 'kg',
-    type: 'number',
-    filterable: false,
+    type: 'text',
+    filterable: true,
+    primaryDisplay: true,
+    sortOrder: 13,
+    xmlElement: 'Size'
+  },
+  {
+    key: 'thread',
+    labels: {
+      en: 'Thread',
+      nl: 'Schroefdraad',
+      fr: 'Filetage'
+    },
+    type: 'text',
+    filterable: true,
     primaryDisplay: false,
-    sortOrder: 50,
-    xmlElement: 'weight'
+    sortOrder: 14,
+    xmlElement: 'Thread'
+  },
+  {
+    key: 'finish',
+    labels: {
+      en: 'Finish',
+      nl: 'Afwerking',
+      fr: 'Finition'
+    },
+    type: 'select',
+    filterable: true,
+    primaryDisplay: false,
+    sortOrder: 20,
+    xmlElement: 'Finish',
+    options: [
+      {
+        value: 'zinc-plated',
+        labels: {
+          en: 'Zinc Plated',
+          nl: 'Verzinkt',
+          fr: 'Zingué'
+        }
+      },
+      {
+        value: 'black-oxide',
+        labels: {
+          en: 'Black Oxide',
+          nl: 'Zwart Geoxideerd',
+          fr: 'Oxyde Noir'
+        }
+      },
+      {
+        value: 'galvanized',
+        labels: {
+          en: 'Galvanized',
+          nl: 'Gegalvaniseerd',
+          fr: 'Galvanisé'
+        }
+      },
+      {
+        value: 'passivated',
+        labels: {
+          en: 'Passivated',
+          nl: 'Gepassiveerd',
+          fr: 'Passivé'
+        }
+      }
+    ]
   }
 ]
 
@@ -214,33 +347,6 @@ export const productGroups: ProductGroup[] = [
       ...commonProperties,
       // Technical Specifications
       {
-        key: 'identification',
-        labels: {
-          en: 'Identification',
-          nl: 'Identificatie',
-          fr: 'Identification'
-        },
-        type: 'text',
-        filterable: true,
-        primaryDisplay: true,
-        sortOrder: 1,
-        xmlElement: 'manufacturer'
-      },
-      {
-        key: 'partNumber',
-        labels: {
-          en: 'Part Number',
-          nl: 'Artikelnummer',
-          fr: 'Numéro de pièce'
-        },
-        type: 'text',
-        filterable: true,
-        primaryDisplay: true,
-        sortOrder: 2,
-        xmlElement: 'partNumber'
-      },
-      // Technical Specifications
-      {
         key: 'boreDiameter',
         labels: {
           en: 'Bore Diameter',
@@ -252,7 +358,7 @@ export const productGroups: ProductGroup[] = [
         filterable: true,
         primaryDisplay: true,
         sortOrder: 10,
-        xmlElement: 'boreDiameter'
+        xmlElement: 'BoreDiameter'
       },
       {
         key: 'rodDiameter',
@@ -266,7 +372,7 @@ export const productGroups: ProductGroup[] = [
         filterable: true,
         primaryDisplay: true,
         sortOrder: 11,
-        xmlElement: 'rodDiameter'
+        xmlElement: 'RodDiameter'
       },
       {
         key: 'stroke',
@@ -280,7 +386,7 @@ export const productGroups: ProductGroup[] = [
         filterable: true,
         primaryDisplay: true,
         sortOrder: 12,
-        xmlElement: 'stroke'
+        xmlElement: 'Stroke'
       },
       {
         key: 'maxPressure',
@@ -294,7 +400,7 @@ export const productGroups: ProductGroup[] = [
         filterable: true,
         primaryDisplay: true,
         sortOrder: 13,
-        xmlElement: 'maxPressure'
+        xmlElement: 'MaxPressure'
       },
       {
         key: 'cylinderType',
@@ -307,7 +413,7 @@ export const productGroups: ProductGroup[] = [
         filterable: true,
         primaryDisplay: true,
         sortOrder: 14,
-        xmlElement: 'cylinderType',
+        xmlElement: 'CylinderType',
         options: [
           {
             value: 'single-acting',
@@ -354,7 +460,7 @@ export const productGroups: ProductGroup[] = [
         filterable: true,
         primaryDisplay: false,
         sortOrder: 15,
-        xmlElement: 'mountingStyle',
+        xmlElement: 'MountingStyle',
         options: [
           {
             value: 'clevis',
@@ -417,7 +523,7 @@ export const productGroups: ProductGroup[] = [
         filterable: true,
         primaryDisplay: false,
         sortOrder: 16,
-        xmlElement: 'portSize'
+        xmlElement: 'PortSize'
       },
       {
         key: 'portThread',
@@ -430,7 +536,7 @@ export const productGroups: ProductGroup[] = [
         filterable: true,
         primaryDisplay: false,
         sortOrder: 17,
-        xmlElement: 'portThread',
+        xmlElement: 'PortThread',
         options: [
           {
             value: 'bsp',
@@ -486,7 +592,7 @@ export const productGroups: ProductGroup[] = [
         filterable: true,
         primaryDisplay: false,
         sortOrder: 20,
-        xmlElement: 'tubeMaterial',
+        xmlElement: 'TubeMaterial',
         options: [
           {
             value: 'steel',
@@ -525,7 +631,7 @@ export const productGroups: ProductGroup[] = [
         filterable: false,
         primaryDisplay: false,
         sortOrder: 21,
-        xmlElement: 'rodMaterial',
+        xmlElement: 'RodMaterial',
         options: [
           {
             value: 'chrome-plated-steel',
@@ -564,7 +670,7 @@ export const productGroups: ProductGroup[] = [
         filterable: true,
         primaryDisplay: false,
         sortOrder: 22,
-        xmlElement: 'sealMaterial',
+        xmlElement: 'SealMaterial',
         options: [
           {
             value: 'nbr',
@@ -613,7 +719,7 @@ export const productGroups: ProductGroup[] = [
         filterable: false,
         primaryDisplay: false,
         sortOrder: 30,
-        xmlElement: 'tempRangeMin'
+        xmlElement: 'TempRangeMin'
       },
       {
         key: 'tempRangeMax',
@@ -627,7 +733,7 @@ export const productGroups: ProductGroup[] = [
         filterable: false,
         primaryDisplay: false,
         sortOrder: 31,
-        xmlElement: 'tempRangeMax'
+        xmlElement: 'TempRangeMax'
       },
       // Physical
       {
@@ -642,7 +748,7 @@ export const productGroups: ProductGroup[] = [
         filterable: false,
         primaryDisplay: false,
         sortOrder: 40,
-        xmlElement: 'closedLength'
+        xmlElement: 'ClosedLength'
       },
       {
         key: 'weight',
@@ -656,7 +762,7 @@ export const productGroups: ProductGroup[] = [
         filterable: false,
         primaryDisplay: false,
         sortOrder: 50,
-        xmlElement: 'weight'
+        xmlElement: 'Weight'
       }
     ],
     specificationGroups: [
@@ -731,343 +837,463 @@ export const productGroups: ProductGroup[] = [
         sortOrder: 7
       }
     ]
-  }
-]
-
-// =============================================================================
-// HELPER FUNCTIONS
-// =============================================================================
-
-export function getProductGroupById(id: string): ProductGroup | undefined {
-  return productGroups.find(group => group.id === id);
-}
-
-export function getFilterableProperties(groupId: string): PropertyDefinition[] {
-  const group = getProductGroupById(groupId);
-  if (!group) return [];
-  return group.properties.filter(prop => prop.filterable);
-}
-
-export function getPrimaryProperties(groupId: string): PropertyDefinition[] {
-  const group = getProductGroupById(groupId);
-  if (!group) return [];
-  return group.properties
-    .filter(prop => prop.primaryDisplay)
-    .sort((a, b) => (a.sortOrder ?? 0) - (b.sortOrder ?? 0));
-}
-    id: 'pneumatics',
-    name: 'Pneumatics',
-    name_nl: 'Pneumatica',
-    name_fr: 'Pneumatique',
-    description: 'Air cylinders, valves, fittings, and accessories for compressed air systems',
-    description_nl: 'Luchtcilinders, kleppen, fittingen en accessoires voor persluchtsystemen',
-    description_fr: 'Vérins pneumatiques, vannes et accessoires pour systèmes d’air comprimé',
-    icon: 'pneumatic',
-    properties: [
-      { key: 'manufacturer', label: 'Manufacturer', label_nl: 'Fabrikant', label_fr: 'Fabricant', type: 'text', isFilterable: true, isPrimary: true, sortOrder: 1, xmlElement: 'Manufacturer' },
-      { key: 'partNumber', label: 'Part Number', label_nl: 'Artikelnummer', label_fr: 'Numéro de pièce', type: 'text', isFilterable: true, isPrimary: true, sortOrder: 2, xmlElement: 'PartNumber' },
-      { key: 'pneumaticType', label: 'Type', label_nl: 'Type', label_fr: 'Type', type: 'list', isFilterable: true, isPrimary: true, sortOrder: 10, xmlElement: 'PneumaticType', options: ['Cylinder', 'Valve', 'Filter Regulator', 'Fitting'] },
-      { key: 'portSize', label: 'Port Size', label_nl: 'Poortmaat', label_fr: 'Taille du port', type: 'text', isFilterable: true, isPrimary: false, sortOrder: 11, xmlElement: 'PortSize' },
-      { key: 'maxPressure', label: 'Max Pressure', label_nl: 'Max Druk', label_fr: 'Pression max', unit: 'bar', type: 'number', isFilterable: true, isPrimary: true, sortOrder: 12, xmlElement: 'MaxPressure' },
-      { key: 'flowCapacity', label: 'Flow Capacity', label_nl: 'Debietcapaciteit', label_fr: 'Capacité de débit', unit: 'l/min', type: 'number', isFilterable: true, isPrimary: false, sortOrder: 13, xmlElement: 'FlowCapacity' },
-      { key: 'actuation', label: 'Actuation', label_nl: 'Aansturing', label_fr: 'Activation', type: 'list', isFilterable: true, isPrimary: false, sortOrder: 14, xmlElement: 'Actuation', options: ['Manual', 'Electric', 'Air Pilot', 'Solenoid'] }
-    ],
-    specGroups: [
-      { id: 'identification', name: 'Identification', name_nl: 'Identificatie', name_fr: 'Identification', properties: ['manufacturer', 'partNumber'], sortOrder: 1 },
-      { id: 'performance', name: 'Performance', name_nl: 'Prestaties', name_fr: 'Performance', properties: ['pneumaticType', 'maxPressure', 'flowCapacity'], sortOrder: 2 },
-      { id: 'connections', name: 'Connections', name_nl: 'Aansluitingen', name_fr: 'Connexions', properties: ['portSize', 'actuation'], sortOrder: 3 }
-    ]
   },
   {
-    id: 'fasteners',
-    name: 'Fasteners & Hardware',
-    name_nl: 'Bevestigingsmiddelen & Hardware',
-    name_fr: 'Fixations & Matériel',
-    description: 'Bolts, nuts, washers, rivets and installation hardware for industrial assembly',
-    description_nl: 'Bouten, moeren, ringen, klinknagels en installatiemateriaal',
-    description_fr: 'Boulons, écrous, rondelles, rivets et quincaillerie',
-    icon: 'fastener',
+    id: 'pneumatics',
+    labels: {
+      en: 'Pneumatics',
+      nl: 'Pneumatica',
+      fr: 'Pneumatique'
+    },
+    descriptions: {
+      en: 'Air cylinders, valves, fittings, and accessories for compressed air systems',
+      nl: 'Luchtcilinders, kleppen, fittingen en accessoires voor persluchtsystemen',
+      fr: 'Vérins pneumatiques, vannes et accessoires pour systèmes d\'air comprimé'
+    },
+    icon: 'pneumatic',
     properties: [
-      { key: 'manufacturer', label: 'Manufacturer', label_nl: 'Fabrikant', label_fr: 'Fabricant', type: 'text', isFilterable: true, isPrimary: true, sortOrder: 1, xmlElement: 'Manufacturer' },
-      { key: 'partNumber', label: 'Part Number', label_nl: 'Artikelnummer', label_fr: 'Numéro de pièce', type: 'text', isFilterable: true, isPrimary: true, sortOrder: 2, xmlElement: 'PartNumber' },
-      { key: 'fastenerType', label: 'Fastener Type', label_nl: 'Fastener Type', label_fr: 'Type de fixation', type: 'list', isFilterable: true, isPrimary: true, sortOrder: 10, xmlElement: 'FastenerType', options: ['Bolt', 'Nut', 'Washer', 'Rivet', 'Pin'] },
-      { key: 'material', label: 'Material', label_nl: 'Materiaal', label_fr: 'Matériau', type: 'list', isFilterable: false, isPrimary: false, sortOrder: 12, xmlElement: 'Material', options: ['Steel', 'Stainless Steel', 'Brass', 'Aluminum'] },
-      { key: 'size', label: 'Size', label_nl: 'Afmeting', label_fr: 'Taille', type: 'text', isFilterable: true, isPrimary: true, sortOrder: 13, xmlElement: 'Size' },
-      { key: 'thread', label: 'Thread', label_nl: 'Schroefdraad', label_fr: 'Filetage', type: 'text', isFilterable: true, isPrimary: false, sortOrder: 14, xmlElement: 'Thread' },
-      { key: 'finish', label: 'Finish', label_nl: 'Afwerking', label_fr: 'Finition', type: 'list', isFilterable: true, isPrimary: false, sortOrder: 20, xmlElement: 'Finish', options: ['Zinc Plated', 'Black Oxide', 'Galvanized', 'Passivated'] }
-    ],
-    specGroups: [
-      { id: 'identification', name: 'Identification', name_nl: 'Identificatie', name_fr: 'Identification', properties: ['manufacturer', 'partNumber'], sortOrder: 1 },
-      { id: 'performance', name: 'Performance', name_nl: 'Prestaties', name_fr: 'Performance', properties: ['fastenerType', 'size', 'thread'], sortOrder: 2 },
-      { id: 'materials', name: 'Materials', name_nl: 'Materialen', name_fr: 'Matériaux', properties: ['material', 'finish'], sortOrder: 3 }
-    ]
-  }
-]      {
-        key: 'partNumber',
-        label: 'Part Number',
-        label_nl: 'Artikelnummer',
-        label_fr: 'Numéro de pièce',
+      {
+        key: 'manufacturer',
+        labels: {
+          en: 'Manufacturer',
+          nl: 'Fabrikant',
+          fr: 'Fabricant'
+        },
         type: 'text',
-        isFilterable: true,
-        isPrimary: true,
+        filterable: true,
+        primaryDisplay: true,
+        sortOrder: 1,
+        xmlElement: 'Manufacturer'
+      },
+      {
+        key: 'partNumber',
+        labels: {
+          en: 'Part Number',
+          nl: 'Artikelnummer',
+          fr: 'Numéro de pièce'
+        },
+        type: 'text',
+        filterable: true,
+        primaryDisplay: true,
         sortOrder: 2,
         xmlElement: 'PartNumber'
       },
-      // Technical Specifications
       {
-        key: 'boreDiameter',
-        label: 'Bore Diameter',
-        label_nl: 'Boring Diameter',
-        label_fr: 'Diamètre d\'alésage',
-        unit: 'mm',
-        type: 'number',
-        isFilterable: true,
-        isPrimary: true,
+        key: 'pneumaticType',
+        labels: {
+          en: 'Type',
+          nl: 'Type',
+          fr: 'Type'
+        },
+        type: 'select',
+        filterable: true,
+        primaryDisplay: true,
         sortOrder: 10,
-        xmlElement: 'BoreDiameter'
-      },
-      {
-        key: 'rodDiameter',
-        label: 'Rod Diameter',
-        label_nl: 'Stang Diameter',
-        label_fr: 'Diamètre de tige',
-        unit: 'mm',
-        type: 'number',
-        isFilterable: true,
-        isPrimary: true,
-        sortOrder: 11,
-        xmlElement: 'RodDiameter'
-      },
-      {
-        key: 'stroke',
-        label: 'Stroke',
-        label_nl: 'Slag',
-        label_fr: 'Course',
-        unit: 'mm',
-        type: 'number',
-        isFilterable: true,
-        isPrimary: true,
-        sortOrder: 12,
-        xmlElement: 'Stroke'
-      },
-      {
-        key: 'maxPressure',
-        label: 'Max Working Pressure',
-        label_nl: 'Max Werkdruk',
-        label_fr: 'Pression de travail max',
-        unit: 'bar',
-        type: 'number',
-        isFilterable: true,
-        isPrimary: true,
-        sortOrder: 13,
-        xmlElement: 'MaxPressure'
-      },
-      {
-        key: 'cylinderType',
-        label: 'Cylinder Type',
-        label_nl: 'Cilinder Type',
-        label_fr: 'Type de vérin',
-        type: 'list',
-        isFilterable: true,
-        isPrimary: true,
-        sortOrder: 14,
-        xmlElement: 'CylinderType',
-        options: ['Single Acting', 'Double Acting', 'Telescopic', 'Plunger']
-      },
-      {
-        key: 'mountingStyle',
-        label: 'Mounting Style',
-        label_nl: 'Bevestigingsstijl',
-        label_fr: 'Style de montage',
-        type: 'list',
-        isFilterable: true,
-        isPrimary: false,
-        sortOrder: 15,
-        xmlElement: 'MountingStyle',
-        options: ['Clevis', 'Flange', 'Trunnion', 'Foot', 'Side Lug', 'Center Trunnion']
+        xmlElement: 'PneumaticType',
+        options: [
+          {
+            value: 'cylinder',
+            labels: {
+              en: 'Cylinder',
+              nl: 'Cilinder',
+              fr: 'Vérin'
+            }
+          },
+          {
+            value: 'valve',
+            labels: {
+              en: 'Valve',
+              nl: 'Klep',
+              fr: 'Vanne'
+            }
+          },
+          {
+            value: 'filter-regulator',
+            labels: {
+              en: 'Filter Regulator',
+              nl: 'Filter Regelaar',
+              fr: 'Filtre Régulateur'
+            }
+          },
+          {
+            value: 'fitting',
+            labels: {
+              en: 'Fitting',
+              nl: 'Fitting',
+              fr: 'Raccord'
+            }
+          }
+        ]
       },
       {
         key: 'portSize',
-        label: 'Port Size',
-        label_nl: 'Poort Maat',
-        label_fr: 'Taille du port',
+        labels: {
+          en: 'Port Size',
+          nl: 'Poortmaat',
+          fr: 'Taille du port'
+        },
         type: 'text',
-        isFilterable: true,
-        isPrimary: false,
-        sortOrder: 16,
+        filterable: true,
+        primaryDisplay: false,
+        sortOrder: 11,
         xmlElement: 'PortSize'
       },
       {
-        key: 'portThread',
-        label: 'Port Thread',
-        label_nl: 'Poort Schroefdraad',
-        label_fr: 'Filetage du port',
-        type: 'list',
-        isFilterable: true,
-        isPrimary: false,
-        sortOrder: 17,
-        xmlElement: 'PortThread',
-        options: ['BSP', 'NPT', 'Metric', 'SAE', 'JIC']
-      },
-      // Materials
-      {
-        key: 'tubeMaterial',
-        label: 'Tube Material',
-        label_nl: 'Buis Materiaal',
-        label_fr: 'Matériau du tube',
-        type: 'list',
-        isFilterable: true,
-        isPrimary: false,
-        sortOrder: 20,
-        xmlElement: 'TubeMaterial',
-        options: ['Steel', 'Stainless Steel', 'Aluminum']
-      },
-      {
-        key: 'rodMaterial',
-        label: 'Rod Material',
-        label_nl: 'Stang Materiaal',
-        label_fr: 'Matériau de tige',
-        type: 'list',
-        isFilterable: false,
-        isPrimary: false,
-        sortOrder: 21,
-        xmlElement: 'RodMaterial',
-        options: ['Chrome Plated Steel', 'Stainless Steel', 'Induction Hardened']
-      },
-      {
-        key: 'sealMaterial',
-        label: 'Seal Material',
-        label_nl: 'Afdichting Materiaal',
-        label_fr: 'Matériau du joint',
-        type: 'list',
-        isFilterable: true,
-        isPrimary: false,
-        sortOrder: 22,
-        xmlElement: 'SealMaterial',
-        options: ['NBR', 'Viton', 'PTFE', 'Polyurethane']
-      },
-      // Operating Conditions
-      {
-        key: 'tempRangeMin',
-        label: 'Min Temperature',
-        label_nl: 'Min Temperatuur',
-        label_fr: 'Température min',
-        unit: '°C',
+        key: 'maxPressure',
+        labels: {
+          en: 'Max Pressure',
+          nl: 'Max Druk',
+          fr: 'Pression max'
+        },
+        unit: 'bar',
         type: 'number',
-        isFilterable: false,
-        isPrimary: false,
-        sortOrder: 30,
-        xmlElement: 'TempRangeMin'
+        filterable: true,
+        primaryDisplay: true,
+        sortOrder: 12,
+        xmlElement: 'MaxPressure'
       },
       {
-        key: 'tempRangeMax',
-        label: 'Max Temperature',
-        label_nl: 'Max Temperatuur',
-        label_fr: 'Température max',
-        unit: '°C',
+        key: 'flowCapacity',
+        labels: {
+          en: 'Flow Capacity',
+          nl: 'Debietcapaciteit',
+          fr: 'Capacité de débit'
+        },
+        unit: 'l/min',
         type: 'number',
-        isFilterable: false,
-        isPrimary: false,
-        sortOrder: 31,
-        xmlElement: 'TempRangeMax'
-      },
-      // Physical
-      {
-        key: 'closedLength',
-        label: 'Closed Length',
-        label_nl: 'Gesloten Lengte',
-        label_fr: 'Longueur fermée',
-        unit: 'mm',
-        type: 'number',
-        isFilterable: false,
-        isPrimary: false,
-        sortOrder: 40,
-        xmlElement: 'ClosedLength'
+        filterable: true,
+        primaryDisplay: false,
+        sortOrder: 13,
+        xmlElement: 'FlowCapacity'
       },
       {
-        key: 'weight',
-        label: 'Weight',
-        label_nl: 'Gewicht',
-        label_fr: 'Poids',
-        unit: 'kg',
-        type: 'number',
-        isFilterable: false,
-        isPrimary: false,
-        sortOrder: 50,
-        xmlElement: 'Weight'
+        key: 'actuation',
+        labels: {
+          en: 'Actuation',
+          nl: 'Aansturing',
+          fr: 'Activation'
+        },
+        type: 'select',
+        filterable: true,
+        primaryDisplay: false,
+        sortOrder: 14,
+        xmlElement: 'Actuation',
+        options: [
+          {
+            value: 'manual',
+            labels: {
+              en: 'Manual',
+              nl: 'Handmatig',
+              fr: 'Manuel'
+            }
+          },
+          {
+            value: 'electric',
+            labels: {
+              en: 'Electric',
+              nl: 'Elektrisch',
+              fr: 'Électrique'
+            }
+          },
+          {
+            value: 'air-pilot',
+            labels: {
+              en: 'Air Pilot',
+              nl: 'Luchtgestuurd',
+              fr: 'Pilote pneumatique'
+            }
+          },
+          {
+            value: 'solenoid',
+            labels: {
+              en: 'Solenoid',
+              nl: 'Magneetklep',
+              fr: 'Solénoïde'
+            }
+          }
+        ]
       }
     ],
-    specGroups: [
+    specificationGroups: [
       {
-        id: 'identification',
-        name: 'Identification',
-        name_nl: 'Identificatie',
-        name_fr: 'Identification',
+        key: 'identification',
+        labels: {
+          en: 'Identification',
+          nl: 'Identificatie',
+          fr: 'Identification'
+        },
         properties: ['manufacturer', 'partNumber'],
         sortOrder: 1
       },
       {
-        id: 'dimensions',
-        name: 'Dimensions',
-        name_nl: 'Afmetingen',
-        name_fr: 'Dimensions',
-        properties: ['boreDiameter', 'rodDiameter', 'stroke', 'closedLength'],
+        key: 'performance',
+        labels: {
+          en: 'Performance',
+          nl: 'Prestaties',
+          fr: 'Performance'
+        },
+        properties: ['pneumaticType', 'maxPressure', 'flowCapacity'],
         sortOrder: 2
       },
       {
-        id: 'performance',
-        name: 'Performance',
-        name_nl: 'Prestaties',
-        name_fr: 'Performance',
-        properties: ['maxPressure', 'cylinderType'],
+        key: 'connections',
+        labels: {
+          en: 'Connections',
+          nl: 'Aansluitingen',
+          fr: 'Connexions'
+        },
+        properties: ['portSize', 'actuation'],
         sortOrder: 3
+      }
+    ]
+  },
+  {
+    id: 'fasteners',
+    labels: {
+      en: 'Fasteners & Hardware',
+      nl: 'Bevestigingsmiddelen & Hardware',
+      fr: 'Fixations & Matériel'
+    },
+    descriptions: {
+      en: 'Bolts, nuts, washers, rivets and installation hardware for industrial assembly',
+      nl: 'Bouten, moeren, ringen, klinknagels en installatiemateriaal',
+      fr: 'Boulons, écrous, rondelles, rivets et quincaillerie'
+    },
+    icon: 'fastener',
+    properties: [
+      {
+        key: 'manufacturer',
+        labels: {
+          en: 'Manufacturer',
+          nl: 'Fabrikant',
+          fr: 'Fabricant'
+        },
+        type: 'text',
+        filterable: true,
+        primaryDisplay: true,
+        sortOrder: 1,
+        xmlElement: 'Manufacturer'
       },
       {
-        id: 'connections',
-        name: 'Connections',
-        name_nl: 'Aansluitingen',
-        name_fr: 'Connexions',
-        properties: ['mountingStyle', 'portSize', 'portThread'],
-        sortOrder: 4
+        key: 'partNumber',
+        labels: {
+          en: 'Part Number',
+          nl: 'Artikelnummer',
+          fr: 'Numéro de pièce'
+        },
+        type: 'text',
+        filterable: true,
+        primaryDisplay: true,
+        sortOrder: 2,
+        xmlElement: 'PartNumber'
       },
       {
-        id: 'materials',
-        name: 'Materials',
-        name_nl: 'Materialen',
-        name_fr: 'Matériaux',
-        properties: ['tubeMaterial', 'rodMaterial', 'sealMaterial'],
-        sortOrder: 5
+        key: 'fastenerType',
+        labels: {
+          en: 'Fastener Type',
+          nl: 'Fastener Type',
+          fr: 'Type de fixation'
+        },
+        type: 'select',
+        filterable: true,
+        primaryDisplay: true,
+        sortOrder: 10,
+        xmlElement: 'FastenerType',
+        options: [
+          {
+            value: 'bolt',
+            labels: {
+              en: 'Bolt',
+              nl: 'Bout',
+              fr: 'Boulon'
+            }
+          },
+          {
+            value: 'nut',
+            labels: {
+              en: 'Nut',
+              nl: 'Moer',
+              fr: 'Écrou'
+            }
+          },
+          {
+            value: 'washer',
+            labels: {
+              en: 'Washer',
+              nl: 'Ring',
+              fr: 'Rondelle'
+            }
+          },
+          {
+            value: 'rivet',
+            labels: {
+              en: 'Rivet',
+              nl: 'Klinknagel',
+              fr: 'Rivet'
+            }
+          },
+          {
+            value: 'pin',
+            labels: {
+              en: 'Pin',
+              nl: 'Pin',
+              fr: 'Goupille'
+            }
+          }
+        ]
       },
       {
-        id: 'operating-conditions',
-        name: 'Operating Conditions',
-        name_nl: 'Bedrijfsomstandigheden',
-        name_fr: 'Conditions de fonctionnement',
-        properties: ['tempRangeMin', 'tempRangeMax'],
-        sortOrder: 6
+        key: 'material',
+        labels: {
+          en: 'Material',
+          nl: 'Materiaal',
+          fr: 'Matériau'
+        },
+        type: 'select',
+        filterable: false,
+        primaryDisplay: false,
+        sortOrder: 12,
+        xmlElement: 'Material',
+        options: [
+          {
+            value: 'steel',
+            labels: {
+              en: 'Steel',
+              nl: 'Staal',
+              fr: 'Acier'
+            }
+          },
+          {
+            value: 'stainless-steel',
+            labels: {
+              en: 'Stainless Steel',
+              nl: 'Roestvrij Staal',
+              fr: 'Acier Inoxydable'
+            }
+          },
+          {
+            value: 'brass',
+            labels: {
+              en: 'Brass',
+              nl: 'Messing',
+              fr: 'Laiton'
+            }
+          },
+          {
+            value: 'aluminum',
+            labels: {
+              en: 'Aluminum',
+              nl: 'Aluminium',
+              fr: 'Aluminium'
+            }
+          }
+        ]
       },
       {
-        id: 'physical',
-        name: 'Physical',
-        name_nl: 'Fysiek',
-        name_fr: 'Physique',
-        properties: ['weight'],
-        sortOrder: 7
+        key: 'size',
+        labels: {
+          en: 'Size',
+          nl: 'Afmeting',
+          fr: 'Taille'
+        },
+        type: 'text',
+        filterable: true,
+        primaryDisplay: true,
+        sortOrder: 13,
+        xmlElement: 'Size'
+      },
+      {
+        key: 'thread',
+        labels: {
+          en: 'Thread',
+          nl: 'Schroefdraad',
+          fr: 'Filetage'
+        },
+        type: 'text',
+        filterable: true,
+        primaryDisplay: false,
+        sortOrder: 14,
+        xmlElement: 'Thread'
+      },
+      {
+        key: 'finish',
+        labels: {
+          en: 'Finish',
+          nl: 'Afwerking',
+          fr: 'Finition'
+        },
+        type: 'select',
+        filterable: true,
+        primaryDisplay: false,
+        sortOrder: 20,
+        xmlElement: 'Finish',
+        options: [
+          {
+            value: 'zinc-plated',
+            labels: {
+              en: 'Zinc Plated',
+              nl: 'Verzinkt',
+              fr: 'Zingué'
+            }
+          },
+          {
+            value: 'black-oxide',
+            labels: {
+              en: 'Black Oxide',
+              nl: 'Zwart Geoxideerd',
+              fr: 'Oxyde Noir'
+            }
+          },
+          {
+            value: 'galvanized',
+            labels: {
+              en: 'Galvanized',
+              nl: 'Gegalvaniseerd',
+              fr: 'Galvanisé'
+            }
+          },
+          {
+            value: 'passivated',
+            labels: {
+              en: 'Passivated',
+              nl: 'Gepassiveerd',
+              fr: 'Passivé'
+            }
+          }
+        ]
+      }
+    ],
+    specificationGroups: [
+      {
+        key: 'identification',
+        labels: {
+          en: 'Identification',
+          nl: 'Identificatie',
+          fr: 'Identification'
+        },
+        properties: ['manufacturer', 'partNumber'],
+        sortOrder: 1
+      },
+      {
+        key: 'performance',
+        labels: {
+          en: 'Performance',
+          nl: 'Prestaties',
+          fr: 'Performance'
+        },
+        properties: ['fastenerType', 'size', 'thread'],
+        sortOrder: 2
+      },
+      {
+        key: 'materials',
+        labels: {
+          en: 'Materials',
+          nl: 'Materialen',
+          fr: 'Matériaux'
+        },
+        properties: ['material', 'finish'],
+        sortOrder: 3
       }
     ]
   }
-
-  // =========================================================================
-  // ADD MORE PRODUCT GROUPS BELOW FOLLOWING THE SAME PATTERN
-  // Categories to add:
-  // - hydraulic-pumps
-  // - hydraulic-valves
-  // - hydraulic-hoses
-  // - bearings
-  // - seals
-  // - filters
-  // - transmission
-  // - pneumatics
-  // - fasteners
-  // =========================================================================
 ]

@@ -260,29 +260,47 @@ function createMetricsSlide(deck, theme) {
   slide.getShapes()[0].getText().setText("Build Time Distribution");
   
   // Data from METRICS-SUMMARY.md
-  var data = charts.newDataTable()
-    .addColumn(Charts.ColumnType.STRING, "Task")
-    .addColumn(Charts.ColumnType.NUMBER, "Percentage")
-    .addRow(["TypeScript Compilation", 25])
-    .addRow(["Next.js Build", 35])
-    .addRow(["Asset Optimization", 20])
-    .addRow(["Pre-build Tasks", 10])
-    .addRow(["Error Handling", 5])
-    .addRow(["Deployment", 5])
-    .build();
-
-  var chart = charts.newPieChart()
-    .setDataTable(data)
-    .setTitle('Time Allocation (Total: 13 mins)')
-    .setColors([theme.primary, theme.accent, '#808080', '#A9A9A9', '#D3D3D3', '#C0C0C0'])
-    .build();
-
-  // Create chart with specific dimensions
-  var chartShape = slide.insertEmbeddedChart(chart);
-  chartShape.setLeft(150);
-  chartShape.setTop(100);
-  chartShape.setWidth(450);
-  chartShape.setHeight(350);
+  // Create metrics table
+  var table = slide.insertTable(7, 2);
+  
+  // Set headers
+  table.getCell(0, 0).getText().setText('Task');
+  table.getCell(0, 1).getText().setText('Percentage');
+  
+  // Add data
+  var data = [
+    ['TypeScript Compilation', '25%'],
+    ['Next.js Build', '35%'],
+    ['Asset Optimization', '20%'],
+    ['Pre-build Tasks', '10%'],
+    ['Error Handling', '5%'],
+    ['Deployment', '5%']
+  ];
+  
+  // Fill table
+  data.forEach((row, i) => {
+    table.getCell(i + 1, 0).getText().setText(row[0]);
+    table.getCell(i + 1, 1).getText().setText(row[1]);
+  });
+  
+  // Style table
+  for (var i = 0; i < 7; i++) {
+    for (var j = 0; j < 2; j++) {
+      var cell = table.getCell(i, j);
+      if (i === 0) {
+        cell.getFill().setSolidFill(theme.primary);
+        cell.getText().getTextStyle().setForegroundColor(theme.white);
+        cell.getText().getTextStyle().setBold(true);
+      } else {
+        cell.getFill().setSolidFill(theme.white);
+        cell.getText().getTextStyle().setForegroundColor(theme.text);
+      }
+    }
+  }
+  
+  // Position table
+  table.setLeft(150);
+  table.setTop(100);
 }
 
 // --- SLIDE 4: BUILD FLOW ---

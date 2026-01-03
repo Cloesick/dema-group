@@ -15,7 +15,7 @@ vi.mock('@/utils/redis', () => ({
 }));
 
 describe('Order Integration', () => {
-  const mockUser = createMockUser();
+  const mockUser = { ...createMockUser(), id: '456' };
   const mockProduct = {
     id: 'prod_123',
     name: 'Test Product',

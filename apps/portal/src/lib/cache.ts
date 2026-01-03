@@ -122,11 +122,12 @@ export async function rateLimit(
   limit: number,
   window: number
 ): Promise<boolean> {
-  const current = await redis.incr(key)
+  const rateLimitKey = `rate:${key}`;
+  const current = await redis.incr(rateLimitKey);
   
   if (current === 1) {
-    await redis.expire(key, window)
+    await redis.expire(rateLimitKey, window);
   }
   
-  return current <= limit
+  return current <= limit;
 }

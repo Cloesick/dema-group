@@ -1,33 +1,24 @@
 import { NextResponse } from 'next/server';
-import { deploymentManager } from '@/lib/deployment-manager';
-import { parseTypeScriptError } from '@/lib/parse-build-error';
+import { deploymentTracker } from '@/lib/deployment-tracker';
 
 export async function POST(request: Request) {
-  const buildLog = await request.json();
-  
-  // Extract deployment ID from Vercel
-  const deploymentId = buildLog.deploymentId || `deploy_${Date.now()}`;
-  
-  // Start tracking this deployment if we haven't seen it before
-  if (buildLog.type === 'build-start') {
-    await deploymentManager.startDeployment(deploymentId);
+  try {
+    const buildLog = await request.json();
+    
+    // Extract deployment ID from Vercel
+    const deploymentId = buildLog.deploymentId || `deploy_${Date.now()}`;
+    
+    // Start tracking this deployment if we haven't seen it before
+    if (buildLog.type === 'build-start') {
+      await deploymentTracker.trackBuildStart(deploymentId);
+    } else {
+      // Process all other log types
+      await deploymentTracker.processVercelLog(buildLog);
+    }
+
     return NextResponse.json({ success: true });
+  } catch (error) {
+    console.error('Failed to process Vercel log:', error);
+    return NextResponse.json({ error: 'Failed to process log' }, { status: 500 });
   }
-
-  // Handle build errors
-  if (buildLog.type === 'build-error') {
-    const error = parseTypeScriptError(buildLog.text);
-    await deploymentManager.handleBuildError(error);
-    return NextResponse.json({ success: true });
-  }
-
-  // Log build progress
-  await deploymentManager.logBuildStep(buildLog.text || 'Build step completed');
-
-  // Handle successful deployment
-  if (buildLog.type === 'build-success') {
-    await deploymentManager.deploymentSuccess(buildLog.url);
-  }
-
-  return NextResponse.json({ success: true });
 }

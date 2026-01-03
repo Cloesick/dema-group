@@ -3,6 +3,7 @@
 **/*.test.ts
 **/*.spec.ts
 **/*.cy.ts
+**/chat-reporter.ts
 /coverage
 
 # Development

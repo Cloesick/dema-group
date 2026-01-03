@@ -3,9 +3,9 @@ import { NextRequest, NextResponse } from 'next/server'
 // GET stock for a specific SKU
 export async function GET(
   request: NextRequest,
-  context: { params: { sku: string } }
-): Promise<Response> {
-  const { sku } = context.params
+  { params }: { params: { sku: string } }
+): Promise<NextResponse> {
+  const { sku } = params
   const { searchParams } = new URL(request.url)
   const companyId = searchParams.get('companyId')
 

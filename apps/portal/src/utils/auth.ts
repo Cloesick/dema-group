@@ -26,21 +26,13 @@ export async function authenticateUser({
   email: string;
   password: string;
 }): Promise<AuthResult> {
-  // Check rate limiting
+  // Check rate limiting first
   const attempts = await redis.incr(`auth:${email}`);
   if (attempts > 5) {
     await redis.expire(`auth:${email}`, 900); // 15 minutes
     return {
       status: 'blocked',
       duration: 900 // 15 minutes
-    };
-  }
-
-  // Check password complexity
-  if (!isPasswordComplex(password)) {
-    return {
-      status: 'invalid',
-      errors: ['password_complexity']
     };
   }
 
@@ -51,6 +43,14 @@ export async function authenticateUser({
     return {
       status: 'invalid',
       errors: ['invalid_input']
+    };
+  }
+
+  // Check password complexity
+  if (!isPasswordComplex(password)) {
+    return {
+      status: 'invalid',
+      errors: ['password_complexity']
     };
   }
 
@@ -73,7 +73,10 @@ export async function validateToken(
   error?: string;
 }> {
   try {
-    // Check if token is revoked
+    // Verify token first
+    verify(token, process.env.JWT_SECRET || 'test_jwt_secret_key_min_32_chars_long_for_testing');
+
+    // Then check if token is revoked
     const isRevoked = await redis.get(`revoked:${token}`);
     if (isRevoked) {
       return {
@@ -82,8 +85,6 @@ export async function validateToken(
       };
     }
 
-    // Verify token
-    verify(token, process.env.JWT_SECRET || 'test_jwt_secret_key_min_32_chars_long_for_testing');
     return { valid: true };
   } catch (error: unknown) {
     const err = error as { name: string };

@@ -55,15 +55,19 @@ export async function withCache<T>(
   key: string,
   fn: () => Promise<T>,
   ttl: number = CACHE_TTL.MEDIUM
-): Promise<T> {
+): Promise<T | undefined> {
   try {
     // Try to get from cache first
     const cached = await redis.get(key)
     if (cached) {
-      return JSON.parse(cached) as T
+      try {
+        return JSON.parse(cached) as T
+      } catch (parseError) {
+        console.error(`Invalid cache data for key ${key}:`, parseError)
+      }
     }
 
-    // If not in cache, execute function
+    // If not in cache or invalid data, execute function
     const result = await fn()
 
     // Store in cache
@@ -76,8 +80,7 @@ export async function withCache<T>(
     return result
   } catch (error) {
     console.error(`Cache error for key ${key}:`, error)
-    // On cache error, just execute the function
-    return fn()
+    return undefined
   }
 }
 

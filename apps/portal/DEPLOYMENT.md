@@ -1,9 +1,16 @@
 # Vercel Deployment Steps
 
 ## Current Task List
-1. **Verify GitHub Connection**
-   - Go to Vercel dashboard > Project Settings > Git
-   - Confirm Cloesick/dema-group repository is connected
+1. **Clean Up Existing Projects**
+   - Go to Vercel dashboard: https://vercel.com/cloesicks-projects
+   - Review all projects connected to `Cloesick/dema-group`
+   - Note down which project is the main/working one
+   - Delete duplicate/test projects
+   - Status: Pending
+
+2. **Verify GitHub Connection**
+   - In the remaining project, go to Project Settings > Git
+   - Confirm it's connected to `Cloesick/dema-group` repository
    - Status: Pending
 
 2. **Set Root Directory**

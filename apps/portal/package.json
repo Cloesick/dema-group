@@ -11,7 +11,9 @@
     "type-check": "tsc --noEmit",
     "validate": "ts-node scripts/validate-deployment.ts",
     "test:e2e": "cypress run --config-file tests/e2e/cypress.config.ts",
-    "test:e2e:open": "cypress open --config-file tests/e2e/cypress.config.ts"
+    "test:e2e:open": "cypress open --config-file tests/e2e/cypress.config.ts",
+    "test": "vitest run",
+    "test:watch": "vitest watch"
   },
   "dependencies": {
     "node-fetch": "^3.3.2",
@@ -43,6 +45,8 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/ioredis": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@vitest/coverage-v8": "^1.0.0",
     "autoprefixer": "10.4.16",
     "cypress": "^15.8.1",
     "cypress-axe": "^1.7.0",

@@ -1,11 +1,12 @@
-import { NextRequest, NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 
 // GET stock for a specific SKU
 export async function GET(
   request: NextRequest,
-  { params }: { params: { sku: string } }
-): Promise<NextResponse> {
-  const { sku } = params
+  context: { params: { sku: string } }
+): Promise<Response> {
+  const { sku } = context.params
   const { searchParams } = new URL(request.url)
   const companyId = searchParams.get('companyId')
 

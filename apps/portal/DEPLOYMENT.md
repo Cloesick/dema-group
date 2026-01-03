@@ -6,17 +6,17 @@
    - Removed: `dema-group-strategy.vercel.app`
    - Status: Completed
 
-2. **Verify GitHub Connection**
-   - In the portal project, go to Project Settings > Git
-   - Confirm it's connected to `Cloesick/dema-group` repository
-   - Status: Pending
+2. **Verify GitHub Connection** ✅
+   - Connected to: `Cloesick/dema-group`
+   - Portal path: `apps/portal`
+   - Status: Completed
 
 3. **Set Root Directory**
    - Navigate to: Project Settings > General > Root Directory
    - Set value to: `apps/portal`
    - Status: Pending
 
-3. **Configure Build Settings**
+4. **Configure Build Settings**
    - Go to: Project Settings > Build & Development Settings
    - Set Framework Preset: `Next.js`
    - Set Build Command: `pnpm build`

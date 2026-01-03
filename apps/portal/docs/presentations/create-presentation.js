@@ -337,12 +337,25 @@ function createBuildFlowDiagram(slide, theme) {
 }
 
 function addArrow(slide, x1, y1, x2, y2, theme) {
-  // Create arrow using a line shape
-  var arrow = slide.insertShape(SlidesApp.ShapeType.LINE, x1, y1, x2-x1, y2-y1);
-  arrow.getBorder().getLineFill().setSolidFill(theme.accent);
-  arrow.getBorder().setWeight(2);
-  arrow.getBorder().setDashStyle(SlidesApp.DashStyle.SOLID);
-  arrow.getBorder().setEndArrow(SlidesApp.ArrowStyle.FILLED_ARROW);
+  // Create arrow using basic shapes
+  var arrow = slide.insertShape(SlidesApp.ShapeType.RECTANGLE);
+  
+  // Calculate dimensions
+  var dx = x2 - x1;
+  var dy = y2 - y1;
+  var length = Math.sqrt(dx * dx + dy * dy);
+  var angle = Math.atan2(dy, dx) * 180 / Math.PI;
+  
+  // Set arrow properties
+  arrow.setLeft(x1);
+  arrow.setTop(y1 - 1); // Offset for line thickness
+  arrow.setWidth(length);
+  arrow.setHeight(2);
+  arrow.setRotation(angle);
+  
+  // Style arrow
+  arrow.getFill().setSolidFill(theme.accent);
+  arrow.getBorder().setTransparent();
 }
 
 // --- SLIDE 5: MEMORY USAGE ---

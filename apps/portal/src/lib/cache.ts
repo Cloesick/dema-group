@@ -71,20 +71,25 @@ export async function withCache<T>(
   }
 
   // If not in cache, invalid data, or cache error, execute function
-  const result = await fn()
-
   try {
-    // Store in cache
-    await redis.setex(
-      key,
-      ttl,
-      JSON.stringify(result)
-    )
-  } catch (storeError) {
-    console.error(`Cache store error for key ${key}:`, storeError)
-  }
+    const result = await fn()
 
-  return result
+    try {
+      // Store in cache
+      await redis.setex(
+        key,
+        ttl,
+        JSON.stringify(result)
+      )
+    } catch (storeError) {
+      console.error(`Cache store error for key ${key}:`, storeError)
+    }
+
+    return result
+  } catch (fnError) {
+    console.error(`Function error for key ${key}:`, fnError)
+    return undefined
+  }
 }
 
 // Cache invalidation helpers

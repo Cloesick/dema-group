@@ -3,9 +3,8 @@
 ## Current Task List
 1. **Clean Up Existing Projects**
    - Go to Vercel dashboard: https://vercel.com/cloesicks-projects
-   - Review all projects connected to `Cloesick/dema-group`
-   - Note down which project is the main/working one
-   - Delete duplicate/test projects
+   - Keep: `dema-group-portal.vercel.app` (this is our portal app)
+   - Remove: `dema-group-strategy.vercel.app` (incorrect root deployment)
    - Status: Pending
 
 2. **Verify GitHub Connection**

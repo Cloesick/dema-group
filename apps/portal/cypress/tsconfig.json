@@ -3,7 +3,14 @@
     "target": "es2015",
     "module": "es2015",
     "moduleResolution": "node",
-    "types": ["cypress", "node"],
+    "types": [
+      "cypress",
+      "node",
+      "@testing-library/cypress",
+      "cypress-axe",
+      "cypress-file-upload",
+      "cypress-real-events"
+    ],
     "lib": ["es2015", "dom"],
     "noEmit": true
   },

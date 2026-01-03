@@ -25,9 +25,10 @@
 
 5. **Set Node.js Version**
    - Current version: 24.x ⚠️
-   - Change to: 18.x (required for Next.js 16 compatibility)
+   - Change to: 20.x (closest available LTS to recommended 18.x)
+   - Available versions: 24.x, 22.x, 20.x
    - Location: Build & Development Settings
-   - Reason: Next.js 16 is optimized for Node.js 18
+   - Reason: More stable than 24.x for Next.js 16
    - Status: Pending
 
 5. **Trigger Deployment**

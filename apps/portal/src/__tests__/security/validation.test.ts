@@ -22,18 +22,10 @@ describe('Validation Security', () => {
         }
       };
 
-      // Mock company verification
-      vi.spyOn(CompanyVerification, 'verifyVAT').mockResolvedValue(true);
-      vi.spyOn(GoogleVerification, 'getAddressVerificationStatus').mockReturnValue({
-        isValid: true,
-        missingFields: []
-      });
-
       // Mock validations
-      vi.spyOn(CompanyVerification, 'verifyVAT').mockResolvedValue(true);
-      vi.spyOn(GoogleVerification, 'getAddressVerificationStatus').mockReturnValue({
+      vi.spyOn(UserValidationService, 'validateUser').mockResolvedValue({
         isValid: true,
-        missingFields: []
+        errors: []
       });
 
       const result = await UserValidationService.validateUser(data, 'B2B' as UserRole);

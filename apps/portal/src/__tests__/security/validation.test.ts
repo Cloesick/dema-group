@@ -1,7 +1,10 @@
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { UserValidationService } from '@/utils/validation/userValidation';
 import { CompanyVerification } from '@/utils/verification/companyVerification';
 import { GoogleVerification } from '@/utils/verification/googleVerification';
 import { ServiceAreaValidator } from '@/utils/verification/serviceArea';
+import type { UserRole } from '@/types/user';
+import type { VerifiedAddress } from '@/types/address';
 
 describe('Validation Security', () => {
   describe('User Data Validation', () => {
@@ -19,8 +22,15 @@ describe('Validation Security', () => {
         }
       };
 
-      const result = await UserValidationService.validateUser(data, 'b2b');
-      expect(result.valid).toBe(true);
+      // Mock company verification
+      vi.spyOn(CompanyVerification, 'verifyVAT').mockResolvedValue(true);
+      vi.spyOn(GoogleVerification, 'getAddressVerificationStatus').mockReturnValue({
+        isValid: true,
+        missingFields: []
+      });
+
+      const result = await UserValidationService.validateUser(data, 'B2B' as UserRole);
+      expect(result.isValid).toEqual(true);
     });
 
     it('blocks invalid VAT numbers', async () => {
@@ -49,14 +59,22 @@ describe('Validation Security', () => {
         }
       };
 
+      // Mock address verification
+      vi.spyOn(GoogleVerification, 'isInDeliveryArea').mockResolvedValue(false);
+
       const result = await ServiceAreaValidator.validateServiceArea(
-        address,
+        {
+          ...address,
+          country: 'Netherlands',
+          formatted: 'Test Street 123, 1000 Amsterdam, Netherlands',
+          placeId: 'test_place_id'
+        } as VerifiedAddress,
         'B2B',
         'manufacturing'
       );
 
-      expect(result.valid).toBe(false);
-      expect(result.restrictions).toContain('Address is outside service radius');
+      expect(result.isValid).toEqual(false);
+      expect(result.errors).toContain('Address is outside service radius');
     });
   });
 
@@ -78,8 +96,8 @@ describe('Validation Security', () => {
       };
 
       const result = GoogleVerification.getAddressVerificationStatus(address);
-      expect(result.isValid).toBe(true);
-      expect(result.missingFields).toHaveLength(0);
+      expect(result.isValid).toEqual(true);
+      expect(result.missingFields).toEqual([]);
     });
 
     it('detects missing address fields', () => {
@@ -99,9 +117,8 @@ describe('Validation Security', () => {
       };
 
       const result = GoogleVerification.getAddressVerificationStatus(address);
-      expect(result.isValid).toBe(false);
-      expect(result.missingFields).toContain('number');
-      expect(result.missingFields).toContain('postalCode');
+      expect(result.isValid).toEqual(false);
+      expect(result.missingFields).toEqual(['number', 'postalCode']);
     });
   });
 });

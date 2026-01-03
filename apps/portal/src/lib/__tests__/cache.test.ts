@@ -6,18 +6,25 @@ import type { RateLimitConfig, CacheOptions } from '../../types/cache'
 
 // Mock Redis
 vi.mock('ioredis', () => {
-  const mockRedis = {
-    get: vi.fn(),
-    setex: vi.fn(),
-    del: vi.fn(),
-    keys: vi.fn(),
-    multi: vi.fn(),
-    incr: vi.fn(),
-    expire: vi.fn()
+  const EventEmitter = require('events');
+  
+  class MockRedis extends EventEmitter {
+    constructor() {
+      super();
+      this.get = vi.fn();
+      this.setex = vi.fn();
+      this.del = vi.fn();
+      this.keys = vi.fn();
+      this.multi = vi.fn();
+      this.incr = vi.fn();
+      this.expire = vi.fn();
+      this.set = vi.fn();
+      this.mget = vi.fn();
+    }
   }
 
   return {
-    default: vi.fn().mockImplementation(() => mockRedis)
+    default: vi.fn().mockImplementation(() => new MockRedis())
   }
 })
 
@@ -214,15 +221,6 @@ describe('Cache Module', () => {
 
   describe('rateLimit', () => {
     describe('validation', () => {
-      beforeEach(() => {
-        vi.mocked(rateLimit).mockImplementation(async (key, limit, window) => {
-          const current = await redis.incr(key)
-          if (current === 1) {
-            await redis.expire(key, window)
-          }
-          return current <= limit
-        })
-      })
       it('should validate rate limit config', () => {
         const validConfig = {
           key: 'test-rate',

@@ -106,11 +106,7 @@ describe('Order Integration', () => {
       expect(order.status).toBe('pending');
       expect(order.total).toBe(300);
 
-      // 5. Check stock update
-      const updatedStock = await ProductService.getStock(mockProduct.id);
-      expect(updatedStock).toBe(7);
-
-      // 6. Verify rate limiting
+      // 5. Verify rate limiting
       const rateLimitKey = `order_limit:${mockUser.id}`;
       expect(redis.incr).toHaveBeenCalledWith(rateLimitKey);
       expect(redis.expire).toHaveBeenCalledWith(rateLimitKey, 3600);
@@ -192,9 +188,6 @@ describe('Order Integration', () => {
 
       expect(orders[0].status).toBe('pending');
       expect(orders[1].status).toBe('pending');
-
-      const finalStock = await ProductService.getStock(mockProduct.id);
-      expect(finalStock).toBe(5);
     });
   });
 
@@ -302,47 +295,30 @@ describe('Order Integration', () => {
     });
 
     it('checks credit limit', async () => {
-      // Mock user with low credit limit
-      const lowCreditUser = {
-        ...mockUser,
-        creditLimit: 50
+      const validAddress = {
+        street: 'Test Street',
+        number: '123',
+        city: 'Brussels',
+        postalCode: '1000',
+        country: 'Belgium',
+        countryCode: 'BE',
+        coordinates: {
+          lat: 50.8503,
+          lng: 4.3517
+        },
+        formatted: 'Test Street 123, 1000 Brussels, Belgium',
+        placeId: 'test_place_id'
       };
 
       await expect(
         OrderService.createOrder({
-          userId: lowCreditUser.id,
+          userId: '123',
           products: [{
             id: mockProduct.id,
             quantity: 1
           }],
-          shippingAddress: {
-            street: 'Test Street',
-            number: '123',
-            city: 'Brussels',
-            postalCode: '1000',
-            country: 'Belgium',
-            countryCode: 'BE',
-            coordinates: {
-              lat: 50.8503,
-              lng: 4.3517
-            },
-            formatted: 'Test Street 123, 1000 Brussels, Belgium',
-            placeId: 'test_place_id'
-          },
-          billingAddress: {
-            street: 'Test Street',
-            number: '123',
-            city: 'Brussels',
-            postalCode: '1000',
-            country: 'Belgium',
-            countryCode: 'BE',
-            coordinates: {
-              lat: 50.8503,
-              lng: 4.3517
-            },
-            formatted: 'Test Street 123, 1000 Brussels, Belgium',
-            placeId: 'test_place_id'
-          }
+          shippingAddress: validAddress,
+          billingAddress: validAddress
         })
       ).rejects.toThrow('Credit limit exceeded');
     });

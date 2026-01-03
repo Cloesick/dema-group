@@ -23,10 +23,8 @@ const PRESENTATION_CONFIG = {
 function createDEMAPresentation() {
   // 1. CONFIGURATION
   // DEMA Brand Colors and Status Colors from METRICS-SUMMARY.md
-  // Create presentation with custom settings
+  // Create presentation with standard 16:9 layout
   var deck = SlidesApp.create('DEMA Group Portal - Optimization Strategy');
-  deck.setPageHeight(PRESENTATION_CONFIG.layout.margins.top + PRESENTATION_CONFIG.layout.chartSize.height + PRESENTATION_CONFIG.layout.margins.bottom);
-  deck.setPageWidth(PRESENTATION_CONFIG.layout.margins.left + PRESENTATION_CONFIG.layout.chartSize.width + PRESENTATION_CONFIG.layout.margins.right);
 
   // Remove default first slide
   var slides = deck.getSlides();

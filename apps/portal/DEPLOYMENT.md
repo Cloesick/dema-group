@@ -24,8 +24,9 @@
    - Status: Completed
 
 5. **Set Node.js Version**
-   - Navigate to: Project Settings > General > Node.js Version
-   - Set to: 18.x
+   - Navigate to: Project Settings > General
+   - Look for 'Node.js Version' under Build & Development Settings
+   - Set to: 18.x (this is important for Next.js 16)
    - Status: Pending
 
 5. **Trigger Deployment**

@@ -4,6 +4,10 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Vercel specific optimizations
+  generateBuildId: async () => process.env.VERCEL_GIT_COMMIT_SHA || 'development',
+  generateEtags: true,
+  compress: true,
   // Production optimizations
   poweredByHeader: false,
   reactStrictMode: true,
@@ -15,12 +19,9 @@ const nextConfig = {
   },
   experimental: {
     optimizeCss: true,
-    turbotrace: {
-      contextDirectory: __dirname,
-      logLevel: 'error',
+    serverActions: {
+      allowedOrigins: ['localhost:3000', 'dema-group-portal.vercel.app']
     },
-    serverActions: true,
-    serverComponentsExternalPackages: ['sharp'],
     optimizePackageImports: [
       '@radix-ui/react-alert-dialog',
       '@radix-ui/react-dialog',
@@ -29,7 +30,7 @@ const nextConfig = {
       '@radix-ui/react-slot',
       '@radix-ui/react-tabs',
       'lucide-react'
-    ],
+    ]
   },
   
   // Performance optimizations
@@ -45,33 +46,6 @@ const nextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
   
-  // Webpack optimizations
-  webpack: (config, { dev, isServer }) => {
-    // Optimize CSS
-    if (!dev) {
-      config.optimization.minimize = true;
-    }
-
-    // Optimize images
-    config.module.rules.push({
-      test: /\.(jpe?g|png|svg|gif|ico|webp|avif)$/,
-      use: [
-        {
-          loader: 'image-webpack-loader',
-          options: {
-            mozjpeg: { progressive: true },
-            optipng: { enabled: true },
-            pngquant: { quality: [0.65, 0.90], speed: 4 },
-            gifsicle: { interlaced: true },
-            webp: { quality: 75 }
-          }
-        }
-      ]
-    });
-
-    return config;
-  },
-
   // Output configuration
   output: 'standalone',
   

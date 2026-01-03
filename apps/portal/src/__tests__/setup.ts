@@ -48,21 +48,5 @@ global.google = {
     Geocoder: jest.fn(() => mockGeocoder),
     places: mockPlaces,
     event: mockEvent
-                lat: () => 50.8503,
-                lng: () => 4.3517
-              }
-            }
-          }
-        ]
-      })
-    })),
-    places: {
-      Autocomplete: jest.fn(),
-      AutocompleteService: jest.fn(),
-      PlacesService: jest.fn()
-    },
-    event: {
-      removeListener: jest.fn()
-    }
   }
-};
+} as any;

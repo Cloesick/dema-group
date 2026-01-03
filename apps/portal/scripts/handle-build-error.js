@@ -69,14 +69,18 @@ function parseBuildLogs(logs) {
 async function sendToWindsurf(message, metadata = {}) {
   if (!message) return;
 
-  // Determine the API endpoint based on environment
-  const baseUrl = process.env.VERCEL_ENV === 'production'
-    ? 'https://dema-group-portal.vercel.app'
-    : process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : 'http://localhost:3000';
+  // Use the current deployment URL
+  const baseUrl = process.env.VERCEL_URL
+    ? `https://${process.env.VERCEL_URL}`
+    : 'http://localhost:3000';
 
   try {
+    // Don't send to Windsurf in preview deployments
+    if (process.env.VERCEL_ENV === 'preview') {
+      console.log('Skipping Windsurf notification in preview deployment');
+      return;
+    }
+
     console.log(`Sending to Windsurf at ${baseUrl}/api/windsurf/chat`);
     const response = await fetch(`${baseUrl}/api/windsurf/chat`, {
       method: 'POST',

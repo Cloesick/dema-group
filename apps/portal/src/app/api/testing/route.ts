@@ -1,12 +1,13 @@
 import { NextResponse } from 'next/server';
 // import { testDB } from '../../../../scripts/test-db';
 import { getServerSession } from 'next-auth';
-import type { Session } from 'next-auth';
+import type { Session, User } from 'next-auth';
 import { authOptions } from '../auth/[...nextauth]/route';
 
 async function checkAdmin(): Promise<Response | null> {
-  const session = (await getServerSession(authOptions)) as Session | null;
-  if (session?.user?.role !== 'admin') {
+  const session = await getServerSession(authOptions);
+  const user = session?.user as (User & { role?: string }) | null;
+  if (!user?.role || user.role !== 'admin') {
     return new NextResponse(
       JSON.stringify({ error: 'Unauthorized' }),
       { status: 403 }

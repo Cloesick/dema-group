@@ -4,8 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "ts-node scripts/validate-deployment.ts",
     "build": "next build",
+    "postbuild": "next-bundle-analyzer",
     "start": "next start",
+    "type-check": "tsc --noEmit",
+    "validate": "ts-node scripts/validate-deployment.ts",
     "test:e2e": "cypress run --config-file tests/e2e/cypress.config.ts",
     "test:e2e:open": "cypress open --config-file tests/e2e/cypress.config.ts"
   },

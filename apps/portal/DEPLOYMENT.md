@@ -28,10 +28,12 @@
    - Reason: Better stability for Next.js 16
    - Status: Completed
 
-6. **Trigger Deployment** ✅
-   - Deployment started automatically with commit 366d3b8
-   - Commit message: 'update Node.js version options'
-   - Status: In Progress
+6. **Trigger Deployment** ⏳
+   - Previous auto-deploy failed with lockfile error
+   - Lockfile has been regenerated (commit 7a17fe9)
+   - Manual redeploy recommended
+   - Action: Click 'Redeploy' in Vercel dashboard
+   - Status: Awaiting manual trigger
 
 7. **Monitor Build** ⏳
    - Error: pnpm lockfile mismatch with root package.json

@@ -47,6 +47,11 @@ interface DOMSnapshot {
   attributes: Record<string, string>;
 }
 
+interface JQueryAttributes {
+  name: string;
+  value: string;
+}
+
 const captureElementState = (selector: string): DOMSnapshot | null => {
   try {
     const el = Cypress.$(selector);
@@ -56,7 +61,14 @@ const captureElementState = (selector: string): DOMSnapshot | null => {
       selector,
       exists: el.length > 0,
       visible: el.is(':visible'),
-      attributes: el.prop('attributes') ? Array.from(el.prop('attributes') as ArrayLike<{ name: string; value: string }>).reduce<Record<string, string>>((acc, attr) => ({ ...acc, [attr.name]: attr.value }), {}) : {}
+      attributes: (() => {
+        const attrs = el.prop('attributes') as ArrayLike<JQueryAttributes> | undefined;
+        if (!attrs) return {};
+        return Array.from(attrs).reduce<Record<string, string>>(
+          (acc, attr) => ({ ...acc, [attr.name]: attr.value }),
+          {}
+        );
+      })()
     };
   } catch (e) {
     return null;

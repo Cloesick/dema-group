@@ -1,4 +1,5 @@
-import { NextRequest, NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server'
 import type { Product, ApiResponse } from '@/types'
 
 // =============================================================================
@@ -70,10 +71,10 @@ const getMockProduct = (id: string): Product | null => {
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
-) {
+  context: { params: Promise<{ id: string }> }
+): Promise<Response> {
   try {
-    const { id } = params
+    const { id } = await context.params
     
     // TODO: Fetch from database by ID or slug
     const product = getMockProduct(id)
@@ -115,8 +116,8 @@ export async function GET(
 
 export async function PUT(
   request: NextRequest,
-  { params }: { params: { id: string } }
-) {
+  context: { params: Promise<{ id: string }> }
+): Promise<Response> {
   try {
     const apiKey = request.headers.get('x-api-key')
     if (!apiKey) {
@@ -126,7 +127,7 @@ export async function PUT(
       )
     }
     
-    const { id } = params
+    const { id } = await context.params
     const body = await request.json()
     
     // TODO: Validate and update in database
@@ -151,8 +152,8 @@ export async function PUT(
 
 export async function DELETE(
   request: NextRequest,
-  { params }: { params: { id: string } }
-) {
+  context: { params: Promise<{ id: string }> }
+): Promise<Response> {
   try {
     const apiKey = request.headers.get('x-api-key')
     if (!apiKey) {
@@ -162,7 +163,7 @@ export async function DELETE(
       )
     }
     
-    const { id } = params
+    const { id } = await context.params
     
     // TODO: Delete from database
     

@@ -23,15 +23,12 @@
    - Development Command: `next` ✅
    - Status: Completed
 
-5. **Set Node.js Version**
-   - Current version: 24.x ⚠️
-   - Change to: 20.x (closest available LTS to recommended 18.x)
-   - Available versions: 24.x, 22.x, 20.x
-   - Location: Build & Development Settings
-   - Reason: More stable than 24.x for Next.js 16
-   - Status: Pending
+5. **Set Node.js Version** ✅
+   - Changed from: 24.x to 20.x
+   - Reason: Better stability for Next.js 16
+   - Status: Completed
 
-5. **Trigger Deployment**
+6. **Trigger Deployment**
    - Go to: Deployments tab
    - Click: 'Redeploy' button
    - Status: Pending

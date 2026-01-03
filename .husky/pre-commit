@@ -1,0 +1,76 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Run type checking
+pnpm run type-check
+
+# Run linting
+pnpm run lint
+
+# Check for forbidden files
+forbidden_patterns="\
+data/catalogs/*.json|\
+*.env|\
+*.log|\
+.DS_Store|\
+Thumbs.db|\
+npm-debug.log*|\
+yarn-debug.log*|\
+yarn-error.log*|\
+.pnpm-debug.log*|\
+.env.local|\
+.env.*.local\
+"
+
+files_to_check=$(git diff --cached --name-only)
+forbidden_files=$(echo "$files_to_check" | grep -E "$forbidden_patterns" || true)
+
+if [ ! -z "$forbidden_files" ]; then
+  echo "Error: Attempting to commit forbidden files:"
+  echo "$forbidden_files"
+  echo "Please remove these files from your commit."
+  exit 1
+fi
+
+# Check file sizes
+max_size_kb=500
+large_files=$(git diff --cached --name-only | while read file; do
+  if [ -f "$file" ]; then
+    size=$(du -k "$file" | cut -f1)
+    if [ $size -gt $max_size_kb ]; then
+      echo "$file ($size KB)"
+    fi
+  fi
+done)
+
+if [ ! -z "$large_files" ]; then
+  echo "Warning: Large files detected:"
+  echo "$large_files"
+  echo "Files over ${max_size_kb}KB should be carefully considered."
+  read -p "Do you want to continue? (y/N) " -n 1 -r
+  echo
+  if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+    exit 1
+  fi
+fi
+
+# Check for sensitive data
+sensitive_patterns="\
+password|\
+secret|\
+key|\
+token|\
+credential\
+"
+
+sensitive_files=$(git diff --cached -G "$sensitive_patterns" --name-only || true)
+if [ ! -z "$sensitive_files" ]; then
+  echo "Warning: Files with potentially sensitive data detected:"
+  echo "$sensitive_files"
+  echo "Please review these files carefully."
+  read -p "Do you want to continue? (y/N) " -n 1 -r
+  echo
+  if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+    exit 1
+  fi
+fi

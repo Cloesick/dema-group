@@ -1,6 +1,6 @@
 {
   "framework": "nextjs",
-  "buildCommand": "pnpm build | node scripts/handle-build-error.js",
+  "buildCommand": "next build > .next/build-log.txt 2>&1 || (node scripts/handle-build-error.js < .next/build-log.txt && exit 1)",
   "installCommand": "pnpm install --no-frozen-lockfile",
   "git": {
     "deploymentEnabled": {

@@ -1,12 +1,25 @@
 "use strict";
 
-// Import fetch for Node.js < 18
-const fetch = globalThis.fetch || require('node-fetch');
+const fs = require('fs');
+const path = require('path');
 
 const isVercel = process.env.VERCEL === '1';
 const startTime = Date.now();
 
-let buildOutput = '';
+// Store logs in a temp file to avoid memory issues
+const tempDir = path.join(process.cwd(), '.next');
+const logFile = path.join(tempDir, 'build-log.txt');
+const errorFile = path.join(tempDir, 'build-errors.json');
+
+// Ensure temp directory exists
+if (!fs.existsSync(tempDir)) {
+  fs.mkdirSync(tempDir, { recursive: true });
+}
+
+// Clear previous logs
+fs.writeFileSync(logFile, '');
+fs.writeFileSync(errorFile, '[]');
+
 let errorCount = 0;
 
 // Simple error pattern matching
@@ -110,12 +123,13 @@ async function sendToWindsurf(message, metadata = {}) {
   }
 }
 
-// Get build output from stdin
+// Append build output to log file
 process.stdin.on('data', (data) => {
-  buildOutput += data;
+  fs.appendFileSync(logFile, data);
 });
 
 process.stdin.on('end', async () => {
+  try {
   // In Vercel, we want to parse the output differently
   if (isVercel) {
     // Extract timestamp and deployment ID
@@ -133,7 +147,11 @@ process.stdin.on('end', async () => {
 
   console.log('Parsing build errors...');
   
+  const buildOutput = fs.readFileSync(logFile, 'utf8');
   const errors = parseBuildLogs(buildOutput);
+  
+  // Store errors for later processing
+  fs.writeFileSync(errorFile, JSON.stringify(errors, null, 2));
   
   if (errors.length === 0) {
     console.log('No build errors found');
@@ -174,17 +192,20 @@ Need help? Tag me in your response!`;
     });
   }
 
-  // Send final status if in Vercel
-  if (isVercel) {
-    const status = errorCount > 0 ? '❌ Failed' : '✅ Success';
-    await sendToWindsurf(`# Build ${status}
-
-## Summary
-- Total Errors: ${errorCount}
-- Duration: ${((Date.now() - startTime) / 1000).toFixed(1)}s
-`);
-  }
+  // Store final status
+  const status = errorCount > 0 ? '❌ Failed' : '✅ Success';
+  const summary = {
+    status,
+    errorCount,
+    duration: ((Date.now() - startTime) / 1000).toFixed(1),
+    timestamp: new Date().toISOString()
+  };
+  fs.writeFileSync(path.join(tempDir, 'build-summary.json'), JSON.stringify(summary, null, 2));
 
   // Exit with error code to indicate build failure
   process.exit(errorCount > 0 ? 1 : 0);
+  } catch (error) {
+    console.error('Error processing build output:', error);
+    process.exit(1);
+  }
 });

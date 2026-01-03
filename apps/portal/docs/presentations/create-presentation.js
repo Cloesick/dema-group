@@ -277,7 +277,12 @@ function createMetricsSlide(deck, theme) {
     .setOption('colors', [theme.primary, theme.accent, '#808080', '#A9A9A9', '#D3D3D3', '#C0C0C0'])
     .build();
 
-  slide.insertSheetsChart(chart, 150, 100, 450, 350);
+  // Create chart with specific dimensions
+  var chartShape = slide.insertChart(chart);
+  chartShape.setLeft(150);
+  chartShape.setTop(100);
+  chartShape.setWidth(450);
+  chartShape.setHeight(350);
 }
 
 // --- SLIDE 4: BUILD FLOW ---
@@ -341,7 +346,12 @@ function createMemorySlide(deck, theme) {
     .setOption('vAxis', {title: 'GB Used', viewWindow: {min: 0, max: 4}})
     .build();
 
-  slide.insertSheetsChart(chart, 100, 100, 500, 300);
+  // Create chart with specific dimensions
+  var chartShape = slide.insertChart(chart);
+  chartShape.setLeft(100);
+  chartShape.setTop(100);
+  chartShape.setWidth(500);
+  chartShape.setHeight(300);
 }
 
 // --- SLIDE 6: CACHE PERFORMANCE ---
@@ -362,7 +372,12 @@ function createCacheSlide(deck, theme) {
     .setOption('colors', [theme.success, theme.error])
     .build();
 
-  slide.insertSheetsChart(chart, 100, 100, 500, 300);
+  // Create chart with specific dimensions
+  var chartShape = slide.insertChart(chart);
+  chartShape.setLeft(100);
+  chartShape.setTop(100);
+  chartShape.setWidth(500);
+  chartShape.setHeight(300);
 }
 
 // --- SLIDE 7: ERROR DISTRIBUTION ---
@@ -386,7 +401,12 @@ function createErrorSlide(deck, theme) {
     .setOption('colors', [theme.primary, theme.error, theme.warning, theme.accent, theme.info])
     .build();
 
-  slide.insertSheetsChart(chart, 100, 100, 500, 300);
+  // Create chart with specific dimensions
+  var chartShape = slide.insertChart(chart);
+  chartShape.setLeft(100);
+  chartShape.setTop(100);
+  chartShape.setWidth(500);
+  chartShape.setHeight(300);
 }
 
 // --- SLIDE 8: OPTIMIZATION TARGETS ---
@@ -411,7 +431,12 @@ function createOptimizationSlide(deck, theme) {
     .setOption('colors', ['#FF3D00', '#00C853']) // Red for Current, Green for Target
     .build();
 
-  slide.insertSheetsChart(chart, 100, 100, 500, 300);
+  // Create chart with specific dimensions
+  var chartShape = slide.insertChart(chart);
+  chartShape.setLeft(100);
+  chartShape.setTop(100);
+  chartShape.setWidth(500);
+  chartShape.setHeight(300);
 }
 
 // --- SLIDE 9: PERFORMANCE TIMELINE ---
@@ -435,7 +460,12 @@ function createPerformanceSlide(deck, theme) {
     .setOption('hAxis', {title: 'Seconds'})
     .build();
 
-  slide.insertSheetsChart(chart, 100, 100, 500, 300);
+  // Create chart with specific dimensions
+  var chartShape = slide.insertChart(chart);
+  chartShape.setLeft(100);
+  chartShape.setTop(100);
+  chartShape.setWidth(500);
+  chartShape.setHeight(300);
 }
 
 // --- SLIDE 10: RESOURCE TIMELINE ---
@@ -459,7 +489,12 @@ function createTimelineSlide(deck, theme) {
     .setOption('colors', [theme.error, theme.success, theme.warning])
     .build();
 
-  slide.insertSheetsChart(chart, 100, 100, 500, 300);
+  // Create chart with specific dimensions
+  var chartShape = slide.insertChart(chart);
+  chartShape.setLeft(100);
+  chartShape.setTop(100);
+  chartShape.setWidth(500);
+  chartShape.setHeight(300);
 }
 
 // --- SLIDE 12: RISK ASSESSMENT ---

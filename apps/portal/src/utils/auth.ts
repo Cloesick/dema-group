@@ -26,7 +26,15 @@ export async function authenticateUser({
   email: string;
   password: string;
 }): Promise<AuthResult> {
-  // Check rate limiting first
+  // Check password complexity first
+  if (!isPasswordComplex(password)) {
+    return {
+      status: 'invalid',
+      errors: ['password_complexity']
+    };
+  }
+
+  // Check rate limiting
   const attempts = await redis.incr(`auth:${email}`);
   if (attempts > 5) {
     await redis.expire(`auth:${email}`, 900); // 15 minutes
@@ -43,14 +51,6 @@ export async function authenticateUser({
     return {
       status: 'invalid',
       errors: ['invalid_input']
-    };
-  }
-
-  // Check password complexity
-  if (!isPasswordComplex(password)) {
-    return {
-      status: 'invalid',
-      errors: ['password_complexity']
     };
   }
 

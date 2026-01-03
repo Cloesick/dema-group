@@ -24,17 +24,12 @@ describe('Authentication Security', () => {
   });
   describe('User Authentication', () => {
     it('blocks brute force attempts', async () => {
-      const attempts = Array(6).fill({
-        email: 'test@example.com',
-        password: 'wrong'
-      });
-
       vi.mocked(redis.incr).mockResolvedValueOnce(6);
       vi.mocked(redis.expire).mockResolvedValueOnce(1);
 
       const lastAttempt = await authenticateUser({
         email: 'test@example.com',
-        password: 'correct'
+        password: 'ValidP@ssw0rd123'
       });
 
       expect(lastAttempt.status).toBe('blocked');

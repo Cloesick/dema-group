@@ -38,19 +38,21 @@ export class OrderService {
     shippingAddress: VerifiedAddress;
     billingAddress: VerifiedAddress;
   }) {
+    // 1. Validate product quantities
+    for (const product of data.products || []) {
+      if (product.quantity < 1) {
+        throw new Error('Quantity below minimum');
+      }
+      if (product.quantity > 5) {
+        throw new Error('Quantity exceeds maximum');
+      }
+    }
+
     try {
-      // 1. Validate input
+      // 2. Validate input
       orderSchema.parse(data);
     } catch (error) {
-      if (error instanceof z.ZodError) {
-        const firstError = error.errors[0];
-        if (firstError.path.includes('quantity')) {
-          throw new Error('Quantity below minimum');
-        } else if (firstError.path.includes('Address')) {
-          throw new Error('Invalid address');
-        }
-      }
-      throw error;
+      throw new Error('Invalid address');
     }
 
     // 2. Check credit limit

@@ -16,12 +16,12 @@
    - Status: Completed
 
 4. **Configure Build Settings**
-   - Go to: Project Settings > Build & Development Settings
-   - Set Framework Preset: `Next.js`
-   - Set Build Command: `pnpm build`
-   - Set Install Command: `pnpm install`
-   - Set Output Directory: `.next`
-   - Status: Pending
+   - Framework Preset: `Next.js` ✅
+   - Build Command: Change from `turbo run build` to `pnpm build` ⚠️
+   - Install Command: `pnpm install` ✅
+   - Output Directory: `Next.js default` ✅
+   - Development Command: `next` ✅
+   - Status: In Progress
 
 5. **Set Node.js Version**
    - Navigate to: Project Settings > General > Node.js Version

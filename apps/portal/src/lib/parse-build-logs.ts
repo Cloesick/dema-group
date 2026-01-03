@@ -10,9 +10,21 @@ interface BuildLogEntry {
   suggestion?: string;
 }
 
+const DEBUG = process.env.NODE_ENV === 'development';
+
+function debugLog(message: string, data?: any) {
+  if (DEBUG) {
+    console.log(`[Build Parser] ${message}`, data || '');
+  }
+}
+
 export function parseBuildLogs(logs: string): BuildLogEntry[] {
   const entries: BuildLogEntry[] = [];
-  if (!logs) return entries;
+  if (!logs) {
+    debugLog('No logs provided');
+    return entries;
+  }
+  debugLog('Parsing build logs:', logs);
 
   const lines = logs.split('\n');
   let currentEntry: Partial<BuildLogEntry> | null = null;
@@ -115,7 +127,7 @@ export function formatBuildErrorForWindsurf(error: BuildLogEntry): string {
   return parts.join('');
 }
 
-export async function sendToWindsurf(message: string): Promise<void> {
+export async function sendToWindsurf(message: string, metadata?: Record<string, any>): Promise<void> {
   if (!message) return;
 
   try {
@@ -125,7 +137,13 @@ export async function sendToWindsurf(message: string): Promise<void> {
       body: JSON.stringify({
         message,
         source: 'build',
-        type: 'error'
+        type: 'error',
+        metadata: {
+          timestamp: new Date().toISOString(),
+          environment: process.env.VERCEL_ENV || 'unknown',
+          buildId: process.env.VERCEL_GIT_COMMIT_SHA || 'unknown',
+          ...metadata
+        }
       })
     });
 

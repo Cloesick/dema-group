@@ -15,10 +15,16 @@
     "dev:dema": "turbo dev --filter=dema",
     "dev:fluxer": "turbo dev --filter=fluxer",
     "build:portal": "turbo build --filter=portal",
-    "build:dema": "turbo build --filter=dema"
+    "build:dema": "turbo build --filter=dema",
+    "cleanup": "node scripts/cleanup.js",
+    "prepare": "husky install",
+    "pre-commit": "lint-staged"
   },
   "devDependencies": {
-    "turbo": "^2.0.0"
+    "turbo": "^2.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.0.0",
+    "minimatch": "^9.0.0"
   },
   "packageManager": "pnpm@8.15.0",
   "engines": {

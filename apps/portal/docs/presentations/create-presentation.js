@@ -88,6 +88,9 @@ function createDEMAPresentation() {
  * Creates a progress bar for slide generation
  */
 function createProgressBar(slide, theme) {
+  // Use fixed width for progress bar
+  const PROGRESS_WIDTH = 600; // Standard presentation width
+  
   // Create initial progress bar with minimum width
   var bar = slide.insertShape(SlidesApp.ShapeType.RECTANGLE, 0, 0, 1, 5);
   bar.getFill().setSolidFill(theme.accent);
@@ -95,7 +98,7 @@ function createProgressBar(slide, theme) {
   return {
     updateProgress: function(percent) {
       // Ensure minimum width of 1
-      var width = Math.max(1, slide.getPageWidth() * percent);
+      var width = Math.max(1, PROGRESS_WIDTH * percent);
       bar.setWidth(width);
       bar.setLeft(0);
     },

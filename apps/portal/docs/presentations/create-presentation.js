@@ -9,9 +9,9 @@ const PRESENTATION_CONFIG = {
   duration: 30, // minutes
   qaTime: 15,   // minutes
   animations: {
-    entry: SlidesApp.SlideTransition.FADE,
-    charts: SlidesApp.SlideTransition.SLIDE_FROM_RIGHT,
-    diagrams: SlidesApp.SlideTransition.SLIDE_FROM_BOTTOM
+    entry: SlidesApp.TransitionType.FADE,
+    charts: SlidesApp.TransitionType.SLIDE,
+    diagrams: SlidesApp.TransitionType.DISSOLVE
   },
   layout: {
     margins: { top: 40, left: 40, right: 40, bottom: 40 },
@@ -49,12 +49,6 @@ function createDEMAPresentation() {
     error: '#FF3D00',      // Red
     info: '#2962FF'        // Info Blue
   };
-
-  var deck = SlidesApp.create('DEMA Group Portal - Optimization Strategy');
-  var slides = deck.getSlides();
-  
-  // Remove default first slide
-  if (slides.length > 0) { slides[0].remove(); }
 
   // Track progress for loading animation
   var progress = createProgressBar(deck, theme);
@@ -119,12 +113,13 @@ function createProgressBar(deck, theme) {
  */
 function applyTransitions(deck) {
   deck.getSlides().forEach((slide, index) => {
+    const transition = slide.getTransition();
     if (index === 0) {
-      slide.setTransition(PRESENTATION_CONFIG.animations.entry);
+      transition.setType(PRESENTATION_CONFIG.animations.entry);
     } else if (slide.getShapes().some(s => s.getPageElementType() === SlidesApp.PageElementType.SHEETS_CHART)) {
-      slide.setTransition(PRESENTATION_CONFIG.animations.charts);
+      transition.setType(PRESENTATION_CONFIG.animations.charts);
     } else {
-      slide.setTransition(PRESENTATION_CONFIG.animations.diagrams);
+      transition.setType(PRESENTATION_CONFIG.animations.diagrams);
     }
   });
 }

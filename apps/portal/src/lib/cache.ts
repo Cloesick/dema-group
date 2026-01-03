@@ -23,10 +23,6 @@ export const CACHE_PREFIX = {
 
 // Redis client with error handling and auto-reconnect
 const createRedisClient = (): RedisType => {
-  if (!process.env.REDIS_URL) {
-    throw new Error('REDIS_URL is not defined')
-  }
-  
   const options: RedisOptions = {
     maxRetriesPerRequest: 3,
     retryStrategy: (times: number): number | void => {
@@ -39,7 +35,7 @@ const createRedisClient = (): RedisType => {
     }
   }
 
-  const client = new Redis(process.env.REDIS_URL, options)
+  const client = new Redis(process.env.REDIS_URL || 'redis://localhost:6379', options)
 
   client.on('error', (error: ErrorWithMessage) => {
     console.error('Redis Client Error:', error)

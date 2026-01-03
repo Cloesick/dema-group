@@ -358,34 +358,46 @@ function addArrow(slide, x1, y1, x2, y2, theme) {
   arrow.getBorder().setTransparent();
 }
 
-// --- SLIDE 5: MEMORY USAGE ---
 function createMemorySlide(deck, theme) {
   var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
   slide.getShapes()[0].getText().setText("Memory Usage Trend");
 
-  var data = Charts.newDataTable()
-    .addColumn(Charts.ColumnType.STRING, "Time")
-    .addColumn(Charts.ColumnType.NUMBER, "Usage (GB)")
-    .addRow(["T-4", 2.3])
-    .addRow(["T-3", 2.5])
-    .addRow(["T-2", 2.8])
-    .addRow(["T-1", 2.7])
-    .addRow(["Now", 2.8])
-    .build();
+  // Create data table
+  var data = [
+    ['Time', 'Usage (GB)'],
+    ['T-4', '2.3'],
+    ['T-3', '2.5'],
+    ['T-2', '2.8'],
+    ['T-1', '2.7'],
+    ['Now', '2.8']
+  ];
 
-  var chart = Charts.newLineChart()
-    .setDataTable(data)
-    .setTitle('Memory Usage Over Time')
-    .setColors([theme.error])
-    .setOption('vAxis', {title: 'GB Used', viewWindow: {min: 0, max: 4}})
-    .build();
+  // Create and style table
+  var table = slide.insertTable(data.length, data[0].length);
+  
+  // Fill and style table
+  for (var i = 0; i < data.length; i++) {
+    for (var j = 0; j < data[0].length; j++) {
+      var cell = table.getCell(i, j);
+      cell.getText().setText(data[i][j]);
+      
+      if (i === 0) {
+        cell.getFill().setSolidFill(theme.primary);
+        cell.getText().getTextStyle().setForegroundColor(theme.white);
+        cell.getText().getTextStyle().setBold(true);
+      } else {
+        cell.getFill().setSolidFill(theme.white);
+        cell.getText().getTextStyle().setForegroundColor(theme.text);
+        if (j === 1) { // Highlight memory values
+          cell.getText().getTextStyle().setForegroundColor(theme.error);
+        }
+      }
+    }
+  }
 
-  // Create chart with specific dimensions
-  var chartShape = slide.insertEmbeddedChart(chart);
-  chartShape.setLeft(100);
-  chartShape.setTop(100);
-  chartShape.setWidth(500);
-  chartShape.setHeight(300);
+  // Position table
+  table.setLeft(150);
+  table.setTop(100);
 }
 
 // --- SLIDE 6: CACHE PERFORMANCE ---
@@ -393,25 +405,39 @@ function createCacheSlide(deck, theme) {
   var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
   slide.getShapes()[0].getText().setText("Cache Performance");
 
-  var data = Charts.newDataTable()
-    .addColumn(Charts.ColumnType.STRING, "Type")
-    .addColumn(Charts.ColumnType.NUMBER, "Percentage")
-    .addRow(["Hit Rate", 65])
-    .addRow(["Miss Rate", 35])
-    .build();
+  // Create data table
+  var data = [
+    ['Type', 'Percentage'],
+    ['Hit Rate', '65%'],
+    ['Miss Rate', '35%']
+  ];
 
-  var chart = Charts.newPieChart()
-    .setDataTable(data)
-    .setTitle('Cache Hit/Miss Rate')
-    .setColors([theme.success, theme.error])
-    .build();
+  // Create and style table
+  var table = slide.insertTable(data.length, data[0].length);
+  
+  // Fill and style table
+  for (var i = 0; i < data.length; i++) {
+    for (var j = 0; j < data[0].length; j++) {
+      var cell = table.getCell(i, j);
+      cell.getText().setText(data[i][j]);
+      
+      if (i === 0) {
+        cell.getFill().setSolidFill(theme.primary);
+        cell.getText().getTextStyle().setForegroundColor(theme.white);
+        cell.getText().getTextStyle().setBold(true);
+      } else {
+        cell.getFill().setSolidFill(theme.white);
+        cell.getText().getTextStyle().setForegroundColor(theme.text);
+        if (j === 1) { // Color percentages
+          cell.getText().getTextStyle().setForegroundColor(i === 1 ? theme.success : theme.error);
+        }
+      }
+    }
+  }
 
-  // Create chart with specific dimensions
-  var chartShape = slide.insertEmbeddedChart(chart);
-  chartShape.setLeft(100);
-  chartShape.setTop(100);
-  chartShape.setWidth(500);
-  chartShape.setHeight(300);
+  // Position table
+  table.setLeft(150);
+  table.setTop(100);
 }
 
 // --- SLIDE 7: ERROR DISTRIBUTION ---
@@ -419,28 +445,42 @@ function createErrorSlide(deck, theme) {
   var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
   slide.getShapes()[0].getText().setText("Error Distribution");
 
-  var data = Charts.newDataTable()
-    .addColumn(Charts.ColumnType.STRING, "Type")
-    .addColumn(Charts.ColumnType.NUMBER, "Percentage")
-    .addRow(["TypeScript", 40])
-    .addRow(["Memory", 25])
-    .addRow(["Cache", 15])
-    .addRow(["Build", 12])
-    .addRow(["Other", 8])
-    .build();
+  // Create data table
+  var data = [
+    ['Type', 'Percentage'],
+    ['TypeScript', '40%'],
+    ['Memory', '25%'],
+    ['Cache', '15%'],
+    ['Build', '12%'],
+    ['Other', '8%']
+  ];
 
-  var chart = Charts.newPieChart()
-    .setDataTable(data)
-    .setTitle('Error Types')
-    .setColors([theme.primary, theme.error, theme.warning, theme.accent, theme.info])
-    .build();
+  // Create and style table
+  var table = slide.insertTable(data.length, data[0].length);
+  
+  // Fill and style table
+  for (var i = 0; i < data.length; i++) {
+    for (var j = 0; j < data[0].length; j++) {
+      var cell = table.getCell(i, j);
+      cell.getText().setText(data[i][j]);
+      
+      if (i === 0) {
+        cell.getFill().setSolidFill(theme.primary);
+        cell.getText().getTextStyle().setForegroundColor(theme.white);
+        cell.getText().getTextStyle().setBold(true);
+      } else {
+        cell.getFill().setSolidFill(theme.white);
+        cell.getText().getTextStyle().setForegroundColor(theme.text);
+        if (j === 1) { // Color percentages
+          cell.getText().getTextStyle().setForegroundColor(theme.error);
+        }
+      }
+    }
+  }
 
-  // Create chart with specific dimensions
-  var chartShape = slide.insertEmbeddedChart(chart);
-  chartShape.setLeft(100);
-  chartShape.setTop(100);
-  chartShape.setWidth(500);
-  chartShape.setHeight(300);
+  // Position table
+  table.setLeft(150);
+  table.setTop(100);
 }
 
 // --- SLIDE 8: OPTIMIZATION TARGETS ---
@@ -449,28 +489,43 @@ function createOptimizationSlide(deck, theme) {
   slide.getShapes()[0].getText().setText("Optimization Strategy: The Gap");
 
   // Data from METRICS-SUMMARY.md (Optimization Targets)
-  var data = Charts.newDataTable()
-    .addColumn(Charts.ColumnType.STRING, "Metric")
-    .addColumn(Charts.ColumnType.NUMBER, "Current")
-    .addColumn(Charts.ColumnType.NUMBER, "Target")
-    .addRow(["Build Time (min)", 13, 5])
-    .addRow(["Memory (GB)", 2.8, 2.0])
-    .addRow(["Cache Rate (%)", 65, 80])
-    .addRow(["Error Rate (%)", 2, 1])
-    .build();
+  // Create data table
+  var data = [
+    ['Metric', 'Current', 'Target'],
+    ['Build Time (min)', '13', '5'],
+    ['Memory (GB)', '2.8', '2.0'],
+    ['Cache Rate (%)', '65', '80'],
+    ['Error Rate (%)', '2', '1']
+  ];
 
-  var chart = Charts.newColumnChart()
-    .setDataTable(data)
-    .setTitle('Current vs Target Performance')
-    .setColors(['#FF3D00', '#00C853']) // Red for Current, Green for Target
-    .build();
+  // Create and style table
+  var table = slide.insertTable(data.length, data[0].length);
+  
+  // Fill and style table
+  for (var i = 0; i < data.length; i++) {
+    for (var j = 0; j < data[0].length; j++) {
+      var cell = table.getCell(i, j);
+      cell.getText().setText(data[i][j]);
+      
+      if (i === 0) {
+        cell.getFill().setSolidFill(theme.primary);
+        cell.getText().getTextStyle().setForegroundColor(theme.white);
+        cell.getText().getTextStyle().setBold(true);
+      } else {
+        cell.getFill().setSolidFill(theme.white);
+        cell.getText().getTextStyle().setForegroundColor(theme.text);
+        if (j === 1) { // Color current values
+          cell.getText().getTextStyle().setForegroundColor(theme.error);
+        } else if (j === 2) { // Color target values
+          cell.getText().getTextStyle().setForegroundColor(theme.success);
+        }
+      }
+    }
+  }
 
-  // Create chart with specific dimensions
-  var chartShape = slide.insertEmbeddedChart(chart);
-  chartShape.setLeft(100);
-  chartShape.setTop(100);
-  chartShape.setWidth(500);
-  chartShape.setHeight(300);
+  // Position table
+  table.setLeft(150);
+  table.setTop(100);
 }
 
 // --- SLIDE 9: PERFORMANCE TIMELINE ---
@@ -478,28 +533,41 @@ function createPerformanceSlide(deck, theme) {
   var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
   slide.getShapes()[0].getText().setText("Build Performance Timeline");
 
-  var data = Charts.newDataTable()
-    .addColumn(Charts.ColumnType.STRING, "Phase")
-    .addColumn(Charts.ColumnType.NUMBER, "Duration (s)")
-    .addRow(["Pre-build", 60])
-    .addRow(["TypeScript", 180])
-    .addRow(["Next.js", 300])
-    .addRow(["Assets", 240])
-    .build();
+  // Create data table
+  var data = [
+    ['Phase', 'Duration (s)'],
+    ['Pre-build', '60'],
+    ['TypeScript', '180'],
+    ['Next.js', '300'],
+    ['Assets', '240']
+  ];
 
-  var chart = Charts.newBarChart()
-    .setDataTable(data)
-    .setTitle('Phase Duration')
-    .setColors([theme.primary])
-    .setOption('hAxis', {title: 'Seconds'})
-    .build();
+  // Create and style table
+  var table = slide.insertTable(data.length, data[0].length);
+  
+  // Fill and style table
+  for (var i = 0; i < data.length; i++) {
+    for (var j = 0; j < data[0].length; j++) {
+      var cell = table.getCell(i, j);
+      cell.getText().setText(data[i][j]);
+      
+      if (i === 0) {
+        cell.getFill().setSolidFill(theme.primary);
+        cell.getText().getTextStyle().setForegroundColor(theme.white);
+        cell.getText().getTextStyle().setBold(true);
+      } else {
+        cell.getFill().setSolidFill(theme.white);
+        cell.getText().getTextStyle().setForegroundColor(theme.text);
+        if (j === 1) { // Color durations
+          cell.getText().getTextStyle().setForegroundColor(theme.primary);
+        }
+      }
+    }
+  }
 
-  // Create chart with specific dimensions
-  var chartShape = slide.insertEmbeddedChart(chart);
-  chartShape.setLeft(100);
-  chartShape.setTop(100);
-  chartShape.setWidth(500);
-  chartShape.setHeight(300);
+  // Position table
+  table.setLeft(150);
+  table.setTop(100);
 }
 
 // --- SLIDE 10: RESOURCE TIMELINE ---
@@ -507,28 +575,44 @@ function createTimelineSlide(deck, theme) {
   var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
   slide.getShapes()[0].getText().setText("Resource Usage Timeline");
 
-  var data = Charts.newDataTable()
-    .addColumn(Charts.ColumnType.STRING, "Resource")
-    .addColumn(Charts.ColumnType.NUMBER, "Current")
-    .addColumn(Charts.ColumnType.NUMBER, "Target")
-    .addColumn(Charts.ColumnType.NUMBER, "Max")
-    .addRow(["CPU (%)", 75, 60, 90])
-    .addRow(["Memory (GB)", 2.8, 2.0, 3.0])
-    .addRow(["Disk (%)", 45, 40, 50])
-    .build();
+  // Create data table
+  var data = [
+    ['Resource', 'Current', 'Target', 'Max'],
+    ['CPU (%)', '75', '60', '90'],
+    ['Memory (GB)', '2.8', '2.0', '3.0'],
+    ['Disk (%)', '45', '40', '50']
+  ];
 
-  var chart = Charts.newColumnChart()
-    .setDataTable(data)
-    .setOption('title', 'Resource Usage')
-    .setOption('colors', [theme.error, theme.success, theme.warning])
-    .build();
+  // Create and style table
+  var table = slide.insertTable(data.length, data[0].length);
+  
+  // Fill and style table
+  for (var i = 0; i < data.length; i++) {
+    for (var j = 0; j < data[0].length; j++) {
+      var cell = table.getCell(i, j);
+      cell.getText().setText(data[i][j]);
+      
+      if (i === 0) {
+        cell.getFill().setSolidFill(theme.primary);
+        cell.getText().getTextStyle().setForegroundColor(theme.white);
+        cell.getText().getTextStyle().setBold(true);
+      } else {
+        cell.getFill().setSolidFill(theme.white);
+        cell.getText().getTextStyle().setForegroundColor(theme.text);
+        if (j === 1) { // Color current values
+          cell.getText().getTextStyle().setForegroundColor(theme.error);
+        } else if (j === 2) { // Color target values
+          cell.getText().getTextStyle().setForegroundColor(theme.success);
+        } else if (j === 3) { // Color max values
+          cell.getText().getTextStyle().setForegroundColor(theme.warning);
+        }
+      }
+    }
+  }
 
-  // Create chart with specific dimensions
-  var chartShape = slide.insertEmbeddedChart(chart);
-  chartShape.setLeft(100);
-  chartShape.setTop(100);
-  chartShape.setWidth(500);
-  chartShape.setHeight(300);
+  // Position table
+  table.setLeft(150);
+  table.setTop(100);
 }
 
 // --- SLIDE 12: RISK ASSESSMENT ---

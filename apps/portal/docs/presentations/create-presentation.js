@@ -27,6 +27,7 @@ function createDEMAPresentation() {
 
   // 2. SLIDE GENERATION
   createTitleSlide(deck, theme);
+  createAgendaSlide(deck, theme);
   createOverviewSlide(deck, theme);
   createMetricsSlide(deck, theme);
   createBuildFlowSlide(deck, theme);
@@ -36,7 +37,9 @@ function createDEMAPresentation() {
   createOptimizationSlide(deck, theme);
   createPerformanceSlide(deck, theme);
   createTimelineSlide(deck, theme);
+  createRiskSlide(deck, theme);
   createNextStepsSlide(deck, theme);
+  createQASlide(deck, theme);
 
   Logger.log('Presentation created: ' + deck.getUrl());
 }
@@ -55,9 +58,49 @@ function createTitleSlide(deck, theme) {
   var date = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
   subtitle.getText().setText(`Status: CRITICAL | Build Optimization Strategy\n${date}`);
   subtitle.getText().getInputStyle().setForegroundColor(theme.accent);
+
+  // Add speaker notes
+  slide.getNotesPage().getSpeakerNotesShape().getText().setText(
+    'Welcome to our build optimization presentation.\n\n' +
+    'Key Points:\n' +
+    '- Current build time: 13 minutes (target: 5 minutes)\n' +
+    '- Memory usage at warning levels\n' +
+    '- Cache performance needs improvement\n' +
+    '\nAction Required: Immediate optimization needed'
+  );
 }
 
-// --- SLIDE 2: OVERVIEW (The Grim Reality) ---
+// --- SLIDE 2: AGENDA ---
+function createAgendaSlide(deck, theme) {
+  var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
+  slide.getShapes()[0].getText().setText("Today's Agenda");
+  
+  var body = slide.getShapes()[1];
+  var agenda = [
+    "1. Current Build Status",
+    "2. Performance Metrics",
+    "3. Build Process Analysis",
+    "4. Memory & Cache Issues",
+    "5. Error Distribution",
+    "6. Optimization Strategy",
+    "7. Risk Assessment",
+    "8. Action Plan & Next Steps"
+  ];
+  
+  body.getText().setText(agenda.join("\n"));
+
+  // Add speaker notes
+  slide.getNotesPage().getSpeakerNotesShape().getText().setText(
+    'Agenda Overview:\n\n' +
+    '- Start with current status\n' +
+    '- Deep dive into metrics\n' +
+    '- Focus on critical issues\n' +
+    '- Present optimization plan\n\n' +
+    'Time allocation: 30 minutes + 15 minutes Q&A'
+  );
+}
+
+// --- SLIDE 3: OVERVIEW (The Grim Reality) ---
 function createOverviewSlide(deck, theme) {
   var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_ONLY);
   slide.getShapes()[0].getText().setText("Current Build Status");
@@ -318,7 +361,42 @@ function createTimelineSlide(deck, theme) {
   slide.insertSheetsChart(chart, 100, 100, 500, 300);
 }
 
-// --- SLIDE 11: NEXT STEPS ---
+// --- SLIDE 12: RISK ASSESSMENT ---
+function createRiskSlide(deck, theme) {
+  var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_TWO_COLUMNS);
+  slide.getShapes()[0].getText().setText("Risk Assessment");
+
+  var leftColumn = slide.getShapes()[1];
+  var rightColumn = slide.getShapes()[2];
+
+  var risks = [
+    "🔴 Build Timeouts",
+    "🟡 Memory Leaks",
+    "🟡 Cache Invalidation",
+    "🟢 Type Errors"
+  ];
+
+  var mitigations = [
+    "✓ Parallel Processing",
+    "✓ GC Optimization",
+    "✓ Cache Strategy",
+    "✓ Type Checking"
+  ];
+
+  leftColumn.getText().setText("Identified Risks:\n" + risks.join("\n"));
+  rightColumn.getText().setText("Mitigations:\n" + mitigations.join("\n"));
+
+  // Add speaker notes
+  slide.getNotesPage().getSpeakerNotesShape().getText().setText(
+    'Risk Analysis:\n\n' +
+    '- Red: Critical risks needing immediate attention\n' +
+    '- Yellow: Medium risks to address in phase 2\n' +
+    '- Green: Managed risks with monitoring\n\n' +
+    'All risks have defined mitigation strategies'
+  );
+}
+
+// --- SLIDE 13: NEXT STEPS ---
 function createNextStepsSlide(deck, theme) {
   var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
   slide.getShapes()[0].getText().setText("Immediate Next Steps");
@@ -333,6 +411,53 @@ function createNextStepsSlide(deck, theme) {
   ];
   
   body.getText().setText(steps.join("\n\n"));
+
+  // Add speaker notes
+  slide.getNotesPage().getSpeakerNotesShape().getText().setText(
+    'Action Plan Details:\n\n' +
+    '1. Build Time Optimization:\n' +
+    '   - Start with TypeScript parallelization\n' +
+    '   - Implement in phases\n\n' +
+    '2. Memory Management:\n' +
+    '   - Focus on GC triggers first\n' +
+    '   - Monitor impact\n\n' +
+    '3. Cache Improvements:\n' +
+    '   - Begin with offline packages\n' +
+    '   - Measure hit rates\n\n' +
+    'Timeline: 2 weeks per phase'
+  );
+}
+
+// --- SLIDE 14: Q&A ---
+function createQASlide(deck, theme) {
+  var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
+  slide.getShapes()[0].getText().setText("Questions & Discussion");
+
+  // Create contact info box
+  var shape = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, 200, 200, 300, 150);
+  shape.getFill().setSolidFill(theme.primary);
+  
+  var text = shape.getText();
+  text.setText(
+    "Contact Information:\n\n" +
+    "DevOps Team\n" +
+    "devops@dema-group.com\n" +
+    "Slack: #build-optimization"
+  );
+  text.getInputStyle().setForegroundColor(theme.white);
+
+  // Add speaker notes
+  slide.getNotesPage().getSpeakerNotesShape().getText().setText(
+    'Q&A Session:\n\n' +
+    '- Open floor for questions\n' +
+    '- Focus on implementation details\n' +
+    '- Discuss timeline concerns\n' +
+    '- Address resource needs\n\n' +
+    'Key Points to Emphasize:\n' +
+    '- Phased approach\n' +
+    '- Continuous monitoring\n' +
+    '- Team support available'
+  );
 }
 
 /**

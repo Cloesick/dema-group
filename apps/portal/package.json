@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "ts-node scripts/validate-deployment.ts",
-    "build": "next build 2>&1 | ts-node scripts/handle-build-error.ts",
+    "build": "next build 2>&1 | ts-node scripts/handle-build-error.ts || exit 1",
     "postbuild": "next-bundle-analyzer",
     "start": "next start",
     "type-check": "tsc --noEmit",

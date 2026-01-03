@@ -1,28 +1,10 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "nextjs",
-  "buildCommand": "pnpm build",
+  "buildCommand": "pnpm build | ts-node scripts/handle-build-error.ts",
   "installCommand": "pnpm install --no-frozen-lockfile",
-  "regions": ["iad1"],
   "git": {
     "deploymentEnabled": {
-      "main": true,
-      "development": true,
-      "preview": true
-    },
-    "autoAlias": true
-  },
-  "ignoreCommand": null,
-  "crons": [{
-    "path": "/api/health",
-    "schedule": "*/30 * * * *"
-  }],
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next",
-      "config": {
-        "buildCommand": "pnpm build | ts-node scripts/handle-build-error.ts"
-      }
+      "main": true
     }
-  ]}
+  }
+}

@@ -8,11 +8,8 @@
 const PRESENTATION_CONFIG = {
   duration: 30, // minutes
   qaTime: 15,   // minutes
-  animations: {
-    entry: SlidesApp.TransitionType.FADE,
-    charts: SlidesApp.TransitionType.SLIDE,
-    diagrams: SlidesApp.TransitionType.DISSOLVE
-  },
+  // Transitions temporarily disabled
+  animations: false,
   layout: {
     margins: { top: 40, left: 40, right: 40, bottom: 40 },
     chartSize: { width: 500, height: 300 },
@@ -77,8 +74,8 @@ function createDEMAPresentation() {
   createNextStepsSlide(deck, theme); updateProgress();
   createQASlide(deck, theme); updateProgress();
 
-  // Apply transitions
-  applyTransitions(deck);
+  // Transitions temporarily disabled
+  // applyTransitions(deck);
 
   // Add navigation buttons
   addNavigation(deck, theme);
@@ -108,21 +105,10 @@ function createProgressBar(deck, theme) {
   };
 }
 
-/**
- * Applies transitions to all slides
- */
-function applyTransitions(deck) {
-  deck.getSlides().forEach((slide, index) => {
-    const transition = slide.getTransition();
-    if (index === 0) {
-      transition.setType(PRESENTATION_CONFIG.animations.entry);
-    } else if (slide.getShapes().some(s => s.getPageElementType() === SlidesApp.PageElementType.SHEETS_CHART)) {
-      transition.setType(PRESENTATION_CONFIG.animations.charts);
-    } else {
-      transition.setType(PRESENTATION_CONFIG.animations.diagrams);
-    }
-  });
-}
+// Transitions temporarily disabled
+// function applyTransitions(deck) {
+//   // Will be re-enabled in next version
+// }
 
 /**
  * Adds navigation buttons to all slides

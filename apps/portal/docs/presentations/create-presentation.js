@@ -26,9 +26,8 @@ function createDEMAPresentation() {
   // Create presentation with standard 16:9 layout
   var deck = SlidesApp.create('DEMA Group Portal - Optimization Strategy');
 
-  // Remove default first slide
-  var slides = deck.getSlides();
-  if (slides.length > 0) { slides[0].remove(); }
+  // Create initial slide for progress bar
+  var progressSlide = deck.appendSlide(SlidesApp.PredefinedLayout.BLANK);
 
   // Theme configuration
   var theme = {
@@ -46,7 +45,7 @@ function createDEMAPresentation() {
   };
 
   // Track progress for loading animation
-  var progress = createProgressBar(deck, theme);
+  var progress = createProgressBar(progressSlide, theme);
   var totalSteps = 14; // Total number of slides
   var currentStep = 0;
 
@@ -88,17 +87,16 @@ function createDEMAPresentation() {
 /**
  * Creates a progress bar for slide generation
  */
-function createProgressBar(deck, theme) {
-  var slide = deck.getSlides()[0];
+function createProgressBar(slide, theme) {
   var bar = slide.insertShape(SlidesApp.ShapeType.RECTANGLE, 0, 0, 0, 5);
   bar.getFill().setSolidFill(theme.accent);
 
   return {
     updateProgress: function(percent) {
-      bar.setWidth(deck.getPageWidth() * percent);
+      bar.setWidth(slide.getPageWidth() * percent);
     },
     remove: function() {
-      bar.remove();
+      slide.remove(); // Remove entire progress slide
     }
   };
 }

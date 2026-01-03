@@ -1,0 +1,9 @@
+# Allow all crawlers in production, restrict in other environments
+User-agent: *
+Disallow: /api/
+Disallow: /admin/
+Allow: /$
+Allow: /public/
+
+# Sitemap
+Sitemap: https://dema-group-portal.vercel.app/sitemap.xml

@@ -1,0 +1,25 @@
+# Tests
+/tests
+**/*.test.ts
+**/*.spec.ts
+**/*.cy.ts
+/coverage
+
+# Development
+.env.local
+.env.development
+.env.development.local
+/scripts
+*.log
+.git
+.gitignore
+
+# Documentation
+README.md
+CHANGELOG.md
+docs/
+*.md
+
+# Build artifacts
+.turbo
+.next/cache

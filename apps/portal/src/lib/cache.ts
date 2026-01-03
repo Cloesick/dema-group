@@ -1,5 +1,5 @@
 import Redis from 'ioredis'
-import type { Redis as RedisType, RedisOptions, ReconnectStrategy } from 'ioredis'
+import type { Redis as RedisType, RedisOptions } from 'ioredis'
 import { validateEnv } from './env'
 
 type ErrorWithMessage = { message: string }
@@ -29,10 +29,10 @@ const createRedisClient = (): RedisType => {
   
   const options: RedisOptions = {
     maxRetriesPerRequest: 3,
-    retryStrategy: ((times: number): number | void => {
+    retryStrategy: (times: number): number | void => {
       const delay = Math.min(times * 50, 2000)
       return delay
-    }) as ReconnectStrategy,
+    },
     reconnectOnError: (err: ErrorWithMessage): boolean => {
       const targetError = 'READONLY'
       return err.message.includes(targetError)

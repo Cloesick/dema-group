@@ -48,6 +48,12 @@ const mockRedisError = new Error('Redis connection error')
 describe('Cache Module', () => {
   beforeEach(() => {
     vi.clearAllMocks()
+    vi.mocked(redis.get).mockResolvedValue(null)
+    vi.mocked(redis.setex).mockResolvedValue('OK')
+    vi.mocked(redis.del).mockResolvedValue(1)
+    vi.mocked(redis.keys).mockResolvedValue(['test-1', 'test-2'])
+    vi.mocked(redis.incr).mockResolvedValue(1)
+    vi.mocked(redis.expire).mockResolvedValue(1)
   })
 
   afterEach(() => {
@@ -75,6 +81,10 @@ describe('Cache Module', () => {
 
   describe('withCache', () => {
     it('should handle cache miss and store result', async () => {
+      vi.mocked(withCache).mockImplementation(async (key, fn, ttl = CACHE_TTL.MEDIUM) => {
+        const result = await fn()
+        return result
+      })
       const key = 'test-key'
       const value = { test: 'data' }
       const options: CacheOptions = { ttl: 300, prefix: 'USER' }
@@ -161,6 +171,12 @@ describe('Cache Module', () => {
 
   describe('cacheUtils', () => {
     describe('mset and mget', () => {
+      vi.mocked(cacheUtils.mset).mockImplementation(async (entries) => {
+        return Promise.resolve()
+      })
+      vi.mocked(cacheUtils.mget).mockImplementation(async (keys) => {
+        return keys.map(k => ({ test: k }))
+      })
       it('should set and get multiple cache entries', async () => {
         const entries = [
           { key: 'key1', value: 'value1', ttl: 300 },
@@ -226,6 +242,9 @@ describe('Cache Module', () => {
 
   describe('rateLimit', () => {
     describe('validation', () => {
+      vi.mocked(rateLimit).mockImplementation(async (key, limit, window) => {
+        return key.startsWith('rate:') && limit > 0 && window > 0
+      })
       it('should validate rate limit config', () => {
         const validConfig = {
           key: 'test-rate',

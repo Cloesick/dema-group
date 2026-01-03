@@ -12,6 +12,7 @@ out/
 .env
 .env.local
 .env.*.local
+**/*.local.*
 
 # IDE
 .vscode/
@@ -31,11 +32,27 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+**/combined.log
+**/error.log
 
 # Testing
 coverage/
+**/cypress/screenshots/
+**/cypress/videos/
+**/cypress/downloads/
 
-# Misc
+# Data
+**/data/catalogs/*.json
+!**/data/catalogs/README.md
+
+# Documentation
+**/docs/drafts/
+**/DOCUMENTATION/drafts/
+
+# Temporary
+**/.temp/
+**/.tmp/
+**/tmp/
 *.log
 *.tmp
 .vercel

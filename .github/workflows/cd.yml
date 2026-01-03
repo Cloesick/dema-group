@@ -1,0 +1,133 @@
+name: CD
+
+on:
+  push:
+    branches:
+      - develop
+      - staging
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    environment:
+      name: ${{ github.ref_name }}
+      url: https://${{ github.ref_name == 'main' && 'www' || github.ref_name }}.dema-group.com
+      
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          
+      - name: Install dependencies
+        run: pnpm install
+        
+      - name: Get environment variables
+        uses: microsoft/variable-substitution@v1
+        with:
+          files: 'apps/portal/.env.${{ github.ref_name }}'
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          REDIS_URL: ${{ secrets.REDIS_URL }}
+          JWT_SECRET: ${{ secrets.JWT_SECRET }}
+          API_URL: ${{ secrets.API_URL }}
+          NEXT_PUBLIC_GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+          
+      - name: Deploy
+        id: deploy
+        run: |
+          if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
+            echo "Deploying to production..."
+            DEPLOYMENT_APPROVED=true \
+              pnpm ts-node scripts/deploy.ts production
+            echo "deployment=success" >> $GITHUB_OUTPUT
+          elif [[ "${{ github.ref }}" == "refs/heads/staging" ]]; then
+            echo "Deploying to staging..."
+            pnpm ts-node scripts/deploy.ts staging
+            echo "deployment=success" >> $GITHUB_OUTPUT
+          else
+            echo "Deploying to development..."
+            pnpm ts-node scripts/deploy.ts development
+            echo "deployment=success" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Notify deployment
+        if: always()
+        uses: slackapi/slack-github-action@v1.24.0
+        with:
+          payload: |
+            {
+              "text": "${{ job.status == 'success' && 'Deployment successful! 🚀' || 'Deployment failed! 🚨' }}",
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*Deployment Status:* ${{ job.status }}\n*Environment:* ${{ github.ref_name }}\n*URL:* https://${{ github.ref_name == 'main' && 'www' || github.ref_name }}.dema-group.com"
+                  }
+                }
+              ]
+            }
+        env:
+          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          
+  monitor:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check application health
+        id: health_check
+        run: |
+          for i in {1..12}; do
+            URL="https://${GITHUB_REF_NAME}.dema-group.com"
+          response=$(curl -s -o /dev/null -w "%{http_code}" "$URL/api/health")
+            if [ "$response" == "200" ]; then
+              echo "Application is healthy!"
+              exit 0
+            fi
+            echo "Waiting for application to be healthy... (attempt $i/12)"
+            sleep 10
+          done
+          echo "Application health check failed!"
+          exit 1
+          
+      - name: Monitor performance
+        run: |
+          URL="https://${GITHUB_REF_NAME}.dema-group.com"
+          response=$(curl -s "$URL/api/metrics")
+          p95=$(echo $response | jq '.responseTime.p95')
+          if (( $(echo "$p95 > 1000" | bc -l) )); then
+            echo "Performance degradation detected! P95 response time: ${p95}ms"
+            exit 1
+          fi
+          
+      - name: Alert on failure
+        if: failure()
+        uses: slackapi/slack-github-action@v1.24.0
+        with:
+          payload: |
+            {
+              "text": "",
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*Environment:* ${{ github.ref_name }}\n*URL:* https://${{ github.ref_name == 'main' && 'www' || github.ref_name }}.dema-group.com\n*Status:* Failed"
+                  }
+                }
+              ]
+            }
+        env:
+          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}

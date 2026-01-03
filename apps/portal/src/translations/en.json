@@ -1,0 +1,162 @@
+{
+  "auth": {
+    "createAccount": "Create Account",
+    "signup": "Sign Up",
+    "passwordRequirements": "Password must be at least 12 characters long and include uppercase, lowercase, numbers, and special characters",
+    "individual": "Individual",
+    "business": "Business",
+    "register": "Register",
+    "roles": {
+      "b2bCustomer": "Business Customer",
+      "b2cCustomer": "Individual Customer",
+      "employee": "Employee",
+      "partner": "Partner",
+      "supplier": "Supplier"
+    },
+    "labels": {
+      "relationship": "Your relationship with DEMA Group",
+      "email": "Email Address",
+      "password": "Password",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone Number",
+      "companyName": "Company Name",
+      "vatNumber": "VAT Number",
+      "industry": "Industry",
+      "companySize": "Company Size",
+      "company": "Company",
+      "department": "Department",
+      "employeeId": "Employee ID",
+      "marketingConsent": "I agree to receive marketing communications"
+    },
+    "fields": {
+      "vatNumber": "VAT Number",
+      "companyName": "Company Name",
+      "industryType": "Industry Type",
+      "selectIndustry": "Select Industry",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email"
+    },
+    "errors": {
+      "creditCheckFailed": "Credit check failed. Please contact our sales team.",
+      "registrationFailed": "Registration failed. Please try again."
+    }
+  },
+  "departments": {
+    "sales": "Sales",
+    "support": "Support",
+    "logistics": "Logistics",
+    "finance": "Finance",
+    "hr": "Human Resources",
+    "it": "IT",
+    "operations": "Operations"
+  },
+  "industries": {
+    "manufacturing": "Manufacturing",
+    "construction": "Construction",
+    "wholesale": "Wholesale",
+    "retail": "Retail",
+    "services": "Services"
+  },
+  "common": {
+    "backToHome": "Back to Home",
+    "visitWebsite": "Visit Website",
+    "browseProducts": "Browse Products",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "languages": "Languages",
+    "search": "Search",
+    "processing": "Processing...",
+    "select": "Select",
+    "continue": "Continue",
+    "back": "Back"
+  },
+  "navigation": {
+    "individuals": "Individuals",
+    "professionals": "Professionals",
+    "companies": "Companies",
+    "all-products": "All Products",
+    "about": "About",
+    "inspiration": "Inspiration",
+    "help": "Help",
+    "promotions": "Promotions",
+    "myportal": "My Portal"
+  },
+  "home": {
+    "title": "Welcome to DEMA Group",
+    "subtitle": "Your One-Stop Solution for Industrial Hardware",
+    "browseAllProducts": "Browse All Products",
+    "ourCompanies": "Our Companies",
+    "needHelp": "Need Help?",
+    "helpDescription": "Our experts are here to help you find the right solution",
+    "startChat": "Start Chat",
+    "stats": {
+      "companies": "Companies",
+      "products": "Products",
+      "yearsExperience": "Years Experience",
+      "serviceAvailable": "Service Available"
+    }
+  },
+  "company": {
+    "ourProducts": "Our Products",
+    "productCategories": "Product Categories",
+    "ourServices": "Our Services",
+    "industriesWeServe": "Industries We Serve",
+    "otherCompanies": "Other Companies",
+    "partOfDemaGroup": "Part of DEMA Group"
+  },
+  "footer": {
+    "description": "DEMA Group is a leading provider of industrial solutions, bringing together expertise in pumps, valves, belts, and precision components.",
+    "companies": "Our Companies",
+    "contact": "Contact",
+    "allRightsReserved": "All rights reserved"
+  },
+  "companies": {
+    "dema": {
+      "tagline": "Quality products for agriculture, construction & industry",
+      "description": "DEMA delivers a wide range of quality products for agriculture, horticulture, contractors, installers and industrial customers."
+    },
+    "fluxer": {
+      "tagline": "Your partner in process flow",
+      "description": "Fluxer is your certified partner for products, services and solutions in industry for everything related to pipeline transport."
+    },
+    "beltz247": {
+      "tagline": "24/7 support in conveyor belts & mechanical maintenance",
+      "description": "The driven team of Beltz247 is your ideal partner for quality conveyor belts and mechanical maintenance."
+    },
+    "devisschere": {
+      "tagline": "Specialist in irrigation design & installation",
+      "description": "De Visschere Technics is specialist in designing, installing and maintaining irrigation systems."
+    },
+    "accu": {
+      "tagline": "Precision components - Buy 1 or millions",
+      "description": "Global precision components supplier with 500,000+ SKUs. From screws to standoffs, washers to handles."
+    }
+  },
+  "products": {
+    "pump": "Pump",
+    "pumpDesc": "Industrial pumps for all applications",
+    "pipes": "Pipes",
+    "pipesDesc": "High-quality pipes and fittings",
+    "tools": "Tools",
+    "toolsDesc": "Professional tools and equipment",
+    "compressor": "Compressor",
+    "compressorDesc": "Air compressors and accessories",
+    "valve": "Valve",
+    "valveDesc": "Control and safety valves",
+    "actuator": "Actuator",
+    "actuatorDesc": "Electric and pneumatic actuators",
+    "instrumentation": "Instrumentation",
+    "instrumentationDesc": "Measurement and control instruments",
+    "conveyor": "Conveyor",
+    "conveyorDesc": "Conveyor belts and systems",
+    "sprinkler": "Sprinkler",
+    "sprinklerDesc": "Irrigation sprinklers and systems",
+    "drip": "Drip Irrigation",
+    "dripDesc": "Efficient drip irrigation solutions",
+    "screws": "Screws",
+    "screwsDesc": "Precision screws and fasteners"
+  }
+}

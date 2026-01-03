@@ -1,0 +1,17 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Run TypeScript checks
+pnpm tsc --noEmit
+
+# Run ESLint
+pnpm lint-staged
+
+# Run tests
+pnpm test --findRelatedTests
+
+# Check for security vulnerabilities
+pnpm audit
+
+# Check bundle size
+pnpm size-limit

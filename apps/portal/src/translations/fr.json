@@ -1,0 +1,162 @@
+{
+  "auth": {
+    "createAccount": "Créer un Compte",
+    "signup": "S'inscrire",
+    "passwordRequirements": "Le mot de passe doit contenir au moins 12 caractères et inclure des majuscules, minuscules, chiffres et caractères spéciaux",
+    "individual": "Particulier",
+    "business": "Entreprise",
+    "register": "S'enregistrer",
+    "roles": {
+      "b2bCustomer": "Client Professionnel",
+      "b2cCustomer": "Client Particulier",
+      "employee": "Employé",
+      "partner": "Partenaire",
+      "supplier": "Fournisseur"
+    },
+    "labels": {
+      "relationship": "Votre relation avec DEMA Group",
+      "email": "Adresse Email",
+      "password": "Mot de passe",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "phone": "Numéro de téléphone",
+      "companyName": "Nom de l'entreprise",
+      "vatNumber": "Numéro de TVA",
+      "industry": "Industrie",
+      "companySize": "Taille de l'entreprise",
+      "company": "Entreprise",
+      "department": "Département",
+      "employeeId": "ID Employé",
+      "marketingConsent": "J'accepte de recevoir des communications marketing"
+    },
+    "fields": {
+      "vatNumber": "Numéro de TVA",
+      "companyName": "Nom de l'entreprise",
+      "industryType": "Type d'industrie",
+      "selectIndustry": "Sélectionner l'industrie",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Email"
+    },
+    "errors": {
+      "creditCheckFailed": "La vérification de crédit a échoué. Veuillez contacter notre équipe commerciale.",
+      "registrationFailed": "L'inscription a échoué. Veuillez réessayer."
+    }
+  },
+  "departments": {
+    "sales": "Ventes",
+    "support": "Support",
+    "logistics": "Logistique",
+    "finance": "Finance",
+    "hr": "Ressources Humaines",
+    "it": "Informatique",
+    "operations": "Opérations"
+  },
+  "industries": {
+    "manufacturing": "Fabrication",
+    "construction": "Construction",
+    "wholesale": "Commerce de gros",
+    "retail": "Commerce de détail",
+    "services": "Services"
+  },
+  "common": {
+    "backToHome": "Retour à l'accueil",
+    "visitWebsite": "Visiter le site",
+    "browseProducts": "Parcourir les produits",
+    "contactUs": "Nous contacter",
+    "learnMore": "En savoir plus",
+    "viewAll": "Voir tout",
+    "languages": "Langues",
+    "search": "Rechercher",
+    "processing": "Traitement...",
+    "select": "Sélectionner",
+    "continue": "Continuer",
+    "back": "Retour"
+  },
+  "navigation": {
+    "individuals": "Particuliers",
+    "professionals": "Professionnels",
+    "companies": "Entreprises",
+    "all-products": "Tous les produits",
+    "about": "À propos",
+    "inspiration": "Inspiration",
+    "help": "Aide",
+    "promotions": "Promotions",
+    "myportal": "Mon Portail"
+  },
+  "home": {
+    "title": "Bienvenue chez DEMA Group",
+    "subtitle": "Votre Solution Complète pour le Matériel Industriel",
+    "browseAllProducts": "Parcourir tous les produits",
+    "ourCompanies": "Nos Entreprises",
+    "needHelp": "Besoin d'aide ?",
+    "helpDescription": "Nos experts sont là pour vous aider à trouver la bonne solution",
+    "startChat": "Démarrer le chat",
+    "stats": {
+      "companies": "Entreprises",
+      "products": "Produits",
+      "yearsExperience": "Années d'expérience",
+      "serviceAvailable": "Service disponible"
+    }
+  },
+  "company": {
+    "ourProducts": "Nos Produits",
+    "productCategories": "Catégories de Produits",
+    "ourServices": "Nos Services",
+    "industriesWeServe": "Industries que nous Servons",
+    "otherCompanies": "Autres Entreprises",
+    "partOfDemaGroup": "Membre du DEMA Group"
+  },
+  "footer": {
+    "description": "DEMA Group est un fournisseur leader de solutions industrielles, réunissant une expertise en pompes, vannes, courroies et composants de précision.",
+    "companies": "Nos Entreprises",
+    "contact": "Contact",
+    "allRightsReserved": "Tous droits réservés"
+  },
+  "companies": {
+    "dema": {
+      "tagline": "Produits de qualité pour l'agriculture, la construction et l'industrie",
+      "description": "DEMA fournit une large gamme de produits de qualité pour l'agriculture, l'horticulture, les entrepreneurs, les installateurs et les clients industriels."
+    },
+    "fluxer": {
+      "tagline": "Votre partenaire en process flow",
+      "description": "Fluxer est votre partenaire certifié pour les produits, services et solutions dans l'industrie pour tout ce qui concerne le transport par pipeline."
+    },
+    "beltz247": {
+      "tagline": "Support 24/7 en courroies transporteuses et maintenance mécanique",
+      "description": "L'équipe dynamique de Beltz247 est votre partenaire idéal pour les courroies transporteuses de qualité et la maintenance mécanique."
+    },
+    "devisschere": {
+      "tagline": "Spécialiste en conception et installation d'irrigation",
+      "description": "De Visschere Technics est spécialisé dans la conception, l'installation et la maintenance de systèmes d'irrigation."
+    },
+    "accu": {
+      "tagline": "Composants de précision - Achetez 1 ou des millions",
+      "description": "Fournisseur mondial de composants de précision avec plus de 500 000 références. Des vis aux entretoises, des rondelles aux poignées."
+    }
+  },
+  "products": {
+    "pump": "Pompe",
+    "pumpDesc": "Pompes industrielles pour toutes applications",
+    "pipes": "Tuyaux",
+    "pipesDesc": "Tuyaux et raccords de haute qualité",
+    "tools": "Outils",
+    "toolsDesc": "Outils et équipements professionnels",
+    "compressor": "Compresseur",
+    "compressorDesc": "Compresseurs d'air et accessoires",
+    "valve": "Vanne",
+    "valveDesc": "Vannes de contrôle et de sécurité",
+    "actuator": "Actionneur",
+    "actuatorDesc": "Actionneurs électriques et pneumatiques",
+    "instrumentation": "Instrumentation",
+    "instrumentationDesc": "Instruments de mesure et de contrôle",
+    "conveyor": "Convoyeur",
+    "conveyorDesc": "Courroies et systèmes de convoyage",
+    "sprinkler": "Arroseur",
+    "sprinklerDesc": "Arroseurs et systèmes d'irrigation",
+    "drip": "Irrigation goutte à goutte",
+    "dripDesc": "Solutions d'irrigation goutte à goutte efficaces",
+    "screws": "Vis",
+    "screwsDesc": "Vis et fixations de précision"
+  }
+}

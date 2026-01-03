@@ -2,9 +2,40 @@
  * DEMA Group Portal Build Optimization Presentation Generator
  * Generated from documentation in apps/portal/docs/
  */
+/**
+ * Presentation Configuration
+ */
+const PRESENTATION_CONFIG = {
+  duration: 30, // minutes
+  qaTime: 15,   // minutes
+  animations: {
+    entry: SlidesApp.SlideTransition.FADE,
+    charts: SlidesApp.SlideTransition.SLIDE_FROM_RIGHT,
+    diagrams: SlidesApp.SlideTransition.SLIDE_FROM_BOTTOM
+  },
+  layout: {
+    margins: { top: 40, left: 40, right: 40, bottom: 40 },
+    chartSize: { width: 500, height: 300 },
+    diagramSize: { width: 600, height: 400 }
+  }
+};
+
+/**
+ * Creates the DEMA Group Portal Build Optimization presentation
+ */
 function createDEMAPresentation() {
   // 1. CONFIGURATION
   // DEMA Brand Colors and Status Colors from METRICS-SUMMARY.md
+  // Create presentation with custom settings
+  var deck = SlidesApp.create('DEMA Group Portal - Optimization Strategy');
+  deck.setPageHeight(PRESENTATION_CONFIG.layout.margins.top + PRESENTATION_CONFIG.layout.chartSize.height + PRESENTATION_CONFIG.layout.margins.bottom);
+  deck.setPageWidth(PRESENTATION_CONFIG.layout.margins.left + PRESENTATION_CONFIG.layout.chartSize.width + PRESENTATION_CONFIG.layout.margins.right);
+
+  // Remove default first slide
+  var slides = deck.getSlides();
+  if (slides.length > 0) { slides[0].remove(); }
+
+  // Theme configuration
   var theme = {
     // Brand Colors
     primary: '#0047AB',    // Blue
@@ -25,26 +56,105 @@ function createDEMAPresentation() {
   // Remove default first slide
   if (slides.length > 0) { slides[0].remove(); }
 
-  // 2. SLIDE GENERATION
-  createTitleSlide(deck, theme);
-  createAgendaSlide(deck, theme);
-  createOverviewSlide(deck, theme);
-  createMetricsSlide(deck, theme);
-  createBuildFlowSlide(deck, theme);
-  createMemorySlide(deck, theme);
-  createCacheSlide(deck, theme);
-  createErrorSlide(deck, theme);
-  createOptimizationSlide(deck, theme);
-  createPerformanceSlide(deck, theme);
-  createTimelineSlide(deck, theme);
-  createRiskSlide(deck, theme);
-  createNextStepsSlide(deck, theme);
-  createQASlide(deck, theme);
+  // Track progress for loading animation
+  var progress = createProgressBar(deck, theme);
+  var totalSteps = 14; // Total number of slides
+  var currentStep = 0;
+
+  // Create slides with progress updates
+  function updateProgress() {
+    currentStep++;
+    progress.updateProgress(currentStep / totalSteps);
+  }
+
+  // 2. SLIDE GENERATION WITH ANIMATIONS
+  createTitleSlide(deck, theme); updateProgress();
+  createAgendaSlide(deck, theme); updateProgress();
+  createOverviewSlide(deck, theme); updateProgress();
+  createMetricsSlide(deck, theme); updateProgress();
+  createBuildFlowSlide(deck, theme); updateProgress();
+  createMemorySlide(deck, theme); updateProgress();
+  createCacheSlide(deck, theme); updateProgress();
+  createErrorSlide(deck, theme); updateProgress();
+  createOptimizationSlide(deck, theme); updateProgress();
+  createPerformanceSlide(deck, theme); updateProgress();
+  createTimelineSlide(deck, theme); updateProgress();
+  createRiskSlide(deck, theme); updateProgress();
+  createNextStepsSlide(deck, theme); updateProgress();
+  createQASlide(deck, theme); updateProgress();
+
+  // Apply transitions
+  applyTransitions(deck);
+
+  // Add navigation buttons
+  addNavigation(deck, theme);
+
+  // Remove progress bar after completion
+  progress.remove();
 
   Logger.log('Presentation created: ' + deck.getUrl());
 }
 
 // --- SLIDE 1: TITLE ---
+/**
+ * Creates a progress bar for slide generation
+ */
+function createProgressBar(deck, theme) {
+  var slide = deck.getSlides()[0];
+  var bar = slide.insertShape(SlidesApp.ShapeType.RECTANGLE, 0, 0, 0, 5);
+  bar.getFill().setSolidFill(theme.accent);
+
+  return {
+    updateProgress: function(percent) {
+      bar.setWidth(deck.getPageWidth() * percent);
+    },
+    remove: function() {
+      bar.remove();
+    }
+  };
+}
+
+/**
+ * Applies transitions to all slides
+ */
+function applyTransitions(deck) {
+  deck.getSlides().forEach((slide, index) => {
+    if (index === 0) {
+      slide.setTransition(PRESENTATION_CONFIG.animations.entry);
+    } else if (slide.getShapes().some(s => s.getPageElementType() === SlidesApp.PageElementType.SHEETS_CHART)) {
+      slide.setTransition(PRESENTATION_CONFIG.animations.charts);
+    } else {
+      slide.setTransition(PRESENTATION_CONFIG.animations.diagrams);
+    }
+  });
+}
+
+/**
+ * Adds navigation buttons to all slides
+ */
+function addNavigation(deck, theme) {
+  deck.getSlides().forEach((slide, index) => {
+    if (index > 0) { // Skip first slide
+      var prevButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, 10, slide.getPageHeight() - 40, 30, 30);
+      var nextButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, slide.getPageWidth() - 40, slide.getPageHeight() - 40, 30, 30);
+      
+      prevButton.getFill().setSolidFill(theme.primary);
+      nextButton.getFill().setSolidFill(theme.primary);
+      
+      prevButton.getText().setText('←');
+      nextButton.getText().setText('→');
+      
+      [prevButton, nextButton].forEach(btn => {
+        btn.getText().getInputStyle().setForegroundColor(theme.white).setBold(true);
+        btn.getBorder().setTransparent();
+      });
+    }
+  });
+}
+
+/**
+ * Creates the title slide
+ */
 function createTitleSlide(deck, theme) {
   var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
   slide.getBackground().setSolidFill(theme.primary);
@@ -462,6 +572,44 @@ function createQASlide(deck, theme) {
 
 /**
  * Helper function to get status color
+ */
+/**
+ * Adds interactive elements to a slide
+ */
+function addInteractiveElements(slide, theme) {
+  // Add help button
+  var helpButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, slide.getPageWidth() - 40, 10, 30, 30);
+  helpButton.getFill().setSolidFill(theme.info);
+  helpButton.getText().setText('?');
+  helpButton.getText().getInputStyle().setForegroundColor(theme.white).setBold(true);
+  helpButton.getBorder().setTransparent();
+
+  // Add timestamp
+  var timestamp = slide.insertTextBox(`Last Updated: ${new Date().toLocaleString()}`)
+    .setLeft(10)
+    .setTop(slide.getPageHeight() - 20);
+  timestamp.getText().getInputStyle().setFontSize(8).setForegroundColor(theme.text);
+}
+
+/**
+ * Adds detailed speaker notes to a slide
+ */
+function addDetailedNotes(slide, notes) {
+  var speakerNotes = slide.getNotesPage().getSpeakerNotesShape();
+  var fullNotes = [
+    '=== Speaker Notes ===\n',
+    `Time Allocation: ${notes.time || '2-3'} minutes\n`,
+    '\nKey Points:\n' + notes.points.map(p => `- ${p}`).join('\n'),
+    '\nTransitions:\n' + notes.transitions.map(t => `- ${t}`).join('\n'),
+    '\nQuestions to Address:\n' + notes.questions.map(q => `- ${q}`).join('\n'),
+    '\nResources:\n' + notes.resources.map(r => `- ${r}`).join('\n')
+  ].join('\n');
+
+  speakerNotes.getText().setText(fullNotes);
+}
+
+/**
+ * Gets the appropriate status color
  */
 function getStatusColor(status, theme) {
   switch(status.toUpperCase()) {

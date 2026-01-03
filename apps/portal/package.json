@@ -30,7 +30,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwind-merge": "^2.6.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "ioredis": "^5.3.2"
   },
   "devDependencies": {
     "@cypress/webpack-preprocessor": "^7.0.2",
@@ -41,6 +42,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/ioredis": "^5.0.0",
     "autoprefixer": "10.4.16",
     "cypress": "^15.8.1",
     "cypress-axe": "^1.7.0",

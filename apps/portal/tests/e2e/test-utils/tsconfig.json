@@ -3,7 +3,7 @@
     "target": "es2015",
     "module": "commonjs",
     "lib": ["es2015", "dom"],
-    "types": ["cypress", "node"],
+    "types": ["cypress", "node", "@faker-js/faker"],
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,

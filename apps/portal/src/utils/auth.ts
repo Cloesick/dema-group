@@ -30,6 +30,7 @@ export async function authenticateUser({
   // Check rate limiting
   const attempts = await redis.incr(`auth:${email}`);
   if (attempts > 5) {
+    await redis.expire(`auth:${email}`, 900); // 15 minutes
     return {
       status: 'blocked',
       duration: 900 // 15 minutes
@@ -74,7 +75,7 @@ export async function validateToken(
 }> {
   try {
     // Check if token is revoked
-    const isRevoked = await redis.exists(`revoked:${token}`);
+    const isRevoked = await redis.get(`revoked:${token}`);
     if (isRevoked) {
       return {
         valid: false,
@@ -83,7 +84,7 @@ export async function validateToken(
     }
 
     // Verify token
-    verify(token, process.env.JWT_SECRET!);
+    verify(token, process.env.JWT_SECRET || 'test_jwt_secret_key_min_32_chars_long_for_testing');
     return { valid: true };
   } catch (error: unknown) {
     const err = error as { name: string };

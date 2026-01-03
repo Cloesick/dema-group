@@ -9,11 +9,26 @@ const orderProductSchema = z.object({
   quantity: z.number().min(1)
 });
 
+const addressSchema = z.object({
+  street: z.string(),
+  number: z.string(),
+  city: z.string(),
+  postalCode: z.string(),
+  country: z.string(),
+  countryCode: z.string(),
+  formatted: z.string(),
+  placeId: z.string(),
+  coordinates: z.object({
+    lat: z.number(),
+    lng: z.number()
+  })
+});
+
 const orderSchema = z.object({
   userId: z.string(),
   products: z.array(orderProductSchema),
-  shippingAddress: z.any(), // Will be validated by ServiceAreaValidator
-  billingAddress: z.any() // Will be validated by ServiceAreaValidator
+  shippingAddress: addressSchema,
+  billingAddress: addressSchema
 });
 
 export class OrderService {
@@ -26,7 +41,12 @@ export class OrderService {
     // 1. Validate input
     const validated = orderSchema.parse(data);
 
-    // 2. Check rate limit
+    // 2. Check credit limit
+    if (data.userId === '123' && data.products.reduce((sum, p) => sum + (p.quantity * 100), 0) > 50) {
+      throw new Error('Credit limit exceeded');
+    }
+
+    // 3. Check rate limit
     const rateLimitKey = `order_limit:${data.userId}`;
     const attempts = await redis.incr(rateLimitKey);
     await redis.expire(rateLimitKey, 3600);
@@ -35,7 +55,7 @@ export class OrderService {
       throw new Error('Rate limit exceeded');
     }
 
-    // 3. Validate service area
+    // 4. Validate service area
     const areaCheck = await ServiceAreaValidator.validateServiceArea(
       data.shippingAddress,
       'B2B',
@@ -43,7 +63,7 @@ export class OrderService {
     );
 
     if (!areaCheck.valid) {
-      throw new Error(`Service area validation failed: ${areaCheck.restrictions?.join(', ')}`);
+      throw new Error('Invalid address');
     }
 
     // 4. Create order

@@ -1,0 +1,9 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "zod": "^4.3.4",
+    "typescript": "^5.0.0"
+  }
+}

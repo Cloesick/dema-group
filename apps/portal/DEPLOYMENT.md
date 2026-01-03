@@ -15,13 +15,13 @@
    - Value set to: `apps/portal`
    - Status: Completed
 
-4. **Configure Build Settings**
+4. **Configure Build Settings** ✅
    - Framework Preset: `Next.js` ✅
-   - Build Command: Change from `turbo run build` to `pnpm build` ⚠️
+   - Build Command: `pnpm build` ✅
    - Install Command: `pnpm install` ✅
    - Output Directory: `Next.js default` ✅
    - Development Command: `next` ✅
-   - Status: In Progress
+   - Status: Completed
 
 5. **Set Node.js Version**
    - Navigate to: Project Settings > General > Node.js Version

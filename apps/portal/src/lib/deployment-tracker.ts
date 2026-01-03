@@ -1,6 +1,9 @@
 import { deploymentManager } from './deployment-manager';
 import { parseTypeScriptError } from './parse-build-error';
 import type { BuildError } from '@/types/deployment';
+import { errorPatterns } from './error-patterns';
+import { performanceTracker } from './performance-metrics';
+import { parseBuildLogs, formatBuildErrorForWindsurf, sendToWindsurf } from './parse-build-logs';
 
 interface VercelBuildLog {
   type: string;
@@ -17,11 +20,43 @@ class DeploymentTracker {
   private currentBuildId: string | null = null;
   private errorCount = 0;
   private buildStartTime: number = 0;
+  private deploymentTimeout: NodeJS.Timeout | null = null;
+  private maxBuildDuration = 15 * 60 * 1000; // 15 minutes
+  private retryCount = 0;
+  private maxRetries = 3;
+
+  private clearDeploymentTimeout() {
+    if (this.deploymentTimeout) {
+      clearTimeout(this.deploymentTimeout);
+      this.deploymentTimeout = null;
+    }
+  }
+
+  private setupDeploymentTimeout() {
+    this.clearDeploymentTimeout();
+    this.deploymentTimeout = setTimeout(async () => {
+      if (this.currentBuildId) {
+        await this.handleDeploymentTimeout();
+      }
+    }, this.maxBuildDuration);
+  }
+
+  private async handleDeploymentTimeout() {
+    await deploymentManager.logBuildStep('⚠️ Deployment timed out after 15 minutes', 'error');
+    await this.handleBuildComplete({
+      type: 'build-completed',
+      created: Date.now(),
+      payload: { state: 'ERROR', error: 'Deployment timeout' }
+    });
+  }
 
   async trackBuildStart(buildId: string) {
+    performanceTracker.startBuild();
     this.currentBuildId = buildId;
     this.errorCount = 0;
     this.buildStartTime = Date.now();
+    this.retryCount = 0;
+    this.setupDeploymentTimeout();
 
     await deploymentManager.startDeployment(buildId);
     await deploymentManager.logBuildStep('🚀 Build started', 'info');
@@ -46,6 +81,13 @@ class DeploymentTracker {
   }
 
   private async handleBuildError(log: VercelBuildLog) {
+    // Parse and send all errors to Windsurf
+    const buildErrors = parseBuildLogs(log.payload.text || '');
+    
+    for (const error of buildErrors) {
+      const formattedError = formatBuildErrorForWindsurf(error);
+      await sendToWindsurf(formattedError);
+    }
     this.errorCount++;
     
     if (log.payload.text?.includes('Type error:')) {
@@ -57,6 +99,8 @@ class DeploymentTracker {
   }
 
   protected async handleBuildComplete(log: VercelBuildLog) {
+    this.clearDeploymentTimeout();
+    performanceTracker.endBuild();
     const duration = ((Date.now() - this.buildStartTime) / 1000).toFixed(1);
     
     if (log.payload.state === 'ERROR') {
@@ -84,24 +128,52 @@ class DeploymentTracker {
     await deploymentManager.logBuildStep(log.payload.text, 'info');
   }
 
+  private async retryOperation<T>(operation: () => Promise<T>): Promise<T> {
+    try {
+      return await operation();
+    } catch (error) {
+      if (this.retryCount < this.maxRetries) {
+        this.retryCount++;
+        const delay = Math.pow(2, this.retryCount) * 1000; // Exponential backoff
+        await new Promise(resolve => setTimeout(resolve, delay));
+        return this.retryOperation(operation);
+      }
+      throw error;
+    }
+  }
+
   async reportTypeScriptError(error: BuildError) {
     const suggestions = await this.generateTypescriptSuggestions(error);
     error.suggestion = suggestions;
-    await deploymentManager.handleBuildError(error);
+    await this.retryOperation(() => deploymentManager.handleBuildError(error));
   }
 
   private async generateTypescriptSuggestions(error: BuildError): Promise<string> {
-    // Common TypeScript error patterns and their fixes
-    const errorPatterns = {
-      'Cannot find module': 'Run pnpm add -D for the missing package',
-      'Property .* does not exist on type': 'Add the missing property to the type definition',
-      'Type .* is not assignable to type': 'Ensure the types match or add type assertion',
-      'Parameter .* implicitly has an any type': 'Add explicit type annotation to the parameter'
-    };
+    // Check against known error patterns from error-patterns.ts
+    for (const pattern of errorPatterns) {
+      if (pattern.pattern.test(error.message)) {
+        const match = error.message.match(pattern.pattern);
+        if (match && pattern.autoFix) {
+          return typeof pattern.autoFix === 'function' 
+            ? pattern.autoFix(match)
+            : pattern.autoFix;
+        }
+        return pattern.suggestion + (pattern.example ? `\n\nExample:\n\`\`\`typescript\n${pattern.example}\n\`\`\`` : '');
+      }
+    }
 
-    for (const [pattern, fix] of Object.entries(errorPatterns)) {
-      if (new RegExp(pattern).test(error.message)) {
-        return fix;
+    // Fallback common error patterns
+    const commonPatterns: Array<[RegExp, string]> = [
+      [/Cannot find module ['"](.*?)['"]/, 'Run: pnpm add -D $1'],
+      [/Property ['"](.*?)['"] does not exist on type/, 'Add the missing property to the type definition or use optional chaining'],
+      [/Type ['"](.*?)['"] is not assignable to type ['"](.*?)['"]/, 'Ensure the types match or add appropriate type assertion'],
+      [/Parameter ['"](.*?)['"] implicitly has an any type/, 'Add explicit type annotation to the parameter']
+    ];
+
+    for (const [pattern, fix] of commonPatterns) {
+      const match = error.message.match(pattern);
+      if (match) {
+        return fix.replace('$1', match[1] || '');
       }
     }
 

@@ -1,10 +1,17 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "nextjs",
-  "buildCommand": "cd apps/portal && pnpm install && pnpm build",
+  "buildCommand": "cd apps/portal && pnpm install --no-frozen-lockfile && pnpm build",
   "outputDirectory": "apps/portal/.next",
-  "installCommand": "cd apps/portal && pnpm install",
+  "installCommand": "pnpm install --no-frozen-lockfile",
   "devCommand": "cd apps/portal && pnpm dev",
   "regions": ["arn1"],
-  "public": false
+  "public": false,
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD ./apps/portal/",
+  "git": {
+    "deploymentEnabled": {
+      "main": true,
+      "master": true
+    }
+  }
 }

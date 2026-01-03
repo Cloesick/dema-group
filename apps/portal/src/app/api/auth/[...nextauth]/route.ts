@@ -1,5 +1,7 @@
 import NextAuth from 'next-auth';
-import type { NextAuthOptions } from 'next-auth';
+import type { NextAuthOptions, User as NextAuthUser, Session } from 'next-auth';
+import type { JWT } from 'next-auth/jwt';
+import type { AdapterUser } from '@auth/core/adapters';
 import CredentialsProvider from 'next-auth/providers/credentials';
 
 export const authOptions: NextAuthOptions = {
@@ -28,13 +30,13 @@ export const authOptions: NextAuthOptions = {
     })
   ],
   callbacks: {
-    async jwt({ token, user }) {
+    async jwt({ token, user }: { token: JWT; user: (NextAuthUser | AdapterUser) & { role?: string } }) {
       if (user) {
         token.role = user.role;
       }
       return token;
     },
-    async session({ session, token }) {
+    async session({ session, token }: { session: Session; token: JWT & { role?: string } }) {
       if (session.user) {
         (session.user as any).role = token.role;
       }

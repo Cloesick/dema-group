@@ -1,5 +1,8 @@
 "use strict";
 
+// Import fetch for Node.js < 18
+const fetch = globalThis.fetch || require('node-fetch');
+
 const isVercel = process.env.VERCEL === '1';
 const startTime = Date.now();
 
@@ -67,8 +70,16 @@ function parseBuildLogs(logs) {
 async function sendToWindsurf(message, metadata = {}) {
   if (!message) return;
 
+  // Determine the API endpoint based on environment
+  const baseUrl = process.env.VERCEL_ENV === 'production'
+    ? 'https://dema-group-portal.vercel.app'
+    : process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : 'http://localhost:3000';
+
   try {
-    const response = await fetch('http://localhost:3000/api/windsurf/chat', {
+    console.log(`Sending to Windsurf at ${baseUrl}/api/windsurf/chat`);
+    const response = await fetch(`${baseUrl}/api/windsurf/chat`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -89,6 +100,13 @@ async function sendToWindsurf(message, metadata = {}) {
     }
   } catch (error) {
     console.error('Failed to send to Windsurf:', error);
+    // Log additional context for debugging
+    console.log('Environment:', {
+      VERCEL: process.env.VERCEL,
+      VERCEL_ENV: process.env.VERCEL_ENV,
+      VERCEL_URL: process.env.VERCEL_URL,
+      NODE_ENV: process.env.NODE_ENV
+    });
   }
 }
 

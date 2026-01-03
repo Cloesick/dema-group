@@ -14,6 +14,7 @@
     "test:e2e:open": "cypress open --config-file tests/e2e/cypress.config.ts"
   },
   "dependencies": {
+    "node-fetch": "^3.3.2",
     "@radix-ui/react-alert-dialog": "^1.0.5",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-label": "^2.0.2",

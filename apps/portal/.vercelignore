@@ -4,6 +4,9 @@
 **/*.spec.ts
 **/*.cy.ts
 **/chat-reporter.ts
+**/test-utils/**
+**/cypress/**
+**/generators/**
 /coverage
 
 # Development

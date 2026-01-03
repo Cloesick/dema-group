@@ -40,8 +40,10 @@
     "node_modules",
     "tests",
     "**/test-utils/**/*",
+    "**/cypress/**/*",
     "**/*.cy.ts",
     "**/*.test.ts",
-    "**/*.spec.ts"
+    "**/*.spec.ts",
+    "**/generators/**/*"
   ]
 }

@@ -58,7 +58,8 @@ describe('Authentication Security', () => {
       // Valid token
       vi.mocked(redis.get).mockResolvedValueOnce(null);
       process.env.JWT_SECRET = 'test_jwt_secret_key_min_32_chars_long_for_testing';
-      const validResult = await validateToken(token);
+      const validToken = createMockToken(user, { expired: false });
+      const validResult = await validateToken(validToken);
       expect(validResult.valid).toBe(true);
 
       // Expired token

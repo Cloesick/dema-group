@@ -38,14 +38,7 @@ export class OrderService {
     shippingAddress: VerifiedAddress;
     billingAddress: VerifiedAddress;
   }) {
-    // 1. Validate input
-    try {
-      orderSchema.parse(data);
-    } catch (error) {
-      throw new Error('Invalid address');
-    }
-
-    // 2. Validate product quantities
+    // 1. Validate product quantities
     for (const product of data.products) {
       if (product.quantity < 1) {
         throw new Error('Quantity below minimum');
@@ -53,6 +46,13 @@ export class OrderService {
       if (product.quantity > 5) {
         throw new Error('Quantity exceeds maximum');
       }
+    }
+
+    // 2. Validate input
+    try {
+      orderSchema.parse(data);
+    } catch (error) {
+      throw new Error('Invalid address');
     }
 
     // 3. Check rate limit

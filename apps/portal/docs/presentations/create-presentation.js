@@ -698,7 +698,7 @@ function createQASlide(deck, theme) {
     "devops@dema-group.com\n" +
     "Slack: #build-optimization"
   );
-  text.getInputStyle().setForegroundColor(theme.white);
+  text.getTextStyle().setForegroundColor(theme.white);
 
   // Add speaker notes
   slide.getNotesPage().getSpeakerNotesShape().getText().setText(
@@ -725,14 +725,14 @@ function addInteractiveElements(slide, theme) {
   var helpButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, slide.getPageWidth() - 40, 10, 30, 30);
   helpButton.getFill().setSolidFill(theme.info);
   helpButton.getText().setText('?');
-  helpButton.getText().getInputStyle().setForegroundColor(theme.white).setBold(true);
+  helpButton.getText().getTextStyle().setForegroundColor(theme.white).setBold(true);
   helpButton.getBorder().setTransparent();
 
   // Add timestamp
   var timestamp = slide.insertTextBox(`Last Updated: ${new Date().toLocaleString()}`)
     .setLeft(10)
     .setTop(slide.getPageHeight() - 20);
-  timestamp.getText().getInputStyle().setFontSize(8).setForegroundColor(theme.text);
+  timestamp.getText().getTextStyle().setFontSize(8).setForegroundColor(theme.text);
 }
 
 /**

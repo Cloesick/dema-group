@@ -88,12 +88,16 @@ function createDEMAPresentation() {
  * Creates a progress bar for slide generation
  */
 function createProgressBar(slide, theme) {
-  var bar = slide.insertShape(SlidesApp.ShapeType.RECTANGLE, 0, 0, 0, 5);
+  // Create initial progress bar with minimum width
+  var bar = slide.insertShape(SlidesApp.ShapeType.RECTANGLE, 0, 0, 1, 5);
   bar.getFill().setSolidFill(theme.accent);
 
   return {
     updateProgress: function(percent) {
-      bar.setWidth(slide.getPageWidth() * percent);
+      // Ensure minimum width of 1
+      var width = Math.max(1, slide.getPageWidth() * percent);
+      bar.setWidth(width);
+      bar.setLeft(0);
     },
     remove: function() {
       slide.remove(); // Remove entire progress slide

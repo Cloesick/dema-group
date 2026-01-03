@@ -41,9 +41,7 @@ describe('Accessibility Tests', () => {
     });
 
     it('should have sufficient color contrast', () => {
-      cy.checkA11y(null, {
-        runOnly: ['color-contrast']
-      });
+      cy.checkA11y(undefined, { rules: { runOnly: ['wcag2a', 'wcag2aa'] } });
     });
   });
 
@@ -98,7 +96,7 @@ describe('Accessibility Tests', () => {
 
       cy.get('[role="img"]').each(($chart) => {
         // Check for aria-label or aria-labelledby
-        expect($chart).to.satisfy(($el) => {
+        expect($chart).to.satisfy(($el: JQuery<HTMLElement>) => {
           return $el.attr('aria-label') || $el.attr('aria-labelledby');
         });
       });
@@ -149,21 +147,25 @@ describe('Accessibility Tests', () => {
       cy.visit('/compliance/evidence');
 
       // Check date picker
-      cy.findByLabelText(/start date/i).parent().checkA11y({
-        runOnly: [
-          'aria-allowed-attr',
-          'aria-required-attr',
-          'aria-valid-attr'
-        ]
+      cy.findByLabelText(/start date/i).parent().checkA11y(undefined, {
+        rules: {
+          runOnly: [
+            'aria-allowed-attr',
+            'aria-required-attr',
+            'aria-valid-attr'
+          ]
+        }
       });
 
       // Check multi-select
-      cy.findByLabelText(/sources/i).parent().checkA11y({
-        runOnly: [
-          'aria-required-attr',
-          'aria-valid-attr',
-          'select-name'
-        ]
+      cy.findByLabelText(/sources/i).parent().checkA11y(undefined, {
+        rules: {
+          runOnly: [
+            'aria-required-attr',
+            'aria-valid-attr',
+            'select-name'
+          ]
+        }
       });
     });
   });

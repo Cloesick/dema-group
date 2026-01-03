@@ -117,25 +117,30 @@ function createProgressBar(slide, theme) {
  * Adds navigation buttons to all slides
  */
 function addNavigation(deck, theme) {
+  // Fixed positions for navigation buttons
+  const BUTTON_SIZE = 30;
+  const MARGIN = 10;
+  const BOTTOM_OFFSET = 40;
+
   deck.getSlides().forEach((slide, index) => {
     if (index > 0) { // Skip first slide
-      var pageHeight = deck.getPageHeight();
-      var pageWidth = deck.getPageWidth();
-      var prevButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, 10, pageHeight - 40, 30, 30);
-      var nextButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, pageWidth - 40, pageHeight - 40, 30, 30);
+      // Create prev/next buttons at fixed positions
+      var prevButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, MARGIN, 500, BUTTON_SIZE, BUTTON_SIZE);
+      var nextButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, 680, 500, BUTTON_SIZE, BUTTON_SIZE);
       
-      prevButton.getFill().setSolidFill(theme.primary);
-      nextButton.getFill().setSolidFill(theme.primary);
-      
-      prevButton.getText().setText('←');
-      nextButton.getText().setText('→');
-      
+      // Style buttons
       [prevButton, nextButton].forEach(btn => {
+        btn.getFill().setSolidFill(theme.primary);
+        btn.getBorder().setTransparent();
+        
         var btnText = btn.getText();
         btnText.getTextStyle().setForegroundColor(theme.white);
         btnText.getTextStyle().setBold(true);
-        btn.getBorder().setTransparent();
       });
+      
+      // Set button labels
+      prevButton.getText().setText('←');
+      nextButton.getText().setText('→');
     }
   });
 }

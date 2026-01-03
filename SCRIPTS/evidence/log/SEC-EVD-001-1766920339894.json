@@ -1,9 +1,0 @@
-{
-  "ruleId": "SEC-EVD-001",
-  "type": "log",
-  "content": "{\n  \"type\": \"evidence-collection\",\n  \"timestamp\": \"2025-12-28T11:12:19.894Z\",\n  \"evidence\": {\n    \"id\": \"test-1\",\n    \"type\": \"cloudwatch-logs\",\n    \"source\": \"aws\",\n    \"collector\": \"cloudwatch\"\n  }\n}",
-  "timestamp": "2025-12-28T11:12:19.894Z",
-  "metadata": {
-    "collector": "compliance-monitor"
-  }
-}

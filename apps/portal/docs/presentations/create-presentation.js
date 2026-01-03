@@ -126,7 +126,9 @@ function addNavigation(deck, theme) {
       nextButton.getText().setText('→');
       
       [prevButton, nextButton].forEach(btn => {
-        btn.getText().getInputStyle().setForegroundColor(theme.white).setBold(true);
+        var btnText = btn.getText();
+        btnText.getTextStyle().setForegroundColor(theme.white);
+        btnText.getTextStyle().setBold(true);
         btn.getBorder().setTransparent();
       });
     }
@@ -143,12 +145,15 @@ function createTitleSlide(deck, theme) {
   var title = slide.getShapes()[0];
   var subtitle = slide.getShapes()[1];
   
-  title.getText().setText("DEMA Group Portal: Build Optimization"); //
-  title.getText().getInputStyle().setForegroundColor(theme.white).setBold(true);
+  var titleText = title.getText();
+  titleText.setText("DEMA Group Portal: Build Optimization");
+  titleText.getTextStyle().setForegroundColor(theme.white);
+  titleText.getTextStyle().setBold(true);
   
   var date = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
-  subtitle.getText().setText(`Status: CRITICAL | Build Optimization Strategy\n${date}`);
-  subtitle.getText().getInputStyle().setForegroundColor(theme.accent);
+  var subtitleText = subtitle.getText();
+  subtitleText.setText(`Status: CRITICAL | Build Optimization Strategy\n${date}`);
+  subtitleText.getTextStyle().setForegroundColor(theme.accent);
 
   // Add speaker notes
   slide.getNotesPage().getSpeakerNotesShape().getText().setText(
@@ -240,9 +245,9 @@ function createOverviewSlide(deck, theme) {
     );
     
     // Styling
-    textRange.getParagraphs()[0].getRange().getInputStyle().setFontSize(32).setBold(true).setForegroundColor(theme.primary);
-    textRange.getParagraphs()[2].getRange().getInputStyle().setForegroundColor(theme.primary).setFontSize(12);
-    textRange.getParagraphs()[3].getRange().getInputStyle().setForegroundColor(statusColor).setFontSize(12).setBold(true);
+    textRange.getParagraphs()[0].getRange().getTextStyle().setFontSize(32).setBold(true).setForegroundColor(theme.primary);
+    textRange.getParagraphs()[2].getRange().getTextStyle().setForegroundColor(theme.primary).setFontSize(12);
+    textRange.getParagraphs()[3].getRange().getTextStyle().setForegroundColor(statusColor).setFontSize(12).setBold(true);
   }
 }
 
@@ -293,7 +298,9 @@ function createBuildFlowDiagram(slide, theme) {
   steps.forEach(step => {
     var shape = slide.insertShape(SlidesApp.ShapeType.RECTANGLE, step.x, step.y, 100, 50);
     shape.getFill().setSolidFill(theme.primary);
-    shape.getText().setText(step.text).getInputStyle().setForegroundColor(theme.white);
+    var stepText = shape.getText();
+    stepText.setText(step.text);
+    stepText.getTextStyle().setForegroundColor(theme.white);
   });
 
   // Add arrows

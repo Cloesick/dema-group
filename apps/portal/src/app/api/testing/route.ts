@@ -1,10 +1,11 @@
 import { NextResponse } from 'next/server';
 // import { testDB } from '../../../../scripts/test-db';
-import { getServerSession } from 'next-auth/next';
+import { getServerSession } from 'next-auth';
+import type { Session } from 'next-auth';
 import { authOptions } from '../auth/[...nextauth]/route';
 
-async function checkAdmin() {
-  const session = await getServerSession(authOptions);
+async function checkAdmin(): Promise<Response | null> {
+  const session = (await getServerSession(authOptions)) as Session | null;
   if (session?.user?.role !== 'admin') {
     return new NextResponse(
       JSON.stringify({ error: 'Unauthorized' }),

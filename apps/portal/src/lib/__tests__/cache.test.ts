@@ -171,23 +171,6 @@ describe('Cache Module', () => {
 
   describe('cacheUtils', () => {
     describe('mset and mget', () => {
-      beforeEach(() => {
-        vi.mocked(cacheUtils.mset).mockImplementation(async (entries) => {
-          return Promise.resolve()
-        })
-        vi.mocked(cacheUtils.mget).mockImplementation(async (keys) => {
-          return keys.map(k => ({ test: k }))
-        })
-        vi.mocked(cacheUtils.invalidate).mockImplementation(async (key) => {
-          await redis.del(key)
-        })
-        vi.mocked(cacheUtils.invalidatePattern).mockImplementation(async (pattern) => {
-          const keys = await redis.keys(pattern)
-          if (keys.length > 0) {
-            await redis.del(...keys)
-          }
-        })
-      })
       it('should set and get multiple cache entries', async () => {
         const entries = [
           { key: 'key1', value: 'value1', ttl: 300 },
@@ -231,25 +214,29 @@ describe('Cache Module', () => {
     describe('invalidation methods', () => {
       it('should invalidate cache by key', async () => {
         const key = 'test-key'
-        const mockDel = vi.fn().mockResolvedValueOnce(1)
-        vi.spyOn(redis, 'del').mockImplementation(mockDel)
+        const mockRedis = {
+          del: vi.fn().mockResolvedValue(1)
+        }
+        vi.spyOn(redis, 'del').mockImplementation(mockRedis.del)
         
         await cacheUtils.invalidate(key)
-        expect(mockDel).toHaveBeenCalledWith(key)
+        expect(mockRedis.del).toHaveBeenCalledWith(key)
       })
 
       it('should invalidate cache by pattern', async () => {
         const pattern = 'test-*'
         const keys = ['test-1', 'test-2']
         
-        const mockKeys = vi.fn().mockResolvedValueOnce(keys)
-        const mockDel = vi.fn().mockResolvedValueOnce(2)
-        vi.spyOn(redis, 'keys').mockImplementation(mockKeys)
-        vi.spyOn(redis, 'del').mockImplementation(mockDel)
+        const mockRedis = {
+          keys: vi.fn().mockResolvedValue(keys),
+          del: vi.fn().mockResolvedValue(2)
+        }
+        vi.spyOn(redis, 'keys').mockImplementation(mockRedis.keys)
+        vi.spyOn(redis, 'del').mockImplementation(mockRedis.del)
         
         await cacheUtils.invalidatePattern(pattern)
-        expect(mockKeys).toHaveBeenCalledWith(pattern)
-        expect(mockDel).toHaveBeenCalledWith(...keys)
+        expect(mockRedis.keys).toHaveBeenCalledWith(pattern)
+        expect(mockRedis.del).toHaveBeenCalledWith(...keys)
       })
     })
   })
@@ -323,15 +310,17 @@ describe('Cache Module', () => {
           window: 60
         }
         
-        const mockIncr = vi.fn().mockResolvedValueOnce(3)
-        const mockExpire = vi.fn().mockResolvedValueOnce(1)
-        vi.spyOn(redis, 'incr').mockImplementation(mockIncr)
-        vi.spyOn(redis, 'expire').mockImplementation(mockExpire)
+        const mockRedis = {
+          incr: vi.fn().mockResolvedValue(3),
+          expire: vi.fn().mockResolvedValue(1)
+        }
+        vi.spyOn(redis, 'incr').mockImplementation(mockRedis.incr)
+        vi.spyOn(redis, 'expire').mockImplementation(mockRedis.expire)
         
         const result = await rateLimit(config.key, config.limit, config.window)
-        expect(result).toEqual(true)
-        expect(mockIncr).toHaveBeenCalledWith('rate:test-rate')
-        expect(mockExpire).toHaveBeenCalledWith('rate:test-rate', 60)
+        expect(result).toBe(true)
+        expect(mockRedis.incr).toHaveBeenCalledWith('rate:test-rate')
+        expect(mockRedis.expire).toHaveBeenCalledWith('rate:test-rate', 60)
       })
 
       it('should block requests over limit', async () => {
@@ -341,12 +330,16 @@ describe('Cache Module', () => {
           window: 60
         }
         
-        const mockIncr = vi.fn().mockResolvedValueOnce(6)
-        vi.spyOn(redis, 'incr').mockImplementation(mockIncr)
+        const mockRedis = {
+          incr: vi.fn().mockResolvedValue(6),
+          expire: vi.fn().mockResolvedValue(1)
+        }
+        vi.spyOn(redis, 'incr').mockImplementation(mockRedis.incr)
+        vi.spyOn(redis, 'expire').mockImplementation(mockRedis.expire)
         
         const result = await rateLimit(config.key, config.limit, config.window)
-        expect(result).toEqual(false)
-        expect(mockIncr).toHaveBeenCalledWith('rate:test-rate')
+        expect(result).toBe(false)
+        expect(mockRedis.incr).toHaveBeenCalledWith('rate:test-rate')
       })
 
       it('should handle Redis errors', async () => {
@@ -356,11 +349,15 @@ describe('Cache Module', () => {
           window: 60
         }
         
-        const mockIncr = vi.fn().mockRejectedValueOnce(mockRedisError)
-        vi.spyOn(redis, 'incr').mockImplementation(mockIncr)
+        const mockRedis = {
+          incr: vi.fn().mockRejectedValue(mockRedisError),
+          expire: vi.fn().mockResolvedValue(1)
+        }
+        vi.spyOn(redis, 'incr').mockImplementation(mockRedis.incr)
+        vi.spyOn(redis, 'expire').mockImplementation(mockRedis.expire)
         
         const result = await rateLimit(config.key, config.limit, config.window)
-        expect(result).toEqual(false)
+        expect(result).toBe(false)
       })
 
       it('should set expiry only on first request', async () => {
@@ -370,17 +367,18 @@ describe('Cache Module', () => {
           window: 60
         }
         
-        const mockIncr = vi.fn().mockResolvedValueOnce(1)
-        const mockExpire = vi.fn().mockResolvedValueOnce(1)
-        vi.spyOn(redis, 'incr').mockImplementation(mockIncr)
-        vi.spyOn(redis, 'expire').mockImplementation(mockExpire)
+        const mockRedis = {
+          incr: vi.fn().mockResolvedValueOnce(1).mockResolvedValueOnce(2),
+          expire: vi.fn().mockResolvedValue(1)
+        }
+        vi.spyOn(redis, 'incr').mockImplementation(mockRedis.incr)
+        vi.spyOn(redis, 'expire').mockImplementation(mockRedis.expire)
         
         await rateLimit(config.key, config.limit, config.window)
-        expect(mockExpire).toHaveBeenCalledWith('rate:test-rate', 60)
+        expect(mockRedis.expire).toHaveBeenCalledWith('rate:test-rate', 60)
         
-        mockIncr.mockResolvedValueOnce(2)
         await rateLimit(config.key, config.limit, config.window)
-        expect(mockExpire).toHaveBeenCalledTimes(1)
+        expect(mockRedis.expire).toHaveBeenCalledTimes(1)
       })
     })
   })

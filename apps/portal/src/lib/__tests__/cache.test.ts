@@ -171,11 +171,22 @@ describe('Cache Module', () => {
 
   describe('cacheUtils', () => {
     describe('mset and mget', () => {
-      vi.mocked(cacheUtils.mset).mockImplementation(async (entries) => {
-        return Promise.resolve()
-      })
-      vi.mocked(cacheUtils.mget).mockImplementation(async (keys) => {
-        return keys.map(k => ({ test: k }))
+      beforeEach(() => {
+        vi.mocked(cacheUtils.mset).mockImplementation(async (entries) => {
+          return Promise.resolve()
+        })
+        vi.mocked(cacheUtils.mget).mockImplementation(async (keys) => {
+          return keys.map(k => ({ test: k }))
+        })
+        vi.mocked(cacheUtils.invalidate).mockImplementation(async (key) => {
+          await redis.del(key)
+        })
+        vi.mocked(cacheUtils.invalidatePattern).mockImplementation(async (pattern) => {
+          const keys = await redis.keys(pattern)
+          if (keys.length > 0) {
+            await redis.del(...keys)
+          }
+        })
       })
       it('should set and get multiple cache entries', async () => {
         const entries = [
@@ -242,8 +253,14 @@ describe('Cache Module', () => {
 
   describe('rateLimit', () => {
     describe('validation', () => {
-      vi.mocked(rateLimit).mockImplementation(async (key, limit, window) => {
-        return key.startsWith('rate:') && limit > 0 && window > 0
+      beforeEach(() => {
+        vi.mocked(rateLimit).mockImplementation(async (key, limit, window) => {
+          const current = await redis.incr(key)
+          if (current === 1) {
+            await redis.expire(key, window)
+          }
+          return current <= limit
+        })
       })
       it('should validate rate limit config', () => {
         const validConfig = {

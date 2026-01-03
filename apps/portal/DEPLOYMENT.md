@@ -11,10 +11,9 @@
    - Portal path: `apps/portal`
    - Status: Completed
 
-3. **Set Root Directory**
-   - Navigate to: Project Settings > General > Root Directory
-   - Set value to: `apps/portal`
-   - Status: Pending
+3. **Set Root Directory** ✅
+   - Value set to: `apps/portal`
+   - Status: Completed
 
 4. **Configure Build Settings**
    - Go to: Project Settings > Build & Development Settings
@@ -24,7 +23,7 @@
    - Set Output Directory: `.next`
    - Status: Pending
 
-4. **Set Node.js Version**
+5. **Set Node.js Version**
    - Navigate to: Project Settings > General > Node.js Version
    - Set to: 18.x
    - Status: Pending

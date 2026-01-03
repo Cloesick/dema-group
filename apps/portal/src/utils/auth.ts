@@ -26,13 +26,13 @@ export async function authenticateUser({
   email: string;
   password: string;
 }): Promise<AuthResult> {
-  // Validate input
-  try {
-    userSchema.parse({ email, password });
-  } catch (error: unknown) {
+  // Check rate limiting
+  const attempts = await redis.incr(`auth:${email}`);
+  if (attempts > 5) {
+    await redis.expire(`auth:${email}`, 900); // 15 minutes
     return {
-      status: 'invalid',
-      errors: ['invalid_input']
+      status: 'blocked',
+      duration: 900 // 15 minutes
     };
   }
 
@@ -44,13 +44,13 @@ export async function authenticateUser({
     };
   }
 
-  // Check rate limiting
-  const attempts = await redis.incr(`auth:${email}`);
-  if (attempts > 5) {
-    await redis.expire(`auth:${email}`, 900); // 15 minutes
+  // Validate input
+  try {
+    userSchema.parse({ email, password });
+  } catch (error: unknown) {
     return {
-      status: 'blocked',
-      duration: 900 // 15 minutes
+      status: 'invalid',
+      errors: ['invalid_input']
     };
   }
 
@@ -84,7 +84,6 @@ export async function validateToken(
 
     // Verify token
     verify(token, process.env.JWT_SECRET || 'test_jwt_secret_key_min_32_chars_long_for_testing');
-    return { valid: true };
     return { valid: true };
   } catch (error: unknown) {
     const err = error as { name: string };

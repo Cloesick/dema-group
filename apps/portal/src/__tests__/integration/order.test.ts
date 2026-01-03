@@ -1,3 +1,4 @@
+import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { createMockUser } from '../mocks/auth';
 import { OrderService } from '@/utils/services/order';
 import { ProductService } from '@/utils/services/product';
@@ -5,7 +6,13 @@ import { CompanyVerification } from '@/utils/verification/companyVerification';
 import { ServiceAreaValidator } from '@/utils/verification/serviceArea';
 import { redis } from '@/utils/redis';
 
-jest.mock('@/utils/redis');
+vi.mock('@/utils/redis', () => ({
+  redis: {
+    incr: vi.fn(),
+    expire: vi.fn(),
+    ttl: vi.fn()
+  }
+}));
 
 describe('Order Integration', () => {
   const mockUser = createMockUser();
@@ -19,7 +26,7 @@ describe('Order Integration', () => {
   };
 
   beforeEach(() => {
-    jest.clearAllMocks();
+    vi.clearAllMocks();
   });
 
   describe('Order Creation', () => {
@@ -344,91 +351,69 @@ describe('Order Integration', () => {
   describe('Order Rate Limiting', () => {
     it('enforces rate limits', async () => {
       // Mock Redis to simulate rate limit exceeded
-      (redis.incr as jest.Mock).mockResolvedValueOnce(11);
+      vi.mocked(redis.incr).mockResolvedValueOnce(11);
+
+      const validAddress = {
+        street: 'Test Street',
+        number: '123',
+        city: 'Brussels',
+        postalCode: '1000',
+        country: 'Belgium',
+        countryCode: 'BE',
+        coordinates: {
+          lat: 50.8503,
+          lng: 4.3517
+        },
+        formatted: 'Test Street 123, 1000 Brussels, Belgium',
+        placeId: 'test_place_id'
+      };
 
       await expect(
         OrderService.createOrder({
-          userId: mockUser.id,
+          userId: '456', // Use different user ID to avoid credit limit
           products: [{
             id: mockProduct.id,
             quantity: 1
           }],
-          shippingAddress: {
-            street: 'Test Street',
-            number: '123',
-            city: 'Brussels',
-            postalCode: '1000',
-            country: 'Belgium',
-            countryCode: 'BE',
-            coordinates: {
-              lat: 50.8503,
-              lng: 4.3517
-            },
-            formatted: 'Test Street 123, 1000 Brussels, Belgium',
-            placeId: 'test_place_id'
-          },
-          billingAddress: {
-            street: 'Test Street',
-            number: '123',
-            city: 'Brussels',
-            postalCode: '1000',
-            country: 'Belgium',
-            countryCode: 'BE',
-            coordinates: {
-              lat: 50.8503,
-              lng: 4.3517
-            },
-            formatted: 'Test Street 123, 1000 Brussels, Belgium',
-            placeId: 'test_place_id'
-          }
+          shippingAddress: validAddress,
+          billingAddress: validAddress
         })
       ).rejects.toThrow('Rate limit exceeded');
     });
 
     it('resets rate limits after expiry', async () => {
       // Mock Redis to simulate expired rate limit
-      (redis.incr as jest.Mock).mockResolvedValueOnce(1);
-      (redis.ttl as jest.Mock).mockResolvedValueOnce(-2);
+      vi.mocked(redis.incr).mockResolvedValueOnce(1);
+      vi.mocked(redis.ttl).mockResolvedValueOnce(-2);
+
+      const validAddress = {
+        street: 'Test Street',
+        number: '123',
+        city: 'Brussels',
+        postalCode: '1000',
+        country: 'Belgium',
+        countryCode: 'BE',
+        coordinates: {
+          lat: 50.8503,
+          lng: 4.3517
+        },
+        formatted: 'Test Street 123, 1000 Brussels, Belgium',
+        placeId: 'test_place_id'
+      };
 
       const order = await OrderService.createOrder({
-        userId: mockUser.id,
+        userId: '456', // Use different user ID to avoid credit limit
         products: [{
           id: mockProduct.id,
           quantity: 1
         }],
-        shippingAddress: {
-          street: 'Test Street',
-          number: '123',
-          city: 'Brussels',
-          postalCode: '1000',
-          country: 'Belgium',
-          countryCode: 'BE',
-          coordinates: {
-            lat: 50.8503,
-            lng: 4.3517
-          },
-          formatted: 'Test Street 123, 1000 Brussels, Belgium',
-          placeId: 'test_place_id'
-        },
-        billingAddress: {
-          street: 'Test Street',
-          number: '123',
-          city: 'Brussels',
-          postalCode: '1000',
-          country: 'Belgium',
-          countryCode: 'BE',
-          coordinates: {
-            lat: 50.8503,
-            lng: 4.3517
-          },
-          formatted: 'Test Street 123, 1000 Brussels, Belgium',
-          placeId: 'test_place_id'
-        }
+        shippingAddress: validAddress,
+        billingAddress: validAddress
       });
 
       expect(order.status).toBe('pending');
       expect(redis.expire).toHaveBeenCalledWith(
-        `order_limit:${mockUser.id}`,
+        `order_limit:456`,
         3600
       );
     });

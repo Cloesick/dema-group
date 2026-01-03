@@ -86,7 +86,6 @@ export async function withCache<T>(
 
   return result
 }
-}
 
 // Cache invalidation helpers
 export const cacheUtils = {

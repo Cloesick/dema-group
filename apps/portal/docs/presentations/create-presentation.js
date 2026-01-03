@@ -278,7 +278,7 @@ function createMetricsSlide(deck, theme) {
     .build();
 
   // Create chart with specific dimensions
-  var chartShape = slide.insertChart(chart);
+  var chartShape = slide.insertEmbeddedChart(chart);
   chartShape.setLeft(150);
   chartShape.setTop(100);
   chartShape.setWidth(450);
@@ -347,7 +347,7 @@ function createMemorySlide(deck, theme) {
     .build();
 
   // Create chart with specific dimensions
-  var chartShape = slide.insertChart(chart);
+  var chartShape = slide.insertEmbeddedChart(chart);
   chartShape.setLeft(100);
   chartShape.setTop(100);
   chartShape.setWidth(500);
@@ -373,7 +373,7 @@ function createCacheSlide(deck, theme) {
     .build();
 
   // Create chart with specific dimensions
-  var chartShape = slide.insertChart(chart);
+  var chartShape = slide.insertEmbeddedChart(chart);
   chartShape.setLeft(100);
   chartShape.setTop(100);
   chartShape.setWidth(500);
@@ -402,7 +402,7 @@ function createErrorSlide(deck, theme) {
     .build();
 
   // Create chart with specific dimensions
-  var chartShape = slide.insertChart(chart);
+  var chartShape = slide.insertEmbeddedChart(chart);
   chartShape.setLeft(100);
   chartShape.setTop(100);
   chartShape.setWidth(500);
@@ -432,7 +432,7 @@ function createOptimizationSlide(deck, theme) {
     .build();
 
   // Create chart with specific dimensions
-  var chartShape = slide.insertChart(chart);
+  var chartShape = slide.insertEmbeddedChart(chart);
   chartShape.setLeft(100);
   chartShape.setTop(100);
   chartShape.setWidth(500);
@@ -461,7 +461,7 @@ function createPerformanceSlide(deck, theme) {
     .build();
 
   // Create chart with specific dimensions
-  var chartShape = slide.insertChart(chart);
+  var chartShape = slide.insertEmbeddedChart(chart);
   chartShape.setLeft(100);
   chartShape.setTop(100);
   chartShape.setWidth(500);
@@ -490,7 +490,7 @@ function createTimelineSlide(deck, theme) {
     .build();
 
   // Create chart with specific dimensions
-  var chartShape = slide.insertChart(chart);
+  var chartShape = slide.insertEmbeddedChart(chart);
   chartShape.setLeft(100);
   chartShape.setTop(100);
   chartShape.setWidth(500);

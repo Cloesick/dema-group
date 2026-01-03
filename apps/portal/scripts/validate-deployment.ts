@@ -12,8 +12,8 @@ const envSchema = z.object({
 
 // Define package.json requirements
 const packageSchema = z.object({
-  dependencies: z.record(z.string()),
-  devDependencies: z.record(z.string())
+  dependencies: z.record(z.string(), z.string()),
+  devDependencies: z.record(z.string(), z.string())
 });
 
 function validateEnvironment() {

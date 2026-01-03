@@ -10,9 +10,16 @@
     }
   },
   "ignoreCommand": "git diff --quiet HEAD^ HEAD ./",
-  "buildErrorWebhook": "https://dema-group-portal.vercel.app/api/webhooks/vercel-logs",
   "crons": [{
     "path": "/api/health",
     "schedule": "*/30 * * * *"
-  }]
-}
+  }],
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next",
+      "config": {
+        "buildCommand": "pnpm build | ts-node scripts/handle-build-error.ts"
+      }
+    }
+  ]}

@@ -1,12 +1,31 @@
 import { parseBuildLogs, sendToWindsurf } from '../src/lib/parse-build-logs';
 
+// Check if running in Vercel environment
+const isVercel = process.env.VERCEL === '1';
+
 // Get build output from stdin
 let buildOutput = '';
+let errorCount = 0;
+const startTime = Date.now();
 process.stdin.on('data', (data) => {
   buildOutput += data;
 });
 
 process.stdin.on('end', async () => {
+  // In Vercel, we want to parse the output differently
+  if (isVercel) {
+    // Extract timestamp and deployment ID
+    const deploymentId = process.env.VERCEL_GIT_COMMIT_SHA || 'unknown';
+    const timestamp = new Date().toISOString();
+
+    await sendToWindsurf(`# 🏗️ Build Started
+
+## Details
+- Deployment: ${deploymentId}
+- Time: ${timestamp}
+- Environment: ${process.env.VERCEL_ENV || 'unknown'}
+`);
+  }
   console.log('Parsing build errors...');
   
   const errors = parseBuildLogs(buildOutput);
@@ -16,6 +35,7 @@ process.stdin.on('end', async () => {
     process.exit(0);
   }
 
+  errorCount = errors.length;
   console.log(`Found ${errors.length} build errors`);
 
   for (const error of errors) {
@@ -49,6 +69,17 @@ Need help? Tag me in your response!`;
     });
   }
 
+  // Send final status if in Vercel
+  if (isVercel) {
+    const status = errorCount > 0 ? '❌ Failed' : '✅ Success';
+    await sendToWindsurf(`# Build ${status}
+
+## Summary
+- Total Errors: ${errorCount}
+- Duration: ${((Date.now() - startTime) / 1000).toFixed(1)}s
+`);
+  }
+
   // Exit with error code to indicate build failure
-  process.exit(1);
+  process.exit(errorCount > 0 ? 1 : 0);
 });

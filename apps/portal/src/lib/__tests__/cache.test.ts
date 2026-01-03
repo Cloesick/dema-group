@@ -5,7 +5,7 @@ import { validate, cacheOptionsSchema, redisConfigSchema, rateLimitConfigSchema 
 import type { RateLimitConfig, CacheOptions } from '../../types/cache'
 
 // Mock Redis
-vi.mock('../cache', () => {
+vi.mock('ioredis', () => {
   const mockRedis = {
     get: vi.fn(),
     setex: vi.fn(),
@@ -17,29 +17,7 @@ vi.mock('../cache', () => {
   }
 
   return {
-    redis: mockRedis,
-    withCache: vi.fn(),
-    CACHE_TTL: {
-      SHORT: 60,
-      MEDIUM: 300,
-      LONG: 3600,
-      VERY_LONG: 86400
-    },
-    CACHE_PREFIX: {
-      INVENTORY: 'inv:',
-      PRODUCT: 'prod:',
-      USER: 'user:',
-      SESSION: 'sess:',
-      RATE_LIMIT: 'rate:'
-    },
-    cacheUtils: {
-      invalidate: vi.fn(),
-      invalidatePattern: vi.fn(),
-      invalidatePrefix: vi.fn(),
-      mset: vi.fn(),
-      mget: vi.fn()
-    },
-    rateLimit: vi.fn()
+    default: vi.fn().mockImplementation(() => mockRedis)
   }
 })
 
@@ -214,29 +192,22 @@ describe('Cache Module', () => {
     describe('invalidation methods', () => {
       it('should invalidate cache by key', async () => {
         const key = 'test-key'
-        const mockRedis = {
-          del: vi.fn().mockResolvedValue(1)
-        }
-        vi.spyOn(redis, 'del').mockImplementation(mockRedis.del)
+        vi.spyOn(redis, 'del').mockResolvedValue(1)
         
         await cacheUtils.invalidate(key)
-        expect(mockRedis.del).toHaveBeenCalledWith(key)
+        expect(redis.del).toHaveBeenCalledWith(key)
       })
 
       it('should invalidate cache by pattern', async () => {
         const pattern = 'test-*'
         const keys = ['test-1', 'test-2']
         
-        const mockRedis = {
-          keys: vi.fn().mockResolvedValue(keys),
-          del: vi.fn().mockResolvedValue(2)
-        }
-        vi.spyOn(redis, 'keys').mockImplementation(mockRedis.keys)
-        vi.spyOn(redis, 'del').mockImplementation(mockRedis.del)
+        vi.spyOn(redis, 'keys').mockResolvedValue(keys)
+        vi.spyOn(redis, 'del').mockResolvedValue(2)
         
         await cacheUtils.invalidatePattern(pattern)
-        expect(mockRedis.keys).toHaveBeenCalledWith(pattern)
-        expect(mockRedis.del).toHaveBeenCalledWith(...keys)
+        expect(redis.keys).toHaveBeenCalledWith(pattern)
+        expect(redis.del).toHaveBeenCalledWith(...keys)
       })
     })
   })
@@ -303,6 +274,10 @@ describe('Cache Module', () => {
     })
 
     describe('rate limiting logic', () => {
+      beforeEach(() => {
+        vi.clearAllMocks()
+      })
+
       it('should allow requests within limit', async () => {
         const config: RateLimitConfig = {
           key: 'test-rate',
@@ -310,17 +285,13 @@ describe('Cache Module', () => {
           window: 60
         }
         
-        const mockRedis = {
-          incr: vi.fn().mockResolvedValue(3),
-          expire: vi.fn().mockResolvedValue(1)
-        }
-        vi.spyOn(redis, 'incr').mockImplementation(mockRedis.incr)
-        vi.spyOn(redis, 'expire').mockImplementation(mockRedis.expire)
+        vi.spyOn(redis, 'incr').mockResolvedValue(3)
+        vi.spyOn(redis, 'expire').mockResolvedValue(1)
         
         const result = await rateLimit(config.key, config.limit, config.window)
         expect(result).toBe(true)
-        expect(mockRedis.incr).toHaveBeenCalledWith('rate:test-rate')
-        expect(mockRedis.expire).toHaveBeenCalledWith('rate:test-rate', 60)
+        expect(redis.incr).toHaveBeenCalledWith('rate:test-rate')
+        expect(redis.expire).toHaveBeenCalledWith('rate:test-rate', 60)
       })
 
       it('should block requests over limit', async () => {
@@ -330,16 +301,12 @@ describe('Cache Module', () => {
           window: 60
         }
         
-        const mockRedis = {
-          incr: vi.fn().mockResolvedValue(6),
-          expire: vi.fn().mockResolvedValue(1)
-        }
-        vi.spyOn(redis, 'incr').mockImplementation(mockRedis.incr)
-        vi.spyOn(redis, 'expire').mockImplementation(mockRedis.expire)
+        vi.spyOn(redis, 'incr').mockResolvedValue(6)
+        vi.spyOn(redis, 'expire').mockResolvedValue(1)
         
         const result = await rateLimit(config.key, config.limit, config.window)
         expect(result).toBe(false)
-        expect(mockRedis.incr).toHaveBeenCalledWith('rate:test-rate')
+        expect(redis.incr).toHaveBeenCalledWith('rate:test-rate')
       })
 
       it('should handle Redis errors', async () => {
@@ -349,12 +316,8 @@ describe('Cache Module', () => {
           window: 60
         }
         
-        const mockRedis = {
-          incr: vi.fn().mockRejectedValue(mockRedisError),
-          expire: vi.fn().mockResolvedValue(1)
-        }
-        vi.spyOn(redis, 'incr').mockImplementation(mockRedis.incr)
-        vi.spyOn(redis, 'expire').mockImplementation(mockRedis.expire)
+        vi.spyOn(redis, 'incr').mockRejectedValue(mockRedisError)
+        vi.spyOn(redis, 'expire').mockResolvedValue(1)
         
         const result = await rateLimit(config.key, config.limit, config.window)
         expect(result).toBe(false)
@@ -367,18 +330,14 @@ describe('Cache Module', () => {
           window: 60
         }
         
-        const mockRedis = {
-          incr: vi.fn().mockResolvedValueOnce(1).mockResolvedValueOnce(2),
-          expire: vi.fn().mockResolvedValue(1)
-        }
-        vi.spyOn(redis, 'incr').mockImplementation(mockRedis.incr)
-        vi.spyOn(redis, 'expire').mockImplementation(mockRedis.expire)
+        vi.spyOn(redis, 'incr').mockResolvedValueOnce(1).mockResolvedValueOnce(2)
+        vi.spyOn(redis, 'expire').mockResolvedValue(1)
         
         await rateLimit(config.key, config.limit, config.window)
-        expect(mockRedis.expire).toHaveBeenCalledWith('rate:test-rate', 60)
+        expect(redis.expire).toHaveBeenCalledWith('rate:test-rate', 60)
         
         await rateLimit(config.key, config.limit, config.window)
-        expect(mockRedis.expire).toHaveBeenCalledTimes(1)
+        expect(redis.expire).toHaveBeenCalledTimes(1)
       })
     })
   })

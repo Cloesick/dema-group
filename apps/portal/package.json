@@ -13,7 +13,8 @@
     "test:e2e": "cypress run --config-file tests/e2e/cypress.config.ts",
     "test:e2e:open": "cypress open --config-file tests/e2e/cypress.config.ts",
     "test": "vitest run",
-    "test:watch": "vitest watch"
+    "test:watch": "vitest watch",
+    "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
     "node-fetch": "^3.3.2",
@@ -33,7 +34,9 @@
     "react-dom": "18.2.0",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
-    "ioredis": "^5.3.2"
+    "ioredis": "^5.3.2",
+    "pino": "^8.16.0",
+    "google-libphonenumber": "^3.2.33"
   },
   "devDependencies": {
     "@cypress/webpack-preprocessor": "^7.0.2",
@@ -47,6 +50,7 @@
     "@types/ioredis": "^5.0.0",
     "vitest": "^1.0.0",
     "@vitest/coverage-v8": "^1.0.0",
+    "tsconfig-paths": "^4.2.0",
     "autoprefixer": "10.4.16",
     "cypress": "^15.8.1",
     "cypress-axe": "^1.7.0",

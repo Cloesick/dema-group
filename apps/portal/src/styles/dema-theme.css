@@ -1,0 +1,171 @@
+/* DEMA Group Design System */
+
+:root {
+  /* Primary Colors */
+  --dema-primary: #0066B3;
+  --dema-primary-dark: #003D6B;
+  
+  /* Secondary Colors */
+  --dema-red: #E31E24;
+  --dema-red-dark: #B91C1C;
+  --dema-orange: #FF6B00;
+  --dema-orange-dark: #CC5500;
+  --dema-green: #22C55E;
+  --dema-green-dark: #16A34A;
+  --dema-purple: #6366F1;
+  --dema-purple-dark: #4F46E5;
+
+  /* Neutral Colors */
+  --dema-slate-50: #F8FAFC;
+  --dema-slate-100: #F1F5F9;
+  --dema-slate-200: #E2E8F0;
+  --dema-slate-300: #CBD5E1;
+  --dema-slate-400: #94A3B8;
+  --dema-slate-500: #64748B;
+  --dema-slate-600: #475569;
+  --dema-slate-700: #334155;
+  --dema-slate-800: #1E293B;
+  --dema-slate-900: #0F172A;
+
+  /* Typography */
+  --dema-font-heading: "Arial Black", "Arial Bold", Arial, sans-serif;
+  --dema-font-body: Arial, sans-serif;
+
+  /* Spacing */
+  --dema-spacing-xs: 0.25rem;
+  --dema-spacing-sm: 0.5rem;
+  --dema-spacing-md: 1rem;
+  --dema-spacing-lg: 1.5rem;
+  --dema-spacing-xl: 2rem;
+
+  /* Borders */
+  --dema-border-radius-sm: 0.25rem;
+  --dema-border-radius-md: 0.5rem;
+  --dema-border-radius-lg: 1rem;
+  --dema-border-radius-full: 9999px;
+}
+
+/* Typography Classes */
+.dema-heading {
+  font-family: var(--dema-font-heading);
+  font-weight: 900;
+  letter-spacing: -0.025em;
+}
+
+.dema-body {
+  font-family: var(--dema-font-body);
+  font-weight: 400;
+}
+
+/* Button Styles */
+.dema-btn {
+  padding: var(--dema-spacing-sm) var(--dema-spacing-md);
+  border-radius: var(--dema-border-radius-md);
+  font-family: var(--dema-font-body);
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.dema-btn-primary {
+  background: linear-gradient(135deg, var(--dema-primary), var(--dema-primary-dark));
+  color: white;
+}
+
+.dema-btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Card Styles */
+.dema-card {
+  background: white;
+  border-radius: var(--dema-border-radius-lg);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: var(--dema-spacing-lg);
+}
+
+/* Navigation Styles */
+.dema-nav {
+  background: var(--dema-slate-900);
+  color: white;
+}
+
+.dema-nav-link {
+  color: var(--dema-slate-300);
+  transition: color 0.2s ease;
+}
+
+.dema-nav-link:hover {
+  color: white;
+}
+
+/* Form Styles */
+.dema-input {
+  border: 1px solid var(--dema-slate-200);
+  border-radius: var(--dema-border-radius-md);
+  padding: var(--dema-spacing-sm) var(--dema-spacing-md);
+  font-family: var(--dema-font-body);
+}
+
+.dema-input:focus {
+  outline: none;
+  border-color: var(--dema-primary);
+  box-shadow: 0 0 0 3px rgba(0, 102, 179, 0.1);
+}
+
+/* Table Styles */
+.dema-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dema-table th {
+  background: var(--dema-slate-50);
+  font-family: var(--dema-font-heading);
+  font-weight: 700;
+  text-align: left;
+  padding: var(--dema-spacing-sm) var(--dema-spacing-md);
+}
+
+.dema-table td {
+  padding: var(--dema-spacing-sm) var(--dema-spacing-md);
+  border-bottom: 1px solid var(--dema-slate-200);
+}
+
+/* Badge Styles */
+.dema-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--dema-spacing-xs) var(--dema-spacing-sm);
+  border-radius: var(--dema-border-radius-full);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.dema-badge-blue {
+  background: rgba(0, 102, 179, 0.1);
+  color: var(--dema-primary);
+}
+
+.dema-badge-red {
+  background: rgba(227, 30, 36, 0.1);
+  color: var(--dema-red);
+}
+
+.dema-badge-orange {
+  background: rgba(255, 107, 0, 0.1);
+  color: var(--dema-orange);
+}
+
+/* Utility Classes */
+.dema-shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.dema-shadow {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.dema-shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}

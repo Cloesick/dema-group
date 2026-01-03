@@ -1,3 +1,12 @@
+export interface BuildLogEvent {
+  timestamp: string;
+  type: 'build-log' | 'command';
+  payload?: {
+    text?: string;
+  };
+  message?: string;
+}
+
 export interface VercelDeploymentMeta {
   branch?: string;
   commit?: string;

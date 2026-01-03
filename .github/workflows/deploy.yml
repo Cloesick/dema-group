@@ -1,0 +1,79 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'apps/portal/**'
+      - 'SCRIPTS/**'
+      - '.github/workflows/deploy.yml'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+          cache: 'pnpm'
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Install dependencies
+        run: |
+          cd apps/portal
+          pnpm install
+
+      - name: Build
+        run: |
+          cd apps/portal
+          pnpm build
+        env:
+          NEXT_PUBLIC_API_URL: ${{ secrets.NEXT_PUBLIC_API_URL }}
+
+      - name: Run compliance checks
+        run: |
+          cd SCRIPTS
+          pnpm install
+          NODE_ENV=production node compliance/compliance-monitor.js
+        env:
+          GSUITE_CLIENT_EMAIL: ${{ secrets.GSUITE_CLIENT_EMAIL }}
+          GSUITE_PRIVATE_KEY: ${{ secrets.GSUITE_PRIVATE_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_ORG: ${{ secrets.GITHUB_ORG }}
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+      - name: Deploy to production
+        uses: netlify/actions/cli@master
+        with:
+          args: deploy --prod --dir=apps/portal/.next
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+      - name: Run post-deployment checks
+        run: |
+          cd SCRIPTS
+          NODE_ENV=production node compliance/deployment-monitor.js
+        env:
+          DEPLOYMENT_URL: ${{ secrets.DEPLOYMENT_URL }}
+          HEALTH_CHECK_PATH: /api/health
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          curl -X POST ${{ secrets.SLACK_WEBHOOK_URL }} \
+          -H 'Content-Type: application/json' \
+          -d '{
+            "text": "⚠️ Deployment failed! Check the logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          }'

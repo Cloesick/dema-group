@@ -1,0 +1,59 @@
+name: Test Dashboard CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+  workflow_dispatch:
+    inputs:
+      suite:
+        description: 'Test suite to run'
+        required: false
+        default: 'all'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [18.x]
+        
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'pnpm'
+        
+    - name: Install dependencies
+      run: pnpm install
+      
+    - name: Run tests
+      run: pnpm test:smart:parallel
+      env:
+        CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Upload test results
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: test-results
+        path: cypress/reports
+        
+    - name: Update dashboard
+      if: success() || failure()
+      run: |
+        curl -X POST ${{ secrets.DASHBOARD_WEBHOOK_URL }} \
+          -H "Content-Type: application/json" \
+          -d '{
+            "run_id": "${{ github.run_id }}",
+            "commit": "${{ github.sha }}",
+            "branch": "${{ github.ref }}",
+            "status": "${{ job.status }}",
+            "artifacts_url": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          }'

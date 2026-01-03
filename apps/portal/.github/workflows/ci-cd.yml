@@ -1,0 +1,323 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, develop, 'feature/**', 'release/**' ]
+  pull_request:
+    branches: [ main, develop ]
+  schedule:
+    - cron: '0 */4 * * *'  # Run every 4 hours
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to deploy to'
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+          - development
+          - staging
+          - production
+      debug:
+        description: 'Enable debug mode'
+        required: false
+        type: boolean
+        default: false
+
+env:
+  CYPRESS_CACHE_FOLDER: ~/.cache/Cypress
+  NODE_ENV: ${{ github.event.inputs.environment || 'test' }}
+  DEBUG: ${{ github.event.inputs.debug == 'true' && '*' || '' }}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Type check
+        run: pnpm tsc --noEmit
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Check formatting
+        run: pnpm format:check
+
+      - name: Check dependencies
+        uses: actions/dependency-review-action@v3
+
+  test:
+    needs: validate
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [1, 2, 3, 4]
+        browser: [chrome, firefox]
+        include:
+          - browser: chrome
+            monitor: true
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Start application
+        run: pnpm dev & npx wait-on http://localhost:3001
+
+      - name: Run tests
+        run: |
+          pnpm test:smart \
+            --browser ${{ matrix.browser }} \
+            --shard ${{ matrix.shard }}/4 \
+            --record \
+            --parallel \
+            --ci-build-id ${{ github.run_id }}
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload screenshots
+        if: failure()
+        uses: actions/upload-artifact@v3
+        with:
+          name: cypress-screenshots-${{ matrix.browser }}-${{ matrix.shard }}
+          path: cypress/screenshots
+
+      - name: Performance monitoring
+        if: matrix.monitor
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const metrics = JSON.parse(fs.readFileSync('cypress/reports/performance.json'));
+            const summary = `
+            ## Performance Summary
+            - Page Load: ${metrics.pageLoad}ms
+            - First Paint: ${metrics.firstPaint}ms
+            - TTI: ${metrics.timeToInteractive}ms
+            - Memory: ${Math.round(metrics.memoryUsage / 1024 / 1024)}MB
+            `;
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: summary
+            });
+
+  security:
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run SAST
+        uses: github/codeql-action/analyze@v2
+        with:
+          languages: javascript, typescript
+
+      - name: Run dependency scan
+        uses: snyk/actions/node@master
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+
+      - name: Run container scan
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: 'fs'
+          ignore-unfixed: true
+          format: 'sarif'
+          output: 'trivy-results.sarif'
+
+      - name: Upload security results
+        uses: github/codeql-action/upload-sarif@v2
+        with:
+          sarif_file: trivy-results.sarif
+
+  build:
+    needs: [test, security]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build
+        run: pnpm build
+
+      - name: Analyze bundle
+        run: |
+          pnpm analyze
+          echo "## Bundle Analysis" >> $GITHUB_STEP_SUMMARY
+          cat .next/analyze/bundle-analysis.md >> $GITHUB_STEP_SUMMARY
+
+      - name: Upload build
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: .next
+
+  deploy-staging:
+    needs: build
+    if: github.ref == 'refs/heads/develop'
+    runs-on: ubuntu-latest
+    environment:
+      name: staging
+      url: https://staging.dema-group.com
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Download build
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+          path: .next
+
+      - name: Configure AWS
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-1
+
+      - name: Deploy to staging
+        run: |
+          aws s3 sync .next s3://staging-dema-group-portal
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.STAGING_DISTRIBUTION_ID }}
+
+      - name: Run smoke tests
+        run: pnpm test:smoke --url https://staging.dema-group.com
+
+  deploy-production:
+    needs: deploy-staging
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://portal.dema-group.com
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Download build
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+          path: .next
+
+      - name: Configure AWS
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-1
+
+      - name: Deploy to production
+        run: |
+          aws s3 sync .next s3://prod-dema-group-portal
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.PROD_DISTRIBUTION_ID }}
+
+      - name: Run smoke tests
+        run: pnpm test:smoke --url https://portal.dema-group.com
+
+      - name: Monitor deployment
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const deployment = {
+              environment: 'production',
+              sha: context.sha,
+              ref: context.ref,
+              task: 'deploy',
+              description: 'Production deployment',
+              creator: context.actor,
+              target_url: 'https://portal.dema-group.com'
+            };
+            
+            await github.rest.repos.createDeploymentStatus({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              deployment_id: context.payload.deployment.id,
+              state: 'success',
+              ...deployment
+            });
+
+  notify:
+    needs: [deploy-staging, deploy-production]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify Slack
+        uses: slackapi/slack-github-action@v1.24.0
+        with:
+          channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
+          slack-message: |
+            *Deployment Status*: ${{ job.status }}
+            *Repository*: ${{ github.repository }}
+            *Branch*: ${{ github.ref }}
+            *Commit*: ${{ github.sha }}
+            *Author*: ${{ github.actor }}
+            
+            *Build Details*: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+
+      - name: Create release
+        if: github.ref == 'refs/heads/main' && success()
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ github.run_number }}
+          release_name: Release v${{ github.run_number }}
+          body: |
+            ## Release Notes
+            
+            ### 🚀 New Features
+            ${{ github.event.head_commit.message }}
+            
+            ### 📊 Performance Metrics
+            - Build Time: ${{ steps.build.outputs.duration }}s
+            - Bundle Size: ${{ steps.build.outputs.bundle_size }}KB
+            - Test Coverage: ${{ steps.test.outputs.coverage }}%
+            
+            ### 🔍 Quality Gates
+            - Tests: ✅ All ${{ steps.test.outputs.total }} tests passed
+            - Security: ✅ No high/critical vulnerabilities
+            - Performance: ✅ All metrics within threshold
+            
+            ### 🔗 Links
+            - [Production](https://portal.dema-group.com)
+            - [Staging](https://staging.dema-group.com)
+            - [Build Details](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          draft: false
+          prerelease: false

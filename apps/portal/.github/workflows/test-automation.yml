@@ -1,0 +1,197 @@
+name: Test Automation
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+  schedule:
+    - cron: '0 */4 * * *'  # Run every 4 hours
+  workflow_dispatch:
+    inputs:
+      suite:
+        description: 'Test suite to run'
+        required: false
+        default: 'all'
+      browser:
+        description: 'Browser to use'
+        required: false
+        default: 'chrome'
+        type: choice
+        options:
+          - chrome
+          - firefox
+          - electron
+      parallel:
+        description: 'Number of parallel processes'
+        required: false
+        default: '4'
+
+env:
+  CYPRESS_CACHE_FOLDER: ~/.cache/Cypress
+  NODE_ENV: test
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set test matrix
+        id: set-matrix
+        run: |
+          if [[ "${{ github.event.inputs.suite }}" == "all" ]]; then
+            echo "matrix=$(ls cypress/e2e/*/*.cy.ts | jq -R -s -c 'split("\n")[:-1]')" >> $GITHUB_OUTPUT
+          else
+            echo "matrix=$(ls cypress/e2e/${{ github.event.inputs.suite }}/*.cy.ts | jq -R -s -c 'split("\n")[:-1]')" >> $GITHUB_OUTPUT
+          fi
+
+  install-and-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+          cache: 'pnpm'
+          
+      - name: Cache Cypress binary
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/Cypress
+          key: cypress-binary-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          
+      - name: Install dependencies
+        run: pnpm install
+
+  test:
+    needs: [prepare, install-and-cache]
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        spec: ${{ fromJson(needs.prepare.outputs.matrix) }}
+        browser: [chrome]
+        containers: [1, 2, 3, 4]
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+          cache: 'pnpm'
+          
+      - name: Install dependencies
+        run: pnpm install
+        
+      - name: Start application
+        run: pnpm dev & npx wait-on http://localhost:3001
+        
+      - name: Run Cypress tests
+        run: |
+          pnpm cypress run \
+            --browser ${{ github.event.inputs.browser || 'chrome' }} \
+            --spec ${{ matrix.spec }} \
+            --parallel \
+            --record \
+            --group "Specs - Container ${{ matrix.containers }}"
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Upload screenshots
+        if: failure()
+        uses: actions/upload-artifact@v3
+        with:
+          name: cypress-screenshots-${{ matrix.containers }}
+          path: cypress/screenshots
+          
+      - name: Upload videos
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: cypress-videos-${{ matrix.containers }}
+          path: cypress/videos
+
+  performance:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Run Lighthouse CI
+        uses: treosh/lighthouse-ci-action@v9
+        with:
+          urls: |
+            http://localhost:3001/admin/testing
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+          
+      - name: Run bundle analysis
+        run: pnpm analyze
+        
+      - name: Check bundle size
+        uses: preactjs/compressed-size-action@v2
+        with:
+          pattern: ".next/**/*.js"
+          strip-hash: true
+          minimum-change-threshold: 100
+
+  report:
+    needs: [test, performance]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Download all artifacts
+        uses: actions/download-artifact@v3
+        
+      - name: Generate test report
+        run: pnpm test:report
+        
+      - name: Upload test report
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-report
+          path: cypress/reports
+          
+      - name: Update dashboard
+        run: |
+          curl -X POST ${{ secrets.DASHBOARD_WEBHOOK_URL }} \
+            -H "Content-Type: application/json" \
+            -d '{
+              "run_id": "${{ github.run_id }}",
+              "commit": "${{ github.sha }}",
+              "branch": "${{ github.ref }}",
+              "status": "${{ job.status }}",
+              "artifacts_url": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            }'
+
+  notify:
+    needs: report
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Notify Slack
+        uses: 8398a7/action-slack@v3
+        with:
+          status: ${{ job.status }}
+          fields: repo,message,commit,author,action,eventName,ref,workflow,job,took
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          
+      - name: Notify Teams
+        uses: jdcargile/ms-teams-notification@v1.3
+        with:
+          github-token: ${{ github.token }}
+          ms-teams-webhook-uri: ${{ secrets.MS_TEAMS_WEBHOOK_URL }}
+          notification-summary: "Test Automation Run ${{ github.run_number }}"
+          notification-color: ${{ job.status == 'success' && '28a745' || 'dc3545' }}
+          timezone: "UTC"

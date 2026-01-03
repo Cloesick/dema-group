@@ -1,0 +1,162 @@
+{
+  "auth": {
+    "createAccount": "Account Aanmaken",
+    "signup": "Registreren",
+    "passwordRequirements": "Wachtwoord moet minimaal 12 tekens lang zijn en hoofdletters, kleine letters, cijfers en speciale tekens bevatten",
+    "individual": "Particulier",
+    "business": "Bedrijf",
+    "register": "Registreren",
+    "roles": {
+      "b2bCustomer": "Zakelijke Klant",
+      "b2cCustomer": "Particuliere Klant",
+      "employee": "Medewerker",
+      "partner": "Partner",
+      "supplier": "Leverancier"
+    },
+    "labels": {
+      "relationship": "Uw relatie met DEMA Group",
+      "email": "E-mailadres",
+      "password": "Wachtwoord",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "phone": "Telefoonnummer",
+      "companyName": "Bedrijfsnaam",
+      "vatNumber": "BTW-nummer",
+      "industry": "Industrie",
+      "companySize": "Bedrijfsgrootte",
+      "company": "Bedrijf",
+      "department": "Afdeling",
+      "employeeId": "Werknemersnummer",
+      "marketingConsent": "Ik ga akkoord met het ontvangen van marketingcommunicatie"
+    },
+    "fields": {
+      "vatNumber": "BTW-nummer",
+      "companyName": "Bedrijfsnaam",
+      "industryType": "Type Industrie",
+      "selectIndustry": "Selecteer Industrie",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "email": "E-mail"
+    },
+    "errors": {
+      "creditCheckFailed": "Kredietcontrole mislukt. Neem contact op met ons verkoopteam.",
+      "registrationFailed": "Registratie mislukt. Probeer het opnieuw."
+    }
+  },
+  "departments": {
+    "sales": "Verkoop",
+    "support": "Ondersteuning",
+    "logistics": "Logistiek",
+    "finance": "Financiën",
+    "hr": "HR",
+    "it": "IT",
+    "operations": "Operaties"
+  },
+  "industries": {
+    "manufacturing": "Productie",
+    "construction": "Bouw",
+    "wholesale": "Groothandel",
+    "retail": "Detailhandel",
+    "services": "Diensten"
+  },
+  "common": {
+    "backToHome": "Terug naar Home",
+    "visitWebsite": "Website Bezoeken",
+    "browseProducts": "Producten Bekijken",
+    "contactUs": "Contact",
+    "learnMore": "Meer Info",
+    "viewAll": "Alles Bekijken",
+    "languages": "Talen",
+    "search": "Zoeken",
+    "processing": "Verwerken...",
+    "select": "Selecteer",
+    "continue": "Doorgaan",
+    "back": "Terug"
+  },
+  "navigation": {
+    "individuals": "Particulieren",
+    "professionals": "Professionals",
+    "companies": "Bedrijven",
+    "all-products": "Alle Producten",
+    "about": "Over Ons",
+    "inspiration": "Inspiratie",
+    "help": "Help",
+    "promotions": "Promoties",
+    "myportal": "Mijn Portal"
+  },
+  "home": {
+    "title": "Welkom bij DEMA Group",
+    "subtitle": "Uw One-Stop Oplossing voor Industriële Hardware",
+    "browseAllProducts": "Alle Producten Bekijken",
+    "ourCompanies": "Onze Bedrijven",
+    "needHelp": "Hulp Nodig?",
+    "helpDescription": "Onze experts helpen u graag de juiste oplossing te vinden",
+    "startChat": "Start Chat",
+    "stats": {
+      "companies": "Bedrijven",
+      "products": "Producten",
+      "yearsExperience": "Jaar Ervaring",
+      "serviceAvailable": "Service Beschikbaar"
+    }
+  },
+  "company": {
+    "ourProducts": "Onze Producten",
+    "productCategories": "Productcategorieën",
+    "ourServices": "Onze Diensten",
+    "industriesWeServe": "Industrieën die we Bedienen",
+    "otherCompanies": "Andere Bedrijven",
+    "partOfDemaGroup": "Onderdeel van DEMA Group"
+  },
+  "footer": {
+    "description": "DEMA Group is een toonaangevende leverancier van industriële oplossingen, met expertise in pompen, kleppen, transportbanden en precisiecomponenten.",
+    "companies": "Onze Bedrijven",
+    "contact": "Contact",
+    "allRightsReserved": "Alle rechten voorbehouden"
+  },
+  "companies": {
+    "dema": {
+      "tagline": "Kwaliteitsproducten voor land- en tuinbouw, bouw & industrie",
+      "description": "DEMA levert een ruim gamma kwaliteitsproducten voor land- en tuinbouw, bouwaannemers, tuinaanleggers, installateurs en industriëlen."
+    },
+    "fluxer": {
+      "tagline": "Uw partner in process flow",
+      "description": "Fluxer is uw gecertificeerde partner voor producten, diensten en oplossingen in de industrie voor alles wat met transport via leidingen te maken heeft."
+    },
+    "beltz247": {
+      "tagline": "24/7 ondersteuning in transportbanden & mechanisch onderhoud",
+      "description": "Het gedreven team van Beltz247 is uw ideale partner voor kwalitatieve transportbanden en mechanisch onderhoud."
+    },
+    "devisschere": {
+      "tagline": "Specialist in het ontwerpen, aanleggen en onderhouden van beregening",
+      "description": "De Visschere Technics is specialist in het ontwerpen, aanleggen en onderhouden van beregeningssystemen."
+    },
+    "accu": {
+      "tagline": "Precisiecomponenten - Koop 1 of miljoenen",
+      "description": "Wereldwijde leverancier van precisiecomponenten met 500.000+ SKUs. Van schroeven tot afstandhouders, ringen tot handgrepen."
+    }
+  },
+  "products": {
+    "pump": "Pomp",
+    "pumpDesc": "Industriële pompen voor alle toepassingen",
+    "pipes": "Buizen",
+    "pipesDesc": "Hoogwaardige buizen en fittingen",
+    "tools": "Gereedschap",
+    "toolsDesc": "Professioneel gereedschap en apparatuur",
+    "compressor": "Compressor",
+    "compressorDesc": "Luchtcompressoren en accessoires",
+    "valve": "Klep",
+    "valveDesc": "Regel- en veiligheidskleppen",
+    "actuator": "Actuator",
+    "actuatorDesc": "Elektrische en pneumatische actuatoren",
+    "instrumentation": "Instrumentatie",
+    "instrumentationDesc": "Meet- en regelinstrumenten",
+    "conveyor": "Transportband",
+    "conveyorDesc": "Transportbanden en systemen",
+    "sprinkler": "Sproeier",
+    "sprinklerDesc": "Beregeningssproeiers en systemen",
+    "drip": "Druppelirrigatie",
+    "dripDesc": "Efficiënte druppelirrigatieoplossingen",
+    "screws": "Schroeven",
+    "screwsDesc": "Precisie schroeven en bevestigingsmaterialen"
+  }
+}

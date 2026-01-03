@@ -1,0 +1,9 @@
+{
+  "ruleId": "SEC-EMP-001",
+  "type": "log",
+  "content": "{\n  \"type\": \"employee-onboarding\",\n  \"timestamp\": \"2025-12-28T11:32:07.311Z\",\n  \"employee\": {\n    \"id\": \"emp-1766921527309\",\n    \"email\": \"john.doe@dema-group.com\",\n    \"department\": \"Engineering\",\n    \"role\": \"Developer\"\n  }\n}",
+  "timestamp": "2025-12-28T11:32:07.311Z",
+  "metadata": {
+    "collector": "compliance-monitor"
+  }
+}

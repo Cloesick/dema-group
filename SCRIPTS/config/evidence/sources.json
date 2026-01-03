@@ -1,0 +1,56 @@
+[
+  {
+    "id": "aws-1",
+    "name": "AWS CloudWatch",
+    "type": "aws",
+    "enabled": true,
+    "credentials": {
+      "accessKeyId": "test",
+      "secretAccessKey": "test",
+      "region": "us-east-1"
+    },
+    "config": {
+      "frequency": "hourly",
+      "retention": 30,
+      "filters": {
+        "resources": ["*"],
+        "events": ["*"]
+      }
+    }
+  },
+  {
+    "id": "github-1",
+    "name": "GitHub",
+    "type": "github",
+    "enabled": true,
+    "credentials": {
+      "token": "test",
+      "organization": "test-org"
+    },
+    "config": {
+      "frequency": "hourly",
+      "retention": 30,
+      "filters": {
+        "resources": ["*"],
+        "events": ["*"]
+      }
+    }
+  },
+  {
+    "id": "slack-1",
+    "name": "Slack",
+    "type": "slack",
+    "enabled": true,
+    "credentials": {
+      "token": "test"
+    },
+    "config": {
+      "frequency": "hourly",
+      "retention": 30,
+      "filters": {
+        "resources": ["*"],
+        "events": ["*"]
+      }
+    }
+  }
+]

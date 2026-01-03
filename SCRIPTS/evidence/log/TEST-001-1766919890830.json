@@ -1,0 +1,9 @@
+{
+  "ruleId": "TEST-001",
+  "type": "log",
+  "content": "test evidence",
+  "timestamp": "2025-12-28T11:04:50.830Z",
+  "metadata": {
+    "collector": "compliance-monitor"
+  }
+}

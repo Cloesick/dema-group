@@ -260,7 +260,7 @@ function createMetricsSlide(deck, theme) {
   slide.getShapes()[0].getText().setText("Build Time Distribution");
   
   // Data from METRICS-SUMMARY.md
-  var data = Charts.newDataTable()
+  var data = charts.newDataTable()
     .addColumn(Charts.ColumnType.STRING, "Task")
     .addColumn(Charts.ColumnType.NUMBER, "Percentage")
     .addRow(["TypeScript Compilation", 25])
@@ -271,10 +271,10 @@ function createMetricsSlide(deck, theme) {
     .addRow(["Deployment", 5])
     .build();
 
-  var chart = Charts.newPieChart()
+  var chart = charts.newPieChart()
     .setDataTable(data)
-    .setOption('title', 'Time Allocation (Total: 13 mins)')
-    .setOption('colors', [theme.primary, theme.accent, '#808080', '#A9A9A9', '#D3D3D3', '#C0C0C0'])
+    .setTitle('Time Allocation (Total: 13 mins)')
+    .setColors([theme.primary, theme.accent, '#808080', '#A9A9A9', '#D3D3D3', '#C0C0C0'])
     .build();
 
   // Create chart with specific dimensions
@@ -329,7 +329,7 @@ function createMemorySlide(deck, theme) {
   var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
   slide.getShapes()[0].getText().setText("Memory Usage Trend");
 
-  var data = Charts.newDataTable()
+  var data = charts.newDataTable()
     .addColumn(Charts.ColumnType.STRING, "Time")
     .addColumn(Charts.ColumnType.NUMBER, "Usage (GB)")
     .addRow(["T-4", 2.3])
@@ -339,10 +339,10 @@ function createMemorySlide(deck, theme) {
     .addRow(["Now", 2.8])
     .build();
 
-  var chart = Charts.newLineChart()
+  var chart = charts.newLineChart()
     .setDataTable(data)
-    .setOption('title', 'Memory Usage Over Time')
-    .setOption('colors', [theme.error])
+    .setTitle('Memory Usage Over Time')
+    .setColors([theme.error])
     .setOption('vAxis', {title: 'GB Used', viewWindow: {min: 0, max: 4}})
     .build();
 
@@ -359,17 +359,17 @@ function createCacheSlide(deck, theme) {
   var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
   slide.getShapes()[0].getText().setText("Cache Performance");
 
-  var data = Charts.newDataTable()
+  var data = charts.newDataTable()
     .addColumn(Charts.ColumnType.STRING, "Type")
     .addColumn(Charts.ColumnType.NUMBER, "Percentage")
     .addRow(["Hit Rate", 65])
     .addRow(["Miss Rate", 35])
     .build();
 
-  var chart = Charts.newPieChart()
+  var chart = charts.newPieChart()
     .setDataTable(data)
-    .setOption('title', 'Cache Hit/Miss Rate')
-    .setOption('colors', [theme.success, theme.error])
+    .setTitle('Cache Hit/Miss Rate')
+    .setColors([theme.success, theme.error])
     .build();
 
   // Create chart with specific dimensions
@@ -385,7 +385,7 @@ function createErrorSlide(deck, theme) {
   var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
   slide.getShapes()[0].getText().setText("Error Distribution");
 
-  var data = Charts.newDataTable()
+  var data = charts.newDataTable()
     .addColumn(Charts.ColumnType.STRING, "Type")
     .addColumn(Charts.ColumnType.NUMBER, "Percentage")
     .addRow(["TypeScript", 40])
@@ -395,10 +395,10 @@ function createErrorSlide(deck, theme) {
     .addRow(["Other", 8])
     .build();
 
-  var chart = Charts.newPieChart()
+  var chart = charts.newPieChart()
     .setDataTable(data)
-    .setOption('title', 'Error Types')
-    .setOption('colors', [theme.primary, theme.error, theme.warning, theme.accent, theme.info])
+    .setTitle('Error Types')
+    .setColors([theme.primary, theme.error, theme.warning, theme.accent, theme.info])
     .build();
 
   // Create chart with specific dimensions
@@ -415,7 +415,7 @@ function createOptimizationSlide(deck, theme) {
   slide.getShapes()[0].getText().setText("Optimization Strategy: The Gap");
 
   // Data from METRICS-SUMMARY.md (Optimization Targets)
-  var data = Charts.newDataTable()
+  var data = charts.newDataTable()
     .addColumn(Charts.ColumnType.STRING, "Metric")
     .addColumn(Charts.ColumnType.NUMBER, "Current")
     .addColumn(Charts.ColumnType.NUMBER, "Target")
@@ -425,10 +425,10 @@ function createOptimizationSlide(deck, theme) {
     .addRow(["Error Rate (%)", 2, 1])
     .build();
 
-  var chart = Charts.newColumnChart()
+  var chart = charts.newColumnChart()
     .setDataTable(data)
-    .setOption('title', 'Current vs Target Performance')
-    .setOption('colors', ['#FF3D00', '#00C853']) // Red for Current, Green for Target
+    .setTitle('Current vs Target Performance')
+    .setColors(['#FF3D00', '#00C853']) // Red for Current, Green for Target
     .build();
 
   // Create chart with specific dimensions
@@ -444,7 +444,7 @@ function createPerformanceSlide(deck, theme) {
   var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
   slide.getShapes()[0].getText().setText("Build Performance Timeline");
 
-  var data = Charts.newDataTable()
+  var data = charts.newDataTable()
     .addColumn(Charts.ColumnType.STRING, "Phase")
     .addColumn(Charts.ColumnType.NUMBER, "Duration (s)")
     .addRow(["Pre-build", 60])
@@ -453,10 +453,10 @@ function createPerformanceSlide(deck, theme) {
     .addRow(["Assets", 240])
     .build();
 
-  var chart = Charts.newBarChart()
+  var chart = charts.newBarChart()
     .setDataTable(data)
-    .setOption('title', 'Phase Duration')
-    .setOption('colors', [theme.primary])
+    .setTitle('Phase Duration')
+    .setColors([theme.primary])
     .setOption('hAxis', {title: 'Seconds'})
     .build();
 
@@ -473,7 +473,7 @@ function createTimelineSlide(deck, theme) {
   var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
   slide.getShapes()[0].getText().setText("Resource Usage Timeline");
 
-  var data = Charts.newDataTable()
+  var data = charts.newDataTable()
     .addColumn(Charts.ColumnType.STRING, "Resource")
     .addColumn(Charts.ColumnType.NUMBER, "Current")
     .addColumn(Charts.ColumnType.NUMBER, "Target")

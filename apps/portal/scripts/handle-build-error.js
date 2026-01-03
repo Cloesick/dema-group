@@ -1,26 +1,12 @@
 "use strict";
 
-const fs = require('fs');
-const path = require('path');
-
 const isVercel = process.env.VERCEL === '1';
 const startTime = Date.now();
-
-// Store logs in a temp file to avoid memory issues
-const tempDir = path.join(process.cwd(), '.next');
-const logFile = path.join(tempDir, 'build-log.txt');
-const errorFile = path.join(tempDir, 'build-errors.json');
-
-// Ensure temp directory exists
-if (!fs.existsSync(tempDir)) {
-  fs.mkdirSync(tempDir, { recursive: true });
-}
-
-// Clear previous logs
-fs.writeFileSync(logFile, '');
-fs.writeFileSync(errorFile, '[]');
-
+let buildOutput = '';
 let errorCount = 0;
+
+// Simple fetch polyfill
+const fetch = globalThis.fetch || require('node-fetch');
 
 // Simple error pattern matching
 function parseBuildLogs(logs) {
@@ -123,13 +109,14 @@ async function sendToWindsurf(message, metadata = {}) {
   }
 }
 
-// Append build output to log file
+// Collect build output
 process.stdin.on('data', (data) => {
-  fs.appendFileSync(logFile, data);
+  buildOutput += data.toString();
 });
 
 process.stdin.on('end', async () => {
   try {
+    console.log('Processing build output...');
   // In Vercel, we want to parse the output differently
   if (isVercel) {
     // Extract timestamp and deployment ID
@@ -147,11 +134,7 @@ process.stdin.on('end', async () => {
 
   console.log('Parsing build errors...');
   
-  const buildOutput = fs.readFileSync(logFile, 'utf8');
   const errors = parseBuildLogs(buildOutput);
-  
-  // Store errors for later processing
-  fs.writeFileSync(errorFile, JSON.stringify(errors, null, 2));
   
   if (errors.length === 0) {
     console.log('No build errors found');
@@ -192,15 +175,20 @@ Need help? Tag me in your response!`;
     });
   }
 
-  // Store final status
+  const duration = ((Date.now() - startTime) / 1000).toFixed(1);
+  console.log(`Build completed in ${duration}s with ${errorCount} errors`);
   const status = errorCount > 0 ? '❌ Failed' : '✅ Success';
-  const summary = {
-    status,
-    errorCount,
-    duration: ((Date.now() - startTime) / 1000).toFixed(1),
-    timestamp: new Date().toISOString()
-  };
-  fs.writeFileSync(path.join(tempDir, 'build-summary.json'), JSON.stringify(summary, null, 2));
+  
+  if (isVercel) {
+    await sendToWindsurf(`# Build ${status}
+
+## Summary
+- Total Errors: ${errorCount}
+- Duration: ${duration}s
+- Environment: ${process.env.VERCEL_ENV || 'unknown'}
+- Deployment: ${process.env.VERCEL_GIT_COMMIT_SHA || 'unknown'}
+`);
+  }
 
   // Exit with error code to indicate build failure
   process.exit(errorCount > 0 ? 1 : 0);

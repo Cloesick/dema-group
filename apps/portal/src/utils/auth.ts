@@ -1,5 +1,4 @@
 import { z } from 'zod';
-import { hash, compare } from 'bcrypt';
 import { sign, verify } from 'jsonwebtoken';
 import { redis } from '@/utils/redis';
 
@@ -27,16 +26,6 @@ export async function authenticateUser({
   email: string;
   password: string;
 }): Promise<AuthResult> {
-  // Check rate limiting
-  const attempts = await redis.incr(`auth:${email}`);
-  if (attempts > 5) {
-    await redis.expire(`auth:${email}`, 900); // 15 minutes
-    return {
-      status: 'blocked',
-      duration: 900 // 15 minutes
-    };
-  }
-
   // Validate input
   try {
     userSchema.parse({ email, password });
@@ -52,6 +41,16 @@ export async function authenticateUser({
     return {
       status: 'invalid',
       errors: ['password_complexity']
+    };
+  }
+
+  // Check rate limiting
+  const attempts = await redis.incr(`auth:${email}`);
+  if (attempts > 5) {
+    await redis.expire(`auth:${email}`, 900); // 15 minutes
+    return {
+      status: 'blocked',
+      duration: 900 // 15 minutes
     };
   }
 
@@ -85,6 +84,7 @@ export async function validateToken(
 
     // Verify token
     verify(token, process.env.JWT_SECRET || 'test_jwt_secret_key_min_32_chars_long_for_testing');
+    return { valid: true };
     return { valid: true };
   } catch (error: unknown) {
     const err = error as { name: string };

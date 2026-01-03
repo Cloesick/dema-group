@@ -28,17 +28,18 @@
    - Reason: Better stability for Next.js 16
    - Status: Completed
 
-6. **Trigger Deployment**
-   - Go to: Deployments tab
-   - Click: 'Redeploy' button
-   - Status: Pending
+6. **Trigger Deployment** ✅
+   - Deployment started automatically with commit 366d3b8
+   - Commit message: 'update Node.js version options'
+   - Status: In Progress
 
-6. **Monitor Build**
-   - Watch deployment logs for errors
-   - Note any issues that arise
-   - Status: Pending
+7. **Monitor Build** ⏳
+   - Error: pnpm lockfile outdated
+   - Fix: Updated vercel.json with `--no-frozen-lockfile`
+   - Next step: Wait for auto-deployment with new config
+   - Status: Fixing
 
-7. **Verify Deployment**
+8. **Verify Deployment**
    - Once build succeeds, check deployed site URL
    - Verify basic functionality
    - Status: Pending

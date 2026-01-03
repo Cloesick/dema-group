@@ -29,7 +29,8 @@ describe('Authentication Security', () => {
         password: 'wrong'
       });
 
-      vi.mocked(redis.incr).mockResolvedValue(6);
+      vi.mocked(redis.incr).mockResolvedValueOnce(6);
+      vi.mocked(redis.expire).mockResolvedValueOnce(1);
 
       const lastAttempt = await authenticateUser({
         email: 'test@example.com',
@@ -55,7 +56,8 @@ describe('Authentication Security', () => {
       const token = createMockToken(user);
 
       // Valid token
-      vi.mocked(redis.get).mockResolvedValue(null);
+      vi.mocked(redis.get).mockResolvedValueOnce(null);
+      process.env.JWT_SECRET = 'test_jwt_secret_key_min_32_chars_long_for_testing';
       const validResult = await validateToken(token);
       expect(validResult.valid).toBe(true);
 

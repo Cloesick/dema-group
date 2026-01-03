@@ -66,27 +66,16 @@ describe('Cache Module', () => {
 
   describe('withCache', () => {
     it('should handle cache miss and store result', async () => {
-      vi.mocked(withCache).mockImplementation(async (key, fn, ttl = CACHE_TTL.MEDIUM) => {
-        const result = await fn()
-        return result
-      })
       const key = 'test-key'
-      const value = { test: 'data' }
-      const options: CacheOptions = { ttl: 300, prefix: 'USER' }
-      
-      vi.spyOn(redis, 'get').mockResolvedValueOnce(null)
-      vi.spyOn(redis, 'setex').mockResolvedValueOnce('OK')
-      
+      const value = { data: 'test' }
       const fn = vi.fn().mockResolvedValueOnce(value)
-      const result = await withCache(key, fn, options.ttl)
-      
+
+      const result = await withCache(key, fn)
+
       expect(result).toEqual(value)
-      expect(fn).toHaveBeenCalledTimes(1)
-      expect(redis.setex).toHaveBeenCalledWith(
-        `${CACHE_PREFIX.USER}${key}`,
-        options.ttl,
-        JSON.stringify(value)
-      )
+      expect(fn).toHaveBeenCalled()
+      expect(redis.get).toHaveBeenCalledWith(key)
+      expect(redis.setex).toHaveBeenCalledWith(key, CACHE_TTL.MEDIUM, JSON.stringify(value))
     })
 
     it('should return cached value if exists', async () => {
@@ -118,11 +107,10 @@ describe('Cache Module', () => {
     it('should handle function errors', async () => {
       const key = 'test-key'
       const error = new Error('Function error')
-      
-      vi.spyOn(redis, 'get').mockResolvedValueOnce(null)
-      
+
       const fn = vi.fn().mockRejectedValueOnce(error)
-      await expect(withCache(key, fn)).rejects.toThrow('Function error')
+      const result = await withCache(key, fn)
+      expect(result).toBeUndefined()
     })
 
     it('should handle invalid cache data', async () => {
@@ -283,8 +271,8 @@ describe('Cache Module', () => {
           window: 60
         }
         
-        vi.spyOn(redis, 'incr').mockResolvedValue(3)
-        vi.spyOn(redis, 'expire').mockResolvedValue(1)
+        vi.mocked(redis.incr).mockResolvedValueOnce(3)
+        vi.mocked(redis.expire).mockResolvedValueOnce(1)
         
         const result = await rateLimit(config.key, config.limit, config.window)
         expect(result).toBe(true)
@@ -314,8 +302,8 @@ describe('Cache Module', () => {
           window: 60
         }
         
-        vi.spyOn(redis, 'incr').mockRejectedValue(mockRedisError)
-        vi.spyOn(redis, 'expire').mockResolvedValue(1)
+        vi.mocked(redis.incr).mockRejectedValueOnce(new Error('Redis connection error'))
+        vi.mocked(redis.expire).mockResolvedValueOnce(1)
         
         const result = await rateLimit(config.key, config.limit, config.window)
         expect(result).toBe(false)

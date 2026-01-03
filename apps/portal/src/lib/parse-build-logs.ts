@@ -64,6 +64,15 @@ export function parseBuildLogs(logs: string): BuildLogEntry[] {
       entries.push(currentEntry as BuildLogEntry);
     }
     
+    // Lockfile errors
+    else if (line.includes('ERR_PNPM_OUTDATED_LOCKFILE')) {
+      currentEntry = {
+        type: 'error',
+        message: 'Lockfile is out of date with package.json',
+        suggestion: 'Run: git checkout main && pnpm install --no-frozen-lockfile'
+      };
+      entries.push(currentEntry as BuildLogEntry);
+    }
     // Dependency errors
     else if (line.includes('Cannot find module')) {
       const moduleName = line.match(/'([^']+)'/);

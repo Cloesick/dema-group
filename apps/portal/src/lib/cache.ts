@@ -1,6 +1,8 @@
 import Redis from 'ioredis'
-import type { Redis as RedisType, RedisOptions } from 'ioredis'
+import type { Redis as RedisType, RedisOptions, ReconnectStrategy } from 'ioredis'
 import { validateEnv } from './env'
+
+type ErrorWithMessage = { message: string }
 
 // Cache TTLs in seconds
 export const CACHE_TTL = {
@@ -21,25 +23,25 @@ export const CACHE_PREFIX = {
 
 // Redis client with error handling and auto-reconnect
 const createRedisClient = (): RedisType => {
-  const env = validateEnv()
-  if (!env) throw new Error('Invalid environment configuration')
+  if (!process.env.REDIS_URL) {
+    throw new Error('REDIS_URL is not defined')
+  }
   
-  const client = new Redis(env.REDIS_URL, {
+  const options: RedisOptions = {
     maxRetriesPerRequest: 3,
-    retryStrategy: (times: number): number => {
+    retryStrategy: ((times: number): number | void => {
       const delay = Math.min(times * 50, 2000)
       return delay
-    },
-    reconnectOnError: (err: Error): boolean => {
+    }) as ReconnectStrategy,
+    reconnectOnError: (err: ErrorWithMessage): boolean => {
       const targetError = 'READONLY'
-      if (err.message.includes(targetError)) {
-        return true
-      }
-      return false
-    },
-  })
+      return err.message.includes(targetError)
+    }
+  }
 
-  client.on('error', (error: Error) => {
+  const client = new Redis(process.env.REDIS_URL, options)
+
+  client.on('error', (error: ErrorWithMessage) => {
     console.error('Redis Client Error:', error)
   })
 
@@ -114,7 +116,7 @@ export const cacheUtils = {
   // Get multiple cache entries
   async mget<T>(keys: string[]): Promise<Array<T | null>> {
     const results = await redis.mget(...keys)
-    return results.map((r: string | null) => r ? JSON.parse(r) : null)
+    return results.map((result: string | null) => result ? JSON.parse(result) : null)
   }
 }
 

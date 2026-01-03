@@ -122,7 +122,7 @@ describe('Accessibility Tests', () => {
 
       // Check for descriptive buttons
       cy.findAllByRole('button').each(($button) => {
-        expect($button).to.satisfy(($el) => {
+        expect($button).to.satisfy(($el: JQuery<HTMLElement>) => {
           return $el.text().trim() !== '' || $el.attr('aria-label');
         });
       });

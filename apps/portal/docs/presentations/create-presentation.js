@@ -132,8 +132,7 @@ function addNavigation(deck, theme) {
       navText.getTextStyle().setFontSize(14);
       
       // Center text
-      var textRange = navText.getTextStyle();
-      textRange.setParagraphAlignment(SlidesApp.ParagraphAlignment.CENTER);
+      navText.getParagraphStyle().setParagraphAlignment(SlidesApp.ParagraphAlignment.CENTER);
     }
   });
 }

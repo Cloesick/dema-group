@@ -1,10 +1,17 @@
 {
   "framework": "nextjs",
-  "buildCommand": "next build || node scripts/handle-build-error.js",
-  "installCommand": "pnpm install --no-frozen-lockfile",
+  "buildCommand": "NEXT_TELEMETRY_DISABLED=1 NODE_OPTIONS='--max_old_space_size=3072' next build || node scripts/handle-build-error.js",
+  "installCommand": "pnpm install --no-frozen-lockfile --prefer-offline",
   "git": {
     "deploymentEnabled": {
       "main": true
+    }
+  },
+  "build": {
+    "env": {
+      "NEXT_TELEMETRY_DISABLED": "1",
+      "NEXT_SHARP_PATH": "/tmp/node_modules/sharp",
+      "NODE_ENV": "production"
     }
   }
 }

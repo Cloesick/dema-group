@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "ts-node scripts/validate-deployment.ts",
+    "prebuild": "node scripts/optimize-build.js && ts-node scripts/validate-deployment.ts",
     "build": "next build || node scripts/handle-build-error.js",
     "postbuild": "next-bundle-analyzer",
     "start": "next start",

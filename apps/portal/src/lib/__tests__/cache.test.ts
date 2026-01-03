@@ -271,8 +271,7 @@ describe('Cache Module', () => {
           window: 60
         }
         
-        vi.mocked(redis.incr).mockResolvedValueOnce(3)
-        vi.mocked(redis.expire).mockResolvedValueOnce(1)
+        vi.mocked(redis.incr).mockResolvedValueOnce(1)
         
         const result = await rateLimit(config.key, config.limit, config.window)
         expect(result).toBe(true)
@@ -302,8 +301,9 @@ describe('Cache Module', () => {
           window: 60
         }
         
-        vi.mocked(redis.incr).mockRejectedValueOnce(new Error('Redis connection error'))
-        vi.mocked(redis.expire).mockResolvedValueOnce(1)
+        vi.mocked(redis.incr).mockImplementationOnce(() => {
+          throw new Error('Redis connection error')
+        })
         
         const result = await rateLimit(config.key, config.limit, config.window)
         expect(result).toBe(false)

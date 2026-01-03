@@ -60,7 +60,9 @@
 No need to manually trigger deployments - just wait a few seconds after `git push` for Vercel to detect the changes.
 
 ## Latest Changes
-- Simplified package.json to essential dependencies
-- Moved UI components into portal app
+- Added missing dependencies:
+  - `aws-sdk` for AWS integrations
+  - `cypress` and `@cypress/webpack-preprocessor` for testing
+- Fixed route handler types for Next.js 16
 - Updated vercel.json to basic Next.js config
-- All changes pushed to GitHub (commit: 92eeeb7)
+- Latest commit: e16c296

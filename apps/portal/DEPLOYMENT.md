@@ -1,18 +1,17 @@
 # Vercel Deployment Steps
 
 ## Current Task List
-1. **Clean Up Existing Projects**
-   - Go to Vercel dashboard: https://vercel.com/cloesicks-projects
-   - Keep: `dema-group-portal.vercel.app` (this is our portal app)
-   - Remove: `dema-group-strategy.vercel.app` (incorrect root deployment)
-   - Status: Pending
+1. **Clean Up Existing Projects** ✅
+   - Kept: `dema-group-portal.vercel.app` (portal app)
+   - Removed: `dema-group-strategy.vercel.app`
+   - Status: Completed
 
 2. **Verify GitHub Connection**
-   - In the remaining project, go to Project Settings > Git
+   - In the portal project, go to Project Settings > Git
    - Confirm it's connected to `Cloesick/dema-group` repository
    - Status: Pending
 
-2. **Set Root Directory**
+3. **Set Root Directory**
    - Navigate to: Project Settings > General > Root Directory
    - Set value to: `apps/portal`
    - Status: Pending

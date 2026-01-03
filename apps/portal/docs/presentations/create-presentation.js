@@ -119,8 +119,10 @@ function createProgressBar(slide, theme) {
 function addNavigation(deck, theme) {
   deck.getSlides().forEach((slide, index) => {
     if (index > 0) { // Skip first slide
-      var prevButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, 10, slide.getPageHeight() - 40, 30, 30);
-      var nextButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, slide.getPageWidth() - 40, slide.getPageHeight() - 40, 30, 30);
+      var pageHeight = deck.getPageHeight();
+      var pageWidth = deck.getPageWidth();
+      var prevButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, 10, pageHeight - 40, 30, 30);
+      var nextButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, pageWidth - 40, pageHeight - 40, 30, 30);
       
       prevButton.getFill().setSolidFill(theme.primary);
       nextButton.getFill().setSolidFill(theme.primary);
@@ -720,9 +722,10 @@ function createQASlide(deck, theme) {
 /**
  * Adds interactive elements to a slide
  */
-function addInteractiveElements(slide, theme) {
+function addInteractiveElements(slide, deck, theme) {
   // Add help button
-  var helpButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, slide.getPageWidth() - 40, 10, 30, 30);
+  var pageWidth = deck.getPageWidth();
+  var helpButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, pageWidth - 40, 10, 30, 30);
   helpButton.getFill().setSolidFill(theme.info);
   helpButton.getText().setText('?');
   helpButton.getText().getTextStyle().setForegroundColor(theme.white).setBold(true);
@@ -731,7 +734,7 @@ function addInteractiveElements(slide, theme) {
   // Add timestamp
   var timestamp = slide.insertTextBox(`Last Updated: ${new Date().toLocaleString()}`)
     .setLeft(10)
-    .setTop(slide.getPageHeight() - 20);
+    .setTop(deck.getPageHeight() - 20);
   timestamp.getText().getTextStyle().setFontSize(8).setForegroundColor(theme.text);
 }
 

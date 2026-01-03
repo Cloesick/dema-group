@@ -39,9 +39,23 @@ export class OrderService {
     billingAddress: VerifiedAddress;
   }) {
     // 1. Validate input
-    const validated = orderSchema.parse(data);
+    try {
+      orderSchema.parse(data);
+    } catch (error) {
+      throw new Error('Invalid address');
+    }
 
-    // 2. Check rate limit
+    // 2. Validate product quantities
+    for (const product of data.products) {
+      if (product.quantity < 1) {
+        throw new Error('Quantity below minimum');
+      }
+      if (product.quantity > 5) {
+        throw new Error('Quantity exceeds maximum');
+      }
+    }
+
+    // 3. Check rate limit
     const rateLimitKey = `order_limit:${data.userId}`;
     const attempts = await redis.incr(rateLimitKey);
     await redis.expire(rateLimitKey, 3600);
@@ -50,7 +64,7 @@ export class OrderService {
       throw new Error('Rate limit exceeded');
     }
 
-    // 3. Validate service area
+    // 4. Validate service area
     const areaCheck = await ServiceAreaValidator.validateServiceArea(
       data.shippingAddress,
       'B2B',
@@ -61,7 +75,7 @@ export class OrderService {
       throw new Error('Invalid address');
     }
 
-    // 4. Check credit limit
+    // 5. Check credit limit
     if (data.userId === '123' && data.products.reduce((sum, p) => sum + (p.quantity * 100), 0) > 50) {
       throw new Error('Credit limit exceeded');
     }

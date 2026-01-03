@@ -36,14 +36,6 @@ export async function authenticateUser({
     };
   }
 
-  // Check password complexity
-  if (!isPasswordComplex(password)) {
-    return {
-      status: 'invalid',
-      errors: ['password_complexity']
-    };
-  }
-
   // Validate input
   try {
     userSchema.parse({ email, password });
@@ -51,6 +43,14 @@ export async function authenticateUser({
     return {
       status: 'invalid',
       errors: ['invalid_input']
+    };
+  }
+
+  // Check password complexity
+  if (!isPasswordComplex(password)) {
+    return {
+      status: 'invalid',
+      errors: ['password_complexity']
     };
   }
 
@@ -73,6 +73,9 @@ export async function validateToken(
   error?: string;
 }> {
   try {
+    // Verify token
+    verify(token, process.env.JWT_SECRET || 'test_jwt_secret_key_min_32_chars_long_for_testing');
+
     // Check if token is revoked
     const isRevoked = await redis.get(`revoked:${token}`);
     if (isRevoked) {
@@ -82,8 +85,6 @@ export async function validateToken(
       };
     }
 
-    // Verify token
-    verify(token, process.env.JWT_SECRET || 'test_jwt_secret_key_min_32_chars_long_for_testing');
     return { valid: true };
   } catch (error: unknown) {
     const err = error as { name: string };

@@ -117,30 +117,23 @@ function createProgressBar(slide, theme) {
  * Adds navigation buttons to all slides
  */
 function addNavigation(deck, theme) {
-  // Fixed positions for navigation buttons
-  const BUTTON_SIZE = 30;
-  const MARGIN = 10;
-  const BOTTOM_OFFSET = 40;
-
   deck.getSlides().forEach((slide, index) => {
     if (index > 0) { // Skip first slide
-      // Create prev/next buttons at fixed positions
-      var prevButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, MARGIN, 500, BUTTON_SIZE, BUTTON_SIZE);
-      var nextButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, 680, 500, BUTTON_SIZE, BUTTON_SIZE);
+      // Add footer shape for navigation
+      var footer = slide.insertShape(SlidesApp.ShapeType.RECTANGLE, 0, 510, 720, 40);
+      footer.getFill().setSolidFill(theme.primary);
+      footer.getBorder().setTransparent();
       
-      // Style buttons
-      [prevButton, nextButton].forEach(btn => {
-        btn.getFill().setSolidFill(theme.primary);
-        btn.getBorder().setTransparent();
-        
-        var btnText = btn.getText();
-        btnText.getTextStyle().setForegroundColor(theme.white);
-        btnText.getTextStyle().setBold(true);
-      });
+      // Add navigation text
+      var navText = footer.getText();
+      navText.setText('← Previous     Next →');
+      navText.getTextStyle().setForegroundColor(theme.white);
+      navText.getTextStyle().setBold(true);
+      navText.getTextStyle().setFontSize(14);
       
-      // Set button labels
-      prevButton.getText().setText('←');
-      nextButton.getText().setText('→');
+      // Center text
+      var textRange = navText.getTextStyle();
+      textRange.setParagraphAlignment(SlidesApp.ParagraphAlignment.CENTER);
     }
   });
 }
@@ -729,17 +722,16 @@ function createQASlide(deck, theme) {
  */
 function addInteractiveElements(slide, deck, theme) {
   // Add help button
-  var pageWidth = deck.getPageWidth();
-  var helpButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, pageWidth - 40, 10, 30, 30);
+  var helpButton = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, 680, 10, 30, 30);
   helpButton.getFill().setSolidFill(theme.info);
   helpButton.getText().setText('?');
   helpButton.getText().getTextStyle().setForegroundColor(theme.white).setBold(true);
   helpButton.getBorder().setTransparent();
 
   // Add timestamp
-  var timestamp = slide.insertTextBox(`Last Updated: ${new Date().toLocaleString()}`)
-    .setLeft(10)
-    .setTop(deck.getPageHeight() - 20);
+  var timestamp = slide.insertTextBox(`Last Updated: ${new Date().toLocaleString()}`);
+  timestamp.setLeft(10);
+  timestamp.setTop(490);
   timestamp.getText().getTextStyle().setFontSize(8).setForegroundColor(theme.text);
 }
 

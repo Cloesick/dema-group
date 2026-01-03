@@ -1,6 +1,6 @@
 {
   "framework": "nextjs",
-  "buildCommand": "pnpm build | ts-node scripts/handle-build-error.ts",
+  "buildCommand": "pnpm build | node scripts/handle-build-error.js",
   "installCommand": "pnpm install --no-frozen-lockfile",
   "git": {
     "deploymentEnabled": {

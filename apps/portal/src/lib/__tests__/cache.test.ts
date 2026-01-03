@@ -1,12 +1,12 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import Redis from 'ioredis'
-import { withCache, CACHE_TTL, CACHE_PREFIX, cacheUtils, rateLimit } from '../cache'
+import { withCache, CACHE_TTL, CACHE_PREFIX, cacheUtils, rateLimit, redis } from '../cache'
 import { validate, cacheOptionsSchema, redisConfigSchema, rateLimitConfigSchema } from '../validation'
 import type { RateLimitConfig, CacheOptions } from '../../types/cache'
 
 // Mock Redis
-vi.mock('ioredis', () => ({
-  default: vi.fn().mockImplementation(() => ({
+vi.mock('../cache', () => {
+  const mockRedis = {
     get: vi.fn(),
     setex: vi.fn(),
     del: vi.fn(),
@@ -14,16 +14,39 @@ vi.mock('ioredis', () => ({
     multi: vi.fn(),
     incr: vi.fn(),
     expire: vi.fn()
-  }))
-}))
+  }
+
+  return {
+    redis: mockRedis,
+    withCache: vi.fn(),
+    CACHE_TTL: {
+      SHORT: 60,
+      MEDIUM: 300,
+      LONG: 3600,
+      VERY_LONG: 86400
+    },
+    CACHE_PREFIX: {
+      INVENTORY: 'inv:',
+      PRODUCT: 'prod:',
+      USER: 'user:',
+      SESSION: 'sess:',
+      RATE_LIMIT: 'rate:'
+    },
+    cacheUtils: {
+      invalidate: vi.fn(),
+      invalidatePattern: vi.fn(),
+      invalidatePrefix: vi.fn(),
+      mset: vi.fn(),
+      mget: vi.fn()
+    },
+    rateLimit: vi.fn()
+  }
+})
 
 const mockRedisError = new Error('Redis connection error')
 
 describe('Cache Module', () => {
-  let redis: Redis
-  
   beforeEach(() => {
-    redis = new Redis()
     vi.clearAllMocks()
   })
 

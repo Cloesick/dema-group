@@ -11,7 +11,7 @@ export const createMockToken = (
 ) => {
   const header = Buffer.from(
     JSON.stringify({ alg: 'HS256', typ: 'JWT' })
-  ).toString('base64');
+  ).toString('base64url');
 
   const now = Math.floor(Date.now() / 1000);
   const payload = Buffer.from(
@@ -21,9 +21,15 @@ export const createMockToken = (
       iat: now,
       exp: options.expired ? now - 3600 : now + 3600
     })
-  ).toString('base64');
+  ).toString('base64url');
 
-  const signature = 'mock_signature';
+  const data = `${header}.${payload}`;
+  const signature = Buffer.from(
+    require('crypto')
+      .createHmac('sha256', process.env.JWT_SECRET || 'test_jwt_secret_key_min_32_chars_long_for_testing')
+      .update(data)
+      .digest()
+  ).toString('base64url');
 
   return `${header}.${payload}.${signature}`;
 };

@@ -26,7 +26,9 @@ describe('Authentication', () => {
   it('should require email and password', () => {
     cy.findByRole('button', { name: /sign in/i }).click();
     cy.findByLabelText(/email/i).then($el => {
-      expect($el[0].validationMessage).to.not.be.empty;
+      // Cast to HTMLInputElement to access validationMessage
+      const input = $el[0] as HTMLInputElement;
+      expect(input.validationMessage).to.not.be.empty;
     });
   });
 });

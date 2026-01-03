@@ -1,0 +1,348 @@
+/**
+ * DEMA Group Portal Build Optimization Presentation Generator
+ * Generated from documentation in apps/portal/docs/
+ */
+function createDEMAPresentation() {
+  // 1. CONFIGURATION
+  // DEMA Brand Colors and Status Colors from METRICS-SUMMARY.md
+  var theme = {
+    // Brand Colors
+    primary: '#0047AB',    // Blue
+    accent: '#FF6B00',     // Orange
+    bg: '#F5F5F5',         // Light Gray
+    text: '#333333',
+    white: '#FFFFFF',
+    // Status Colors
+    success: '#00C853',    // Green
+    warning: '#FFD600',    // Yellow
+    error: '#FF3D00',      // Red
+    info: '#2962FF'        // Info Blue
+  };
+
+  var deck = SlidesApp.create('DEMA Group Portal - Optimization Strategy');
+  var slides = deck.getSlides();
+  
+  // Remove default first slide
+  if (slides.length > 0) { slides[0].remove(); }
+
+  // 2. SLIDE GENERATION
+  createTitleSlide(deck, theme);
+  createOverviewSlide(deck, theme);
+  createMetricsSlide(deck, theme);
+  createBuildFlowSlide(deck, theme);
+  createMemorySlide(deck, theme);
+  createCacheSlide(deck, theme);
+  createErrorSlide(deck, theme);
+  createOptimizationSlide(deck, theme);
+  createPerformanceSlide(deck, theme);
+  createTimelineSlide(deck, theme);
+  createNextStepsSlide(deck, theme);
+
+  Logger.log('Presentation created: ' + deck.getUrl());
+}
+
+// --- SLIDE 1: TITLE ---
+function createTitleSlide(deck, theme) {
+  var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
+  slide.getBackground().setSolidFill(theme.primary);
+  
+  var title = slide.getShapes()[0];
+  var subtitle = slide.getShapes()[1];
+  
+  title.getText().setText("DEMA Group Portal: Build Optimization"); //
+  title.getText().getInputStyle().setForegroundColor(theme.white).setBold(true);
+  
+  var date = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+  subtitle.getText().setText(`Status: CRITICAL | Build Optimization Strategy\n${date}`);
+  subtitle.getText().getInputStyle().setForegroundColor(theme.accent);
+}
+
+// --- SLIDE 2: OVERVIEW (The Grim Reality) ---
+function createOverviewSlide(deck, theme) {
+  var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_ONLY);
+  slide.getShapes()[0].getText().setText("Current Build Status");
+  
+  // Data from METRICS-SUMMARY.md
+  var metrics = [
+    { 
+      label: "Build Time", 
+      val: "13 min", 
+      target: "5 min",
+      status: "CRITICAL" 
+    },
+    { 
+      label: "Memory", 
+      val: "2.8 GB", 
+      target: "2.0 GB",
+      status: "WARNING" 
+    },
+    { 
+      label: "Cache Rate", 
+      val: "65%", 
+      target: "80%",
+      status: "WARNING" 
+    },
+    { 
+      label: "Success Rate", 
+      val: "92%", 
+      target: "99%",
+      status: "DEGRADING" 
+    }
+  ];
+
+  for (var i = 0; i < metrics.length; i++) {
+    var box = slide.insertShape(SlidesApp.ShapeType.ROUND_RECTANGLE, 50 + (i*200), 150, 180, 150);
+    var metric = metrics[i];
+    var statusColor = getStatusColor(metric.status, theme);
+    box.getFill().setSolidFill(theme.white);
+    box.getBorder().setTransparent();
+    
+    var textRange = box.getText();
+    textRange.setText(
+      `${metric.val}\n` +
+      `${metric.label}\n` +
+      `Target: ${metric.target}\n` +
+      `${metric.status}`
+    );
+    
+    // Styling
+    textRange.getParagraphs()[0].getRange().getInputStyle().setFontSize(32).setBold(true).setForegroundColor(theme.primary);
+    textRange.getParagraphs()[2].getRange().getInputStyle().setForegroundColor(theme.primary).setFontSize(12);
+    textRange.getParagraphs()[3].getRange().getInputStyle().setForegroundColor(statusColor).setFontSize(12).setBold(true);
+  }
+}
+
+// --- SLIDE 3: METRICS CHART ---
+function createMetricsSlide(deck, theme) {
+  var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_ONLY);
+  slide.getShapes()[0].getText().setText("Build Time Distribution");
+  
+  // Data from METRICS-SUMMARY.md
+  var data = Charts.newDataTable()
+    .addColumn(Charts.ColumnType.STRING, "Task")
+    .addColumn(Charts.ColumnType.NUMBER, "Percentage")
+    .addRow(["TypeScript Compilation", 25])
+    .addRow(["Next.js Build", 35])
+    .addRow(["Asset Optimization", 20])
+    .addRow(["Pre-build Tasks", 10])
+    .addRow(["Error Handling", 5])
+    .addRow(["Deployment", 5])
+    .build();
+
+  var chart = Charts.newPieChart()
+    .setDataTable(data)
+    .setOption('title', 'Time Allocation (Total: 13 mins)')
+    .setOption('colors', [theme.primary, theme.accent, '#808080', '#A9A9A9', '#D3D3D3', '#C0C0C0'])
+    .build();
+
+  slide.insertSheetsChart(chart, 150, 100, 450, 350);
+}
+
+// --- SLIDE 4: BUILD FLOW ---
+function createBuildFlowSlide(deck, theme) {
+  var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
+  slide.getShapes()[0].getText().setText("Build Process Flow");
+  
+  // Create build flow diagram using shapes
+  createBuildFlowDiagram(slide, theme);
+}
+
+function createBuildFlowDiagram(slide, theme) {
+  var steps = [
+    { text: "Git Push", x: 50, y: 100 },
+    { text: "Pre-build", x: 200, y: 100 },
+    { text: "Build", x: 350, y: 100 },
+    { text: "Deploy", x: 500, y: 100 },
+    { text: "Error Handler", x: 350, y: 200 }
+  ];
+
+  steps.forEach(step => {
+    var shape = slide.insertShape(SlidesApp.ShapeType.RECTANGLE, step.x, step.y, 100, 50);
+    shape.getFill().setSolidFill(theme.primary);
+    shape.getText().setText(step.text).getInputStyle().setForegroundColor(theme.white);
+  });
+
+  // Add arrows
+  addArrow(slide, 150, 125, 200, 125, theme);
+  addArrow(slide, 300, 125, 350, 125, theme);
+  addArrow(slide, 450, 125, 500, 125, theme);
+  addArrow(slide, 400, 150, 400, 200, theme);
+}
+
+function addArrow(slide, x1, y1, x2, y2, theme) {
+  var arrow = slide.insertLine(SlidesApp.LineCategory.STRAIGHT, x1, y1, x2, y2);
+  arrow.setWeight(2).setForegroundColor(theme.accent);
+  arrow.getEndArrow().setType(SlidesApp.ArrowType.FILLED);
+}
+
+// --- SLIDE 5: MEMORY USAGE ---
+function createMemorySlide(deck, theme) {
+  var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
+  slide.getShapes()[0].getText().setText("Memory Usage Trend");
+
+  var data = Charts.newDataTable()
+    .addColumn(Charts.ColumnType.STRING, "Time")
+    .addColumn(Charts.ColumnType.NUMBER, "Usage (GB)")
+    .addRow(["T-4", 2.3])
+    .addRow(["T-3", 2.5])
+    .addRow(["T-2", 2.8])
+    .addRow(["T-1", 2.7])
+    .addRow(["Now", 2.8])
+    .build();
+
+  var chart = Charts.newLineChart()
+    .setDataTable(data)
+    .setOption('title', 'Memory Usage Over Time')
+    .setOption('colors', [theme.error])
+    .setOption('vAxis', {title: 'GB Used', viewWindow: {min: 0, max: 4}})
+    .build();
+
+  slide.insertSheetsChart(chart, 100, 100, 500, 300);
+}
+
+// --- SLIDE 6: CACHE PERFORMANCE ---
+function createCacheSlide(deck, theme) {
+  var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
+  slide.getShapes()[0].getText().setText("Cache Performance");
+
+  var data = Charts.newDataTable()
+    .addColumn(Charts.ColumnType.STRING, "Type")
+    .addColumn(Charts.ColumnType.NUMBER, "Percentage")
+    .addRow(["Hit Rate", 65])
+    .addRow(["Miss Rate", 35])
+    .build();
+
+  var chart = Charts.newPieChart()
+    .setDataTable(data)
+    .setOption('title', 'Cache Hit/Miss Rate')
+    .setOption('colors', [theme.success, theme.error])
+    .build();
+
+  slide.insertSheetsChart(chart, 100, 100, 500, 300);
+}
+
+// --- SLIDE 7: ERROR DISTRIBUTION ---
+function createErrorSlide(deck, theme) {
+  var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
+  slide.getShapes()[0].getText().setText("Error Distribution");
+
+  var data = Charts.newDataTable()
+    .addColumn(Charts.ColumnType.STRING, "Type")
+    .addColumn(Charts.ColumnType.NUMBER, "Percentage")
+    .addRow(["TypeScript", 40])
+    .addRow(["Memory", 25])
+    .addRow(["Cache", 15])
+    .addRow(["Build", 12])
+    .addRow(["Other", 8])
+    .build();
+
+  var chart = Charts.newPieChart()
+    .setDataTable(data)
+    .setOption('title', 'Error Types')
+    .setOption('colors', [theme.primary, theme.error, theme.warning, theme.accent, theme.info])
+    .build();
+
+  slide.insertSheetsChart(chart, 100, 100, 500, 300);
+}
+
+// --- SLIDE 8: OPTIMIZATION TARGETS ---
+function createOptimizationSlide(deck, theme) {
+  var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_ONLY);
+  slide.getShapes()[0].getText().setText("Optimization Strategy: The Gap");
+
+  // Data from METRICS-SUMMARY.md (Optimization Targets)
+  var data = Charts.newDataTable()
+    .addColumn(Charts.ColumnType.STRING, "Metric")
+    .addColumn(Charts.ColumnType.NUMBER, "Current")
+    .addColumn(Charts.ColumnType.NUMBER, "Target")
+    .addRow(["Build Time (min)", 13, 5])
+    .addRow(["Memory (GB)", 2.8, 2.0])
+    .addRow(["Cache Rate (%)", 65, 80])
+    .addRow(["Error Rate (%)", 2, 1])
+    .build();
+
+  var chart = Charts.newColumnChart()
+    .setDataTable(data)
+    .setOption('title', 'Current vs Target Performance')
+    .setOption('colors', ['#FF3D00', '#00C853']) // Red for Current, Green for Target
+    .build();
+
+  slide.insertSheetsChart(chart, 100, 100, 500, 300);
+}
+
+// --- SLIDE 9: PERFORMANCE TIMELINE ---
+function createPerformanceSlide(deck, theme) {
+  var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
+  slide.getShapes()[0].getText().setText("Build Performance Timeline");
+
+  var data = Charts.newDataTable()
+    .addColumn(Charts.ColumnType.STRING, "Phase")
+    .addColumn(Charts.ColumnType.NUMBER, "Duration (s)")
+    .addRow(["Pre-build", 60])
+    .addRow(["TypeScript", 180])
+    .addRow(["Next.js", 300])
+    .addRow(["Assets", 240])
+    .build();
+
+  var chart = Charts.newBarChart()
+    .setDataTable(data)
+    .setOption('title', 'Phase Duration')
+    .setOption('colors', [theme.primary])
+    .setOption('hAxis', {title: 'Seconds'})
+    .build();
+
+  slide.insertSheetsChart(chart, 100, 100, 500, 300);
+}
+
+// --- SLIDE 10: RESOURCE TIMELINE ---
+function createTimelineSlide(deck, theme) {
+  var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
+  slide.getShapes()[0].getText().setText("Resource Usage Timeline");
+
+  var data = Charts.newDataTable()
+    .addColumn(Charts.ColumnType.STRING, "Resource")
+    .addColumn(Charts.ColumnType.NUMBER, "Current")
+    .addColumn(Charts.ColumnType.NUMBER, "Target")
+    .addColumn(Charts.ColumnType.NUMBER, "Max")
+    .addRow(["CPU (%)", 75, 60, 90])
+    .addRow(["Memory (GB)", 2.8, 2.0, 3.0])
+    .addRow(["Disk (%)", 45, 40, 50])
+    .build();
+
+  var chart = Charts.newColumnChart()
+    .setDataTable(data)
+    .setOption('title', 'Resource Usage')
+    .setOption('colors', [theme.error, theme.success, theme.warning])
+    .build();
+
+  slide.insertSheetsChart(chart, 100, 100, 500, 300);
+}
+
+// --- SLIDE 11: NEXT STEPS ---
+function createNextStepsSlide(deck, theme) {
+  var slide = deck.appendSlide(SlidesApp.PredefinedLayout.TITLE_AND_BODY);
+  slide.getShapes()[0].getText().setText("Immediate Next Steps");
+  
+  var body = slide.getShapes()[1];
+  // Action plan based on BUILD-PROCESS.md
+  var steps = [
+    "1. Reduce Build Time (13min → 5min):\n   - Parallelize TypeScript compilation\n   - Optimize asset processing\n   - Enable incremental builds",
+    "2. Fix Memory Usage (2.8GB → 2.0GB):\n   - Implement GC triggers\n   - Optimize module resolution\n   - Clear unnecessary caches",
+    "3. Improve Cache (65% → 80%):\n   - Move to offline package preference\n   - Optimize cache keys\n   - Add more cache layers",
+    "4. Next Phase:\n   - Implement automated performance monitoring\n   - Set up error pattern detection\n   - Create self-healing mechanisms"
+  ];
+  
+  body.getText().setText(steps.join("\n\n"));
+}
+
+/**
+ * Helper function to get status color
+ */
+function getStatusColor(status, theme) {
+  switch(status.toUpperCase()) {
+    case 'CRITICAL': return theme.error;
+    case 'WARNING': return theme.warning;
+    case 'SUCCESS': return theme.success;
+    default: return theme.info;
+  }
+}

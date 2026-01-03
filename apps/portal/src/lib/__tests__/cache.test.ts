@@ -1,11 +1,23 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import Redis from 'ioredis'
-import { withCache, CACHE_TTL, cacheUtils, rateLimit } from '../cache'
-import { validate } from '../validation'
-import type { RateLimitConfig } from '@/types/cache'
+import { withCache, CACHE_TTL, CACHE_PREFIX, cacheUtils, rateLimit } from '../cache'
+import { validate, cacheOptionsSchema, redisConfigSchema, rateLimitConfigSchema } from '../validation'
+import type { RateLimitConfig, CacheOptions } from '../../types/cache'
 
 // Mock Redis
-vi.mock('ioredis')
+vi.mock('ioredis', () => ({
+  default: vi.fn().mockImplementation(() => ({
+    get: vi.fn(),
+    setex: vi.fn(),
+    del: vi.fn(),
+    keys: vi.fn(),
+    multi: vi.fn(),
+    incr: vi.fn(),
+    expire: vi.fn()
+  }))
+}))
+
+const mockRedisError = new Error('Redis connection error')
 
 describe('Cache Module', () => {
   let redis: Redis
@@ -19,7 +31,46 @@ describe('Cache Module', () => {
     vi.resetAllMocks()
   })
 
+  describe('Cache TTL Constants', () => {
+    it('should have valid TTL values', () => {
+      expect(CACHE_TTL.SHORT).toBeGreaterThan(0)
+      expect(CACHE_TTL.MEDIUM).toBeGreaterThan(CACHE_TTL.SHORT)
+      expect(CACHE_TTL.LONG).toBeGreaterThan(CACHE_TTL.MEDIUM)
+      expect(CACHE_TTL.VERY_LONG).toBeGreaterThan(CACHE_TTL.LONG)
+    })
+  })
+
+  describe('Cache Prefix Constants', () => {
+    it('should have valid prefix values', () => {
+      expect(CACHE_PREFIX.INVENTORY).toBe('inv:')
+      expect(CACHE_PREFIX.PRODUCT).toBe('prod:')
+      expect(CACHE_PREFIX.USER).toBe('user:')
+      expect(CACHE_PREFIX.SESSION).toBe('sess:')
+      expect(CACHE_PREFIX.RATE_LIMIT).toBe('rate:')
+    })
+  })
+
   describe('withCache', () => {
+    it('should handle cache miss and store result', async () => {
+      const key = 'test-key'
+      const value = { test: 'data' }
+      const options: CacheOptions = { ttl: 300, prefix: 'USER' }
+      
+      vi.spyOn(redis, 'get').mockResolvedValueOnce(null)
+      vi.spyOn(redis, 'setex').mockResolvedValueOnce('OK')
+      
+      const fn = vi.fn().mockResolvedValueOnce(value)
+      const result = await withCache(key, fn, options.ttl)
+      
+      expect(result).toEqual(value)
+      expect(fn).toHaveBeenCalledTimes(1)
+      expect(redis.setex).toHaveBeenCalledWith(
+        `${CACHE_PREFIX.USER}${key}`,
+        options.ttl,
+        JSON.stringify(value)
+      )
+    })
+
     it('should return cached value if exists', async () => {
       const key = 'test-key'
       const value = { test: 'data' }
@@ -31,6 +82,42 @@ describe('Cache Module', () => {
       
       expect(result).toEqual(value)
       expect(fn).not.toHaveBeenCalled()
+    })
+
+    it('should handle Redis errors gracefully', async () => {
+      const key = 'test-key'
+      const value = { test: 'data' }
+      
+      vi.spyOn(redis, 'get').mockRejectedValueOnce(mockRedisError)
+      
+      const fn = vi.fn().mockResolvedValueOnce(value)
+      const result = await withCache(key, fn)
+      
+      expect(result).toEqual(value)
+      expect(fn).toHaveBeenCalledTimes(1)
+    })
+
+    it('should handle function errors', async () => {
+      const key = 'test-key'
+      const error = new Error('Function error')
+      
+      vi.spyOn(redis, 'get').mockResolvedValueOnce(null)
+      
+      const fn = vi.fn().mockRejectedValueOnce(error)
+      await expect(withCache(key, fn)).rejects.toThrow('Function error')
+    })
+
+    it('should handle invalid cache data', async () => {
+      const key = 'test-key'
+      const value = { test: 'data' }
+      
+      vi.spyOn(redis, 'get').mockResolvedValueOnce('invalid-json')
+      
+      const fn = vi.fn().mockResolvedValueOnce(value)
+      const result = await withCache(key, fn)
+      
+      expect(result).toEqual(value)
+      expect(fn).toHaveBeenCalledTimes(1)
     })
 
     it('should call function and cache result if no cache exists', async () => {
@@ -50,6 +137,48 @@ describe('Cache Module', () => {
   })
 
   describe('cacheUtils', () => {
+    describe('mset and mget', () => {
+      it('should set and get multiple cache entries', async () => {
+        const entries = [
+          { key: 'key1', value: 'value1', ttl: 300 },
+          { key: 'key2', value: 'value2', ttl: 600 }
+        ]
+        
+        const multi = {
+          setex: vi.fn(),
+          exec: vi.fn().mockResolvedValueOnce(['OK', 'OK'])
+        }
+        
+        vi.spyOn(redis, 'multi').mockReturnValueOnce(multi as any)
+        vi.spyOn(redis, 'mget').mockResolvedValueOnce([
+          JSON.stringify('value1'),
+          JSON.stringify('value2')
+        ])
+        
+        await cacheUtils.mset(entries)
+        const results = await cacheUtils.mget(['key1', 'key2'])
+        
+        expect(results).toEqual(['value1', 'value2'])
+        expect(multi.setex).toHaveBeenCalledTimes(2)
+      })
+
+      it('should handle errors in batch operations', async () => {
+        const entries = [
+          { key: 'key1', value: 'value1', ttl: 300 }
+        ]
+        
+        const multi = {
+          setex: vi.fn(),
+          exec: vi.fn().mockRejectedValueOnce(mockRedisError)
+        }
+        
+        vi.spyOn(redis, 'multi').mockReturnValueOnce(multi as any)
+        
+        await expect(cacheUtils.mset(entries)).rejects.toThrow()
+      })
+    })
+
+    describe('invalidation methods', () => {
     it('should invalidate cache by key', async () => {
       const key = 'test-key'
       vi.spyOn(redis, 'del').mockResolvedValueOnce(1)
@@ -72,7 +201,59 @@ describe('Cache Module', () => {
   })
 
   describe('rateLimit', () => {
-    it('should allow requests within limit', async () => {
+    describe('validation', () => {
+      it('should validate rate limit config', () => {
+        const validConfig = {
+          key: 'test-rate',
+          limit: 5,
+          window: 60,
+          errorMessage: 'Custom error'
+        }
+        
+        const result = validate(rateLimitConfigSchema, validConfig, 'Invalid config')
+        expect(result.key).toBe('rate:test-rate')
+        expect(result.errorMessage).toBe('Custom error')
+      })
+
+      it('should reject invalid rate limit config', () => {
+        const invalidConfig = {
+          key: '',
+          limit: -1,
+          window: 0
+        }
+        
+        expect(() => {
+          validate(rateLimitConfigSchema, invalidConfig, 'Invalid config')
+        }).toThrow()
+      })
+    })
+
+    describe('Redis config validation', () => {
+      it('should validate Redis config', () => {
+        const validConfig = {
+          url: 'redis://localhost:6379',
+          maxRetriesPerRequest: 3,
+          connectTimeout: 5000
+        }
+        
+        const result = validate(redisConfigSchema, validConfig, 'Invalid Redis config')
+        expect(result.url).toBe('redis://localhost:6379')
+        expect(result.maxRetriesPerRequest).toBe(3)
+      })
+
+      it('should apply default values', () => {
+        const minimalConfig = {
+          url: 'redis://localhost:6379'
+        }
+        
+        const result = validate(redisConfigSchema, minimalConfig, 'Invalid Redis config')
+        expect(result.maxRetriesPerRequest).toBe(3)
+        expect(result.connectTimeout).toBe(10000)
+      })
+    })
+
+    describe('rate limiting logic', () => {
+      it('should allow requests within limit', async () => {
       const config: RateLimitConfig = {
         key: 'test-rate',
         limit: 5,
@@ -84,9 +265,11 @@ describe('Cache Module', () => {
       
       const result = await rateLimit(config.key, config.limit, config.window)
       expect(result).toBe(true)
+      expect(redis.incr).toHaveBeenCalledWith('rate:test-rate')
+      expect(redis.expire).toHaveBeenCalledWith('rate:test-rate', 60)
     })
 
-    it('should block requests over limit', async () => {
+      it('should block requests over limit', async () => {
       const config: RateLimitConfig = {
         key: 'test-rate',
         limit: 5,
@@ -97,6 +280,42 @@ describe('Cache Module', () => {
       
       const result = await rateLimit(config.key, config.limit, config.window)
       expect(result).toBe(false)
+      expect(redis.incr).toHaveBeenCalledWith('rate:test-rate')
+      expect(redis.expire).not.toHaveBeenCalled()
+    })
+
+      it('should handle Redis errors', async () => {
+        const config: RateLimitConfig = {
+          key: 'test-rate',
+          limit: 5,
+          window: 60
+        }
+        
+        vi.spyOn(redis, 'incr').mockRejectedValueOnce(mockRedisError)
+        
+        const result = await rateLimit(config.key, config.limit, config.window)
+        expect(result).toBe(false)
+      })
+
+      it('should set expiry only on first request', async () => {
+        const config: RateLimitConfig = {
+          key: 'test-rate',
+          limit: 5,
+          window: 60
+        }
+        
+        vi.spyOn(redis, 'incr').mockResolvedValueOnce(2)
+        vi.spyOn(redis, 'expire').mockResolvedValueOnce(1)
+        
+        await rateLimit(config.key, config.limit, config.window)
+        
+        expect(redis.expire).toHaveBeenCalledWith('rate:test-rate', 60)
+        
+        vi.spyOn(redis, 'incr').mockResolvedValueOnce(3)
+        await rateLimit(config.key, config.limit, config.window)
+        
+        expect(redis.expire).toHaveBeenCalledTimes(1)
+      })
     })
   })
 

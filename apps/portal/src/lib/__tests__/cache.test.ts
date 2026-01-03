@@ -179,24 +179,25 @@ describe('Cache Module', () => {
     })
 
     describe('invalidation methods', () => {
-    it('should invalidate cache by key', async () => {
-      const key = 'test-key'
-      vi.spyOn(redis, 'del').mockResolvedValueOnce(1)
-      
-      await cacheUtils.invalidate(key)
-      expect(redis.del).toHaveBeenCalledWith(key)
-    })
+      it('should invalidate cache by key', async () => {
+        const key = 'test-key'
+        vi.spyOn(redis, 'del').mockResolvedValueOnce(1)
+        
+        await cacheUtils.invalidate(key)
+        expect(redis.del).toHaveBeenCalledWith(key)
+      })
 
-    it('should invalidate cache by pattern', async () => {
-      const pattern = 'test-*'
-      const keys = ['test-1', 'test-2']
-      
-      vi.spyOn(redis, 'keys').mockResolvedValueOnce(keys)
-      vi.spyOn(redis, 'del').mockResolvedValueOnce(2)
-      
-      await cacheUtils.invalidatePattern(pattern)
-      expect(redis.keys).toHaveBeenCalledWith(pattern)
-      expect(redis.del).toHaveBeenCalledWith(...keys)
+      it('should invalidate cache by pattern', async () => {
+        const pattern = 'test-*'
+        const keys = ['test-1', 'test-2']
+        
+        vi.spyOn(redis, 'keys').mockResolvedValueOnce(keys)
+        vi.spyOn(redis, 'del').mockResolvedValueOnce(2)
+        
+        await cacheUtils.invalidatePattern(pattern)
+        expect(redis.keys).toHaveBeenCalledWith(pattern)
+        expect(redis.del).toHaveBeenCalledWith(...keys)
+      })
     })
   })
 
@@ -254,35 +255,35 @@ describe('Cache Module', () => {
 
     describe('rate limiting logic', () => {
       it('should allow requests within limit', async () => {
-      const config: RateLimitConfig = {
-        key: 'test-rate',
-        limit: 5,
-        window: 60
-      }
-      
-      vi.spyOn(redis, 'incr').mockResolvedValueOnce(3)
-      vi.spyOn(redis, 'expire').mockResolvedValueOnce(1)
-      
-      const result = await rateLimit(config.key, config.limit, config.window)
-      expect(result).toBe(true)
-      expect(redis.incr).toHaveBeenCalledWith('rate:test-rate')
-      expect(redis.expire).toHaveBeenCalledWith('rate:test-rate', 60)
-    })
+        const config: RateLimitConfig = {
+          key: 'test-rate',
+          limit: 5,
+          window: 60
+        }
+        
+        vi.spyOn(redis, 'incr').mockResolvedValueOnce(3)
+        vi.spyOn(redis, 'expire').mockResolvedValueOnce(1)
+        
+        const result = await rateLimit(config.key, config.limit, config.window)
+        expect(result).toBe(true)
+        expect(redis.incr).toHaveBeenCalledWith('rate:test-rate')
+        expect(redis.expire).toHaveBeenCalledWith('rate:test-rate', 60)
+      })
 
       it('should block requests over limit', async () => {
-      const config: RateLimitConfig = {
-        key: 'test-rate',
-        limit: 5,
-        window: 60
-      }
-      
-      vi.spyOn(redis, 'incr').mockResolvedValueOnce(6)
-      
-      const result = await rateLimit(config.key, config.limit, config.window)
-      expect(result).toBe(false)
-      expect(redis.incr).toHaveBeenCalledWith('rate:test-rate')
-      expect(redis.expire).not.toHaveBeenCalled()
-    })
+        const config: RateLimitConfig = {
+          key: 'test-rate',
+          limit: 5,
+          window: 60
+        }
+        
+        vi.spyOn(redis, 'incr').mockResolvedValueOnce(6)
+        
+        const result = await rateLimit(config.key, config.limit, config.window)
+        expect(result).toBe(false)
+        expect(redis.incr).toHaveBeenCalledWith('rate:test-rate')
+        expect(redis.expire).not.toHaveBeenCalled()
+      })
 
       it('should handle Redis errors', async () => {
         const config: RateLimitConfig = {

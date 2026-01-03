@@ -402,6 +402,57 @@ apps/portal/src/
 
 ---
 
+## Deployment Architecture
+
+### Directory Structure
+```
+apps/portal/
+├── src/              # Application source code
+├── public/           # Static assets
+├── tests/            # Test files
+│   └── e2e/         # Cypress tests
+├── .vercel/         # Vercel deployment cache
+└── .next/           # Next.js build output
+```
+
+### Build Pipeline
+1. **Pre-build**
+   - Environment validation
+   - TypeScript type checking
+   - Dependency installation
+
+2. **Build Process**
+   - Next.js production build
+   - Asset optimization
+   - Code splitting
+   - Static page generation
+
+3. **Deployment**
+   - Vercel edge network distribution
+   - Automatic SSL/TLS
+   - CDN caching
+   - Zero-downtime updates
+
+### Security Measures
+- HTTP security headers
+- API route protection
+- Environment variable validation
+- Production error handling
+- Robot access control
+
+### Monitoring
+- `/api/health` endpoint
+- Build-time type checking
+- Runtime error tracking
+- Performance monitoring
+
+### Optimization
+- Image optimization
+- CSS minification
+- JavaScript tree-shaking
+- Automatic code splitting
+- Dynamic imports
+
 ## Next Steps
 
 1. **Choose a database** - PostgreSQL with Prisma ORM recommended

@@ -6,10 +6,13 @@
   "regions": ["iad1"],
   "git": {
     "deploymentEnabled": {
-      "main": true
-    }
+      "main": true,
+      "development": true,
+      "preview": true
+    },
+    "autoAlias": true
   },
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD ./",
+  "ignoreCommand": null,
   "crons": [{
     "path": "/api/health",
     "schedule": "*/30 * * * *"

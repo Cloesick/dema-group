@@ -337,9 +337,12 @@ function createBuildFlowDiagram(slide, theme) {
 }
 
 function addArrow(slide, x1, y1, x2, y2, theme) {
-  var arrow = slide.insertLine(SlidesApp.LineCategory.STRAIGHT, x1, y1, x2, y2);
-  arrow.setWeight(2).setForegroundColor(theme.accent);
-  arrow.getEndArrow().setType(SlidesApp.ArrowType.FILLED);
+  var line = slide.insertLine(SlidesApp.LineCategory.STRAIGHT, x1, y1, x2, y2);
+  var lineProperties = line.getLine();
+  lineProperties.setWeight(2);
+  lineProperties.setDashStyle(SlidesApp.DashStyle.SOLID);
+  lineProperties.setForegroundColor(theme.accent);
+  line.setArrowStyle(SlidesApp.ArrowStyle.NONE, SlidesApp.ArrowStyle.FILLED_ARROW);
 }
 
 // --- SLIDE 5: MEMORY USAGE ---

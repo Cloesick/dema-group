@@ -1,9 +1,0 @@
-{
-  "ruleId": "SEC-EMP-003",
-  "type": "log",
-  "content": "{\n  \"type\": \"policy-acknowledgment\",\n  \"timestamp\": \"2025-12-28T11:34:48.398Z\",\n  \"employee\": {\n    \"id\": \"emp-1\",\n    \"email\": \"john.doe@dema-group.com\"\n  },\n  \"policies\": [\n    \"POL-001\",\n    \"POL-002\"\n  ]\n}",
-  "timestamp": "2025-12-28T11:34:48.399Z",
-  "metadata": {
-    "collector": "compliance-monitor"
-  }
-}

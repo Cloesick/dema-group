@@ -1,9 +1,0 @@
-{
-  "ruleId": "SEC-EMP-002",
-  "type": "log",
-  "content": "{\n  \"type\": \"employee-offboarding\",\n  \"timestamp\": \"2025-12-28T11:34:48.392Z\",\n  \"employee\": {\n    \"id\": \"emp-1\",\n    \"email\": \"john.doe@dema-group.com\",\n    \"department\": \"Engineering\",\n    \"role\": \"Developer\",\n    \"endDate\": \"2024-01-15\"\n  }\n}",
-  "timestamp": "2025-12-28T11:34:48.392Z",
-  "metadata": {
-    "collector": "compliance-monitor"
-  }
-}

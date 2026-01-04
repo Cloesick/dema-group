@@ -2,27 +2,82 @@ import { NextResponse } from 'next/server';
 import type { VercelDeployment, VercelDeploymentPayload, BuildLogEvent } from '@/types/vercel';
 import { fetchBuildLogs } from '@/lib/vercel';
 
+function getDeploymentEmoji(state: string): string {
+  switch (state) {
+    case 'READY':
+      return '✅';
+    case 'ERROR':
+      return '❌';
+    case 'BUILDING':
+      return '🏗️';
+    case 'CANCELED':
+      return '⚠️';
+    default:
+      return '🔄';
+  }
+}
+
+function formatDeploymentDetails(deploymentData: VercelDeploymentPayload): string {
+  return [
+    `- **URL:** ${deploymentData.url}`,
+    `- **Branch:** ${deploymentData.meta?.branch || 'unknown'}`,
+    `- **Commit:** ${deploymentData.meta?.commit || 'unknown'}`
+  ].join('\n');
+}
+
+function formatBuildInfo(deploymentData: VercelDeploymentPayload): string {
+  const duration = Math.round((Date.now() - new Date(deploymentData.createdAt).getTime()) / 1000);
+  return [
+    '## Build Info',
+    `- **Created:** ${new Date(deploymentData.createdAt).toLocaleString()}`,
+    `- **Duration:** ${duration}s`,
+    `- **Region:** ${deploymentData.regions?.[0] || 'unknown'}`
+  ].join('\n');
+}
+
+function formatErrorSection(deploymentData: VercelDeploymentPayload): string {
+  if (deploymentData.state !== 'ERROR') return '';
+  return [
+    '',
+    '## Error',
+    '```',
+    deploymentData.errorMessage || 'No error message provided',
+    '```'
+  ].join('\n');
+}
+
+function formatBuildLogs(buildLogs: string): string {
+  return [
+    '## Build Logs',
+    '```',
+    buildLogs,
+    '```'
+  ].join('\n');
+}
+
+function formatDeploymentMessage(emoji: string, deploymentData: VercelDeploymentPayload, buildLogs: string): string {
+  const sections = [
+    `${emoji} Deployment ${deploymentData.state.toLowerCase()}`,
+    '',
+    `## Status: ${deploymentData.state}`,
+    formatDeploymentDetails(deploymentData),
+    formatErrorSection(deploymentData),
+    '',
+    formatBuildInfo(deploymentData),
+    '',
+    `[View Deployment →](${deploymentData.inspectorUrl})`,
+    '',
+    formatBuildLogs(buildLogs)
+  ];
+
+  return sections.filter(Boolean).join('\n');
+}
+
 export async function POST(request: Request) {
   try {
     const payload = await request.json() as VercelDeployment;
-    const { type, payload: deploymentData } = payload;
-
-    // Format message based on deployment status
-    let emoji = '🔄';
-    switch (deploymentData.state) {
-      case 'READY':
-        emoji = '✅';
-        break;
-      case 'ERROR':
-        emoji = '❌';
-        break;
-      case 'BUILDING':
-        emoji = '🏗️';
-        break;
-      case 'CANCELED':
-        emoji = '⚠️';
-        break;
-    }
+    const { payload: deploymentData } = payload;
+    const emoji = getDeploymentEmoji(deploymentData.state);
 
     // Fetch build logs if deployment is complete
     let buildLogs = '';
@@ -30,7 +85,11 @@ export async function POST(request: Request) {
       try {
         const logs = await fetchBuildLogs(deploymentData.id);
         buildLogs = logs
-          .map((log: BuildLogEvent) => `${new Date(log.timestamp).toLocaleTimeString()}: ${log.message || log.payload?.text || ''}`)
+          .map((log: BuildLogEvent) => {
+            const time = new Date(log.timestamp).toLocaleTimeString();
+            const message = log.message || log.payload?.text || '';
+            return `${time}: ${message}`;
+          })
           .join('\n');
       } catch (error) {
         console.error('Failed to fetch build logs:', error);
@@ -38,34 +97,7 @@ export async function POST(request: Request) {
       }
     }
 
-    const message = formatMessage({emoji, deploymentData, buildLogs});
-
-    // Helper function to format the message
-    function formatMessage({emoji, deploymentData, buildLogs}: {
-      emoji: string;
-      deploymentData: VercelDeploymentPayload;
-      buildLogs: string;
-    }) {
-      return [
-
-## Status: ${deploymentData.state}
-- **URL:** ${deploymentData.url}
-- **Branch:** ${deploymentData.meta?.branch || 'unknown'}
-- **Commit:** ${deploymentData.meta?.commit || 'unknown'}
-${deploymentData.state === 'ERROR' ? `\n## Error\n\`\`\`\n${deploymentData.errorMessage}\n\`\`\`` : ''}
-
-## Build Info
-- **Created:** ${new Date(deploymentData.createdAt).toLocaleString()}
-- **Duration:** ${Math.round((Date.now() - new Date(deploymentData.createdAt).getTime()) / 1000)}s
-- **Region:** ${deploymentData.regions?.[0] || 'unknown'}
-
-[View Deployment →](${deploymentData.inspectorUrl})
-
-## Build Logs
-```
-${buildLogs}
-```
-      ].join('\n');
+    const message = formatDeploymentMessage(emoji, deploymentData, buildLogs);
 
     // Send to Windsurf chat
     await fetch('http://localhost:3000/api/windsurf/chat', {

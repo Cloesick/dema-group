@@ -9,7 +9,7 @@ interface PerformanceMetrics {
   TTI: number;  // Time to Interactive
 }
 
-interface ResourceMetrics {
+export interface ResourceMetrics {
   name: string;
   duration: number;
   size: number;

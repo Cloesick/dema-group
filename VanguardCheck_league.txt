@@ -1,0 +1,16 @@
+@echo off
+:: [1/3] Force-close hanging background processes
+taskkill /f /im RiotClientServices.exe 2>nul
+taskkill /f /im "Riot Client.exe" 2>nul
+taskkill /f /im LeagueClient.exe 2>nul
+taskkill /f /im LeagueClientUx.exe 2>nul
+taskkill /f /im "League of Legends.exe" 2>nul
+
+:: [2/3] Resync local clock to clear SSL handshake errors
+net start w32time 2>nul
+w32tm /resync 2>nul
+
+:: [3/3] Clear frozen tray processes and force launch Vanguard UI
+taskkill /f /im vgtray.exe 2>nul
+timeout /t 2 /nobreak >nul
+start "" "C:\Program Files\Riot Vanguard\vgtray.exe"

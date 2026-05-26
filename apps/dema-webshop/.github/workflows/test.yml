@@ -31,7 +31,7 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           source: coverage/coverage-summary.json
-          output: coverage/badge.svg
+          output: coverage/badge.webp
 
       - name: Upload coverage artifact
         uses: actions/upload-artifact@v4

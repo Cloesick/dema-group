@@ -46,11 +46,11 @@ const mockHoseConfigurator: ConfiguratorProduct = {
       isRequired: true,
       sortOrder: 1,
       options: [
-        { id: 'rubber-water', name: 'Rubber Water Hose', name_nl: 'Rubber Waterslang', image: '/images/subcategories/hose-coupling.svg', price: 15, specifications: { material: 'EPDM Rubber', pressure: '10 bar', temp: '-30°C to +80°C' } },
-        { id: 'rubber-air', name: 'Rubber Air Hose', name_nl: 'Rubber Luchtslang', image: '/images/subcategories/hose-coupling.svg', price: 18, specifications: { material: 'NBR Rubber', pressure: '20 bar', temp: '-20°C to +70°C' } },
-        { id: 'pvc-water', name: 'PVC Water Hose', name_nl: 'PVC Waterslang', image: '/images/subcategories/hose-coupling.svg', price: 8, specifications: { material: 'PVC', pressure: '8 bar', temp: '0°C to +60°C' } },
-        { id: 'ptfe-chemical', name: 'PTFE Chemical Hose', name_nl: 'PTFE Chemische Slang', image: '/images/subcategories/hose-coupling.svg', price: 45, specifications: { material: 'PTFE', pressure: '16 bar', temp: '-50°C to +230°C' } },
-        { id: 'ss-braided', name: 'SS Braided Hose', name_nl: 'RVS Gevlochten Slang', image: '/images/subcategories/hose-coupling.svg', price: 35, specifications: { material: 'Stainless Steel 316', pressure: '40 bar', temp: '-50°C to +200°C' } },
+        { id: 'rubber-water', name: 'Rubber Water Hose', name_nl: 'Rubber Waterslang', image: '/images/subcategories/hose-coupling.webp', price: 15, specifications: { material: 'EPDM Rubber', pressure: '10 bar', temp: '-30°C to +80°C' } },
+        { id: 'rubber-air', name: 'Rubber Air Hose', name_nl: 'Rubber Luchtslang', image: '/images/subcategories/hose-coupling.webp', price: 18, specifications: { material: 'NBR Rubber', pressure: '20 bar', temp: '-20°C to +70°C' } },
+        { id: 'pvc-water', name: 'PVC Water Hose', name_nl: 'PVC Waterslang', image: '/images/subcategories/hose-coupling.webp', price: 8, specifications: { material: 'PVC', pressure: '8 bar', temp: '0°C to +60°C' } },
+        { id: 'ptfe-chemical', name: 'PTFE Chemical Hose', name_nl: 'PTFE Chemische Slang', image: '/images/subcategories/hose-coupling.webp', price: 45, specifications: { material: 'PTFE', pressure: '16 bar', temp: '-50°C to +230°C' } },
+        { id: 'ss-braided', name: 'SS Braided Hose', name_nl: 'RVS Gevlochten Slang', image: '/images/subcategories/hose-coupling.webp', price: 35, specifications: { material: 'Stainless Steel 316', pressure: '40 bar', temp: '-50°C to +200°C' } },
       ]
     },
     {

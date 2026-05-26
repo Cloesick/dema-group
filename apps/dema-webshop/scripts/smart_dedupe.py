@@ -77,7 +77,7 @@ def hamming_distance(hash1: imagehash.ImageHash, hash2: imagehash.ImageHash) -> 
 
 def find_all_images(images_dir: Path) -> List[Path]:
     """Find all image files in the directory tree."""
-    extensions = {'.webp', '.png', '.jpg', '.jpeg', '.gif'}
+    extensions = {'.webp', '.webp', '.jpg', '.jpeg', '.gif'}
     images = []
     
     for root, dirs, files in os.walk(images_dir):

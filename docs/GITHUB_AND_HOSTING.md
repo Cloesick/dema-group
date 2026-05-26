@@ -171,7 +171,7 @@ git lfs install
 # Track large files
 git lfs track "*.pdf"
 git lfs track "public/images/**/*.jpg"
-git lfs track "public/images/**/*.png"
+git lfs track "public/images/**/*.webp"
 
 # Add .gitattributes
 git add .gitattributes

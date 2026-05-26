@@ -445,7 +445,7 @@ export default function ProductAssistant({ language = 'nl' }: ProductAssistantPr
           {/* DEMA Logo */}
           <div className="w-12 h-12 relative">
             <Image
-              src="/icons/icon-96x96.png"
+              src="/icons/icon-96x96.webp"
               alt="DEMA Assistant"
               width={48}
               height={48}
@@ -487,7 +487,7 @@ export default function ProductAssistant({ language = 'nl' }: ProductAssistantPr
           onClick={() => setIsMinimized(false)}
         >
           <div className="flex items-center gap-2">
-            <Image src="/icons/icon-72x72.png" alt="DEMA" width={24} height={24} className="rounded-full" />
+            <Image src="/icons/icon-72x72.webp" alt="DEMA" width={24} height={24} className="rounded-full" />
             <span className="font-medium">{t.title}</span>
           </div>
           <div className="flex items-center gap-1">
@@ -522,7 +522,7 @@ export default function ProductAssistant({ language = 'nl' }: ProductAssistantPr
       <div className="flex items-center justify-between p-4 bg-primary text-white sm:rounded-t-xl">
         <div className="flex items-center gap-3">
           <div className="bg-white p-1 rounded-lg">
-            <Image src="/icons/icon-72x72.png" alt="DEMA" width={32} height={32} className="rounded" />
+            <Image src="/icons/icon-72x72.webp" alt="DEMA" width={32} height={32} className="rounded" />
           </div>
           <div>
             <h3 className="font-semibold">{t.title}</h3>
@@ -563,7 +563,7 @@ export default function ProductAssistant({ language = 'nl' }: ProductAssistantPr
             >
               <div className="flex items-start gap-2">
                 {message.role === 'assistant' && (
-                  <Image src="/icons/icon-72x72.png" alt="DEMA" width={16} height={16} className="mt-0.5 flex-shrink-0 rounded" />
+                  <Image src="/icons/icon-72x72.webp" alt="DEMA" width={16} height={16} className="mt-0.5 flex-shrink-0 rounded" />
                 )}
                 <div 
                   className="text-sm whitespace-pre-wrap prose prose-sm max-w-none"

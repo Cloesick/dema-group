@@ -44,7 +44,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     icons: { 
       icon: '/favicon.ico',
-      apple: '/icons/icon-192x192.png',
+      apple: '/icons/icon-192x192.webp',
     },
     manifest: '/manifest.json',
     openGraph: {

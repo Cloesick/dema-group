@@ -40,7 +40,7 @@ const mockDealers: Company[] = [
     name: 'DEMA Roeselare',
     slug: 'dema-roeselare',
     type: 'subsidiary',
-    logo: '/images/logos/dema-logo.svg',
+    logo: '/images/logos/dema-logo.webp',
     colors: { primary: '#E31E24', secondary: '#1A1A1A', accent: '#F5A623' },
     contact: {
       phone: '+32 51 20 51 41',
@@ -87,7 +87,7 @@ const mockDealers: Company[] = [
     name: 'Fluxer Antwerp',
     slug: 'fluxer-antwerp',
     type: 'subsidiary',
-    logo: '/images/logos/fluxer-logo.svg',
+    logo: '/images/logos/fluxer-logo.webp',
     colors: { primary: '#0066B3', secondary: '#003D6B', accent: '#00A3E0' },
     contact: {
       phone: '+32 3 123 45 67',
@@ -128,7 +128,7 @@ const mockDealers: Company[] = [
     name: 'De Visschere Gent',
     slug: 'devisschere-gent',
     type: 'subsidiary',
-    logo: '/images/logos/devisschere-logo.svg',
+    logo: '/images/logos/devisschere-logo.webp',
     colors: { primary: '#2E7D32', secondary: '#1B5E20', accent: '#4CAF50' },
     contact: {
       phone: '+32 9 234 56 78',
@@ -169,7 +169,7 @@ const mockDealers: Company[] = [
     name: 'Beltz247 Brussels',
     slug: 'beltz247-brussels',
     type: 'subsidiary',
-    logo: '/images/logos/beltz247-logo.svg',
+    logo: '/images/logos/beltz247-logo.webp',
     colors: { primary: '#FF6B00', secondary: '#E65100', accent: '#FFB74D' },
     contact: {
       phone: '+32 2 345 67 89',

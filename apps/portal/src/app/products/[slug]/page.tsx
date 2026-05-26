@@ -66,8 +66,8 @@ const mockProduct: Product = {
     ]
   },
   images: [
-    { id: '1', url: '/images/products/dema-pump.svg', alt: 'Centrifugal Pump CP-100', isPrimary: true, sortOrder: 1, type: 'product' },
-    { id: '2', url: '/images/subcategories/centrifugal-pump.svg', alt: 'Technical view', isPrimary: false, sortOrder: 2, type: 'technical' },
+    { id: '1', url: '/images/products/dema-pump.webp', alt: 'Centrifugal Pump CP-100', isPrimary: true, sortOrder: 1, type: 'product' },
+    { id: '2', url: '/images/subcategories/centrifugal-pump.webp', alt: 'Technical view', isPrimary: false, sortOrder: 2, type: 'technical' },
   ],
   documents: [
     { id: '1', type: 'datasheet', title: 'Technical Datasheet', title_nl: 'Technische Datasheet', title_fr: 'Fiche Technique', url: '/docs/cp-100-datasheet.pdf', fileSize: 2500000, language: 'multi' },
@@ -200,7 +200,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
             {/* Main Image */}
             <div className="bg-white rounded-2xl p-8 border aspect-square flex items-center justify-center">
               <Image
-                src={product.images[selectedImage]?.url || '/images/placeholder.svg'}
+                src={product.images[selectedImage]?.url || '/images/placeholder.webp'}
                 alt={product.images[selectedImage]?.alt || product.name}
                 width={500}
                 height={500}

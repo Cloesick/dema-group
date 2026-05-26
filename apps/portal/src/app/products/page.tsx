@@ -42,7 +42,7 @@ const mockCategories: Category[] = [
     description_nl: 'Compleet gamma pompen',
     description_fr: 'Gamme complète de pompes',
     icon: '💧',
-    image: '/images/products/dema-pump.svg',
+    image: '/images/products/dema-pump.webp',
     color: '#3B82F6',
     sortOrder: 1,
     isActive: true,
@@ -63,7 +63,7 @@ const mockCategories: Category[] = [
     description_nl: 'Industriële afsluiters',
     description_fr: 'Vannes industrielles',
     icon: '⚙️',
-    image: '/images/products/fluxer-valve.svg',
+    image: '/images/products/fluxer-valve.webp',
     color: '#0066B3',
     sortOrder: 2,
     isActive: true,
@@ -156,7 +156,7 @@ const mockProducts: Partial<Product>[] = Array.from({ length: 24 }, (_, i) => ({
     tiers: []
   },
   images: [
-    { id: '1', url: '/images/subcategories/centrifugal-pump.svg', alt: 'Pump', isPrimary: true, sortOrder: 1, type: 'product' as const }
+    { id: '1', url: '/images/subcategories/centrifugal-pump.webp', alt: 'Pump', isPrimary: true, sortOrder: 1, type: 'product' as const }
   ],
   stockStatus: {
     inStock: i % 3 !== 0,
@@ -523,7 +523,7 @@ export default function ProductsPage() {
                       : 'w-32 h-32 flex-shrink-0'
                   } bg-slate-50 rounded-lg flex items-center justify-center`}>
                     <Image
-                      src={product.images?.[0]?.url || '/images/placeholder.svg'}
+                      src={product.images?.[0]?.url || '/images/placeholder.webp'}
                       alt={product.name || ''}
                       width={viewMode === 'grid' ? 200 : 100}
                       height={viewMode === 'grid' ? 200 : 100}

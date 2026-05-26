@@ -38,7 +38,7 @@ const getMockProduct = (id: string): Product | null => {
       ]
     },
     images: [
-      { id: '1', url: '/images/products/dema-pump.svg', alt: 'Product image', isPrimary: true, sortOrder: 1, type: 'product' },
+      { id: '1', url: '/images/products/dema-pump.webp', alt: 'Product image', isPrimary: true, sortOrder: 1, type: 'product' },
     ],
     documents: [],
     videos: [],
